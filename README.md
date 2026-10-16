@@ -1,27 +1,44 @@
-# Smartisan OS 2.0 on HTC HD2
+# Smartisan OS 2.0 for HTC HD2
 
-HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Smartisan OS 2.0 SD 移植。本阶段最终实验版为 **alpha1**，基于 NexusHD2 CM11 / Android 4.4.1 与 Smartisan T1 2.0.0 / Android 4.4.2。
+**English** | [简体中文](README.zh-CN.md)
 
-**[下载 ROM ZIP 与校验文件](https://github.com/DCMMC/hd2-smartisan-os/releases/tag/v2.0-hd2-alpha1)** · [修复过程与证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [Sailfish 姊妹项目](https://github.com/DCMMC/hd2-sailfish-os)
+An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB RAM and 1024 MB ROM using MAGLDR. The current **alpha1** is the final snapshot of this development session, combining NexusHD2 CM11 / Android 4.4.1 with Smartisan T1 2.0.0 / Android 4.4.2.
 
-用户已确认桌面尺寸正确、操作明显流畅。下拉工具页已适配为 480×800，12 个开关排成三列。USB root ADB 默认开启。通话、Wi-Fi、声音、相机、GPS 和休眠尚未完成实机验证；这是当前进度的冻结版本。
+**[Download ROM and checksums](https://github.com/DCMMC/hd2-smartisan-os/releases/tag/v2.0-hd2-alpha1)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Sailfish companion project](https://github.com/DCMMC/hd2-sailfish-os)
 
-## 实机截图
+The device owner confirmed correct launcher sizing and substantially smoother interaction. The quick-settings panel fits the 480×800 display with 12 controls in three columns. **This remains an experimental port with incomplete hardware testing.**
 
-<img src="screenshots/desktop.png" width="240" alt="HTC HD2 Smartisan 桌面"> <img src="screenshots/quick-controls.png" width="240" alt="适配后的下拉工具页">
+## Real-device screenshots
 
-截图取自本次调试中的真实 HD2 framebuffer，不是效果图。截图中的系统时间及电量不代表准确的时钟或电池状态；电量协议适配仍有问题。截图来源与采集方法见 [screenshots/README.md](screenshots/README.md)。
+<img src="screenshots/desktop.png" width="240" alt="Smartisan launcher on HTC HD2"> <img src="screenshots/quick-controls.png" width="240" alt="Adapted quick-settings panel">
 
-## 安装
+These are actual HD2 framebuffer captures, not mockups. The phone clock was unset, and battery reporting is inaccurate. See [screenshot provenance](screenshots/README.md).
 
-1. 下载 Release 中的 `hd2-smartisan-2.0-alpha1-SD.zip`，核对同名 `.sha256`。
-2. 解压，将整个 `HD2-SM20` 目录复制到 SD 卡第一分区 FAT32 根目录，至少留出 2.1 GiB。镜像是 2 GiB ext4 文件，低于 FAT32 单文件上限。
-3. MAGLDR → `Services` → `BootSettings` → `AD SD Dir`，选择 `HD2-SM20`，然后 `Boot AD SD`。
-4. 自动启动设置：`Boot source` 选择 `Android from SD`，`AlwaysMenu` 设为 `NO`。
+## Status
 
-这是 **SD 镜像 ZIP**，不是 Recovery 卡刷包。无需格式化、移动现有 ext4/WP7 分区，也不刷 NAND。返回其他系统时，切换 MAGLDR 的 SD 引导目录。首次启动会生成 Dalvik 缓存；没有统一的启动耗时保证。
+| Feature | Status |
+| --- | --- |
+| SD boot and Android framework | Tested on the device |
+| Launcher sizing and touch | Confirmed by the owner |
+| Quick-settings layout | Verified in the active framebuffer |
+| Responsiveness | Substantial improvement confirmed by the owner |
+| USB root ADB | Automatically enabled and tested |
+| Calls, mobile data, Wi-Fi, audio, camera, GPS, sensors, suspend | Not fully tested |
+| Battery reporting | Known protocol/voltage-unit mismatch |
+| GPU screenshot/readback | Still has genlock/readback errors |
 
-## 调试
+The phone was tested through incremental updates. The final clean image has not had a separate fresh cold-boot validation cycle. Detailed limits are in [BUILD-STATUS.json](release/BUILD-STATUS.json).
+
+## Installation
+
+1. Download `hd2-smartisan-2.0-alpha1-SD.zip` and its `.sha256` file. Verify the checksum.
+2. Extract the ZIP and copy the entire `HD2-SM20` directory to the root of the SD card's first FAT32 partition. Allow at least 2.1 GiB. `rootfs.ext4` is a 2 GiB file, below FAT32's single-file limit.
+3. In MAGLDR, select **Services → BootSettings → AD SD Dir → HD2-SM20**, then **Boot AD SD**.
+4. For automatic startup, set **Boot source → Android from SD** and **AlwaysMenu → NO**.
+
+**This is an SD image ZIP, not a recovery-flashable ZIP. Do not flash it to NAND.** No repartitioning or changes to existing ext4/WP7 partitions are required. To switch systems, select another SD boot directory. Back up an existing rootfs before replacing it: the image contains that installation's settings and data. The first boot generates Dalvik caches; no fixed boot time is promised.
+
+## Debugging
 
 ```sh
 adb devices
@@ -30,18 +47,22 @@ adb logcat -d > hd2-logcat.txt
 adb pull /dev/hd2-logcat.txt
 ```
 
-运行日志保存在内存并滚动，重启清空；早期日志在 FAT32 的 `HD2-SM20` 目录。包中包含自动开启、无需界面授权的 root ADB，适合移植调试用途。
+Root ADB starts automatically without an on-screen authorization prompt. Runtime logs rotate in RAM and disappear on reboot. Early logs are stored in `HD2-SM20` on FAT32.
 
-## 归档内容
+## Included fixes and archive
 
-| 路径 | 内容 |
+- Legacy Adreno display queries, Vector/SortedVector and gralloc ABI compatibility.
+- Runtime.gcAndTrim compatibility, emulated storage/FUSE and removal of unavailable T1 services.
+- Launcher textures/layout, a separate quick-settings layout fix and HWUI texture-atlas fallback.
+- Dalvik JIT, zram, animation/read-ahead adjustments and a GPS cleanup workaround.
+- Always-on ADB and logging that avoids continuous SD writes.
+
+| Path | Contents |
 | --- | --- |
-| `tools/`、`configs/smartisan-compat/` | 实际使用的构建、二进制/资源修补、兼容层 C/汇编、探针和性能脚本 |
-| `logs/` | 已脱敏的启动、GDB/反汇编、性能和修复记录；保留共享工作区的相关历史 |
-| `release/` | 补丁清单、功能状态、ROM 及镜像校验和 |
-| `reference-sources/`、`sources.lock.json` | 调试参考代码、上游仓库提交和输入固件校验信息 |
-| `docs/` | 构建入口、根因/解决方案及历史记录 |
+| `tools/`, `configs/` | Actual patch/build scripts, C/assembly shims, probes and settings |
+| `logs/` | Redacted boot logs, debugging evidence, disassembly and performance records |
+| `docs/` | Root causes, solutions, build inputs and workspace history |
+| `release/` | Patch manifests, feature status and checksums |
+| `sources.lock.json`, `reference-sources/` | Pinned upstream inputs and investigation references |
 
-本次 ROM 已包含显示、Vector/gralloc ABI、Runtime、桌面/下拉布局、纹理缓存、JIT、zram、GPS cleanup 和 ADB 补丁。系统二进制在本次发布前已经完成集成；本次归档未追加硬件修改。详细限制以 [BUILD-STATUS.json](release/BUILD-STATUS.json) 为准，较早日志中的 UNTESTED/pending 仅反映当时状态。
-
-这是混合二进制移植，不是完整 Smartisan 源码发行。上游及第三方版权说明见 [NOTICES.md](NOTICES.md)。
+The shared archive also retains utilities and history from the companion OS; use this port's documented entry points. Earlier logs can describe superseded states. This is a binary-based adaptation, not a full Smartisan source release. See [NOTICES.md](NOTICES.md) for attribution.

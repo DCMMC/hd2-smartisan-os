@@ -1,3 +1,13 @@
+English: **Smartisan OS 2.0 for HTC HD2 — experimental SD release**
+
+The launcher fits 480×800, the quick-settings panel has 12 controls in three columns, and interaction is substantially smoother. Calls, data, Wi-Fi, audio, camera, GPS and suspend are not fully tested. Battery reporting and GPU screenshot/readback have known issues.
+
+Copy the extracted `HD2-SM20` folder to the first FAT32 SD partition, then select it as MAGLDR's AD SD Dir and choose Boot AD SD. This is an SD image ZIP, not a recovery-flashable ZIP. Verify the attached SHA-256 and back up an existing rootfs before replacing it.
+
+[English README](https://github.com/DCMMC/hd2-smartisan-os/blob/main/README.md) · [简体中文](https://github.com/DCMMC/hd2-smartisan-os/blob/main/README.zh-CN.md) · [XDA post draft](https://github.com/DCMMC/hd2-smartisan-os/blob/main/docs/XDA-POST.en.md)
+
+---
+
 本阶段最终实验版，适用于 HTC HD2 / Leo + MAGLDR，FAT32 内 2 GiB ext4 镜像启动。系统二进制延续已验证的 alpha1，本次刷新发布说明和完整工程归档。
 
 - 用户确认桌面尺寸正确，操作明显流畅；下拉工具页为三列、12 个开关。
