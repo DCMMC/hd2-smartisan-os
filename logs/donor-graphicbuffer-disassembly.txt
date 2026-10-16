@@ -1,0 +1,364 @@
+
+work/smartisan-donor/system/lib/libui.so:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00005a50 <_ZNK7android13GraphicBuffer16getFlattenedSizeEv+0xe>:
+    5a50:	4770      	bx	lr
+
+00005a52 <_ZNK7android13GraphicBuffer10getFdCountEv>:
+    5a52:	6c40      	ldr	r0, [r0, #68]
+    5a54:	b100      	cbz	r0, 5a58 <_ZNK7android13GraphicBuffer10getFdCountEv+0x6>
+    5a56:	6840      	ldr	r0, [r0, #4]
+    5a58:	4770      	bx	lr
+	...
+
+00005a5c <_ZNK7android13GraphicBuffer7flattenERPvRjRPiS3_>:
+    5a5c:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+    5a60:	4617      	mov	r7, r2
+    5a62:	469a      	mov	sl, r3
+    5a64:	4604      	mov	r4, r0
+    5a66:	4688      	mov	r8, r1
+    5a68:	f7ff ffeb 	bl	5a42 <_ZNK7android13GraphicBuffer16getFlattenedSizeEv>
+    5a6c:	683b      	ldr	r3, [r7, #0]
+    5a6e:	f8dd 9028 	ldr.w	r9, [sp, #40]
+    5a72:	4283      	cmp	r3, r0
+    5a74:	4683      	mov	fp, r0
+    5a76:	d34d      	bcc.n	5b14 <_ZNK7android13GraphicBuffer7flattenERPvRjRPiS3_+0xb8>
+    5a78:	4620      	mov	r0, r4
+    5a7a:	f7ff ffea 	bl	5a52 <_ZNK7android13GraphicBuffer10getFdCountEv>
+    5a7e:	f8d9 1000 	ldr.w	r1, [r9]
+    5a82:	4281      	cmp	r1, r0
+    5a84:	d346      	bcc.n	5b14 <_ZNK7android13GraphicBuffer7flattenERPvRjRPiS3_+0xb8>
+    5a86:	f8d8 5000 	ldr.w	r5, [r8]
+    5a8a:	4824      	ldr	r0, [pc, #144]	(5b1c <_ZNK7android13GraphicBuffer7flattenERPvRjRPiS3_+0xc0>)
+    5a8c:	6028      	str	r0, [r5, #0]
+    5a8e:	6aa2      	ldr	r2, [r4, #40]
+    5a90:	606a      	str	r2, [r5, #4]
+    5a92:	6ae3      	ldr	r3, [r4, #44]
+    5a94:	60ab      	str	r3, [r5, #8]
+    5a96:	2300      	movs	r3, #0
+    5a98:	6b21      	ldr	r1, [r4, #48]
+    5a9a:	60e9      	str	r1, [r5, #12]
+    5a9c:	6b60      	ldr	r0, [r4, #52]
+    5a9e:	6128      	str	r0, [r5, #16]
+    5aa0:	6ba2      	ldr	r2, [r4, #56]
+    5aa2:	61ab      	str	r3, [r5, #24]
+    5aa4:	61eb      	str	r3, [r5, #28]
+    5aa6:	616a      	str	r2, [r5, #20]
+    5aa8:	6c61      	ldr	r1, [r4, #68]
+    5aaa:	b331      	cbz	r1, 5afa <_ZNK7android13GraphicBuffer7flattenERPvRjRPiS3_+0x9e>
+    5aac:	684e      	ldr	r6, [r1, #4]
+    5aae:	61ae      	str	r6, [r5, #24]
+    5ab0:	6c60      	ldr	r0, [r4, #68]
+    5ab2:	6882      	ldr	r2, [r0, #8]
+    5ab4:	61ea      	str	r2, [r5, #28]
+    5ab6:	6c66      	ldr	r6, [r4, #68]
+    5ab8:	f8da 0000 	ldr.w	r0, [sl]
+    5abc:	f106 010c 	add.w	r1, r6, #12	; 0xc
+    5ac0:	6873      	ldr	r3, [r6, #4]
+    5ac2:	009a      	lsls	r2, r3, #2
+    5ac4:	f7ff e8b6 	blx	4c34 <_ZN7android5FenceC1Ev-0x2d8>
+    5ac8:	6871      	ldr	r1, [r6, #4]
+    5aca:	68b2      	ldr	r2, [r6, #8]
+    5acc:	f105 0020 	add.w	r0, r5, #32	; 0x20
+    5ad0:	eb06 0181 	add.w	r1, r6, r1, lsl #2
+    5ad4:	310c      	adds	r1, #12
+    5ad6:	0092      	lsls	r2, r2, #2
+    5ad8:	f7ff e8ac 	blx	4c34 <_ZN7android5FenceC1Ev-0x2d8>
+    5adc:	6c60      	ldr	r0, [r4, #68]
+    5ade:	f8da 3000 	ldr.w	r3, [sl]
+    5ae2:	6842      	ldr	r2, [r0, #4]
+    5ae4:	eb03 0182 	add.w	r1, r3, r2, lsl #2
+    5ae8:	f8ca 1000 	str.w	r1, [sl]
+    5aec:	6c60      	ldr	r0, [r4, #68]
+    5aee:	f8d9 3000 	ldr.w	r3, [r9]
+    5af2:	6842      	ldr	r2, [r0, #4]
+    5af4:	1a99      	subs	r1, r3, r2
+    5af6:	f8c9 1000 	str.w	r1, [r9]
+    5afa:	f8d8 0000 	ldr.w	r0, [r8]
+    5afe:	eb00 038b 	add.w	r3, r0, fp, lsl #2
+    5b02:	f8c8 3000 	str.w	r3, [r8]
+    5b06:	683a      	ldr	r2, [r7, #0]
+    5b08:	2000      	movs	r0, #0
+    5b0a:	ebcb 0102 	rsb	r1, fp, r2
+    5b0e:	6039      	str	r1, [r7, #0]
+    5b10:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    5b14:	f06f 000b 	mvn.w	r0, #11	; 0xb
+    5b18:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    5b1c:	4652      	mov	r2, sl
+    5b1e:	4742      	bx	r8
+
+00005b20 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv>:
+    5b20:	b570      	push	{r4, r5, r6, lr}
+    5b22:	4c0b      	ldr	r4, [pc, #44]	(5b50 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv+0x30>)
+    5b24:	4b0b      	ldr	r3, [pc, #44]	(5b54 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv+0x34>)
+    5b26:	447c      	add	r4, pc
+    5b28:	58e6      	ldr	r6, [r4, r3]
+    5b2a:	4630      	mov	r0, r6
+    5b2c:	f7ff e82e 	blx	4b8c <_ZN7android5FenceC1Ev-0x380>
+    5b30:	4809      	ldr	r0, [pc, #36]	(5b58 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv+0x38>)
+    5b32:	5825      	ldr	r5, [r4, r0]
+    5b34:	682c      	ldr	r4, [r5, #0]
+    5b36:	b934      	cbnz	r4, 5b46 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv+0x26>
+    5b38:	2004      	movs	r0, #4
+    5b3a:	f7fe eff8 	blx	4b2c <_ZN7android5FenceC1Ev-0x3e0>
+    5b3e:	4604      	mov	r4, r0
+    5b40:	f000 fb1a 	bl	6178 <_ZN7android22GraphicBufferAllocatorC1Ev>
+    5b44:	602c      	str	r4, [r5, #0]
+    5b46:	4630      	mov	r0, r6
+    5b48:	f7ff e82c 	blx	4ba4 <_ZN7android5FenceC1Ev-0x368>
+    5b4c:	4620      	mov	r0, r4
+    5b4e:	bd70      	pop	{r4, r5, r6, pc}
+    5b50:	43b6      	bics	r6, r6
+    5b52:	0000      	lsls	r0, r0, #0
+    5b54:	ffe0 ffff 	undefined
+    5b58:	ffe4 ffff 	undefined
+
+00005b5c <_ZN7android13GraphicBuffer8initSizeEjjijj>:
+    5b5c:	e92d 41ff 	stmdb	sp!, {r0, r1, r2, r3, r4, r5, r6, r7, r8, lr}
+    5b60:	4604      	mov	r4, r0
+    5b62:	4688      	mov	r8, r1
+    5b64:	4617      	mov	r7, r2
+    5b66:	461e      	mov	r6, r3
+    5b68:	9d0a      	ldr	r5, [sp, #40]
+    5b6a:	f7ff ffd9 	bl	5b20 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv>
+    5b6e:	9a0b      	ldr	r2, [sp, #44]
+    5b70:	f104 0344 	add.w	r3, r4, #68	; 0x44
+    5b74:	f104 0130 	add.w	r1, r4, #48	; 0x30
+    5b78:	9301      	str	r3, [sp, #4]
+    5b7a:	4633      	mov	r3, r6
+    5b7c:	9102      	str	r1, [sp, #8]
+    5b7e:	4641      	mov	r1, r8
+    5b80:	9203      	str	r2, [sp, #12]
+    5b82:	463a      	mov	r2, r7
+    5b84:	9500      	str	r5, [sp, #0]
+    5b86:	f000 fbe1 	bl	634c <_ZN7android22GraphicBufferAllocator5allocEjjiiPPK13native_handlePij>
+    5b8a:	b920      	cbnz	r0, 5b96 <_ZN7android13GraphicBuffer8initSizeEjjijj+0x3a>
+    5b8c:	f8c4 8028 	str.w	r8, [r4, #40]
+    5b90:	62e7      	str	r7, [r4, #44]
+    5b92:	6366      	str	r6, [r4, #52]
+    5b94:	63a5      	str	r5, [r4, #56]
+    5b96:	b004      	add	sp, #16
+    5b98:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+00005b9c <_ZN7android13GraphicBuffer8initSizeEjjij>:
+    5b9c:	e92d 41ff 	stmdb	sp!, {r0, r1, r2, r3, r4, r5, r6, r7, r8, lr}
+    5ba0:	4688      	mov	r8, r1
+    5ba2:	9d0a      	ldr	r5, [sp, #40]
+    5ba4:	461e      	mov	r6, r3
+    5ba6:	4617      	mov	r7, r2
+    5ba8:	4604      	mov	r4, r0
+    5baa:	f7ff ffb9 	bl	5b20 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv>
+    5bae:	f104 0344 	add.w	r3, r4, #68	; 0x44
+    5bb2:	f104 0130 	add.w	r1, r4, #48	; 0x30
+    5bb6:	9301      	str	r3, [sp, #4]
+    5bb8:	9102      	str	r1, [sp, #8]
+    5bba:	463a      	mov	r2, r7
+    5bbc:	9500      	str	r5, [sp, #0]
+    5bbe:	4641      	mov	r1, r8
+    5bc0:	4633      	mov	r3, r6
+    5bc2:	f000 fc2f 	bl	6424 <_ZN7android22GraphicBufferAllocator5allocEjjiiPPK13native_handlePi>
+    5bc6:	b920      	cbnz	r0, 5bd2 <_ZN7android13GraphicBuffer8initSizeEjjij+0x36>
+    5bc8:	f8c4 8028 	str.w	r8, [r4, #40]
+    5bcc:	62e7      	str	r7, [r4, #44]
+    5bce:	6366      	str	r6, [r4, #52]
+    5bd0:	63a5      	str	r5, [r4, #56]
+    5bd2:	b004      	add	sp, #16
+    5bd4:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+00005bd8 <_ZN7android13GraphicBuffer10reallocateEjjij>:
+    5bd8:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+    5bdc:	461e      	mov	r6, r3
+    5bde:	f890 3068 	ldrb.w	r3, [r0, #104]
+    5be2:	4604      	mov	r4, r0
+    5be4:	460d      	mov	r5, r1
+    5be6:	4617      	mov	r7, r2
+    5be8:	2b02      	cmp	r3, #2
+    5bea:	f8dd 8018 	ldr.w	r8, [sp, #24]
+    5bee:	d11e      	bne.n	5c2e <_ZN7android13GraphicBuffer10reallocateEjjij+0x56>
+    5bf0:	6c40      	ldr	r0, [r0, #68]
+    5bf2:	b190      	cbz	r0, 5c1a <_ZN7android13GraphicBuffer10reallocateEjjij+0x42>
+    5bf4:	6aa1      	ldr	r1, [r4, #40]
+    5bf6:	428d      	cmp	r5, r1
+    5bf8:	d108      	bne.n	5c0c <_ZN7android13GraphicBuffer10reallocateEjjij+0x34>
+    5bfa:	6ae2      	ldr	r2, [r4, #44]
+    5bfc:	4297      	cmp	r7, r2
+    5bfe:	d105      	bne.n	5c0c <_ZN7android13GraphicBuffer10reallocateEjjij+0x34>
+    5c00:	6b63      	ldr	r3, [r4, #52]
+    5c02:	429e      	cmp	r6, r3
+    5c04:	d102      	bne.n	5c0c <_ZN7android13GraphicBuffer10reallocateEjjij+0x34>
+    5c06:	6ba0      	ldr	r0, [r4, #56]
+    5c08:	4580      	cmp	r8, r0
+    5c0a:	d014      	beq.n	5c36 <_ZN7android13GraphicBuffer10reallocateEjjij+0x5e>
+    5c0c:	f7ff ff88 	bl	5b20 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv>
+    5c10:	6c61      	ldr	r1, [r4, #68]
+    5c12:	f000 fc15 	bl	6440 <_ZN7android22GraphicBufferAllocator4freeEPK13native_handle>
+    5c16:	2100      	movs	r1, #0
+    5c18:	6461      	str	r1, [r4, #68]
+    5c1a:	f8cd 8018 	str.w	r8, [sp, #24]
+    5c1e:	4620      	mov	r0, r4
+    5c20:	4629      	mov	r1, r5
+    5c22:	463a      	mov	r2, r7
+    5c24:	4633      	mov	r3, r6
+    5c26:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+    5c2a:	f7ff bfb7 	b.w	5b9c <_ZN7android13GraphicBuffer8initSizeEjjij>
+    5c2e:	f06f 0025 	mvn.w	r0, #37	; 0x25
+    5c32:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+    5c36:	2000      	movs	r0, #0
+    5c38:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+00005c3c <_ZN7android13GraphicBuffer11free_handleEv>:
+    5c3c:	b510      	push	{r4, lr}
+    5c3e:	4604      	mov	r4, r0
+    5c40:	f890 3068 	ldrb.w	r3, [r0, #104]
+    5c44:	2b01      	cmp	r3, #1
+    5c46:	d10a      	bne.n	5c5e <_ZN7android13GraphicBuffer11free_handleEv+0x22>
+    5c48:	6c61      	ldr	r1, [r4, #68]
+    5c4a:	6ec0      	ldr	r0, [r0, #108]
+    5c4c:	f000 fd62 	bl	6714 <_ZN7android19GraphicBufferMapper16unregisterBufferEPK13native_handle>
+    5c50:	6c60      	ldr	r0, [r4, #68]
+    5c52:	f7fe eff6 	blx	4c40 <_ZN7android5FenceC1Ev-0x2cc>
+    5c56:	6c60      	ldr	r0, [r4, #68]
+    5c58:	f7fe eff8 	blx	4c4c <_ZN7android5FenceC1Ev-0x2c0>
+    5c5c:	e006      	b.n	5c6c <_ZN7android13GraphicBuffer11free_handleEv+0x30>
+    5c5e:	2b02      	cmp	r3, #2
+    5c60:	d104      	bne.n	5c6c <_ZN7android13GraphicBuffer11free_handleEv+0x30>
+    5c62:	f7ff ff5d 	bl	5b20 <_ZN7android9SingletonINS_22GraphicBufferAllocatorEE11getInstanceEv>
+    5c66:	6c61      	ldr	r1, [r4, #68]
+    5c68:	f000 fbea 	bl	6440 <_ZN7android22GraphicBufferAllocator4freeEPK13native_handle>
+    5c6c:	6f60      	ldr	r0, [r4, #116]
+    5c6e:	b108      	cbz	r0, 5c74 <_ZN7android13GraphicBuffer11free_handleEv+0x38>
+    5c70:	f7ff fe4f 	bl	5912 <_ZN7android23FramebufferNativeWindow22queueBuffer_DEPRECATEDEP13ANativeWindowP19ANativeWindowBuffer+0x58>
+    5c74:	2000      	movs	r0, #0
+    5c76:	6760      	str	r0, [r4, #116]
+    5c78:	bd10      	pop	{r4, pc}
+	...
+
+00005c7c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_>:
+    5c7c:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+    5c80:	461f      	mov	r7, r3
+    5c82:	6813      	ldr	r3, [r2, #0]
+    5c84:	b085      	sub	sp, #20
+    5c86:	4604      	mov	r4, r0
+    5c88:	468a      	mov	sl, r1
+    5c8a:	2b1f      	cmp	r3, #31
+    5c8c:	4690      	mov	r8, r2
+    5c8e:	d96d      	bls.n	5d6c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xf0>
+    5c90:	680e      	ldr	r6, [r1, #0]
+    5c92:	4939      	ldr	r1, [pc, #228]	(5d78 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xfc>)
+    5c94:	6832      	ldr	r2, [r6, #0]
+    5c96:	428a      	cmp	r2, r1
+    5c98:	d166      	bne.n	5d68 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xec>
+    5c9a:	f8d6 b01c 	ldr.w	fp, [r6, #28]
+    5c9e:	69b5      	ldr	r5, [r6, #24]
+    5ca0:	f10b 0208 	add.w	r2, fp, #8	; 0x8
+    5ca4:	ea4f 0982 	mov.w	r9, r2, lsl #2
+    5ca8:	454b      	cmp	r3, r9
+    5caa:	d35f      	bcc.n	5d6c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xf0>
+    5cac:	6c43      	ldr	r3, [r0, #68]
+    5cae:	b10b      	cbz	r3, 5cb4 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x38>
+    5cb0:	f7ff ffc4 	bl	5c3c <_ZN7android13GraphicBuffer11free_handleEv>
+    5cb4:	b915      	cbnz	r5, 5cbc <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x40>
+    5cb6:	f1bb 0f00 	cmp.w	fp, #0	; 0x0
+    5cba:	d022      	beq.n	5d02 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x86>
+    5cbc:	6870      	ldr	r0, [r6, #4]
+    5cbe:	62a0      	str	r0, [r4, #40]
+    5cc0:	68b1      	ldr	r1, [r6, #8]
+    5cc2:	62e1      	str	r1, [r4, #44]
+    5cc4:	4659      	mov	r1, fp
+    5cc6:	68f2      	ldr	r2, [r6, #12]
+    5cc8:	6322      	str	r2, [r4, #48]
+    5cca:	6933      	ldr	r3, [r6, #16]
+    5ccc:	6363      	str	r3, [r4, #52]
+    5cce:	6970      	ldr	r0, [r6, #20]
+    5cd0:	63a0      	str	r0, [r4, #56]
+    5cd2:	4628      	mov	r0, r5
+    5cd4:	f7fe efc0 	blx	4c58 <_ZN7android5FenceC1Ev-0x2b4>
+    5cd8:	6839      	ldr	r1, [r7, #0]
+    5cda:	00aa      	lsls	r2, r5, #2
+    5cdc:	4603      	mov	r3, r0
+    5cde:	f100 000c 	add.w	r0, r0, #12	; 0xc
+    5ce2:	9303      	str	r3, [sp, #12]
+    5ce4:	f7fe efa6 	blx	4c34 <_ZN7android5FenceC1Ev-0x2d8>
+    5ce8:	9903      	ldr	r1, [sp, #12]
+    5cea:	ea4f 028b 	mov.w	r2, fp, lsl #2
+    5cee:	eb01 0085 	add.w	r0, r1, r5, lsl #2
+    5cf2:	f106 0120 	add.w	r1, r6, #32	; 0x20
+    5cf6:	300c      	adds	r0, #12
+    5cf8:	f7fe ef9c 	blx	4c34 <_ZN7android5FenceC1Ev-0x2d8>
+    5cfc:	9a03      	ldr	r2, [sp, #12]
+    5cfe:	6462      	str	r2, [r4, #68]
+    5d00:	e005      	b.n	5d0e <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x92>
+    5d02:	63a5      	str	r5, [r4, #56]
+    5d04:	6365      	str	r5, [r4, #52]
+    5d06:	6325      	str	r5, [r4, #48]
+    5d08:	62e5      	str	r5, [r4, #44]
+    5d0a:	62a5      	str	r5, [r4, #40]
+    5d0c:	6465      	str	r5, [r4, #68]
+    5d0e:	6c61      	ldr	r1, [r4, #68]
+    5d10:	2001      	movs	r0, #1
+    5d12:	f884 0068 	strb.w	r0, [r4, #104]
+    5d16:	b189      	cbz	r1, 5d3c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xc0>
+    5d18:	6ee0      	ldr	r0, [r4, #108]
+    5d1a:	f000 fccf 	bl	66bc <_ZN7android19GraphicBufferMapper14registerBufferEPK13native_handle>
+    5d1e:	4604      	mov	r4, r0
+    5d20:	b160      	cbz	r0, 5d3c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xc0>
+    5d22:	4240      	negs	r0, r0
+    5d24:	f7fe eefc 	blx	4b20 <_ZN7android5FenceC1Ev-0x3ec>
+    5d28:	4915      	ldr	r1, [pc, #84]	(5d80 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x104>)
+    5d2a:	4a16      	ldr	r2, [pc, #88]	(5d84 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x108>)
+    5d2c:	9400      	str	r4, [sp, #0]
+    5d2e:	4479      	add	r1, pc
+    5d30:	447a      	add	r2, pc
+    5d32:	4603      	mov	r3, r0
+    5d34:	2006      	movs	r0, #6
+    5d36:	f7fe eeee 	blx	4b14 <_ZN7android5FenceC1Ev-0x3f8>
+    5d3a:	e019      	b.n	5d70 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xf4>
+    5d3c:	f8da 4000 	ldr.w	r4, [sl]
+    5d40:	eb04 0389 	add.w	r3, r4, r9, lsl #2
+    5d44:	f8ca 3000 	str.w	r3, [sl]
+    5d48:	f8d8 1000 	ldr.w	r1, [r8]
+    5d4c:	ebc9 0201 	rsb	r2, r9, r1
+    5d50:	990e      	ldr	r1, [sp, #56]
+    5d52:	f8c8 2000 	str.w	r2, [r8]
+    5d56:	6838      	ldr	r0, [r7, #0]
+    5d58:	eb00 0485 	add.w	r4, r0, r5, lsl #2
+    5d5c:	603c      	str	r4, [r7, #0]
+    5d5e:	680b      	ldr	r3, [r1, #0]
+    5d60:	2400      	movs	r4, #0
+    5d62:	1b5d      	subs	r5, r3, r5
+    5d64:	600d      	str	r5, [r1, #0]
+    5d66:	e003      	b.n	5d70 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xf4>
+    5d68:	4c04      	ldr	r4, [pc, #16]	(5d7c <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0x100>)
+    5d6a:	e001      	b.n	5d70 <_ZN7android13GraphicBuffer9unflattenERPKvRjRPKiS4_+0xf4>
+    5d6c:	f06f 040b 	mvn.w	r4, #11	; 0xb
+    5d70:	4620      	mov	r0, r4
+    5d72:	b005      	add	sp, #20
+    5d74:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    5d78:	4652      	mov	r2, sl
+    5d7a:	4742      	bx	r8
+    5d7c:	0001      	lsls	r1, r0, #0
+    5d7e:	8000      	strh	r0, [r0, #0]
+    5d80:	280a      	cmp	r0, #10
+    5d82:	0000      	lsls	r0, r0, #0
+    5d84:	2852      	cmp	r0, #82
+	...
+
+00005d88 <_ZN7android13GraphicBufferD1Ev>:
+    5d88:	4b09      	ldr	r3, [pc, #36]	(5db0 <_ZN7android13GraphicBufferD1Ev+0x28>)
+    5d8a:	b510      	push	{r4, lr}
+    5d8c:	447b      	add	r3, pc
+    5d8e:	6c41      	ldr	r1, [r0, #68]
+    5d90:	3308      	adds	r3, #8
+    5d92:	4604      	mov	r4, r0
+    5d94:	6003      	str	r3, [r0, #0]
+    5d96:	b109      	cbz	r1, 5d9c <_ZN7android13GraphicBufferD1Ev+0x14>
+    5d98:	f7ff ff50 	bl	5c3c <_ZN7android13GraphicBuffer11free_handleEv>
+    5d9c:	6f60      	ldr	r0, [r4, #116]
+    5d9e:	b108      	cbz	r0, 5da4 <_ZN7android13GraphicBufferD1Ev+0x1c>
+    5da0:	f7ff fdb7 	bl	5912 <_ZN7android23FramebufferNativeWindow22queueBuffer_DEPRECATEDEP13ANativeWindowP19ANativeWindowBuffer+0x58>
+    5da4:	4620      	mov	r0, r4
+    5da6:	f7ff fd8d 	bl	58c4 <_ZN7android23FramebufferNativeWindow22queueBuffer_DEPRECATEDEP13ANativeWindowP19ANativeWindowBuffer+0xa>
+    5daa:	4620      	mov	r0, r4

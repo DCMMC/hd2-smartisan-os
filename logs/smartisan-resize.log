@@ -1,0 +1,5 @@
+HD2-SM20: 1720/196608 files (0.3% non-contiguous), 274287/786432 blocks
+resize2fs 1.47.4 (6-Mar-2025)
+Resizing the filesystem on out/smartisan-alpha0/HD2-SM20/rootfs.ext4 to 524288 (4k) blocks.
+The filesystem on out/smartisan-alpha0/HD2-SM20/rootfs.ext4 is now 524288 (4k) blocks long.
+

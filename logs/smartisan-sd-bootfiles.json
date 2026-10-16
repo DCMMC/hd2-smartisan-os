@@ -1,0 +1,9 @@
+{
+  "initrd.gz": true,
+  "zImage": true,
+  "BUILD-STATUS.json": true,
+  "INSTALL-zh.txt": true,
+  "unpack-rootfs.sh": true,
+  "SHA256SUMS": true,
+  "ROOTFS-UNPACKED.sha256": true
+}

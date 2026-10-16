@@ -1,0 +1,21 @@
+{
+  "libcutils.so": {
+    "input_sha256": "9411e2b1854c33bcb6d702e1540016cbbb9d1c80fd36bcf36289d1af0e0b4047",
+    "output_sha256": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6",
+    "offsets": [
+      "0x4ad2"
+    ]
+  },
+  "libsurfaceflinger.so": {
+    "input_sha256": "c8ec49fb3b7ceddc9acfcdaa62fc2b0368a9d8c56bb4f5595a29f68b9bda7e68",
+    "output_sha256": "7591d88e78048e181fe50067a5b9dd33ebf91b173139b80c531fe64ac8501534",
+    "offsets": [
+      "0x1fc50",
+      "0x1fc60"
+    ]
+  },
+  "reason": [
+    "Scheduling policy 2 uses HD2 foreground CPU cgroup",
+    "FramebufferSurface uses two buffers and one acquired buffer, matching the HD2 framebuffer geometry"
+  ]
+}

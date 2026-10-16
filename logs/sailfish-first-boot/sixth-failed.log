@@ -1,0 +1,15 @@
+UNIT                         LOAD   ACTIVE SUB    
+dev-mtp.mount                loaded failed failed FFS mount
+droid-hal-init.service       loaded failed failed droid-hal-init
+ohmd.service                 loaded failed failed ohm daemon for resource policy management
+statefs.service              loaded failed failed StateFS FUSE filesystem, system-wide
+systemd-udevd.service        loaded failed failed udev Kernel Device Manager
+systemd-udevd-control.socket loaded failed failed udev Control Socket
+systemd-udevd-kernel.socket  loaded failed failed udev Kernel Socket
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+7 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

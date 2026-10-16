@@ -1,0 +1,6 @@
+{
+  "confirmed_failure": "BusyBox --install before mounting proc creates unusable /proc/self/exe links",
+  "recovery_reproducer": "chroot empty initramfs --install produced mount and sleep symlinks to /proc/self/exe",
+  "fix": "bootstrap proc with explicit BusyBox; route pre-SD errors to kernel log; add early OS identity",
+  "fixed_bootstrap_recovery_test": "After mounting proc before fresh --install, symlinks target /bin/busybox; with init PATH, sleep 0 succeeds in isolated initramfs chroot."
+}

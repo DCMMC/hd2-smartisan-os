@@ -1,0 +1,7 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/lib/libhybris-eglplatformcommon.so.1.0.0 /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+Allocated inode: 5085
+debugfs: sif /usr/lib/libhybris-eglplatformcommon.so.1.0.0 uid 0
+debugfs: sif /usr/lib/libhybris-eglplatformcommon.so.1.0.0 gid 0

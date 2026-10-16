@@ -1,0 +1,154 @@
+arm-eabi-gcc (GCC) 4.4.3
+Copyright (C) 2009 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#
+# configuration written to .config
+#
+scripts/kconfig/conf -o arch/arm/Kconfig
+#
+# configuration written to .config
+#
+scripts/kconfig/conf -s arch/arm/Kconfig
+make[2]: 'include/asm-arm/mach-types.h' is up to date.
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/dex_comm.c: In function 'init_dex_comm':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/dex_comm.c:267: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/pmic_global.c:127: warning: 'pm_rpc_set_only' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/dal.c: In function 'dal_call_f6':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/dal.c:648: warning: the frame size of 2048 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/dal.c: In function 'dal_call_f5':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/dal.c:624: warning: the frame size of 2048 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/q6audio.c:175: warning: function declaration isn't a prototype
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/q6audio.c:2213: warning: function declaration isn't a prototype
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/q6audio.c:2792: warning: 'audio_test' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/q6audio.c:213: warning: 'rx_vol_level' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/qdsp6_1550/q6audio.c:350: warning: 'adsp' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo.c:182: warning: initialization makes integer from pointer without a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo.c:183: warning: initialization makes integer from pointer without a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo.c:820: warning: initialization makes integer from pointer without a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo.c:821: warning: initialization makes integer from pointer without a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:9: warning: 'microp_i2c_wakelock' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:11: warning: 'private_microp_client' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-panel.c: In function 'detect_panel_type':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-panel.c:1617: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-audio.c: In function 'htcleo_get_rx_vol':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-audio.c:374: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-acoustic.c: In function 'acoustic_ioctl':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-acoustic.c:202: warning: unused variable 'data'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-wifi.c:122: warning: 'htcleo_wifi_update_nvs' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-microp.c:224: warning: 'microp_read_adc' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:9: warning: 'microp_i2c_wakelock' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:11: warning: 'private_microp_client' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:9: warning: 'microp_i2c_wakelock' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/include/mach/board-htcleo-microp.h:11: warning: 'private_microp_client' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-microp.c: In function 'microp_i2c_probe':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/board-htcleo-microp.c:649: warning: 'pdata' may be used uninitialized in this function
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'new_clk_set_rate':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:543: warning: format '%d' expects type 'int', but argument 2 has type 'long unsigned int'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:557: warning: format '%d' expects type 'int', but argument 2 has type 'long unsigned int'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'pc_clk_disable':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:936: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'pc_clk_set_rate':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:967: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'clk_get':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1087: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1087: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1091: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1091: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'msm_clock_init':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1191: warning: passing argument 1 of 'list_add_tail' from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/include/linux/list.h:78: note: expected 'struct list_head *' but argument is of type 'struct hlist_node *'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'clks_print_running':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1216: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1216: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'clks_allow_tcxo_locked':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1241: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1241: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1237: warning: unused variable 'pos'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'clks_allow_tcxo_locked_debug':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1259: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1259: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: In function 'clock_late_init':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1284: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1284: warning: comparison of distinct pointer types lacks a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c: At top level:
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1310: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1311: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1312: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1313: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1314: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1315: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/clock-wince.c:1070: warning: 'pc_pll_request' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c: In function 'mic_irq_handler':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c:195: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c: In function 'detect_irq_handler':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c:215: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c: In function 'mic_work_func':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c:259: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c: In function 'audiojack_work_func':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/arch/arm/mach-msm/htc_headset_gpio.c:276: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/gpu/msm/adreno.c: In function 'adreno_waittimestamp':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/gpu/msm/adreno.c:1121: warning: unused variable 'pwr'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/gpu/msm/adreno.c:1119: warning: unused variable 'io_cnt'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/ethernet/eth.c:402: warning: 'print_mac' is deprecated (declared at /home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/ethernet/eth.c:397)
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/ethernet/eth.c:402: warning: 'print_mac' is deprecated (declared at /home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/ethernet/eth.c:397)
+In file included from /home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/core/dev.c:130:
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/include/linux/iface_stat.h:43: warning: function declaration isn't a prototype
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/include/linux/iface_stat.h:46: warning: function declaration isn't a prototype
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fat/dir.c: In function 'fat_add_entries':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fat/dir.c:42: warning: 'de' may be used uninitialized in this function
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fat/dir.c:1245: note: 'de' was declared here
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fuse/dev.c: In function 'fuse_notify_inval_entry':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fuse/dev.c:925: warning: the frame size of 1064 bytes is larger than 1024 bytes; see http://go/big_stack_frame
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_camera.c: In function 'msm_v4l2_register':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_camera.c:2727: warning: assignment from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/s5k3e2fx.c: In function 's5k3e2fx_set_fps':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/s5k3e2fx.c:2871: warning: label 'set_fps_done' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/s5k3e2fx.c: In function 's5k3e2fx_write_exp_gain':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/s5k3e2fx.c:2880: warning: unused variable 'll_ratio'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_vfe8x_proc.c: In function 'vfe_proc_ops':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_vfe8x_proc.c:774: warning: unused variable 'sync'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_vfe8x_proc.c: In function 'vfe_process_camif_epoch1_irq':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/media/video/msm/msm_vfe8x_proc.c:918: warning: unused variable 'sync'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/mmc/core/core.c: In function 'mmc_rescan':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/mmc/core/core.c:1114: warning: label 'retry' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/misc/apanic.c: In function 'apanic_proc_read':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/misc/apanic.c:200: warning: assignment makes pointer from integer without a cast
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/power/ds2746_battery.c: In function 'ds2746_battery_work':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/power/ds2746_battery.c:1139: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/power/ds2746_battery.c: In function 'ds2746_battery_alarm':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/power/ds2746_battery.c:1165: warning: ISO C90 forbids mixed declarations and code
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/spi/spi_qsd.c:248: warning: 'msm_spi_suspend' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/spi/spi_qsd.c:255: warning: 'msm_spi_resume' defined but not used
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/fbmem.c: In function 'register_framebuffer':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/fbmem.c:1547: warning: passing argument 1 of 'fb_do_apertures_overlap' from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/fbmem.c:1465: note: expected 'struct apertures_struct *' but argument is of type 'struct fb_info *'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/fbmem.c:1547: warning: passing argument 2 of 'fb_do_apertures_overlap' from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/fbmem.c:1465: note: expected 'struct apertures_struct *' but argument is of type 'struct fb_info *'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/sysfs/file.c: In function 'sysfs_open_file':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/sysfs/file.c:352: warning: assignment discards qualifiers from pointer target type
+In file included from /home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/msm/mdp_ppp.c:22:
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/include/linux/android_pmem.h:57:1: warning: "HW3D_WAIT_FOR_INTERRUPT" redefined
+In file included from /home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/msm/mdp_ppp.c:19:
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/include/linux/msm_hw3d.h:27:1: warning: this is the location of the previous definition
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/msm/mddi.c: In function 'mddi_probe':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/drivers/video/msm/mddi.c:890: warning: comparison between pointer and integer
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_TPROXY.c:384: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_TPROXY.c:395: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_quota2.c:328: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_quota2.c:338: warning: initialization from incompatible pointer type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c: In function 'socket_mt4_v0':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c:207: warning: passing argument 2 of 'socket_match' discards qualifiers from pointer target type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c:173: note: expected 'struct xt_action_param *' but argument is of type 'const struct xt_action_param *'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c: In function 'socket_mt4_v1':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c:213: warning: passing argument 2 of 'socket_match' discards qualifiers from pointer target type
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_socket.c:173: note: expected 'struct xt_action_param *' but argument is of type 'const struct xt_action_param *'
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/net/netfilter/xt_qtaguid.c:2752: warning: initialization from incompatible pointer type
+  Kernel: arch/arm/boot/Image is ready
+  Kernel: arch/arm/boot/zImage is ready
+Warning: you may need to install module-init-tools
+See http://www.codemonkey.org.uk/docs/post-halloween-2.6.txt
+depmod: WARNING: could not open modules.builtin at /home/DCMMC/Projects/hd2-ports/out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2: No such file or directory
+depmod: WARNING: could not open modules.builtin.modinfo at /home/DCMMC/Projects/hd2-ports/out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2: No such file or directory
+Experimental kernel only; no Sailfish HAL/rootfs or hardware test: /home/DCMMC/Projects/hd2-ports/out/sailfish-kernel-experimental

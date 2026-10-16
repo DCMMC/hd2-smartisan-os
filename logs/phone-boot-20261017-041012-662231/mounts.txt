@@ -1,0 +1,17 @@
+rootfs / rootfs rw 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=205880k,nr_inodes=43612,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620 0 0
+tmpfs /run tmpfs rw,relatime 0 0
+/dev/mmcblk0p1 /run/hd2-sd vfat rw,noatime,fmask=0022,dmask=0022,codepage=cp437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+/dev/loop0 / ext4 rw,noatime,barrier=1,data=ordered 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=205880k,nr_inodes=43612,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+tmpfs /sys/fs/cgroup tmpfs rw,nosuid,nodev,noexec,mode=755 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+cgroup /sys/fs/cgroup/debug cgroup rw,nosuid,nodev,noexec,relatime,debug 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpuacct,cpu 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0

@@ -1,0 +1,6 @@
+{
+  "source_sha256": "a928f47cf517070a451187402c4e20f73638e9ed0d01a139f311c879584f7fcf",
+  "output_sha256": "37ccaabf61dc732ec77af6816d8ba26e60527e8835ef16e6eaf66ed85b2c1220",
+  "offset": "0x106ac",
+  "change": "Disable optional shared texture atlas; keep GPU rendering"
+}

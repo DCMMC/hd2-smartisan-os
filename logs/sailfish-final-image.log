@@ -1,0 +1,227 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "dconf"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf/db
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "db"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/dconf/db/vendor
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/dconf/db/vendor /etc/dconf/db/vendor
+Allocated inode: 275
+debugfs: sif /etc/dconf/db/vendor uid 0
+debugfs: sif /etc/dconf/db/vendor gid 0
+debugfs: mkdir /etc/dconf/db/vendor.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "vendor.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/dconf/db/vendor.d/silica-configs.txt
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/dconf/db/vendor.d/silica-configs.txt /etc/dconf/db/vendor.d/silica-configs.txt
+Allocated inode: 291
+debugfs: sif /etc/dconf/db/vendor.d/silica-configs.txt uid 0
+debugfs: sif /etc/dconf/db/vendor.d/silica-configs.txt gid 0
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: sif /etc/hd2-build-status.json uid 0
+debugfs: sif /etc/hd2-build-status.json gid 0
+debugfs: mkdir /etc/modprobe.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "modprobe.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/modprobe.d/hd2-wifi.conf
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/modprobe.d/hd2-wifi.conf /etc/modprobe.d/hd2-wifi.conf
+Allocated inode: 22451
+debugfs: sif /etc/modprobe.d/hd2-wifi.conf uid 0
+debugfs: sif /etc/modprobe.d/hd2-wifi.conf gid 0
+debugfs: mkdir /etc/modules-load.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "modules-load.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/modules-load.d/hd2.conf
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/modules-load.d/hd2.conf /etc/modules-load.d/hd2.conf
+Allocated inode: 453
+debugfs: sif /etc/modules-load.d/hd2.conf uid 0
+debugfs: sif /etc/modules-load.d/hd2.conf gid 0
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system/autologin@.service.d
+debugfs: rm /etc/systemd/system/autologin@.service.d/hd2-console.conf
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/autologin@.service.d/hd2-console.conf /etc/systemd/system/autologin@.service.d/hd2-console.conf
+Allocated inode: 22456
+debugfs: sif /etc/systemd/system/autologin@.service.d/hd2-console.conf uid 0
+debugfs: sif /etc/systemd/system/autologin@.service.d/hd2-console.conf gid 0
+debugfs: rm /etc/systemd/system/dbus.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/dbus.service /etc/systemd/system/dbus.service
+Allocated inode: 22434
+debugfs: sif /etc/systemd/system/dbus.service uid 0
+debugfs: sif /etc/systemd/system/dbus.service gid 0
+debugfs: rm /etc/systemd/system/dev-mtp.mount
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: symlink /etc/systemd/system/dev-mtp.mount /dev/null
+debugfs: rm /etc/systemd/system/hd2-wifi-load.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/hd2-wifi-load.service /etc/systemd/system/hd2-wifi-load.service
+Allocated inode: 22452
+debugfs: sif /etc/systemd/system/hd2-wifi-load.service uid 0
+debugfs: sif /etc/systemd/system/hd2-wifi-load.service gid 0
+debugfs: mkdir /etc/systemd/system/multi-user.target.wants
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "multi-user.target.wants"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/multi-user.target.wants/hd2-wifi-load.service
+
+debugfs: symlink /etc/systemd/system/multi-user.target.wants/hd2-wifi-load.service ../hd2-wifi-load.service
+debugfs: rm /etc/systemd/system/systemd-readahead-collect.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/systemd-readahead-collect.service /etc/systemd/system/systemd-readahead-collect.service
+Allocated inode: 22436
+debugfs: sif /etc/systemd/system/systemd-readahead-collect.service uid 0
+debugfs: sif /etc/systemd/system/systemd-readahead-collect.service gid 0
+debugfs: rm /etc/systemd/system/systemd-readahead-replay.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/systemd-readahead-replay.service /etc/systemd/system/systemd-readahead-replay.service
+Allocated inode: 22438
+debugfs: sif /etc/systemd/system/systemd-readahead-replay.service uid 0
+debugfs: sif /etc/systemd/system/systemd-readahead-replay.service gid 0
+debugfs: rm /etc/systemd/system/systemd-udevd.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/systemd-udevd.service /etc/systemd/system/systemd-udevd.service
+Allocated inode: 22440
+debugfs: sif /etc/systemd/system/systemd-udevd.service uid 0
+debugfs: sif /etc/systemd/system/systemd-udevd.service gid 0
+debugfs: rm /etc/systemd/system/user@.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/user@.service /etc/systemd/system/user@.service
+Allocated inode: 22442
+debugfs: sif /etc/systemd/system/user@.service uid 0
+debugfs: sif /etc/systemd/system/user@.service gid 0
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/booster-browser.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/booster-browser.service /etc/systemd/user/booster-browser.service
+Allocated inode: 22444
+debugfs: sif /etc/systemd/user/booster-browser.service uid 0
+debugfs: sif /etc/systemd/user/booster-browser.service gid 0
+debugfs: rm /etc/systemd/user/booster-generic.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/booster-generic.service /etc/systemd/user/booster-generic.service
+Allocated inode: 22445
+debugfs: sif /etc/systemd/user/booster-generic.service uid 0
+debugfs: sif /etc/systemd/user/booster-generic.service gid 0
+debugfs: rm /etc/systemd/user/booster-qt5.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/booster-qt5.service /etc/systemd/user/booster-qt5.service
+Allocated inode: 22446
+debugfs: sif /etc/systemd/user/booster-qt5.service uid 0
+debugfs: sif /etc/systemd/user/booster-qt5.service gid 0
+debugfs: rm /etc/systemd/user/booster-silica-qt5.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/booster-silica-qt5.service /etc/systemd/user/booster-silica-qt5.service
+Allocated inode: 22447
+debugfs: sif /etc/systemd/user/booster-silica-qt5.service uid 0
+debugfs: sif /etc/systemd/user/booster-silica-qt5.service gid 0
+debugfs: rm /etc/systemd/user/tracker-extract.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/tracker-extract.service /etc/systemd/user/tracker-extract.service
+Allocated inode: 22448
+debugfs: sif /etc/systemd/user/tracker-extract.service uid 0
+debugfs: sif /etc/systemd/user/tracker-extract.service gid 0
+debugfs: rm /etc/systemd/user/tracker-miner-fs.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/tracker-miner-fs.service /etc/systemd/user/tracker-miner-fs.service
+Allocated inode: 22449
+debugfs: sif /etc/systemd/user/tracker-miner-fs.service uid 0
+debugfs: sif /etc/systemd/user/tracker-miner-fs.service gid 0
+debugfs: rm /etc/systemd/user/voicecall-ui-prestart.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/user/voicecall-ui-prestart.service /etc/systemd/user/voicecall-ui-prestart.service
+Allocated inode: 22450
+debugfs: sif /etc/systemd/user/voicecall-ui-prestart.service uid 0
+debugfs: sif /etc/systemd/user/voicecall-ui-prestart.service gid 0
+debugfs: mkdir /etc/tmpfiles.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "tmpfiles.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/tmpfiles.d/hd2-user.conf
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/tmpfiles.d/hd2-user.conf /etc/tmpfiles.d/hd2-user.conf
+Allocated inode: 22453
+debugfs: sif /etc/tmpfiles.d/hd2-user.conf uid 0
+debugfs: sif /etc/tmpfiles.d/hd2-user.conf gid 0
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/bin
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "bin"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/bin/droid
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "droid"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/bin/droid/droid-hal-startup.sh
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/bin/droid/droid-hal-startup.sh /usr/bin/droid/droid-hal-startup.sh
+Allocated inode: 3438
+debugfs: sif /usr/bin/droid/droid-hal-startup.sh uid 0
+debugfs: sif /usr/bin/droid/droid-hal-startup.sh gid 0
+debugfs: mkdir /usr/lib
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "lib"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/lib/libhybris-eglplatformcommon.so.1.0.0 /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+Allocated inode: 5085
+debugfs: sif /usr/lib/libhybris-eglplatformcommon.so.1.0.0 uid 0
+debugfs: sif /usr/lib/libhybris-eglplatformcommon.so.1.0.0 gid 0
+debugfs: rm /usr/lib/libhybris-hwcomposerwindow.so.1.0.0
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/lib/libhybris-hwcomposerwindow.so.1.0.0 /usr/lib/libhybris-hwcomposerwindow.so.1.0.0
+Allocated inode: 5087
+debugfs: sif /usr/lib/libhybris-hwcomposerwindow.so.1.0.0 uid 0
+debugfs: sif /usr/lib/libhybris-hwcomposerwindow.so.1.0.0 gid 0
+debugfs: mkdir /usr/lib/libhybris
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "libhybris"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/libhybris/eglplatform_fbdev.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/lib/libhybris/eglplatform_fbdev.so /usr/lib/libhybris/eglplatform_fbdev.so
+Allocated inode: 5078
+debugfs: sif /usr/lib/libhybris/eglplatform_fbdev.so uid 0
+debugfs: sif /usr/lib/libhybris/eglplatform_fbdev.so gid 0
+debugfs: mkdir /usr/lib/qt5
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "qt5"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/qt5/plugins
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "plugins"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/qt5/plugins/platforms
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "platforms"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/qt5/plugins/platforms/libhwcomposer.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/lib/qt5/plugins/platforms/libhwcomposer.so /usr/lib/qt5/plugins/platforms/libhwcomposer.so
+Allocated inode: 6077
+debugfs: sif /usr/lib/qt5/plugins/platforms/libhwcomposer.so uid 0
+debugfs: sif /usr/lib/qt5/plugins/platforms/libhwcomposer.so gid 0
+debugfs: mkdir /usr/local
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "local"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/local/sbin
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "sbin"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/local/sbin/hd2-logs
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/local/sbin/hd2-logs /usr/local/sbin/hd2-logs
+Allocated inode: 8051
+debugfs: sif /usr/local/sbin/hd2-logs uid 0
+debugfs: sif /usr/local/sbin/hd2-logs gid 0

@@ -1,0 +1,2807 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.32_tytung_jellybean_r2 (tytung@ubuntu) (gcc version 4.4.1 (Sourcery G++ Lite 2010q1-188) ) #302 PREEMPT Sat Mar 16 15:38:22 CST 2013
+<4>[    0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c53c7f
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+<4>[    0.000000] Machine: htcleo
+<4>[    0.000000] Ignoring unrecognised tag 0x00000000
+<6>[    0.000000] Nand Boot: 1
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writeback
+<7>[    0.000000] On node 0 totalpages: 124864
+<7>[    0.000000] free_area_init_node: node 0, pgdat c0626ac4, node_mem_map c0b18000
+<7>[    0.000000]   Normal zone: 512 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 65024 pages, LIFO batch:15
+<7>[    0.000000]   HighMem zone: 464 pages used for memmap
+<7>[    0.000000]   HighMem zone: 58864 pages, LIFO batch:15
+<6>[    0.000000] allocating 33554432 bytes at c0eee000 (126ee000 physical) for sf pmem arena
+<6>[    0.000000] allocating 35651584 bytes at c2eee000 (146ee000 physical) for adsp pmem arena
+<6>[    0.000000] ram_console: found existing buffer, size 29506, start 29506
+<6>[    0.000000] console [ram0] enabled
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 123888
+<5>[    0.000000] Kernel command line: rel_path=HD2-SM20
+<6>[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    0.000000] Memory: 256MB 231MB = 487MB total
+<5>[    0.000000] Memory: 418120KB available (5628K code, 1834K data, 404K init, 237312K highmem)
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:332
+<4>[    0.000000] $$$ msm_timer_init $$$
+<4>[    0.000000]  1DIV = 00000003
+<4>[    0.000000]  2DIV = 00000003
+<4>[    0.000000] Console: colour dummy device 80x30
+<6>[    0.000000] console [tty0] enabled
+<6>[    0.000000] ram_console_early_init: already initialized, bailing out
+<6>[    0.000000] Calibrating delay loop... 663.55 BogoMIPS (lpj=3317760)
+<4>[    0.239196] Mount-cache hash table entries: 512
+<6>[    0.239562] Initializing cgroup subsys debug
+<6>[    0.239562] Initializing cgroup subsys cpuacct
+<6>[    0.239593] Initializing cgroup subsys freezer
+<6>[    0.239624] CPU: Testing write buffer coherency: ok
+<6>[    0.240966] regulator: core version 0.5
+<6>[    0.241149] NET: Registered protocol family 16
+<4>[    0.241607] htcleo_init()
+<6>[    0.242645] Max ACPU freq from efuse data is 1190400 KHz
+<6>[    1.141204] init_dex_comm: WinCE DEX init.
+<6>[    1.141265] init_dex_comm: WinCE DEX initialized.
+<6>[    1.141296] PLL0 @ f8005300: MODE=00000007 L=0000000c M=00000004 N=00000005 freq=245760000 Hz (245 MHz)
+<6>[    1.141357] PLL1 @ f8005320: MODE=00000007 L=00000028 M=00000000 N=00000001 freq=768000000 Hz (768 MHz)
+<6>[    1.141387] PLL4 @ f8005380: MODE=00000000 L=0000000f M=00000000 N=00000001 freq=288000000 Hz (288 MHz)
+<6>[    1.141448] PLL5 @ f80053a0: MODE=00000000 L=00000032 M=00000000 N=00000001 freq=960000000 Hz (960 MHz)
+<6>[    1.141510] PCB XC: 00000004
+<6>[    1.141510] AMSS version: 15.42.50.11U
+<6>[    1.141815] register analog ops = c05f7ec0
+<6>[    1.141845] [HS_MGR] (headset_notifier_register) Register MIC_BIAS notifier
+<6>[    1.141876] /proc/mic_level created
+<6>[    1.242736] Init Panel
+<4>[    1.242767] panel type is 10 :board id is 4 : SHARP
+<4>[    1.243133] htcleo_init_mmc()+
+<4>[    1.243316] htcleo_init_mmc()-
+<4>[    1.248046] bio: create slab <bio-0> at 0
+<6>[    1.248718] mdp_probe: initialized
+<6>[    1.248962] msm_i2c_probe
+<6>[    1.249053] msm_i2c_probe: clk_ctl 315, 400000 Hz
+<6>[    1.249359] regulator: VDCDC1: 800 <--> 1375 mV 
+<6>[    1.249450] regulator: VDCDC2: 1260 mV 
+<6>[    1.249542] regulator: VDCDC3: 800 <--> 3300 mV 
+<6>[    1.249633] regulator: LDO1: 1000 <--> 3150 mV 
+<6>[    1.249755] regulator: LDO2: 3300 mV 
+<6>[    1.250671] Bluetooth: Core ver 2.15
+<6>[    1.250823] NET: Registered protocol family 31
+<6>[    1.250854] Bluetooth: HCI device and connection manager initialized
+<6>[    1.250885] Bluetooth: HCI socket layer initialized
+<6>[    1.251098] cfg80211: Using static regulatory domain info
+<6>[    1.251129] cfg80211: Regulatory domain: US
+<6>[    1.251159] 	(start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[    1.251190] 	(2402000 KHz - 2472000 KHz @ 40000 KHz), (600 mBi, 2700 mBm)
+<6>[    1.251220] 	(5170000 KHz - 5190000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+<6>[    1.251251] 	(5190000 KHz - 5210000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+<6>[    1.251281] 	(5210000 KHz - 5230000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+<6>[    1.251342] 	(5230000 KHz - 5330000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+<6>[    1.251373] 	(5735000 KHz - 5835000 KHz @ 40000 KHz), (600 mBi, 3000 mBm)
+<6>[    1.251403] cfg80211: Calling CRDA for country: US
+<6>[    1.251586] Switching to clocksource gp_timer
+<7>[    1.252349] spi clk = 0x0
+<4>[    1.252380] spi: SPI_CONFIG=88
+<4>[    1.252410] spi: SPI_IO_CONTROL=401
+<4>[    1.252410] spi: SPI_OPERATIONAL=85
+<4>[    1.252441] spi: SPI_ERROR_FLAGS_EN=7f
+<4>[    1.252471] spi: SPI_ERROR_FLAGS=0
+<4>[    1.252471] -msm_spi_probe()
+<6>[    1.252868] NET: Registered protocol family 2
+<6>[    1.253051] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    1.253417] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+<6>[    1.253631] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+<6>[    1.253753] TCP: Hash tables configured (established 8192 bind 8192)
+<6>[    1.253814] TCP reno registered
+<6>[    1.253997] NET: Registered protocol family 1
+<6>[    1.254211] Trying to unpack rootfs image as initramfs...
+<6>[    1.336212] Freeing initrd memory: 1116K
+<6>[    1.336395] smd_init()
+<6>[    1.336425] smd_core_init()
+<6>[    1.336486] smd_core_init() done
+<3>[    1.336517] msm_init_last_radio_log: could not retrieve SMEM_CLKREGIM_BSP
+<6>[    1.336639] smd_alloc_channel() cid=00 size=08192 'SMD_DS'
+<6>[    1.336791] smd_alloc_channel() cid=01 size=32768 'SMD_DIAG'
+<6>[    1.336883] smd_alloc_channel() cid=02 size=08192 'SMD_RPCCALL'
+<6>[    1.336975] smd_alloc_channel() cid=05 size=08192 'SMD_CONTROL'
+<6>[    1.337036] smd_alloc_channel() cid=07 size=32768 'SMD_DATA1'
+<6>[    1.337158] smd_alloc_channel() cid=08 size=32768 'SMD_DATA2'
+<6>[    1.337249] smd_alloc_channel() cid=09 size=32768 'SMD_DATA3'
+<6>[    1.337341] smd_alloc_channel() cid=11 size=32768 'SMD_DATA5'
+<6>[    1.337402] smd_alloc_channel() cid=12 size=32768 'SMD_DATA6'
+<6>[    1.337493] smd_alloc_channel() cid=13 size=32768 'SMD_DATA7'
+<6>[    1.337615] smd_alloc_channel() cid=15 size=08192 'SMD_DATA9'
+<6>[    1.337707] smd_alloc_channel() cid=27 size=08192 'SMD_GPSNMEA'
+<6>[    1.337799] smd_alloc_channel() cid=40 size=08192 'DSP_DIAG'
+<3>[    1.337860] smd_alloc_v2: cid 41 does not exist
+<3>[    1.337890] smd_alloc_v1: cid 41 does not exist
+<6>[    1.337921] smd_alloc_channel() cid=42 size=08192 'DSP_DAL_AQ_VID'
+<6>[    1.338012] smd_alloc_channel() cid=43 size=08192 'DSP_DAL_AQ_AUD'
+<6>[    1.338104] smd_alloc_channel() cid=46 size=08192 'DSP_DAL00'
+<3>[    1.338195] smd_alloc_v2: cid 47 does not exist
+<3>[    1.338226] smd_alloc_v1: cid 47 does not exist
+<6>[    1.338256] smd_alloc_channel() cid=48 size=08192 'SMD_DAL00'
+<3>[    1.338745] _smem_log_init: no power log or log_idx allocated, smem_log disabled
+<6>[    1.339141] RPC Probe
+<6>[    1.339355] RPC Init done
+<6>[    1.339385] SMD: ch 2 0 -> 1
+<6>[    1.339508] Init amss parameters, found AMSS: 1550
+<6>[    1.339538] SMD: ch 2 1 -> 2
+<6>[    1.340240] Acquire 'boot-time' halt_lock
+<6>[    1.340606] Registered led device: button-backlight
+<3>[    1.981719] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+<3>[    1.981781] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[    1.981842] msm_i2c msm_i2c.0: error, status 43c8 (34)
+<3>[    1.981872] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[    1.982482] input: htcleo-touchscreen as /devices/virtual/input/input0
+<6>[    1.982604] leo_touch_name 0-0000: Start touchscreen htcleo-touchscreen
+<4>[    1.983032] htcleo_wifi_init: start
+<6>[    1.984558] htcleo-microp 0-0066: microp version [05][14]
+<6>[    1.988098] htcleo-microp 0-0066: Init Done
+<6>[    1.988281] capella_cm3602_probe: probe
+<6>[    1.988494] input: proximity as /devices/virtual/input/input1
+<6>[    1.988983] htcleo_backlight_probe: HTCLeo Backlight connect with microP: Probe
+<6>[    1.989105] Registered led device: lcd-backlight
+<4>[    1.990417] BTN-BCKM: Registering btn manager...
+<6>[    1.990722] Registered led device: flashlight
+<6>[    1.990753] flashlight_probe: The Flashlight Driver is ready
+<6>[    1.990875] HTC Battery Probe
+<6>[    1.990905] batt: init over voltage interrupt detection. at 1099288365 (1970-01-01 00:00:01.099288365 UTC)
+<6>[    1.990997] htc_battery_core_probe
+<6>[    1.991363] [USB] msm_hsusb_set_vbus_state: 0
+<6>[    1.991607] [HS_MGR] (htc_35mm_probe) ++++++++++++++++++++
+<6>[    1.992279] input: h2w headset as /devices/virtual/input/input2
+<6>[    1.992431] [HS_MGR] (htc_35mm_probe) --------------------
+<6>[    1.992614] [HS_GPIO] (audiojack_probe) ++++++++++++++++++++
+<6>[    1.992706] DET IRQ Registered!
+<6>[    1.992736] MIC IRQ Registered!
+<6>[    1.992767] [HS_MGR] (headset_notifier_register) Register MIC_STATUS notifier
+<6>[    1.992797] [HS_MGR] (headset_notifier_register) Register KEY_INT_ENABLE notifier
+<6>[    1.992858] [HS_GPIO] (audiojack_probe) --------------------
+<4>[    2.002075] highmem bounce pool size: 64 pages
+<6>[    2.002349] ashmem: initialized
+<6>[    2.004028] Btrfs loaded
+<7>[    2.004058] yaffs: yaffs built Mar 16 2013 15:34:47 Installing.
+<6>[    2.007415] alg: No test for stdrng (krng)
+<6>[    2.007537] io scheduler noop registered
+<6>[    2.007537] io scheduler anticipatory registered
+<6>[    2.007568] io scheduler deadline registered
+<6>[    2.007690] io scheduler cfq registered (default)
+<7>[    2.008392] clock-wince: pc_clk_set_rate: id=42 rate=24576000
+<7>[    2.008422] clock-wince: set mdns: 42, 24576000; bitidx=0, offset=0, ns=0
+<4>[    2.008453] set_mdns_host_clock: FIXME! Don't know how to set clock 42 - no known Md/Ns reg
+<7>[    2.008514] clock-wince: pc_clk_set_rate: id=43 rate=24576000
+<7>[    2.008544] clock-wince: set mdns: 43, 24576000; bitidx=0, offset=0, ns=0
+<4>[    2.008575] set_mdns_host_clock: FIXME! Don't know how to set clock 43 - no known Md/Ns reg
+<6>[    2.009094] msmfb_probe() installing 480 x 800 panel
+<6>[    2.017242] msmfb: pan_update in state(1)
+<6>[    2.017272] msmfb: full update starting
+<6>[    2.017333] mdp_lcdc_probe: initialized
+<6>[    2.024078] kgsl kgsl-3d0: |kgsl_gpummu_init| MMU type set for device is GPUMMU
+<6>[    2.024536] msm_serial_hs.0: ttyHS0 at MMIO 0xa0200000 (irq = 44) is a MSM HS UART
+<6>[    2.024963] msm_serial_hs module loaded
+<6>[    2.029205] brd: module loaded
+<6>[    2.031341] loop: module loaded
+<6>[    2.031494] pmem: Initializing pmem (user-space) as cached
+<6>[    2.032501] pmem: Initializing pmem_adsp (user-space) as non-cached
+<6>[    2.033355] pmem: Initializing pmem_venc (user-space) as non-cached
+<6>[    2.033874] Android kernel panic handler initialized (bind=kpanic)
+<6>[    2.063964] msmfb: full update completed
+<6>[    2.064025] spi_bma150_probe: G-sensor connect with microP: start initial, kvalue = 0x0
+<6>[    2.064270] msmfb: turning on panel
+<6>[    2.064300] lcdc_unblank: ()
+<6>[    2.064300] sharp_panel_unblank
+<6>[    2.101989] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[    2.103973] msm_nand: allocated dma buffer at ffa4d000, dma_addr 21300000
+<6>[    2.104095] status: c03120
+<6>[    2.104125] nandid: 5501b3ec maker ec device b3
+<6>[    2.104156] Found a supported NAND device
+<6>[    2.104187] NAND Id  : 0xB3EC
+<6>[    2.104187] Buswidth : 16 Bits 
+<6>[    2.104217] Density  : 1024 MByte
+<6>[    2.104248] Pagesize : 2048 Bytes
+<6>[    2.104248] Erasesize: 131072 Bytes
+<6>[    2.104278] Oobsize  : 64 Bytes
+<6>[    2.104370] msm_nand: read CFG0 = aa5400c0, CFG1 = 6744e
+<6>[    2.104400] CFG0 Old: 0xaa5400c0 
+<6>[    2.104400] CFG1 Old: 0x0006744e 
+<6>[    2.104431] CFG0 Init  : 0xea5400c0 
+<6>[    2.104461] CFG1 Init  : 0x0006744e 
+<6>[    2.104492] CFG0: cw/page=3 ud_sz=512 ecc_sz=10 spare_sz=4 num_addr_cycles=5
+<6>[    2.104583] DEV_CMD1: f00f3000
+<6>[    2.104644] <6>NAND_EBI2_ECC_BUF_CFG: 1ff
+<6>[    2.104949] Device WiFi MAC Address: macaddr=<MAC-REDACTED>
+<6>[    2.104980] 
+<6>[    2.105255] Device Bluetooth MAC Address: <MAC-REDACTED>
+<4>[    2.105285] #MTD# parts in atag = 8
+<5>[    2.105316] Creating 8 MTD partitions on "msm_nand":
+<5>[    2.105346] 0x000004320000-0x000005520000 : "namss"
+<5>[    2.125244] 0x000005520000-0x000006320000 : "nqdsp"
+<5>[    2.140716] 0x000006320000-0x000006b20000 : "nefs2"
+<5>[    2.149780] 0x000006b20000-0x000006ca0000 : "nspl"
+<5>[    2.151916] 0x000006ca0000-0x00003f800000 : ""
+<4>[    2.184143] ###BAD BLOCK 1109 08AA0000###
+<4>[    2.192443] ###BAD BLOCK 1171 09260000###
+<4>[    2.242004] ###BAD BLOCK 1542 0C0C0000###
+<4>[    2.312896] ###BAD BLOCK 2073 10320000###
+<4>[    2.329742] ###BAD BLOCK 2199 112E0000###
+<4>[    2.582489] ###BAD BLOCK 4096 20000000###
+<4>[    2.686889] ###BAD BLOCK 4879 261E0000###
+<4>[    2.991668] ###BAD BLOCK 7161 37F20000###
+<5>[    3.121429] 0x00003f800000-0x00003f900000 : "htceblogs"
+<5>[    3.123016] 0x00003f900000-0x00003f980000 : "apps"
+<5>[    3.124114] 0x00003f980000-0x000040000000 : "htcmisc"
+<6>[    3.131774] PPP generic driver version 2.4.2
+<6>[    3.132049] PPP Deflate Compression module registered
+<6>[    3.132080] PPP BSD Compression module registered
+<6>[    3.132965] PPP MPPE Compression module registered
+<6>[    3.132995] NET: Registered protocol family 24
+<6>[    3.133056] PPPoL2TP kernel driver, V1.0
+<6>[    3.133087] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+<6>[    3.134185] [USB] msm72k_probe
+<6>[    3.134216] [USB] accessory detect 0
+<6>[    3.134246] [USB] id_pin_gpio 0
+<6>[    3.134277] [USB] dock detect 0
+<6>[    3.134277] [USB] dock pin gpio 0
+<6>[    3.134338] [USB] msm72k_probe() io=d0860000, irq=58, dma=ffb4d000(212d1000)
+<6>[    3.135009] android init
+<6>[    3.135070] android_probe pdata: c05f4330
+<6>[    3.135192] android_bind
+<7>[    3.135223] android_bind_config
+<6>[    3.135253] android_usb gadget: android_usb ready
+<6>[    3.135284] [USB] msm72k_udc: registered gadget driver 'android_usb'
+<6>[    3.135375] f_adb init
+<6>[    3.135406] android_register_function adb
+<6>[    3.135406] f_mass_storage init
+<6>[    3.135437] android_register_function usb_mass_storage
+<6>[    3.135467] f_rndis init
+<6>[    3.135589] android_register_function rndis
+<6>[    3.135620] rndis_function_bind_config MAC: <MAC-REDACTED>
+<4>[    3.135650] android_usb gadget: using random self ethernet address
+<4>[    3.135711] android_usb gadget: using random host ethernet address
+<6>[    3.136077] usb0: MAC <MAC-REDACTED>
+<6>[    3.136108] usb0: HOST MAC <MAC-REDACTED>
+<6>[    3.136230] mass_storage_bind_config
+<6>[    3.136383] fsg_probe pdata: c05f5668
+<6>[    3.136688] [USB] hsusb: IDLE -> ONLINE
+<6>[    3.136688] [USB] lpm exit
+<6>[    3.136749] [USB] hsusb: reset controller
+<6>[    3.136779] android_usb gadget: Number of LUNs=1
+<6>[    3.136810] adb_bind_config
+<6>[    3.137207] usb: product_id=0xc02
+<6>[    3.137756] GPIO Matrix Keypad Driver: Start keypad matrix for htcleo-keypad in interrupt mode
+<6>[    3.137908] GPIO Input Driver: Start gpio inputs for htcleo-keypad in interrupt mode
+<6>[    3.138183] input: htcleo-keypad as /devices/virtual/input/input3
+<6>[    3.138793] using input dev h2w headset for key reset
+<6>[    3.138854] using input dev htcleo-keypad for key reset
+<6>[    3.139221] RTC: Init MSM RTC Clock
+<6>[    3.139617] using rtc device, msm_rtc, for alarms
+<6>[    3.139678] rs30000048:00010000 rs30000048:00010000: rtc core: registered msm_rtc as rtc0
+<6>[    3.139770] AKM8973 compass driver: init
+<6>[    3.140380] input: compass as /devices/virtual/input/input4
+<6>[    3.140808] [FLT]adp1650 Led Flash driver: init
+<6>[    3.140869] Linux video capture interface: v2.00
+<6>[    3.141448] sctrl.node 0
+<6>[    3.141479] s5k3e2fx_sensor_probe
+<6>[    3.171997] msm_hsusb_phy_reset
+<6>[    3.381988] [USB] ulpi: write 0x0c to 0x31
+<6>[    3.382019] [USB] ulpi: write 0x30 to 0x32
+<6>[    3.382049] [USB] ulpi: write 0x1d to 0x0d
+<6>[    3.382080] [USB] ulpi: write 0x1d to 0x10
+<6>[    3.382110] [USB] handle_notify_offline: notify offline
+<6>[    3.382141] [USB] msm_hsusb: enable pullup
+<6>[    3.382171] [USB] hsusb: ONLINE -> OFFLINE
+<6>[    3.382202] [USB] handle_notify_offline: notify offline
+<6>[    3.382232] msm_hsusb_phy_reset
+<6>[    3.441986] [USB] lpm enter
+<6>[    3.442016] [USB] usb_suspend_phy
+<6>[    3.573333] s5k3e2fx:kobject creat and add
+<6>[    3.573364] s5k3e2fx:sysfs_create_file
+<6>[    3.573394] s5k3e2fx:sysfs_create_file
+<6>[    3.574340] [ds2746_batt]ds2746_battery_init
+<6>[    3.574401] /proc/fast_charge created
+<6>[    3.574493] [ds2746_batt] ds2746_battery_prob
+<4>[    3.574829] [D:BATT]Use 600 Kohm thermal resistance
+<6>[    3.575531] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+<6>[    3.575653] Bluetooth: HCI UART driver ver 2.2
+<6>[    3.575683] Bluetooth: HCI H4 protocol initialized
+<6>[    3.575714] Bluetooth: HCILL protocol initialized
+<6>[    3.576263] [imoseyon] interactiveX enter
+<6>[    3.577301] mmc0: Qualcomm MSM SDCC at 0x00000000a0300000 irq 24,0 dma 8
+<6>[    3.577331] mmc0: Platform slot type: N/A
+<6>[    3.577362] mmc0: 4 bit data mode enabled
+<6>[    3.577392] mmc0: 8 bit data mode disabled
+<6>[    3.577423] mmc0: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+<6>[    3.577453] mmc0: Slot eject status = 1
+<6>[    3.577484] mmc0: Power save feature enable = 1
+<6>[    3.577514] mmc0: DM non-cached buffer at ffb4f000, dma_addr 0x2140c000
+<6>[    3.577545] mmc0: DM cmd busaddr 0x2140c000, cmdptr busaddr 0x2140cc00
+<7>[    3.578125] msmsdcc_platform_status_irq: 240
+<6>[    3.578155] mmc1: Slot status change detected (0 -> 1)
+<4>[    3.578308] @@@ SD power 0 @@@
+<6>[    3.578613] mmc1: Qualcomm MSM SDCC at 0x00000000a0400000 irq 26,240 dma 8
+<6>[    3.578674] mmc1: Platform slot type: SD
+<6>[    3.578674] mmc1: 4 bit data mode enabled
+<6>[    3.578704] mmc1: 8 bit data mode disabled
+<6>[    3.578735] mmc1: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+<6>[    3.578765] mmc1: Slot eject status = 0
+<6>[    3.578796] mmc1: Power save feature enable = 1
+<6>[    3.578826] mmc1: DM non-cached buffer at ffb50000, dma_addr 0x2140e000
+<6>[    3.578857] mmc1: DM cmd busaddr 0x2140e000, cmdptr busaddr 0x2140ec00
+<6>[    3.579345] Registered led device: amber
+<6>[    3.579437] Registered led device: green
+<6>[    3.579498] microp_led_probe: succeeded
+<6>[    3.580230] logger: created 64K log 'log_main'
+<6>[    3.580383] logger: created 256K log 'log_events'
+<6>[    3.580505] logger: created 64K log 'log_radio'
+<6>[    3.580627] logger: created 64K log 'log_system'
+<6>[    3.580963] zram: num_devices not specified. Using default: 1
+<6>[    3.580993] zram: Creating 1 devices ...
+<4>[    3.581542] GACT probability NOT on
+<4>[    3.581573] Mirror/redirect action on
+<4>[    3.581604] u32 classifier
+<4>[    3.581604]     Actions configured 
+<4>[    3.581695] Netfilter messages via NETLINK v0.30.
+<4>[    3.581787] nf_conntrack version 0.5.0 (6560 buckets, 26240 max)
+<4>[    3.582061] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+<4>[    3.582122] nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+<4>[    3.582153] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+<4>[    3.582305] ctnetlink v0.93: registering with nfnetlink.
+<6>[    3.582397] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    3.582427] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    3.582855] xt_time: kernel timezone is -0000
+<6>[    3.582946] GRE over IPv4 tunneling driver
+<6>[    3.583526] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    3.583740] arp_tables: (C) 2002 David S. Miller
+<6>[    3.583831] TCP cubic registered
+<6>[    3.583862] Initializing XFRM netlink socket
+<6>[    3.584197] NET: Registered protocol family 10
+<6>[    3.585449] Mobile IPv6
+<6>[    3.585510] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    3.585723] IPv6 over IPv4 tunneling driver
+<6>[    3.586700] NET: Registered protocol family 17
+<6>[    3.586791] NET: Registered protocol family 15
+<5>[    3.586914] Bridge firewalling registered
+<6>[    3.586975] Bluetooth: L2CAP ver 2.14
+<6>[    3.586975] Bluetooth: L2CAP socket layer initialized
+<6>[    3.587036] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[    3.587036] Bluetooth: SCO socket layer initialized
+<6>[    3.587341] Bluetooth: RFCOMM TTY layer initialized
+<6>[    3.587371] Bluetooth: RFCOMM socket layer initialized
+<6>[    3.587402] Bluetooth: RFCOMM ver 1.11
+<6>[    3.587432] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    3.587463] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    3.587646] NET: Registered protocol family 35
+<6>[    3.587799] ThumbEE CPU extension supported.
+<6>[    3.587829] wifi_nvs_init
+<6>[    3.587890] [Port list] init()
+<6>[    3.587890] [Port list] Virtual Address for port_list: [f81b6678]
+<6>[    3.587921] [Port list] Physical Address for port_list: [1B6678]
+<6>[    3.588714] input: lightsensor-level as /devices/virtual/input/input5
+<4>[    3.590057] [D:BATT] V=4084(68a) I=-347(fffffc91) C=1125.0/1230(100c) id=4(aa) T=340(d7) KADC=1000
+<4>[    3.590118] [D:BATT] state change(0->2), full count=0, over load count=0 [2698]
+<6>[    3.590148] batt: ds2784_notify: 1 92 at 2698562074 (1970-01-01 00:00:02.698531557 UTC)
+<6>[    3.590332] batt: batt:power_supply_changed: battery at 2698745180 (1970-01-01 00:00:02.698714662 UTC)
+<6>[    3.590850] clock_late_init() disabled 19 unused clocks
+<6>[    3.590881] VFP support v0.3: implementor 51 architecture 0 part 0f variant 0 rev 1
+<4>[    3.591644] regulator_init_complete: incomplete constraints, leaving ldo2 on
+<4>[    3.591888] regulator_init_complete: incomplete constraints, leaving ldo1 on
+<4>[    3.592102] regulator_init_complete: incomplete constraints, leaving dcdc3 on
+<4>[    3.592315] regulator_init_complete: incomplete constraints, leaving dcdc2 on
+<4>[    3.592559] regulator_init_complete: incomplete constraints, leaving dcdc1 on
+<6>[    3.593627] rs30000048:00010000 rs30000048:00010000: setting system clock to 2026-10-16 18:43:20 UTC (1792176200)
+<6>[    3.593963] Freeing init memory: 404K
+<4>[    3.671722] @@@ SD power 17 @@@
+<4>[    3.741088] @@@ SD power 15 @@@
+<4>[    3.880371] mmc1: host does not support reading read-only switch. assuming write-enable.
+<6>[    3.880462] mmc1: new high speed SDHC card at address 59b4
+<6>[    3.891723] mmcblk0: mmc1:59b4 SD32G 29.1 GiB 
+<6>[    3.892028]  mmcblk0: p1 p2 p3
+<3>[    4.126464] init: /init.htcleo.rc: 187: invalid option '-g@android:wpa_wlan0'
+<3>[    4.128173] init: do_chown: Could not access /selinux/booleans
+<3>[    4.128265] init: do_chown: Could not access /sys/fs/selinux/booleans
+<3>[    4.209503] init: /dev/hw_random not found
+<6>[    4.209655] keychord: using input dev h2w headset for fevent
+<6>[    4.209686] keychord: using input dev htcleo-keypad for fevent
+<3>[    4.209960] init: cannot open '/initlogo.rle'
+<6>[    4.218261] enabling adb
+<6>[    4.218566] adb_open(adbd)
+<6>[    4.419036] EXT4-fs (loop7): mounted filesystem with ordered data mode
+<3>[    4.618957] init: /dev/hw_random not found
+<3>[    4.628143] init: cannot find '/system/bin/auditd', disabling 'auditd'
+<3>[    4.634948] healthd: wakealarm_init: timerfd_create failed
+<6>[    5.531799] acpuclk_set_vdd_level got regulator setting vdd_level 1250 
+<4>[    5.804931] msm_rmnet: module license 'unspecified' taints kernel.
+<4>[    5.804992] Disabling lock debugging due to kernel taint
+<6>[    6.046112] tun: Universal TUN/TAP device driver, 1.6
+<6>[    6.046173] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    6.079315] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<6>[    6.105957] fuse init (API version 7.13)
+<6>[    6.294311] SMD: ch 0 0 -> 1
+<6>[    6.294372] SMD: ch 5 0 -> 1
+<4>[    6.294403] -qmi_open 0
+<4>[    6.294433] -qmi_open 0
+<4>[    6.294433] -qmi_open 0
+<6>[    6.294464] SMD: ch 0 1 -> 2
+<6>[    6.294525] SMD: ch 5 1 -> 2
+<6>[    6.294555] qmi: smd opened
+<6>[    6.295043] qmi: send: svc=00 cid=00 tid=0001 type=0022 size=0004
+<6>[    6.295074] qmi: send: tlv: 01 0001 { 01 }
+<6>[    6.295104] qmi: send: svc=00 cid=00 tid=0001 type=0022 size=0004
+<6>[    6.295135] qmi: send: tlv: 01 0001 { 01 }
+<6>[    6.295166] qmi: send: svc=00 cid=00 tid=0001 type=0022 size=0004
+<6>[    6.295196] qmi: send: tlv: 01 0001 { 01 }
+<4>[    6.295593] +qmi_read 256
+<6>[    6.295898] qmi: recv: svc=00 cid=00 tid=0001 type=0022 size=000c
+<6>[    6.295928] qmi: recv: tlv: 02 0004 { 00 00 00 00 }
+<6>[    6.295959] qmi: recv: tlv: 01 0002 { 01 01 }
+<6>[    6.295989] qmi: ctl: wds use client_id 0x01
+<6>[    6.296173] qmi: recv: svc=00 cid=00 tid=0001 type=0022 size=000c
+<6>[    6.296203] qmi: recv: tlv: 02 0004 { 00 00 00 00 }
+<6>[    6.296234] qmi: recv: tlv: 01 0002 { 01 01 }
+<6>[    6.296264] qmi: ctl: wds use client_id 0x01
+<6>[    6.296417] qmi: recv: svc=00 cid=00 tid=0001 type=0022 size=000c
+<6>[    6.296417] qmi: recv: tlv: 02 0004 { 00 00 00 00 }
+<6>[    6.296478] qmi: recv: tlv: 01 0002 { 01 01 }
+<6>[    6.296508] qmi: ctl: wds use client_id 0x01
+<6>[    6.299346] NAND boot, writing additional init commands to /dev/smd0
+<6>[    7.352722] kgsl kgsl-3d0: firmware: requesting yamato_pm4.fw
+<6>[    7.399810] kgsl kgsl-3d0: firmware: requesting yamato_pfp.fw
+<6>[    7.983581] request_suspend_state: wakeup (3->0) at 7091933675 (2026-10-16 18:43:24.889923114 UTC)
+<6>[    9.843688] request_suspend_state: wakeup (0->0) at 8952071607 (2026-10-16 18:43:26.750030529 UTC)
+<3>[    9.845184] init: untracked pid 237 exited
+<6>[   15.782470] request_suspend_state: wakeup (0->0) at 14890822841 (2026-10-16 18:43:32.688812280 UTC)
+<3>[   15.785186] init: untracked pid 266 exited
+<6>[   20.732879] request_suspend_state: wakeup (0->0) at 19841262295 (2026-10-16 18:43:37.639221216 UTC)
+<3>[   20.735412] init: untracked pid 298 exited
+<6>[   22.635101] notify_cable_status(1)
+<6>[   22.635131] [USB] msm_hsusb_set_vbus_state: 1
+<6>[   22.635162] [USB] hsusb: OFFLINE -> ONLINE
+<6>[   22.635192] [USB] lpm exit
+<6>[   22.636199] [USB] hsusb: reset controller
+<6>[   22.671997] msm_hsusb_phy_reset
+<6>[   22.881988] [USB] ulpi: write 0x0c to 0x31
+<6>[   22.882019] [USB] ulpi: write 0x30 to 0x32
+<6>[   22.882019] [USB] ulpi: write 0x1d to 0x0d
+<6>[   22.882049] [USB] ulpi: write 0x1d to 0x10
+<6>[   22.882080] [USB] handle_notify_offline: notify offline
+<6>[   22.882110] [USB] msm_hsusb: enable pullup
+<6>[   22.885131] [USB] suspend
+<6>[   22.902008] [USB] not AC charger
+<6>[   22.987121] [USB] reset
+<6>[   22.987152] [USB] send connect type 1
+<6>[   22.987182] fsg_set_ums_state: 1
+<6>[   22.987182] ums: set state 1
+<6>[   22.987487] batt:online=1
+<6>[   22.987487] [ds2746_batt] cable change to 1
+<6>[   22.987518] batt: ds2784_notify: 0 1 at 22095931464 (2026-10-16 18:43:39.893890385 UTC)
+<6>[   22.987579] batt: charger ON (SLOW) at 22095961981 (2026-10-16 18:43:39.893951420 UTC)
+<6>[   22.988311] healthd: battery l=92 v=4 t=34.0 h=2 st=2 chg=u
+<6>[   22.989105] healthd: battery l=92 v=4 t=34.0 h=2 st=2 chg=u
+<6>[   22.989410] [USB] portchange USB_SPEED_HIGH
+<6>[   22.989868] healthd: battery l=92 v=4 t=34.0 h=2 st=2 chg=u
+<6>[   23.102142] [USB] reset
+<6>[   23.104431] [USB] portchange USB_SPEED_HIGH
+<6>[   23.236419] android_usb gadget: high speed config #1: android
+<6>[   23.236572] ums: set state 1
+<6>[   25.643707] request_suspend_state: wakeup (0->0) at 24752059416 (2026-10-16 18:43:42.550048855 UTC)
+<3>[   25.644653] init: untracked pid 347 exited
+<6>[   30.543640] request_suspend_state: wakeup (0->0) at 29651992276 (2026-10-16 18:43:47.449981715 UTC)
+<3>[   30.545043] init: untracked pid 384 exited
+<6>[   35.450286] request_suspend_state: wakeup (0->0) at 34558639003 (2026-10-16 18:43:52.356628442 UTC)
+<6>[   40.340118] request_suspend_state: wakeup (0->0) at 39448501065 (2026-10-16 18:43:57.246490504 UTC)
+<3>[   40.342742] init: untracked pid 445 exited
+<6>[   45.268371] request_suspend_state: wakeup (0->0) at 44376723720 (2026-10-16 18:44:02.174713159 UTC)
+<3>[   45.269836] init: untracked pid 478 exited
+<6>[   50.151184] request_suspend_state: wakeup (0->0) at 49259536215 (2026-10-16 18:44:07.057525654 UTC)
+<4>[   54.170288] [D:BATT] V=4191(6b6) I=151(17e) C=1124.0/1230(100b) id=4(b0) T=340(dd) KADC=1000
+<4>[   54.170349] [D:BATT] acr update: P=915, C=4108.
+<4>[   54.170593] [D:BATT]new RARC=915 C=1125mAh adc=4108.
+<4>[   54.170593] [D:BATT] state change(2->3), full count=0, over load count=0 [1174888644]
+<6>[   54.170654] batt: ds2784_notify: 0 2 at 53279036918 (2026-10-16 18:44:11.076995840 UTC)
+<6>[   54.170684] batt: charger ON (FAST) at 53279067436 (2026-10-16 18:44:11.077056875 UTC)
+<6>[   55.085968] request_suspend_state: wakeup (0->0) at 54194350672 (2026-10-16 18:44:11.992309594 UTC)
+<3>[   55.087127] init: untracked pid 539 exited
+<6>[   60.215576] htc-acoustic: open
+<6>[   60.217956] htc-acoustic: mmap
+<6>[   60.218231] htc-acoustic: ioctl
+<6>[   60.218261] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 545.
+<6>[   60.218292] htc-acoustic: ioctl: done.
+<6>[   60.219299] htc-acoustic: release
+<6>[   60.219390] Audio: voice: stop
+<6>[   61.331695] Release 'boot-time' halt_lock
+<4>[  104.309997] [D:BATT] V=4201(6ba) I=148(177) C=1126.0/1230(1011) id=4(b0) T=340(dd) KADC=1000
+<4>[  154.330261] [D:BATT] V=4201(6ba) I=132(14f) C=1128.0/1230(1016) id=4(b0) T=340(dd) KADC=1000
+<4>[  204.347930] [D:BATT] V=4201(6ba) I=122(135) C=1130.0/1230(101b) id=4(b0) T=340(dd) KADC=1000
+<4>[  254.367614] [D:BATT] V=4201(6ba) I=113(11e) C=1132.0/1230(101f) id=4(b1) T=340(dd) KADC=1000
+<6>[  254.367675] batt: ds2784_notify: 1 93 at 253476088921 (2026-10-16 18:47:31.274047843 UTC)
+<6>[  254.367736] batt: batt:power_supply_changed: battery at 253476149957 (2026-10-16 18:47:31.274108878 UTC)
+<6>[  254.368865] healthd: battery l=93 v=4 t=34.0 h=2 st=2 chg=u
+<4>[  304.388488] [D:BATT] V=4201(6ba) I=106(10c) C=1134.0/1230(1023) id=4(b1) T=340(dd) KADC=1000
+<4>[  354.408630] [D:BATT] V=4201(6ba) I=100(fd) C=1135.0/1230(1026) id=4(b1) T=340(dd) KADC=1000
+<4>[  404.428863] [D:BATT] V=4201(6ba) I=94(ee) C=1136.0/1230(102a) id=4(b1) T=340(dd) KADC=1000
+<6>[  446.707458] request_suspend_state: wakeup (0->0) at 445815841148 (2026-10-16 18:50:43.613800069 UTC)
+<6>[  447.354705] htc-acoustic: open
+<6>[  447.356964] htc-acoustic: mmap
+<6>[  447.357849] htc-acoustic: ioctl
+<6>[  447.357879] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 950.
+<6>[  447.357910] htc-acoustic: ioctl: done.
+<6>[  447.358520] htc-acoustic: release
+<6>[  447.358612] Audio: voice: stop
+<6>[  452.306976] request_suspend_state: wakeup (0->0) at 451415328460 (2026-10-16 18:50:49.213317899 UTC)
+<6>[  453.025329] htc-acoustic: open
+<6>[  453.027374] htc-acoustic: mmap
+<6>[  453.027618] htc-acoustic: ioctl
+<6>[  453.027648] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 1236.
+<6>[  453.027679] htc-acoustic: ioctl: done.
+<6>[  453.028198] htc-acoustic: release
+<6>[  453.028259] Audio: voice: stop
+<4>[  454.433532] [D:BATT] V=4201(6ba) I=89(e3) C=1138.0/1230(102d) id=4(b1) T=340(dd) KADC=1000
+<6>[  456.926971] request_suspend_state: wakeup (0->0) at 456035323585 (2026-10-16 18:50:53.833313024 UTC)
+<6>[  457.545104] htc-acoustic: open
+<6>[  457.547454] htc-acoustic: mmap
+<6>[  457.547760] htc-acoustic: ioctl
+<6>[  457.547760] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 1529.
+<6>[  457.547790] htc-acoustic: ioctl: done.
+<6>[  457.548339] htc-acoustic: release
+<6>[  457.548400] Audio: voice: stop
+<6>[  461.923126] request_suspend_state: wakeup (0->0) at 461031478374 (2026-10-16 18:50:58.829467813 UTC)
+<3>[  461.928375] init: untracked pid 1761 exited
+<6>[  462.543151] htc-acoustic: open
+<6>[  462.545166] htc-acoustic: mmap
+<6>[  462.545440] htc-acoustic: ioctl
+<6>[  462.545440] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 1762.
+<6>[  462.545471] htc-acoustic: ioctl: done.
+<6>[  462.545989] htc-acoustic: release
+<6>[  462.546081] Audio: voice: stop
+<4>[  504.443847] [D:BATT] V=4201(6ba) I=85(d7) C=1139.0/1230(1030) id=4(b1) T=340(dd) KADC=1000
+<6>[  520.639892] request_suspend_state: wakeup (0->0) at 519748275243 (2026-10-16 18:51:57.546264682 UTC)
+<6>[  522.164978] htc-acoustic: open
+<6>[  522.166961] htc-acoustic: mmap
+<6>[  522.167236] htc-acoustic: ioctl
+<6>[  522.167266] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 2094.
+<6>[  522.167297] htc-acoustic: ioctl: done.
+<6>[  522.168121] htc-acoustic: release
+<6>[  522.168212] Audio: voice: stop
+<6>[  533.650451] request_suspend_state: wakeup (0->0) at 532758803807 (2026-10-16 18:52:10.556793246 UTC)
+<6>[  535.201812] htc-acoustic: open
+<6>[  535.204528] htc-acoustic: mmap
+<6>[  535.204833] htc-acoustic: ioctl
+<6>[  535.204833] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 2386.
+<6>[  535.204864] htc-acoustic: ioctl: done.
+<6>[  535.205383] htc-acoustic: release
+<6>[  535.205444] Audio: voice: stop
+<3>[  546.938476] init: untracked pid 2666 exited
+<4>[  554.453643] [D:BATT] V=4201(6ba) I=81(cd) C=1140.0/1230(1033) id=4(b1) T=340(dd) KADC=1000
+<6>[  561.737182] request_suspend_state: wakeup (0->0) at 560845565284 (2026-10-16 18:52:38.643554723 UTC)
+<6>[  563.503692] htc-acoustic: open
+<6>[  563.518066] htc-acoustic: mmap
+<6>[  563.519500] htc-acoustic: ioctl
+<6>[  563.519531] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 2719.
+<6>[  563.519561] htc-acoustic: ioctl: done.
+<6>[  563.526519] htc-acoustic: release
+<6>[  563.526641] Audio: voice: stop
+<6>[  578.634582] request_suspend_state: wakeup (0->0) at 577742934667 (2026-10-16 18:52:55.540924106 UTC)
+<6>[  580.449096] htc-acoustic: open
+<6>[  580.452239] htc-acoustic: mmap
+<6>[  580.452636] htc-acoustic: ioctl
+<6>[  580.452667] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 3012.
+<6>[  580.452697] htc-acoustic: ioctl: done.
+<6>[  580.453826] htc-acoustic: release
+<6>[  580.453948] Audio: voice: stop
+<4>[  604.519073] [D:BATT] V=4201(6ba) I=77(c3) C=1141.0/1230(1036) id=4(b1) T=340(dd) KADC=1000
+<4>[  654.539428] [D:BATT] V=4201(6ba) I=73(b9) C=1142.0/1230(1038) id=4(b1) T=340(dc) KADC=1000
+<6>[  679.241729] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[  679.271728] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[  680.550659] Audio: SWITCH DEVICE 17306899, acdb 607
+<6>[  680.550720] q6audio_init
+<6>[  680.550750] audio: init: first run, init dummy control
+<6>[  680.550811] SMD: ch 43 0 -> 1
+<6>[  680.550872] SMD: ch 43 1 -> 2
+<6>[  680.653686] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<6>[  680.654907] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<6>[  681.256195] open done!
+<6>[  681.256347] SMD: ch 48 0 -> 1
+<6>[  681.256530] SMD: ch 48 1 -> 2
+<6>[  681.362121] dal_attach: status = 0, name = 'DAL00'
+<6>[  681.362518] dal_attach: status = 0, name = 'DAL00'
+<6>[  681.362609] Audio: htcleo_analog_init
+<6>[  681.376739] acdb: load 'default.acdb'
+<6>[  681.376831] misc msm_audio_ctl: firmware: requesting default.acdb
+<6>[  681.402435] Audio: htcleo_get_rx_vol 600
+<6>[  681.402801] Audio: htcleo_get_rx_vol 600
+<6>[  681.403533] Audio: htcleo_get_rx_vol 600
+<4>[  681.404235] audio_cb: s=1 e=0107605c status=20
+<6>[  681.404479] Audio: htcleo_get_rx_vol 500
+<4>[  681.405181] audio_cb: s=1 e=0107605c status=20
+<6>[  681.405426] Audio: htcleo_get_rx_vol 500
+<4>[  681.406127] audio_cb: s=1 e=0107605c status=20
+<6>[  681.406372] Audio: htcleo_get_rx_vol 500
+<4>[  681.407104] audio_cb: s=1 e=0107605c status=20
+<6>[  681.407318] Audio: htcleo_get_rx_vol 500
+<4>[  681.408050] audio_cb: s=1 e=0107605c status=20
+<6>[  681.408264] Audio: htcleo_get_rx_vol 500
+<6>[  681.408477] Audio: htcleo_get_rx_vol 500
+<4>[  681.409027] audio_cb: s=1 e=0107605c status=20
+<6>[  681.409332] Audio: htcleo_get_rx_vol 600
+<6>[  681.409637] Audio: htcleo_get_rx_vol 600
+<4>[  681.410003] audio_cb: s=1 e=0107605c status=20
+<6>[  681.410461] Audio: htcleo_get_rx_vol 600
+<6>[  681.410766] Audio: htcleo_get_rx_vol 500
+<4>[  681.411132] audio_cb: s=1 e=0107605c status=20
+<6>[  681.411590] Audio: htcleo_get_rx_vol 600
+<6>[  681.412567] Audio: htcleo_get_rx_vol 400
+<6>[  681.413299] Audio: htcleo_get_rx_vol 400
+<4>[  681.413665] audio_cb: s=1 e=0107605c status=20
+<6>[  681.414001] Audio: htcleo_get_rx_vol 400
+<6>[  681.414245] Audio: htcleo_get_rx_vol 500
+<4>[  681.414764] audio_cb: s=1 e=0107605c status=20
+<6>[  681.415039] Audio: htcleo_get_rx_vol 500
+<4>[  681.415344] audio_update_acdb (17306899, 607)
+<4>[  681.415374] table
+<6>[  681.415374] acdb: 588 bytes for device 607, rate 48000.
+<4>[  681.415435] res1 = 588
+<4>[  681.415435] res2 = 588
+<4>[  681.415466] call audio_set_table
+<4>[  681.415832] audio_cb: s=1 e=0107605c status=20
+<4>[  681.416900] audio_cb: s=1 e=0107605c status=20
+<6>[  681.417419] Audio: SWITCH DEVICE 17306898, acdb 507
+<6>[  681.417877] Audio: htcleo_get_rx_vol -1500
+<4>[  681.417907] $$ DEV=01081513: vol is -1500
+<4>[  681.417968] audio_cb: s=1 e=0107605c status=20
+<4>[  681.418975] audio_cb: s=1 e=0107605c status=20
+<4>[  681.419921] audio_cb: s=1 e=0107605c status=20
+<4>[  681.420806] audio_cb: s=1 e=0107605c status=20
+<4>[  681.421752] audio_cb: s=1 e=0107605c status=20
+<4>[  681.428436] audio_cb: s=1 e=0107605c status=20
+<4>[  681.431091] audio_cb: s=1 e=0107605c status=20
+<4>[  681.435302] audio_cb: s=1 e=0107605c status=20
+<4>[  704.557830] [D:BATT] V=4201(6ba) I=69(b0) C=1143.0/1230(103b) id=4(b1) T=340(dc) KADC=1000
+<4>[  754.560272] [D:BATT] V=4201(6ba) I=66(a9) C=1144.0/1230(103d) id=4(b1) T=340(dc) KADC=1000
+<6>[  757.149902] healthd: battery l=93 v=4 t=34.0 h=2 st=2 chg=u
+<6>[  757.171447] request_suspend_state: wakeup (0->0) at 756279799903 (2026-10-16 18:55:54.077789342 UTC)
+<4>[  804.563812] [D:BATT] V=4201(6ba) I=63(a1) C=1145.0/1230(103f) id=4(b1) T=340(dc) KADC=1000
+<6>[  804.563842] batt: ds2784_notify: 1 94 at 803672225442 (2026-10-16 18:56:41.470214881 UTC)
+<6>[  804.564575] batt: batt:power_supply_changed: battery at 803672988381 (2026-10-16 18:56:41.470947303 UTC)
+<6>[  804.565490] healthd: battery l=94 v=4 t=34.0 h=2 st=2 chg=u
+<6>[  811.520996] alarm_release: clear alarm, pending 0
+<3>[  811.521514] init: untracked pid 3314 exited
+<6>[  821.602050] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[  821.641693] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<3>[  825.627960] init: untracked pid 3593 exited
+<6>[  834.271697] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[  834.311706] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[  840.380371] healthd: battery l=94 v=4 t=34.0 h=2 st=2 chg=u
+<6>[  840.409790] request_suspend_state: wakeup (0->0) at 839518142192 (2026-10-16 18:57:17.316131631 UTC)
+<4>[  854.573486] [D:BATT] V=4201(6ba) I=60(9a) C=1146.0/1230(1042) id=4(b1) T=340(dc) KADC=1000
+<4>[  880.029846] wifi_set_power = 1
+<4>[  880.029846] htcleo_wifi_power: 1
+<4>[  881.034820] wifi_set_carddetect = 1
+<6>[  881.034851] htcleo_wifi_set_carddetect: 1
+<7>[  881.034881] mmc0: card_present 1
+<6>[  881.034912] mmc0: Slot status change detected (0 -> 1)
+<4>[  881.035522] 
+<4>[  881.035522] Dongle Host Driver, version 4.218.248.23
+<7>[  883.604980] mmc0: queuing CIS tuple 0x91 length 3
+<6>[  883.605010] mmc0: new SDIO card at address 0001
+<4>[  883.607574] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[  883.783630] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[  883.949920] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[  884.024780] init: no such service 'p2p_supplicant'
+<3>[  892.027770] init: no such service 'p2p_supplicant'
+<6>[  892.351898] Audio: htcleo_get_rx_vol -1100
+<4>[  892.351959] $$ DEV=01081513: vol is -1100
+<4>[  892.353576] audio_cb: s=1 e=0107605c status=20
+<4>[  904.590698] [D:BATT] V=4201(6ba) I=57(92) C=1147.0/1230(1044) id=4(b1) T=340(dc) KADC=1000
+<6>[  938.565979] request_suspend_state: sleep (0->3) at 937674331127 (2026-10-16 18:58:55.472320566 UTC)
+<6>[  938.566131] [R] early_suspend start
+<6>[  938.581848] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[  938.598541] lcdc_blank: ()
+<6>[  938.598571] sharp_panel_blank
+<6>[  938.611938] msmfb: pan_update in state(4)
+<6>[  938.611938] msmfb: drawing while asleep
+<3>[  938.681793] lsensor: nothing to disable
+<6>[  938.682128] lcdc_suspend: suspending
+<6>[  938.682220] [R] early_suspend: sync
+<6>[  938.722442] msmfb: pan_update in state(4)
+<6>[  938.722473] msmfb: drawing while asleep
+<6>[  938.763519] active wake lock vbus_present
+<6>[  938.763549] wake lock qmi, expired
+<6>[  938.763549] wake lock SMD_DS, expired
+<6>[  938.763549] wake lock mmc_delayed_work, expired
+<6>[  938.763580] [R] early_suspend end
+<6>[  938.832244] msmfb: pan_update in state(4)
+<6>[  938.832244] msmfb: drawing while asleep
+<4>[  954.593811] [D:BATT] V=4201(6ba) I=55(8c) C=1147.0/1230(1046) id=4(b1) T=340(dc) KADC=1000
+<6>[  983.454406] request_suspend_state: wakeup (3->0) at 982562758866 (2026-10-16 18:59:40.360748305 UTC)
+<6>[  983.454498] [R] late_resume start
+<6>[  983.454559] lcdc_resume: resuming
+<6>[  983.454589] sharp_panel_init
+<6>[  983.454650] msmfb: ready, waiting for full update
+<6>[  983.465454] msmfb: pan_update in state(1)
+<6>[  983.465484] msmfb: full update starting
+<6>[  983.481506] msmfb: pan_update in state(3)
+<6>[  983.489532] msmfb: full update completed
+<6>[  983.489593] msmfb: turning on panel
+<6>[  983.489593] lcdc_unblank: ()
+<6>[  983.489624] sharp_panel_unblank
+<3>[  983.992004] msm_i2c msm_i2c.0: error, status 83c8 (5C)
+<3>[  983.992065] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[  983.992126] msm_i2c msm_i2c.0: error, status 63c8 (34)
+<3>[  983.992156] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[  983.992553] [R] late_resume end
+<6>[  998.053985] alarm_release: clear alarm, pending 0
+<6>[  998.054046] alarm_release: clear alarm, pending 0
+<3>[  998.060180] init: untracked pid 3728 exited
+<4>[ 1004.599700] [D:BATT] V=4201(6ba) I=52(84) C=1148.0/1230(1048) id=4(b1) T=340(dc) KADC=1000
+<6>[ 1028.051849] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1028.091705] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1033.132659] healthd: battery l=94 v=4 t=34.0 h=2 st=2 chg=u
+<6>[ 1033.152923] request_suspend_state: wakeup (0->0) at 1032261275733 (2026-10-16 19:00:30.059265172 UTC)
+<4>[ 1034.733367] wifi_set_power = 0
+<4>[ 1034.733367] htcleo_wifi_power: 0
+<4>[ 1038.992553] wifi_set_carddetect = 0
+<6>[ 1038.992553] htcleo_wifi_set_carddetect: 0
+<7>[ 1038.992553] mmc0: card_present 0
+<6>[ 1038.992584] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1038.992889] mmc0: card 0001 removed
+<4>[ 1040.012176] wifi_set_power = 1
+<4>[ 1040.012237] htcleo_wifi_power: 1
+<4>[ 1042.508819] wifi_set_carddetect = 1
+<6>[ 1042.508880] htcleo_wifi_set_carddetect: 1
+<7>[ 1042.508911] mmc0: card_present 1
+<6>[ 1042.508911] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1042.512207] 
+<4>[ 1042.512207] Dongle Host Driver, version 4.218.248.23
+<7>[ 1045.076721] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1045.076782] mmc0: new SDIO card at address 0001
+<4>[ 1045.079895] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1045.324218] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1045.490661] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1045.762084] init: no such service 'p2p_supplicant'
+<3>[ 1047.765563] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 1051.408874] init: no such service 'p2p_supplicant'
+<3>[ 1054.604217] (app_process.hd2) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<4>[ 1054.620391] [D:BATT] V=4201(6ba) I=50(80) C=1149.0/1230(1049) id=4(b1) T=340(dc) KADC=1000
+<4>[ 1054.620422] [D:BATT] state change(3->5), full count=0, over load count=0 [1175889094]
+<6>[ 1064.538482] pcm_out: open
+<6>[ 1064.538940] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 1064.539428] audio_update_acdb (17306899, 607)
+<4>[ 1064.539459] table
+<6>[ 1064.539489] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 1064.539520] res1 = 588
+<4>[ 1064.539550] res2 = 588
+<4>[ 1064.539550] call audio_set_table
+<4>[ 1064.566619] audio_out_open: 1000 44100 2
+<6>[ 1064.641326] open done!
+<6>[ 1064.641418] Audio: htcleo_speaker_enable 1
+<6>[ 1067.881652] Audio: htcleo_speaker_enable 0
+<4>[ 1067.882537] audio_cb: s=2 e=01075c54 status=20
+<6>[ 1067.894927] pcm_out: release
+<3>[ 1067.917663] audio callback: unknown session 2
+<4>[ 1104.623779] [D:BATT] V=4201(6ba) I=48(7b) C=1149.0/1230(104b) id=4(b1) T=340(dc) KADC=1000
+<6>[ 1116.988616] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 1116.988616] 	tick = 37870528
+<6>[ 1116.988616] 	stamp = 56863186181169184
+<6>[ 1124.302276] request_suspend_state: sleep (0->3) at 1123410628777 (2014-05-20 00:00:07.315521251 UTC)
+<6>[ 1124.302337] [R] early_suspend start
+<6>[ 1124.321807] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1124.333496] lcdc_blank: ()
+<6>[ 1124.333526] sharp_panel_blank
+<6>[ 1124.421997] lcdc_suspend: suspending
+<6>[ 1124.422088] [R] early_suspend: sync
+<6>[ 1124.602081] active wake lock vbus_present
+<6>[ 1124.602111] wake lock qmi, expired
+<6>[ 1124.602142] wake lock proximity, expired
+<6>[ 1124.602142] wake lock mmc_delayed_work, expired
+<6>[ 1124.602172] wake lock msm_serial_hs_rx, expired
+<6>[ 1124.602203] active wake lock SMD_DS, time left 0.190
+<6>[ 1124.602203] [R] early_suspend end
+<6>[ 1130.212249] msmfb: pan_update in state(4)
+<6>[ 1130.212249] msmfb: drawing while asleep
+<6>[ 1130.316162] msmfb: pan_update in state(4)
+<6>[ 1130.316192] msmfb: drawing while asleep
+<6>[ 1130.363159] request_suspend_state: wakeup (3->0) at 1129471511345 (2014-05-20 00:00:13.376403819 UTC)
+<6>[ 1130.363220] [R] late_resume start
+<6>[ 1130.363250] lcdc_resume: resuming
+<6>[ 1130.363250] sharp_panel_init
+<6>[ 1130.363311] msmfb: ready, waiting for full update
+<6>[ 1130.409912] msmfb: pan_update in state(1)
+<6>[ 1130.409912] msmfb: full update starting
+<6>[ 1130.433105] msmfb: full update completed
+<6>[ 1130.433197] msmfb: turning on panel
+<6>[ 1130.433227] lcdc_unblank: ()
+<6>[ 1130.433258] sharp_panel_unblank
+<6>[ 1130.449401] msmfb: pan_update in state(3)
+<3>[ 1130.915039] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 1130.915100] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 1130.915161] msm_i2c msm_i2c.0: error, status e3c8 (34)
+<3>[ 1130.915191] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 1130.915588] [R] late_resume end
+<4>[ 1154.644012] [D:BATT] V=4201(6ba) I=46(75) C=1150.0/1230(104d) id=4(b1) T=340(dc) KADC=1000
+<4>[ 1154.644165] [D:BATT] acr update: P=1000, C=4373.
+<4>[ 1154.644561] [D:BATT]new RARC=1000 C=1230mAh adc=4373.
+<4>[ 1154.644653] [D:BATT] state change(5->6), full count=3, over load count=0 [384699161]
+<6>[ 1154.644775] batt: ds2784_notify: 1 100 at 1153753219073 (2014-05-20 00:00:37.658050512 UTC)
+<6>[ 1154.644958] batt: batt:power_supply_changed: battery at 1153753402179 (2014-05-20 00:00:37.658233618 UTC)
+<6>[ 1154.648376] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1193.485992] request_suspend_state: sleep (0->3) at 1192594375090 (2014-05-20 00:01:16.499237047 UTC)
+<6>[ 1193.486083] [R] early_suspend start
+<6>[ 1193.501678] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1193.520751] lcdc_blank: ()
+<6>[ 1193.520782] sharp_panel_blank
+<6>[ 1193.612548] lcdc_suspend: suspending
+<6>[ 1193.612701] [R] early_suspend: sync
+<6>[ 1193.681732] active wake lock vbus_present
+<6>[ 1193.681823] wake lock qmi, expired
+<6>[ 1193.681884] wake lock proximity, expired
+<6>[ 1193.681945] wake lock mmc_delayed_work, expired
+<6>[ 1193.682037] wake lock msm_serial_hs_rx, expired
+<6>[ 1193.682098] active wake lock SMD_DS, time left 0.280
+<6>[ 1193.682189] [R] early_suspend end
+<4>[ 1204.894317] [D:BATT] V=4201(6ba) I=43(6e) C=1230.0/1230(1116) id=4(b1) T=340(dc) KADC=1000
+<3>[ 1206.576538] init: untracked pid 4206 exited
+<3>[ 1206.735870] init: untracked pid 4361 exited
+<3>[ 1206.738067] init: untracked pid 5446 exited
+<3>[ 1206.739868] init: untracked pid 4527 exited
+<3>[ 1206.740753] init: untracked pid 4716 exited
+<3>[ 1206.745697] init: untracked pid 4841 exited
+<3>[ 1206.756317] init: untracked pid 4435 exited
+<3>[ 1206.757446] init: untracked pid 4447 exited
+<3>[ 1206.783630] init: untracked pid 4489 exited
+<3>[ 1206.972229] init: untracked pid 4919 exited
+<3>[ 1206.982025] init: untracked pid 5221 exited
+<3>[ 1206.982391] init: untracked pid 4476 exited
+<3>[ 1206.982696] init: untracked pid 5188 exited
+<3>[ 1206.983001] init: untracked pid 5155 exited
+<3>[ 1206.983306] init: untracked pid 4969 exited
+<3>[ 1206.983612] init: untracked pid 5363 exited
+<3>[ 1206.984497] init: untracked pid 4815 exited
+<3>[ 1206.986846] init: untracked pid 4587 exited
+<3>[ 1207.062500] init: untracked pid 4676 exited
+<3>[ 1207.063140] init: untracked pid 4561 exited
+<3>[ 1207.063690] init: untracked pid 5200 exited
+<3>[ 1207.064147] init: untracked pid 4503 exited
+<3>[ 1207.064453] init: untracked pid 4681 exited
+<3>[ 1207.064758] init: untracked pid 4464 exited
+<3>[ 1207.069244] init: untracked pid 4222 exited
+<6>[ 1207.069854] alarm_release: clear alarm, pending 0
+<6>[ 1207.069885] alarm_release: clear alarm, pending 0
+<3>[ 1207.074401] init: untracked pid 4376 exited
+<6>[ 1207.116668] msmfb: pan_update in state(4)
+<6>[ 1207.116699] msmfb: drawing while asleep
+<6>[ 1207.231109] msmfb: pan_update in state(4)
+<6>[ 1207.231109] msmfb: drawing while asleep
+<6>[ 1207.635131] msmfb: pan_update in state(4)
+<6>[ 1207.635162] msmfb: drawing while asleep
+<6>[ 1207.752227] msmfb: pan_update in state(4)
+<6>[ 1207.752258] msmfb: drawing while asleep
+<6>[ 1207.858398] msmfb: pan_update in state(4)
+<6>[ 1207.858428] msmfb: drawing while asleep
+<6>[ 1207.962188] msmfb: pan_update in state(4)
+<6>[ 1207.962219] msmfb: drawing while asleep
+<6>[ 1208.068206] msmfb: pan_update in state(4)
+<6>[ 1208.068206] msmfb: drawing while asleep
+<6>[ 1208.172088] msmfb: pan_update in state(4)
+<6>[ 1208.172088] msmfb: drawing while asleep
+<6>[ 1208.280212] msmfb: pan_update in state(4)
+<6>[ 1208.280242] msmfb: drawing while asleep
+<6>[ 1208.386199] msmfb: pan_update in state(4)
+<6>[ 1208.386199] msmfb: drawing while asleep
+<6>[ 1208.489166] msmfb: pan_update in state(4)
+<6>[ 1208.489166] msmfb: drawing while asleep
+<6>[ 1208.588531] msmfb: pan_update in state(4)
+<6>[ 1208.588562] msmfb: drawing while asleep
+<6>[ 1208.688720] msmfb: pan_update in state(4)
+<6>[ 1208.688751] msmfb: drawing while asleep
+<6>[ 1208.789093] msmfb: pan_update in state(4)
+<6>[ 1208.789093] msmfb: drawing while asleep
+<6>[ 1208.888946] msmfb: pan_update in state(4)
+<6>[ 1208.888946] msmfb: drawing while asleep
+<6>[ 1208.989624] msmfb: pan_update in state(4)
+<6>[ 1208.989654] msmfb: drawing while asleep
+<6>[ 1209.088623] msmfb: pan_update in state(4)
+<6>[ 1209.088623] msmfb: drawing while asleep
+<6>[ 1209.188690] msmfb: pan_update in state(4)
+<6>[ 1209.188720] msmfb: drawing while asleep
+<6>[ 1209.291931] msmfb: pan_update in state(4)
+<6>[ 1209.291961] msmfb: drawing while asleep
+<6>[ 1209.399993] msmfb: pan_update in state(4)
+<6>[ 1209.400024] msmfb: drawing while asleep
+<6>[ 1209.510375] msmfb: pan_update in state(4)
+<6>[ 1209.510375] msmfb: drawing while asleep
+<6>[ 1209.608337] msmfb: pan_update in state(4)
+<6>[ 1209.608337] msmfb: drawing while asleep
+<6>[ 1209.712219] msmfb: pan_update in state(4)
+<6>[ 1209.712219] msmfb: drawing while asleep
+<6>[ 1209.831146] msmfb: pan_update in state(4)
+<6>[ 1209.831176] msmfb: drawing while asleep
+<6>[ 1209.931945] msmfb: pan_update in state(4)
+<6>[ 1209.931976] msmfb: drawing while asleep
+<6>[ 1210.039184] msmfb: pan_update in state(4)
+<6>[ 1210.039184] msmfb: drawing while asleep
+<6>[ 1210.148101] msmfb: pan_update in state(4)
+<6>[ 1210.148101] msmfb: drawing while asleep
+<6>[ 1210.250000] msmfb: pan_update in state(4)
+<6>[ 1210.250000] msmfb: drawing while asleep
+<6>[ 1210.358520] msmfb: pan_update in state(4)
+<6>[ 1210.358520] msmfb: drawing while asleep
+<6>[ 1210.458435] msmfb: pan_update in state(4)
+<6>[ 1210.458435] msmfb: drawing while asleep
+<6>[ 1210.562561] msmfb: pan_update in state(4)
+<6>[ 1210.562591] msmfb: drawing while asleep
+<6>[ 1210.668792] msmfb: pan_update in state(4)
+<6>[ 1210.668823] msmfb: drawing while asleep
+<6>[ 1210.775177] msmfb: pan_update in state(4)
+<6>[ 1210.775207] msmfb: drawing while asleep
+<6>[ 1210.878173] msmfb: pan_update in state(4)
+<6>[ 1210.878204] msmfb: drawing while asleep
+<6>[ 1210.980499] msmfb: pan_update in state(4)
+<6>[ 1210.980529] msmfb: drawing while asleep
+<6>[ 1211.079864] msmfb: pan_update in state(4)
+<6>[ 1211.079895] msmfb: drawing while asleep
+<6>[ 1211.183624] msmfb: pan_update in state(4)
+<6>[ 1211.183654] msmfb: drawing while asleep
+<6>[ 1211.288055] msmfb: pan_update in state(4)
+<6>[ 1211.288055] msmfb: drawing while asleep
+<6>[ 1211.399963] msmfb: pan_update in state(4)
+<6>[ 1211.399963] msmfb: drawing while asleep
+<6>[ 1211.498229] msmfb: pan_update in state(4)
+<6>[ 1211.498260] msmfb: drawing while asleep
+<6>[ 1211.608489] msmfb: pan_update in state(4)
+<6>[ 1211.608520] msmfb: drawing while asleep
+<6>[ 1211.708740] msmfb: pan_update in state(4)
+<6>[ 1211.708740] msmfb: drawing while asleep
+<6>[ 1211.812194] msmfb: pan_update in state(4)
+<6>[ 1211.812225] msmfb: drawing while asleep
+<6>[ 1211.918304] msmfb: pan_update in state(4)
+<6>[ 1211.918304] msmfb: drawing while asleep
+<6>[ 1212.026824] msmfb: pan_update in state(4)
+<6>[ 1212.026824] msmfb: drawing while asleep
+<6>[ 1212.128448] msmfb: pan_update in state(4)
+<6>[ 1212.128448] msmfb: drawing while asleep
+<6>[ 1212.241882] msmfb: pan_update in state(4)
+<6>[ 1212.241882] msmfb: drawing while asleep
+<6>[ 1212.348876] msmfb: pan_update in state(4)
+<6>[ 1212.348876] msmfb: drawing while asleep
+<6>[ 1212.449371] msmfb: pan_update in state(4)
+<6>[ 1212.449401] msmfb: drawing while asleep
+<6>[ 1212.548980] msmfb: pan_update in state(4)
+<6>[ 1212.549011] msmfb: drawing while asleep
+<6>[ 1212.648620] msmfb: pan_update in state(4)
+<6>[ 1212.648620] msmfb: drawing while asleep
+<6>[ 1212.748657] msmfb: pan_update in state(4)
+<6>[ 1212.748657] msmfb: drawing while asleep
+<6>[ 1212.849639] msmfb: pan_update in state(4)
+<6>[ 1212.849639] msmfb: drawing while asleep
+<6>[ 1212.950012] msmfb: pan_update in state(4)
+<6>[ 1212.950042] msmfb: drawing while asleep
+<6>[ 1213.049530] msmfb: pan_update in state(4)
+<6>[ 1213.049530] msmfb: drawing while asleep
+<6>[ 1213.149017] msmfb: pan_update in state(4)
+<6>[ 1213.149017] msmfb: drawing while asleep
+<6>[ 1213.248748] msmfb: pan_update in state(4)
+<6>[ 1213.248748] msmfb: drawing while asleep
+<6>[ 1213.348907] msmfb: pan_update in state(4)
+<6>[ 1213.348907] msmfb: drawing while asleep
+<6>[ 1213.448669] msmfb: pan_update in state(4)
+<6>[ 1213.448669] msmfb: drawing while asleep
+<6>[ 1213.548522] msmfb: pan_update in state(4)
+<6>[ 1213.548553] msmfb: drawing while asleep
+<6>[ 1213.648529] msmfb: pan_update in state(4)
+<6>[ 1213.648529] msmfb: drawing while asleep
+<6>[ 1213.748443] msmfb: pan_update in state(4)
+<6>[ 1213.748443] msmfb: drawing while asleep
+<6>[ 1213.848205] msmfb: pan_update in state(4)
+<6>[ 1213.848205] msmfb: drawing while asleep
+<6>[ 1213.948211] msmfb: pan_update in state(4)
+<6>[ 1213.948211] msmfb: drawing while asleep
+<6>[ 1214.048339] msmfb: pan_update in state(4)
+<6>[ 1214.048339] msmfb: drawing while asleep
+<6>[ 1214.151336] msmfb: pan_update in state(4)
+<6>[ 1214.151367] msmfb: drawing while asleep
+<6>[ 1214.258850] msmfb: pan_update in state(4)
+<6>[ 1214.258880] msmfb: drawing while asleep
+<6>[ 1214.367980] msmfb: pan_update in state(4)
+<6>[ 1214.368011] msmfb: drawing while asleep
+<6>[ 1214.471954] msmfb: pan_update in state(4)
+<6>[ 1214.471984] msmfb: drawing while asleep
+<6>[ 1214.579467] msmfb: pan_update in state(4)
+<6>[ 1214.579498] msmfb: drawing while asleep
+<6>[ 1214.687286] msmfb: pan_update in state(4)
+<6>[ 1214.687286] msmfb: drawing while asleep
+<6>[ 1214.800262] msmfb: pan_update in state(4)
+<6>[ 1214.800292] msmfb: drawing while asleep
+<6>[ 1214.912200] msmfb: pan_update in state(4)
+<6>[ 1214.912231] msmfb: drawing while asleep
+<6>[ 1215.019042] msmfb: pan_update in state(4)
+<6>[ 1215.019042] msmfb: drawing while asleep
+<6>[ 1215.125427] msmfb: pan_update in state(4)
+<6>[ 1215.125457] msmfb: drawing while asleep
+<6>[ 1215.229156] msmfb: pan_update in state(4)
+<6>[ 1215.229156] msmfb: drawing while asleep
+<6>[ 1215.337493] msmfb: pan_update in state(4)
+<6>[ 1215.337493] msmfb: drawing while asleep
+<6>[ 1215.439300] msmfb: pan_update in state(4)
+<6>[ 1215.439300] msmfb: drawing while asleep
+<6>[ 1215.539031] msmfb: pan_update in state(4)
+<6>[ 1215.539031] msmfb: drawing while asleep
+<6>[ 1215.582092] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1215.621734] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1215.638702] msmfb: pan_update in state(4)
+<6>[ 1215.638702] msmfb: drawing while asleep
+<6>[ 1215.738464] msmfb: pan_update in state(4)
+<6>[ 1215.738464] msmfb: drawing while asleep
+<6>[ 1215.838592] msmfb: pan_update in state(4)
+<6>[ 1215.838592] msmfb: drawing while asleep
+<6>[ 1215.942260] msmfb: pan_update in state(4)
+<6>[ 1215.942260] msmfb: drawing while asleep
+<6>[ 1216.049194] msmfb: pan_update in state(4)
+<6>[ 1216.049194] msmfb: drawing while asleep
+<6>[ 1216.149261] msmfb: pan_update in state(4)
+<6>[ 1216.149261] msmfb: drawing while asleep
+<6>[ 1216.248809] msmfb: pan_update in state(4)
+<6>[ 1216.248809] msmfb: drawing while asleep
+<6>[ 1216.348968] msmfb: pan_update in state(4)
+<6>[ 1216.348968] msmfb: drawing while asleep
+<6>[ 1216.449035] msmfb: pan_update in state(4)
+<6>[ 1216.449066] msmfb: drawing while asleep
+<6>[ 1216.549224] msmfb: pan_update in state(4)
+<6>[ 1216.549224] msmfb: drawing while asleep
+<6>[ 1216.648162] msmfb: pan_update in state(4)
+<6>[ 1216.648193] msmfb: drawing while asleep
+<6>[ 1216.748168] msmfb: pan_update in state(4)
+<6>[ 1216.748168] msmfb: drawing while asleep
+<6>[ 1216.848175] msmfb: pan_update in state(4)
+<6>[ 1216.848175] msmfb: drawing while asleep
+<6>[ 1216.948608] msmfb: pan_update in state(4)
+<6>[ 1216.948638] msmfb: drawing while asleep
+<6>[ 1217.052276] msmfb: pan_update in state(4)
+<6>[ 1217.052276] msmfb: drawing while asleep
+<6>[ 1217.159637] msmfb: pan_update in state(4)
+<6>[ 1217.159637] msmfb: drawing while asleep
+<6>[ 1217.270202] msmfb: pan_update in state(4)
+<6>[ 1217.270233] msmfb: drawing while asleep
+<6>[ 1217.379943] msmfb: pan_update in state(4)
+<6>[ 1217.379974] msmfb: drawing while asleep
+<6>[ 1217.484222] msmfb: pan_update in state(4)
+<6>[ 1217.484222] msmfb: drawing while asleep
+<6>[ 1217.592102] msmfb: pan_update in state(4)
+<6>[ 1217.592132] msmfb: drawing while asleep
+<6>[ 1217.699279] msmfb: pan_update in state(4)
+<6>[ 1217.699279] msmfb: drawing while asleep
+<6>[ 1217.804260] msmfb: pan_update in state(4)
+<6>[ 1217.804290] msmfb: drawing while asleep
+<6>[ 1217.914245] msmfb: pan_update in state(4)
+<6>[ 1217.914276] msmfb: drawing while asleep
+<6>[ 1218.026977] msmfb: pan_update in state(4)
+<6>[ 1218.026977] msmfb: drawing while asleep
+<6>[ 1218.139312] msmfb: pan_update in state(4)
+<6>[ 1218.139312] msmfb: drawing while asleep
+<6>[ 1218.238861] msmfb: pan_update in state(4)
+<6>[ 1218.238891] msmfb: drawing while asleep
+<6>[ 1218.340057] msmfb: pan_update in state(4)
+<6>[ 1218.340057] msmfb: drawing while asleep
+<6>[ 1218.450683] msmfb: pan_update in state(4)
+<6>[ 1218.450744] msmfb: drawing while asleep
+<6>[ 1218.554199] msmfb: pan_update in state(4)
+<6>[ 1218.554199] msmfb: drawing while asleep
+<6>[ 1218.664428] msmfb: pan_update in state(4)
+<6>[ 1218.664428] msmfb: drawing while asleep
+<6>[ 1218.768920] msmfb: pan_update in state(4)
+<6>[ 1218.768951] msmfb: drawing while asleep
+<6>[ 1218.874328] msmfb: pan_update in state(4)
+<6>[ 1218.874359] msmfb: drawing while asleep
+<6>[ 1218.991271] msmfb: pan_update in state(4)
+<6>[ 1218.991333] msmfb: drawing while asleep
+<6>[ 1219.100372] msmfb: pan_update in state(4)
+<6>[ 1219.100402] msmfb: drawing while asleep
+<6>[ 1219.199371] msmfb: pan_update in state(4)
+<6>[ 1219.199371] msmfb: drawing while asleep
+<6>[ 1219.300323] msmfb: pan_update in state(4)
+<6>[ 1219.300323] msmfb: drawing while asleep
+<6>[ 1219.399902] msmfb: pan_update in state(4)
+<6>[ 1219.399932] msmfb: drawing while asleep
+<6>[ 1219.501403] msmfb: pan_update in state(4)
+<6>[ 1219.501403] msmfb: drawing while asleep
+<6>[ 1219.601501] msmfb: pan_update in state(4)
+<6>[ 1219.601501] msmfb: drawing while asleep
+<6>[ 1219.712188] msmfb: pan_update in state(4)
+<6>[ 1219.712219] msmfb: drawing while asleep
+<6>[ 1219.835815] msmfb: pan_update in state(4)
+<6>[ 1219.835845] msmfb: drawing while asleep
+<6>[ 1219.943572] msmfb: pan_update in state(4)
+<6>[ 1219.943572] msmfb: drawing while asleep
+<6>[ 1220.055999] msmfb: pan_update in state(4)
+<6>[ 1220.056030] msmfb: drawing while asleep
+<6>[ 1220.160034] msmfb: pan_update in state(4)
+<6>[ 1220.160034] msmfb: drawing while asleep
+<6>[ 1220.261871] msmfb: pan_update in state(4)
+<6>[ 1220.261871] msmfb: drawing while asleep
+<6>[ 1220.369079] msmfb: pan_update in state(4)
+<6>[ 1220.369079] msmfb: drawing while asleep
+<6>[ 1220.469665] msmfb: pan_update in state(4)
+<6>[ 1220.469665] msmfb: drawing while asleep
+<6>[ 1220.573089] msmfb: pan_update in state(4)
+<6>[ 1220.573089] msmfb: drawing while asleep
+<6>[ 1220.685455] msmfb: pan_update in state(4)
+<6>[ 1220.685485] msmfb: drawing while asleep
+<6>[ 1220.796813] msmfb: pan_update in state(4)
+<6>[ 1220.796813] msmfb: drawing while asleep
+<6>[ 1220.915527] msmfb: pan_update in state(4)
+<6>[ 1220.915557] msmfb: drawing while asleep
+<6>[ 1221.026245] msmfb: pan_update in state(4)
+<6>[ 1221.026275] msmfb: drawing while asleep
+<6>[ 1221.130340] msmfb: pan_update in state(4)
+<6>[ 1221.130340] msmfb: drawing while asleep
+<6>[ 1221.229400] msmfb: pan_update in state(4)
+<6>[ 1221.229431] msmfb: drawing while asleep
+<6>[ 1221.329864] msmfb: pan_update in state(4)
+<6>[ 1221.329895] msmfb: drawing while asleep
+<6>[ 1221.431518] msmfb: pan_update in state(4)
+<6>[ 1221.431549] msmfb: drawing while asleep
+<6>[ 1221.529327] msmfb: pan_update in state(4)
+<6>[ 1221.529357] msmfb: drawing while asleep
+<6>[ 1221.632415] msmfb: pan_update in state(4)
+<6>[ 1221.632415] msmfb: drawing while asleep
+<6>[ 1221.739959] msmfb: pan_update in state(4)
+<6>[ 1221.739990] msmfb: drawing while asleep
+<6>[ 1221.858551] msmfb: pan_update in state(4)
+<6>[ 1221.858551] msmfb: drawing while asleep
+<6>[ 1221.964599] msmfb: pan_update in state(4)
+<6>[ 1221.964630] msmfb: drawing while asleep
+<6>[ 1222.074707] msmfb: pan_update in state(4)
+<6>[ 1222.074737] msmfb: drawing while asleep
+<6>[ 1222.182128] msmfb: pan_update in state(4)
+<6>[ 1222.182159] msmfb: drawing while asleep
+<6>[ 1222.289276] msmfb: pan_update in state(4)
+<6>[ 1222.289276] msmfb: drawing while asleep
+<6>[ 1222.390380] msmfb: pan_update in state(4)
+<6>[ 1222.390380] msmfb: drawing while asleep
+<6>[ 1222.491943] msmfb: pan_update in state(4)
+<6>[ 1222.491973] msmfb: drawing while asleep
+<6>[ 1222.606445] msmfb: pan_update in state(4)
+<6>[ 1222.606475] msmfb: drawing while asleep
+<6>[ 1222.710632] msmfb: pan_update in state(4)
+<6>[ 1222.710662] msmfb: drawing while asleep
+<6>[ 1222.810485] msmfb: pan_update in state(4)
+<6>[ 1222.810485] msmfb: drawing while asleep
+<6>[ 1222.909271] msmfb: pan_update in state(4)
+<6>[ 1222.909301] msmfb: drawing while asleep
+<6>[ 1223.010131] msmfb: pan_update in state(4)
+<6>[ 1223.010131] msmfb: drawing while asleep
+<6>[ 1223.109283] msmfb: pan_update in state(4)
+<6>[ 1223.109283] msmfb: drawing while asleep
+<6>[ 1223.209289] msmfb: pan_update in state(4)
+<6>[ 1223.209320] msmfb: drawing while asleep
+<6>[ 1223.310302] msmfb: pan_update in state(4)
+<6>[ 1223.310302] msmfb: drawing while asleep
+<6>[ 1223.408752] msmfb: pan_update in state(4)
+<6>[ 1223.408782] msmfb: drawing while asleep
+<6>[ 1223.435485] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1223.457702] request_suspend_state: wakeup (3->0) at 1222566024279 (2014-05-20 00:01:46.470916753 UTC)
+<6>[ 1223.457763] [R] late_resume start
+<6>[ 1223.457794] lcdc_resume: resuming
+<6>[ 1223.457794] sharp_panel_init
+<6>[ 1223.457855] msmfb: ready, waiting for full update
+<6>[ 1223.476684] msmfb: pan_update in state(1)
+<6>[ 1223.476684] msmfb: full update starting
+<6>[ 1223.493347] msmfb: pan_update in state(3)
+<6>[ 1223.510223] msmfb: full update completed
+<6>[ 1223.513641] msmfb: turning on panel
+<6>[ 1223.513671] lcdc_unblank: ()
+<6>[ 1223.513671] sharp_panel_unblank
+<3>[ 1223.991760] msm_i2c msm_i2c.0: error, status 83c8 (5C)
+<3>[ 1223.992004] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 1223.992065] msm_i2c msm_i2c.0: error, status 83c8 (34)
+<3>[ 1223.992095] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 1223.992767] [R] late_resume end
+<4>[ 1225.513580] wifi_set_power = 0
+<4>[ 1225.513610] htcleo_wifi_power: 0
+<4>[ 1229.428894] wifi_set_carddetect = 0
+<6>[ 1229.428924] htcleo_wifi_set_carddetect: 0
+<7>[ 1229.428955] mmc0: card_present 0
+<6>[ 1229.428985] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1229.429321] mmc0: card 0001 removed
+<4>[ 1230.522613] wifi_set_power = 1
+<4>[ 1230.522644] htcleo_wifi_power: 1
+<4>[ 1232.852905] wifi_set_carddetect = 1
+<6>[ 1232.852935] htcleo_wifi_set_carddetect: 1
+<7>[ 1232.852966] mmc0: card_present 1
+<6>[ 1232.853424] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1232.864654] 
+<4>[ 1232.864654] Dongle Host Driver, version 4.218.248.23
+<7>[ 1235.425750] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1235.425811] mmc0: new SDIO card at address 0001
+<4>[ 1235.428649] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1235.597229] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1235.763549] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1236.112182] init: no such service 'p2p_supplicant'
+<3>[ 1241.186706] init: no such service 'p2p_supplicant'
+<6>[ 1245.101318] pcm_out: open
+<6>[ 1245.101684] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 1245.102264] audio_update_acdb (17306899, 607)
+<4>[ 1245.102294] table
+<6>[ 1245.102294] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 1245.102355] res1 = 588
+<4>[ 1245.102355] res2 = 588
+<4>[ 1245.102355] call audio_set_table
+<4>[ 1245.129791] audio_out_open: 1000 44100 2
+<6>[ 1245.200714] open done!
+<6>[ 1245.200836] Audio: htcleo_speaker_enable 1
+<6>[ 1248.457061] Audio: htcleo_speaker_enable 0
+<4>[ 1248.457916] audio_cb: s=2 e=01075c54 status=20
+<3>[ 1248.466217] buffer status 43
+<6>[ 1248.469146] pcm_out: release
+<3>[ 1248.491271] audio callback: unknown session 2
+<3>[ 1253.942626] lsensor: already enabled
+<4>[ 1254.904144] [D:BATT] V=4201(6ba) I=42(6c) C=1231.0/1230(1118) id=4(b1) T=340(dc) KADC=1000
+<6>[ 1254.954406] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 1254.954406] 	tick = 42391413
+<6>[ 1254.954406] 	stamp = 56863185155653632
+<6>[ 1264.800262] alarm_release: clear alarm, pending 0
+<6>[ 1264.800292] alarm_release: clear alarm, pending 0
+<6>[ 1264.912384] request_suspend_state: wakeup (0->0) at 1264020736169 (2014-05-20 00:00:09.959106418 UTC)
+<3>[ 1264.958282] init: untracked pid 5801 exited
+<3>[ 1264.958984] init: untracked pid 5729 exited
+<3>[ 1264.965423] init: untracked pid 5985 exited
+<3>[ 1264.966522] init: untracked pid 5743 exited
+<3>[ 1264.970886] init: untracked pid 5760 exited
+<3>[ 1264.977996] init: untracked pid 5654 exited
+<3>[ 1264.997375] init: untracked pid 5784 exited
+<3>[ 1265.151489] init: untracked pid 5935 exited
+<3>[ 1265.151947] init: untracked pid 6099 exited
+<3>[ 1265.152252] init: untracked pid 6161 exited
+<3>[ 1265.152557] init: untracked pid 6149 exited
+<3>[ 1265.152862] init: untracked pid 6050 exited
+<3>[ 1265.153198] init: untracked pid 5850 exited
+<3>[ 1265.153503] init: untracked pid 5771 exited
+<3>[ 1265.154632] init: untracked pid 5794 exited
+<3>[ 1265.158416] init: untracked pid 5669 exited
+<3>[ 1265.158752] init: untracked pid 5906 exited
+<3>[ 1265.169250] init: untracked pid 5952 exited
+<6>[ 1266.868103] htc-acoustic: open
+<6>[ 1266.878295] htc-acoustic: mmap
+<6>[ 1266.878631] htc-acoustic: ioctl
+<6>[ 1266.878662] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 6193.
+<6>[ 1266.878662] htc-acoustic: ioctl: done.
+<6>[ 1266.879547] htc-acoustic: release
+<6>[ 1266.879638] Audio: voice: stop
+<6>[ 1282.201721] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1282.242095] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1282.948150] Audio: SWITCH DEVICE 17306899, acdb 607
+<6>[ 1282.948181] Audio: SWITCH DEVICE 17306898, acdb 507
+<4>[ 1282.948181] audio_update_acdb (17306898, 507)
+<4>[ 1282.948211] table
+<6>[ 1282.948211] acdb: 871 bytes for device 507, rate 8000.
+<4>[ 1282.948242] res1 = 871
+<4>[ 1282.948272] res2 = 871
+<4>[ 1282.948272] call audio_set_table
+<6>[ 1282.960998] Audio: htcleo_get_rx_vol -1500
+<4>[ 1282.960998] $$ DEV=01081513: vol is -1500
+<4>[ 1282.962707] audio_cb: s=1 e=0107605c status=20
+<6>[ 1288.574951] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1288.595306] request_suspend_state: wakeup (0->0) at 1287703658563 (2014-05-20 00:00:33.642028812 UTC)
+<6>[ 1290.075744] Audio: htcleo_get_rx_vol -1100
+<4>[ 1290.075805] $$ DEV=01081513: vol is -1100
+<4>[ 1290.077362] audio_cb: s=1 e=0107605c status=20
+<4>[ 1290.193664] wifi_set_power = 0
+<4>[ 1290.193664] htcleo_wifi_power: 0
+<4>[ 1294.047210] wifi_set_carddetect = 0
+<6>[ 1294.047241] htcleo_wifi_set_carddetect: 0
+<7>[ 1294.047241] mmc0: card_present 0
+<6>[ 1294.047241] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1294.047546] mmc0: card 0001 removed
+<4>[ 1295.236541] wifi_set_power = 1
+<4>[ 1295.236572] htcleo_wifi_power: 1
+<4>[ 1297.869415] wifi_set_carddetect = 1
+<6>[ 1297.869476] htcleo_wifi_set_carddetect: 1
+<7>[ 1297.869476] mmc0: card_present 1
+<6>[ 1297.869506] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1298.007873] 
+<4>[ 1298.007873] Dongle Host Driver, version 4.218.248.23
+<7>[ 1300.435089] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1300.435150] mmc0: new SDIO card at address 0001
+<4>[ 1300.437744] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1300.616668] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1300.783355] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1301.087005] init: no such service 'p2p_supplicant'
+<4>[ 1304.908416] [D:BATT] V=4201(6ba) I=40(67) C=1231.0/1230(1119) id=4(b1) T=340(dc) KADC=1000
+<3>[ 1306.174682] init: no such service 'p2p_supplicant'
+<6>[ 1310.537567] pcm_out: open
+<6>[ 1310.537994] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 1310.538635] audio_update_acdb (17306899, 607)
+<4>[ 1310.538635] table
+<6>[ 1310.538665] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 1310.538665] res1 = 588
+<4>[ 1310.538696] res2 = 588
+<4>[ 1310.538696] call audio_set_table
+<4>[ 1310.565917] audio_out_open: 1000 44100 2
+<6>[ 1310.638488] open done!
+<6>[ 1310.638519] Audio: htcleo_speaker_enable 1
+<6>[ 1313.877288] Audio: htcleo_speaker_enable 0
+<4>[ 1313.878295] audio_cb: s=2 e=01075c54 status=20
+<6>[ 1313.889801] pcm_out: release
+<3>[ 1313.912292] audio callback: unknown session 2
+<4>[ 1354.913391] [D:BATT] V=4201(6ba) I=38(62) C=1231.0/1230(111a) id=4(b1) T=340(dc) KADC=1000
+<4>[ 1404.917205] [D:BATT] V=4201(6ba) I=37(5e) C=1232.0/1230(111c) id=4(b1) T=340(dc) KADC=1000
+<3>[ 1435.871093] init: untracked pid 6820 exited
+<3>[ 1435.872467] init: untracked pid 6969 exited
+<3>[ 1435.872741] init: untracked pid 6746 exited
+<3>[ 1435.892242] init: untracked pid 6671 exited
+<3>[ 1435.893188] init: untracked pid 6758 exited
+<3>[ 1435.893920] init: untracked pid 7092 exited
+<3>[ 1435.897705] init: untracked pid 6802 exited
+<3>[ 1435.978240] init: untracked pid 6768 exited
+<3>[ 1436.249053] init: untracked pid 7161 exited
+<3>[ 1436.250152] init: untracked pid 7173 exited
+<3>[ 1436.252410] init: untracked pid 6992 exited
+<3>[ 1436.255493] init: untracked pid 6782 exited
+<3>[ 1436.267395] init: untracked pid 6914 exited
+<3>[ 1436.467041] init: untracked pid 6834 exited
+<3>[ 1436.476562] init: untracked pid 6812 exited
+<3>[ 1436.502960] init: untracked pid 6865 exited
+<3>[ 1436.522796] init: untracked pid 6946 exited
+<3>[ 1436.548919] init: untracked pid 7065 exited
+<3>[ 1436.685882] init: untracked pid 6686 exited
+<6>[ 1436.754302] alarm_release: clear alarm, pending 0
+<6>[ 1436.754364] alarm_release: clear alarm, pending 0
+<3>[ 1436.786682] init: untracked pid 6530 exited
+<3>[ 1437.120697] (sync) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<6>[ 1452.291717] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1452.331726] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<4>[ 1454.923492] [D:BATT] V=4201(6ba) I=35(5a) C=1232.0/1230(111d) id=4(b1) T=340(dc) KADC=1000
+<6>[ 1461.932769] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1461.957244] request_suspend_state: wakeup (0->0) at 1461065597038 (2014-05-20 00:03:27.003967287 UTC)
+<4>[ 1467.932373] wifi_set_power = 0
+<4>[ 1467.932373] htcleo_wifi_power: 0
+<4>[ 1471.587646] wifi_set_carddetect = 0
+<6>[ 1471.587677] htcleo_wifi_set_carddetect: 0
+<7>[ 1471.587707] mmc0: card_present 0
+<6>[ 1471.587707] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1471.588043] mmc0: card 0001 removed
+<4>[ 1472.592712] wifi_set_power = 1
+<4>[ 1472.592712] htcleo_wifi_power: 1
+<4>[ 1475.486053] wifi_set_carddetect = 1
+<6>[ 1475.486083] htcleo_wifi_set_carddetect: 1
+<7>[ 1475.486114] mmc0: card_present 1
+<6>[ 1475.486145] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1475.513977] 
+<4>[ 1475.514007] Dongle Host Driver, version 4.218.248.23
+<7>[ 1478.058380] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1478.058410] mmc0: new SDIO card at address 0001
+<4>[ 1478.061004] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1478.284210] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1478.450622] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1478.848754] init: no such service 'p2p_supplicant'
+<3>[ 1484.031005] init: no such service 'p2p_supplicant'
+<6>[ 1484.373931] pcm_out: open
+<6>[ 1484.374267] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 1484.374847] audio_update_acdb (17306899, 607)
+<4>[ 1484.374877] table
+<6>[ 1484.374908] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 1484.374938] res1 = 588
+<4>[ 1484.374938] res2 = 588
+<4>[ 1484.374969] call audio_set_table
+<4>[ 1484.401855] audio_out_open: 1000 44100 2
+<6>[ 1484.471038] open done!
+<6>[ 1484.471160] Audio: htcleo_speaker_enable 1
+<4>[ 1487.694152] audio_cb: s=2 e=01075c54 status=20
+<6>[ 1487.694305] Audio: htcleo_speaker_enable 0
+<3>[ 1487.704467] buffer status 43
+<6>[ 1487.707946] pcm_out: release
+<3>[ 1487.729675] audio callback: unknown session 2
+<6>[ 1493.766937] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 1493.766937] 	tick = 50216819
+<6>[ 1493.766937] 	stamp = 56863185273094144
+<4>[ 1504.926574] [D:BATT] V=4204(6bb) I=34(57) C=1233.0/1230(111e) id=4(b1) T=340(dc) KADC=1000
+<4>[ 1504.926635] [D:BATT] charge-full (expect:3600sec)(384699161:384672665)
+<4>[ 1504.926666] [D:BATT] state change(6->7), full count=3, over load count=0 [384672665]
+<6>[ 1504.926727] batt: ds2784_notify: 0 0 at 1504035109994 (2014-05-20 00:00:11.161163343 UTC)
+<6>[ 1504.926757] batt: charger OFF at 1504035140512 (2014-05-20 00:00:11.161224378 UTC)
+<3>[ 1517.358123] (adbd) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 1517.388153] (adbd) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<6>[ 1534.904052] request_suspend_state: sleep (0->3) at 1534012404891 (2014-05-20 00:00:41.138458240 UTC)
+<6>[ 1534.904113] [R] early_suspend start
+<6>[ 1534.922058] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1534.931304] lcdc_blank: ()
+<6>[ 1534.931365] sharp_panel_blank
+<6>[ 1534.934082] msmfb: pan_update in state(4)
+<6>[ 1534.934112] msmfb: drawing while asleep
+<6>[ 1535.025573] lcdc_suspend: suspending
+<6>[ 1535.025665] [R] early_suspend: sync
+<6>[ 1535.041534] msmfb: pan_update in state(4)
+<6>[ 1535.041564] msmfb: drawing while asleep
+<6>[ 1535.143218] msmfb: pan_update in state(4)
+<6>[ 1535.143280] msmfb: drawing while asleep
+<6>[ 1535.451873] active wake lock PowerManagerService.WakeLocks
+<6>[ 1535.451934] active wake lock PowerManagerService.Broadcasts
+<6>[ 1535.451965] active wake lock vbus_present
+<6>[ 1535.451995] wake lock qmi, expired
+<6>[ 1535.452026] wake lock msm_serial_hs_rx, expired
+<6>[ 1535.452056] wake lock mmc_delayed_work, expired
+<6>[ 1535.452087] wake lock SMD_DS, expired
+<6>[ 1535.452117] wake lock proximity, expired
+<6>[ 1535.452148] [R] early_suspend end
+<4>[ 1555.056365] [D:BATT] V=4194(6b7) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 1605.065460] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 1627.382751] msmfb: pan_update in state(4)
+<6>[ 1627.382751] msmfb: drawing while asleep
+<6>[ 1627.483245] msmfb: pan_update in state(4)
+<6>[ 1627.483245] msmfb: drawing while asleep
+<6>[ 1634.912628] msmfb: pan_update in state(4)
+<6>[ 1634.912628] msmfb: drawing while asleep
+<6>[ 1634.960845] alarm_release: clear alarm, pending 0
+<6>[ 1634.960876] alarm_release: clear pending alarms 8
+<6>[ 1635.101196] request_suspend_state: wakeup (3->0) at 1634209578962 (2014-05-20 00:02:21.335662828 UTC)
+<6>[ 1635.101287] [R] late_resume start
+<6>[ 1635.101318] lcdc_resume: resuming
+<6>[ 1635.101348] sharp_panel_init
+<6>[ 1635.101409] msmfb: ready, waiting for full update
+<3>[ 1635.303375] init: untracked pid 7555 exited
+<3>[ 1635.303741] init: untracked pid 7722 exited
+<3>[ 1635.304443] init: untracked pid 7483 exited
+<3>[ 1635.333129] init: untracked pid 7832 exited
+<3>[ 1635.338653] init: untracked pid 7492 exited
+<6>[ 1635.366699] msmfb: pan_update in state(1)
+<6>[ 1635.366699] msmfb: full update starting
+<6>[ 1635.398223] msmfb: full update completed
+<6>[ 1635.398468] msmfb: turning on panel
+<6>[ 1635.398498] lcdc_unblank: ()
+<6>[ 1635.398498] sharp_panel_unblank
+<3>[ 1635.492553] init: untracked pid 7408 exited
+<3>[ 1635.492950] init: untracked pid 7516 exited
+<3>[ 1635.536590] init: untracked pid 7816 exited
+<3>[ 1635.641754] msm_i2c msm_i2c.0: error, status 63c8 (5C)
+<3>[ 1635.641815] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 1635.641876] msm_i2c msm_i2c.0: error, status 63c8 (34)
+<3>[ 1635.641906] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 1635.642303] [R] late_resume end
+<3>[ 1636.014251] init: untracked pid 7882 exited
+<3>[ 1636.063171] init: untracked pid 7604 exited
+<3>[ 1636.063629] init: untracked pid 7712 exited
+<3>[ 1636.063964] init: untracked pid 7526 exited
+<3>[ 1636.142883] init: untracked pid 7894 exited
+<3>[ 1636.203155] init: untracked pid 7536 exited
+<3>[ 1636.227661] init: untracked pid 7548 exited
+<3>[ 1636.525909] init: untracked pid 7681 exited
+<3>[ 1636.552642] init: untracked pid 7794 exited
+<3>[ 1636.852478] init: untracked pid 7664 exited
+<6>[ 1637.045562] htc-acoustic: open
+<6>[ 1637.055847] htc-acoustic: mmap
+<6>[ 1637.061553] htc-acoustic: ioctl
+<6>[ 1637.061584] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 8053.
+<6>[ 1637.061614] htc-acoustic: ioctl: done.
+<6>[ 1637.062866] htc-acoustic: release
+<6>[ 1637.063262] Audio: voice: stop
+<3>[ 1637.277099] init: untracked pid 7423 exited
+<6>[ 1651.621826] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1651.661682] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1653.204711] Audio: SWITCH DEVICE 17306899, acdb 607
+<6>[ 1653.204742] Audio: SWITCH DEVICE 17306898, acdb 507
+<6>[ 1653.205413] Audio: htcleo_get_rx_vol -1500
+<4>[ 1653.205444] $$ DEV=01081513: vol is -1500
+<4>[ 1653.207122] audio_cb: s=1 e=0107605c status=20
+<4>[ 1655.070953] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 1659.647827] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1659.670379] request_suspend_state: wakeup (0->0) at 1658778731821 (2014-05-20 00:02:45.904815687 UTC)
+<6>[ 1661.114379] Audio: htcleo_get_rx_vol -1100
+<4>[ 1661.114379] $$ DEV=01081513: vol is -1100
+<4>[ 1661.115936] audio_cb: s=1 e=0107605c status=20
+<4>[ 1661.193206] wifi_set_power = 0
+<4>[ 1661.193237] htcleo_wifi_power: 0
+<4>[ 1664.473876] wifi_set_carddetect = 0
+<6>[ 1664.473937] htcleo_wifi_set_carddetect: 0
+<7>[ 1664.473937] mmc0: card_present 0
+<6>[ 1664.473968] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1664.474304] mmc0: card 0001 removed
+<4>[ 1665.943969] wifi_set_power = 1
+<4>[ 1665.944000] htcleo_wifi_power: 1
+<4>[ 1668.474182] wifi_set_carddetect = 1
+<6>[ 1668.474212] htcleo_wifi_set_carddetect: 1
+<7>[ 1668.474243] mmc0: card_present 1
+<6>[ 1668.474243] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1668.479461] 
+<4>[ 1668.479461] Dongle Host Driver, version 4.218.248.23
+<7>[ 1671.050292] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1671.050323] mmc0: new SDIO card at address 0001
+<4>[ 1671.054412] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1671.363616] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1671.529235] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1672.233428] init: no such service 'p2p_supplicant'
+<3>[ 1677.590118] init: no such service 'p2p_supplicant'
+<6>[ 1681.016387] pcm_out: open
+<6>[ 1681.016754] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 1681.017333] audio_update_acdb (17306899, 607)
+<4>[ 1681.017395] table
+<6>[ 1681.017395] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 1681.017425] res1 = 588
+<4>[ 1681.017456] res2 = 588
+<4>[ 1681.017456] call audio_set_table
+<4>[ 1681.044586] audio_out_open: 1000 44100 2
+<6>[ 1681.116638] open done!
+<6>[ 1681.116729] Audio: htcleo_speaker_enable 1
+<6>[ 1684.340270] Audio: htcleo_speaker_enable 0
+<4>[ 1684.341247] audio_cb: s=2 e=01075c54 status=20
+<3>[ 1684.349426] buffer status 43
+<6>[ 1684.353057] pcm_out: release
+<3>[ 1684.374328] audio callback: unknown session 2
+<6>[ 1690.755493] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 1690.755493] 	tick = 56671743
+<6>[ 1690.755523] 	stamp = 56863185155653632
+<4>[ 1705.104095] [D:BATT] V=4191(6b6) I=0(fffffffe) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 1747.664245] request_suspend_state: sleep (0->3) at 1746772597766 (2014-05-20 00:00:56.909881572 UTC)
+<6>[ 1747.664367] [R] early_suspend start
+<6>[ 1747.681884] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1747.692413] msmfb: pan_update in state(4)
+<6>[ 1747.692413] msmfb: drawing while asleep
+<6>[ 1747.709136] lcdc_blank: ()
+<6>[ 1747.709136] sharp_panel_blank
+<6>[ 1747.794097] msmfb: pan_update in state(4)
+<6>[ 1747.794097] msmfb: drawing while asleep
+<6>[ 1747.794250] lcdc_suspend: suspending
+<6>[ 1747.794281] [R] early_suspend: sync
+<6>[ 1747.911712] active wake lock vbus_present
+<6>[ 1747.911743] wake lock qmi, expired
+<6>[ 1747.911773] wake lock msm_serial_hs_rx, expired
+<6>[ 1747.911804] wake lock mmc_delayed_work, expired
+<6>[ 1747.911804] wake lock proximity, expired
+<6>[ 1747.911834] active wake lock SMD_DS, time left 0.370
+<6>[ 1747.911865] [R] early_suspend end
+<4>[ 1755.113677] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 1781.714080] request_suspend_state: wakeup (3->0) at 1780822432956 (2014-05-20 00:01:30.959716762 UTC)
+<6>[ 1781.714172] [R] late_resume start
+<6>[ 1781.714233] lcdc_resume: resuming
+<6>[ 1781.714233] sharp_panel_init
+<6>[ 1781.714324] msmfb: ready, waiting for full update
+<6>[ 1781.744323] msmfb: pan_update in state(1)
+<6>[ 1781.744354] msmfb: full update starting
+<6>[ 1781.766693] msmfb: full update completed
+<6>[ 1781.766845] msmfb: turning on panel
+<6>[ 1781.766876] lcdc_unblank: ()
+<6>[ 1781.766906] sharp_panel_unblank
+<6>[ 1781.786590] msmfb: pan_update in state(3)
+<3>[ 1782.251800] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 1782.251922] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 1782.252075] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 1782.252197] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 1782.253326] [R] late_resume end
+<4>[ 1805.191436] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 1815.958740] request_suspend_state: sleep (0->3) at 1815067092392 (2014-05-20 00:02:05.204376198 UTC)
+<6>[ 1815.958801] [R] early_suspend start
+<6>[ 1815.981842] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1815.991302] msmfb: pan_update in state(4)
+<6>[ 1815.991302] msmfb: drawing while asleep
+<6>[ 1816.008453] lcdc_blank: ()
+<6>[ 1816.008483] sharp_panel_blank
+<6>[ 1816.092193] lcdc_suspend: suspending
+<6>[ 1816.092346] [R] early_suspend: sync
+<6>[ 1816.126281] msmfb: pan_update in state(4)
+<6>[ 1816.126281] msmfb: drawing while asleep
+<6>[ 1816.171752] active wake lock PowerManagerService.Broadcasts
+<6>[ 1816.171783] active wake lock vbus_present
+<6>[ 1816.171783] wake lock qmi, expired
+<6>[ 1816.171783] wake lock msm_serial_hs_rx, expired
+<6>[ 1816.171813] wake lock mmc_delayed_work, expired
+<6>[ 1816.171813] wake lock proximity, expired
+<6>[ 1816.171844] wake lock SMD_DS, expired
+<6>[ 1816.171844] [R] early_suspend end
+<4>[ 1857.565887] [D:BATT] V=4191(6b6) I=0(fffffffe) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 1885.812927] init: untracked pid 8818 exited
+<3>[ 1885.815490] init: untracked pid 8512 exited
+<3>[ 1885.819793] init: untracked pid 8957 exited
+<3>[ 1885.820190] init: untracked pid 8582 exited
+<3>[ 1885.822479] init: untracked pid 8675 exited
+<3>[ 1885.823608] init: untracked pid 8613 exited
+<3>[ 1885.872283] init: untracked pid 8623 exited
+<3>[ 1885.872894] init: untracked pid 8927 exited
+<3>[ 1885.873565] init: untracked pid 8774 exited
+<3>[ 1885.882263] init: untracked pid 9015 exited
+<3>[ 1885.892944] init: untracked pid 8649 exited
+<3>[ 1885.895996] init: untracked pid 8903 exited
+<3>[ 1885.896301] init: untracked pid 8800 exited
+<3>[ 1885.921997] init: untracked pid 9002 exited
+<3>[ 1885.922332] init: untracked pid 8715 exited
+<3>[ 1885.923797] init: untracked pid 8834 exited
+<3>[ 1885.924163] init: untracked pid 8636 exited
+<3>[ 1885.926910] init: untracked pid 8670 exited
+<3>[ 1885.937622] init: untracked pid 8536 exited
+<6>[ 1885.952789] alarm_release: clear alarm, pending 0
+<6>[ 1885.952819] alarm_release: clear alarm, pending 0
+<3>[ 1885.963897] init: untracked pid 8378 exited
+<6>[ 1885.967529] msmfb: pan_update in state(4)
+<6>[ 1885.967529] msmfb: drawing while asleep
+<6>[ 1886.067657] msmfb: pan_update in state(4)
+<6>[ 1886.067657] msmfb: drawing while asleep
+<6>[ 1886.337463] msmfb: pan_update in state(4)
+<6>[ 1886.337463] msmfb: drawing while asleep
+<6>[ 1886.441894] msmfb: pan_update in state(4)
+<6>[ 1886.441925] msmfb: drawing while asleep
+<6>[ 1886.549011] msmfb: pan_update in state(4)
+<6>[ 1886.549041] msmfb: drawing while asleep
+<6>[ 1886.651550] msmfb: pan_update in state(4)
+<6>[ 1886.651580] msmfb: drawing while asleep
+<6>[ 1886.749572] msmfb: pan_update in state(4)
+<6>[ 1886.749603] msmfb: drawing while asleep
+<6>[ 1886.851440] msmfb: pan_update in state(4)
+<6>[ 1886.851470] msmfb: drawing while asleep
+<6>[ 1886.948486] msmfb: pan_update in state(4)
+<6>[ 1886.948486] msmfb: drawing while asleep
+<6>[ 1887.052215] msmfb: pan_update in state(4)
+<6>[ 1887.052246] msmfb: drawing while asleep
+<6>[ 1887.159576] msmfb: pan_update in state(4)
+<6>[ 1887.159606] msmfb: drawing while asleep
+<6>[ 1887.261932] msmfb: pan_update in state(4)
+<6>[ 1887.261962] msmfb: drawing while asleep
+<6>[ 1887.369537] msmfb: pan_update in state(4)
+<6>[ 1887.369567] msmfb: drawing while asleep
+<6>[ 1887.471435] msmfb: pan_update in state(4)
+<6>[ 1887.471466] msmfb: drawing while asleep
+<6>[ 1887.569641] msmfb: pan_update in state(4)
+<6>[ 1887.569671] msmfb: drawing while asleep
+<6>[ 1887.671417] msmfb: pan_update in state(4)
+<6>[ 1887.671447] msmfb: drawing while asleep
+<6>[ 1887.768798] msmfb: pan_update in state(4)
+<6>[ 1887.768798] msmfb: drawing while asleep
+<6>[ 1887.875366] msmfb: pan_update in state(4)
+<6>[ 1887.875366] msmfb: drawing while asleep
+<6>[ 1887.978363] msmfb: pan_update in state(4)
+<6>[ 1887.978393] msmfb: drawing while asleep
+<6>[ 1888.091888] msmfb: pan_update in state(4)
+<6>[ 1888.091888] msmfb: drawing while asleep
+<6>[ 1888.198822] msmfb: pan_update in state(4)
+<6>[ 1888.198822] msmfb: drawing while asleep
+<6>[ 1888.299926] msmfb: pan_update in state(4)
+<6>[ 1888.299957] msmfb: drawing while asleep
+<6>[ 1888.398620] msmfb: pan_update in state(4)
+<6>[ 1888.398620] msmfb: drawing while asleep
+<6>[ 1888.498626] msmfb: pan_update in state(4)
+<6>[ 1888.498626] msmfb: drawing while asleep
+<6>[ 1888.598663] msmfb: pan_update in state(4)
+<6>[ 1888.598663] msmfb: drawing while asleep
+<6>[ 1888.698547] msmfb: pan_update in state(4)
+<6>[ 1888.698547] msmfb: drawing while asleep
+<6>[ 1888.798614] msmfb: pan_update in state(4)
+<6>[ 1888.798614] msmfb: drawing while asleep
+<6>[ 1888.899749] msmfb: pan_update in state(4)
+<6>[ 1888.899780] msmfb: drawing while asleep
+<6>[ 1888.998229] msmfb: pan_update in state(4)
+<6>[ 1888.998229] msmfb: drawing while asleep
+<6>[ 1889.098632] msmfb: pan_update in state(4)
+<6>[ 1889.098632] msmfb: drawing while asleep
+<6>[ 1889.199218] msmfb: pan_update in state(4)
+<6>[ 1889.199218] msmfb: drawing while asleep
+<6>[ 1889.299346] msmfb: pan_update in state(4)
+<6>[ 1889.299346] msmfb: drawing while asleep
+<6>[ 1889.399658] msmfb: pan_update in state(4)
+<6>[ 1889.399658] msmfb: drawing while asleep
+<6>[ 1889.500061] msmfb: pan_update in state(4)
+<6>[ 1889.500091] msmfb: drawing while asleep
+<6>[ 1889.598663] msmfb: pan_update in state(4)
+<6>[ 1889.598663] msmfb: drawing while asleep
+<6>[ 1889.698272] msmfb: pan_update in state(4)
+<6>[ 1889.698303] msmfb: drawing while asleep
+<6>[ 1889.798675] msmfb: pan_update in state(4)
+<6>[ 1889.798706] msmfb: drawing while asleep
+<6>[ 1889.898742] msmfb: pan_update in state(4)
+<6>[ 1889.898742] msmfb: drawing while asleep
+<6>[ 1889.998992] msmfb: pan_update in state(4)
+<6>[ 1889.998992] msmfb: drawing while asleep
+<6>[ 1890.098876] msmfb: pan_update in state(4)
+<6>[ 1890.098876] msmfb: drawing while asleep
+<6>[ 1890.198272] msmfb: pan_update in state(4)
+<6>[ 1890.198303] msmfb: drawing while asleep
+<6>[ 1890.298645] msmfb: pan_update in state(4)
+<6>[ 1890.298645] msmfb: drawing while asleep
+<6>[ 1890.398620] msmfb: pan_update in state(4)
+<6>[ 1890.398620] msmfb: drawing while asleep
+<6>[ 1890.499114] msmfb: pan_update in state(4)
+<6>[ 1890.499114] msmfb: drawing while asleep
+<6>[ 1890.598999] msmfb: pan_update in state(4)
+<6>[ 1890.598999] msmfb: drawing while asleep
+<6>[ 1890.699096] msmfb: pan_update in state(4)
+<6>[ 1890.699127] msmfb: drawing while asleep
+<6>[ 1890.800781] msmfb: pan_update in state(4)
+<6>[ 1890.800811] msmfb: drawing while asleep
+<6>[ 1890.918945] msmfb: pan_update in state(4)
+<6>[ 1890.918975] msmfb: drawing while asleep
+<6>[ 1891.019348] msmfb: pan_update in state(4)
+<6>[ 1891.019378] msmfb: drawing while asleep
+<6>[ 1891.118927] msmfb: pan_update in state(4)
+<6>[ 1891.118957] msmfb: drawing while asleep
+<6>[ 1891.219360] msmfb: pan_update in state(4)
+<6>[ 1891.219390] msmfb: drawing while asleep
+<6>[ 1891.318725] msmfb: pan_update in state(4)
+<6>[ 1891.318756] msmfb: drawing while asleep
+<6>[ 1891.425659] msmfb: pan_update in state(4)
+<6>[ 1891.425689] msmfb: drawing while asleep
+<6>[ 1891.538879] msmfb: pan_update in state(4)
+<6>[ 1891.538909] msmfb: drawing while asleep
+<6>[ 1891.652191] msmfb: pan_update in state(4)
+<6>[ 1891.652221] msmfb: drawing while asleep
+<6>[ 1891.762207] msmfb: pan_update in state(4)
+<6>[ 1891.762207] msmfb: drawing while asleep
+<6>[ 1891.868286] msmfb: pan_update in state(4)
+<6>[ 1891.868286] msmfb: drawing while asleep
+<6>[ 1891.975128] msmfb: pan_update in state(4)
+<6>[ 1891.975128] msmfb: drawing while asleep
+<6>[ 1892.078125] msmfb: pan_update in state(4)
+<6>[ 1892.078125] msmfb: drawing while asleep
+<6>[ 1892.191833] msmfb: pan_update in state(4)
+<6>[ 1892.191833] msmfb: drawing while asleep
+<6>[ 1892.298950] msmfb: pan_update in state(4)
+<6>[ 1892.298950] msmfb: drawing while asleep
+<6>[ 1892.398437] msmfb: pan_update in state(4)
+<6>[ 1892.398437] msmfb: drawing while asleep
+<6>[ 1892.498535] msmfb: pan_update in state(4)
+<6>[ 1892.498535] msmfb: drawing while asleep
+<6>[ 1892.598754] msmfb: pan_update in state(4)
+<6>[ 1892.598754] msmfb: drawing while asleep
+<6>[ 1892.698791] msmfb: pan_update in state(4)
+<6>[ 1892.698791] msmfb: drawing while asleep
+<6>[ 1892.798706] msmfb: pan_update in state(4)
+<6>[ 1892.798706] msmfb: drawing while asleep
+<6>[ 1892.899536] msmfb: pan_update in state(4)
+<6>[ 1892.899566] msmfb: drawing while asleep
+<6>[ 1892.998321] msmfb: pan_update in state(4)
+<6>[ 1892.998321] msmfb: drawing while asleep
+<6>[ 1893.098968] msmfb: pan_update in state(4)
+<6>[ 1893.098968] msmfb: drawing while asleep
+<6>[ 1893.199798] msmfb: pan_update in state(4)
+<6>[ 1893.199798] msmfb: drawing while asleep
+<6>[ 1893.298889] msmfb: pan_update in state(4)
+<6>[ 1893.298919] msmfb: drawing while asleep
+<6>[ 1893.398620] msmfb: pan_update in state(4)
+<6>[ 1893.398620] msmfb: drawing while asleep
+<6>[ 1893.498352] msmfb: pan_update in state(4)
+<6>[ 1893.498382] msmfb: drawing while asleep
+<6>[ 1893.598876] msmfb: pan_update in state(4)
+<6>[ 1893.598907] msmfb: drawing while asleep
+<6>[ 1893.698608] msmfb: pan_update in state(4)
+<6>[ 1893.698638] msmfb: drawing while asleep
+<6>[ 1893.798461] msmfb: pan_update in state(4)
+<6>[ 1893.798461] msmfb: drawing while asleep
+<6>[ 1893.899414] msmfb: pan_update in state(4)
+<6>[ 1893.899414] msmfb: drawing while asleep
+<6>[ 1893.998748] msmfb: pan_update in state(4)
+<6>[ 1893.998748] msmfb: drawing while asleep
+<6>[ 1894.099456] msmfb: pan_update in state(4)
+<6>[ 1894.099456] msmfb: drawing while asleep
+<6>[ 1894.198883] msmfb: pan_update in state(4)
+<6>[ 1894.198883] msmfb: drawing while asleep
+<6>[ 1894.298919] msmfb: pan_update in state(4)
+<6>[ 1894.298919] msmfb: drawing while asleep
+<6>[ 1894.398254] msmfb: pan_update in state(4)
+<6>[ 1894.398254] msmfb: drawing while asleep
+<6>[ 1894.499145] msmfb: pan_update in state(4)
+<6>[ 1894.499176] msmfb: drawing while asleep
+<6>[ 1894.598846] msmfb: pan_update in state(4)
+<6>[ 1894.598846] msmfb: drawing while asleep
+<6>[ 1894.698394] msmfb: pan_update in state(4)
+<6>[ 1894.698425] msmfb: drawing while asleep
+<6>[ 1894.798217] msmfb: pan_update in state(4)
+<6>[ 1894.798248] msmfb: drawing while asleep
+<6>[ 1894.898742] msmfb: pan_update in state(4)
+<6>[ 1894.898742] msmfb: drawing while asleep
+<6>[ 1894.998291] msmfb: pan_update in state(4)
+<6>[ 1894.998321] msmfb: drawing while asleep
+<6>[ 1895.099670] msmfb: pan_update in state(4)
+<6>[ 1895.099700] msmfb: drawing while asleep
+<6>[ 1895.199340] msmfb: pan_update in state(4)
+<6>[ 1895.199371] msmfb: drawing while asleep
+<6>[ 1895.300903] msmfb: pan_update in state(4)
+<6>[ 1895.300933] msmfb: drawing while asleep
+<6>[ 1895.401123] msmfb: pan_update in state(4)
+<6>[ 1895.401123] msmfb: drawing while asleep
+<6>[ 1895.508728] msmfb: pan_update in state(4)
+<6>[ 1895.508758] msmfb: drawing while asleep
+<6>[ 1895.608947] msmfb: pan_update in state(4)
+<6>[ 1895.608947] msmfb: drawing while asleep
+<6>[ 1895.710235] msmfb: pan_update in state(4)
+<6>[ 1895.710235] msmfb: drawing while asleep
+<6>[ 1895.808959] msmfb: pan_update in state(4)
+<6>[ 1895.808990] msmfb: drawing while asleep
+<6>[ 1895.912170] msmfb: pan_update in state(4)
+<6>[ 1895.912170] msmfb: drawing while asleep
+<6>[ 1896.019165] msmfb: pan_update in state(4)
+<6>[ 1896.019165] msmfb: drawing while asleep
+<6>[ 1896.061737] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 1896.091735] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 1896.118957] msmfb: pan_update in state(4)
+<6>[ 1896.118988] msmfb: drawing while asleep
+<6>[ 1896.218475] msmfb: pan_update in state(4)
+<6>[ 1896.218475] msmfb: drawing while asleep
+<6>[ 1896.318786] msmfb: pan_update in state(4)
+<6>[ 1896.318786] msmfb: drawing while asleep
+<6>[ 1896.419494] msmfb: pan_update in state(4)
+<6>[ 1896.419525] msmfb: drawing while asleep
+<6>[ 1896.519256] msmfb: pan_update in state(4)
+<6>[ 1896.519287] msmfb: drawing while asleep
+<6>[ 1896.619689] msmfb: pan_update in state(4)
+<6>[ 1896.619720] msmfb: drawing while asleep
+<6>[ 1896.719024] msmfb: pan_update in state(4)
+<6>[ 1896.719055] msmfb: drawing while asleep
+<6>[ 1896.821868] msmfb: pan_update in state(4)
+<6>[ 1896.821868] msmfb: drawing while asleep
+<6>[ 1896.928741] msmfb: pan_update in state(4)
+<6>[ 1896.928771] msmfb: drawing while asleep
+<6>[ 1897.028717] msmfb: pan_update in state(4)
+<6>[ 1897.028717] msmfb: drawing while asleep
+<6>[ 1897.128295] msmfb: pan_update in state(4)
+<6>[ 1897.128295] msmfb: drawing while asleep
+<6>[ 1897.228118] msmfb: pan_update in state(4)
+<6>[ 1897.228118] msmfb: drawing while asleep
+<6>[ 1897.328735] msmfb: pan_update in state(4)
+<6>[ 1897.328735] msmfb: drawing while asleep
+<6>[ 1897.429626] msmfb: pan_update in state(4)
+<6>[ 1897.429656] msmfb: drawing while asleep
+<6>[ 1897.537384] msmfb: pan_update in state(4)
+<6>[ 1897.537414] msmfb: drawing while asleep
+<6>[ 1897.639678] msmfb: pan_update in state(4)
+<6>[ 1897.639678] msmfb: drawing while asleep
+<6>[ 1897.740051] msmfb: pan_update in state(4)
+<6>[ 1897.740051] msmfb: drawing while asleep
+<6>[ 1897.842773] msmfb: pan_update in state(4)
+<6>[ 1897.842773] msmfb: drawing while asleep
+<6>[ 1897.951538] msmfb: pan_update in state(4)
+<6>[ 1897.951538] msmfb: drawing while asleep
+<6>[ 1898.051879] msmfb: pan_update in state(4)
+<6>[ 1898.051910] msmfb: drawing while asleep
+<6>[ 1898.169219] msmfb: pan_update in state(4)
+<6>[ 1898.169219] msmfb: drawing while asleep
+<6>[ 1898.269012] msmfb: pan_update in state(4)
+<6>[ 1898.269012] msmfb: drawing while asleep
+<6>[ 1898.368804] msmfb: pan_update in state(4)
+<6>[ 1898.368804] msmfb: drawing while asleep
+<6>[ 1898.468444] msmfb: pan_update in state(4)
+<6>[ 1898.468444] msmfb: drawing while asleep
+<6>[ 1898.569702] msmfb: pan_update in state(4)
+<6>[ 1898.569702] msmfb: drawing while asleep
+<6>[ 1898.671600] msmfb: pan_update in state(4)
+<6>[ 1898.671844] msmfb: drawing while asleep
+<6>[ 1898.779724] msmfb: pan_update in state(4)
+<6>[ 1898.779754] msmfb: drawing while asleep
+<6>[ 1898.880004] msmfb: pan_update in state(4)
+<6>[ 1898.880004] msmfb: drawing while asleep
+<6>[ 1898.986145] msmfb: pan_update in state(4)
+<6>[ 1898.986175] msmfb: drawing while asleep
+<6>[ 1899.089050] msmfb: pan_update in state(4)
+<6>[ 1899.089050] msmfb: drawing while asleep
+<6>[ 1899.194244] msmfb: pan_update in state(4)
+<6>[ 1899.194244] msmfb: drawing while asleep
+<6>[ 1899.299407] msmfb: pan_update in state(4)
+<6>[ 1899.299438] msmfb: drawing while asleep
+<6>[ 1899.400024] msmfb: pan_update in state(4)
+<6>[ 1899.400054] msmfb: drawing while asleep
+<6>[ 1899.505523] msmfb: pan_update in state(4)
+<6>[ 1899.505554] msmfb: drawing while asleep
+<6>[ 1899.616943] msmfb: pan_update in state(4)
+<6>[ 1899.616973] msmfb: drawing while asleep
+<6>[ 1899.724700] msmfb: pan_update in state(4)
+<6>[ 1899.724731] msmfb: drawing while asleep
+<6>[ 1899.833007] msmfb: pan_update in state(4)
+<6>[ 1899.833038] msmfb: drawing while asleep
+<6>[ 1899.944427] msmfb: pan_update in state(4)
+<6>[ 1899.944427] msmfb: drawing while asleep
+<6>[ 1900.052520] msmfb: pan_update in state(4)
+<6>[ 1900.052520] msmfb: drawing while asleep
+<6>[ 1900.167419] msmfb: pan_update in state(4)
+<6>[ 1900.167419] msmfb: drawing while asleep
+<6>[ 1900.272521] msmfb: pan_update in state(4)
+<6>[ 1900.272552] msmfb: drawing while asleep
+<6>[ 1900.386535] msmfb: pan_update in state(4)
+<6>[ 1900.386566] msmfb: drawing while asleep
+<6>[ 1900.490386] msmfb: pan_update in state(4)
+<6>[ 1900.490417] msmfb: drawing while asleep
+<6>[ 1900.590454] msmfb: pan_update in state(4)
+<6>[ 1900.590515] msmfb: drawing while asleep
+<6>[ 1900.694671] msmfb: pan_update in state(4)
+<6>[ 1900.694702] msmfb: drawing while asleep
+<6>[ 1900.801025] msmfb: pan_update in state(4)
+<6>[ 1900.801055] msmfb: drawing while asleep
+<6>[ 1900.904083] msmfb: pan_update in state(4)
+<6>[ 1900.904113] msmfb: drawing while asleep
+<6>[ 1901.023712] msmfb: pan_update in state(4)
+<6>[ 1901.023742] msmfb: drawing while asleep
+<6>[ 1901.130065] msmfb: pan_update in state(4)
+<6>[ 1901.130096] msmfb: drawing while asleep
+<6>[ 1901.231109] msmfb: pan_update in state(4)
+<6>[ 1901.231140] msmfb: drawing while asleep
+<6>[ 1901.331298] msmfb: pan_update in state(4)
+<6>[ 1901.331329] msmfb: drawing while asleep
+<6>[ 1901.429626] msmfb: pan_update in state(4)
+<6>[ 1901.429656] msmfb: drawing while asleep
+<6>[ 1901.538238] msmfb: pan_update in state(4)
+<6>[ 1901.538238] msmfb: drawing while asleep
+<6>[ 1901.640594] msmfb: pan_update in state(4)
+<6>[ 1901.640625] msmfb: drawing while asleep
+<6>[ 1901.748229] msmfb: pan_update in state(4)
+<6>[ 1901.748229] msmfb: drawing while asleep
+<6>[ 1901.849792] msmfb: pan_update in state(4)
+<6>[ 1901.849792] msmfb: drawing while asleep
+<6>[ 1901.949066] msmfb: pan_update in state(4)
+<6>[ 1901.949096] msmfb: drawing while asleep
+<6>[ 1902.060211] msmfb: pan_update in state(4)
+<6>[ 1902.060241] msmfb: drawing while asleep
+<6>[ 1902.166992] msmfb: pan_update in state(4)
+<6>[ 1902.166992] msmfb: drawing while asleep
+<6>[ 1902.270080] msmfb: pan_update in state(4)
+<6>[ 1902.270111] msmfb: drawing while asleep
+<6>[ 1902.371154] msmfb: pan_update in state(4)
+<6>[ 1902.371215] msmfb: drawing while asleep
+<6>[ 1902.469482] msmfb: pan_update in state(4)
+<6>[ 1902.469512] msmfb: drawing while asleep
+<6>[ 1902.572418] msmfb: pan_update in state(4)
+<6>[ 1902.572418] msmfb: drawing while asleep
+<6>[ 1902.678741] msmfb: pan_update in state(4)
+<6>[ 1902.678741] msmfb: drawing while asleep
+<6>[ 1902.783538] msmfb: pan_update in state(4)
+<6>[ 1902.783569] msmfb: drawing while asleep
+<6>[ 1902.899963] msmfb: pan_update in state(4)
+<6>[ 1902.899963] msmfb: drawing while asleep
+<6>[ 1902.999328] msmfb: pan_update in state(4)
+<6>[ 1902.999359] msmfb: drawing while asleep
+<6>[ 1903.098937] msmfb: pan_update in state(4)
+<6>[ 1903.098937] msmfb: drawing while asleep
+<6>[ 1903.200653] msmfb: pan_update in state(4)
+<6>[ 1903.200653] msmfb: drawing while asleep
+<6>[ 1903.298889] msmfb: pan_update in state(4)
+<6>[ 1903.298919] msmfb: drawing while asleep
+<6>[ 1903.356536] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 1903.373687] request_suspend_state: wakeup (3->0) at 1902482039924 (2014-05-20 00:03:32.619323730 UTC)
+<6>[ 1903.373718] [R] late_resume start
+<6>[ 1903.373748] lcdc_resume: resuming
+<6>[ 1903.373748] sharp_panel_init
+<6>[ 1903.373809] msmfb: ready, waiting for full update
+<6>[ 1903.382446] msmfb: pan_update in state(1)
+<6>[ 1903.382476] msmfb: full update starting
+<6>[ 1903.401702] msmfb: pan_update in state(3)
+<6>[ 1903.408691] msmfb: full update completed
+<6>[ 1903.408752] msmfb: turning on panel
+<6>[ 1903.408752] lcdc_unblank: ()
+<6>[ 1903.408752] sharp_panel_unblank
+<3>[ 1903.912078] msm_i2c msm_i2c.0: error, status 63c8 (5C)
+<3>[ 1903.912109] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 1903.912139] msm_i2c msm_i2c.0: error, status 63c8 (34)
+<3>[ 1903.912170] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 1903.912536] [R] late_resume end
+<4>[ 1905.133087] wifi_set_power = 0
+<4>[ 1905.133148] htcleo_wifi_power: 0
+<4>[ 1907.568695] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 1909.167663] wifi_set_carddetect = 0
+<6>[ 1909.167694] htcleo_wifi_set_carddetect: 0
+<7>[ 1909.167694] mmc0: card_present 0
+<6>[ 1909.167694] mmc0: Slot status change detected (1 -> 0)
+<6>[ 1909.168029] mmc0: card 0001 removed
+<4>[ 1910.258148] wifi_set_power = 1
+<4>[ 1910.258209] htcleo_wifi_power: 1
+<4>[ 1915.950134] wifi_set_carddetect = 1
+<6>[ 1915.950164] htcleo_wifi_set_carddetect: 1
+<7>[ 1915.950195] mmc0: card_present 1
+<6>[ 1915.950195] mmc0: Slot status change detected (0 -> 1)
+<4>[ 1916.082244] 
+<4>[ 1916.082244] Dongle Host Driver, version 4.218.248.23
+<7>[ 1918.515960] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 1918.516021] mmc0: new SDIO card at address 0001
+<4>[ 1918.518615] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 1918.762145] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 1918.942413] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 1919.698547] init: no such service 'p2p_supplicant'
+<3>[ 1924.773162] init: no such service 'p2p_supplicant'
+<3>[ 1940.479034] lsensor: already enabled
+<6>[ 1941.314453] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 1941.314453] 	tick = 64882058
+<6>[ 1941.314453] 	stamp = 56863185155653632
+<4>[ 1957.613708] [D:BATT] V=4191(6b6) I=0(fffffffe) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 1967.742492] init: untracked pid 9474 exited
+<3>[ 1967.742889] init: untracked pid 9417 exited
+<3>[ 1967.745178] init: untracked pid 9429 exited
+<3>[ 1967.747497] init: untracked pid 9456 exited
+<3>[ 1967.756683] init: untracked pid 9657 exited
+<3>[ 1967.769439] init: untracked pid 9466 exited
+<3>[ 1967.775543] init: untracked pid 9442 exited
+<3>[ 1967.785522] init: untracked pid 9768 exited
+<3>[ 1967.785980] init: untracked pid 9683 exited
+<3>[ 1967.799621] init: untracked pid 9326 exited
+<3>[ 1967.800323] init: untracked pid 9402 exited
+<3>[ 1967.815307] init: untracked pid 9342 exited
+<3>[ 1967.827362] init: untracked pid 9520 exited
+<3>[ 1967.828125] init: untracked pid 9825 exited
+<3>[ 1967.828460] init: untracked pid 9804 exited
+<3>[ 1967.840332] init: untracked pid 9643 exited
+<3>[ 1967.841217] init: untracked pid 9610 exited
+<3>[ 1967.878479] init: untracked pid 9496 exited
+<3>[ 1967.880462] init: untracked pid 9735 exited
+<6>[ 1967.903564] alarm_release: clear alarm, pending 0
+<6>[ 1967.903594] alarm_release: clear alarm, pending 0
+<3>[ 1967.907897] init: untracked pid 9183 exited
+<6>[ 2005.392089] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 2005.431732] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<4>[ 2007.623443] [D:BATT] V=4191(6b6) I=0(fffffffe) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2018.169464] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 2018.190643] request_suspend_state: wakeup (0->0) at 2017298995516 (2014-05-20 00:01:16.877777127 UTC)
+<4>[ 2057.627075] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2107.633483] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2119.693786] wifi_set_power = 0
+<4>[ 2119.693786] htcleo_wifi_power: 0
+<4>[ 2123.940948] wifi_set_carddetect = 0
+<6>[ 2123.940979] htcleo_wifi_set_carddetect: 0
+<7>[ 2123.940979] mmc0: card_present 0
+<6>[ 2123.940979] mmc0: Slot status change detected (1 -> 0)
+<6>[ 2123.941314] mmc0: card 0001 removed
+<4>[ 2124.860198] wifi_set_power = 1
+<4>[ 2124.860260] htcleo_wifi_power: 1
+<4>[ 2127.393432] wifi_set_carddetect = 1
+<6>[ 2127.393463] htcleo_wifi_set_carddetect: 1
+<7>[ 2127.393493] mmc0: card_present 1
+<6>[ 2127.393493] mmc0: Slot status change detected (0 -> 1)
+<4>[ 2127.401336] 
+<4>[ 2127.401336] Dongle Host Driver, version 4.218.248.23
+<7>[ 2129.965209] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 2129.965270] mmc0: new SDIO card at address 0001
+<4>[ 2129.967895] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 2130.168457] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 2130.413818] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<3>[ 2130.516448] init: no such service 'p2p_supplicant'
+<3>[ 2134.202209] init: untracked pid 10304 exited
+<3>[ 2134.202514] init: untracked pid 10607 exited
+<3>[ 2134.204162] init: untracked pid 10453 exited
+<3>[ 2134.214599] init: untracked pid 10628 exited
+<3>[ 2134.214935] init: untracked pid 10413 exited
+<3>[ 2134.222076] init: untracked pid 10384 exited
+<3>[ 2134.225921] init: untracked pid 10379 exited
+<3>[ 2134.229217] init: untracked pid 10470 exited
+<3>[ 2134.260833] init: untracked pid 10422 exited
+<3>[ 2134.261230] init: untracked pid 10498 exited
+<3>[ 2134.274932] init: untracked pid 10432 exited
+<3>[ 2134.277984] init: untracked pid 10320 exited
+<3>[ 2134.278778] init: untracked pid 10447 exited
+<3>[ 2134.286804] init: untracked pid 10576 exited
+<6>[ 2134.312408] alarm_release: clear alarm, pending 0
+<6>[ 2134.312469] alarm_release: clear alarm, pending 0
+<3>[ 2134.320190] init: untracked pid 9941 exited
+<3>[ 2134.341400] init: untracked pid 10563 exited
+<6>[ 2137.647766] htc-acoustic: open
+<6>[ 2137.653564] htc-acoustic: mmap
+<6>[ 2137.654083] htc-acoustic: ioctl
+<6>[ 2137.654113] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 10686.
+<6>[ 2137.654144] htc-acoustic: ioctl: done.
+<6>[ 2137.655395] htc-acoustic: release
+<6>[ 2137.655517] Audio: voice: stop
+<6>[ 2145.231781] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 2145.271759] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 2146.734802] Audio: SWITCH DEVICE 17306899, acdb 607
+<6>[ 2146.734832] Audio: SWITCH DEVICE 17306898, acdb 507
+<6>[ 2146.735595] Audio: htcleo_get_rx_vol -1500
+<4>[ 2146.735626] $$ DEV=01081513: vol is -1500
+<4>[ 2146.737365] audio_cb: s=1 e=0107605c status=20
+<6>[ 2151.404327] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 2151.426330] request_suspend_state: wakeup (0->0) at 2150534682770 (2014-05-20 00:03:30.113464381 UTC)
+<6>[ 2152.938049] Audio: htcleo_get_rx_vol -1100
+<4>[ 2152.938110] $$ DEV=01081513: vol is -1100
+<4>[ 2152.939666] audio_cb: s=1 e=0107605c status=20
+<4>[ 2152.952392] wifi_set_power = 0
+<4>[ 2152.952423] htcleo_wifi_power: 0
+<4>[ 2155.799804] wifi_set_carddetect = 0
+<6>[ 2155.799835] htcleo_wifi_set_carddetect: 0
+<7>[ 2155.799865] mmc0: card_present 0
+<6>[ 2155.799865] mmc0: Slot status change detected (1 -> 0)
+<6>[ 2155.800231] mmc0: card 0001 removed
+<4>[ 2156.709442] wifi_set_power = 1
+<4>[ 2156.709503] htcleo_wifi_power: 1
+<4>[ 2157.639495] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2158.161956] wifi_set_carddetect = 1
+<6>[ 2158.162292] htcleo_wifi_set_carddetect: 1
+<7>[ 2158.162292] mmc0: card_present 1
+<6>[ 2158.162292] mmc0: Slot status change detected (0 -> 1)
+<4>[ 2158.162994] 
+<4>[ 2158.163024] Dongle Host Driver, version 4.218.248.23
+<7>[ 2160.735046] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 2160.735107] mmc0: new SDIO card at address 0001
+<4>[ 2160.737701] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 2160.913940] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 2161.080139] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<6>[ 2194.816925] pcm_out: open
+<6>[ 2194.817260] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 2194.817810] audio_update_acdb (17306899, 607)
+<4>[ 2194.817840] table
+<6>[ 2194.817871] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 2194.817901] res1 = 588
+<4>[ 2194.817932] res2 = 588
+<4>[ 2194.817932] call audio_set_table
+<4>[ 2194.845520] audio_out_open: 1000 44100 2
+<6>[ 2194.918609] open done!
+<6>[ 2194.918670] Audio: htcleo_speaker_enable 1
+<6>[ 2198.155853] Audio: htcleo_speaker_enable 0
+<4>[ 2198.157012] audio_cb: s=2 e=01075c54 status=20
+<6>[ 2198.168853] pcm_out: release
+<3>[ 2198.193054] audio callback: unknown session 2
+<3>[ 2205.953155] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<4>[ 2207.643493] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2210.024139] RPC_TIME_TOD_SET_APPS_BASES:
+<6>[ 2210.024139] 	tick = 73687133
+<6>[ 2210.024139] 	stamp = 56863185155653632
+<6>[ 2239.894073] request_suspend_state: sleep (0->3) at 2239002425690 (2014-05-20 00:00:29.871185300 UTC)
+<6>[ 2239.894165] [R] early_suspend start
+<6>[ 2239.911773] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 2239.922637] msmfb: pan_update in state(4)
+<6>[ 2239.922637] msmfb: drawing while asleep
+<6>[ 2239.939178] lcdc_blank: ()
+<6>[ 2239.939208] sharp_panel_blank
+<4>[ 2240.034942] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 2240.035980] lcdc_suspend: suspending
+<6>[ 2240.036041] [R] early_suspend: sync
+<6>[ 2240.115447] active wake lock PowerManagerService.Broadcasts
+<6>[ 2240.115478] active wake lock vbus_present
+<6>[ 2240.115509] wake lock qmi, expired
+<6>[ 2240.115509] wake lock msm_serial_hs_rx, expired
+<6>[ 2240.115539] wake lock mmc_delayed_work, expired
+<6>[ 2240.115570] wake lock wlan_rx_wake, expired
+<6>[ 2240.115570] wake lock proximity, expired
+<6>[ 2240.115600] active wake lock SMD_DS, time left 0.480
+<6>[ 2240.115631] [R] early_suspend end
+<4>[ 2257.837463] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2260.986145] request_suspend_state: wakeup (3->0) at 2260094497208 (2014-05-20 00:00:50.963226300 UTC)
+<6>[ 2260.986297] [R] late_resume start
+<6>[ 2260.986358] lcdc_resume: resuming
+<6>[ 2260.986450] sharp_panel_init
+<6>[ 2260.986511] msmfb: ready, waiting for full update
+<6>[ 2261.012969] msmfb: pan_update in state(1)
+<6>[ 2261.013000] msmfb: full update starting
+<6>[ 2261.038879] msmfb: full update completed
+<6>[ 2261.038970] msmfb: turning on panel
+<6>[ 2261.039001] lcdc_unblank: ()
+<6>[ 2261.039031] sharp_panel_unblank
+<6>[ 2261.043640] msmfb: pan_update in state(3)
+<3>[ 2261.562042] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 2261.562194] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 2261.562347] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 2261.562469] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 2261.563690] [R] late_resume end
+<3>[ 2274.492828] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2274.522827] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<6>[ 2289.439727] q6vdec_open()
+<6>[ 2289.439880] SMD: ch 42 0 -> 1
+<6>[ 2289.439941] SMD: ch 42 1 -> 2
+<6>[ 2289.542541] dal_attach: status = 0, name = 'DAL_AQ_VID'
+<6>[ 2289.545318] q6vdec_close()
+<6>[ 2292.046844] q6vdec_open()
+<6>[ 2292.047119] dal_attach: status = 0, name = 'DAL_AQ_VID'
+<6>[ 2292.049499] q6vdec_close()
+<3>[ 2295.836059] (netd) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2295.866058] (netd) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<4>[ 2311.615997] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2353.780303] request_suspend_state: sleep (0->3) at 2352888656153 (2014-05-20 00:02:23.757415763 UTC)
+<6>[ 2353.780456] [R] early_suspend start
+<6>[ 2353.801788] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 2353.811737] msmfb: pan_update in state(4)
+<6>[ 2353.811737] msmfb: drawing while asleep
+<6>[ 2353.827972] lcdc_blank: ()
+<6>[ 2353.827972] sharp_panel_blank
+<6>[ 2353.914611] msmfb: pan_update in state(4)
+<6>[ 2353.914642] msmfb: drawing while asleep
+<4>[ 2353.973693] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 2353.983398] lcdc_suspend: suspending
+<6>[ 2353.983459] [R] early_suspend: sync
+<6>[ 2354.081817] active wake lock PowerManagerService.WakeLocks
+<6>[ 2354.081878] active wake lock PowerManagerService.Broadcasts
+<6>[ 2354.081909] active wake lock vbus_present
+<6>[ 2354.081939] wake lock qmi, expired
+<6>[ 2354.081939] wake lock msm_serial_hs_rx, expired
+<6>[ 2354.081970] wake lock mmc_delayed_work, expired
+<6>[ 2354.082000] wake lock wlan_rx_wake, expired
+<6>[ 2354.082000] wake lock proximity, expired
+<6>[ 2354.082031] wake lock SMD_DS, expired
+<6>[ 2354.082061] [R] early_suspend end
+<6>[ 2354.083709] msmfb: pan_update in state(4)
+<6>[ 2354.083709] msmfb: drawing while asleep
+<6>[ 2354.183624] msmfb: pan_update in state(4)
+<6>[ 2354.183654] msmfb: drawing while asleep
+<3>[ 2360.572540] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<4>[ 2361.626495] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2365.626434] msmfb: pan_update in state(4)
+<6>[ 2365.626464] msmfb: drawing while asleep
+<6>[ 2365.737182] msmfb: pan_update in state(4)
+<6>[ 2365.737213] msmfb: drawing while asleep
+<6>[ 2365.835540] msmfb: pan_update in state(4)
+<6>[ 2365.835571] msmfb: drawing while asleep
+<6>[ 2365.940795] msmfb: pan_update in state(4)
+<6>[ 2365.940826] msmfb: drawing while asleep
+<6>[ 2366.543731] msmfb: pan_update in state(4)
+<6>[ 2366.543731] msmfb: drawing while asleep
+<6>[ 2366.643463] msmfb: pan_update in state(4)
+<6>[ 2366.643493] msmfb: drawing while asleep
+<6>[ 2366.746795] msmfb: pan_update in state(4)
+<6>[ 2366.746826] msmfb: drawing while asleep
+<6>[ 2367.892669] msmfb: pan_update in state(4)
+<6>[ 2367.892700] msmfb: drawing while asleep
+<6>[ 2368.059600] msmfb: pan_update in state(4)
+<6>[ 2368.059600] msmfb: drawing while asleep
+<6>[ 2368.156311] msmfb: pan_update in state(4)
+<6>[ 2368.156341] msmfb: drawing while asleep
+<6>[ 2368.254028] msmfb: pan_update in state(4)
+<6>[ 2368.254058] msmfb: drawing while asleep
+<4>[ 2411.724517] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2461.893890] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2500.276245] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2501.724945] (logcat) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2501.756500] (busybox) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2501.787567] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2501.885559] (logcat) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2501.942687] (busybox) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2503.482513] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2503.652526] (busybox) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2503.687744] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2505.961975] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2505.992095] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2507.067260] (busybox) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2507.097320] (busybox) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<4>[ 2511.910247] [D:BATT] V=4191(6b6) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2520.156219] msmfb: pan_update in state(4)
+<6>[ 2520.156219] msmfb: drawing while asleep
+<6>[ 2520.256744] msmfb: pan_update in state(4)
+<6>[ 2520.256744] msmfb: drawing while asleep
+<6>[ 2525.802551] msmfb: pan_update in state(4)
+<6>[ 2525.802581] msmfb: drawing while asleep
+<6>[ 2525.905975] msmfb: pan_update in state(4)
+<6>[ 2525.905975] msmfb: drawing while asleep
+<6>[ 2526.277221] msmfb: pan_update in state(4)
+<6>[ 2526.277221] msmfb: drawing while asleep
+<6>[ 2526.374420] msmfb: pan_update in state(4)
+<6>[ 2526.374420] msmfb: drawing while asleep
+<6>[ 2526.743591] msmfb: pan_update in state(4)
+<6>[ 2526.743591] msmfb: drawing while asleep
+<6>[ 2526.852935] msmfb: pan_update in state(4)
+<6>[ 2526.852935] msmfb: drawing while asleep
+<6>[ 2527.035125] msmfb: pan_update in state(4)
+<6>[ 2527.035125] msmfb: drawing while asleep
+<6>[ 2527.133605] msmfb: pan_update in state(4)
+<6>[ 2527.133605] msmfb: drawing while asleep
+<6>[ 2527.233398] msmfb: pan_update in state(4)
+<6>[ 2527.233398] msmfb: drawing while asleep
+<6>[ 2527.334167] msmfb: pan_update in state(4)
+<6>[ 2527.334167] msmfb: drawing while asleep
+<6>[ 2527.433990] msmfb: pan_update in state(4)
+<6>[ 2527.433990] msmfb: drawing while asleep
+<6>[ 2532.630462] msmfb: pan_update in state(4)
+<6>[ 2532.630493] msmfb: drawing while asleep
+<6>[ 2532.727661] msmfb: pan_update in state(4)
+<6>[ 2532.727691] msmfb: drawing while asleep
+<6>[ 2532.828826] msmfb: pan_update in state(4)
+<6>[ 2532.828887] msmfb: drawing while asleep
+<6>[ 2533.383300] msmfb: pan_update in state(4)
+<6>[ 2533.383300] msmfb: drawing while asleep
+<6>[ 2533.483154] msmfb: pan_update in state(4)
+<6>[ 2533.483184] msmfb: drawing while asleep
+<6>[ 2533.665344] msmfb: pan_update in state(4)
+<6>[ 2533.665374] msmfb: drawing while asleep
+<6>[ 2533.763488] msmfb: pan_update in state(4)
+<6>[ 2533.763519] msmfb: drawing while asleep
+<3>[ 2547.359283] (adbd) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<4>[ 2561.924133] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2569.172332] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2569.272888] (adbd) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2569.710449] (Binder_7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<6>[ 2576.393707] request_suspend_state: wakeup (3->0) at 2575502059507 (2014-05-20 00:06:06.370819117 UTC)
+<6>[ 2576.393798] [R] late_resume start
+<6>[ 2576.393859] lcdc_resume: resuming
+<6>[ 2576.393859] sharp_panel_init
+<6>[ 2576.393920] msmfb: ready, waiting for full update
+<6>[ 2576.799316] msmfb: pan_update in state(1)
+<6>[ 2576.799316] msmfb: full update starting
+<6>[ 2576.830657] msmfb: full update completed
+<6>[ 2576.830718] msmfb: turning on panel
+<6>[ 2576.830749] lcdc_unblank: ()
+<6>[ 2576.830780] sharp_panel_unblank
+<6>[ 2576.843078] msmfb: pan_update in state(3)
+<3>[ 2576.941894] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 2576.941955] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 2576.942077] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 2576.942138] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 2576.943267] [R] late_resume end
+<6>[ 2585.459655] request_suspend_state: sleep (0->3) at 2584568008003 (2014-05-20 00:06:15.436767613 UTC)
+<6>[ 2585.459747] [R] early_suspend start
+<6>[ 2585.481781] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 2585.491302] lcdc_blank: ()
+<6>[ 2585.491333] sharp_panel_blank
+<6>[ 2585.495971] msmfb: pan_update in state(4)
+<6>[ 2585.495971] msmfb: drawing while asleep
+<3>[ 2585.583618] lsensor: nothing to disable
+<6>[ 2585.593170] msmfb: pan_update in state(4)
+<6>[ 2585.593170] msmfb: drawing while asleep
+<4>[ 2585.615692] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 2585.617248] lcdc_suspend: suspending
+<6>[ 2585.617309] [R] early_suspend: sync
+<6>[ 2585.692749] msmfb: pan_update in state(4)
+<6>[ 2585.692749] msmfb: drawing while asleep
+<6>[ 2585.721832] active wake lock vbus_present
+<6>[ 2585.721832] wake lock qmi, expired
+<6>[ 2585.721862] wake lock msm_serial_hs_rx, expired
+<6>[ 2585.721862] wake lock mmc_delayed_work, expired
+<6>[ 2585.721893] wake lock wlan_rx_wake, expired
+<6>[ 2585.721893] wake lock proximity, expired
+<6>[ 2585.721893] active wake lock SMD_DS, time left 0.300
+<6>[ 2585.721923] [R] early_suspend end
+<6>[ 2585.959411] msmfb: pan_update in state(4)
+<6>[ 2585.959442] msmfb: drawing while asleep
+<6>[ 2586.180938] request_suspend_state: wakeup (3->0) at 2585289290961 (2014-05-20 00:06:16.158050571 UTC)
+<6>[ 2586.181060] [R] late_resume start
+<6>[ 2586.181091] lcdc_resume: resuming
+<6>[ 2586.181121] sharp_panel_init
+<6>[ 2586.181182] msmfb: ready, waiting for full update
+<6>[ 2586.257873] msmfb: pan_update in state(1)
+<6>[ 2586.257904] msmfb: full update starting
+<6>[ 2586.285919] msmfb: full update completed
+<6>[ 2586.286010] msmfb: turning on panel
+<6>[ 2586.286041] lcdc_unblank: ()
+<6>[ 2586.286071] sharp_panel_unblank
+<6>[ 2586.295623] msmfb: pan_update in state(3)
+<3>[ 2586.731842] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+<3>[ 2586.733642] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 2586.733734] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 2586.733795] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 2586.734893] [R] late_resume end
+<4>[ 2611.927062] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2662.148712] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2712.203796] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2762.233703] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2812.271972] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2855.319213] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2855.349212] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<4>[ 2862.528869] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2891.332519] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2891.362518] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2891.393768] (app_process.hd2) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2891.423767] (app_process.hd2) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2891.571411] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<6>[ 2898.617889] pcm_out: open
+<6>[ 2898.618255] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 2898.618774] audio_update_acdb (17306899, 607)
+<4>[ 2898.618804] table
+<6>[ 2898.618804] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 2898.618865] res1 = 588
+<4>[ 2898.618865] res2 = 588
+<4>[ 2898.618896] call audio_set_table
+<4>[ 2898.648742] audio_out_open: 1000 44100 2
+<6>[ 2898.718444] open done!
+<6>[ 2898.718475] Audio: htcleo_speaker_enable 1
+<6>[ 2901.942993] Audio: htcleo_speaker_enable 0
+<4>[ 2901.944061] audio_cb: s=2 e=01075c54 status=20
+<3>[ 2901.951416] buffer status 43
+<6>[ 2901.959136] pcm_out: release
+<3>[ 2901.976470] audio callback: unknown session 2
+<4>[ 2912.613952] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 2957.892242] Adding 98296k swap on /dev/block/zram0.  Priority:-1 extents:1 across:98296k SS
+<4>[ 2962.623992] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 3012.865142] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 3061.645751] init: untracked pid 11738 exited
+<3>[ 3061.646148] init: untracked pid 10893 exited
+<3>[ 3061.646850] init: untracked pid 11027 exited
+<3>[ 3061.647247] init: untracked pid 11146 exited
+<3>[ 3061.648193] init: untracked pid 10933 exited
+<3>[ 3061.664855] init: untracked pid 11332 exited
+<3>[ 3061.665802] init: untracked pid 10976 exited
+<3>[ 3061.669952] init: untracked pid 10860 exited
+<3>[ 3061.762207] init: untracked pid 11072 exited
+<3>[ 3061.766326] init: untracked pid 11006 exited
+<3>[ 3061.799652] init: untracked pid 11399 exited
+<3>[ 3061.812469] init: untracked pid 11280 exited
+<3>[ 3061.812774] init: untracked pid 11225 exited
+<3>[ 3061.813140] init: untracked pid 11187 exited
+<3>[ 3061.813537] init: untracked pid 11019 exited
+<3>[ 3061.813812] init: untracked pid 10971 exited
+<3>[ 3061.822418] init: untracked pid 11413 exited
+<3>[ 3061.823120] init: untracked pid 11682 exited
+<3>[ 3061.842620] init: untracked pid 10985 exited
+<3>[ 3061.848846] init: untracked pid 12034 exited
+<6>[ 3061.870483] alarm_release: clear alarm, pending 0
+<6>[ 3061.870513] alarm_release: clear alarm, pending 0
+<3>[ 3061.951263] init: untracked pid 10718 exited
+<4>[ 3062.873565] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3071.551788] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 3071.592041] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3080.744537] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 3080.769805] request_suspend_state: wakeup (0->0) at 3079878158153 (2014-05-20 00:14:30.746917763 UTC)
+<4>[ 3082.372528] wifi_set_power = 0
+<4>[ 3082.372558] htcleo_wifi_power: 0
+<4>[ 3085.814392] wifi_set_carddetect = 0
+<6>[ 3085.814422] htcleo_wifi_set_carddetect: 0
+<7>[ 3085.814422] mmc0: card_present 0
+<6>[ 3085.814422] mmc0: Slot status change detected (1 -> 0)
+<6>[ 3085.814758] mmc0: card 0001 removed
+<4>[ 3086.766021] wifi_set_power = 1
+<4>[ 3086.766082] htcleo_wifi_power: 1
+<4>[ 3089.095001] wifi_set_carddetect = 1
+<6>[ 3089.095062] htcleo_wifi_set_carddetect: 1
+<7>[ 3089.095062] mmc0: card_present 1
+<6>[ 3089.095092] mmc0: Slot status change detected (0 -> 1)
+<4>[ 3089.098175] 
+<4>[ 3089.098175] Dongle Host Driver, version 4.218.248.23
+<7>[ 3091.667510] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 3091.667541] mmc0: new SDIO card at address 0001
+<4>[ 3091.670288] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 3091.893981] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 3092.070739] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<4>[ 3112.876739] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3114.479187] pcm_out: open
+<6>[ 3114.479583] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 3114.480163] audio_update_acdb (17306899, 607)
+<4>[ 3114.480194] table
+<6>[ 3114.480224] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 3114.480255] res1 = 588
+<4>[ 3114.480285] res2 = 588
+<4>[ 3114.480285] call audio_set_table
+<4>[ 3114.603240] audio_out_open: 1000 44100 2
+<6>[ 3114.676696] open done!
+<6>[ 3114.676757] Audio: htcleo_speaker_enable 1
+<6>[ 3117.934997] Audio: htcleo_speaker_enable 0
+<4>[ 3117.936065] audio_cb: s=2 e=01075c54 status=20
+<3>[ 3117.944976] buffer status 43
+<6>[ 3117.947387] pcm_out: release
+<3>[ 3117.971679] audio callback: unknown session 2
+<3>[ 3130.502502] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<6>[ 3131.538116] alarm_release: clear alarm, pending 0
+<6>[ 3131.538146] alarm_release: clear alarm, pending 0
+<6>[ 3131.687896] request_suspend_state: wakeup (0->0) at 3130796248955 (2014-05-20 00:15:21.665008565 UTC)
+<3>[ 3131.952606] init: untracked pid 12746 exited
+<3>[ 3131.997680] init: untracked pid 12668 exited
+<3>[ 3132.016632] init: untracked pid 12967 exited
+<3>[ 3132.141296] init: untracked pid 12683 exited
+<3>[ 3132.223419] init: untracked pid 12704 exited
+<3>[ 3133.000213] init: untracked pid 12590 exited
+<3>[ 3133.012176] init: untracked pid 12767 exited
+<6>[ 3133.802947] htc-acoustic: open
+<6>[ 3133.819061] htc-acoustic: mmap
+<6>[ 3133.825683] htc-acoustic: ioctl
+<6>[ 3133.825714] htc-acoustic: ioctl: ACOUSTIC_UPDATE_ADIE called 13137.
+<6>[ 3133.825744] htc-acoustic: ioctl: done.
+<6>[ 3133.826751] htc-acoustic: release
+<6>[ 3133.826873] Audio: voice: stop
+<3>[ 3137.122131] init: untracked pid 12895 exited
+<3>[ 3137.135162] init: untracked pid 12846 exited
+<3>[ 3137.135498] init: untracked pid 12714 exited
+<3>[ 3137.136474] init: untracked pid 12795 exited
+<3>[ 3137.138763] init: untracked pid 12912 exited
+<3>[ 3137.139495] init: untracked pid 12728 exited
+<3>[ 3137.186737] init: untracked pid 12945 exited
+<3>[ 3137.188507] init: untracked pid 13028 exited
+<3>[ 3137.202362] init: untracked pid 12740 exited
+<3>[ 3137.238159] init: untracked pid 12606 exited
+<6>[ 3148.501678] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 3148.541687] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3149.937438] Audio: SWITCH DEVICE 17306899, acdb 607
+<6>[ 3149.937530] Audio: SWITCH DEVICE 17306898, acdb 507
+<6>[ 3149.940307] Audio: htcleo_get_rx_vol -1500
+<4>[ 3149.940338] $$ DEV=01081513: vol is -1500
+<4>[ 3149.942047] audio_cb: s=1 e=0107605c status=20
+<6>[ 3157.006927] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 3157.054260] request_suspend_state: wakeup (0->0) at 3156162612494 (2014-05-20 00:15:47.031372104 UTC)
+<6>[ 3159.890167] Audio: htcleo_get_rx_vol -1100
+<4>[ 3159.890228] $$ DEV=01081513: vol is -1100
+<4>[ 3159.891784] audio_cb: s=1 e=0107605c status=20
+<4>[ 3159.933349] wifi_set_power = 0
+<4>[ 3159.933441] htcleo_wifi_power: 0
+<4>[ 3162.881072] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 3164.056488] wifi_set_carddetect = 0
+<6>[ 3164.056549] htcleo_wifi_set_carddetect: 0
+<7>[ 3164.056549] mmc0: card_present 0
+<6>[ 3164.056579] mmc0: Slot status change detected (1 -> 0)
+<6>[ 3164.057006] mmc0: card 0001 removed
+<4>[ 3165.018188] wifi_set_power = 1
+<4>[ 3165.018218] htcleo_wifi_power: 1
+<4>[ 3167.239807] wifi_set_carddetect = 1
+<6>[ 3167.239868] htcleo_wifi_set_carddetect: 1
+<7>[ 3167.239868] mmc0: card_present 1
+<6>[ 3167.239898] mmc0: Slot status change detected (0 -> 1)
+<4>[ 3167.240600] 
+<4>[ 3167.240600] Dongle Host Driver, version 4.218.248.23
+<7>[ 3169.808898] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 3169.808898] mmc0: new SDIO card at address 0001
+<4>[ 3169.811676] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 3169.973632] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 3170.140136] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<6>[ 3185.950225] pcm_out: open
+<6>[ 3185.950592] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 3185.951171] audio_update_acdb (17306899, 607)
+<4>[ 3185.951171] table
+<6>[ 3185.951171] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 3185.951202] res1 = 588
+<4>[ 3185.951202] res2 = 588
+<4>[ 3185.951202] call audio_set_table
+<4>[ 3185.978271] audio_out_open: 1000 44100 2
+<6>[ 3186.051116] open done!
+<6>[ 3186.051361] Audio: htcleo_speaker_enable 1
+<6>[ 3189.290161] Audio: htcleo_speaker_enable 0
+<4>[ 3189.291046] audio_cb: s=2 e=01075c54 status=20
+<6>[ 3189.302886] pcm_out: release
+<3>[ 3189.326690] audio callback: unknown session 2
+<4>[ 3212.899200] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 3213.893157] init: untracked pid 13664 exited
+<3>[ 3213.902252] init: untracked pid 13746 exited
+<3>[ 3213.902648] init: untracked pid 13949 exited
+<3>[ 3213.903045] init: untracked pid 14053 exited
+<3>[ 3213.911102] init: untracked pid 13679 exited
+<3>[ 3213.923706] init: untracked pid 13700 exited
+<3>[ 3213.956909] init: untracked pid 13587 exited
+<3>[ 3213.980926] init: untracked pid 13777 exited
+<3>[ 3214.057189] init: untracked pid 13917 exited
+<3>[ 3214.057556] init: untracked pid 14098 exited
+<3>[ 3214.062530] init: untracked pid 13903 exited
+<3>[ 3214.062866] init: untracked pid 13708 exited
+<3>[ 3214.067199] init: untracked pid 13792 exited
+<3>[ 3214.097076] init: untracked pid 13722 exited
+<3>[ 3214.112884] init: untracked pid 13978 exited
+<3>[ 3214.113708] init: untracked pid 14027 exited
+<3>[ 3214.121612] init: untracked pid 13848 exited
+<3>[ 3214.125610] init: untracked pid 13735 exited
+<6>[ 3214.164215] alarm_release: clear alarm, pending 0
+<6>[ 3214.164276] alarm_release: clear alarm, pending 0
+<3>[ 3214.204437] init: untracked pid 13434 exited
+<3>[ 3214.204986] init: untracked pid 13603 exited
+<6>[ 3223.901733] __spi_bma150_set_mode: BMA get into NORMAL mode!
+<6>[ 3223.941802] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3229.146514] healthd: battery l=100 v=4 t=34.0 h=2 st=5 chg=u
+<6>[ 3229.167083] request_suspend_state: wakeup (0->0) at 3228275435983 (2014-05-20 00:16:59.144195593 UTC)
+<4>[ 3230.553283] wifi_set_power = 0
+<4>[ 3230.553314] htcleo_wifi_power: 0
+<4>[ 3234.335144] wifi_set_carddetect = 0
+<6>[ 3234.335174] htcleo_wifi_set_carddetect: 0
+<7>[ 3234.335205] mmc0: card_present 0
+<6>[ 3234.335235] mmc0: Slot status change detected (1 -> 0)
+<6>[ 3234.335540] mmc0: card 0001 removed
+<4>[ 3235.667327] wifi_set_power = 1
+<4>[ 3235.667388] htcleo_wifi_power: 1
+<4>[ 3238.191101] wifi_set_carddetect = 1
+<6>[ 3238.191131] htcleo_wifi_set_carddetect: 1
+<7>[ 3238.191162] mmc0: card_present 1
+<6>[ 3238.191162] mmc0: Slot status change detected (0 -> 1)
+<4>[ 3238.191986] 
+<4>[ 3238.191986] Dongle Host Driver, version 4.218.248.23
+<7>[ 3240.755340] mmc0: queuing CIS tuple 0x91 length 3
+<6>[ 3240.755401] mmc0: new SDIO card at address 0001
+<4>[ 3240.758361] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[ 3240.943603] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+<4>[ 3241.184600] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+<6>[ 3252.830200] pcm_out: open
+<6>[ 3252.830688] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 3252.831176] audio_update_acdb (17306899, 607)
+<4>[ 3252.831207] table
+<6>[ 3252.831237] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 3252.831268] res1 = 588
+<4>[ 3252.831268] res2 = 588
+<4>[ 3252.831298] call audio_set_table
+<4>[ 3252.858978] audio_out_open: 1000 44100 2
+<6>[ 3252.930908] open done!
+<6>[ 3252.931091] Audio: htcleo_speaker_enable 1
+<6>[ 3256.156433] Audio: htcleo_speaker_enable 0
+<4>[ 3256.157348] audio_cb: s=2 e=01075c54 status=20
+<3>[ 3256.166198] buffer status 43
+<6>[ 3256.169128] pcm_out: release
+<3>[ 3256.195770] audio callback: unknown session 2
+<4>[ 3262.905517] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3289.576141] request_suspend_state: sleep (0->3) at 3288684493597 (2014-05-20 00:17:59.553253207 UTC)
+<6>[ 3289.576202] [R] early_suspend start
+<6>[ 3289.601959] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3289.626739] lcdc_blank: ()
+<6>[ 3289.626770] sharp_panel_blank
+<3>[ 3289.711944] lsensor: nothing to disable
+<4>[ 3289.745147] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 3289.746795] lcdc_suspend: suspending
+<6>[ 3289.746917] [R] early_suspend: sync
+<6>[ 3289.941925] active wake lock PowerManagerService.WakeLocks
+<6>[ 3289.941986] active wake lock PowerManagerService.Broadcasts
+<6>[ 3289.942016] active wake lock vbus_present
+<6>[ 3289.942047] wake lock qmi, expired
+<6>[ 3289.942077] wake lock msm_serial_hs_rx, expired
+<6>[ 3289.942108] wake lock mmc_delayed_work, expired
+<6>[ 3289.942138] wake lock wlan_rx_wake, expired
+<6>[ 3289.942169] wake lock SMD_DS, expired
+<6>[ 3289.942199] wake lock proximity, expired
+<6>[ 3289.942260] [R] early_suspend end
+<6>[ 3289.959411] msmfb: pan_update in state(4)
+<6>[ 3289.959442] msmfb: drawing while asleep
+<6>[ 3290.117553] msmfb: pan_update in state(4)
+<6>[ 3290.117553] msmfb: drawing while asleep
+<6>[ 3290.212493] msmfb: pan_update in state(4)
+<6>[ 3290.212493] msmfb: drawing while asleep
+<6>[ 3290.442687] msmfb: pan_update in state(4)
+<6>[ 3290.442687] msmfb: drawing while asleep
+<6>[ 3290.564086] msmfb: pan_update in state(4)
+<6>[ 3290.564086] msmfb: drawing while asleep
+<6>[ 3290.671844] msmfb: pan_update in state(4)
+<6>[ 3290.671844] msmfb: drawing while asleep
+<4>[ 3313.050750] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3352.232849] request_suspend_state: wakeup (3->0) at 3351341231877 (2014-05-20 00:19:02.209991487 UTC)
+<6>[ 3352.232940] [R] late_resume start
+<6>[ 3352.232971] lcdc_resume: resuming
+<6>[ 3352.233062] sharp_panel_init
+<6>[ 3352.233154] msmfb: ready, waiting for full update
+<6>[ 3352.285491] msmfb: pan_update in state(1)
+<6>[ 3352.285491] msmfb: full update starting
+<6>[ 3352.302978] msmfb: full update completed
+<6>[ 3352.303039] msmfb: turning on panel
+<6>[ 3352.303070] lcdc_unblank: ()
+<6>[ 3352.303070] sharp_panel_unblank
+<6>[ 3352.338104] msmfb: pan_update in state(3)
+<3>[ 3352.782440] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 3352.782592] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 3352.782745] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 3352.782867] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 3352.784027] [R] late_resume end
+<4>[ 3379.673156] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3400.651641] request_suspend_state: sleep (0->3) at 3399759963527 (2014-05-20 00:19:50.628692619 UTC)
+<6>[ 3400.651947] [R] early_suspend start
+<6>[ 3400.671783] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3400.688171] lcdc_blank: ()
+<6>[ 3400.688232] sharp_panel_blank
+<6>[ 3400.743255] msmfb: pan_update in state(4)
+<6>[ 3400.743286] msmfb: drawing while asleep
+<4>[ 3400.784912] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 3400.786071] lcdc_suspend: suspending
+<6>[ 3400.786132] [R] early_suspend: sync
+<6>[ 3400.843353] msmfb: pan_update in state(4)
+<6>[ 3400.843353] msmfb: drawing while asleep
+<6>[ 3400.851715] active wake lock vbus_present
+<6>[ 3400.851745] wake lock qmi, expired
+<6>[ 3400.851745] wake lock msm_serial_hs_rx, expired
+<6>[ 3400.851745] wake lock mmc_delayed_work, expired
+<6>[ 3400.851745] wake lock wlan_rx_wake, expired
+<6>[ 3400.851776] wake lock proximity, expired
+<6>[ 3400.851776] active wake lock SMD_DS, time left 0.440
+<6>[ 3400.851776] [R] early_suspend end
+<6>[ 3400.944549] msmfb: pan_update in state(4)
+<6>[ 3400.944580] msmfb: drawing while asleep
+<6>[ 3401.043945] msmfb: pan_update in state(4)
+<6>[ 3401.043945] msmfb: drawing while asleep
+<6>[ 3401.159240] msmfb: pan_update in state(4)
+<6>[ 3401.159271] msmfb: drawing while asleep
+<6>[ 3407.709503] msmfb: pan_update in state(4)
+<6>[ 3407.709503] msmfb: drawing while asleep
+<6>[ 3407.802917] msmfb: pan_update in state(4)
+<6>[ 3407.802917] msmfb: drawing while asleep
+<6>[ 3407.902191] msmfb: pan_update in state(4)
+<6>[ 3407.902191] msmfb: drawing while asleep
+<6>[ 3408.002777] msmfb: pan_update in state(4)
+<6>[ 3408.002777] msmfb: drawing while asleep
+<6>[ 3408.102661] msmfb: pan_update in state(4)
+<6>[ 3408.102691] msmfb: drawing while asleep
+<6>[ 3408.202667] msmfb: pan_update in state(4)
+<6>[ 3408.202667] msmfb: drawing while asleep
+<6>[ 3408.305328] msmfb: pan_update in state(4)
+<6>[ 3408.305358] msmfb: drawing while asleep
+<6>[ 3408.403778] msmfb: pan_update in state(4)
+<6>[ 3408.403808] msmfb: drawing while asleep
+<6>[ 3408.502258] msmfb: pan_update in state(4)
+<6>[ 3408.502288] msmfb: drawing while asleep
+<4>[ 3430.174072] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3449.762573] msmfb: pan_update in state(4)
+<6>[ 3449.762603] msmfb: drawing while asleep
+<6>[ 3449.830413] request_suspend_state: wakeup (3->0) at 3448938796548 (2014-05-20 00:20:39.807556158 UTC)
+<6>[ 3449.830474] [R] late_resume start
+<6>[ 3449.830505] lcdc_resume: resuming
+<6>[ 3449.830505] sharp_panel_init
+<6>[ 3449.830535] msmfb: ready, waiting for full update
+<6>[ 3449.897552] msmfb: pan_update in state(1)
+<6>[ 3449.897552] msmfb: full update starting
+<6>[ 3449.917846] msmfb: full update completed
+<6>[ 3449.917938] msmfb: turning on panel
+<6>[ 3449.917968] lcdc_unblank: ()
+<6>[ 3449.917968] sharp_panel_unblank
+<6>[ 3449.922668] msmfb: pan_update in state(3)
+<3>[ 3450.392425] msm_i2c msm_i2c.0: error, status c8 (5C)
+<3>[ 3450.392578] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 3450.392730] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 3450.392852] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 3450.394012] [R] late_resume end
+<4>[ 3480.223999] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3512.032287] request_suspend_state: sleep (0->3) at 3511140670318 (2014-05-20 00:21:42.009399410 UTC)
+<6>[ 3512.032379] [R] early_suspend start
+<6>[ 3512.051788] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3512.062561] lcdc_blank: ()
+<6>[ 3512.062622] sharp_panel_blank
+<6>[ 3512.126068] msmfb: pan_update in state(4)
+<6>[ 3512.126098] msmfb: drawing while asleep
+<4>[ 3512.165344] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 3512.166870] lcdc_suspend: suspending
+<6>[ 3512.166931] [R] early_suspend: sync
+<6>[ 3512.221710] active wake lock PowerManagerService.WakeLocks
+<6>[ 3512.221771] active wake lock PowerManagerService.Broadcasts
+<6>[ 3512.221801] active wake lock vbus_present
+<6>[ 3512.221832] wake lock qmi, expired
+<6>[ 3512.221862] wake lock msm_serial_hs_rx, expired
+<6>[ 3512.221893] wake lock mmc_delayed_work, expired
+<6>[ 3512.221923] wake lock wlan_rx_wake, expired
+<6>[ 3512.221954] wake lock proximity, expired
+<6>[ 3512.221984] wake lock SMD_DS, expired
+<6>[ 3512.222015] [R] early_suspend end
+<6>[ 3512.359619] msmfb: pan_update in state(4)
+<6>[ 3512.359649] msmfb: drawing while asleep
+<6>[ 3512.452819] msmfb: pan_update in state(4)
+<6>[ 3512.452819] msmfb: drawing while asleep
+<6>[ 3518.893157] msmfb: pan_update in state(4)
+<6>[ 3518.893157] msmfb: drawing while asleep
+<6>[ 3519.000915] msmfb: pan_update in state(4)
+<6>[ 3519.000915] msmfb: drawing while asleep
+<6>[ 3519.092926] msmfb: pan_update in state(4)
+<6>[ 3519.092956] msmfb: drawing while asleep
+<6>[ 3519.194885] msmfb: pan_update in state(4)
+<6>[ 3519.194915] msmfb: drawing while asleep
+<6>[ 3519.292907] msmfb: pan_update in state(4)
+<6>[ 3519.292938] msmfb: drawing while asleep
+<6>[ 3519.392181] msmfb: pan_update in state(4)
+<6>[ 3519.392211] msmfb: drawing while asleep
+<6>[ 3519.509124] msmfb: pan_update in state(4)
+<6>[ 3519.509124] msmfb: drawing while asleep
+<6>[ 3519.605072] msmfb: pan_update in state(4)
+<6>[ 3519.605102] msmfb: drawing while asleep
+<6>[ 3519.703796] msmfb: pan_update in state(4)
+<6>[ 3519.703826] msmfb: drawing while asleep
+<6>[ 3519.802246] msmfb: pan_update in state(4)
+<6>[ 3519.802276] msmfb: drawing while asleep
+<4>[ 3542.834167] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 3595.025482] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3623.705078] request_suspend_state: wakeup (3->0) at 3622813430333 (2014-05-20 00:23:33.682189943 UTC)
+<6>[ 3623.705169] [R] late_resume start
+<6>[ 3623.705200] lcdc_resume: resuming
+<6>[ 3623.705230] sharp_panel_init
+<6>[ 3623.705291] msmfb: ready, waiting for full update
+<6>[ 3623.715454] msmfb: pan_update in state(1)
+<6>[ 3623.715484] msmfb: full update starting
+<6>[ 3623.740173] msmfb: full update completed
+<6>[ 3623.740264] msmfb: turning on panel
+<6>[ 3623.740295] lcdc_unblank: ()
+<6>[ 3623.740295] sharp_panel_unblank
+<6>[ 3623.764129] msmfb: pan_update in state(3)
+<3>[ 3624.251739] msm_i2c msm_i2c.0: error, status 63c8 (5C)
+<3>[ 3624.251800] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 3624.251861] msm_i2c msm_i2c.0: error, status 63c8 (34)
+<3>[ 3624.251892] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 3624.252288] [R] late_resume end
+<4>[ 3645.027709] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 3695.068572] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<6>[ 3707.888610] request_suspend_state: sleep (0->3) at 3706996963051 (2014-05-20 00:24:57.865722661 UTC)
+<6>[ 3707.888702] [R] early_suspend start
+<6>[ 3707.912017] __spi_bma150_set_mode: BMA get into SLEEP mode!
+<6>[ 3707.921325] lcdc_blank: ()
+<6>[ 3707.921356] sharp_panel_blank
+<4>[ 3708.024536] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 3708.025817] lcdc_suspend: suspending
+<6>[ 3708.025909] [R] early_suspend: sync
+<6>[ 3708.092346] active wake lock PowerManagerService.WakeLocks
+<6>[ 3708.092376] active wake lock PowerManagerService.Broadcasts
+<6>[ 3708.092407] active wake lock vbus_present
+<6>[ 3708.092437] wake lock qmi, expired
+<6>[ 3708.092437] wake lock msm_serial_hs_rx, expired
+<6>[ 3708.092468] wake lock mmc_delayed_work, expired
+<6>[ 3708.092498] wake lock wlan_rx_wake, expired
+<6>[ 3708.092529] wake lock proximity, expired
+<6>[ 3708.092529] wake lock SMD_DS, expired
+<6>[ 3708.092559] [R] early_suspend end
+<6>[ 3708.147857] msmfb: pan_update in state(4)
+<6>[ 3708.147857] msmfb: drawing while asleep
+<6>[ 3708.243591] msmfb: pan_update in state(4)
+<6>[ 3708.243621] msmfb: drawing while asleep
+<6>[ 3714.475982] msmfb: pan_update in state(4)
+<6>[ 3714.476013] msmfb: drawing while asleep
+<6>[ 3714.573028] msmfb: pan_update in state(4)
+<6>[ 3714.573028] msmfb: drawing while asleep
+<6>[ 3714.674804] msmfb: pan_update in state(4)
+<6>[ 3714.674804] msmfb: drawing while asleep
+<6>[ 3714.774047] msmfb: pan_update in state(4)
+<6>[ 3714.774078] msmfb: drawing while asleep
+<6>[ 3714.909667] msmfb: pan_update in state(4)
+<6>[ 3714.909698] msmfb: drawing while asleep
+<6>[ 3715.002899] msmfb: pan_update in state(4)
+<6>[ 3715.002899] msmfb: drawing while asleep
+<6>[ 3715.213439] msmfb: pan_update in state(4)
+<6>[ 3715.213439] msmfb: drawing while asleep
+<6>[ 3715.315643] msmfb: pan_update in state(4)
+<6>[ 3715.315673] msmfb: drawing while asleep
+<6>[ 3715.412384] msmfb: pan_update in state(4)
+<6>[ 3715.412414] msmfb: drawing while asleep
+<6>[ 3715.514434] msmfb: pan_update in state(4)
+<6>[ 3715.514465] msmfb: drawing while asleep
+<4>[ 3745.299987] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 3795.556915] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 3820.898284] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4

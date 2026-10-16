@@ -1,0 +1,10 @@
+{
+  "zip": "out/hd2-sailfish-2.0.1.11-alpha2-SD.zip",
+  "bytes": 450057403,
+  "sha256": "a018e1d9b20ed35d49f894aa862fef3a2e3ee2a0e49c2a8f1c78a1356e6663d8",
+  "zip_crc_passed": true,
+  "critical_library_matches_phone_and_image": true,
+  "swipe_unlock_evidence": "logs/sailfish-first-boot/sailfish-swipe-test-0.png",
+  "runtime_crash_evidence": "logs/sailfish-first-boot/lipstick-lock-crash-gdb.txt",
+  "physical_swipe_retest_pending": true
+}

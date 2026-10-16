@@ -1,0 +1,26 @@
+#!/system/bin/sh
+# Bound RAM compression and SD read-ahead for the HD2's 420 MiB usable RAM.
+BB=/system/xbin/busybox
+for disk in mmcblk0 loop7; do
+    node=/sys/block/$disk/queue/read_ahead_kb
+    [ ! -w "$node" ] || echo 128 > "$node"
+done
+if [ -w /sys/block/zram0/disksize ] &&
+   [ "$(cat /sys/block/zram0/disksize)" = 0 ] &&
+   ! $BB grep -q '/dev/block/zram0 ' /proc/swaps; then
+    echo 100663296 > /sys/block/zram0/disksize
+    $BB mkswap /dev/block/zram0 && $BB swapon /dev/block/zram0
+fi
+# Set defaults once, so later choices in Settings remain the user's choices.
+while [ "$(getprop sys.boot_completed)" != 1 ]; do
+    $BB sleep 5
+done
+STAMP=/data/local/hd2-ui-defaults-v1
+if [ ! -f "$STAMP" ]; then
+    settings put global launcher_unlock_animation_enabled 0 &&
+    settings put global launcher_flip_animation 0 &&
+    settings put global window_animation_scale 0 &&
+    settings put global transition_animation_scale 0 &&
+    settings put global animator_duration_scale 0 &&
+    $BB touch "$STAMP"
+fi

@@ -1,0 +1,20 @@
+rm /etc/pulse/arm_droid_default.pa
+write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/pulse/arm_droid_default.pa /etc/pulse/arm_droid_default.pa
+sif /etc/pulse/arm_droid_default.pa uid 0
+sif /etc/pulse/arm_droid_default.pa gid 0
+rm /usr/share/ngfd/plugins.d/resource.ini
+write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/share/ngfd/plugins.d/resource.ini /usr/share/ngfd/plugins.d/resource.ini
+sif /usr/share/ngfd/plugins.d/resource.ini uid 0
+sif /usr/share/ngfd/plugins.d/resource.ini gid 0
+rm /system/build.prop
+write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/build.prop /system/build.prop
+sif /system/build.prop uid 0
+sif /system/build.prop gid 0
+rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+sif /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko uid 0
+sif /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko gid 0
+rm /etc/hd2-build-status.json
+write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+sif /etc/hd2-build-status.json uid 0
+sif /etc/hd2-build-status.json gid 0

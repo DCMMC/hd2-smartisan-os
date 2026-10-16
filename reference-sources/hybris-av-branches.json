@@ -1,0 +1,154 @@
+[
+  {
+    "name": "cm-10.1",
+    "commit": {
+      "sha": "229bb7f982908feea6bf0d13eede5918f6377eb7",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/229bb7f982908feea6bf0d13eede5918f6377eb7"
+    },
+    "protected": false
+  },
+  {
+    "name": "cm-11.0",
+    "commit": {
+      "sha": "c6791bd67e0740c02adfcc3b75f6a22f33ed4d9d",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/c6791bd67e0740c02adfcc3b75f6a22f33ed4d9d"
+    },
+    "protected": false
+  },
+  {
+    "name": "droid-src-sony-aosp-8.1.0_r35_20180714",
+    "commit": {
+      "sha": "4ff38ba524f15ad22fb77886e8876ab4b0720856",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/4ff38ba524f15ad22fb77886e8876ab4b0720856"
+    },
+    "protected": false
+  },
+  {
+    "name": "droid-src-sony-aosp-8.1.0_r47_20181015",
+    "commit": {
+      "sha": "b634efc5b73ae433d87ffffc8f8785255bcbc782",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/b634efc5b73ae433d87ffffc8f8785255bcbc782"
+    },
+    "protected": false
+  },
+  {
+    "name": "droid-src-sony-aosp-8.1.0_r52_20190206",
+    "commit": {
+      "sha": "bd7c457e9df2571b4825aba6950e70e1e17d74c2",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/bd7c457e9df2571b4825aba6950e70e1e17d74c2"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-10.1",
+    "commit": {
+      "sha": "8c822c9de2ea5e192a9afe8c83dc3a775ac4d244",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/8c822c9de2ea5e192a9afe8c83dc3a775ac4d244"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-12.1",
+    "commit": {
+      "sha": "a1c83157ab3e3cff9b0380e22836bece54e9134a",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/a1c83157ab3e3cff9b0380e22836bece54e9134a"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-13.0",
+    "commit": {
+      "sha": "8bbbaec6daf623c627540205b825484cd715b792",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/8bbbaec6daf623c627540205b825484cd715b792"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-14.1",
+    "commit": {
+      "sha": "35e6e1c819896f97e6f5fdaaf1fa548aa19d7756",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/35e6e1c819896f97e6f5fdaaf1fa548aa19d7756"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-15.1",
+    "commit": {
+      "sha": "0bb9159797a61ddb90829eb61312d050ae7e8887",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/0bb9159797a61ddb90829eb61312d050ae7e8887"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-16.0",
+    "commit": {
+      "sha": "6f5c5780c4cc61338f27989ec32443801a7d723e",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/6f5c5780c4cc61338f27989ec32443801a7d723e"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-fp2-m-sibon",
+    "commit": {
+      "sha": "bb7934ed24c360ec4a0ba7a1ef47c3fd82944077",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/bb7934ed24c360ec4a0ba7a1ef47c3fd82944077"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-fp2-sibon",
+    "commit": {
+      "sha": "f797da424cc06350c1769e16e17ee38b8fe8da4f",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/f797da424cc06350c1769e16e17ee38b8fe8da4f"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-sony-aosp-8.1.0_r20_20180402",
+    "commit": {
+      "sha": "702cb7ce3f13a7719ca865ba0e38cb547c1275e9",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/702cb7ce3f13a7719ca865ba0e38cb547c1275e9"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-sony-aosp-8.1.0_r35_20180714",
+    "commit": {
+      "sha": "f2333dd2bdba5c0059f2bce4c1bc1066deaa539a",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/f2333dd2bdba5c0059f2bce4c1bc1066deaa539a"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-sony-aosp-8.1.0_r47_20181015",
+    "commit": {
+      "sha": "d7d10273bf61cf49a17ffa825d974fcd483f8f68",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/d7d10273bf61cf49a17ffa825d974fcd483f8f68"
+    },
+    "protected": false
+  },
+  {
+    "name": "hybris-sony-aosp-8.1.0_r52_20190206",
+    "commit": {
+      "sha": "948526f9f5ce9c53bcb9917dc85dde345d6494fa",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/948526f9f5ce9c53bcb9917dc85dde345d6494fa"
+    },
+    "protected": false
+  },
+  {
+    "name": "sony-aosp-6.0.1_r80-20170902",
+    "commit": {
+      "sha": "5a3f4558b42deef0faf64dd99bf740e086be2053",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/5a3f4558b42deef0faf64dd99bf740e086be2053"
+    },
+    "protected": false
+  },
+  {
+    "name": "stable/cm-11.0",
+    "commit": {
+      "sha": "5dbe1fb27aad5126f4e5e8612b82b45afc0ea2b2",
+      "url": "https://api.github.com/repos/mer-hybris/android_frameworks_av/commits/5dbe1fb27aad5126f4e5e8612b82b45afc0ea2b2"
+    },
+    "protected": false
+  }
+]

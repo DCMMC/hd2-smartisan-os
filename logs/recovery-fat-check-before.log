@@ -1,0 +1,13 @@
+** /dev/block/mmcblk0p1
+** Phase 1 - Read and Compare FATs
+Attempting to allocate 1664 KB for FAT
+Attempting to allocate 1664 KB for FAT
+** Phase 2 - Check Cluster Chains
+** Phase 3 - Checking Directories
+/HD2-SM20.copying/rootfs.ext4 has too many clusters allocated
+Drop superfluous clusters? no
+** Phase 4 - Checking for Lost Files
+Next free cluster in FSInfo block (30039) not free
+Fix? no
+127 files, 1843200 free (188672 clusters)
+FAT_CHECK_STATUS:8

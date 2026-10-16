@@ -1,0 +1,89 @@
+
+
+
+User 1%, System 5%, IOW 3%, IRQ 0%
+User 2 + Nice 0 + Sys 6 + Idle 92 + IOW 4 + IRQ 0 + SIRQ 0 = 104
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+11940  0   4% R     1   1224K    508K     root     top
+   24  0   3% S     1      0K      0K     root     ksmd
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0
+    4  0   0% S     1      0K      0K     root     events/0
+    5  0   0% S     1      0K      0K     root     khelper
+    6  0   0% S     1      0K      0K     root     async/mgr
+    7  0   0% S     1      0K      0K     root     suspend
+
+
+
+User 0%, System 7%, IOW 0%, IRQ 0%
+User 1 + Nice 0 + Sys 8 + Idle 96 + IOW 0 + IRQ 0 + SIRQ 0 = 105
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+11940  0   4% R     1   1228K    524K     root     top
+   24  0   3% S     1      0K      0K     root     ksmd
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0
+    4  0   0% S     1      0K      0K     root     events/0
+    5  0   0% S     1      0K      0K     root     khelper
+    6  0   0% S     1      0K      0K     root     async/mgr
+    7  0   0% S     1      0K      0K     root     suspend
+
+
+
+User 0%, System 4%, IOW 0%, IRQ 0%
+User 0 + Nice 0 + Sys 5 + Idle 100 + IOW 0 + IRQ 0 + SIRQ 0 = 105
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+11940  0   3% R     1   1228K    524K     root     top
+    2  0   0% S     1      0K      0K     root     kthreadd
+    3  0   0% S     1      0K      0K     root     ksoftirqd/0
+    4  0   0% S     1      0K      0K     root     events/0
+    5  0   0% S     1      0K      0K     root     khelper
+    6  0   0% S     1      0K      0K     root     async/mgr
+    7  0   0% S     1      0K      0K     root     suspend
+smartassV2
+245000
+998400
+/system/bin/sh: cat: /sys/class/graphics/fb0/fps: No such file or directory
+<6>[ 2585.593170] msmfb: drawing while asleep
+<4>[ 2585.615692] dhd_get_dtim_skip bcn_li_dtim=3 DTIM=0 Listen=10
+<6>[ 2585.617248] lcdc_suspend: suspending
+<6>[ 2585.617309] [R] early_suspend: sync
+<6>[ 2585.692749] msmfb: pan_update in state(4)
+<6>[ 2585.692749] msmfb: drawing while asleep
+<6>[ 2585.721832] active wake lock vbus_present
+<6>[ 2585.721832] wake lock qmi, expired
+<6>[ 2585.721862] wake lock msm_serial_hs_rx, expired
+<6>[ 2585.721862] wake lock mmc_delayed_work, expired
+<6>[ 2585.721893] wake lock wlan_rx_wake, expired
+<6>[ 2585.721893] wake lock proximity, expired
+<6>[ 2585.721893] active wake lock SMD_DS, time left 0.300
+<6>[ 2585.721923] [R] early_suspend end
+<6>[ 2585.959411] msmfb: pan_update in state(4)
+<6>[ 2585.959442] msmfb: drawing while asleep
+<6>[ 2586.180938] request_suspend_state: wakeup (3->0) at 2585289290961 (2014-05-20 00:06:16.158050571 UTC)
+<6>[ 2586.181060] [R] late_resume start
+<6>[ 2586.181091] lcdc_resume: resuming
+<6>[ 2586.181121] sharp_panel_init
+<6>[ 2586.181182] msmfb: ready, waiting for full update
+<6>[ 2586.257873] msmfb: pan_update in state(1)
+<6>[ 2586.257904] msmfb: full update starting
+<6>[ 2586.285919] msmfb: full update completed
+<6>[ 2586.286010] msmfb: turning on panel
+<6>[ 2586.286041] lcdc_unblank: ()
+<6>[ 2586.286071] sharp_panel_unblank
+<6>[ 2586.295623] msmfb: pan_update in state(3)
+<3>[ 2586.731842] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+<3>[ 2586.733642] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 2586.733734] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 2586.733795] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 2586.734893] [R] late_resume end
+<4>[ 2611.927062] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2662.148712] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+DimLayer
+com.smartisanos.systemui.ImageWallpaper
+SurfaceView
+com.smartisanos.launcher/com.smartisanos.launcher.Launcher
+FocusedStackFrame
+DimLayer
+STAIconCellSurface
+StatusBar

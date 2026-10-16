@@ -1,0 +1,127 @@
+HD2 Sailfish SD experimental boot; first-boot bring-up
+Linux (none) 2.6.32_tytung_jellybean_r2 #1 PREEMPT Sat Oct 17 01:19:04 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+major minor  #blocks  name
+
+  31        0      18432 mtdblock0
+  31        1      14336 mtdblock1
+  31        2       8192 mtdblock2
+  31        3       1536 mtdblock3
+  31        4     929152 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7       6656 mtdblock7
+ 179        0   30534656 mmcblk0
+ 179        1   13631456 mmcblk0p1
+ 179        2   12582912 mmcblk0p2
+ 179        3    4320224 mmcblk0p3
+grep: invalid option -- x
+BusyBox v1.17.2 (2010-09-05 03:37:08 CDT) multi-call binary.
+
+Usage: grep [-HhnlLoqvsriwFE] [-m N] [-A/B/C N] PATTERN/-e PATTERN.../-f FILE [FILE]...
+
+Search for PATTERN in FILEs (or stdin)
+
+Options:
+	-H	Add 'filename:' prefix
+	-h	Do not add 'filename:' prefix
+	-n	Add 'line_no:' prefix
+	-l	Show only names of files that match
+	-L	Show only names of files that don't match
+	-c	Show only count of matching lines
+	-o	Show only the matching part of line
+	-q	Quiet. Return 0 if PATTERN is found, 1 otherwise
+	-v	Select non-matching lines
+	-s	Suppress open and read errors
+	-r	Recurse
+	-i	Ignore case
+	-w	Match whole words only
+	-F	PATTERN is a literal (not regexp)
+	-E	PATTERN is an extended regexp
+	-m N	Match up to N times per file
+	-A N	Print N lines of trailing context
+	-B N	Print N lines of leading context
+	-C N	Same as '-A N -B N'
+	-e PTRN	Pattern to match
+	-f FILE	Read pattern from file
+
+No suitable rootfs found, or DIAGNOSTIC_ONLY requested. Staying in initramfs.
+Copy HD2-SF/early-boot.log and dmesg-early.log from FAT32 for diagnosis.
+HD2 Sailfish SD experimental boot; first-boot bring-up
+Linux (none) 2.6.32_tytung_jellybean_r2 #1 PREEMPT Sat Oct 17 01:19:04 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+major minor  #blocks  name
+
+  31        0      18432 mtdblock0
+  31        1      14336 mtdblock1
+  31        2       8192 mtdblock2
+  31        3       1536 mtdblock3
+  31        4     929152 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7       6656 mtdblock7
+ 179        0   30534656 mmcblk0
+ 179        1   13631456 mmcblk0p1
+ 179        2   12582912 mmcblk0p2
+ 179        3    4320224 mmcblk0p3
+Handing over to supplied HD2-adapted rootfs
+HD2 Sailfish SD experimental boot; first-boot bring-up
+Linux (none) 2.6.32_tytung_jellybean_r2 #2 PREEMPT Sat Oct 17 04:03:54 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+major minor  #blocks  name
+
+  31        0      18432 mtdblock0
+  31        1      14336 mtdblock1
+  31        2       8192 mtdblock2
+  31        3       1536 mtdblock3
+  31        4     929152 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7       6656 mtdblock7
+ 179        0   30534656 mmcblk0
+ 179        1   13631456 mmcblk0p1
+ 179        2   12582912 mmcblk0p2
+ 179        3    4320224 mmcblk0p3
+Handing over to supplied HD2-adapted rootfs
+hd2-busybox: applet not found
+HD2-SF: persistent root rescue on USB port 2323; executing systemd
+HD2 Sailfish SD experimental boot; first-boot bring-up
+Linux (none) 2.6.32_tytung_jellybean_r2 #2 PREEMPT Sat Oct 17 04:03:54 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+major minor  #blocks  name
+
+  31        0      18432 mtdblock0
+  31        1      14336 mtdblock1
+  31        2       8192 mtdblock2
+  31        3       1536 mtdblock3
+  31        4     929152 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7       6656 mtdblock7
+ 179        0   30534656 mmcblk0
+ 179        1   13631456 mmcblk0p1
+ 179        2   12582912 mmcblk0p2
+ 179        3    4320224 mmcblk0p3
+No suitable rootfs found, or DIAGNOSTIC_ONLY requested. Staying in initramfs.
+Copy HD2-SF/early-boot.log and dmesg-early.log from FAT32 for diagnosis.
+Handing over to supplied HD2-adapted rootfs
+HD2-SF: persistent root rescue on USB port 2323; executing systemd
+HD2 Sailfish SD experimental boot; first-boot bring-up
+Linux (none) 2.6.32_tytung_jellybean_r2 #3 PREEMPT Sat Oct 17 04:10:52 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+major minor  #blocks  name
+
+  31        0      18432 mtdblock0
+  31        1      14336 mtdblock1
+  31        2       8192 mtdblock2
+  31        3       1536 mtdblock3
+  31        4     929152 mtdblock4
+  31        5       1024 mtdblock5
+  31        6        512 mtdblock6
+  31        7       6656 mtdblock7
+ 179        0   30534656 mmcblk0
+ 179        1   13631456 mmcblk0p1
+ 179        2   12582912 mmcblk0p2
+ 179        3    4320224 mmcblk0p3
+Handing over to supplied HD2-adapted rootfs
+HD2-SF: persistent root rescue on USB port 2323; executing systemd

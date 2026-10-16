@@ -1,0 +1,473 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/home/DCMMC/Projects/hd2-ports/sources/smali-jars/guava-27.1-android.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iput-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$2;-><init>(Lcom/android/dreams/basic/Colors;II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iput-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$1;-><init>(Lcom/android/dreams/basic/Colors;Landroid/graphics/SurfaceTexture;II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iget-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$1;->run()V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iget-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$2;->run()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors$3; at offset 8
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$3;-><init>(Lcom/android/dreams/basic/Colors;)V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors$3; at offset 8
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors$3;->run()V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iput-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 31
+method: Lcom/android/dreams/basic/ColorsGLRenderer$Square;-><init>()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 84
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors;->access$000(Lcom/android/dreams/basic/Colors;)Lcom/android/dreams/basic/ColorsGLRenderer;
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 84
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors;->access$002(Lcom/android/dreams/basic/Colors;Lcom/android/dreams/basic/ColorsGLRenderer;)Lcom/android/dreams/basic/ColorsGLRenderer;
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 92
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 0
+method: Lcom/android/dreams/basic/Colors;->access$100(Lcom/android/dreams/basic/Colors;)Landroid/os/HandlerThread;
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/ColorsGLRenderer; at offset 40
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-quick
+code address: 4
+method: Lcom/android/dreams/basic/ColorsGLRenderer;-><init>(Landroid/graphics/SurfaceTexture;II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 96
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 14
+method: Lcom/android/dreams/basic/Colors;->onAttachedToWindow()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 96
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 12
+method: Lcom/android/dreams/basic/Colors;->onCreate()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 88
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 25
+method: Lcom/android/dreams/basic/Colors;->onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 88
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 11
+method: Lcom/android/dreams/basic/Colors;->onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/Colors; at offset 88
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 25
+method: Lcom/android/dreams/basic/Colors;->onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iget-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeDirectMethods(ClassDefinition.java:279)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:114)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-object-quick
+code address: 135
+method: Lcom/android/dreams/basic/ColorsGLRenderer;->initGL()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/ColorsGLRenderer; at offset 40
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iget-quick
+code address: 4
+method: Lcom/android/dreams/basic/ColorsGLRenderer;->doFrame(J)V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the field in class Lcom/android/dreams/basic/ColorsGLRenderer; at offset 44
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1695)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-quick
+code address: 0
+method: Lcom/android/dreams/basic/ColorsGLRenderer;->setSize(II)V
+
+org.jf.dexlib2.analysis.AnalysisException: Incorrect field type "I" for iput-object-quick
+	at org.jf.dexlib2.analysis.OdexedFieldInstructionMapper.getAndCheckDeodexedOpcode(OdexedFieldInstructionMapper.java:241)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeIputIgetQuick(MethodAnalyzer.java:1728)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1037)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: iput-object-quick
+code address: 8
+method: Lcom/android/dreams/basic/ColorsGLRenderer;->start()V
+
+org.jf.dexlib2.analysis.AnalysisException: Could not resolve the method in class Ljavax/microedition/khronos/egl/EGLContext; at index 23
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInvokeVirtualQuick(MethodAnalyzer.java:1823)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyzeInstruction(MethodAnalyzer.java:1039)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.analyze(MethodAnalyzer.java:200)
+	at org.jf.dexlib2.analysis.MethodAnalyzer.<init>(MethodAnalyzer.java:130)
+	at org.jf.baksmali.Adaptors.MethodDefinition.addAnalyzedInstructionMethodItems(MethodDefinition.java:452)
+	at org.jf.baksmali.Adaptors.MethodDefinition.getMethodItems(MethodDefinition.java:358)
+	at org.jf.baksmali.Adaptors.MethodDefinition.writeTo(MethodDefinition.java:224)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeVirtualMethods(ClassDefinition.java:325)
+	at org.jf.baksmali.Adaptors.ClassDefinition.writeTo(ClassDefinition.java:115)
+	at org.jf.baksmali.Baksmali.disassembleClass(Baksmali.java:161)
+	at org.jf.baksmali.Baksmali.access$000(Baksmali.java:46)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:76)
+	at org.jf.baksmali.Baksmali$1.call(Baksmali.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+opcode: invoke-virtual-quick
+code address: 2
+method: Lcom/android/dreams/basic/ColorsGLRenderer;->stop()V
+

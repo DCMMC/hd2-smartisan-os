@@ -1,0 +1,18 @@
+-- Logs begin at Tue 2014-05-20 00:57:52 UTC, end at Tue 2014-05-20 00:58:24 UTC. --
+May 20 00:57:52 Jolla [128]: Runtime journal is using 128.0K (max 8.0M, leaving 30.2M of free 201.4M, current limit 8.0M).
+May 20 00:57:52 Jolla [128]: Journal started
+May 20 00:57:52 Jolla systemd-sysctl[141]: Overwriting earlier assignment of kernel/sysrq in file '/etc/sysctl.d/sysrq.conf'.
+May 20 00:57:53 Jolla mount[161]: mount: unknown filesystem type 'functionfs'
+May 20 00:57:53 Jolla systemd-tmpfiles[175]: Failed to write file /sys/fs/cgroup/cpu,cpuacct/cpu.shares: Operation not permitted
+May 20 00:57:53 Jolla systemd-tmpfiles[175]: Failed to write file /sys/fs/cgroup/cpu,cpuacct/interactive/cpu.rt_runtime_us: Operation not permitted
+May 20 00:57:53 Jolla get-initial-bootstate[203]: Initial BOOTSTATE=USER
+May 20 00:57:54 Jolla mce[181]: mce.c: main(): MCE 1.71.0 (release) starting up
+May 20 00:57:54 Jolla hd2-logs[129]: /usr/local/sbin/hd2-logs: line 15:   225 Segmentation fault      LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl /usr/libexec/droid-hybris/system/bin/logcat -d -t 1000 -v threadtime > "$dir/android-logcat.log" 2>&1
+May 20 00:57:54 Jolla statefs[224]: fuse: device not found, try 'modprobe fuse' first
+May 20 00:57:56 Jolla statefs[404]: fuse: device not found, try 'modprobe fuse' first
+May 20 00:57:57 Jolla statefs[522]: fuse: device not found, try 'modprobe fuse' first
+May 20 00:57:58 Jolla statefs[675]: fuse: device not found, try 'modprobe fuse' first
+May 20 00:58:14 Jolla hd2-logs[129]: /usr/local/sbin/hd2-logs: line 15:  2405 Segmentation fault      LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl /usr/libexec/droid-hybris/system/bin/logcat -d -t 1000 -v threadtime > "$dir/android-logcat.log" 2>&1
+May 20 00:58:23 Jolla mce[181]: *** BREAK ***
+May 20 00:58:24 Jolla mce[181]: mce-dbus.c: mce_dbus_init(): Failed to open connection to message bus; Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+May 20 00:58:24 Jolla mce[181]: mce.c: main(): Failed to initialise D-Bus

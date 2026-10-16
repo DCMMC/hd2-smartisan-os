@@ -1,0 +1,49 @@
+UNIT                               LOAD   ACTIVE SUB    
+dev-mtp.mount                      loaded failed failed FFS mount
+mnt-asec.mount                     loaded failed failed Droid mount for /mnt/asec
+mnt-fuse.mount                     loaded failed failed Droid mount for /mnt/fuse
+mnt-obb.mount                      loaded failed failed Droid mount for /mnt/obb
+tmp.mount                          loaded failed failed Temporary Directory
+dbus.service                       loaded failed failed D-Bus System Message Bus
+droid-hal-init.service             loaded failed failed droid-hal-init
+droid-late-start.service           loaded failed failed droid-late-start
+hd2-adbd.service                   loaded failed failed Always-on HD2 USB ADB
+hd2-logs.service                   loaded failed failed HD2 first-boot SD logs
+hd2-usb-debug.service              loaded failed failed Always-on HD2 USB root rescue shell
+init-done.service                  loaded failed failed Indicate boot is done
+jolla-rfkill-hciwait.service       loaded failed failed Wait for Bluetooth HCI adapter
+kmod-static-nodes.service          loaded failed failed Create list of required static device nodes for the current kernel
+mce.service                        loaded failed failed Mode Control Entity (MCE)
+ohmd.service                       loaded failed failed ohm daemon for resource policy management
+oneshot-root-late.service          loaded failed failed Oneshot stuff for root (late run)
+rescue-password-off.service        loaded failed failed Turn rescue passwords off
+rpm-db-clean.service               loaded failed failed Clean RPM db region files at each reboot
+runlevel-user-done.service         loaded failed failed Inform dsme about runlevel change
+sshd-keys.service                  loaded failed failed Create sshd host keys
+start-user-session.service         loaded failed failed Start User Session
+statefs.service                    loaded failed failed StateFS FUSE filesystem, system-wide
+systemd-journal-flush.service      loaded failed failed Trigger Flushing of Journal to Persistent Storage
+systemd-journald.service           loaded failed failed Journal Service
+systemd-logind.service             loaded failed failed Login Service
+systemd-modules-load.service       loaded failed failed Load Kernel Modules
+systemd-random-seed.service        loaded failed failed Load/Save Random Seed
+systemd-remount-fs.service         loaded failed failed Remount Root and Kernel File Systems
+systemd-sysctl.service             loaded failed failed Apply Kernel Variables
+systemd-tmpfiles-setup-dev.service loaded failed failed Create static device nodes in /dev
+systemd-tmpfiles-setup.service     loaded failed failed Recreate Volatile Files and Directories
+systemd-udev-settle.service        loaded failed failed udev Wait for Complete Device Initialization
+systemd-udev-trigger.service       loaded failed failed udev Coldplug all Devices
+systemd-udevd.service              loaded failed failed udev Kernel Device Manager
+systemd-update-utmp.service        loaded failed failed Update UTMP about System Reboot/Shutdown
+systemd-user-sessions.service      loaded failed failed Permit User Sessions
+systemd-vconsole-setup.service     loaded failed failed Setup Virtual Console
+zramswap.service                   loaded failed failed Zram-based swap (compressed RAM block devices)
+systemd-journald.socket            loaded failed failed Journal Socket
+systemd-udevd-kernel.socket        loaded failed failed udev Kernel Socket
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+41 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

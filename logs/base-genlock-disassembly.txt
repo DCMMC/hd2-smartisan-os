@@ -1,0 +1,605 @@
+
+work/hd2-base/system/lib/libgenlock.so:     file format elf32-littlearm
+
+
+Disassembly of section .plt:
+
+000004c4 <.plt>:
+ 4c4:	e52de004 	push	{lr}		; (str lr, [sp, #-4]!)
+ 4c8:	e59fe004 	ldr	lr, [pc, #4]	; 4d4 <genlock_create_lock-0x248>
+ 4cc:	e08fe00e 	add	lr, pc, lr
+ 4d0:	e5bef008 	ldr	pc, [lr, #8]!
+ 4d4:	00001b00 	andeq	r1, r0, r0, lsl #22
+ 4d8:	e28fc600 	add	ip, pc, #0	; 0x0
+ 4dc:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 4e0:	e5bcfb00 	ldr	pc, [ip, #2816]!
+ 4e4:	e28fc600 	add	ip, pc, #0	; 0x0
+ 4e8:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 4ec:	e5bcfaf8 	ldr	pc, [ip, #2808]!
+ 4f0:	e28fc600 	add	ip, pc, #0	; 0x0
+ 4f4:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 4f8:	e5bcfaf0 	ldr	pc, [ip, #2800]!
+ 4fc:	e28fc600 	add	ip, pc, #0	; 0x0
+ 500:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 504:	e5bcfae8 	ldr	pc, [ip, #2792]!
+ 508:	e28fc600 	add	ip, pc, #0	; 0x0
+ 50c:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 510:	e5bcfae0 	ldr	pc, [ip, #2784]!
+ 514:	e28fc600 	add	ip, pc, #0	; 0x0
+ 518:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 51c:	e5bcfad8 	ldr	pc, [ip, #2776]!
+ 520:	e28fc600 	add	ip, pc, #0	; 0x0
+ 524:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 528:	e5bcfad0 	ldr	pc, [ip, #2768]!
+ 52c:	e28fc600 	add	ip, pc, #0	; 0x0
+ 530:	e28cca01 	add	ip, ip, #4096	; 0x1000
+ 534:	e5bcfac8 	ldr	pc, [ip, #2760]!
+
+Disassembly of section .text:
+
+00000538 <genlock_create_lock-0x1e4>:
+ 538:	e92d4800 	push	{fp, lr}
+ 53c:	e28db004 	add	fp, sp, #4	; 0x4
+ 540:	e59f300c 	ldr	r3, [pc, #12]	; 554 <genlock_create_lock-0x1c8>
+ 544:	e08f3003 	add	r3, pc, r3
+ 548:	e1a00003 	mov	r0, r3
+ 54c:	ebffffe1 	bl	4d8 <genlock_create_lock-0x244>
+ 550:	e8bd8800 	pop	{fp, pc}
+ 554:	00001ab4 	strheq	r1, [r0], -r4
+ 558:	e92d4800 	push	{fp, lr}
+ 55c:	e28db004 	add	fp, sp, #4	; 0x4
+ 560:	e24dd008 	sub	sp, sp, #8	; 0x8
+ 564:	e50b0008 	str	r0, [fp, #-8]
+ 568:	e51b0008 	ldr	r0, [fp, #-8]
+ 56c:	e3a01000 	mov	r1, #0	; 0x0
+ 570:	e59f3018 	ldr	r3, [pc, #24]	; 590 <genlock_create_lock-0x18c>
+ 574:	e08f3003 	add	r3, pc, r3
+ 578:	e1a02003 	mov	r2, r3
+ 57c:	ebffffd8 	bl	4e4 <genlock_create_lock-0x238>
+ 580:	e1a03000 	mov	r3, r0
+ 584:	e1a00003 	mov	r0, r3
+ 588:	e24bd004 	sub	sp, fp, #4	; 0x4
+ 58c:	e8bd8800 	pop	{fp, pc}
+ 590:	00001a84 	andeq	r1, r0, r4, lsl #21
+ 594:	4605b538 	undefined
+ 598:	460c6800 	strmi	r6, [ip], -r0, lsl #16
+ 59c:	db042800 	blle	10a5a4 <__bss_start+0x1085a0>
+ 5a0:	efa6f7ff 	svc	0x00a6f7ff
+ 5a4:	33fff04f 	mvnscc	pc, #79	; 0x4f
+ 5a8:	6820602b 	stmdavs	r0!, {r0, r1, r3, r5, sp, lr}
+ 5ac:	db042800 	blle	10a5b4 <__bss_start+0x1085b0>
+ 5b0:	ef9ef7ff 	svc	0x009ef7ff
+ 5b4:	30fff04f 	rscscc	pc, pc, pc, asr #32
+ 5b8:	bd386020 	ldclt	0, cr6, [r8, #-128]!
+ 5bc:	4603b5f0 	undefined
+ 5c0:	b310b08f 	tstlt	r0, #143	; 0x8f
+ 5c4:	2d0c6805 	stccs	8, cr6, [ip, #-20]
+ 5c8:	6882d10a 	stmvs	r2, {r1, r3, r8, ip, lr, pc}
+ 5cc:	d1072a0c 	tstle	r7, ip, lsl #20
+ 5d0:	28026840 	stmdacs	r2, {r6, fp, sp, lr}
+ 5d4:	695ad104 	ldmdbvs	sl, {r2, r8, ip, lr, pc}^
+ 5d8:	491f2000 	ldmdbmi	pc, {sp}
+ 5dc:	d039428a 	eorsle	r4, r9, sl, lsl #5
+ 5e0:	689f6959 	ldmvs	pc, {r0, r3, r4, r6, r8, fp, sp, lr}
+ 5e4:	4007f3c1 	andmi	pc, r7, r1, asr #7
+ 5e8:	2207f3c1 	andcs	pc, r7, #67108867	; 0x4000003
+ 5ec:	685c0e0e 	ldmdavs	ip, {r1, r2, r3, r9, sl, fp}^
+ 5f0:	262dbf08 	strtcs	fp, [sp], -r8, lsl #30
+ 5f4:	bf082800 	svclt	0x00082800
+ 5f8:	2a00202d 	bcs	86b4 <__bss_start+0x66b0>
+ 5fc:	222dbf08 	eorcs	fp, sp, #32	; 0x20
+ 600:	01fff011 	mvnseq	pc, r1, lsl r0
+ 604:	212dbf08 	teqcs	sp, r8, lsl #30
+ 608:	223fe007 	eorscs	lr, pc, #7	; 0x7
+ 60c:	34fff04f 	ldrbtcc	pc, [pc], #79	; 614 <genlock_create_lock-0x108>
+ 610:	46254627 	strtmi	r4, [r5], -r7, lsr #12
+ 614:	46164610 	undefined
+ 618:	92084611 	andls	r4, r8, #17825792	; 0x1100000
+ 61c:	91092267 	tstls	r9, r7, ror #4
+ 620:	920a2173 	andls	r2, sl, #-1073741796	; 0xc000001c
+ 624:	4a0d910c 	bmi	364a5c <__bss_start+0x362a58>
+ 628:	9500490d 	strls	r4, [r0, #-2317]
+ 62c:	250c447a 	strcs	r4, [ip, #-1146]
+ 630:	90079404 	andls	r9, r7, r4, lsl #8
+ 634:	206d2402 	rsbcs	r2, sp, r2, lsl #8
+ 638:	900b9501 	andls	r9, fp, r1, lsl #10
+ 63c:	900d4479 	andls	r4, sp, r9, ror r4
+ 640:	97022003 	strls	r2, [r2, -r3]
+ 644:	94059503 	strls	r9, [r5], #-1283
+ 648:	f7ff9606 	undefined instruction 0xf7ff9606
+ 64c:	f06fef58 	undefined instruction 0xf06fef58
+ 650:	e7ff0015 	undefined
+ 654:	bdf0b00f 	ldcllt	0, cr11, [r0, #60]!
+ 658:	676d736d 	strbvs	r7, [sp, -sp, ror #6]!
+ 65c:	0000055b 	andeq	r0, r0, fp, asr r5
+ 660:	00000540 	andeq	r0, r0, r0, asr #10
+ 664:	b089b5f0 	strdlt	fp, [r9], r0
+ 668:	460d4604 	strmi	r4, [sp], -r4, lsl #12
+ 66c:	461f4616 	undefined
+ 670:	ffa4f7ff 	undefined instruction 0xffa4f7ff
+ 674:	4920b138 	stmdbmi	r0!, {r3, r4, r5, r8, ip, sp, pc}
+ 678:	4a202006 	bmi	808698 <__bss_start+0x806694>
+ 67c:	44794b20 	ldrbtmi	r4, [r9], #-2848
+ 680:	447b447a 	ldrbtmi	r4, [fp], #-1146
+ 684:	69a1e00c 	stmibvs	r1!, {r2, r3, sp, lr, pc}
+ 688:	d430050b 	ldrtle	r0, [r0], #-1291
+ 68c:	28006c20 	stmdacs	r0, {r5, sl, fp, sp, lr}
+ 690:	491cda0a 	ldmdbmi	ip, {r1, r3, r9, fp, ip, lr, pc}
+ 694:	4a1c2006 	bmi	7086b4 <__bss_start+0x7066b0>
+ 698:	44794b1c 	ldrbtmi	r4, [r9], #-2844
+ 69c:	447b447a 	ldrbtmi	r4, [fp], #-1146
+ 6a0:	ef2cf7ff 	svc	0x002cf7ff
+ 6a4:	e0222002 	eor	r2, r2, r2
+ 6a8:	aa086923 	bge	21ab3c <__bss_start+0x218b38>
+ 6ac:	95054911 	strls	r4, [r5, #-2321]
+ 6b0:	3d10f842 	ldccc	8, cr15, [r0, #-264]
+ 6b4:	96079706 	strls	r9, [r7], -r6, lsl #14
+ 6b8:	ef26f7ff 	svc	0x0026f7ff
+ 6bc:	f7ffb1b8 	undefined instruction 0xf7ffb1b8
+ 6c0:	4606ef2a 	strmi	lr, [r6], -sl, lsr #30
+ 6c4:	f7ff6800 	undefined instruction 0xf7ff6800
+ 6c8:	4911ef2c 	ldmdbmi	r1, {r2, r3, r5, r8, r9, sl, fp, sp, lr, pc}
+ 6cc:	4b124a11 	blmi	492f18 <__bss_start+0x490f14>
+ 6d0:	447a4479 	ldrbtmi	r4, [sl], #-1145
+ 6d4:	447b9500 	ldrbtmi	r9, [fp], #-1280
+ 6d8:	68e09001 	stmiavs	r0!, {r0, ip, pc}^
+ 6dc:	20069002 	andcs	r9, r6, r2
+ 6e0:	ef0cf7ff 	svc	0x000cf7ff
+ 6e4:	2a6e6832 	bcs	1b9a7b4 <__bss_start+0x1b987b0>
+ 6e8:	2001bf0c 	andcs	fp, r1, ip, lsl #30
+ 6ec:	b0092002 	andlt	r2, r9, r2
+ 6f0:	bf00bdf0 	svclt	0x0000bdf0
+ 6f4:	40104706 	andsmi	r4, r0, r6, lsl #14
+ 6f8:	000004fe 	strdeq	r0, [r0], -lr
+ 6fc:	00000562 	andeq	r0, r0, r2, ror #10
+ 700:	0000074d 	andeq	r0, r0, sp, asr #14
+ 704:	000004e2 	andeq	r0, r0, r2, ror #9
+ 708:	0000055c 	andeq	r0, r0, ip, asr r5
+ 70c:	00000731 	andeq	r0, r0, r1, lsr r7
+ 710:	000004ac 	andeq	r0, r0, ip, lsr #9
+ 714:	00000561 	andeq	r0, r0, r1, ror #10
+ 718:	000006f9 	strdeq	r0, [r0], -r9
+
+0000071c <genlock_create_lock>:
+ 71c:	b530      	push	{r4, r5, lr}
+ 71e:	b089      	sub	sp, #36
+ 720:	4604      	mov	r4, r0
+ 722:	f7ff ff4b 	bl	5bc <genlock_create_lock-0x160>
+ 726:	b148      	cbz	r0, 73c <genlock_create_lock+0x20>
+ 728:	4930      	ldr	r1, [pc, #192]	(7ec <genlock_create_lock+0xd0>)
+ 72a:	2006      	movs	r0, #6
+ 72c:	4a30      	ldr	r2, [pc, #192]	(7f0 <genlock_create_lock+0xd4>)
+ 72e:	4b31      	ldr	r3, [pc, #196]	(7f4 <genlock_create_lock+0xd8>)
+ 730:	4479      	add	r1, pc
+ 732:	447a      	add	r2, pc
+ 734:	447b      	add	r3, pc
+ 736:	f7ff eee2 	blx	4fc <genlock_create_lock-0x220>
+ 73a:	e01a      	b.n	772 <genlock_create_lock+0x56>
+ 73c:	69a2      	ldr	r2, [r4, #24]
+ 73e:	f412 6500 	ands.w	r5, r2, #2048	; 0x800
+ 742:	d145      	bne.n	7d0 <genlock_create_lock+0xb4>
+ 744:	482c      	ldr	r0, [pc, #176]	(7f8 <genlock_create_lock+0xdc>)
+ 746:	2102      	movs	r1, #2
+ 748:	4478      	add	r0, pc
+ 74a:	f7ff eef0 	blx	52c <genlock_create_lock-0x1f0>
+ 74e:	2800      	cmp	r0, #0
+ 750:	9003      	str	r0, [sp, #12]
+ 752:	da10      	bge.n	776 <genlock_create_lock+0x5a>
+ 754:	f7ff eede 	blx	514 <genlock_create_lock-0x208>
+ 758:	6800      	ldr	r0, [r0, #0]
+ 75a:	f7ff eee2 	blx	520 <genlock_create_lock-0x1fc>
+ 75e:	4927      	ldr	r1, [pc, #156]	(7fc <genlock_create_lock+0xe0>)
+ 760:	4a27      	ldr	r2, [pc, #156]	(800 <genlock_create_lock+0xe4>)
+ 762:	4b28      	ldr	r3, [pc, #160]	(804 <genlock_create_lock+0xe8>)
+ 764:	4479      	add	r1, pc
+ 766:	447a      	add	r2, pc
+ 768:	447b      	add	r3, pc
+ 76a:	9000      	str	r0, [sp, #0]
+ 76c:	2006      	movs	r0, #6
+ 76e:	f7ff eec6 	blx	4fc <genlock_create_lock-0x220>
+ 772:	2002      	movs	r0, #2
+ 774:	e036      	b.n	7e4 <genlock_create_lock+0xc8>
+ 776:	f44f 418e 	mov.w	r1, #18176	; 0x4700
+ 77a:	462a      	mov	r2, r5
+ 77c:	f7ff eec4 	blx	508 <genlock_create_lock-0x214>
+ 780:	b340      	cbz	r0, 7d4 <genlock_create_lock+0xb8>
+ 782:	f7ff eec8 	blx	514 <genlock_create_lock-0x208>
+ 786:	6800      	ldr	r0, [r0, #0]
+ 788:	f7ff eeca 	blx	520 <genlock_create_lock-0x1fc>
+ 78c:	491e      	ldr	r1, [pc, #120]	(808 <genlock_create_lock+0xec>)
+ 78e:	4a1f      	ldr	r2, [pc, #124]	(80c <genlock_create_lock+0xf0>)
+ 790:	4b1f      	ldr	r3, [pc, #124]	(810 <genlock_create_lock+0xf4>)
+ 792:	4479      	add	r1, pc
+ 794:	447a      	add	r2, pc
+ 796:	447b      	add	r3, pc
+ 798:	9000      	str	r0, [sp, #0]
+ 79a:	2006      	movs	r0, #6
+ 79c:	e00c      	b.n	7b8 <genlock_create_lock+0x9c>
+ 79e:	f7ff eeba 	blx	514 <genlock_create_lock-0x208>
+ 7a2:	6800      	ldr	r0, [r0, #0]
+ 7a4:	f7ff eebc 	blx	520 <genlock_create_lock-0x1fc>
+ 7a8:	491a      	ldr	r1, [pc, #104]	(814 <genlock_create_lock+0xf8>)
+ 7aa:	4a1b      	ldr	r2, [pc, #108]	(818 <genlock_create_lock+0xfc>)
+ 7ac:	4b1b      	ldr	r3, [pc, #108]	(81c <genlock_create_lock+0x100>)
+ 7ae:	4479      	add	r1, pc
+ 7b0:	447a      	add	r2, pc
+ 7b2:	447b      	add	r3, pc
+ 7b4:	9000      	str	r0, [sp, #0]
+ 7b6:	2006      	movs	r0, #6
+ 7b8:	f7ff eea0 	blx	4fc <genlock_create_lock-0x220>
+ 7bc:	a803      	add	r0, sp, #12
+ 7be:	a904      	add	r1, sp, #16
+ 7c0:	f7ff fee8 	bl	594 <genlock_create_lock-0x188>
+ 7c4:	2002      	movs	r0, #2
+ 7c6:	9903      	ldr	r1, [sp, #12]
+ 7c8:	9a04      	ldr	r2, [sp, #16]
+ 7ca:	6421      	str	r1, [r4, #64]
+ 7cc:	6122      	str	r2, [r4, #16]
+ 7ce:	e009      	b.n	7e4 <genlock_create_lock+0xc8>
+ 7d0:	6120      	str	r0, [r4, #16]
+ 7d2:	e007      	b.n	7e4 <genlock_create_lock+0xc8>
+ 7d4:	9803      	ldr	r0, [sp, #12]
+ 7d6:	aa04      	add	r2, sp, #16
+ 7d8:	4903      	ldr	r1, [pc, #12]	(7e8 <genlock_create_lock+0xcc>)
+ 7da:	f7ff ee96 	blx	508 <genlock_create_lock-0x214>
+ 7de:	2800      	cmp	r0, #0
+ 7e0:	d1dd      	bne.n	79e <genlock_create_lock+0x82>
+ 7e2:	e7f0      	b.n	7c6 <genlock_create_lock+0xaa>
+ 7e4:	b009      	add	sp, #36
+ 7e6:	bd30      	pop	{r4, r5, pc}
+ 7e8:	4701      	bx	r0
+ 7ea:	8010      	strh	r0, [r2, #0]
+ 7ec:	044c      	lsls	r4, r1, #17
+ 7ee:	0000      	lsls	r0, r0, #0
+ 7f0:	04b0      	lsls	r0, r6, #18
+ 7f2:	0000      	lsls	r0, r0, #0
+ 7f4:	06b9      	lsls	r1, r7, #26
+ 7f6:	0000      	lsls	r0, r0, #0
+ 7f8:	0528      	lsls	r0, r5, #20
+ 7fa:	0000      	lsls	r0, r0, #0
+ 7fc:	0418      	lsls	r0, r3, #16
+ 7fe:	0000      	lsls	r0, r0, #0
+ 800:	0517      	lsls	r7, r2, #20
+ 802:	0000      	lsls	r0, r0, #0
+ 804:	0685      	lsls	r5, r0, #26
+ 806:	0000      	lsls	r0, r0, #0
+ 808:	03ea      	lsls	r2, r5, #15
+ 80a:	0000      	lsls	r0, r0, #0
+ 80c:	0511      	lsls	r1, r2, #20
+ 80e:	0000      	lsls	r0, r0, #0
+ 810:	0657      	lsls	r7, r2, #25
+ 812:	0000      	lsls	r0, r0, #0
+ 814:	03ce      	lsls	r6, r1, #15
+ 816:	0000      	lsls	r0, r0, #0
+ 818:	051b      	lsls	r3, r3, #20
+ 81a:	0000      	lsls	r0, r0, #0
+ 81c:	063b      	lsls	r3, r7, #24
+	...
+
+00000820 <genlock_release_lock>:
+ 820:	b538      	push	{r3, r4, r5, lr}
+ 822:	4604      	mov	r4, r0
+ 824:	f7ff feca 	bl	5bc <genlock_create_lock-0x160>
+ 828:	b138      	cbz	r0, 83a <genlock_release_lock+0x1a>
+ 82a:	4911      	ldr	r1, [pc, #68]	(870 <genlock_release_lock+0x50>)
+ 82c:	2006      	movs	r0, #6
+ 82e:	4a11      	ldr	r2, [pc, #68]	(874 <genlock_release_lock+0x54>)
+ 830:	4b11      	ldr	r3, [pc, #68]	(878 <genlock_release_lock+0x58>)
+ 832:	4479      	add	r1, pc
+ 834:	447a      	add	r2, pc
+ 836:	447b      	add	r3, pc
+ 838:	e00d      	b.n	856 <genlock_release_lock+0x36>
+ 83a:	69a3      	ldr	r3, [r4, #24]
+ 83c:	f413 6500 	ands.w	r5, r3, #2048	; 0x800
+ 840:	d114      	bne.n	86c <genlock_release_lock+0x4c>
+ 842:	6c22      	ldr	r2, [r4, #64]
+ 844:	2a00      	cmp	r2, #0
+ 846:	da0a      	bge.n	85e <genlock_release_lock+0x3e>
+ 848:	490c      	ldr	r1, [pc, #48]	(87c <genlock_release_lock+0x5c>)
+ 84a:	2006      	movs	r0, #6
+ 84c:	4a0c      	ldr	r2, [pc, #48]	(880 <genlock_release_lock+0x60>)
+ 84e:	4b0d      	ldr	r3, [pc, #52]	(884 <genlock_release_lock+0x64>)
+ 850:	4479      	add	r1, pc
+ 852:	447a      	add	r2, pc
+ 854:	447b      	add	r3, pc
+ 856:	f7ff ee52 	blx	4fc <genlock_create_lock-0x220>
+ 85a:	2002      	movs	r0, #2
+ 85c:	bd38      	pop	{r3, r4, r5, pc}
+ 85e:	f104 0040 	add.w	r0, r4, #64	; 0x40
+ 862:	f104 0110 	add.w	r1, r4, #16	; 0x10
+ 866:	f7ff fe95 	bl	594 <genlock_create_lock-0x188>
+ 86a:	4628      	mov	r0, r5
+ 86c:	bd38      	pop	{r3, r4, r5, pc}
+ 86e:	bf00      	nop
+ 870:	034a      	lsls	r2, r1, #13
+ 872:	0000      	lsls	r0, r0, #0
+ 874:	03ae      	lsls	r6, r5, #14
+ 876:	0000      	lsls	r0, r0, #0
+ 878:	031b      	lsls	r3, r3, #12
+ 87a:	0000      	lsls	r0, r0, #0
+ 87c:	032c      	lsls	r4, r5, #12
+ 87e:	0000      	lsls	r0, r0, #0
+ 880:	04a2      	lsls	r2, r4, #18
+ 882:	0000      	lsls	r0, r0, #0
+ 884:	02fd      	lsls	r5, r7, #11
+	...
+
+00000888 <genlock_attach_lock>:
+ 888:	b530      	push	{r4, r5, lr}
+ 88a:	b089      	sub	sp, #36
+ 88c:	4605      	mov	r5, r0
+ 88e:	f7ff fe95 	bl	5bc <genlock_create_lock-0x160>
+ 892:	b148      	cbz	r0, 8a8 <genlock_attach_lock+0x20>
+ 894:	4924      	ldr	r1, [pc, #144]	(928 <genlock_attach_lock+0xa0>)
+ 896:	2006      	movs	r0, #6
+ 898:	4a24      	ldr	r2, [pc, #144]	(92c <genlock_attach_lock+0xa4>)
+ 89a:	4b25      	ldr	r3, [pc, #148]	(930 <genlock_attach_lock+0xa8>)
+ 89c:	4479      	add	r1, pc
+ 89e:	447a      	add	r2, pc
+ 8a0:	447b      	add	r3, pc
+ 8a2:	f7ff ee2c 	blx	4fc <genlock_create_lock-0x220>
+ 8a6:	e019      	b.n	8dc <genlock_attach_lock+0x54>
+ 8a8:	69ab      	ldr	r3, [r5, #24]
+ 8aa:	051a      	lsls	r2, r3, #20
+ 8ac:	d437      	bmi.n	91e <genlock_attach_lock+0x96>
+ 8ae:	4821      	ldr	r0, [pc, #132]	(934 <genlock_attach_lock+0xac>)
+ 8b0:	2102      	movs	r1, #2
+ 8b2:	4478      	add	r0, pc
+ 8b4:	f7ff ee3a 	blx	52c <genlock_create_lock-0x1f0>
+ 8b8:	2800      	cmp	r0, #0
+ 8ba:	9003      	str	r0, [sp, #12]
+ 8bc:	da10      	bge.n	8e0 <genlock_attach_lock+0x58>
+ 8be:	f7ff ee2a 	blx	514 <genlock_create_lock-0x208>
+ 8c2:	6800      	ldr	r0, [r0, #0]
+ 8c4:	f7ff ee2c 	blx	520 <genlock_create_lock-0x1fc>
+ 8c8:	491b      	ldr	r1, [pc, #108]	(938 <genlock_attach_lock+0xb0>)
+ 8ca:	4a1c      	ldr	r2, [pc, #112]	(93c <genlock_attach_lock+0xb4>)
+ 8cc:	4b1c      	ldr	r3, [pc, #112]	(940 <genlock_attach_lock+0xb8>)
+ 8ce:	4479      	add	r1, pc
+ 8d0:	447a      	add	r2, pc
+ 8d2:	447b      	add	r3, pc
+ 8d4:	9000      	str	r0, [sp, #0]
+ 8d6:	2006      	movs	r0, #6
+ 8d8:	f7ff ee10 	blx	4fc <genlock_create_lock-0x220>
+ 8dc:	2002      	movs	r0, #2
+ 8de:	e01e      	b.n	91e <genlock_attach_lock+0x96>
+ 8e0:	692a      	ldr	r2, [r5, #16]
+ 8e2:	ac08      	add	r4, sp, #32
+ 8e4:	490f      	ldr	r1, [pc, #60]	(924 <genlock_attach_lock+0x9c>)
+ 8e6:	f844 2d10 	str.w	r2, [r4, #-16]!
+ 8ea:	4622      	mov	r2, r4
+ 8ec:	f7ff ee0c 	blx	508 <genlock_create_lock-0x214>
+ 8f0:	b198      	cbz	r0, 91a <genlock_attach_lock+0x92>
+ 8f2:	f7ff ee10 	blx	514 <genlock_create_lock-0x208>
+ 8f6:	6800      	ldr	r0, [r0, #0]
+ 8f8:	f7ff ee12 	blx	520 <genlock_create_lock-0x1fc>
+ 8fc:	4911      	ldr	r1, [pc, #68]	(944 <genlock_attach_lock+0xbc>)
+ 8fe:	4a12      	ldr	r2, [pc, #72]	(948 <genlock_attach_lock+0xc0>)
+ 900:	4b12      	ldr	r3, [pc, #72]	(94c <genlock_attach_lock+0xc4>)
+ 902:	4479      	add	r1, pc
+ 904:	447a      	add	r2, pc
+ 906:	447b      	add	r3, pc
+ 908:	9000      	str	r0, [sp, #0]
+ 90a:	2006      	movs	r0, #6
+ 90c:	f7ff edf6 	blx	4fc <genlock_create_lock-0x220>
+ 910:	a803      	add	r0, sp, #12
+ 912:	4621      	mov	r1, r4
+ 914:	f7ff fe3e 	bl	594 <genlock_create_lock-0x188>
+ 918:	2002      	movs	r0, #2
+ 91a:	9b03      	ldr	r3, [sp, #12]
+ 91c:	642b      	str	r3, [r5, #64]
+ 91e:	b009      	add	sp, #36
+ 920:	bd30      	pop	{r4, r5, pc}
+ 922:	bf00      	nop
+ 924:	4702      	bx	r0
+ 926:	4010      	ands	r0, r2
+ 928:	02e0      	lsls	r0, r4, #11
+ 92a:	0000      	lsls	r0, r0, #0
+ 92c:	0344      	lsls	r4, r0, #13
+ 92e:	0000      	lsls	r0, r0, #0
+ 930:	0576      	lsls	r6, r6, #21
+ 932:	0000      	lsls	r0, r0, #0
+ 934:	03be      	lsls	r6, r7, #14
+ 936:	0000      	lsls	r0, r0, #0
+ 938:	02ae      	lsls	r6, r5, #10
+ 93a:	0000      	lsls	r0, r0, #0
+ 93c:	03ad      	lsls	r5, r5, #14
+ 93e:	0000      	lsls	r0, r0, #0
+ 940:	0544      	lsls	r4, r0, #21
+ 942:	0000      	lsls	r0, r0, #0
+ 944:	027a      	lsls	r2, r7, #9
+ 946:	0000      	lsls	r0, r0, #0
+ 948:	0408      	lsls	r0, r1, #16
+ 94a:	0000      	lsls	r0, r0, #0
+ 94c:	0510      	lsls	r0, r2, #20
+	...
+
+00000950 <genlock_lock_buffer>:
+ 950:	b573      	push	{r0, r1, r4, r5, r6, lr}
+ 952:	078c      	lsls	r4, r1, #30
+ 954:	4606      	mov	r6, r0
+ 956:	4615      	mov	r5, r2
+ 958:	d415      	bmi.n	986 <genlock_lock_buffer+0x36>
+ 95a:	2402      	movs	r4, #2
+ 95c:	07c8      	lsls	r0, r1, #31
+ 95e:	d414      	bmi.n	98a <genlock_lock_buffer+0x3a>
+ 960:	e016      	b.n	990 <genlock_lock_buffer+0x40>
+ 962:	4916      	ldr	r1, [pc, #88]	(9bc <genlock_lock_buffer+0x6c>)
+ 964:	2005      	movs	r0, #5
+ 966:	4a16      	ldr	r2, [pc, #88]	(9c0 <genlock_lock_buffer+0x70>)
+ 968:	4b16      	ldr	r3, [pc, #88]	(9c4 <genlock_lock_buffer+0x74>)
+ 96a:	4479      	add	r1, pc
+ 96c:	447a      	add	r2, pc
+ 96e:	447b      	add	r3, pc
+ 970:	f7ff edc4 	blx	4fc <genlock_create_lock-0x220>
+ 974:	4630      	mov	r0, r6
+ 976:	4621      	mov	r1, r4
+ 978:	462a      	mov	r2, r5
+ 97a:	2300      	movs	r3, #0
+ 97c:	b002      	add	sp, #8
+ 97e:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+ 982:	f7ff be6f 	b.w	664 <genlock_create_lock-0xb8>
+ 986:	2401      	movs	r4, #1
+ 988:	e7ff      	b.n	98a <genlock_lock_buffer+0x3a>
+ 98a:	2d00      	cmp	r5, #0
+ 98c:	d1f2      	bne.n	974 <genlock_lock_buffer+0x24>
+ 98e:	e7e8      	b.n	962 <genlock_lock_buffer+0x12>
+ 990:	4c0d      	ldr	r4, [pc, #52]	(9c8 <genlock_lock_buffer+0x78>)
+ 992:	2006      	movs	r0, #6
+ 994:	4a0d      	ldr	r2, [pc, #52]	(9cc <genlock_lock_buffer+0x7c>)
+ 996:	447c      	add	r4, pc
+ 998:	4b0d      	ldr	r3, [pc, #52]	(9d0 <genlock_lock_buffer+0x80>)
+ 99a:	9100      	str	r1, [sp, #0]
+ 99c:	447a      	add	r2, pc
+ 99e:	4621      	mov	r1, r4
+ 9a0:	447b      	add	r3, pc
+ 9a2:	f7ff edac 	blx	4fc <genlock_create_lock-0x220>
+ 9a6:	4a0b      	ldr	r2, [pc, #44]	(9d4 <genlock_lock_buffer+0x84>)
+ 9a8:	4b0b      	ldr	r3, [pc, #44]	(9d8 <genlock_lock_buffer+0x88>)
+ 9aa:	2006      	movs	r0, #6
+ 9ac:	4621      	mov	r1, r4
+ 9ae:	447a      	add	r2, pc
+ 9b0:	447b      	add	r3, pc
+ 9b2:	f7ff eda4 	blx	4fc <genlock_create_lock-0x220>
+ 9b6:	2002      	movs	r0, #2
+ 9b8:	b002      	add	sp, #8
+ 9ba:	bd70      	pop	{r4, r5, r6, pc}
+ 9bc:	0212      	lsls	r2, r2, #8
+ 9be:	0000      	lsls	r0, r0, #0
+ 9c0:	0401      	lsls	r1, r0, #16
+ 9c2:	0000      	lsls	r0, r0, #0
+ 9c4:	01c2      	lsls	r2, r0, #7
+ 9c6:	0000      	lsls	r0, r0, #0
+ 9c8:	01e6      	lsls	r6, r4, #7
+ 9ca:	0000      	lsls	r0, r0, #0
+ 9cc:	0397      	lsls	r7, r2, #14
+ 9ce:	0000      	lsls	r0, r0, #0
+ 9d0:	0461      	lsls	r1, r4, #17
+ 9d2:	0000      	lsls	r0, r0, #0
+ 9d4:	03aa      	lsls	r2, r5, #14
+ 9d6:	0000      	lsls	r0, r0, #0
+ 9d8:	0180      	lsls	r0, r0, #6
+	...
+
+000009dc <genlock_unlock_buffer>:
+ 9dc:	2100      	movs	r1, #0
+ 9de:	460a      	mov	r2, r1
+ 9e0:	460b      	mov	r3, r1
+ 9e2:	f7ff be3f 	b.w	664 <genlock_create_lock-0xb8>
+	...
+
+000009e8 <genlock_wait>:
+ 9e8:	b530      	push	{r4, r5, lr}
+ 9ea:	b087      	sub	sp, #28
+ 9ec:	4604      	mov	r4, r0
+ 9ee:	460d      	mov	r5, r1
+ 9f0:	f7ff fde4 	bl	5bc <genlock_create_lock-0x160>
+ 9f4:	b138      	cbz	r0, a06 <genlock_wait+0x1e>
+ 9f6:	491f      	ldr	r1, [pc, #124]	(a74 <genlock_wait+0x8c>)
+ 9f8:	2006      	movs	r0, #6
+ 9fa:	4a1f      	ldr	r2, [pc, #124]	(a78 <genlock_wait+0x90>)
+ 9fc:	4b1f      	ldr	r3, [pc, #124]	(a7c <genlock_wait+0x94>)
+ 9fe:	4479      	add	r1, pc
+ a00:	447a      	add	r2, pc
+ a02:	447b      	add	r3, pc
+ a04:	e00c      	b.n	a20 <genlock_wait+0x38>
+ a06:	69a3      	ldr	r3, [r4, #24]
+ a08:	051b      	lsls	r3, r3, #20
+ a0a:	d42f      	bmi.n	a6c <genlock_wait+0x84>
+ a0c:	6c20      	ldr	r0, [r4, #64]
+ a0e:	2800      	cmp	r0, #0
+ a10:	da09      	bge.n	a26 <genlock_wait+0x3e>
+ a12:	491b      	ldr	r1, [pc, #108]	(a80 <genlock_wait+0x98>)
+ a14:	2006      	movs	r0, #6
+ a16:	4a1b      	ldr	r2, [pc, #108]	(a84 <genlock_wait+0x9c>)
+ a18:	4b1b      	ldr	r3, [pc, #108]	(a88 <genlock_wait+0xa0>)
+ a1a:	4479      	add	r1, pc
+ a1c:	447a      	add	r2, pc
+ a1e:	447b      	add	r3, pc
+ a20:	f7ff ed6c 	blx	4fc <genlock_create_lock-0x220>
+ a24:	e021      	b.n	a6a <genlock_wait+0x82>
+ a26:	b945      	cbnz	r5, a3a <genlock_wait+0x52>
+ a28:	4918      	ldr	r1, [pc, #96]	(a8c <genlock_wait+0xa4>)
+ a2a:	2005      	movs	r0, #5
+ a2c:	4a18      	ldr	r2, [pc, #96]	(a90 <genlock_wait+0xa8>)
+ a2e:	4b19      	ldr	r3, [pc, #100]	(a94 <genlock_wait+0xac>)
+ a30:	4479      	add	r1, pc
+ a32:	447a      	add	r2, pc
+ a34:	447b      	add	r3, pc
+ a36:	f7ff ed62 	blx	4fc <genlock_create_lock-0x220>
+ a3a:	6921      	ldr	r1, [r4, #16]
+ a3c:	aa02      	add	r2, sp, #8
+ a3e:	6c20      	ldr	r0, [r4, #64]
+ a40:	9505      	str	r5, [sp, #20]
+ a42:	9102      	str	r1, [sp, #8]
+ a44:	490a      	ldr	r1, [pc, #40]	(a70 <genlock_wait+0x88>)
+ a46:	f7ff ed60 	blx	508 <genlock_create_lock-0x214>
+ a4a:	b178      	cbz	r0, a6c <genlock_wait+0x84>
+ a4c:	f7ff ed62 	blx	514 <genlock_create_lock-0x208>
+ a50:	6800      	ldr	r0, [r0, #0]
+ a52:	f7ff ed66 	blx	520 <genlock_create_lock-0x1fc>
+ a56:	4910      	ldr	r1, [pc, #64]	(a98 <genlock_wait+0xb0>)
+ a58:	4a10      	ldr	r2, [pc, #64]	(a9c <genlock_wait+0xb4>)
+ a5a:	4b11      	ldr	r3, [pc, #68]	(aa0 <genlock_wait+0xb8>)
+ a5c:	4479      	add	r1, pc
+ a5e:	447a      	add	r2, pc
+ a60:	447b      	add	r3, pc
+ a62:	9000      	str	r0, [sp, #0]
+ a64:	2006      	movs	r0, #6
+ a66:	f7ff ed4a 	blx	4fc <genlock_create_lock-0x220>
+ a6a:	2002      	movs	r0, #2
+ a6c:	b007      	add	sp, #28
+ a6e:	bd30      	pop	{r4, r5, pc}
+ a70:	4705      	bx	r0
+ a72:	4010      	ands	r0, r2
+ a74:	017e      	lsls	r6, r7, #5
+ a76:	0000      	lsls	r0, r0, #0
+ a78:	01e2      	lsls	r2, r4, #7
+ a7a:	0000      	lsls	r0, r0, #0
+ a7c:	0142      	lsls	r2, r0, #5
+ a7e:	0000      	lsls	r0, r0, #0
+ a80:	0162      	lsls	r2, r4, #5
+ a82:	0000      	lsls	r0, r0, #0
+ a84:	02d8      	lsls	r0, r3, #11
+ a86:	0000      	lsls	r0, r0, #0
+ a88:	0126      	lsls	r6, r4, #4
+ a8a:	0000      	lsls	r0, r0, #0
+ a8c:	014c      	lsls	r4, r1, #5
+ a8e:	0000      	lsls	r0, r0, #0
+ a90:	0368      	lsls	r0, r5, #13
+ a92:	0000      	lsls	r0, r0, #0
+ a94:	0110      	lsls	r0, r2, #4
+ a96:	0000      	lsls	r0, r0, #0
+ a98:	0120      	lsls	r0, r4, #4
+ a9a:	0000      	lsls	r0, r0, #0
+ a9c:	034c      	lsls	r4, r1, #13
+ a9e:	0000      	lsls	r0, r0, #0
+ aa0:	00e4      	lsls	r4, r4, #3
+	...
+
+00000aa4 <genlock_write_to_read>:
+ aa4:	b570      	push	{r4, r5, r6, lr}
+ aa6:	4605      	mov	r5, r0
+ aa8:	460c      	mov	r4, r1
+ aaa:	b941      	cbnz	r1, abe <genlock_write_to_read+0x1a>
+ aac:	4908      	ldr	r1, [pc, #32]	(ad0 <genlock_write_to_read+0x2c>)
+ aae:	2005      	movs	r0, #5
+ ab0:	4a08      	ldr	r2, [pc, #32]	(ad4 <genlock_write_to_read+0x30>)
+ ab2:	4b09      	ldr	r3, [pc, #36]	(ad8 <genlock_write_to_read+0x34>)
+ ab4:	4479      	add	r1, pc
+ ab6:	447a      	add	r2, pc
+ ab8:	447b      	add	r3, pc
+ aba:	f7ff ed20 	blx	4fc <genlock_create_lock-0x220>
+ abe:	2102      	movs	r1, #2
+ ac0:	4628      	mov	r0, r5
+ ac2:	4622      	mov	r2, r4
+ ac4:	460b      	mov	r3, r1
+ ac6:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+ aca:	f7ff bdcb 	b.w	664 <genlock_create_lock-0xb8>
+ ace:	bf00      	nop
+ ad0:	00c8      	lsls	r0, r1, #3
+ ad2:	0000      	lsls	r0, r0, #0
+ ad4:	02b7      	lsls	r7, r6, #10
+ ad6:	0000      	lsls	r0, r0, #0
+ ad8:	00ae      	lsls	r6, r5, #2
+	...

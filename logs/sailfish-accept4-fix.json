@@ -1,0 +1,25 @@
+{
+  "evidence": "logs/sailfish-first-boot/sixth-dmesg.log",
+  "original_probe": "accept4: ENOSYS (missing)",
+  "patch": "configs/sailfish-arm-accept4.patch",
+  "upstream": "https://github.com/torvalds/linux/blob/v2.6.38/arch/arm/kernel/calls.S",
+  "changes": [
+    "ARM syscall 366 connects to existing sys_accept4; slot 365 remains ENOSYS",
+    "Disable unsupported OOMScoreAdjust in five service drop-ins; default kernel OOM scoring applies"
+  ],
+  "build_exit_code": 0,
+  "kernel_sha256": "6d929bc83b4ca8358e6ab980b5b18bb377e81f95bb84f0353ffa2a08f7cd8869",
+  "compressed_update": "out/sailfish-accept4-update.tar.gz",
+  "phone_installed": true,
+  "runtime_pending": false,
+  "runtime_probe": "accept4: EBADF (implemented)",
+  "running_kernel": "#4 PREEMPT Sat Oct 17 04:16:20 CST 2026",
+  "oom_fix": "Full unit overrides omit OOMScoreAdjust; setting 0 also fails on systemd 208; system and user services covered",
+  "services_verified": [
+    "systemd-journald",
+    "systemd-udevd",
+    "dbus",
+    "droid-hal-init",
+    "user@100000"
+  ]
+}

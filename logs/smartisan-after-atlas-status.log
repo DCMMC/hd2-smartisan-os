@@ -1,0 +1,18 @@
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+  mCurrentFocus=Window{41e498e0 u0 com.android.settings/com.android.settings.inputmethod.LocalePickerActivity}
+system    10718 10688 412760 45324 ffffffff 40048790 S system_server
+u0_a1     11061 10688 395212 69536 ffffffff 40048790 S com.smartisanos.launcher
+u0_a72    11399 10688 321028 22844 ffffffff 40048790 S com.smartisanos.setupwizard
+
+
+
+User 3%, System 5%, IOW 1%, IRQ 0%
+User 12 + Nice 0 + Sys 17 + Idle 273 + IOW 5 + IRQ 0 + SIRQ 0 = 307
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+11061  0   2% S    13 395212K  69524K  bg u0_a1    com.smartisanos.launcher
+   65  0   2% S     6   5572K    232K     root     /sbin/adbd
+   78  0   1% S     1      0K      0K     root     loop7
+11457  0   1% R     1   1224K    508K     root     top
+   24  0   0% R     1      0K      0K     root     ksmd
+10718  0   0% S    71 412760K  43980K  fg system   system_server

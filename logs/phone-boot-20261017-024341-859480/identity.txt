@@ -1,0 +1,3 @@
+uid=0(root) gid=0(root)
+Linux localhost 2.6.32_tytung_jellybean_r2 #302 PREEMPT Sat Mar 16 15:38:22 CST 2013 armv7l GNU/Linux
+rel_path=HD2-SM20

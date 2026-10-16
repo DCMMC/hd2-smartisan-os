@@ -1,0 +1,13 @@
+{
+  "files_verified_against_image": 16,
+  "ramdisk_runtime_service": true,
+  "ramdisk_adb_config": true,
+  "user_responsiveness_confirmed": true,
+  "zip": "out/hd2-smartisan-2.0-alpha1-SD.zip",
+  "bytes": 859101976,
+  "sha256": "9d9e3a18466a373189551b10e5bda0eb3660e8c7326e639fbe5f0f411490969a",
+  "device_settings_backup": "logs/smartisan-alpha1-device-settings.txt",
+  "previous_zip_sha256_before_documentation_refresh": "41d0979c9984faa8f1e6eb4877699b534be83c0a7c72dcf1a617061921fbc085",
+  "zip_crc_passed": true,
+  "system_image_unchanged": true
+}

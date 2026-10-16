@@ -1,0 +1,1320 @@
+--------- beginning of /dev/log/system
+10-16 19:00:58.688  4222  4222 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+10-16 19:00:59.097  4222  4559 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+10-16 19:00:59.197  4222  4222 D NotificationService: onReceive:android.intent.action.PACKAGE_CHANGED
+10-16 19:00:59.218  4222  4222 I NotificationService: queryReplace=false
+10-16 19:00:59.298  4222  4222 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+10-16 19:00:59.688  4222  4734 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+10-16 19:00:59.688  4222  4222 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.697  4222  4222 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+10-16 19:00:59.708  4222  4222 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.718  4222  4222 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+10-16 19:00:59.718  4222  4222 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.727  4222  4222 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+10-16 19:00:59.727  4222  4222 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.738  4222  4222 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+10-16 19:00:59.738  4222  4222 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.748  4222  4222 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+10-16 19:00:59.768  4222  4222 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.768  4222  4222 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+10-16 19:00:59.768  4222  4222 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.768  4222  4222 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+10-16 19:00:59.778  4222  4222 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.778  4222  4222 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+10-16 19:00:59.778  4222  4222 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.778  4222  4222 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+10-16 19:00:59.787  4222  4222 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.787  4222  4222 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+10-16 19:00:59.787  4222  4222 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.787  4222  4222 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+10-16 19:00:59.798  4222  4222 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.798  4222  4222 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+10-16 19:00:59.808  4222  4222 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.808  4222  4222 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+10-16 19:00:59.817  4222  4222 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.828  4222  4222 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+10-16 19:00:59.838  4222  4222 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.838  4222  4222 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+10-16 19:00:59.847  4222  4222 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+10-16 19:00:59.847  4222  4222 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+10-16 19:00:59.868  4222  4222 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.868  4222  4222 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+10-16 19:00:59.868  4222  4222 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.878  4222  4222 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+10-16 19:00:59.888  4222  4222 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.898  4222  4222 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+10-16 19:00:59.898  4222  4222 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.898  4222  4222 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+10-16 19:00:59.907  4222  4222 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.907  4222  4222 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+10-16 19:00:59.907  4222  4222 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.907  4376  4376 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+10-16 19:00:59.907  4222  4222 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+10-16 19:00:59.918  4222  4222 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.918  4222  4222 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+10-16 19:00:59.938  4222  4222 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+10-16 19:00:59.938  4222  4222 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+10-16 19:00:59.947  4222  4222 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+10-16 19:00:59.947  4222  4222 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+10-16 19:00:59.958  4222  4222 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+10-16 19:00:59.958  4222  4222 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+10-16 19:00:59.968  4222  4222 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+10-16 19:00:59.968  4222  4222 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+10-16 19:00:59.978  4222  4222 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+10-16 19:00:59.978  4222  4222 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+10-16 19:00:59.978  4222  4222 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+--------- beginning of /dev/log/main
+05-20 00:00:00.044  5155  5155 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fa568 time:1116141
+10-16 19:00:59.988  4222  4222 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:00.044  4376  4376 D PowerButton: onReceive time:0 action:android.intent.action.TIME_SET
+10-16 19:00:59.988  4222  4222 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:00.054  4376  4376 D PowerButton: checkDisturbModeTime starttime:220000 endtime:80000 nowtime:0
+10-16 19:00:59.988  4222  4222 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:00.344  4376  4376 D SmartisanPhoneStatusBarTransitions: onTransition mode:0
+10-16 19:01:00.018  4222  4534 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:00.464  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:00.048  4222  4222 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:00.476  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:00.048  4222  4222 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:00.476  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:00.048  4222  4222 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:00.484  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:00.048  4222  4222 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:00.494  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:00.058  4222  4334 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1792177260000
+05-20 00:00:00.494  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:00.067  4222  4232 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:00.494  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:00.078  4376  4376 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:00:00.754  5167  5167 W dalvikvm: Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Lcom/qualcomm/timeservice/TimeServiceBroadcastReceiver;
+10-16 19:01:00.097  4222  4615 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:00.754  5167  5167 W dalvikvm: Class init failed in newInstance call (Lcom/qualcomm/timeservice/TimeServiceBroadcastReceiver;)
+10-16 19:01:00.108  4222  4222 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:00.754  5167  5167 D AndroidRuntime: Shutting down VM
+10-16 19:01:00.118  4222  4613 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:00.754  5167  5167 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+10-16 19:01:00.118  4222  4222 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:00.804  5117  5149 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=36
+10-16 19:01:00.138  4222  4534 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:00.894  5117  5128 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+10-16 19:01:00.138  4222  4222 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:00.974  5117  5149 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=37
+10-16 19:01:00.148  4222  4222 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:01.034  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:01.034  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/photo; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:00.157  4222  4222 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.184  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:00.157  4222  4222 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:01.184  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:00.157  4222  4222 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.195  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:00.157  4222  4222 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:01.204  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:00.167  4222  4222 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.215  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:00.178  4222  4556 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:01.225  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:00.188  4222  4222 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:01.234  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:00.218  4222  4222 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.234  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:00.218  4222  4222 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:01.244  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:00.238  4222  4222 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.314  4489  4911 D SettingItems: onDatabaseCreated()
+10-16 19:01:00.248  4222  4222 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:01.325  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:01.325  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/added_time; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:00.248  4376  4376 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:00.257  4222  4222 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:00.408  4376  4376 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:00.558  4376  4376 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:00.708  4376  4376 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:00.768  4222  4236 W WindowManager: Window freeze timeout expired.
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:00.768  4222  4236 W WindowManager: Force clearing orientation change: Window{41ed38b8 u0 StatusBar}
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:01.447  4222  4319 I ActivityManager: Start proc com.android.bluetooth for service com.android.bluetooth/.btservice.AdapterService: pid=4815 uid=1002 gids={41002, 3003, 3002, 3001, 1028, 1015, 3005, 1016, 3008}
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:01.618  4222  4222 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:01.877  4222  4222 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:00:01.354  4681  4793 D ContactsDatabaseHelper: TId:65; Position:9; _id:10; mimetype:vnd.android.cursor.item/photo
+10-16 19:01:01.888  4222  4222 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:00:01.375  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+10-16 19:01:01.888  4222  4222 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:00:01.375  4919  4982 E QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket after 8 times, continuing to retry silently
+10-16 19:01:01.888  4222  4222 V WiredAccessoryManager: init()
+05-20 00:00:01.384  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:01.384  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/location; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:01.907  4222  4357 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:02.477  4222  4735 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=4841 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:04.127  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:04.708  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:04.928  4222  4236 W WindowManager: Window freeze timeout expired.
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:04.928  4222  4236 W WindowManager: Force clearing orientation change: Window{41f47410 u0 Permission info: 通话}
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:04.928  4222  4236 W WindowManager: Force clearing orientation change: Window{41c51b88 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:04.928  4222  4236 W WindowManager: Force clearing orientation change: Window{41e6d808 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:01.394  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:04.928  4222  4236 W WindowManager: Force clearing orientation change: Window{41f55680 u0 SurfaceView}
+05-20 00:00:01.404  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:04.928  4222  4236 W WindowManager: Force clearing orientation change: Window{41f5fb38 u0 com.smartisanos.systemui.ImageWallpaper}
+05-20 00:00:01.404  4681  4793 D ContactsDatabaseHelper: TId:65; Position:9; _id:10; mimetype:vnd.android.cursor.item/photo
+10-16 19:01:08.768  4222  4332 I PowerManagerService: Boot animation finished.
+05-20 00:00:01.404  4681  4793 D ContactsDatabaseHelper: TId:65; Position:10; _id:11; mimetype:vnd.android.cursor.item/added_time
+10-16 19:01:09.368  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.474  4222  4238 W Searchables: No web search activity found
+10-16 19:01:10.588  4489  4489 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:00:01.485  4222  4238 D LocationProviderProxy-fused: bindBestPackage for com.android.location.service.FusedLocationProvider :  found 1, no new best package
+10-16 19:01:13.238  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.485  4222  4238 D GeocoderProxy: bindBestPackage for com.android.location.service.GeocodeProvider :  found 1, no new best package
+10-16 19:01:13.338  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41ee6e10 u0 android.intent.action.PACKAGE_CHANGED} to ReceiverList{41c66b38 4515 com.android.nfc/1027/u-1 remote:41c6c190}: process crashing
+05-20 00:00:01.504  4681  4793 I ContactsDatabaseHelper: Bootstrapping database version: 811
+10-16 19:01:13.518  4222  4237 W ActivityManager: Timeout executing service: ServiceRecord{41f072b0 u0 com.amap.android.location/.NetworkLocationService}
+05-20 00:00:01.514  4476  4499 D AMap NetworkLocationProvider: onEnable
+10-16 19:01:13.528  4222  4237 I ActivityManager: Skipping ANR before process restarted:com.amap.android.location
+05-20 00:00:01.514  4476  4797 D AMap NetworkLocationProvider: onSetRequest calling pid: 4222 calling uid: 1000 nlp used by: [android(1000)]
+10-16 19:01:13.567  4222  4534 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:01.514  4476  4797 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+10-16 19:01:13.598  4222  4735 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:01.525  4476  4476 D AMap NetworkLocationProvider: handleMessage msg = 0
+10-16 19:01:13.618  4222  4632 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:01.525  4476  4476 D AMap NetworkLocationProvider: onEnable
+10-16 19:01:13.648  4222  4232 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:01.525  4476  4476 D AMap NetworkLocationProvider: handleMessage msg = 20
+10-16 19:01:13.858  4222  4237 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+05-20 00:00:01.525  4476  4476 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+10-16 19:01:14.018  4222  4237 I ActivityManager: Start proc com.qualcomm.qcrilmsgtunnel for broadcast com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelAutoboot: pid=4919 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:00:01.525  4476  4476 D AMap LocationClient: handleMessage msg = 1
+10-16 19:01:16.778  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.534  4476  5011 D AMap InternalService: handleMessage msg = 6
+10-16 19:01:16.938  4222  4559 I ActivityManager: Process com.android.nfc (pid 4515) has died.
+05-20 00:00:01.534  4476  5011 D AMap InternalService: setPeriod: 86400000
+10-16 19:01:16.968  4222  4559 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=4940 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:01.534  4476  5011 D AMap InternalService: NetworkInfo: null
+10-16 19:01:17.328  4222  4222 D NotificationService: onReceive:android.intent.action.PACKAGE_CHANGED
+05-20 00:00:01.534  4476  4476 D AMap LocationClient: setPeriod: 86400000
+10-16 19:01:17.328  4222  4222 I NotificationService: queryReplace=false
+05-20 00:00:01.645  5117  5127 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+10-16 19:01:18.287  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.645  4222  4237 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+10-16 19:01:18.317  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.704  4376  4376 D StatusBar.LocationController: updateGpsUser num:2
+10-16 19:01:18.808  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.704  4376  4376 D StatusBar.LocationController: pkg:android
+10-16 19:01:19.138  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.704  4376  4376 D StatusBar.LocationController: pkg:com.amap.android.location
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: FATAL EXCEPTION: main
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: Process: com.android.nfc, PID: 4940
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: Caused by: java.lang.SecurityException
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+10-16 19:01:21.158  4940  4940 E AndroidRuntime: 	... 10 more
+05-20 00:00:01.704  4376  4376 D StatusBar.LocationController: gps user info is null set visible to false oldervisible is:false
+10-16 19:01:21.178  4222  4559 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:01.704  4376  4376 D StatusBar.LocationController: reset notification visible:false
+10-16 19:01:21.268  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.754  5117  5149 W dalvikvm: threadid=14: thread exiting with uncaught exception (group=0x41543c80)
+10-16 19:01:21.518  4222  4237 I ActivityManager: Start proc com.smartisan.rem for broadcast com.smartisan.rem/.framework.REMReceiver: pid=4969 uid=2000 gids={42000, 3003, 3002, 3001, 1028, 1015, 1023, 3008}
+05-20 00:00:01.754  5117  5149 I Process : killProcess pid=5117
+05-20 00:00:01.754  5117  5149 I Process : java.lang.RuntimeException
+05-20 00:00:01.754  5117  5149 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:01.754  5117  5149 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:01.754  5117  5149 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:01.754  5117  5149 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+10-16 19:01:21.738  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.754  5117  5149 I Process : Sending signal. PID: 5117 SIG: 9
+10-16 19:01:22.417  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:01.835  4222  4336 W InputDispatcher: channel '41d004e0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-16 19:01:22.828  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:01.835  4222  4336 E InputDispatcher: channel '41d004e0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-16 19:01:22.828  4222  4555 I ActivityManager: Process com.android.nfc (pid 4940) has died.
+05-20 00:00:01.835  4222  4336 W InputDispatcher: channel '41d9f048 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-16 19:01:22.847  4222  4555 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=4985 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:01.835  4222  4336 E InputDispatcher: channel '41d9f048 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-16 19:01:23.157  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.024  4222  4615 W InputDispatcher: Attempted to unregister already unregistered input channel '41d004e0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)'
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: FATAL EXCEPTION: main
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: Process: com.android.nfc, PID: 4985
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: Caused by: java.lang.SecurityException
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+10-16 19:01:23.588  4985  4985 E AndroidRuntime: 	... 10 more
+05-20 00:00:02.024  4222  4233 W InputDispatcher: Attempted to unregister already unregistered input channel '41d9f048 com.smartisanos.launcher/com.smartisanos.launcher.Launcher (server)'
+10-16 19:01:23.588  4222  4559 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:02.034  4489  4489 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-16 19:01:23.648  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.044  4489  4489 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-16 19:01:24.178  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.094  4489  4489 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-16 19:01:24.178  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: Local Branch: 
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: Local Patches: NONE
+05-20 00:00:02.094  4489  4489 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-16 19:01:24.227  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.184  4489  4489 D OpenGLRenderer: Enabling debug mode 0
+10-16 19:01:25.448  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.184  4489  4489 E memalloc: /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:67 Error: Invalid argument
+10-16 19:01:25.458  4222  4734 I ActivityManager: Process com.android.nfc (pid 4985) has died.
+05-20 00:00:02.184  4489  4489 E gralloc : Could not mmap handle 0x2a44eac8, fd=67 (Invalid argument)
+10-16 19:01:25.477  4222  4734 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5013 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:02.184  4489  4489 E gralloc : gralloc_register_buffer: gralloc_map failed
+10-16 19:01:25.828  4222  4237 I ActivityManager: Waited long enough for: ServiceRecord{41f28e38 u0 com.android.settings/.fuelgauge.PowerUsageService}
+05-20 00:00:02.184  4489  4489 W GraphicBufferMapper: registerBuffer(0x2a44eac8) failed -22 (Invalid argument)
+10-16 19:01:26.007  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.184  4489  4489 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+10-16 19:01:26.157  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.194  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: FATAL EXCEPTION: main
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: Process: com.android.nfc, PID: 5013
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: Caused by: java.lang.SecurityException
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+10-16 19:01:26.548  5013  5013 E AndroidRuntime: 	... 10 more
+05-20 00:00:02.194  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:26.558  4222  4232 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:02.194  4489  4489 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+10-16 19:01:26.688  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.194  4489  4489 W OpenGLRenderer: Error creating image (0x502)
+10-16 19:01:27.138  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.664  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:27.458  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.664  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:27.877  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.694  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:27.888  4222  4233 I ActivityManager: Process com.android.nfc (pid 5013) has died.
+05-20 00:00:02.694  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:27.907  4222  4233 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5036 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:02.694  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:28.458  4222  4559 I ActivityManager: Delay finish: com.android.settings/.SmartisanEventReceiver
+05-20 00:00:02.694  4681  4793 I ContactsProviderV1: Bootstrapping database legacy support
+10-16 19:01:28.627  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.694  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:28.697  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.744  4222  4236 I ActivityManager: Displayed com.android.settings/.inputmethod.LocalePickerActivity: +2s708ms (total +3s299ms)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: FATAL EXCEPTION: main
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: Process: com.android.nfc, PID: 5036
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: Caused by: java.lang.SecurityException
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+10-16 19:01:29.148  5036  5036 E AndroidRuntime: 	... 10 more
+05-20 00:00:02.744  4222  4236 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+10-16 19:01:29.168  4222  4735 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:02.755  4222  4236 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41c7b808 u0 com.android.settings/.inputmethod.LocalePickerActivity t5} time:1118851
+10-16 19:01:29.208  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.774  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:29.608  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.774  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:29.898  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.804  4489  4489 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@421ec278 time:1118909
+10-16 19:01:30.778  4222  4613 I ActivityManager: Process com.android.nfc (pid 5036) has died.
+05-20 00:00:02.954  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:30.808  4222  4613 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5068 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:02.965  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:30.808  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:02.965  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:31.138  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:02.965  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:31.438  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:03.094  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: FATAL EXCEPTION: main
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: Process: com.android.nfc, PID: 5068
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: Caused by: java.lang.SecurityException
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+10-16 19:01:31.718  5068  5068 E AndroidRuntime: 	... 10 more
+05-20 00:00:03.094  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:31.748  4222  4735 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:03.124  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:31.798  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:03.124  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:32.218  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:03.174  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:32.428  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:03.174  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:36.488  4222  4237 I ActivityManager: Waited long enough for: ServiceRecord{41f6e1a0 u0 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+05-20 00:00:03.216  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:36.488  4222  4237 I ActivityManager: Resuming delayed broadcast
+05-20 00:00:03.224  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:40.248  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:00:03.224  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.224  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/email_v2; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.248  4222  4556 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:00:03.254  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:40.248  4222  4556 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:00:03.254  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:40.248  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:00:03.324  4489  4489 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=true, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+10-16 19:01:40.248  4222  4556 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:00:03.414  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.414  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/im; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:00:03.425  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:00:03.485  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.485  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/nickname; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:00:03.485  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:00:03.494  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:00:03.524  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.524  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/organization; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:00:03.535  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:00:03.535  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:00:03.535  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:00:03.605  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.605  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/phone_v2; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:00:03.614  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:00:03.624  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:00:03.624  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:00:03.624  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:00:03.675  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.675  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/sip_address; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:00:03.684  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:00:03.684  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:40.257  4222  4556 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:00:03.684  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:40.288  4222  4322 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:00:03.684  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:42.518  4489  4489 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:00:03.684  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:42.618  3011  5105 W SocketClient: write error (Broken pipe)
+05-20 00:00:03.764  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.764  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/name; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:42.798  4222  4347 D ConnectivityService: Sampling interval elapsed, updating statistics ..
+05-20 00:00:03.774  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:42.817  4222  4347 D ConnectivityService: Done.
+05-20 00:00:03.774  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: FATAL EXCEPTION: GLThread 57
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 4664
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: com.smartisanos.smengine.mymaterial.Material$MaterialException: load image error: Textures/720p/background.png
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.loadBitmap(Material.java:468)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:476)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:493)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.TextureModularColorMaterial.draw(TextureModularColorMaterial.java:16)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.SceneNode.render(SceneNode.java:1351)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.RenderManager.renderSceneNode(RenderManager.java:766)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.smengine.World.runOneFrame(World.java:170)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.launcher.MainView.update(MainView.java:891)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at com.smartisanos.launcher.SMRenderer.onDrawFrame(SMRenderer.java:48)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1523)
+10-16 19:01:42.908  4664  4833 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1240)
+05-20 00:00:03.774  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:42.908  4222  4559 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:00:03.774  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:42.968  4222  4232 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:00:03.784  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:43.007  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41cf6b28 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41e90598 4664 com.smartisanos.launcher/10001/u0 remote:41e9d710}: process crashing
+05-20 00:00:03.784  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:43.898  4222  4353 I ActivityManager: Process com.smartisanos.launcher (pid 4664) has died.
+05-20 00:00:03.834  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.834  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/postal-address_v2; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:44.287  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:03.834  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:44.287  4222  4232 I WindowState: WIN DEATH: Window{41f64ad8 u0 SurfaceView}
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:44.287  4222  4534 I WindowState: WIN DEATH: Window{41efa5f0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:44.298  4222  4632 I WindowState: WIN DEATH: Window{41f213e0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:44.308  4222  4353 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=5117 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:44.588  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:46.358  4222  4238 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:00:03.854  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:47.127  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:03.914  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.914  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/identity; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:00:03.925  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:03.954  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/photo; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:00:03.954  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:00:03.964  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:00:03.964  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:00:04.005  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:04.005  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/added_time; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:47.657  4222  4534 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:47.697  4222  4322 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:47.977  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: FATAL EXCEPTION: GLThread 96
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 5117
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: com.smartisanos.smengine.mymaterial.Material$MaterialException: load image error: Textures/720p/background.png
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.loadBitmap(Material.java:468)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:476)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:493)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.TextureModularColorMaterial.draw(TextureModularColorMaterial.java:16)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.SceneNode.render(SceneNode.java:1351)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.RenderManager.renderSceneNode(RenderManager.java:766)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.smengine.World.runOneFrame(World.java:170)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.launcher.MainView.update(MainView.java:891)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at com.smartisanos.launcher.SMRenderer.onDrawFrame(SMRenderer.java:48)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1523)
+10-16 19:01:49.958  5117  5130 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1240)
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:49.968  4222  4734 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:49.998  4222  4534 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:50.067  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41fbb7c0 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41fd9458 5117 com.smartisanos.launcher/10001/u0 remote:41fd9118}: process crashing
+10-16 19:01:51.608  5117  5149 E NewLauncher: SMRenderer : shadingL = OpenGL ES GLSL ES 1.00
+10-16 19:01:51.608  5117  5149 E NewLauncher: SMRenderer : extent = GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+10-16 19:01:51.608  5117  5149 E NewLauncher: World : DEBUG : #### cleanDataStructureAboutHardwareResource ####
+10-16 19:01:51.618  5117  5149 E NewLauncher: SMRenderer : DEBUG : GL_THREAD_ID [5149]
+10-16 19:01:51.627  5117  5149 E NewLauncher: SMRenderer : DEBUG : onSurfaceChanged : false, size = 480 , 800
+10-16 19:01:51.627  5117  5149 E NewLauncher: MainView : DEBUG : MainView create : mode is PAGE_1_3X3_MODE, w 480, h 800
+10-16 19:01:51.627  5117  5149 E NewLauncher: World : DEBUG : #### cleanDataStructureAboutHardwareResource ####
+10-16 19:01:51.638  5117  5149 E NewLauncher: Utils : DEBUG : ### rti = 1 ##
+10-16 19:01:51.638  5117  5117 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 14
+10-16 19:01:51.648  5117  5149 E NewLauncher: Utils : DEBUG : ## rt = com.smartisanos.launcher.Launcher ##
+10-16 19:01:51.718  5117  5117 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+10-16 19:01:51.728  5117  5149 E NewLauncher: Launcher : ######## emergency unlock animation play
+10-16 19:01:51.728  5117  5149 E NewLauncher: Launcher : view create begin !
+10-16 19:01:51.728  5117  5149 E NewLauncher: PageView : DEBUG : PageView create !!!
+10-16 19:01:51.738  5117  5117 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-16 19:01:51.787  5117  5117 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 12
+10-16 19:01:51.787  5117  5117 E NewLauncher: Launcher : #### MESSAGE_COMPLETE #####
+10-16 19:01:51.787  4222  4236 I ActivityManager: Displayed com.smartisanos.launcher/.Launcher: +1s786ms
+10-16 19:01:51.787  5117  5117 E NewLauncher: Launcher : #### loadAllApps #####
+10-16 19:01:51.798  5117  5117 E NewLauncher: Launcher : launcher startup time ==> [6215] ms
+10-16 19:01:51.798  4503  4503 D PhoneApp: mReceiver: launcher.ready
+10-16 19:01:51.808  5117  5117 E NewLauncher: Launcher : DEBUG : ## wizard value = 0 ###
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:51.808  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41fb9dd0 u0 com.smartisanos.launcher.new_message} to ReceiverList{41fdd360 5117 com.smartisanos.launcher/10001/u0 remote:41fdd1b8}: process crashing
+10-16 19:01:51.917  4222  4232 I PackageManager:   Action: "android.intent.action.MAIN"
+10-16 19:01:51.917  4222  4232 I PackageManager:   Category: "android.intent.category.HOME"
+10-16 19:01:51.917  4222  4232 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:04.014  4681  4793 D ContactsDatabaseHelper: TId:65; Position:9; _id:10; mimetype:vnd.android.cursor.item/photo
+10-16 19:01:51.917  4222  4232 I PackageManager: Adding preferred activity ComponentInfo{com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity} for user 0 :
+05-20 00:00:04.034  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+05-20 00:00:04.034  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/location; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:1; _id:2; mimetype:vnd.android.cursor.item/im
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:2; _id:3; mimetype:vnd.android.cursor.item/nickname
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:3; _id:4; mimetype:vnd.android.cursor.item/organization
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:4; _id:5; mimetype:vnd.android.cursor.item/phone_v2
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:5; _id:6; mimetype:vnd.android.cursor.item/sip_address
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:6; _id:7; mimetype:vnd.android.cursor.item/name
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:7; _id:8; mimetype:vnd.android.cursor.item/postal-address_v2
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:8; _id:9; mimetype:vnd.android.cursor.item/identity
+10-16 19:01:51.947  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:9; _id:10; mimetype:vnd.android.cursor.item/photo
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:00:04.044  4681  4793 D ContactsDatabaseHelper: TId:65; Position:10; _id:11; mimetype:vnd.android.cursor.item/added_time
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:00:04.124  4841  4862 I InCall  : ProfileUtils - loadProfileContact(), Cursor=android.content.ContentResolver$CursorWrapperInner@41aee6d0
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:00:04.594  5188  5188 D EmailContent: init for com.android.email.provider
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:00:04.634  5188  5198 D Exchange: ExchangeDirectoryProvider: query: content://com.android.exchange.directory.provider/directories
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:00:04.804  4681  4793 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:00:05.114  4681  4793 I ContactDirectoryManager: Discovered 0 contact directories in 955ms
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:00:05.114  4503  4547 D PhoneGlobals: onChange, selfChange=false
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:00:05.134  4841  5212 I InCall  : ProfileUtils - loadProfileContact(), Cursor=android.content.ContentResolver$CursorWrapperInner@41e38650
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:00:05.134  4681  4793 I ContactsProvider: Locale has changed from null to zh_CN
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:00:05.164  4681  4793 I ContactsDatabaseHelper: Switching to locale zh_CN (ICU v51.1.0.1)
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:00:05.226  5200  5200 D EmailContent: init for com.android.email.provider
+10-16 19:01:51.958  4222  4520 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+10-16 19:01:51.968  5117  5149 E NewLauncher: MainView : DEBUG : load page id [0], index [0], title [], status [VISIBLE]
+05-20 00:00:05.264  5200  5213 W EmailProvider: EmailProviderBody dont exist...
+10-16 19:01:51.977  4222  4322 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+10-16 19:01:51.998  4503  4503 V SubscriptsManager: message send broadcast to update the mms uread count: 0
+05-20 00:00:05.304  5200  5210 D EmailProvider: EmailProvider#call(fix_parent_keys, )
+10-16 19:01:51.998  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41e90828 u0 com.smartisanos.launcher.new_message} to ReceiverList{41fdd360 5117 com.smartisanos.launcher/10001/u0 remote:41fdd1b8}: process crashing
+10-16 19:01:52.118  5117  5149 E NewLauncher: MainView : DEBUG : load page id [1], index [1], title [], status [VISIBLE]
+10-16 19:01:52.218  5117  5149 E NewLauncher: Weather number = 5
+10-16 19:01:52.218  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+10-16 19:01:52.218  5117  5149 E NewLauncher: Weather number = 2
+10-16 19:01:52.227  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+10-16 19:01:52.227  5117  5149 E NewLauncher: Weather number = 5
+10-16 19:01:52.227  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+10-16 19:01:52.227  5117  5149 E NewLauncher: Weather number = 2
+10-16 19:01:52.227  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+10-16 19:01:52.248  5117  5149 E NewLauncher: Weather number = 5
+10-16 19:01:52.248  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+10-16 19:01:52.257  5117  5149 E NewLauncher: Weather number = 2
+10-16 19:01:52.257  5117  5149 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+10-16 19:01:52.278  4222  4236 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41c7fab0 u0 com.smartisanos.launcher/.Launcher t4} time:1114486
+10-16 19:01:52.278  5117  5128 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+10-16 19:01:52.278  5117  5117 E NewLauncher: Launcher : ### delay update GL View #####
+05-20 00:00:05.374  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+10-16 19:01:52.278  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+10-16 19:01:52.287  5117  5117 I ActivityManager: Timeline: Activity_launch_request id:com.smartisanos.setupwizard time:1114491
+10-16 19:01:52.287  4222  4534 E SmartisanOS_Perf_JNI: onload
+10-16 19:01:52.287  4222  4534 E OpenGLHelper_Jni: opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+10-16 19:01:52.287  4222  4534 E SmartisanOS_Perf_JNI: smartiperf module not found
+10-16 19:01:52.287  4222  4534 E SmartisanOS_Perf: SmartiPerformance initialized failed!
+10-16 19:01:52.287  4222  4534 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:00:05.415  5200  5213 D EmailProvider: Creating EmailProvider database
+10-16 19:01:52.298  4222  4534 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smartisanos.setupwizard/.SetupWizardActivity} from pid 5117
+10-16 19:01:52.347  5117  5149 E NewLauncher: MainView : DEBUG : load page id [2], index [2], title [], status [VISIBLE]
+10-16 19:01:52.398  5117  5149 E NewLauncher: MainView : DEBUG : mPageList size         ==> 3
+10-16 19:01:52.398  5117  5149 E NewLauncher: MainView : DEBUG : invisiblePageList size ==> 0
+10-16 19:01:52.398  5117  5149 E NewLauncher: MainView : A140 : ########## 3
+10-16 19:01:52.618  5117  5149 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=23
+10-16 19:01:52.627  5117  5149 E NewLauncher: Launcher : #### mainView loadPage #####
+10-16 19:01:53.108  5117  5149 E NewLauncher: Launcher : view create done !
+10-16 19:01:53.108  5117  5149 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=26
+10-16 19:01:53.328  5117  5117 I Choreographer: Skipped 62 frames!  The application may be doing too much work on its main thread.
+10-16 19:01:53.328  5117  5117 E NewLauncher: Launcher : ### onPause ####
+10-16 19:01:53.328  5117  5117 E NewLauncher: UninstallApp : cancelUninstallWithoutAnim nothing to do by mUninstallDialog is null
+05-20 00:00:05.494  4681  4793 I ContactsDatabaseHelper: Locale change completed in 320ms
+10-16 19:01:53.347  4222  4520 I ActivityManager: Start proc com.smartisanos.setupwizard for activity com.smartisanos.setupwizard/.SetupWizardActivity: pid=5155 uid=10072 gids={50072}
+05-20 00:00:05.494  4681  4793 I ContactsDatabaseHelper: Switching to locale zh_CN (ICU v51.1.0.1)
+10-16 19:01:53.548  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41fbfcb0 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41fd9458 5117 com.smartisanos.launcher/10001/u0 remote:41fd9118}: process crashing
+10-16 19:01:53.648  4681  4793 I ContactsDatabaseHelper: lookupAndCacheId e:android.database.sqlite.SQLiteDoneException; cThreadId:65; cThreadInfo:Thread[ContactsProviderWorker,5,main];
+10-16 19:01:53.648  4681  4793 I ContactsDatabaseHelper:  value:vnd.android.cursor.item/identity; insert:SQLiteProgram: INSERT INTO mimetypes(mimetype) VALUES (?)
+10-16 19:01:53.648  5117  5117 E NewLauncher: Launcher : ### onStop ###
+10-16 19:01:53.678  4681  4793 D ContactsDatabaseHelper: TId:65; Position:0; _id:1; mimetype:vnd.android.cursor.item/email_v2
+10-16 19:01:53.858  5155  5155 I ActivityManager: Timeline: Activity_launch_request id:com.android.settings time:1116063
+05-20 00:00:05.744  4681  4793 I ContactsDatabaseHelper: Locale change completed in 244ms
+10-16 19:01:53.858  4222  4520 I ActivityManager: START u0 {cmp=com.android.settings/.inputmethod.LocalePickerActivity (has extras)} from pid 5155
+05-20 00:00:05.864  5200  5213 D EmailProvider: Creating EmailProviderBody database
+10-16 19:01:53.877  4222  4236 E WindowManager: use package drawable background
+05-20 00:00:05.934  4681  4793 I ContactsFTS: Rebuild contact search index in 123ms, 0 contacts
+05-20 00:00:05.995  5200  5213 D EmailProvider: Creating EmailProvider database
+05-20 00:00:00.004  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41f6a278 u-1 android.intent.action.TIME_SET} to ReceiverList{41e75c20 5117 com.smartisanos.launcher/10001/u0 remote:41ed0098}: process crashing
+05-20 00:00:06.084  4681  4793 I ContactsProvider: Upgrading aggregation algorithm
+05-20 00:00:00.014  4222  4237 I ActivityManager: Start proc com.qualcomm.timeservice for broadcast com.qualcomm.timeservice/.TimeServiceBroadcastReceiver: pid=5167 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:00:06.084  4681  4793 I ContactAggregator: Marked all visible contacts for aggregation: 0 raw contacts, 2 ms
+05-20 00:00:00.025  4222  4236 E WindowManager: use package drawable background
+05-20 00:00:06.144  4681  4793 I ContactsProvider: Aggregation algorithm upgraded for 0 raw contacts in 68ms
+05-20 00:00:00.044  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41ed12d8 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41fd9458 5117 com.smartisanos.launcher/10001/u0 remote:41fd9118}: process crashing
+05-20 00:00:06.194  4681  4793 D PhotoStore: pollingEntries 1
+05-20 00:00:00.334  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:06.194  4681  4793 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: Process: com.qualcomm.timeservice, PID: 5167
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Couldn't load TimeService from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/system/app/TimeService.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]: findLibrary returned null
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary(Runtime.java:375)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:526)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at com.qualcomm.timeservice.TimeServiceBroadcastReceiver.<clinit>(TimeServiceBroadcastReceiver.java:26)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.Class.newInstanceImpl(Native Method)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.Class.newInstance(Class.java:1208)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:2418)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.app.ActivityThread.access$1700(ActivityThread.java:145)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:00.824  5167  5167 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:06.194  4681  4793 D PhotoStore: pollingEntries 2
+05-20 00:00:00.894  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:06.194  4681  4793 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:01.534  4222  4238 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:00:06.214  4681  4793 D PhotoStore: pollingEntries 1
+05-20 00:00:01.645  4222  4365 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:00:06.214  4681  4793 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:01.804  4222  4698 I ActivityManager: Process com.smartisanos.launcher (pid 5117) has died.
+05-20 00:00:06.214  4681  4793 D PhotoStore: pollingEntries 2
+05-20 00:00:02.004  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:06.214  4681  4793 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:02.024  4222  4615 I WindowState: WIN DEATH: Window{41d004e0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:06.264  5200  5213 D EmailProvider: fromDatabase accounts: 0
+05-20 00:00:02.024  4222  4534 I WindowState: WIN DEATH: Window{41e62100 u0 SurfaceView}
+05-20 00:00:06.344  5200  5213 D EmailProvider: Fixing parent keys
+05-20 00:00:02.024  4222  4233 I WindowState: WIN DEATH: Window{41d9f048 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:06.344  5200  5210 D EmailProvider: Fixing parent keys
+05-20 00:00:02.384  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:06.384  5200  5200 D Email   : Cursor with 0 accounts returned
+05-20 00:00:03.084  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:06.544  5200  5226 I Email   : Observing account changes for notifications
+05-20 00:00:04.274  4222  4632 I ActivityManager: Start proc com.android.exchange for content provider com.android.exchange/.provider.ExchangeDirectoryProvider: pid=5188 uid=10081 gids={50081, 3003, 1028, 1015}
+05-20 00:00:06.824  5221  5221 I CalendarDatabaseHelper: Bootstrapping database
+05-20 00:00:04.634  4222  4556 I ActivityManager: Start proc com.android.email for content provider com.android.email/.provider.EmailProvider: pid=5200 uid=10037 gids={50037, 3003, 1028, 1015}
+05-20 00:00:06.974  5221  5221 D CalendarProvider2: ---[FLAG CHANGE]initializeWithContext(Content context) set flag is false
+05-20 00:00:06.484  4222  4534 I ActivityManager: Start proc com.android.providers.calendar for content provider com.android.providers.calendar/.CalendarProvider2: pid=5221 uid=10021 gids={50021, 3003, 1028, 1015}
+05-20 00:00:06.974  5221  5221 I CalendarProvider2: Created com.android.providers.calendar.CalendarAlarmManager@41a1adc8(com.android.providers.calendar.CalendarProvider2@41a06950)
+05-20 00:00:06.484  4222  4232 W ActivityManager: Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+05-20 00:00:07.154  4361  4375 D KeyguardViewMediator: onScreenTurnedOff(3)
+05-20 00:00:06.724  4222  4332 I PowerManagerService: Going to sleep due to screen timeout...
+05-20 00:00:07.165  3701  3706 D PermissionCache: checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (946 us)
+05-20 00:00:07.154  4222  4222 I WindowManager: <1400544007157> : screenTurnedOff for reason 3
+05-20 00:00:07.165  4361  4375 D KeyguardViewMediator: get isSecure state
+05-20 00:00:07.194  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=84)
+05-20 00:00:07.224  4222  4222 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21005
+05-20 00:00:07.194  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:07.224  4222  4222 I UsageStats: No package stats for pkg:com.android.settings
+05-20 00:00:07.224  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:00:07.284  4222  4222 D NotificationService: onReceive:android.intent.action.SCREEN_OFF
+05-20 00:00:07.224  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:00:10.554  4222  4232 W InputManager: Input event injection from pid 5253 failed.
+05-20 00:00:07.224  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:00:10.554  4222  4555 W InputManager: Input event injection from pid 5253 failed.
+05-20 00:00:07.224  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=84)
+05-20 00:00:13.115  4222  4332 I PowerManagerService: Waking up from sleep...
+05-20 00:00:07.224  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:00:13.124  4222  4222 I WindowManager: <1400544013126> :  screenTurningOn com.android.server.power.Notifier$2@41a8d018
+05-20 00:00:07.224  3701  3701 D SurfaceFlinger: Screen released, type=0 flinger=0x2a0074f0
+05-20 00:00:13.124  4222  4353 I WindowManager: No lock screen! windowToken=null
+05-20 00:00:07.264  4361  4375 D KeyguardViewMediator: setting alarm to turn off keyguard, seq = 1
+05-20 00:00:13.124  4222  4353 I WindowManager: <1400544013126~1400544013133> :  finishScreenTurningOn com.android.server.power.Notifier$2@41a8d018
+05-20 00:00:07.294  4376  4376 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:13.175  4361  4373 D TAG     : disable what:0
+05-20 00:00:07.294  4376  4376 D PowerButton: onReceive time:7 action:android.intent.action.SCREEN_OFF
+05-20 00:00:13.175  4222  4534 D StatusBarManagerService: disableInternal
+05-20 00:00:08.074  5221  5221 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+05-20 00:00:13.175  4222  4534 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41e8f990
+05-20 00:00:08.074  5221  5221 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+05-20 00:00:13.194  4222  4353 I WindowManager: <1400544013199> : ScreenOnListener Notified Screen On State
+05-20 00:00:09.385  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:13.305  4222  4222 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:00:09.534  5253  5253 D AndroidRuntime: 
+05-20 00:00:09.534  5253  5253 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:00:15.054  4222  4632 I ActivityManager: Process com.android.nfc (pid 5068) has died.
+05-20 00:00:09.574  5253  5253 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:15.065  4222  4632 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5277 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:09.634  5253  5253 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:15.364  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:09.654  5253  5253 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: Process: com.android.nfc, PID: 5277
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: Caused by: java.lang.SecurityException
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+05-20 00:00:15.414  5277  5277 E AndroidRuntime: 	... 10 more
+05-20 00:00:09.664  5253  5253 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:15.424  4222  4534 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:09.664  5253  5253 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:15.854  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:09.664  5253  5253 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:16.494  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41ecf150 u0 android.intent.action.PACKAGE_CHANGED} to ReceiverList{41fce030 5277 com.android.nfc/1027/u-1 remote:41f29618}: process crashing
+05-20 00:00:09.774  5253  5253 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:16.554  4222  4555 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:10.324  5253  5253 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:16.635  4222  4556 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:10.324  5253  5253 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:16.654  4222  4353 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:10.524  5253  5253 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+05-20 00:00:16.674  4222  4735 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:10.534  5253  5253 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=224, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1126634, downTime=1126634, deviceId=-1, source=0x101 }
+05-20 00:00:16.774  4222  4222 D NotificationService: onReceive:android.intent.action.PACKAGE_CHANGED
+05-20 00:00:10.554  4222  4336 I InputDispatcher: Dropped event because input dispatch is disabled.
+05-20 00:00:16.774  4222  4222 I NotificationService: queryReplace=false
+05-20 00:00:10.554  5253  5253 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=224, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1126634, downTime=1126634, deviceId=-1, source=0x101 }
+05-20 00:00:16.974  4222  4698 I ActivityManager: Process com.android.nfc (pid 5277) has died.
+05-20 00:00:10.554  4222  4336 I InputDispatcher: Dropped event because input dispatch is disabled.
+05-20 00:00:17.004  4222  4698 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5300 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:10.554  5253  5253 D AndroidRuntime: Shutting down VM
+05-20 00:00:17.284  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:10.554  5253  5257 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:17.294  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:11.615  5262  5262 D AndroidRuntime: 
+05-20 00:00:11.615  5262  5262 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: Process: com.android.nfc, PID: 5300
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: Caused by: java.lang.SecurityException
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+05-20 00:00:17.294  5300  5300 E AndroidRuntime: 	... 10 more
+05-20 00:00:11.624  5262  5262 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:17.324  4222  4353 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:11.684  5262  5262 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:17.604  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:11.694  5262  5262 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:17.604  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:11.714  5262  5262 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:17.614  4222  4615 I ActivityManager: Process com.qualcomm.timeservice (pid 5167) has died.
+05-20 00:00:11.714  5262  5262 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:18.064  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:11.714  5262  5262 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:18.314  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:11.834  5262  5262 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:18.584  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:12.194  4361  4361 D KeyguardViewMediator: received DELAYED_KEYGUARD_ACTION with seq = 1, mDelayedShowingSequence = 1
+05-20 00:00:18.594  4222  4632 I ActivityManager: Process com.android.nfc (pid 5300) has died.
+05-20 00:00:12.194  4361  4361 D KeyguardViewMediator: doKeyguardLocked
+05-20 00:00:18.604  4222  4632 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5331 uid=1027 gids={41027, 3002, 3001, 1028, 1015}
+05-20 00:00:12.204  4361  4361 D KeyguardViewMediator: doKeyguard: not showing because device isn't provisioned and the sim is not locked or missing
+05-20 00:00:18.614  4222  4353 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@422417a8 attribute=null, token = android.os.BinderProxy@41ead600
+05-20 00:00:12.354  5262  5262 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: Process: com.android.nfc, PID: 5331
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.android.nfc.NfcApplication: java.lang.SecurityException
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4416)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: Caused by: java.lang.SecurityException
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.os.ServiceManagerProxy.addService(ServiceManagerNative.java:150)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.os.ServiceManager.addService(ServiceManager.java:72)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at com.android.nfc.NfcService.<init>(NfcService.java:518)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at com.android.nfc.NfcApplication.onCreate(NfcApplication.java:59)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4413)
+05-20 00:00:18.824  5331  5331 E AndroidRuntime: 	... 10 more
+05-20 00:00:12.354  5262  5262 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:18.824  4222  4534 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:12.554  5262  5262 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+05-20 00:00:18.904  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:12.554  5262  5262 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1128653, downTime=1128653, deviceId=-1, source=0x101 }
+05-20 00:00:18.954  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:12.574  5262  5262 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1128653, downTime=1128653, deviceId=-1, source=0x101 }
+05-20 00:00:19.334  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:12.574  5262  5262 D AndroidRuntime: Shutting down VM
+05-20 00:00:19.594  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:12.574  5262  5266 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:26.255  4222  4321 I ActivityManager: Force stopping com.android.nfc appid=1027 user=0: pkg removed
+05-20 00:00:12.924  5270  5270 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:26.334  4222  4237 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{42233a78 u0 android.intent.action.PACKAGE_REMOVED} to ReceiverList{4224a838 5331 com.android.nfc/1027/u-1 remote:4224a4e8}: process crashing
+05-20 00:00:12.935  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Invalid argument fd=86)
+05-20 00:00:26.354  4222  4735 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:12.935  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:26.374  4222  4613 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:12.935  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:00:26.404  4222  4615 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:12.935  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:00:26.444  4222  4233 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:12.945  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Invalid argument fd=86)
+05-20 00:00:26.894  4222  4222 D NotificationService: onReceive:android.intent.action.PACKAGE_REMOVED
+05-20 00:00:12.945  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:00:26.894  4222  4222 I NotificationService: queryReplace=false
+05-20 00:00:13.124  4222  4222 V KeyguardServiceDelegate: onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41ebd310)
+05-20 00:00:26.894  4222  4222 D BackupManagerService: Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.nfc flg=0x4000010 (has extras) }
+05-20 00:00:13.124  4361  4373 D KeyguardViewMediator: onScreenTurnedOn, seq = 2
+05-20 00:00:26.894  4222  4222 V BackupManagerService: removePackageParticipantsLocked: uid=1027 #1
+05-20 00:00:13.124  4361  4373 D KeyguardViewMediator: handleNotifyScreenOn
+05-20 00:00:26.954  4222  4238 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:00:13.124  4361  4373 D KeyguardViewManager: onScreenTurnedOn()
+05-20 00:00:27.074  4222  4237 I ActivityManager: Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=5363 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:00:13.124  4222  4353 V KeyguardServiceDelegate: **** SHOWN CALLED ****
+05-20 00:00:27.294  5363  5363 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:00:13.165  4361  4373 D KeyguardViewMediator: get isSecure state
+05-20 00:00:27.314  4222  4613 I ActivityManager: Delay finish: com.android.keychain/.KeyChainBroadcastReceiver
+05-20 00:00:13.175  4361  4373 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mHidden=false isSecure=false --> flags=0x0
+05-20 00:00:27.514  4222  4613 I ActivityManager: Resuming delayed broadcast
+05-20 00:00:13.254  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+05-20 00:00:27.514  4222  4555 I ActivityManager: Killing 4620:com.android.printspooler/u0a31 (adj 15): empty #9
+05-20 00:00:13.254  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:27.854  4222  4555 I ActivityManager: Force stopping com.android.nfc appid=1027 user=0: from pid 5362
+05-20 00:00:13.254  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+05-20 00:00:27.854  4222  4222 D NotificationService: onReceive:android.intent.action.PACKAGE_RESTARTED
+05-20 00:00:13.254  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:27.854  4222  4222 I NotificationService: queryReplace=false
+05-20 00:00:13.254  4489  4489 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+05-20 00:00:29.044  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:13.254  4489  4489 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:29.044  4222  4520 I ActivityManager: Process com.android.nfc (pid 5331) has died.
+05-20 00:00:13.274  4489  4489 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@421ec278 time:1129372
+05-20 00:00:29.054  4222  4520 W ActivityManager: Unable to retrieve gids
+05-20 00:00:29.054  4222  4520 W ActivityManager: android.content.pm.PackageManager$NameNotFoundException: com.android.nfc
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at android.app.ApplicationPackageManager.getPackageGids(ApplicationPackageManager.java:143)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2860)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked(ActivityManagerService.java:13134)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:3977)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:4123)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1099)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+05-20 00:00:29.054  4222  4520 W ActivityManager: 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:00:13.305  4361  5273 D KeyguardViewManager: User action <value, active> tracked, date: 2014-05-20
+05-20 00:00:29.074  4222  4520 I ActivityManager: Start proc com.android.nfc for restart com.android.nfc: pid=5395 uid=1027 gids={41027}
+05-20 00:00:13.314  4376  4376 D PowerButton: onReceive time:13 action:android.intent.action.SCREEN_ON
+05-20 00:00:29.084  4222  4534 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41cab830 attribute=null, token = android.os.BinderProxy@41ead600
+05-20 00:00:13.324  3701  3701 W GLConsumer: [com.android.settings/com.android.settings.inputmethod.LocalePickerActivity] bindTextureImage: clearing GL error: 0x502
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: Process: com.android.nfc, PID: 5395
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.android.nfc.NfcApplication: java.lang.IllegalStateException: Unable to get package info for com.android.nfc; is package not installed?
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:516)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4386)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:145)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1266)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: Caused by: java.lang.IllegalStateException: Unable to get package info for com.android.nfc; is package not installed?
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.LoadedApk.initializeJavaContextClassLoader(LoadedApk.java:376)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:329)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:508)
+05-20 00:00:29.144  5395  5395 E AndroidRuntime: 	... 11 more
+05-20 00:00:13.354  4841  4841 D FloatViewManager: onReceive: ACTION_SCREEN_ON
+05-20 00:00:29.154  4222  4520 W ActivityManager: Process com.android.nfc has crashed too many times: killing!
+05-20 00:00:13.354  4841  4841 D InCall  : fr - isPhoneInUse ? :false
+05-20 00:00:29.374  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:13.354  4841  4841 D FloatViewManager: shouldShowFloatView(), isPhoneInUse=false, return false
+05-20 00:00:29.414  4222  4318 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bbf548
+05-20 00:00:13.354  4841  4841 D FloatViewManager: hide()
+05-20 00:00:29.825  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:13.354  4841  4841 D FloatViewManager: detachFromWindow(), mIsAdded=false
+05-20 00:00:30.084  4222  4365 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:00:13.395  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:13.395  3701  3701 D SurfaceFlinger: Screen acquired, type=0 flinger=0x2a0074f0
+05-20 00:00:13.395  4676  4676 D TrackerReceiver: action is com.smartisanos.intent.action.ADD_TRACKER
+05-20 00:00:13.414  3701  3701 D SurfaceFlinger: The screen is drew after light up!
+05-20 00:00:13.555  4676  4892 D FrameworkTrackerTask: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mPackageName = framework
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mTag = UserActive_Keyguard
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mSubTag = null
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mData = null
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mAction = 11
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mValues = 1
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: mTimeStamp = 1400544013458
+05-20 00:00:13.565  4676  4892 D FrameworkTrackerTask: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:00:15.044  5068  5068 I Process : killProcess pid=5068
+05-20 00:00:15.044  5068  5068 I Process : java.lang.RuntimeException
+05-20 00:00:15.044  5068  5068 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:15.044  5068  5068 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:15.044  5068  5068 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:15.044  5068  5068 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:15.044  5068  5068 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:15.044  5068  5068 I Process : Sending signal. PID: 5068 SIG: 9
+05-20 00:00:15.054    90    90 I ServiceManager: service 'nfc' died
+05-20 00:00:15.124  4503  4503 I PhoneApp: handleMessage: EVENT_CONTACT_CHANGED
+05-20 00:00:15.124  4503  4503 D CallerInfoCache: startAsyncCache
+05-20 00:00:15.124  4503  4503 W CallerInfoCache: Previous cache task is remaining.
+05-20 00:00:15.164  4503  5292 D CallerInfoCache: Start refreshing cache.
+05-20 00:00:15.204  5277  5277 I NfcService: Starting NFC service
+05-20 00:00:15.264  4503  5292 D CallerInfoCache: Caching entries are done. Total: 0
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: JNI_OnLoad: enter
+05-20 00:00:15.324  5277  5277 I BrcmNfcJni: NFC Service: loading nci JNI
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: enter
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: PowerSwitch::initialize: level=PS-UNKNOWN (0)
+05-20 00:00:15.324  5277  5277 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Cannot open config file /etc/libnfc-brcm.conf
+05-20 00:00:15.324  5277  5277 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Using default value for all settings
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: PowerSwitch::initialize: desired screen-off state=0
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: exit
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: register_com_android_nfc_NativeNfcTag
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: PowerSwitch::register_com_android_nfc_NativeNfcBrcmPowerMode
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: RoutingManager::registerJniFunctions
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: registerNativeBrcmConfig
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: registerNativeAidFilter
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: registerNativeDta
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: JNI_OnLoad: exit
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: nfcManager_initNativeStruc: enter
+05-20 00:00:15.324  5277  5277 D BrcmNfcJni: nfcManager_initNativeStruc: exit
+05-20 00:00:15.334  4222  4319 D BluetoothManagerService: Message: 20
+05-20 00:00:15.334  4222  4319 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41f87a38:true
+05-20 00:00:15.404  5277  5277 W NfceeAccess: could not find /etc/nfcee_access.xml, no NFCEE access allowed
+05-20 00:00:15.404  5277  5277 I NfceeAccess: read 0 signature(s) for NFCEE access
+05-20 00:00:15.414  5277  5277 D NfcFacServ: constructor
+05-20 00:00:15.414  5277  5277 I BrcmCfgServ: NativeNfcBrcmConfig
+05-20 00:00:15.414  5277  5277 D BrcmDtaSrv: NativeNfcAdapterDta
+05-20 00:00:15.414  5277  5277 I NfcService: register broadcom factory
+05-20 00:00:15.414    90    90 E ServiceManager: add_service('com.broadcom.nfc.Factory',0x52) uid=1027 - PERMISSION DENIED
+05-20 00:00:15.414  5277  5277 D AndroidRuntime: Shutting down VM
+05-20 00:00:15.414  5277  5277 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:16.554  4222  4555 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:16.554  4222  4555 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:16.554  4222  4555 I PackageManager:   Scheme: "sms"
+05-20 00:00:16.635  4222  4556 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:16.635  4222  4556 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:16.635  4222  4556 I PackageManager:   Scheme: "smsto"
+05-20 00:00:16.654  4222  4353 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:16.654  4222  4353 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:16.654  4222  4353 I PackageManager:   Scheme: "mms"
+05-20 00:00:16.664  4222  4337 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-20 00:00:16.674  4222  4735 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:16.674  4222  4735 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:16.674  4222  4735 I PackageManager:   Scheme: "mmsto"
+05-20 00:00:16.964  5277  5277 I Process : killProcess pid=5277
+05-20 00:00:16.964  5277  5277 I Process : java.lang.RuntimeException
+05-20 00:00:16.964  5277  5277 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:16.964  5277  5277 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:16.964  5277  5277 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:16.964  5277  5277 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:16.964  5277  5277 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:16.964  5277  5277 I Process : Sending signal. PID: 5277 SIG: 9
+05-20 00:00:16.974    90    90 I ServiceManager: service 'nfc' died
+05-20 00:00:17.134  5300  5300 I NfcService: Starting NFC service
+05-20 00:00:17.144  5300  5300 D BrcmNfcJni: JNI_OnLoad: enter
+05-20 00:00:17.144  5300  5300 I BrcmNfcJni: NFC Service: loading nci JNI
+05-20 00:00:17.144  5300  5300 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: enter
+05-20 00:00:17.144  5300  5300 D BrcmNfcJni: PowerSwitch::initialize: level=PS-UNKNOWN (0)
+05-20 00:00:17.144  5300  5300 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Cannot open config file /etc/libnfc-brcm.conf
+05-20 00:00:17.144  5300  5300 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Using default value for all settings
+05-20 00:00:17.144  5300  5300 D BrcmNfcJni: PowerSwitch::initialize: desired screen-off state=0
+05-20 00:00:17.144  5300  5300 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: exit
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: register_com_android_nfc_NativeNfcTag
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: PowerSwitch::register_com_android_nfc_NativeNfcBrcmPowerMode
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: RoutingManager::registerJniFunctions
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: registerNativeBrcmConfig
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: registerNativeAidFilter
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: registerNativeDta
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: JNI_OnLoad: exit
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: nfcManager_initNativeStruc: enter
+05-20 00:00:17.154  5300  5300 D BrcmNfcJni: nfcManager_initNativeStruc: exit
+05-20 00:00:17.154  4222  4319 D BluetoothManagerService: Message: 20
+05-20 00:00:17.164  4222  4319 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@42201900:true
+05-20 00:00:17.275  5167  5167 I Process : killProcess pid=5167
+05-20 00:00:17.275  5167  5167 I Process : java.lang.RuntimeException
+05-20 00:00:17.275  5167  5167 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:17.275  5167  5167 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:17.275  5167  5167 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:17.275  5167  5167 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:17.275  5167  5167 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:17.275  5300  5300 W NfceeAccess: could not find /etc/nfcee_access.xml, no NFCEE access allowed
+05-20 00:00:17.275  5300  5300 I NfceeAccess: read 0 signature(s) for NFCEE access
+05-20 00:00:17.275  5300  5300 D NfcFacServ: constructor
+05-20 00:00:17.284  5300  5300 I BrcmCfgServ: NativeNfcBrcmConfig
+05-20 00:00:17.284  5300  5300 D BrcmDtaSrv: NativeNfcAdapterDta
+05-20 00:00:17.284  5300  5300 I NfcService: register broadcom factory
+05-20 00:00:17.284    90    90 E ServiceManager: add_service('com.broadcom.nfc.Factory',0x52) uid=1027 - PERMISSION DENIED
+05-20 00:00:17.294  5300  5300 D AndroidRuntime: Shutting down VM
+05-20 00:00:17.294  5300  5300 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:17.314  5167  5167 I Process : Sending signal. PID: 5167 SIG: 9
+05-20 00:00:17.394  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:17.434  4222  4238 W Searchables: No web search activity found
+05-20 00:00:17.784  4222  4238 D LocationProviderProxy-fused: bindBestPackage for com.android.location.service.FusedLocationProvider :  found 1, no new best package
+05-20 00:00:17.795  4222  4238 D GeocoderProxy: bindBestPackage for com.android.location.service.GeocodeProvider :  found 1, no new best package
+05-20 00:00:18.584  5300  5300 I Process : killProcess pid=5300
+05-20 00:00:18.584  5300  5300 I Process : java.lang.RuntimeException
+05-20 00:00:18.584  5300  5300 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:18.584  5300  5300 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:18.584  5300  5300 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:18.584  5300  5300 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:18.584  5300  5300 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:18.584  5300  5300 I Process : Sending signal. PID: 5300 SIG: 9
+05-20 00:00:18.594    90    90 I ServiceManager: service 'nfc' died
+05-20 00:00:18.734  5331  5331 I NfcService: Starting NFC service
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: JNI_OnLoad: enter
+05-20 00:00:18.734  5331  5331 I BrcmNfcJni: NFC Service: loading nci JNI
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: enter
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: PowerSwitch::initialize: level=PS-UNKNOWN (0)
+05-20 00:00:18.734  5331  5331 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Cannot open config file /etc/libnfc-brcm.conf
+05-20 00:00:18.734  5331  5331 D NfcAdaptation: bool CNfcConfig::readConfig(const char*, bool) Using default value for all settings
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: PowerSwitch::initialize: desired screen-off state=0
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: register_com_android_nfc_NativeNfcManager: exit
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: register_com_android_nfc_NativeNfcTag
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: PowerSwitch::register_com_android_nfc_NativeNfcBrcmPowerMode
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: RoutingManager::registerJniFunctions
+05-20 00:00:18.734  5331  5331 D BrcmNfcJni: registerNativeBrcmConfig
+05-20 00:00:18.744  5331  5331 D BrcmNfcJni: registerNativeAidFilter
+05-20 00:00:18.744  5331  5331 D BrcmNfcJni: registerNativeDta
+05-20 00:00:18.744  5331  5331 D BrcmNfcJni: JNI_OnLoad: exit
+05-20 00:00:18.744  5331  5331 D BrcmNfcJni: nfcManager_initNativeStruc: enter
+05-20 00:00:18.744  5331  5331 D BrcmNfcJni: nfcManager_initNativeStruc: exit
+05-20 00:00:18.744  4222  4319 D BluetoothManagerService: Message: 20
+05-20 00:00:18.744  4222  4319 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@422464d0:true
+05-20 00:00:18.814  5331  5331 W NfceeAccess: could not find /etc/nfcee_access.xml, no NFCEE access allowed
+05-20 00:00:18.814  5331  5331 I NfceeAccess: read 0 signature(s) for NFCEE access
+05-20 00:00:18.814  5331  5331 D NfcFacServ: constructor
+05-20 00:00:18.814  5331  5331 I BrcmCfgServ: NativeNfcBrcmConfig
+05-20 00:00:18.814  5331  5331 D BrcmDtaSrv: NativeNfcAdapterDta
+05-20 00:00:18.814  5331  5331 I NfcService: register broadcom factory
+05-20 00:00:18.814    90    90 E ServiceManager: add_service('com.broadcom.nfc.Factory',0x52) uid=1027 - PERMISSION DENIED
+05-20 00:00:18.814  5331  5331 D AndroidRuntime: Shutting down VM
+05-20 00:00:18.814  5331  5331 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:21.395  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:25.399  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:26.354  4222  4735 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:26.354  4222  4735 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:26.354  4222  4735 I PackageManager:   Scheme: "sms"
+05-20 00:00:26.374  4222  4613 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:26.374  4222  4613 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:26.374  4222  4613 I PackageManager:   Scheme: "smsto"
+05-20 00:00:26.404  4222  4615 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:26.404  4222  4615 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:26.404  4222  4615 I PackageManager:   Scheme: "mms"
+05-20 00:00:26.424  4222  4337 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-20 00:00:26.444  4222  4233 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:00:26.444  4222  4233 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:00:26.444  4222  4233 I PackageManager:   Scheme: "mmsto"
+05-20 00:00:26.824  5362  5362 D AndroidRuntime: 
+05-20 00:00:26.824  5362  5362 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:00:26.834  5362  5362 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:26.894  5362  5362 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:26.914  5362  5362 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:26.924  5362  5362 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:26.944  5362  5362 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:26.944  5362  5362 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:27.034  4447  4447 E PackageActionReceiver: ACTION_PACKAGE_REMOVED
+05-20 00:00:27.074  4681  5365 D VoicemailCleanupService: Cleaning up data for package: com.android.nfc
+05-20 00:00:27.184  5362  5362 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:27.534  4222  4555 I Process : killProcessQuiet pid=4620
+05-20 00:00:27.534  4222  4555 I Process : java.lang.RuntimeException
+05-20 00:00:27.534  4222  4555 I Process : 	at android.os.Process.killProcessQuiet(Process.java:982)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.killUnneededProcessLocked(ActivityManagerService.java:7399)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16275)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16097)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16076)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:1886)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:1835)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.serviceDoneExecuting(ActivityManagerService.java:13396)
+05-20 00:00:27.534  4222  4555 I Process : 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:902)
+05-20 00:00:27.534  4222  4555 I Process : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2215)
+05-20 00:00:27.534  4222  4555 I Process : 	at android.os.Binder.execTransact(Binder.java:404)
+05-20 00:00:27.534  4222  4555 I Process : 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:00:27.675  4222  4238 W Searchables: No web search activity found
+05-20 00:00:27.744  5362  5362 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:27.744  5362  5362 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:27.844  5362  5362 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+05-20 00:00:27.854  5362  5362 D AndroidRuntime: Shutting down VM
+05-20 00:00:27.864  5362  5375 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:28.514  5385  5385 D AndroidRuntime: 
+05-20 00:00:28.514  5385  5385 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:00:28.514  5385  5385 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:28.544  5385  5385 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:28.544  5385  5385 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:28.554  5385  5385 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:28.554  5385  5385 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:28.554  5385  5385 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:28.624  5385  5385 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:28.914  5385  5385 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:28.914  5385  5385 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:29.014  5385  5385 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+05-20 00:00:29.014  5385  5385 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=447.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1145111, downTime=1145111, deviceId=0, source=0x1002 }
+05-20 00:00:29.024  5385  5385 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=447.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1145111, downTime=1145111, deviceId=0, source=0x1002 }
+05-20 00:00:29.024  5385  5385 D AndroidRuntime: Shutting down VM
+05-20 00:00:29.024  5385  5389 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:29.044  5331  5331 I Process : killProcess pid=5331
+05-20 00:00:29.044  5331  5331 I Process : java.lang.RuntimeException
+05-20 00:00:29.044  5331  5331 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:00:29.044  5331  5331 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:00:29.044  5331  5331 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:29.044  5331  5331 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:29.044  5331  5331 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:29.044  5331  5331 I Process : Sending signal. PID: 5331 SIG: 9
+05-20 00:00:29.044    90    90 I ServiceManager: service 'nfc' died
+05-20 00:00:29.134  5395  5395 W asset   : Asset path /system/app/NfcNci.apk is neither a directory nor file (type=1).
+05-20 00:00:29.144  5395  5395 D AndroidRuntime: Shutting down VM
+05-20 00:00:29.144  5395  5395 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:29.164  4222  4237 W asset   : Asset path /system/app/NfcNci.apk is neither a directory nor file (type=1).
+05-20 00:00:29.164  4222  4237 W PackageManager: Failure retrieving resources forcom.android.nfc
+05-20 00:00:29.394  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:29.825  5411  5411 D AndroidRuntime: 
+05-20 00:00:29.825  5411  5411 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:00:29.825  5411  5411 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:29.864  5411  5411 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:29.874  5411  5411 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:29.874  5411  5411 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:29.874  5411  5411 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:29.874  5411  5411 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:29.954  5411  5411 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:30.274  5411  5411 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:30.274  5411  5411 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:30.364  5411  5411 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+05-20 00:00:30.374  5411  5411 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1146470, downTime=1146470, deviceId=-1, source=0x101 }
+05-20 00:00:30.885  5411  5411 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=1146470, downTime=1146470, deviceId=-1, source=0x101 }
+05-20 00:00:30.885  5411  5411 D AndroidRuntime: Shutting down VM
+05-20 00:00:30.885  5411  5419 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:31.195  4361  4373 D KeyguardViewMediator: verifyUnlock
+05-20 00:00:31.195  4361  4373 D KeyguardViewMediator: ignoring because device isn't provisioned
+05-20 00:00:31.195  4222  4613 V KeyguardServiceDelegate: **** onKeyguardExitResult(false) CALLED ****
+05-20 00:00:33.401  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:37.401  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:37.664  4361  4361 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+05-20 00:00:37.674  4361  4361 D KeyguardUpdateMonitor: handleBatteryUpdate
+05-20 00:00:37.674  4376  4376 D StatusBar.BatteryController: updateBattery level:10 charging:false pluged:true
+05-20 00:00:41.171  4222  4331 I lights  : check_battery_level: state=5
+05-20 00:00:41.403  4919  4982 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+10-16 19:01:53.888  4222  4233 D         : Setting time of day to sec=1400544000
+10-16 19:01:53.888  5155  5155 D TAG     : disable what:65536
+10-16 19:01:53.888  4222  4232 D StatusBarManagerService: disableInternal
+10-16 19:01:53.888  4222  4232 D StatusBarManagerService: manageDisableList userId=0 what=0x10000 pkg=com.smartisanos.setupwizard token:android.os.BinderProxy@41f29328

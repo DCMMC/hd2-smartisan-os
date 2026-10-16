@@ -1,0 +1,1 @@
+/sbin/sh: logcat: command not found

@@ -1,0 +1,2458 @@
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 2.6.32_tytung_jellybean_r2 (DCMMC@DCMMC) (gcc version 4.4.3 (GCC) ) #2 PREEMPT Sat Oct 17 04:03:54 CST 2026
+[    0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c53c7f
+[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+[    0.000000] Machine: htcleo
+[    0.000000] Ignoring unrecognised tag 0x00000000
+[    0.000000] Nand Boot: 1
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 124864
+[    0.000000] free_area_init_node: node 0, pgdat c065f21c, node_mem_map c0aad000
+[    0.000000]   Normal zone: 512 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 65024 pages, LIFO batch:15
+[    0.000000]   HighMem zone: 464 pages used for memmap
+[    0.000000]   HighMem zone: 58864 pages, LIFO batch:15
+[    0.000000] allocating 33554432 bytes at c0e83000 (12683000 physical) for sf pmem arena
+[    0.000000] allocating 42991616 bytes at c2e83000 (14683000 physical) for adsp pmem arena
+[    0.000000] ram_console: found existing buffer, size 24951, start 24951
+[    0.000000] console [ram0] enabled
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 123888
+[    0.000000] Kernel command line: rel_path=HD2-SF
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Memory: 256MB 231MB = 487MB total
+[    0.000000] Memory: 411208KB available (5844K code, 1836K data, 408K init, 237312K highmem)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:332
+[    0.000000] $$$ msm_timer_init $$$
+[    0.000000]  1DIV = 00000003
+[    0.000000]  2DIV = 00000003
+[    0.000000] Console: colour dummy device 80x30
+[    0.000000] console [tty0] enabled
+[    0.000000] ram_console_early_init: already initialized, bailing out
+[    0.000000] Calibrating delay loop... 663.55 BogoMIPS (lpj=3317760)
+[    0.239166] Mount-cache hash table entries: 512
+[    0.239501] Initializing cgroup subsys debug
+[    0.239532] Initializing cgroup subsys cpuacct
+[    0.239562] Initializing cgroup subsys devices
+[    0.239562] Initializing cgroup subsys freezer
+[    0.239624] CPU: Testing write buffer coherency: ok
+[    0.239990] devtmpfs: initialized
+[    0.240997] regulator: core version 0.5
+[    0.241180] NET: Registered protocol family 16
+[    0.241607] htcleo_init()
+[    0.242645] Max ACPU freq from efuse data is 1190400 KHz
+[    0.761688] init_dex_comm: WinCE DEX init.
+[    0.761718] init_dex_comm: WinCE DEX initialized.
+[    0.761779] PLL0 @ f8005300: MODE=00000007 L=0000000c M=00000004 N=00000005 freq=245760000 Hz (245 MHz)
+[    0.761810] PLL1 @ f8005320: MODE=00000007 L=00000028 M=00000000 N=00000001 freq=768000000 Hz (768 MHz)
+[    0.761871] PLL4 @ f8005380: MODE=00000000 L=0000000f M=00000000 N=00000001 freq=288000000 Hz (288 MHz)
+[    0.761932] PLL5 @ f80053a0: MODE=00000000 L=00000032 M=00000000 N=00000001 freq=960000000 Hz (960 MHz)
+[    0.761993] PCB XC: 00000004
+[    0.761993] AMSS version: 15.42.50.11U
+[    0.762268] register analog ops = c062fed0
+[    0.762298] [HS_MGR] (headset_notifier_register) Register MIC_BIAS notifier
+[    0.762359] /proc/mic_level created
+[    0.863189] Init Panel
+[    0.863250] panel type is 10 :board id is 4 : SHARP
+[    0.863647] htcleo_init_mmc()+
+[    0.863830] htcleo_init_mmc()-
+[    0.868408] bio: create slab <bio-0> at 0
+[    0.869110] mdp_probe: initialized
+[    0.869384] msm_i2c_probe
+[    0.869537] msm_i2c_probe: clk_ctl 315, 400000 Hz
+[    0.869812] regulator: VDCDC1: 800 <--> 1375 mV 
+[    0.869934] regulator: VDCDC2: 1260 mV 
+[    0.870025] regulator: VDCDC3: 800 <--> 3300 mV 
+[    0.870147] regulator: LDO1: 1000 <--> 3150 mV 
+[    0.870239] regulator: LDO2: 3300 mV 
+[    0.871154] Bluetooth: Core ver 2.15
+[    0.871307] NET: Registered protocol family 31
+[    0.871337] Bluetooth: HCI device and connection manager initialized
+[    0.871368] Bluetooth: HCI socket layer initialized
+[    0.871551] cfg80211: Using static regulatory domain info
+[    0.871582] cfg80211: Regulatory domain: US
+[    0.871612] 	(start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[    0.871643] 	(2402000 KHz - 2472000 KHz @ 40000 KHz), (600 mBi, 2700 mBm)
+[    0.871673] 	(5170000 KHz - 5190000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    0.871734] 	(5190000 KHz - 5210000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    0.871765] 	(5210000 KHz - 5230000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    0.871795] 	(5230000 KHz - 5330000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    0.871826] 	(5735000 KHz - 5835000 KHz @ 40000 KHz), (600 mBi, 3000 mBm)
+[    0.871887] cfg80211: Calling CRDA for country: US
+[    0.872100] Switching to clocksource gp_timer
+[    0.873046] spi clk = 0x0
+[    0.873046] spi: SPI_CONFIG=88
+[    0.873077] spi: SPI_IO_CONTROL=401
+[    0.873107] spi: SPI_OPERATIONAL=85
+[    0.873107] spi: SPI_ERROR_FLAGS_EN=7f
+[    0.873138] spi: SPI_ERROR_FLAGS=0
+[    0.873168] -msm_spi_probe()
+[    0.873565] NET: Registered protocol family 2
+[    0.873718] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.874084] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.874298] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.874389] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.874420] TCP reno registered
+[    0.874603] NET: Registered protocol family 1
+[    0.874816] Trying to unpack rootfs image as initramfs...
+[    0.925781] Freeing initrd memory: 688K
+[    0.925994] smd_init()
+[    0.925994] smd_core_init()
+[    0.926086] smd_core_init() done
+[    0.926116] msm_init_last_radio_log: could not retrieve SMEM_CLKREGIM_BSP
+[    0.926239] smd_alloc_channel() cid=00 size=08192 'SMD_DS'
+[    0.926361] smd_alloc_channel() cid=01 size=32768 'SMD_DIAG'
+[    0.926452] smd_alloc_channel() cid=02 size=08192 'SMD_RPCCALL'
+[    0.926544] smd_alloc_channel() cid=05 size=08192 'SMD_CONTROL'
+[    0.926635] smd_alloc_channel() cid=07 size=32768 'SMD_DATA1'
+[    0.926727] smd_alloc_channel() cid=08 size=32768 'SMD_DATA2'
+[    0.926818] smd_alloc_channel() cid=09 size=32768 'SMD_DATA3'
+[    0.926910] smd_alloc_channel() cid=11 size=32768 'SMD_DATA5'
+[    0.927001] smd_alloc_channel() cid=12 size=32768 'SMD_DATA6'
+[    0.927062] smd_alloc_channel() cid=13 size=32768 'SMD_DATA7'
+[    0.927154] smd_alloc_channel() cid=15 size=08192 'SMD_DATA9'
+[    0.927276] smd_alloc_channel() cid=27 size=08192 'SMD_GPSNMEA'
+[    0.927368] smd_alloc_channel() cid=40 size=08192 'DSP_DIAG'
+[    0.927459] smd_alloc_v2: cid 41 does not exist
+[    0.927459] smd_alloc_v1: cid 41 does not exist
+[    0.927490] smd_alloc_channel() cid=42 size=08192 'DSP_DAL_AQ_VID'
+[    0.927581] smd_alloc_channel() cid=43 size=08192 'DSP_DAL_AQ_AUD'
+[    0.927673] smd_alloc_channel() cid=46 size=08192 'DSP_DAL00'
+[    0.927764] smd_alloc_v2: cid 47 does not exist
+[    0.927795] smd_alloc_v1: cid 47 does not exist
+[    0.927825] smd_alloc_channel() cid=48 size=08192 'SMD_DAL00'
+[    0.928405] _smem_log_init: no power log or log_idx allocated, smem_log disabled
+[    0.928863] RPC Probe
+[    0.929107] RPC Init done
+[    0.929138] SMD: ch 2 0 -> 1
+[    0.929290] Init amss parameters, found AMSS: 1550
+[    0.929321] SMD: ch 2 1 -> 2
+[    0.930145] Acquire 'boot-time' halt_lock
+[    0.930541] Registered led device: button-backlight
+[    1.572570] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+[    1.572631] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+[    1.572692] msm_i2c msm_i2c.0: error, status 43c8 (34)
+[    1.572723] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+[    1.573333] input: htcleo-touchscreen as /devices/virtual/input/input0
+[    1.573455] leo_touch_name 0-0000: Start touchscreen htcleo-touchscreen
+[    1.573913] htcleo_wifi_init: start
+[    1.575439] htcleo-microp 0-0066: microp version [05][14]
+[    1.578979] htcleo-microp 0-0066: Init Done
+[    1.579162] capella_cm3602_probe: probe
+[    1.579376] input: proximity as /devices/virtual/input/input1
+[    1.579895] htcleo_backlight_probe: HTCLeo Backlight connect with microP: Probe
+[    1.580017] Registered led device: lcd-backlight
+[    1.581329] BTN-BCKM: Registering btn manager...
+[    1.581604] Registered led device: flashlight
+[    1.581634] flashlight_probe: The Flashlight Driver is ready
+[    1.581756] HTC Battery Probe
+[    1.581787] batt: init over voltage interrupt detection. at 1069686314 (1970-01-01 00:00:01.069655797 UTC)
+[    1.581878] htc_battery_core_probe
+[    1.582244] [USB] msm_hsusb_set_vbus_state: 1
+[    1.582489] [HS_MGR] (htc_35mm_probe) ++++++++++++++++++++
+[    1.583129] input: h2w headset as /devices/virtual/input/input2
+[    1.583312] [HS_MGR] (htc_35mm_probe) --------------------
+[    1.583465] [HS_GPIO] (audiojack_probe) ++++++++++++++++++++
+[    1.583557] DET IRQ Registered!
+[    1.583587] MIC IRQ Registered!
+[    1.583618] [HS_MGR] (headset_notifier_register) Register MIC_STATUS notifier
+[    1.583648] [HS_MGR] (headset_notifier_register) Register KEY_INT_ENABLE notifier
+[    1.583679] [HS_GPIO] (audiojack_probe) --------------------
+[    1.584075] audit: initializing netlink socket (disabled)
+[    1.584136] type=2000 audit(1.070:1): initialized
+[    1.592926] highmem bounce pool size: 64 pages
+[    1.593261] ashmem: initialized
+[    1.595031] Btrfs loaded
+[    1.595062] yaffs: yaffs built Oct 17 2026 04:03:51 Installing.
+[    1.595123] msgmni has been set to 342
+[    1.598388] alg: No test for stdrng (krng)
+[    1.598480] io scheduler noop registered
+[    1.598510] io scheduler anticipatory registered
+[    1.598541] io scheduler deadline registered
+[    1.598663] io scheduler cfq registered (default)
+[    1.599304] clock-wince: pc_clk_set_rate: id=42 rate=24576000
+[    1.599334] clock-wince: set mdns: 42, 24576000; bitidx=0, offset=0, ns=0
+[    1.599365] set_mdns_host_clock: FIXME! Don't know how to set clock 42 - no known Md/Ns reg
+[    1.599426] clock-wince: pc_clk_set_rate: id=43 rate=24576000
+[    1.599456] clock-wince: set mdns: 43, 24576000; bitidx=0, offset=0, ns=0
+[    1.599487] set_mdns_host_clock: FIXME! Don't know how to set clock 43 - no known Md/Ns reg
+[    1.600006] msmfb_probe() installing 480 x 800 panel
+[    1.600341] load_565rle_image: Can not open /logo.rle
+[    1.600372] mdp_lcdc_probe: initialized
+[    1.608367] kgsl kgsl-3d0: |kgsl_gpummu_init| MMU type set for device is GPUMMU
+[    1.608825] msm_serial_hs.0: ttyHS0 at MMIO 0xa0200000 (irq = 44) is a MSM HS UART
+[    1.609252] msm_serial_hs module loaded
+[    1.613983] brd: module loaded
+[    1.616302] loop: module loaded
+[    1.616424] pmem: Initializing pmem (user-space) as cached
+[    1.617309] pmem: Initializing pmem_adsp (user-space) as non-cached
+[    1.618316] pmem: Initializing pmem_venc (user-space) as non-cached
+[    1.618835] Android kernel panic handler initialized (bind=kpanic)
+[    1.618957] spi_bma150_probe: G-sensor connect with microP: start initial, kvalue = 0x0
+[    1.652526] __spi_bma150_set_mode: BMA get into SLEEP mode!
+[    1.654510] msm_nand: allocated dma buffer at ffa4d000, dma_addr 21300000
+[    1.654632] status: c03120
+[    1.654663] nandid: 5501b3ec maker ec device b3
+[    1.654693] Found a supported NAND device
+[    1.654724] NAND Id  : 0xB3EC
+[    1.654724] Buswidth : 16 Bits 
+[    1.654754] Density  : 1024 MByte
+[    1.654785] Pagesize : 2048 Bytes
+[    1.654785] Erasesize: 131072 Bytes
+[    1.654815] Oobsize  : 64 Bytes
+[    1.654907] msm_nand: read CFG0 = aa5400c0, CFG1 = 6744e
+[    1.654937] CFG0 Old: 0xaa5400c0 
+[    1.654968] CFG1 Old: 0x0006744e 
+[    1.654968] CFG0 Init  : 0xea5400c0 
+[    1.654998] CFG1 Init  : 0x0006744e 
+[    1.655029] CFG0: cw/page=3 ud_sz=512 ecc_sz=10 spare_sz=4 num_addr_cycles=5
+[    1.655120] DEV_CMD1: f00f3000
+[    1.655212] <6>NAND_EBI2_ECC_BUF_CFG: 1ff
+[    1.655487] Device WiFi MAC Address: macaddr=<MAC-REDACTED>
+
+[    1.655792] Device Bluetooth MAC Address: <MAC-REDACTED>
+[    1.655822] #MTD# parts in atag = 8
+[    1.655853] Creating 8 MTD partitions on "msm_nand":
+[    1.655883] 0x000004320000-0x000005520000 : "namss"
+[    1.676055] 0x000005520000-0x000006320000 : "nqdsp"
+[    1.691497] 0x000006320000-0x000006b20000 : "nefs2"
+[    1.700592] 0x000006b20000-0x000006ca0000 : "nspl"
+[    1.702789] 0x000006ca0000-0x00003f800000 : ""
+[    1.735168] ###BAD BLOCK 1109 08AA0000###
+[    1.743438] ###BAD BLOCK 1171 09260000###
+[    1.793457] ###BAD BLOCK 1542 0C0C0000###
+[    1.864318] ###BAD BLOCK 2073 10320000###
+[    1.881072] ###BAD BLOCK 2199 112E0000###
+[    2.134460] ###BAD BLOCK 4096 20000000###
+[    2.238861] ###BAD BLOCK 4879 261E0000###
+[    2.545196] ###BAD BLOCK 7161 37F20000###
+[    2.675781] 0x00003f800000-0x00003f900000 : "htceblogs"
+[    2.677490] 0x00003f900000-0x00003f980000 : "apps"
+[    2.678619] 0x00003f980000-0x000040000000 : "htcmisc"
+[    2.686309] PPP generic driver version 2.4.2
+[    2.686584] PPP Deflate Compression module registered
+[    2.686614] PPP BSD Compression module registered
+[    2.687469] PPP MPPE Compression module registered
+[    2.687500] NET: Registered protocol family 24
+[    2.687561] PPPoL2TP kernel driver, V1.0
+[    2.687591] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+[    2.688385] [USB] msm72k_probe
+[    2.688415] [USB] accessory detect 0
+[    2.688446] [USB] id_pin_gpio 0
+[    2.688476] [USB] dock detect 0
+[    2.688476] [USB] dock pin gpio 0
+[    2.688537] [USB] msm72k_probe() io=d0860000, irq=58, dma=ffb4d000(212e5000)
+[    2.689178] android init
+[    2.689270] android_probe pdata: c062c300
+[    2.689361] android_bind
+[    2.689392] android_bind_config
+[    2.689422] android_usb gadget: android_usb ready
+[    2.689453] [USB] msm72k_udc: registered gadget driver 'android_usb'
+[    2.689544] f_adb init
+[    2.689575] android_register_function adb
+[    2.689575] f_mass_storage init
+[    2.689605] android_register_function usb_mass_storage
+[    2.689636] f_rndis init
+[    2.689758] android_register_function rndis
+[    2.689788] rndis_function_bind_config MAC: <MAC-REDACTED>
+[    2.689819] android_usb gadget: using random self ethernet address
+[    2.689849] android_usb gadget: using random host ethernet address
+[    2.690246] usb0: MAC <MAC-REDACTED>
+[    2.690277] usb0: HOST MAC <MAC-REDACTED>
+[    2.690399] mass_storage_bind_config
+[    2.690521] fsg_probe pdata: c062d678
+[    2.690826] [USB] hsusb: IDLE -> ONLINE
+[    2.690856] [USB] lpm exit
+[    2.690887] [USB] hsusb: reset controller
+[    2.690948] android_usb gadget: Number of LUNs=1
+[    2.690979] adb_bind_config
+[    2.691436] usb: product_id=0xc02
+[    2.692077] GPIO Matrix Keypad Driver: Start keypad matrix for htcleo-keypad in interrupt mode
+[    2.692260] GPIO Input Driver: Start gpio inputs for htcleo-keypad in interrupt mode
+[    2.692535] input: htcleo-keypad as /devices/virtual/input/input3
+[    2.693267] using input dev h2w headset for key reset
+[    2.693328] using input dev htcleo-keypad for key reset
+[    2.693725] RTC: Init MSM RTC Clock
+[    2.694152] using rtc device, msm_rtc, for alarms
+[    2.694183] rs30000048:00010000 rs30000048:00010000: rtc core: registered msm_rtc as rtc0
+[    2.694274] AKM8973 compass driver: init
+[    2.694885] input: compass as /devices/virtual/input/input4
+[    2.695434] [FLT]adp1650 Led Flash driver: init
+[    2.695495] Linux video capture interface: v2.00
+[    2.696105] sctrl.node 0
+[    2.696136] s5k3e2fx_sensor_probe
+[    2.722167] msm_hsusb_phy_reset
+[    2.932525] [USB] ulpi: write 0x0c to 0x31
+[    2.932556] [USB] ulpi: write 0x30 to 0x32
+[    2.932586] [USB] ulpi: write 0x1d to 0x0d
+[    2.932617] [USB] ulpi: write 0x1d to 0x10
+[    2.932647] [USB] handle_notify_offline: notify offline
+[    2.932678] [USB] msm_hsusb: enable pullup
+[    2.935729] [USB] suspend
+[    2.952514] [USB] not AC charger
+[    3.039886] [USB] reset
+[    3.039916] [USB] send connect type 1
+[    3.039947] fsg_set_ums_state: 1
+[    3.039947] ums: set state 1
+[    3.040039] batt:online=1
+[    3.042144] [USB] portchange USB_SPEED_HIGH
+[    3.133850] s5k3e2fx:kobject creat and add
+[    3.133911] s5k3e2fx:sysfs_create_file
+[    3.133941] s5k3e2fx:sysfs_create_file
+[    3.134918] [ds2746_batt]ds2746_battery_init
+[    3.135009] /proc/fast_charge created
+[    3.135070] [ds2746_batt] ds2746_battery_prob
+[    3.135131] batt: ds2784_notify: 0 1 at 2623000545 (1970-01-01 00:00:02.622970028 UTC)
+[    3.135162] batt: charger ON (SLOW) at 2623061580 (1970-01-01 00:00:02.623031063 UTC)
+[    3.135528] [D:BATT]Use 600 Kohm thermal resistance
+[    3.136291] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+[    3.136383] Bluetooth: HCI UART driver ver 2.2
+[    3.136413] Bluetooth: HCI H4 protocol initialized
+[    3.136444] Bluetooth: HCILL protocol initialized
+[    3.136962] [imoseyon] interactiveX enter
+[    3.138031] mmc0: Qualcomm MSM SDCC at 0x00000000a0300000 irq 24,0 dma 8
+[    3.138061] mmc0: Platform slot type: N/A
+[    3.138092] mmc0: 4 bit data mode enabled
+[    3.138122] mmc0: 8 bit data mode disabled
+[    3.138153] mmc0: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+[    3.138183] mmc0: Slot eject status = 1
+[    3.138214] mmc0: Power save feature enable = 1
+[    3.138244] mmc0: DM non-cached buffer at ffb4f000, dma_addr 0x2141c000
+[    3.138275] mmc0: DM cmd busaddr 0x2141c000, cmdptr busaddr 0x2141cc00
+[    3.138824] msmsdcc_platform_status_irq: 240
+[    3.138885] mmc1: Slot status change detected (0 -> 1)
+[    3.139038] @@@ SD power 0 @@@
+[    3.139343] mmc1: Qualcomm MSM SDCC at 0x00000000a0400000 irq 26,240 dma 8
+[    3.139373] mmc1: Platform slot type: SD
+[    3.139404] mmc1: 4 bit data mode enabled
+[    3.139434] mmc1: 8 bit data mode disabled
+[    3.139465] mmc1: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+[    3.139495] mmc1: Slot eject status = 0
+[    3.139526] mmc1: Power save feature enable = 1
+[    3.139556] mmc1: DM non-cached buffer at ffb50000, dma_addr 0x2141d000
+[    3.139587] mmc1: DM cmd busaddr 0x2141d000, cmdptr busaddr 0x2141dc00
+[    3.140014] Registered led device: amber
+[    3.140106] Registered led device: green
+[    3.140167] microp_led_probe: succeeded
+[    3.140960] logger: created 64K log 'log_main'
+[    3.141113] logger: created 256K log 'log_events'
+[    3.141296] logger: created 64K log 'log_radio'
+[    3.141448] logger: created 64K log 'log_system'
+[    3.141754] zram: num_devices not specified. Using default: 1
+[    3.141784] zram: Creating 1 devices ...
+[    3.142425] GACT probability NOT on
+[    3.142456] Mirror/redirect action on
+[    3.142486] u32 classifier
+[    3.142486]     Actions configured 
+[    3.142517] Netfilter messages via NETLINK v0.30.
+[    3.142608] nf_conntrack version 0.5.0 (6444 buckets, 25776 max)
+[    3.142883] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+[    3.142913] nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+[    3.142974] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+[    3.143127] ctnetlink v0.93: registering with nfnetlink.
+[    3.143188] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+[    3.143249] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+[    3.143707] xt_time: kernel timezone is -0000
+[    3.143768] GRE over IPv4 tunneling driver
+[    3.144348] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    3.144531] arp_tables: (C) 2002 David S. Miller
+[    3.144653] TCP cubic registered
+[    3.144653] Initializing XFRM netlink socket
+[    3.144989] NET: Registered protocol family 10
+[    3.146118] Mobile IPv6
+[    3.146179] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    3.146392] IPv6 over IPv4 tunneling driver
+[    3.147338] NET: Registered protocol family 17
+[    3.147399] NET: Registered protocol family 15
+[    3.147521] Bridge firewalling registered
+[    3.147583] Bluetooth: L2CAP ver 2.14
+[    3.147613] Bluetooth: L2CAP socket layer initialized
+[    3.147644] Bluetooth: SCO (Voice Link) ver 0.6
+[    3.147674] Bluetooth: SCO socket layer initialized
+[    3.147949] Bluetooth: RFCOMM TTY layer initialized
+[    3.148010] Bluetooth: RFCOMM socket layer initialized
+[    3.148040] Bluetooth: RFCOMM ver 1.11
+[    3.148071] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    3.148101] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    3.148254] NET: Registered protocol family 35
+[    3.148406] ThumbEE CPU extension supported.
+[    3.148437] wifi_nvs_init
+[    3.148498] [Port list] init()
+[    3.148529] [Port list] Virtual Address for port_list: [f814e538]
+[    3.148559] [Port list] Physical Address for port_list: [14E538]
+[    3.149353] input: lightsensor-level as /devices/virtual/input/input5
+[    3.150787] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1216.0/1230(10f3) id=4(b0) T=340(dc) KADC=1000
+[    3.150848] [D:BATT] acr update: P=989, C=4338.
+[    3.151092] [D:BATT]new RARC=989 C=1216mAh adc=4338.
+[    3.151123] [D:BATT] state change(0->3), full count=0, over load count=0 [2638]
+[    3.151184] [D:BATT] state change(3->5), full count=0, over load count=1 [2639]
+[    3.151214] batt: ds2784_notify: 1 99 at 2639113826 (1970-01-01 00:00:02.639083309 UTC)
+[    3.151275] batt: batt:power_supply_changed: battery at 2639174861 (1970-01-01 00:00:02.639144344 UTC)
+[    3.151336] batt: ds2784_notify: 0 2 at 2639235897 (1970-01-01 00:00:02.639205379 UTC)
+[    3.151397] batt: charger ON (FAST) at 2639266414 (1970-01-01 00:00:02.639266414 UTC)
+[    3.151977] clock_late_init() disabled 17 unused clocks
+[    3.152008] VFP support v0.3: implementor 51 architecture 0 part 0f variant 0 rev 1
+[    3.153076] regulator_init_complete: incomplete constraints, leaving ldo2 on
+[    3.153320] regulator_init_complete: incomplete constraints, leaving ldo1 on
+[    3.153533] regulator_init_complete: incomplete constraints, leaving dcdc3 on
+[    3.153747] regulator_init_complete: incomplete constraints, leaving dcdc2 on
+[    3.153991] regulator_init_complete: incomplete constraints, leaving dcdc1 on
+[    3.154693] [USB] reset
+[    3.155059] rs30000048:00010000 rs30000048:00010000: setting system clock to 2014-05-20 00:48:37 UTC (1400546917)
+[    3.155395] Freeing init memory: 408K
+[    3.156982] [USB] portchange USB_SPEED_HIGH
+[    3.180541] HD2-SF: initramfs started; proc and device filesystem ready
+[    3.185852] [USB] hsusb: ONLINE -> RESET
+[    3.185913] [USB] msm_hsusb: disable pullup
+[    3.185943] [USB] hsusb: reset controller
+[    3.191314] HD2-SF: USB setup attempted; starting early ADB
+[    3.194854] ADDRCONF(NETDEV_UP): usb0: link is not ready
+[    3.198028] enabling adb
+[    3.199066] adb_open(adbd)
+[    3.222503] msm_hsusb_phy_reset
+[    3.232208] @@@ SD power 17 @@@
+[    3.301818] @@@ SD power 15 @@@
+[    3.400939] mmc1: host does not support reading read-only switch. assuming write-enable.
+[    3.401000] mmc1: new high speed SDHC card at address 59b4
+[    3.401336] mmcblk0: mmc1:59b4 SD32G 29.1 GiB 
+[    3.401611]  mmcblk0: p1 p2 p3
+[    3.432525] [USB] ulpi: write 0x0c to 0x31
+[    3.432556] [USB] ulpi: write 0x30 to 0x32
+[    3.432586] [USB] ulpi: write 0x1d to 0x0d
+[    3.432617] [USB] ulpi: write 0x1d to 0x10
+[    3.432647] [USB] handle_notify_offline: notify offline
+[    3.432708] [USB] msm_hsusb: enable pullup
+[    3.432739] [USB] hsusb: RESET -> ONLINE
+[    3.432739] [USB] hsusb: ONLINE -> RESET
+[    3.432769] [USB] msm_hsusb: disable pullup
+[    3.432800] [USB] hsusb: reset controller
+[    3.472503] msm_hsusb_phy_reset
+[    3.682525] [USB] ulpi: write 0x0c to 0x31
+[    3.682556] [USB] ulpi: write 0x30 to 0x32
+[    3.682586] [USB] ulpi: write 0x1d to 0x0d
+[    3.682586] [USB] ulpi: write 0x1d to 0x10
+[    3.682647] [USB] handle_notify_offline: notify offline
+[    3.682678] [USB] msm_hsusb: enable pullup
+[    3.682708] [USB] hsusb: RESET -> ONLINE
+[    3.685699] [USB] suspend
+[    3.736633] [USB] reset
+[    3.738922] [USB] portchange USB_SPEED_HIGH
+[    3.992614] [USB] reset
+[    3.994873] [USB] portchange USB_SPEED_HIGH
+[    4.127563] android_usb gadget: high speed config #1: android
+[    4.127899] ADDRCONF(NETDEV_CHANGE): usb0: link becomes ready
+[    4.128112] ums: set state 1
+[    4.356689] EXT4-fs (loop0): mounted filesystem with ordered data mode
+[   14.592498] usb0: no IPv6 routers present
+[   53.522857] [D:BATT] V=4204(6bb) I=13(21) C=1215.0/1230(10f2) id=4(b1) T=340(dc) KADC=1000
+[   60.922515] Release 'boot-time' halt_lock
+[   60.942413] acpuclk_set_vdd_level got regulator setting vdd_level 1000 
+[   66.576690] disabling adb
+[   66.576782] adb_release
+[   66.576873] [USB] hsusb: ONLINE -> RESET
+[   66.576904] [USB] msm_hsusb: disable pullup
+[   66.576934] [USB] hsusb: reset controller
+[   66.585479] [USB] usb_ept_queue_xfer() called while offline
+[   66.612426] msm_hsusb_phy_reset
+[   66.792480] [USB] usb_ept_queue_xfer() called while offline
+[   66.807830] <31>systemd[1]: Mounting cgroup to /sys/fs/cgroup/debug of type cgroup with options debug.
+[   66.808288] <31>systemd[1]: Mounting cgroup to /sys/fs/cgroup/cpu,cpuacct of type cgroup with options cpu,cpuacct.
+[   66.808685] <31>systemd[1]: Mounting cgroup to /sys/fs/cgroup/devices of type cgroup with options devices.
+[   66.808990] <31>systemd[1]: Mounting cgroup to /sys/fs/cgroup/freezer of type cgroup with options freezer.
+[   66.809326] <30>systemd[1]: systemd 208 running in system mode. (+PAM -LIBWRAP -AUDIT -SELINUX +IMA +SYSVINIT -LIBCRYPTSETUP +GCRYPT +ACL +XZ)
+[   66.814514] <30>systemd[1]: Set hostname to <Jolla>.
+[   66.817626] <31>systemd[1]: Using cgroup controller name=systemd. File system hierarchy is at /sys/fs/cgroup/systemd.
+[   66.818115] <31>systemd[1]: Installed release agent.
+[   66.818878] <31>systemd[1]: Using notification socket @/org/freedesktop/systemd1/notify
+[   66.819030] <31>systemd[1]: Failed to set up TFD_TIMER_CANCEL_ON_SET, ignoring: Invalid argument
+[   66.819885] <31>systemd[1]: Successfully created private D-Bus server.
+[   66.822021] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-efi-boot-generator as 219
+[   66.822296] [USB] ulpi: write 0x0c to 0x31
+[   66.822357] [USB] ulpi: write 0x30 to 0x32
+[   66.822387] [USB] ulpi: write 0x1d to 0x0d
+[   66.822448] [USB] ulpi: write 0x1d to 0x10
+[   66.822509] [USB] handle_notify_offline: notify offline
+[   66.822906] ums: set state 0
+[   66.823028] [USB] msm_hsusb: enable pullup
+[   66.823059] [USB] hsusb: RESET -> ONLINE
+[   66.823760] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-fstab-generator as 220
+[   66.824371] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-system-update-generator as 221
+[   66.824981] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-rc-local-generator as 222
+[   66.825592] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-getty-generator as 223
+[   66.826049] [USB] suspend
+[   66.826263] <31>systemd[1]: Spawned /lib/systemd/system-generators/systemd-gpt-auto-generator as 224
+[   66.837615] <31>systemd[1]: /lib/systemd/system-generators/systemd-efi-boot-generator exited successfully.
+[   66.855926] <31>systemd[1]: /lib/systemd/system-generators/systemd-fstab-generator exited successfully.
+[   66.856048] <31>systemd[1]: /lib/systemd/system-generators/systemd-system-update-generator exited successfully.
+[   66.856140] <31>systemd[1]: /lib/systemd/system-generators/systemd-rc-local-generator exited successfully.
+[   66.856231] <31>systemd[1]: /lib/systemd/system-generators/systemd-getty-generator exited successfully.
+[   66.928192] [USB] reset
+[   66.930511] [USB] portchange USB_SPEED_HIGH
+[   67.045318] [USB] reset
+[   67.047485] [USB] portchange USB_SPEED_HIGH
+[   67.127746] <31>systemd[1]: /lib/systemd/system-generators/systemd-gpt-auto-generator exited successfully.
+[   67.132232] <31>systemd[1]: Looking for unit files in (higher priority first):
+[   67.132324] <31>systemd[1]: 	/etc/systemd/system
+[   67.132385] <31>systemd[1]: 	/run/systemd/system
+[   67.132415] <31>systemd[1]: 	/usr/local/lib/systemd/system
+[   67.132476] <31>systemd[1]: 	/lib/systemd/system
+[   67.132507] <31>systemd[1]: 	/usr/lib/systemd/system
+[   67.132690] <31>systemd[1]: Looking for SysV init scripts in:
+[   67.132751] <31>systemd[1]: 	/etc/init.d
+[   67.132781] <31>systemd[1]: Looking for SysV rcN.d links in:
+[   67.132843] <31>systemd[1]: 	/etc/rc.d
+[   67.179656] android_usb gadget: high speed config #1: android
+[   67.180053] ums: set state 1
+[   67.237579] <31>systemd[1]: Failed to load configuration for sensord.service: No such file or directory
+[   67.240295] <31>systemd[1]: Failed to load configuration for network-pre.target: No such file or directory
+[   67.244720] <28>systemd[1]: sensorfwd.service has a D-Bus service name specified, but is not of type dbus. Ignoring.
+[   67.246734] <31>systemd[1]: Failed to load configuration for factory-test.target: No such file or directory
+[   67.256622] <31>systemd[1]: Failed to load configuration for start-user-session@USER.service: No such file or directory
+[   67.261016] <31>systemd[1]: Failed to load configuration for plymouth-start.service: No such file or directory
+[   67.268127] <31>systemd[1]: Failed to load configuration for auditd.service: No such file or directory
+[   67.274688] <31>systemd[1]: Failed to load configuration for syslog.service: No such file or directory
+[   67.282928] <27>systemd[1]: Cannot create mount unit for API file system /sys/fs/cgroup/bfqio. Refusing.
+[   67.283020] <31>systemd[1]: Failed to load configuration for sys-fs-cgroup-bfqio.mount: Invalid argument
+[   67.283752] <27>systemd[1]: Cannot create mount unit for API file system /sys/fs/pstore. Refusing.
+[   67.283843] <31>systemd[1]: Failed to load configuration for sys-fs-pstore.mount: Invalid argument
+[   67.288574] <31>systemd[1]: run-hd2\x2dsd.mount changed dead -> mounted
+[   67.288970] <31>systemd[1]: -.mount changed dead -> mounted
+[   67.289123] <31>systemd[1]: Activating default unit: default.target
+[   67.289215] <31>systemd[1]: Trying to enqueue job graphical.target/start/isolate
+[   67.289428] <28>systemd[1]: Cannot add dependency job for unit sys-fs-pstore.mount, ignoring: Unit sys-fs-pstore.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-pstore.mount' for details.
+[   67.289581] <28>systemd[1]: Cannot add dependency job for unit sys-fs-cgroup-bfqio.mount, ignoring: Unit sys-fs-cgroup-bfqio.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-cgroup-bfqio.mount' for details.
+[   67.289672] <31>systemd[1]: Cannot add dependency job for unit system.mount, ignoring: Unit system.mount is masked.
+[   67.289794] <31>systemd[1]: Cannot add dependency job for unit sdcard.mount, ignoring: Unit sdcard.mount is masked.
+[   67.290191] <31>systemd[1]: Cannot add dependency job for unit usb-moded.service, ignoring: Unit usb-moded.service is masked.
+[   67.290313] <31>systemd[1]: Cannot add dependency job for unit droid-battery-monitor.service, ignoring: Unit droid-battery-monitor.service is masked.
+[   67.290466] <31>systemd[1]: Cannot add dependency job for unit android-links.service, ignoring: Unit android-links.service is masked.
+[   67.290771] <31>systemd[1]: Cannot add dependency job for unit usb-rescue-mode-off.service, ignoring: Unit usb-rescue-mode-off.service is masked.
+[   67.291503] <31>systemd[1]: Looking at job sshd-keys.service/stop conflicted_by=no
+[   67.291564] <31>systemd[1]: Looking at job sshd-keys.service/start conflicted_by=no
+[   67.291595] <31>systemd[1]: Fixing conflicting jobs by deleting job sshd-keys.service/stop
+[   67.291931] <31>systemd[1]: Installed new job graphical.target/start as 1
+[   67.291992] <31>systemd[1]: Installed new job multi-user.target/start as 2
+[   67.292053] <31>systemd[1]: Installed new job basic.target/start as 3
+[   67.292114] <31>systemd[1]: Installed new job sysinit.target/start as 4
+[   67.292266] <31>systemd[1]: Installed new job local-fs.target/start as 5
+[   67.292297] <31>systemd[1]: Installed new job mnt-fuse.mount/start as 6
+[   67.292358] <31>systemd[1]: Installed new job system.slice/start as 7
+[   67.292419] <31>systemd[1]: Installed new job -.slice/start as 8
+[   67.292449] <31>systemd[1]: Installed new job mnt-asec.mount/start as 10
+[   67.292510] <31>systemd[1]: Installed new job mnt-obb.mount/start as 11
+[   67.292572] <31>systemd[1]: Installed new job systemd-fsck-root.service/start as 12
+[   67.292602] <31>systemd[1]: Installed new job systemd-remount-fs.service/start as 13
+[   67.292663] <31>systemd[1]: Installed new job local-fs-pre.target/start as 14
+[   67.292724] <31>systemd[1]: Installed new job dev-mtp.mount/start as 16
+[   67.292755] <31>systemd[1]: Installed new job tmp.mount/start as 17
+[   67.292816] <31>systemd[1]: Installed new job swap.target/start as 18
+[   67.292846] <31>systemd[1]: Installed new job sys-kernel-debug.mount/start as 19
+[   67.292907] <31>systemd[1]: Installed new job sys-brtfs-setup.service/start as 20
+[   67.292938] <31>systemd[1]: Installed new job proc-sys-fs-binfmt_misc.automount/start as 21
+[   67.292999] <31>systemd[1]: Installed new job kmod-static-nodes.service/start as 22
+[   67.293060] <31>systemd[1]: Installed new job systemd-readahead-replay.service/start as 23
+[   67.293121] <31>systemd[1]: Installed new job dev-hugepages.mount/start as 24
+[   67.293151] <31>systemd[1]: Installed new job systemd-update-utmp.service/start as 25
+[   67.293212] <31>systemd[1]: Installed new job systemd-journald.service/start as 26
+[   67.293273] <31>systemd[1]: Installed new job systemd-journald.socket/start as 27
+[   67.293334] <31>systemd[1]: Installed new job systemd-ask-password-console.path/start as 28
+[   67.293365] <31>systemd[1]: Installed new job systemd-vconsole-setup.service/start as 29
+[   67.293426] <31>systemd[1]: Installed new job systemd-udevd.service/start as 30
+[   67.293487] <31>systemd[1]: Installed new job systemd-udevd-control.socket/start as 31
+[   67.293548] <31>systemd[1]: Installed new job systemd-udevd-kernel.socket/start as 32
+[   67.293579] <31>systemd[1]: Installed new job dev-mqueue.mount/start as 33
+[   67.293640] <31>systemd[1]: Installed new job systemd-readahead-collect.service/start as 34
+[   67.293701] <31>systemd[1]: Installed new job systemd-readahead-done.timer/start as 35
+[   67.293731] <31>systemd[1]: Installed new job sys-kernel-config.mount/start as 36
+[   67.293792] <31>systemd[1]: Installed new job systemd-tmpfiles-setup.service/start as 37
+[   67.293853] <31>systemd[1]: Installed new job systemd-udev-trigger.service/start as 38
+[   67.293914] <31>systemd[1]: Installed new job systemd-journal-flush.service/start as 39
+[   67.293945] <31>systemd[1]: Installed new job systemd-random-seed.service/start as 40
+[   67.294006] <31>systemd[1]: Installed new job systemd-tmpfiles-setup-dev.service/start as 41
+[   67.294067] <31>systemd[1]: Installed new job systemd-sysctl.service/start as 42
+[   67.294097] <31>systemd[1]: Installed new job sys-fs-fuse-connections.mount/start as 43
+[   67.294158] <31>systemd[1]: Installed new job systemd-binfmt.service/start as 44
+[   67.294219] <31>systemd[1]: Installed new job systemd-modules-load.service/start as 45
+[   67.294281] <31>systemd[1]: Installed new job sockets.target/start as 48
+[   67.294311] <31>systemd[1]: Installed new job systemd-shutdownd.socket/start as 49
+[   67.294372] <31>systemd[1]: Installed new job dbus.socket/start as 50
+[   67.294433] <31>systemd[1]: Installed new job systemd-initctl.socket/start as 51
+[   67.294464] <31>systemd[1]: Installed new job timers.target/start as 52
+[   67.294525] <31>systemd[1]: Installed new job systemd-tmpfiles-clean.timer/start as 53
+[   67.294586] <31>systemd[1]: Installed new job paths.target/start as 54
+[   67.294616] <31>systemd[1]: Installed new job slices.target/start as 55
+[   67.294677] <31>systemd[1]: Installed new job rpm-db-clean.service/start as 56
+[   67.294708] <31>systemd[1]: Installed new job hd2-logs.service/start as 57
+[   67.294769] <31>systemd[1]: Installed new job hd2-usb-debug.service/start as 58
+[   67.294799] <31>systemd[1]: Installed new job hd2-adbd.service/start as 59
+[   67.294860] <31>systemd[1]: Installed new job ohmd.service/start as 60
+[   67.294921] <31>systemd[1]: Installed new job dbus.service/start as 61
+[   67.294952] <31>systemd[1]: Installed new job systemd-logind.service/start as 62
+[   67.295013] <31>systemd[1]: Installed new job user.slice/start as 63
+[   67.295043] <31>systemd[1]: Installed new job initial-bootstate.service/start as 64
+[   67.295104] <31>systemd[1]: Installed new job systemd-user-sessions.service/start as 65
+[   67.295166] <31>systemd[1]: Installed new job sshd-keys.service/start as 66
+[   67.295196] <31>systemd[1]: Installed new job statefs.service/start as 67
+[   67.295257] <31>systemd[1]: Installed new job sshd.socket/start as 68
+[   67.295288] <31>systemd[1]: Installed new job systemd-ask-password-wall.path/start as 71
+[   67.295349] <31>systemd[1]: Installed new job zramswap.service/start as 72
+[   67.295410] <31>systemd[1]: Installed new job mce.service/start as 73
+[   67.295440] <31>systemd[1]: Installed new job getty.target/start as 74
+[   67.295501] <31>systemd[1]: Installed new job dsme.service/start as 75
+[   67.295532] <31>systemd[1]: Installed new job network.target/start as 76
+[   67.295593] <31>systemd[1]: Installed new job jolla-rfkill-hciwait.service/start as 77
+[   67.295654] <31>systemd[1]: Installed new job bluetooth.service/start as 78
+[   67.295684] <31>systemd[1]: Installed new job connman.service/start as 79
+[   67.295745] <31>systemd[1]: Installed new job remote-fs-pre.target/start as 80
+[   67.295776] <31>systemd[1]: Installed new job ofono.service/start as 81
+[   67.295837] <31>systemd[1]: Installed new job oneshot-root.service/start as 82
+[   67.295898] <31>systemd[1]: Installed new job oneshot-root-late.service/start as 85
+[   67.295928] <31>systemd[1]: Installed new job wayland.path/start as 86
+[   67.295989] <31>systemd[1]: Installed new job init-done.service/start as 87
+[   67.296020] <31>systemd[1]: Installed new job runlevel-user-done.service/start as 88
+[   67.296081] <31>systemd[1]: Installed new job droid-late-start.service/start as 89
+[   67.296142] <31>systemd[1]: Installed new job sensorfwd.service/start as 90
+[   67.296173] <31>systemd[1]: Installed new job rescue-password-off.service/start as 92
+[   67.296234] <31>systemd[1]: Installed new job start-user-session.service/start as 93
+[   67.296295] <31>systemd[1]: Installed new job droid-hal-init.service/start as 94
+[   67.296356] <31>systemd[1]: Installed new job systemd-udev-settle.service/start as 95
+[   67.296417] <31>systemd[1]: Enqueued job graphical.target/start as 1
+[   67.296508] <31>systemd[1]: Loaded units and determined initial transaction in 476.348ms.
+[   67.297088] <30>systemd[1]: Starting Login Prompts.
+[   67.297149] <31>systemd[1]: getty.target changed dead -> active
+[   67.297210] <31>systemd[1]: Job getty.target/start finished, result=done
+[   67.297546] <30>systemd[1]: Reached target Login Prompts.
+[   67.297668] <30>systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[   67.298065] <31>systemd[1]: systemd-ask-password-wall.path changed dead -> waiting
+[   67.298126] <31>systemd[1]: Job systemd-ask-password-wall.path/start finished, result=done
+[   67.298217] <30>systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   67.298339] <30>systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[   67.298492] <31>systemd[1]: systemd-initctl.socket changed dead -> listening
+[   67.298553] <31>systemd[1]: Job systemd-initctl.socket/start finished, result=done
+[   67.298858] <30>systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[   67.298980] <30>systemd[1]: Starting Delayed Shutdown Socket.
+[   67.299102] <31>systemd[1]: systemd-shutdownd.socket changed dead -> listening
+[   67.299163] <31>systemd[1]: Job systemd-shutdownd.socket/start finished, result=done
+[   67.299438] <30>systemd[1]: Listening on Delayed Shutdown Socket.
+[   67.299560] <31>systemd[1]: ConditionVirtualization=no succeeded for systemd-readahead-collect.service.
+[   67.299652] <31>systemd[1]: ConditionPathExists=!/run/systemd/readahead/done succeeded for systemd-readahead-collect.service.
+[   67.299713] <31>systemd[1]: ConditionPathExists=!/run/systemd/readahead/cancel succeeded for systemd-readahead-collect.service.
+[   67.299804] <30>systemd[1]: Starting Collect Read-Ahead Data...
+[   67.300903] <31>systemd[1]: About to execute: /lib/systemd/systemd-readahead collect
+[   67.301452] <31>systemd[1]: Forked /lib/systemd/systemd-readahead as 225
+[   67.302276] <31>systemd[1]: systemd-readahead-collect.service changed dead -> start
+[   67.302886] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd-kernel.socket.
+[   67.302978] <30>systemd[1]: Starting udev Kernel Socket.
+[   67.303131] <31>systemd[1]: systemd-udevd-kernel.socket changed dead -> listening
+[   67.303192] <31>systemd[1]: Job systemd-udevd-kernel.socket/start finished, result=done
+[   67.303558] <30>systemd[1]: Listening on udev Kernel Socket.
+[   67.304107] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd-control.socket.
+[   67.304199] <30>systemd[1]: Starting udev Control Socket.
+[   67.304382] <31>systemd[1]: systemd-udevd-control.socket changed dead -> listening
+[   67.304443] <31>systemd[1]: Job systemd-udevd-control.socket/start finished, result=done
+[   67.306427] <27>systemd[225]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-readahead: No such file or directory
+[   67.306976] <30>systemd[1]: Listening on udev Control Socket.
+[   67.307128] <31>systemd[1]: ConditionPathExists=!/run/plymouth/pid succeeded for systemd-ask-password-console.path.
+[   67.307220] <30>systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[   67.307495] <31>systemd[1]: systemd-ask-password-console.path changed dead -> waiting
+[   67.307586] <31>systemd[1]: Job systemd-ask-password-console.path/start finished, result=done
+[   67.307647] <30>systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   67.307800] <30>systemd[1]: Starting Journal Socket.
+[   67.308074] <31>systemd[1]: systemd-journald.socket changed dead -> listening
+[   67.308166] <31>systemd[1]: Job systemd-journald.socket/start finished, result=done
+[   67.308990] <30>systemd[1]: Listening on Journal Socket.
+[   67.309295] <31>systemd[1]: ConditionPathExists=/proc/sys/fs/mqueue failed for dev-mqueue.mount.
+[   67.309356] <31>systemd[1]: Starting of dev-mqueue.mount requested but condition failed. Ignoring.
+[   67.309417] <31>systemd[1]: Job dev-mqueue.mount/start finished, result=done
+[   67.309509] <30>systemd[1]: Mounted POSIX Message Queue File System.
+[   67.310028] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udev-trigger.service.
+[   67.310119] <30>systemd[1]: Starting udev Coldplug all Devices...
+[   67.315673] <31>systemd[1]: About to execute: /bin/udevadm trigger --type=subsystems --action=add
+[   67.316253] <31>systemd[1]: Forked /bin/udevadm as 227
+[   67.317016] <31>systemd[1]: systemd-udev-trigger.service changed dead -> start
+[   67.317291] <30>systemd[1]: Starting Journal Service...
+[   67.318206] <31>systemd[1]: About to execute: /lib/systemd/systemd-journald
+[   67.318756] <31>systemd[1]: Forked /lib/systemd/systemd-journald as 228
+[   67.319732] <31>systemd[1]: systemd-journald.service changed dead -> running
+[   67.319824] <31>systemd[1]: Job systemd-journald.service/start finished, result=done
+[   67.322357] <30>systemd[1]: Started Journal Service.
+[   67.322509] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.322784] <30>systemd[1]: Starting HD2 first-boot SD logs...
+[   67.325164] <27>systemd[228]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-journald: Operation not permitted
+[   67.325653] <27>systemd[227]: Failed at step SECUREBITS spawning /bin/udevadm: Invalid argument
+[   67.326568] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-logs
+[   67.327087] <31>systemd[1]: Forked /usr/local/sbin/hd2-logs as 230
+[   67.327972] <31>systemd[1]: hd2-logs.service changed dead -> running
+[   67.328063] <31>systemd[1]: Job hd2-logs.service/start finished, result=done
+[   67.339996] <30>systemd[1]: Started HD2 first-boot SD logs.
+[   67.340332] <31>systemd[1]: ConditionPathExists=/sys/kernel/mm/hugepages failed for dev-hugepages.mount.
+[   67.340423] <31>systemd[1]: Starting of dev-hugepages.mount requested but condition failed. Ignoring.
+[   67.340484] <31>systemd[1]: Job dev-hugepages.mount/start finished, result=done
+[   67.340545] <30>systemd[1]: Mounted Huge Pages File System.
+[   67.340667] <31>systemd[1]: ConditionVirtualization=no succeeded for systemd-readahead-replay.service.
+[   67.340789] <31>systemd[1]: ConditionPathExists=/.readahead failed for systemd-readahead-replay.service.
+[   67.340850] <31>systemd[1]: Starting of systemd-readahead-replay.service requested but condition failed. Ignoring.
+[   67.340911] <31>systemd[1]: Job systemd-readahead-replay.service/start finished, result=done
+[   67.340972] <30>systemd[1]: Started Replay Read-Ahead Data.
+[   67.341339] <31>systemd[1]: ConditionPathExists=/lib/modules/2.6.32_tytung_jellybean_r2/modules.devname succeeded for kmod-static-nodes.service.
+[   67.341735] <31>systemd[1]: ConditionCapability=CAP_MKNOD succeeded for kmod-static-nodes.service.
+[   67.341857] <30>systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[   67.342712] <27>systemd[230]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-logs: Invalid argument
+[   67.343811] <31>systemd[1]: About to execute: /bin/mkdir -p /run/tmpfiles.d
+[   67.344329] <31>systemd[1]: Forked /bin/mkdir as 233
+[   67.344848] <31>systemd[1]: kmod-static-nodes.service changed dead -> start-pre
+[   67.345642] <31>systemd[1]: ConditionPathIsReadWrite=/proc/sys/ succeeded for proc-sys-fs-binfmt_misc.automount.
+[   67.345794] <31>systemd[1]: ConditionPathExists=/proc/sys/fs/binfmt_misc/ failed for proc-sys-fs-binfmt_misc.automount.
+[   67.345855] <31>systemd[1]: Starting of proc-sys-fs-binfmt_misc.automount requested but condition failed. Ignoring.
+[   67.345916] <31>systemd[1]: Job proc-sys-fs-binfmt_misc.automount/start finished, result=done
+[   67.345977] <30>systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   67.346130] <31>systemd[1]: ConditionPathExists=/sys/kernel/debug failed for sys-kernel-debug.mount.
+[   67.346191] <31>systemd[1]: Starting of sys-kernel-debug.mount requested but condition failed. Ignoring.
+[   67.346252] <31>systemd[1]: Job sys-kernel-debug.mount/start finished, result=done
+[   67.346313] <30>systemd[1]: Mounted Debug File System.
+[   67.346405] <30>systemd[1]: Starting Swap.
+[   67.346435] <31>systemd[1]: swap.target changed dead -> active
+[   67.346496] <31>systemd[1]: Job swap.target/start finished, result=done
+[   67.352539] <27>systemd[233]: Failed at step SECUREBITS spawning /bin/mkdir: Invalid argument
+[   67.353118] <30>systemd[1]: Reached target Swap.
+[   67.353271] <30>systemd[1]: Mounting Temporary Directory...
+[   67.362274] <29>systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+[   67.362976] <31>systemd[1]: About to execute: /bin/mount tmpfs /tmp -t tmpfs -o mode=1777,strictatime
+[   67.363555] <31>systemd[1]: Forked /bin/mount as 235
+[   67.364013] <31>systemd[1]: tmp.mount changed dead -> mounting
+[   67.364227] <30>systemd[1]: Starting Root Slice.
+[   67.364349] <31>systemd[1]: -.slice changed dead -> active
+[   67.364410] <31>systemd[1]: Job -.slice/start finished, result=done
+[   67.364837] <30>systemd[1]: Created slice Root Slice.
+[   67.365020] <30>systemd[1]: Starting User and Session Slice.
+[   67.365539] <31>systemd[1]: user.slice changed dead -> active
+[   67.365600] <31>systemd[1]: Job user.slice/start finished, result=done
+[   67.365936] <30>systemd[1]: Created slice User and Session Slice.
+[   67.366088] <30>systemd[1]: Starting System Slice.
+[   67.366210] <31>systemd[1]: system.slice changed dead -> active
+[   67.366241] <31>systemd[1]: Job system.slice/start finished, result=done
+[   67.366516] <30>systemd[1]: Created slice System Slice.
+[   67.366668] <30>systemd[1]: Starting Slices.
+[   67.366699] <31>systemd[1]: slices.target changed dead -> active
+[   67.366760] <31>systemd[1]: Job slices.target/start finished, result=done
+[   67.367004] <30>systemd[1]: Reached target Slices.
+[   67.367126] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.374206] <27>systemd[235]: Failed at step SECUREBITS spawning /bin/mount: Invalid argument
+[   67.380584] <31>systemd[1]: Received SIGCHLD from PID 219 (n/a).
+[   67.380706] <31>systemd[1]: Got SIGCHLD for process 225 (n/a)
+[   67.380920] <31>systemd[1]: Child 225 died (code=exited, status=206/OOM_ADJUST)
+[   67.380981] <31>systemd[1]: Child 225 belongs to systemd-readahead-collect.service
+[   67.381072] <29>systemd[1]: systemd-readahead-collect.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   67.381622] <31>systemd[1]: systemd-readahead-collect.service changed start -> exited
+[   67.381683] <31>systemd[1]: Job systemd-readahead-collect.service/start finished, result=done
+[   67.382019] <30>systemd[1]: Started Collect Read-Ahead Data.
+[   67.382598] <31>systemd[1]: Got SIGCHLD for process 227 (n/a)
+[   67.382812] <31>systemd[1]: Child 227 died (code=exited, status=213/SECUREBITS)
+[   67.382873] <31>systemd[1]: Child 227 belongs to systemd-udev-trigger.service
+[   67.382965] <29>systemd[1]: systemd-udev-trigger.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.383270] <31>systemd[1]: systemd-udev-trigger.service changed start -> failed
+[   67.383575] <31>systemd[1]: Job systemd-udev-trigger.service/start finished, result=failed
+[   67.384063] <27>systemd[1]: Failed to start udev Coldplug all Devices.
+[   67.384124] <29>systemd[1]: Unit systemd-udev-trigger.service entered failed state.
+[   67.384277] <31>systemd[1]: Got SIGCHLD for process 228 (n/a)
+[   67.384490] <31>systemd[1]: Child 228 died (code=exited, status=218/CAPABILITIES)
+[   67.384521] <31>systemd[1]: Child 228 belongs to systemd-journald.service
+[   67.384613] <29>systemd[1]: systemd-journald.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.384979] <31>systemd[1]: systemd-journald.service changed running -> failed
+[   67.385284] <29>systemd[1]: Unit systemd-journald.service entered failed state.
+[   67.385345] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.385437] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.385589] <31>systemd[1]: systemd-journald.service changed failed -> auto-restart
+[   67.385711] <31>systemd[1]: Got SIGCHLD for process 230 (n/a)
+[   67.385925] <31>systemd[1]: Child 230 died (code=exited, status=213/SECUREBITS)
+[   67.385986] <31>systemd[1]: Child 230 belongs to hd2-logs.service
+[   67.386077] <29>systemd[1]: hd2-logs.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.386413] <31>systemd[1]: hd2-logs.service changed running -> failed
+[   67.386718] <29>systemd[1]: Unit hd2-logs.service entered failed state.
+[   67.386840] <31>systemd[1]: Got SIGCHLD for process 233 (n/a)
+[   67.387054] <31>systemd[1]: Child 233 died (code=exited, status=213/SECUREBITS)
+[   67.387115] <31>systemd[1]: Child 233 belongs to kmod-static-nodes.service
+[   67.387176] <29>systemd[1]: kmod-static-nodes.service: control process exited, code=exited status=213
+[   67.387603] <31>systemd[1]: kmod-static-nodes.service got final SIGCHLD for state start-pre
+[   67.387847] <31>systemd[1]: kmod-static-nodes.service changed start-pre -> failed
+[   67.388153] <31>systemd[1]: Job kmod-static-nodes.service/start finished, result=failed
+[   67.388916] <27>systemd[1]: Failed to start Create list of required static device nodes for the current kernel.
+[   67.389007] <29>systemd[1]: Unit kmod-static-nodes.service entered failed state.
+[   67.389129] <31>systemd[1]: Got SIGCHLD for process 235 (n/a)
+[   67.389343] <31>systemd[1]: Child 235 died (code=exited, status=213/SECUREBITS)
+[   67.389404] <31>systemd[1]: Child 235 belongs to tmp.mount
+[   67.389465] <29>systemd[1]: tmp.mount mount process exited, code=exited status=213
+[   67.389526] <31>systemd[1]: tmp.mount changed mounting -> failed
+[   67.389862] <31>systemd[1]: Job tmp.mount/start finished, result=failed
+[   67.392578] <27>systemd[1]: Failed to mount Temporary Directory.
+[   67.392669] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.392730] <29>systemd[1]: Unit tmp.mount entered failed state.
+[   67.393127] <31>systemd[1]: ConditionCapability=CAP_MKNOD succeeded for systemd-tmpfiles-setup-dev.service.
+[   67.393218] <30>systemd[1]: Starting Create static device nodes in /dev...
+[   67.393920] <31>systemd[1]: About to execute: /bin/systemd-tmpfiles --prefix=/dev --create
+[   67.394470] <31>systemd[1]: Forked /bin/systemd-tmpfiles as 238
+[   67.395263] <31>systemd[1]: systemd-tmpfiles-setup-dev.service changed dead -> start
+[   67.395812] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udev-settle.service.
+[   67.395935] <30>systemd[1]: Starting udev Wait for Complete Device Initialization...
+[   67.399566] <27>systemd[238]: Failed at step SECUREBITS spawning /bin/systemd-tmpfiles: Invalid argument
+[   67.400604] <31>systemd[1]: About to execute: /bin/udevadm settle
+[   67.401123] <31>systemd[1]: Forked /bin/udevadm as 240
+[   67.401885] <31>systemd[1]: systemd-udev-settle.service changed dead -> start
+[   67.407836] <27>systemd[240]: Failed at step SECUREBITS spawning /bin/udevadm: Invalid argument
+[   67.408691] <31>systemd[1]: ConditionPathIsReadWrite=!/ failed for systemd-fsck-root.service.
+[   67.408752] <31>systemd[1]: Starting of systemd-fsck-root.service requested but condition failed. Ignoring.
+[   67.408813] <31>systemd[1]: Job systemd-fsck-root.service/start finished, result=done
+[   67.408905] <30>systemd[1]: Started File System Check on Root Device.
+[   67.409027] <31>systemd[1]: ConditionPathExists=/etc/fstab succeeded for systemd-remount-fs.service.
+[   67.409088] <30>systemd[1]: Starting Remount Root and Kernel File Systems...
+[   67.410095] <31>systemd[1]: About to execute: /lib/systemd/systemd-remount-fs
+[   67.410644] <31>systemd[1]: Forked /lib/systemd/systemd-remount-fs as 242
+[   67.411376] <31>systemd[1]: systemd-remount-fs.service changed dead -> start
+[   67.411590] <31>systemd[1]: ConditionPathExists=/dev/tty0 succeeded for systemd-vconsole-setup.service.
+[   67.411743] <30>systemd[1]: Starting Setup Virtual Console...
+[   67.415954] <31>systemd[1]: About to execute: /lib/systemd/systemd-vconsole-setup
+[   67.416534] <31>systemd[1]: Forked /lib/systemd/systemd-vconsole-setup as 243
+[   67.417358] <31>systemd[1]: systemd-vconsole-setup.service changed dead -> start
+[   67.417541] <31>systemd[1]: ConditionDirectoryNotEmpty=|/run/sysctl.d failed for systemd-sysctl.service.
+[   67.420379] <27>systemd[242]: Failed at step SECUREBITS spawning /lib/systemd/systemd-remount-fs: Invalid argument
+[   67.426513] <27>systemd[243]: Failed at step SECUREBITS spawning /lib/systemd/systemd-vconsole-setup: Invalid argument
+[   67.427124] <31>systemd[1]: ConditionDirectoryNotEmpty=|/etc/sysctl.d succeeded for systemd-sysctl.service.
+[   67.427246] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/local/lib/sysctl.d failed for systemd-sysctl.service.
+[   67.428344] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/lib/sysctl.d succeeded for systemd-sysctl.service.
+[   67.428466] <31>systemd[1]: ConditionDirectoryNotEmpty=|/lib/sysctl.d failed for systemd-sysctl.service.
+[   67.429138] <31>systemd[1]: ConditionPathIsReadWrite=/proc/sys/ succeeded for systemd-sysctl.service.
+[   67.429229] <30>systemd[1]: Starting Apply Kernel Variables...
+[   67.429992] <31>systemd[1]: About to execute: /lib/systemd/systemd-sysctl
+[   67.430511] <31>systemd[1]: Forked /lib/systemd/systemd-sysctl as 246
+[   67.431365] <31>systemd[1]: systemd-sysctl.service changed dead -> start
+[   67.431518] <31>systemd[1]: ConditionDirectoryNotEmpty=|/run/binfmt.d failed for systemd-binfmt.service.
+[   67.437469] <27>systemd[246]: Failed at step SECUREBITS spawning /lib/systemd/systemd-sysctl: Invalid argument
+[   67.438049] <31>systemd[1]: ConditionDirectoryNotEmpty=|/etc/binfmt.d failed for systemd-binfmt.service.
+[   67.438171] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/local/lib/binfmt.d failed for systemd-binfmt.service.
+[   67.439331] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/lib/binfmt.d failed for systemd-binfmt.service.
+[   67.439453] <31>systemd[1]: ConditionDirectoryNotEmpty=|/lib/binfmt.d failed for systemd-binfmt.service.
+[   67.440093] <31>systemd[1]: ConditionPathIsReadWrite=/proc/sys/ succeeded for systemd-binfmt.service.
+[   67.440185] <31>systemd[1]: Starting of systemd-binfmt.service requested but condition failed. Ignoring.
+[   67.440246] <31>systemd[1]: Job systemd-binfmt.service/start finished, result=done
+[   67.440307] <30>systemd[1]: Started Set Up Additional Binary Formats.
+[   67.440429] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.441345] <31>systemd[1]: Accepted connection on private bus.
+[   67.441528] <31>systemd[1]: Received SIGCHLD from PID 238 (n/a).
+[   67.441619] <31>systemd[1]: Got SIGCHLD for process 238 (n/a)
+[   67.441833] <31>systemd[1]: Child 238 died (code=exited, status=213/SECUREBITS)
+[   67.441894] <31>systemd[1]: Child 238 belongs to systemd-tmpfiles-setup-dev.service
+[   67.441986] <29>systemd[1]: systemd-tmpfiles-setup-dev.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.445495] <31>systemd[1]: systemd-tmpfiles-setup-dev.service changed start -> failed
+[   67.445892] <31>systemd[1]: Job systemd-tmpfiles-setup-dev.service/start finished, result=failed
+[   67.446350] <27>systemd[1]: Failed to start Create static device nodes in /dev.
+[   67.446472] <29>systemd[1]: Unit systemd-tmpfiles-setup-dev.service entered failed state.
+[   67.446594] <31>systemd[1]: Got SIGCHLD for process 240 (n/a)
+[   67.446807] <31>systemd[1]: Child 240 died (code=exited, status=213/SECUREBITS)
+[   67.446868] <31>systemd[1]: Child 240 belongs to systemd-udev-settle.service
+[   67.446960] <29>systemd[1]: systemd-udev-settle.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.447265] <31>systemd[1]: systemd-udev-settle.service changed start -> failed
+[   67.447570] <31>systemd[1]: Job systemd-udev-settle.service/start finished, result=failed
+[   67.448028] <27>systemd[1]: Failed to start udev Wait for Complete Device Initialization.
+[   67.448120] <29>systemd[1]: Unit systemd-udev-settle.service entered failed state.
+[   67.448272] <31>systemd[1]: Got SIGCHLD for process 242 (n/a)
+[   67.448455] <31>systemd[1]: Child 242 died (code=exited, status=213/SECUREBITS)
+[   67.448516] <31>systemd[1]: Child 242 belongs to systemd-remount-fs.service
+[   67.448608] <29>systemd[1]: systemd-remount-fs.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.448883] <31>systemd[1]: systemd-remount-fs.service changed start -> failed
+[   67.449188] <31>systemd[1]: Job systemd-remount-fs.service/start finished, result=failed
+[   67.449645] <27>systemd[1]: Failed to start Remount Root and Kernel File Systems.
+[   67.449737] <29>systemd[1]: Unit systemd-remount-fs.service entered failed state.
+[   67.449859] <31>systemd[1]: Got SIGCHLD for process 243 (n/a)
+[   67.450073] <31>systemd[1]: Child 243 died (code=exited, status=213/SECUREBITS)
+[   67.450134] <31>systemd[1]: Child 243 belongs to systemd-vconsole-setup.service
+[   67.450225] <29>systemd[1]: systemd-vconsole-setup.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.450500] <31>systemd[1]: systemd-vconsole-setup.service changed start -> failed
+[   67.450805] <31>systemd[1]: Job systemd-vconsole-setup.service/start finished, result=failed
+[   67.451263] <27>systemd[1]: Failed to start Setup Virtual Console.
+[   67.451354] <29>systemd[1]: Unit systemd-vconsole-setup.service entered failed state.
+[   67.451477] <31>systemd[1]: Got SIGCHLD for process 246 (n/a)
+[   67.451690] <31>systemd[1]: Child 246 died (code=exited, status=213/SECUREBITS)
+[   67.451751] <31>systemd[1]: Child 246 belongs to systemd-sysctl.service
+[   67.451843] <29>systemd[1]: systemd-sysctl.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.452117] <31>systemd[1]: systemd-sysctl.service changed start -> failed
+[   67.452545] <31>systemd[1]: Job systemd-sysctl.service/start finished, result=failed
+[   67.453002] <27>systemd[1]: Failed to start Apply Kernel Variables.
+[   67.453094] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.453155] <29>systemd[1]: Unit systemd-sysctl.service entered failed state.
+[   67.453277] <30>systemd[1]: Starting Clean RPM db region files at each reboot...
+[   67.453948] <31>systemd[1]: About to execute: /usr/libexec/pk-rpm-db-clean
+[   67.454498] <31>systemd[1]: Forked /usr/libexec/pk-rpm-db-clean as 248
+[   67.455291] <31>systemd[1]: rpm-db-clean.service changed dead -> start
+[   67.455535] <30>systemd[1]: Starting Load/Save Random Seed...
+[   67.456359] <31>systemd[1]: About to execute: /lib/systemd/systemd-random-seed load
+[   67.456909] <31>systemd[1]: Forked /lib/systemd/systemd-random-seed as 249
+[   67.457702] <31>systemd[1]: systemd-random-seed.service changed dead -> start
+[   67.458343] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   67.458465] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   67.460693] <27>systemd[248]: Failed at step SECUREBITS spawning /usr/libexec/pk-rpm-db-clean: Invalid argument
+[   67.463073] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   67.463623] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 251
+[   67.464416] <31>systemd[1]: systemd-udevd.service changed dead -> start
+[   67.464691] <30>systemd[1]: Starting Local File Systems (Pre).
+[   67.464752] <31>systemd[1]: local-fs-pre.target changed dead -> active
+[   67.464782] <31>systemd[1]: Job local-fs-pre.target/start finished, result=done
+[   67.466430] <27>systemd[249]: Failed at step SECUREBITS spawning /lib/systemd/systemd-random-seed: Invalid argument
+[   67.472045] <27>systemd[251]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   67.475738] <30>systemd[1]: Reached target Local File Systems (Pre).
+[   67.475921] <30>systemd[1]: Mounting Droid mount for /mnt/fuse...
+[   67.478485] <31>systemd[1]: About to execute: /bin/mount tmpfs /mnt/fuse -t tmpfs -o mode=0775,gid=1000
+[   67.479064] <31>systemd[1]: Forked /bin/mount as 254
+[   67.479522] <31>systemd[1]: mnt-fuse.mount changed dead -> mounting
+[   67.479736] <30>systemd[1]: Mounting Droid mount for /mnt/asec...
+[   67.480651] <31>systemd[1]: About to execute: /bin/mount tmpfs /mnt/asec -t tmpfs -o mode=0755,gid=1000
+[   67.481201] <31>systemd[1]: Forked /bin/mount as 255
+[   67.481658] <31>systemd[1]: mnt-asec.mount changed dead -> mounting
+[   67.481872] <30>systemd[1]: Mounting Droid mount for /mnt/obb...
+[   67.487121] <27>systemd[255]: Failed at step SECUREBITS spawning /bin/mount: Invalid argument
+[   67.489624] <27>systemd[254]: Failed at step SECUREBITS spawning /bin/mount: Invalid argument
+[   67.493103] <31>systemd[1]: About to execute: /bin/mount tmpfs /mnt/obb -t tmpfs -o mode=0755,gid=1000
+[   67.493682] <31>systemd[1]: Forked /bin/mount as 258
+[   67.494171] <31>systemd[1]: mnt-obb.mount changed dead -> mounting
+[   67.494384] <30>systemd[1]: Mounting FFS mount...
+[   67.495025] <31>systemd[1]: About to execute: /bin/mount mtp /dev/mtp -t functionfs -o mode=0770,gid=1024
+[   67.495574] <31>systemd[1]: Forked /bin/mount as 259
+[   67.496032] <31>systemd[1]: dev-mtp.mount changed dead -> mounting
+[   67.496215] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.497009] <31>systemd[1]: Incoming traffic on systemd-journald.socket
+[   67.497161] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.497253] <30>systemd[1]: systemd-journald.service holdoff time over, scheduling restart.
+[   67.497314] <31>systemd[1]: Trying to enqueue job systemd-journald.service/restart/fail
+[   67.497558] <31>systemd[1]: Installed new job systemd-journald.service/restart as 97
+[   67.497619] <31>systemd[1]: Merged into installed job systemd-journal-flush.service/restart as 39
+[   67.497680] <31>systemd[1]: Enqueued job systemd-journald.service/restart as 97
+[   67.497711] <31>systemd[1]: systemd-journald.service scheduled restart job.
+[   67.497772] <31>systemd[1]: Job systemd-journal-flush.service/restart finished, result=done
+[   67.504333] <27>systemd[259]: Failed at step SECUREBITS spawning /bin/mount: Invalid argument
+[   67.506805] <27>systemd[258]: Failed at step SECUREBITS spawning /bin/mount: Invalid argument
+[   67.511505] <31>systemd[1]: Converting job systemd-journal-flush.service/restart -> systemd-journal-flush.service/start
+[   67.511688] <30>systemd[1]: Stopping Journal Service...
+[   67.512329] <31>systemd[1]: systemd-journald.service changed auto-restart -> dead
+[   67.512420] <31>systemd[1]: Job systemd-journald.service/restart finished, result=done
+[   67.515930] <31>systemd[1]: Converting job systemd-journald.service/restart -> systemd-journald.service/start
+[   67.516082] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.516143] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.516265] <30>systemd[1]: Starting Journal Service...
+[   67.517059] <31>systemd[1]: About to execute: /lib/systemd/systemd-journald
+[   67.517608] <31>systemd[1]: Forked /lib/systemd/systemd-journald as 262
+[   67.518463] <31>systemd[1]: systemd-journald.service changed dead -> running
+[   67.518585] <31>systemd[1]: Job systemd-journald.service/start finished, result=done
+[   67.518951] <30>systemd[1]: Started Journal Service.
+[   67.519104] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.520385] <31>systemd[1]: Accepted connection on private bus.
+[   67.525024] <31>systemd[1]: Received SIGCHLD from PID 246 (n/a).
+[   67.525146] <31>systemd[1]: Got SIGCHLD for process 248 (n/a)
+[   67.525360] <31>systemd[1]: Child 248 died (code=exited, status=213/SECUREBITS)
+[   67.525421] <31>systemd[1]: Child 248 belongs to rpm-db-clean.service
+[   67.525573] <29>systemd[1]: rpm-db-clean.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.525878] <31>systemd[1]: rpm-db-clean.service changed start -> failed
+[   67.526275] <31>systemd[1]: Job rpm-db-clean.service/start finished, result=failed
+[   67.527465] <27>systemd[262]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-journald: Operation not permitted
+[   67.531707] <27>systemd[1]: Failed to start Clean RPM db region files at each reboot.
+[   67.531829] <29>systemd[1]: Unit rpm-db-clean.service entered failed state.
+[   67.531951] <31>systemd[1]: Got SIGCHLD for process 249 (n/a)
+[   67.532257] <31>systemd[1]: Child 249 died (code=exited, status=213/SECUREBITS)
+[   67.532318] <31>systemd[1]: Child 249 belongs to systemd-random-seed.service
+[   67.532409] <29>systemd[1]: systemd-random-seed.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.532714] <31>systemd[1]: systemd-random-seed.service changed start -> failed
+[   67.533050] <31>systemd[1]: Job systemd-random-seed.service/start finished, result=failed
+[   67.533508] <27>systemd[1]: Failed to start Load/Save Random Seed.
+[   67.533599] <29>systemd[1]: Unit systemd-random-seed.service entered failed state.
+[   67.533721] <31>systemd[1]: Got SIGCHLD for process 251 (n/a)
+[   67.533935] <31>systemd[1]: Child 251 died (code=exited, status=206/OOM_ADJUST)
+[   67.533996] <31>systemd[1]: Child 251 belongs to systemd-udevd.service
+[   67.534088] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   67.534484] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   67.534790] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   67.535247] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   67.535339] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   67.535461] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   67.535583] <31>systemd[1]: Got SIGCHLD for process 254 (n/a)
+[   67.535827] <31>systemd[1]: Child 254 died (code=exited, status=213/SECUREBITS)
+[   67.535858] <31>systemd[1]: Child 254 belongs to mnt-fuse.mount
+[   67.535919] <29>systemd[1]: mnt-fuse.mount mount process exited, code=exited status=213
+[   67.536010] <31>systemd[1]: mnt-fuse.mount changed mounting -> failed
+[   67.536346] <31>systemd[1]: Job mnt-fuse.mount/start finished, result=failed
+[   67.536773] <27>systemd[1]: Failed to mount Droid mount for /mnt/fuse.
+[   67.536895] <29>systemd[1]: Unit mnt-fuse.mount entered failed state.
+[   67.537017] <31>systemd[1]: Got SIGCHLD for process 255 (n/a)
+[   67.537261] <31>systemd[1]: Child 255 died (code=exited, status=213/SECUREBITS)
+[   67.537322] <31>systemd[1]: Child 255 belongs to mnt-asec.mount
+[   67.537353] <29>systemd[1]: mnt-asec.mount mount process exited, code=exited status=213
+[   67.537445] <31>systemd[1]: mnt-asec.mount changed mounting -> failed
+[   67.537780] <31>systemd[1]: Job mnt-asec.mount/start finished, result=failed
+[   67.538208] <27>systemd[1]: Failed to mount Droid mount for /mnt/asec.
+[   67.538299] <29>systemd[1]: Unit mnt-asec.mount entered failed state.
+[   67.538421] <31>systemd[1]: Got SIGCHLD for process 258 (n/a)
+[   67.538665] <31>systemd[1]: Child 258 died (code=exited, status=213/SECUREBITS)
+[   67.538726] <31>systemd[1]: Child 258 belongs to mnt-obb.mount
+[   67.538757] <29>systemd[1]: mnt-obb.mount mount process exited, code=exited status=213
+[   67.538848] <31>systemd[1]: mnt-obb.mount changed mounting -> failed
+[   67.539184] <31>systemd[1]: Job mnt-obb.mount/start finished, result=failed
+[   67.539611] <27>systemd[1]: Failed to mount Droid mount for /mnt/obb.
+[   67.539703] <29>systemd[1]: Unit mnt-obb.mount entered failed state.
+[   67.539825] <31>systemd[1]: Got SIGCHLD for process 259 (n/a)
+[   67.540069] <31>systemd[1]: Child 259 died (code=exited, status=213/SECUREBITS)
+[   67.540130] <31>systemd[1]: Child 259 belongs to dev-mtp.mount
+[   67.540191] <29>systemd[1]: dev-mtp.mount mount process exited, code=exited status=213
+[   67.540252] <31>systemd[1]: dev-mtp.mount changed mounting -> failed
+[   67.540588] <31>systemd[1]: Job dev-mtp.mount/start finished, result=failed
+[   67.541015] <27>systemd[1]: Failed to mount FFS mount.
+[   67.541107] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.541168] <29>systemd[1]: Unit dev-mtp.mount entered failed state.
+[   67.541290] <31>systemd[1]: Got SIGCHLD for process 262 (n/a)
+[   67.541534] <31>systemd[1]: Child 262 died (code=exited, status=218/CAPABILITIES)
+[   67.541564] <31>systemd[1]: Child 262 belongs to systemd-journald.service
+[   67.541656] <29>systemd[1]: systemd-journald.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.542053] <31>systemd[1]: systemd-journald.service changed running -> failed
+[   67.542785] <29>systemd[1]: Unit systemd-journald.service entered failed state.
+[   67.542877] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.542938] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.543090] <31>systemd[1]: systemd-journald.service changed failed -> auto-restart
+[   67.543609] <31>systemd[1]: ConditionKernelCommandLine=|rd.modules-load failed for systemd-modules-load.service.
+[   67.543945] <31>systemd[1]: ConditionKernelCommandLine=|modules-load failed for systemd-modules-load.service.
+[   67.544006] <31>systemd[1]: ConditionDirectoryNotEmpty=|/run/modules-load.d failed for systemd-modules-load.service.
+[   67.544311] <31>systemd[1]: ConditionDirectoryNotEmpty=|/etc/modules-load.d succeeded for systemd-modules-load.service.
+[   67.544433] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/local/lib/modules-load.d failed for systemd-modules-load.service.
+[   67.545959] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/lib/modules-load.d failed for systemd-modules-load.service.
+[   67.546081] <31>systemd[1]: ConditionDirectoryNotEmpty=|/lib/modules-load.d failed for systemd-modules-load.service.
+[   67.546447] <31>systemd[1]: ConditionCapability=CAP_SYS_MODULE succeeded for systemd-modules-load.service.
+[   67.546569] <30>systemd[1]: Starting Load Kernel Modules...
+[   67.547302] <31>systemd[1]: About to execute: /lib/systemd/systemd-modules-load
+[   67.547851] <31>systemd[1]: Forked /lib/systemd/systemd-modules-load as 264
+[   67.548645] <31>systemd[1]: systemd-modules-load.service changed dead -> start
+[   67.548919] <30>systemd[1]: Starting Local File Systems.
+[   67.548980] <31>systemd[1]: local-fs.target changed dead -> active
+[   67.549041] <31>systemd[1]: Job local-fs.target/start finished, result=done
+[   67.549377] <30>systemd[1]: Reached target Local File Systems.
+[   67.549591] <31>systemd[1]: ConditionPathExists=/sys/class/bdi/btrfs-1/read_ahead_kb failed for sys-brtfs-setup.service.
+[   67.549682] <31>systemd[1]: Starting of sys-brtfs-setup.service requested but condition failed. Ignoring.
+[   67.549743] <31>systemd[1]: Job sys-brtfs-setup.service/start finished, result=done
+[   67.549835] <30>systemd[1]: Started Set brtfs readahead.
+[   67.551666] <31>systemd[1]: ConditionPathExists=|!/etc/ssh/ssh_host_ed25519_key succeeded for sshd-keys.service.
+[   67.551818] <31>systemd[1]: ConditionPathExists=|!/etc/ssh/ssh_host_rsa_key succeeded for sshd-keys.service.
+[   67.551940] <30>systemd[1]: Starting Create sshd host keys...
+[   67.552795] <31>systemd[1]: About to execute: /usr/sbin/sshd-hostkeys
+[   67.553375] <31>systemd[1]: Forked /usr/sbin/sshd-hostkeys as 265
+[   67.554138] <31>systemd[1]: sshd-keys.service changed dead -> start
+[   67.554382] <31>systemd[1]: ConditionDirectoryNotEmpty=|/run/tmpfiles.d failed for systemd-tmpfiles-setup.service.
+[   67.555786] <27>systemd[264]: Failed at step SECUREBITS spawning /lib/systemd/systemd-modules-load: Invalid argument
+[   67.558319] <27>systemd[265]: Failed at step SECUREBITS spawning /usr/sbin/sshd-hostkeys: Invalid argument
+[   67.558807] <31>systemd[1]: ConditionDirectoryNotEmpty=|/etc/tmpfiles.d succeeded for systemd-tmpfiles-setup.service.
+[   67.558929] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/local/lib/tmpfiles.d failed for systemd-tmpfiles-setup.service.
+[   67.567626] <31>systemd[1]: ConditionDirectoryNotEmpty=|/usr/lib/tmpfiles.d succeeded for systemd-tmpfiles-setup.service.
+[   67.567779] <30>systemd[1]: Starting Recreate Volatile Files and Directories...
+[   67.568572] <31>systemd[1]: About to execute: /bin/systemd-tmpfiles --create --remove --exclude-prefix=/dev
+[   67.569122] <31>systemd[1]: Forked /bin/systemd-tmpfiles as 268
+[   67.569946] <31>systemd[1]: systemd-tmpfiles-setup.service changed dead -> start
+[   67.570159] <30>systemd[1]: Starting D-Bus System Message Bus Socket.
+[   67.570373] <31>systemd[1]: dbus.socket changed dead -> listening
+[   67.570434] <31>systemd[1]: Job dbus.socket/start finished, result=done
+[   67.570770] <30>systemd[1]: Listening on D-Bus System Message Bus Socket.
+[   67.570983] <30>systemd[1]: Starting StateFS FUSE filesystem, system-wide...
+[   67.575683] <31>systemd[1]: About to execute: /usr/bin/statefs-prerun
+[   67.576232] <31>systemd[1]: Forked /usr/bin/statefs-prerun as 269
+[   67.576782] <31>systemd[1]: statefs.service changed dead -> start-pre
+[   67.577056] <30>systemd[1]: Starting Mode Control Entity (MCE)...
+[   67.577972] <31>systemd[1]: About to execute: /usr/sbin/mce --systemd
+[   67.578521] <31>systemd[1]: Forked /usr/sbin/mce as 270
+[   67.579284] <31>systemd[1]: mce.service changed dead -> start
+[   67.579559] <30>systemd[1]: Starting ohm daemon for resource policy management...
+[   67.580474] <31>systemd[1]: About to execute: /usr/sbin/ohmd --no-daemon
+[   67.581024] <31>systemd[1]: Forked /usr/sbin/ohmd as 271
+[   67.581817] <31>systemd[1]: ohmd.service changed dead -> start
+[   67.582061] <30>systemd[1]: Starting D-Bus System Message Bus...
+[   67.582733] <27>systemd[268]: Failed at step SECUREBITS spawning /bin/systemd-tmpfiles: Invalid argument
+[   67.585357] <27>systemd[270]: Failed at step SECUREBITS spawning /usr/sbin/mce: Invalid argument
+[   67.587890] <27>systemd[269]: Failed at step SECUREBITS spawning /usr/bin/statefs-prerun: Invalid argument
+[   67.590728] <27>systemd[271]: Failed at step SECUREBITS spawning /usr/sbin/ohmd: Invalid argument
+[   67.602783] <31>systemd[1]: About to execute: /bin/dbus-uuidgen --ensure
+[   67.603363] <31>systemd[1]: Forked /bin/dbus-uuidgen as 276
+[   67.603912] <31>systemd[1]: dbus.service changed dead -> start-pre
+[   67.604187] <30>systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+[   67.605102] <31>systemd[1]: About to execute: /bin/systemctl kill --kill-who=main --signal=SIGUSR1 systemd-journald.service
+[   67.605682] <31>systemd[1]: Forked /bin/systemctl as 277
+[   67.606445] <31>systemd[1]: systemd-journal-flush.service changed dead -> start
+[   67.606719] <30>systemd[1]: Starting Always-on HD2 USB root rescue shell...
+[   67.610870] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-debug
+[   67.611450] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-debug as 278
+[   67.614349] <27>systemd[277]: Failed at step SECUREBITS spawning /bin/systemctl: Invalid argument
+[   67.617004] <27>systemd[276]: Failed at step OOM_ADJUST spawning /bin/dbus-uuidgen: No such file or directory
+[   67.625976] <31>systemd[1]: hd2-usb-debug.service changed dead -> running
+[   67.626129] <31>systemd[1]: Job hd2-usb-debug.service/start finished, result=done
+[   67.627471] <27>systemd[278]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-debug: Invalid argument
+[   67.628051] <30>systemd[1]: Started Always-on HD2 USB root rescue shell.
+[   67.628295] <30>systemd[1]: Starting Always-on HD2 USB ADB...
+[   67.629394] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-setup
+[   67.629943] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-setup as 282
+[   67.630462] <31>systemd[1]: hd2-adbd.service changed dead -> start-pre
+[   67.630645] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.637786] <27>systemd[282]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-setup: Invalid argument
+[   67.638946] <31>systemd[1]: Accepted connection on private bus.
+[   67.639617] <31>systemd[1]: Received SIGCHLD from PID 262 (n/a).
+[   67.639739] <31>systemd[1]: Got SIGCHLD for process 264 (n/a)
+[   67.639953] <31>systemd[1]: Child 264 died (code=exited, status=213/SECUREBITS)
+[   67.640014] <31>systemd[1]: Child 264 belongs to systemd-modules-load.service
+[   67.640106] <29>systemd[1]: systemd-modules-load.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.640441] <31>systemd[1]: systemd-modules-load.service changed start -> failed
+[   67.640747] <31>systemd[1]: Job systemd-modules-load.service/start finished, result=failed
+[   67.645111] <27>systemd[1]: Failed to start Load Kernel Modules.
+[   67.645202] <29>systemd[1]: Unit systemd-modules-load.service entered failed state.
+[   67.645355] <31>systemd[1]: Got SIGCHLD for process 265 (n/a)
+[   67.645568] <31>systemd[1]: Child 265 died (code=exited, status=213/SECUREBITS)
+[   67.645629] <31>systemd[1]: Child 265 belongs to sshd-keys.service
+[   67.645721] <29>systemd[1]: sshd-keys.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.646026] <31>systemd[1]: sshd-keys.service changed start -> failed
+[   67.646331] <31>systemd[1]: Job sshd-keys.service/start finished, result=failed
+[   67.646789] <27>systemd[1]: Failed to start Create sshd host keys.
+[   67.646881] <29>systemd[1]: Unit sshd-keys.service entered failed state.
+[   67.647003] <31>systemd[1]: Got SIGCHLD for process 268 (n/a)
+[   67.647216] <31>systemd[1]: Child 268 died (code=exited, status=213/SECUREBITS)
+[   67.647277] <31>systemd[1]: Child 268 belongs to systemd-tmpfiles-setup.service
+[   67.647369] <29>systemd[1]: systemd-tmpfiles-setup.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.647674] <31>systemd[1]: systemd-tmpfiles-setup.service changed start -> failed
+[   67.647979] <31>systemd[1]: Job systemd-tmpfiles-setup.service/start finished, result=failed
+[   67.648437] <27>systemd[1]: Failed to start Recreate Volatile Files and Directories.
+[   67.648529] <29>systemd[1]: Unit systemd-tmpfiles-setup.service entered failed state.
+[   67.648681] <31>systemd[1]: Got SIGCHLD for process 269 (n/a)
+[   67.648895] <31>systemd[1]: Child 269 died (code=exited, status=213/SECUREBITS)
+[   67.648956] <31>systemd[1]: Child 269 belongs to statefs.service
+[   67.649017] <29>systemd[1]: statefs.service: control process exited, code=exited status=213
+[   67.649475] <31>systemd[1]: statefs.service got final SIGCHLD for state start-pre
+[   67.649749] <31>systemd[1]: statefs.service changed start-pre -> failed
+[   67.650054] <31>systemd[1]: Job statefs.service/start finished, result=failed
+[   67.650756] <27>systemd[1]: Failed to start StateFS FUSE filesystem, system-wide.
+[   67.650878] <29>systemd[1]: Unit statefs.service entered failed state.
+[   67.650970] <31>systemd[1]: statefs.service changed failed -> auto-restart
+[   67.651092] <31>systemd[1]: Got SIGCHLD for process 270 (n/a)
+[   67.651367] <31>systemd[1]: Child 270 died (code=exited, status=213/SECUREBITS)
+[   67.651397] <31>systemd[1]: Child 270 belongs to mce.service
+[   67.651489] <29>systemd[1]: mce.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.651916] <31>systemd[1]: mce.service changed start -> failed
+[   67.655639] <31>systemd[1]: Job mce.service/start finished, result=failed
+[   67.656127] <27>systemd[1]: Failed to start Mode Control Entity (MCE).
+[   67.656219] <29>systemd[1]: Unit mce.service entered failed state.
+[   67.656311] <31>systemd[1]: mce.service changed failed -> auto-restart
+[   67.656433] <31>systemd[1]: Got SIGCHLD for process 271 (n/a)
+[   67.656707] <31>systemd[1]: Child 271 died (code=exited, status=213/SECUREBITS)
+[   67.656768] <31>systemd[1]: Child 271 belongs to ohmd.service
+[   67.656829] <29>systemd[1]: ohmd.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.657257] <31>systemd[1]: ohmd.service changed start -> failed
+[   67.657562] <31>systemd[1]: Job ohmd.service/start finished, result=failed
+[   67.658020] <27>systemd[1]: Failed to start ohm daemon for resource policy management.
+[   67.658111] <29>systemd[1]: Unit ohmd.service entered failed state.
+[   67.658233] <31>systemd[1]: Got SIGCHLD for process 276 (n/a)
+[   67.658477] <31>systemd[1]: Child 276 died (code=exited, status=206/OOM_ADJUST)
+[   67.658538] <31>systemd[1]: Child 276 belongs to dbus.service
+[   67.658630] <29>systemd[1]: dbus.service: control process exited, code=exited status=206
+[   67.659088] <31>systemd[1]: dbus.service got final SIGCHLD for state start-pre
+[   67.659362] <31>systemd[1]: dbus.service changed start-pre -> failed
+[   67.659667] <31>systemd[1]: Job dbus.service/start finished, result=failed
+[   67.660369] <27>systemd[1]: Failed to start D-Bus System Message Bus.
+[   67.660430] <31>systemd[1]: Job ofono.service/start finished, result=dependency
+[   67.660705] <27>systemd[1]: Dependency failed for Telephony service.
+[   67.661010] <31>systemd[1]: Job sensorfwd.service/start finished, result=dependency
+[   67.662567] <27>systemd[1]: Dependency failed for Sensor daemon for sensor framework.
+[   67.662933] <31>systemd[1]: Job oneshot-root.service/start finished, result=dependency
+[   67.663269] <27>systemd[1]: Dependency failed for Oneshot stuff for root.
+[   67.663543] <31>systemd[1]: Job dsme.service/start finished, result=dependency
+[   67.666351] <27>systemd[1]: Dependency failed for DSME.
+[   67.666473] <29>systemd[1]: Unit dbus.service entered failed state.
+[   67.666625] <31>systemd[1]: Got SIGCHLD for process 277 (n/a)
+[   67.666900] <31>systemd[1]: Child 277 died (code=exited, status=213/SECUREBITS)
+[   67.666931] <31>systemd[1]: Child 277 belongs to systemd-journal-flush.service
+[   67.667022] <29>systemd[1]: systemd-journal-flush.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.667358] <31>systemd[1]: systemd-journal-flush.service changed start -> failed
+[   67.667663] <31>systemd[1]: Job systemd-journal-flush.service/start finished, result=failed
+[   67.668151] <27>systemd[1]: Failed to start Trigger Flushing of Journal to Persistent Storage.
+[   67.668273] <29>systemd[1]: Unit systemd-journal-flush.service entered failed state.
+[   67.668395] <31>systemd[1]: Got SIGCHLD for process 278 (n/a)
+[   67.668640] <31>systemd[1]: Child 278 died (code=exited, status=213/SECUREBITS)
+[   67.668701] <31>systemd[1]: Child 278 belongs to hd2-usb-debug.service
+[   67.668762] <29>systemd[1]: hd2-usb-debug.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.669158] <31>systemd[1]: hd2-usb-debug.service changed running -> failed
+[   67.669464] <29>systemd[1]: Unit hd2-usb-debug.service entered failed state.
+[   67.669555] <31>systemd[1]: hd2-usb-debug.service changed failed -> auto-restart
+[   67.669677] <31>systemd[1]: Got SIGCHLD for process 282 (n/a)
+[   67.669921] <31>systemd[1]: Child 282 died (code=exited, status=213/SECUREBITS)
+[   67.669982] <31>systemd[1]: Child 282 belongs to hd2-adbd.service
+[   67.670043] <29>systemd[1]: hd2-adbd.service: control process exited, code=exited status=213
+[   67.670501] <31>systemd[1]: hd2-adbd.service got final SIGCHLD for state start-pre
+[   67.670745] <31>systemd[1]: hd2-adbd.service changed start-pre -> failed
+[   67.671051] <31>systemd[1]: Job hd2-adbd.service/start finished, result=failed
+[   67.671783] <27>systemd[1]: Failed to start Always-on HD2 USB ADB.
+[   67.671905] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.671936] <29>systemd[1]: Unit hd2-adbd.service entered failed state.
+[   67.672027] <31>systemd[1]: hd2-adbd.service changed failed -> auto-restart
+[   67.672698] <30>systemd[1]: Starting Update UTMP about System Reboot/Shutdown...
+[   67.676727] <31>systemd[1]: About to execute: /lib/systemd/systemd-update-utmp reboot
+[   67.677307] <31>systemd[1]: Forked /lib/systemd/systemd-update-utmp as 287
+[   67.678100] <31>systemd[1]: systemd-update-utmp.service changed dead -> start
+[   67.678314] <31>systemd[1]: ConditionPathExists=/run/systemd/boot-status failed for initial-bootstate.service.
+[   67.678405] <31>systemd[1]: Starting of initial-bootstate.service requested but condition failed. Ignoring.
+[   67.678466] <31>systemd[1]: Job initial-bootstate.service/start finished, result=done
+[   67.678588] <30>systemd[1]: Started Get initial bootstate.
+[   67.678680] <30>systemd[1]: Starting droid-hal-init...
+[   67.679656] <31>systemd[1]: About to execute: /bin/sh /usr/bin/droid/droid-hal-startup.sh
+[   67.680236] <31>systemd[1]: Forked /bin/sh as 288
+[   67.681060] <31>systemd[1]: droid-hal-init.service changed dead -> start
+[   67.681274] <31>systemd[1]: ConditionPathExists=/sys/kernel/config failed for sys-kernel-config.mount.
+[   67.681335] <31>systemd[1]: Starting of sys-kernel-config.mount requested but condition failed. Ignoring.
+[   67.681396] <31>systemd[1]: Job sys-kernel-config.mount/start finished, result=done
+[   67.681518] <30>systemd[1]: Mounted Configuration File System.
+[   67.681671] <31>systemd[1]: ConditionPathExists=/sys/fs/fuse/connections failed for sys-fs-fuse-connections.mount.
+[   67.681732] <31>systemd[1]: Starting of sys-fs-fuse-connections.mount requested but condition failed. Ignoring.
+[   67.681793] <31>systemd[1]: Job sys-fs-fuse-connections.mount/start finished, result=done
+[   67.681884] <30>systemd[1]: Mounted FUSE Control File System.
+[   67.681976] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.684448] <27>systemd[287]: Failed at step SECUREBITS spawning /lib/systemd/systemd-update-utmp: Invalid argument
+[   67.687011] <27>systemd[288]: Failed at step SECUREBITS spawning /bin/sh: Invalid argument
+[   67.688110] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   67.688201] <31>systemd[1]: Trying to enqueue job systemd-udevd.service/restart/fail
+[   67.688385] <31>systemd[1]: Installed new job systemd-udevd.service/restart as 101
+[   67.688446] <31>systemd[1]: Enqueued job systemd-udevd.service/restart as 101
+[   67.688507] <31>systemd[1]: systemd-udevd.service scheduled restart job.
+[   67.688598] <30>systemd[1]: Stopping udev Kernel Device Manager...
+[   67.692565] <31>systemd[1]: systemd-udevd.service changed auto-restart -> dead
+[   67.692657] <31>systemd[1]: Job systemd-udevd.service/restart finished, result=done
+[   67.692962] <31>systemd[1]: Converting job systemd-udevd.service/restart -> systemd-udevd.service/start
+[   67.693511] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   67.693603] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   67.697235] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   67.697814] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 291
+[   67.698577] <31>systemd[1]: systemd-udevd.service changed dead -> start
+[   67.699462] <31>systemd[1]: Incoming traffic on systemd-journald.socket
+[   67.699615] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.699707] <30>systemd[1]: systemd-journald.service holdoff time over, scheduling restart.
+[   67.699768] <31>systemd[1]: Trying to enqueue job systemd-journald.service/restart/fail
+[   67.700012] <31>systemd[1]: Installed new job systemd-journald.service/restart as 104
+[   67.700134] <31>systemd[1]: Installed new job systemd-journal-flush.service/restart as 106
+[   67.700164] <31>systemd[1]: Enqueued job systemd-journald.service/restart as 104
+[   67.700225] <31>systemd[1]: systemd-journald.service scheduled restart job.
+[   67.700286] <31>systemd[1]: Job systemd-journal-flush.service/restart finished, result=done
+[   67.703125] <27>systemd[291]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   67.703704] <31>systemd[1]: Converting job systemd-journal-flush.service/restart -> systemd-journal-flush.service/start
+[   67.703826] <30>systemd[1]: Stopping Journal Service...
+[   67.704406] <31>systemd[1]: systemd-journald.service changed auto-restart -> dead
+[   67.704498] <31>systemd[1]: Job systemd-journald.service/restart finished, result=done
+[   67.704772] <31>systemd[1]: Converting job systemd-journald.service/restart -> systemd-journald.service/start
+[   67.704864] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.704925] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.705047] <30>systemd[1]: Starting Journal Service...
+[   67.705749] <31>systemd[1]: About to execute: /lib/systemd/systemd-journald
+[   67.706298] <31>systemd[1]: Forked /lib/systemd/systemd-journald as 293
+[   67.707153] <31>systemd[1]: systemd-journald.service changed dead -> running
+[   67.707275] <31>systemd[1]: Job systemd-journald.service/start finished, result=done
+[   67.712341] <30>systemd[1]: Started Journal Service.
+[   67.712493] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.712799] <30>systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+[   67.713714] <31>systemd[1]: About to execute: /bin/systemctl kill --kill-who=main --signal=SIGUSR1 systemd-journald.service
+[   67.714263] <31>systemd[1]: Forked /bin/systemctl as 294
+[   67.715087] <31>systemd[1]: systemd-journal-flush.service changed failed -> start
+[   67.717254] <27>systemd[293]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-journald: Operation not permitted
+[   67.719879] <27>systemd[294]: Failed at step SECUREBITS spawning /bin/systemctl: Invalid argument
+[   67.722564] <31>systemd[1]: Accepted connection on private bus.
+[   67.723266] <31>systemd[1]: Received SIGCHLD from PID 282 (n/a).
+[   67.723388] <31>systemd[1]: Got SIGCHLD for process 287 (n/a)
+[   67.723632] <31>systemd[1]: Child 287 died (code=exited, status=213/SECUREBITS)
+[   67.723693] <31>systemd[1]: Child 287 belongs to systemd-update-utmp.service
+[   67.723785] <29>systemd[1]: systemd-update-utmp.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.724121] <31>systemd[1]: systemd-update-utmp.service changed start -> failed
+[   67.724426] <31>systemd[1]: Job systemd-update-utmp.service/start finished, result=failed
+[   67.729278] <27>systemd[1]: Failed to start Update UTMP about System Reboot/Shutdown.
+[   67.729400] <29>systemd[1]: Unit systemd-update-utmp.service entered failed state.
+[   67.729553] <31>systemd[1]: Got SIGCHLD for process 288 (n/a)
+[   67.729797] <31>systemd[1]: Child 288 died (code=exited, status=213/SECUREBITS)
+[   67.729858] <31>systemd[1]: Child 288 belongs to droid-hal-init.service
+[   67.729949] <29>systemd[1]: droid-hal-init.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.730560] <31>systemd[1]: About to execute: /usr/bin/droid/kill-cgroup.sh /system.slice/droid-hal-init.service
+[   67.731140] <31>systemd[1]: Forked /usr/bin/droid/kill-cgroup.sh as 297
+[   67.731689] <31>systemd[1]: droid-hal-init.service changed start -> stop
+[   67.731842] <31>systemd[1]: Got SIGCHLD for process 291 (n/a)
+[   67.732116] <31>systemd[1]: Child 291 died (code=exited, status=206/OOM_ADJUST)
+[   67.732269] <31>systemd[1]: Child 291 belongs to systemd-udevd.service
+[   67.732421] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   67.732910] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   67.733337] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   67.735900] <27>systemd[297]: Failed at step SECUREBITS spawning /usr/bin/droid/kill-cgroup.sh: Invalid argument
+[   67.736938] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   67.737060] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   67.737182] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   67.737335] <31>systemd[1]: Got SIGCHLD for process 293 (n/a)
+[   67.737609] <31>systemd[1]: Child 293 died (code=exited, status=218/CAPABILITIES)
+[   67.737670] <31>systemd[1]: Child 293 belongs to systemd-journald.service
+[   67.737762] <29>systemd[1]: systemd-journald.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.738159] <31>systemd[1]: systemd-journald.service changed running -> failed
+[   67.738464] <29>systemd[1]: Unit systemd-journald.service entered failed state.
+[   67.738525] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.738647] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.741638] <31>systemd[1]: systemd-journald.service changed failed -> auto-restart
+[   67.741851] <31>systemd[1]: Got SIGCHLD for process 294 (n/a)
+[   67.742095] <31>systemd[1]: Child 294 died (code=exited, status=213/SECUREBITS)
+[   67.742492] <31>systemd[1]: Child 294 belongs to systemd-journal-flush.service
+[   67.742614] <29>systemd[1]: systemd-journal-flush.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.742919] <31>systemd[1]: systemd-journal-flush.service changed start -> failed
+[   67.743255] <31>systemd[1]: Job systemd-journal-flush.service/start finished, result=failed
+[   67.743743] <27>systemd[1]: Failed to start Trigger Flushing of Journal to Persistent Storage.
+[   67.743865] <29>systemd[1]: Unit systemd-journal-flush.service entered failed state.
+[   67.743988] <31>systemd[1]: Got SIGCHLD for process 297 (n/a)
+[   67.744232] <31>systemd[1]: Child 297 died (code=exited, status=213/SECUREBITS)
+[   67.744293] <31>systemd[1]: Child 297 belongs to droid-hal-init.service
+[   67.744354] <29>systemd[1]: droid-hal-init.service: control process exited, code=exited status=213
+[   67.744842] <31>systemd[1]: droid-hal-init.service got final SIGCHLD for state stop
+[   67.745117] <31>systemd[1]: droid-hal-init.service changed stop -> failed
+[   67.745391] <31>systemd[1]: Job droid-hal-init.service/start finished, result=failed
+[   67.746124] <27>systemd[1]: Failed to start droid-hal-init.
+[   67.746246] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.746307] <29>systemd[1]: Unit droid-hal-init.service entered failed state.
+[   67.746398] <31>systemd[1]: droid-hal-init.service changed failed -> auto-restart
+[   67.746917] <30>systemd[1]: Starting System Initialization.
+[   67.746978] <31>systemd[1]: sysinit.target changed dead -> active
+[   67.747039] <31>systemd[1]: Job sysinit.target/start finished, result=done
+[   67.750244] <30>systemd[1]: Reached target System Initialization.
+[   67.750427] <30>systemd[1]: Starting Wayland path watcher.
+[   67.750671] <31>systemd[1]: wayland.path changed dead -> waiting
+[   67.750732] <31>systemd[1]: Job wayland.path/start finished, result=done
+[   67.750793] <30>systemd[1]: Started Wayland path watcher.
+[   67.750885] <30>systemd[1]: Starting Paths.
+[   67.750946] <31>systemd[1]: paths.target changed dead -> active
+[   67.750976] <31>systemd[1]: Job paths.target/start finished, result=done
+[   67.751312] <30>systemd[1]: Reached target Paths.
+[   67.751403] <30>systemd[1]: Starting OpenSSH Server Socket.
+[   67.754333] <31>systemd[1]: sshd.socket changed dead -> listening
+[   67.754425] <31>systemd[1]: Job sshd.socket/start finished, result=done
+[   67.754760] <30>systemd[1]: Listening on OpenSSH Server Socket.
+[   67.754882] <30>systemd[1]: Starting Sockets.
+[   67.754913] <31>systemd[1]: sockets.target changed dead -> active
+[   67.754974] <31>systemd[1]: Job sockets.target/start finished, result=done
+[   67.755218] <30>systemd[1]: Reached target Sockets.
+[   67.755340] <30>systemd[1]: Starting Daily Cleanup of Temporary Directories.
+[   67.755401] <31>systemd[1]: systemd-tmpfiles-clean.timer: Monotonic timer elapses in 13min 52.756761s.
+[   67.755493] <31>systemd[1]: systemd-tmpfiles-clean.timer changed dead -> waiting
+[   67.755554] <31>systemd[1]: Job systemd-tmpfiles-clean.timer/start finished, result=done
+[   67.755615] <30>systemd[1]: Started Daily Cleanup of Temporary Directories.
+[   67.755706] <30>systemd[1]: Starting Timers.
+[   67.755767] <31>systemd[1]: timers.target changed dead -> active
+[   67.755798] <31>systemd[1]: Job timers.target/start finished, result=done
+[   67.756072] <30>systemd[1]: Reached target Timers.
+[   67.756164] <30>systemd[1]: Starting Basic System.
+[   67.756225] <31>systemd[1]: basic.target changed dead -> active
+[   67.756256] <31>systemd[1]: Job basic.target/start finished, result=done
+[   67.756500] <30>systemd[1]: Reached target Basic System.
+[   67.756622] <30>systemd[1]: Starting Zram-based swap (compressed RAM block devices)...
+[   67.757080] <31>systemd[1]: About to execute: /usr/sbin/zramctrl start
+[   67.757659] <31>systemd[1]: Forked /usr/sbin/zramctrl as 300
+[   67.758422] <31>systemd[1]: zramswap.service changed dead -> start
+[   67.758697] <30>systemd[1]: Starting droid-late-start...
+[   67.759338] <31>systemd[1]: About to execute: /usr/bin/setprop droid.late_start trigger_late_start
+[   67.759918] <31>systemd[1]: Forked /usr/bin/setprop as 301
+[   67.760772] <31>systemd[1]: droid-late-start.service changed dead -> running
+[   67.760925] <31>systemd[1]: Job droid-late-start.service/start finished, result=done
+[   67.763610] <27>systemd[300]: Failed at step SECUREBITS spawning /usr/sbin/zramctrl: Invalid argument
+[   67.764221] <30>systemd[1]: Started droid-late-start.
+[   67.764495] <30>systemd[1]: Starting Login Service...
+[   67.766876] <27>systemd[301]: Failed at step SECUREBITS spawning /usr/bin/setprop: Invalid argument
+[   67.770996] <31>systemd[1]: About to execute: /lib/systemd/systemd-logind
+[   67.771575] <31>systemd[1]: Forked /lib/systemd/systemd-logind as 304
+[   67.772430] <31>systemd[1]: systemd-logind.service changed dead -> start
+[   67.772674] <30>systemd[1]: Starting Wait for Bluetooth HCI adapter...
+[   67.777648] <31>systemd[1]: About to execute: /usr/sbin/jolla-rfkill-hciwait
+[   67.778228] <31>systemd[1]: Forked /usr/sbin/jolla-rfkill-hciwait as 305
+[   67.778991] <31>systemd[1]: jolla-rfkill-hciwait.service changed dead -> start
+[   67.779266] <30>systemd[1]: Starting Permit User Sessions...
+[   67.781555] <27>systemd[304]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-logind: Operation not permitted
+[   67.782562] <31>systemd[1]: About to execute: /lib/systemd/systemd-user-sessions start
+[   67.783111] <31>systemd[1]: Forked /lib/systemd/systemd-user-sessions as 307
+[   67.783874] <31>systemd[1]: systemd-user-sessions.service changed dead -> start
+[   67.784027] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.788116] <27>systemd[305]: Failed at step SECUREBITS spawning /usr/sbin/jolla-rfkill-hciwait: Invalid argument
+[   67.794158] <27>systemd[307]: Failed at step SECUREBITS spawning /lib/systemd/systemd-user-sessions: Invalid argument
+[   67.797760] <31>systemd[1]: Accepted connection on private bus.
+[   67.802246] <31>systemd[1]: Received SIGCHLD from PID 297 (n/a).
+[   67.802398] <31>systemd[1]: Got SIGCHLD for process 300 (n/a)
+[   67.802642] <31>systemd[1]: Child 300 died (code=exited, status=213/SECUREBITS)
+[   67.802703] <31>systemd[1]: Child 300 belongs to zramswap.service
+[   67.802795] <29>systemd[1]: zramswap.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.803131] <31>systemd[1]: zramswap.service changed start -> failed
+[   67.803466] <31>systemd[1]: Job zramswap.service/start finished, result=failed
+[   67.804016] <27>systemd[1]: Failed to start Zram-based swap (compressed RAM block devices).
+[   67.804107] <29>systemd[1]: Unit zramswap.service entered failed state.
+[   67.804260] <31>systemd[1]: Got SIGCHLD for process 301 (n/a)
+[   67.804534] <31>systemd[1]: Child 301 died (code=exited, status=213/SECUREBITS)
+[   67.804595] <31>systemd[1]: Child 301 belongs to droid-late-start.service
+[   67.804656] <29>systemd[1]: droid-late-start.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.805053] <31>systemd[1]: droid-late-start.service changed running -> failed
+[   67.805358] <29>systemd[1]: Unit droid-late-start.service entered failed state.
+[   67.805480] <31>systemd[1]: Got SIGCHLD for process 304 (n/a)
+[   67.805755] <31>systemd[1]: Child 304 died (code=exited, status=218/CAPABILITIES)
+[   67.805816] <31>systemd[1]: Child 304 belongs to systemd-logind.service
+[   67.805908] <29>systemd[1]: systemd-logind.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.806274] <31>systemd[1]: systemd-logind.service changed start -> failed
+[   67.806579] <31>systemd[1]: Job systemd-logind.service/start finished, result=failed
+[   67.807037] <27>systemd[1]: Failed to start Login Service.
+[   67.807128] <29>systemd[1]: Unit systemd-logind.service entered failed state.
+[   67.807250] <31>systemd[1]: systemd-logind.service changed failed -> auto-restart
+[   67.807403] <31>systemd[1]: Got SIGCHLD for process 305 (n/a)
+[   67.807678] <31>systemd[1]: Child 305 died (code=exited, status=213/SECUREBITS)
+[   67.807739] <31>systemd[1]: Child 305 belongs to jolla-rfkill-hciwait.service
+[   67.807800] <29>systemd[1]: jolla-rfkill-hciwait.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.808105] <31>systemd[1]: jolla-rfkill-hciwait.service changed start -> failed
+[   67.808410] <31>systemd[1]: Job jolla-rfkill-hciwait.service/start finished, result=failed
+[   67.808868] <27>systemd[1]: Failed to start Wait for Bluetooth HCI adapter.
+[   67.808929] <31>systemd[1]: Job connman.service/start finished, result=dependency
+[   67.809173] <27>systemd[1]: Dependency failed for Connection service.
+[   67.809478] <29>systemd[1]: Unit jolla-rfkill-hciwait.service entered failed state.
+[   67.809600] <31>systemd[1]: Got SIGCHLD for process 307 (n/a)
+[   67.809875] <31>systemd[1]: Child 307 died (code=exited, status=213/SECUREBITS)
+[   67.809936] <31>systemd[1]: Child 307 belongs to systemd-user-sessions.service
+[   67.810028] <29>systemd[1]: systemd-user-sessions.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.810272] <31>systemd[1]: systemd-user-sessions.service changed start -> failed
+[   67.810577] <31>systemd[1]: Job systemd-user-sessions.service/start finished, result=failed
+[   67.811035] <27>systemd[1]: Failed to start Permit User Sessions.
+[   67.811126] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.811187] <29>systemd[1]: Unit systemd-user-sessions.service entered failed state.
+[   67.811523] <30>systemd[1]: Starting Start User Session...
+[   67.812072] <31>systemd[1]: About to execute: /usr/lib/startup/start-autologin
+[   67.812744] <31>systemd[1]: Forked /usr/lib/startup/start-autologin as 310
+[   67.813232] <31>systemd[1]: start-user-session.service changed dead -> start-pre
+[   67.813507] <30>systemd[1]: Starting Remote File Systems (Pre).
+[   67.813568] <31>systemd[1]: remote-fs-pre.target changed dead -> active
+[   67.813629] <31>systemd[1]: Job remote-fs-pre.target/start finished, result=done
+[   67.814025] <30>systemd[1]: Reached target Remote File Systems (Pre).
+[   67.814208] <31>systemd[1]: ConditionPathIsDirectory=/sys/kernel/debug/bluetooth failed for bluetooth.service.
+[   67.814270] <31>systemd[1]: Starting of bluetooth.service requested but condition failed. Ignoring.
+[   67.814331] <31>systemd[1]: Job bluetooth.service/start finished, result=done
+[   67.814392] <30>systemd[1]: Started Bluetooth service.
+[   67.814727] <30>systemd[1]: Starting Network.
+[   67.814788] <31>systemd[1]: network.target changed dead -> active
+[   67.814849] <31>systemd[1]: Job network.target/start finished, result=done
+[   67.817382] <27>systemd[310]: Failed at step SECUREBITS spawning /usr/lib/startup/start-autologin: Invalid argument
+[   67.817962] <30>systemd[1]: Reached target Network.
+[   67.818084] <30>systemd[1]: Starting Multi-User System.
+[   67.818145] <31>systemd[1]: multi-user.target changed dead -> active
+[   67.818206] <31>systemd[1]: Job multi-user.target/start finished, result=done
+[   67.818786] <30>systemd[1]: Reached target Multi-User System.
+[   67.818908] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.820861] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   67.820922] <31>systemd[1]: Trying to enqueue job systemd-udevd.service/restart/fail
+[   67.821044] <31>systemd[1]: Installed new job systemd-udevd.service/restart as 108
+[   67.821105] <31>systemd[1]: Enqueued job systemd-udevd.service/restart as 108
+[   67.821166] <31>systemd[1]: systemd-udevd.service scheduled restart job.
+[   67.821228] <30>systemd[1]: Stopping udev Kernel Device Manager...
+[   67.824890] <31>systemd[1]: systemd-udevd.service changed auto-restart -> dead
+[   67.824981] <31>systemd[1]: Job systemd-udevd.service/restart finished, result=done
+[   67.825286] <31>systemd[1]: Converting job systemd-udevd.service/restart -> systemd-udevd.service/start
+[   67.825836] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   67.825927] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   67.826721] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   67.827301] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 312
+[   67.828125] <31>systemd[1]: systemd-udevd.service changed dead -> start
+[   67.829071] <31>systemd[1]: Incoming traffic on systemd-journald.socket
+[   67.829223] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.829315] <30>systemd[1]: systemd-journald.service holdoff time over, scheduling restart.
+[   67.829376] <31>systemd[1]: Trying to enqueue job systemd-journald.service/restart/fail
+[   67.829589] <31>systemd[1]: Installed new job systemd-journald.service/restart as 111
+[   67.829681] <31>systemd[1]: Installed new job systemd-journal-flush.service/restart as 113
+[   67.829742] <31>systemd[1]: Enqueued job systemd-journald.service/restart as 111
+[   67.829772] <31>systemd[1]: systemd-journald.service scheduled restart job.
+[   67.829833] <31>systemd[1]: Job systemd-journal-flush.service/restart finished, result=done
+[   67.832275] <31>systemd[1]: Converting job systemd-journal-flush.service/restart -> systemd-journal-flush.service/start
+[   67.832458] <30>systemd[1]: Stopping Journal Service...
+[   67.832763] <31>systemd[1]: systemd-journald.service changed auto-restart -> dead
+[   67.832855] <31>systemd[1]: Job systemd-journald.service/restart finished, result=done
+[   67.833068] <31>systemd[1]: Converting job systemd-journald.service/restart -> systemd-journald.service/start
+[   67.833160] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.833251] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.833343] <30>systemd[1]: Starting Journal Service...
+[   67.834045] <31>systemd[1]: About to execute: /lib/systemd/systemd-journald
+[   67.834625] <31>systemd[1]: Forked /lib/systemd/systemd-journald as 313
+[   67.835540] <31>systemd[1]: systemd-journald.service changed dead -> running
+[   67.835662] <31>systemd[1]: Job systemd-journald.service/start finished, result=done
+[   67.836120] <27>systemd[312]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   67.839233] <27>systemd[313]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-journald: Operation not permitted
+[   67.842346] <30>systemd[1]: Started Journal Service.
+[   67.842468] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.842712] <30>systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+[   67.846588] <31>systemd[1]: About to execute: /bin/systemctl kill --kill-who=main --signal=SIGUSR1 systemd-journald.service
+[   67.847198] <31>systemd[1]: Forked /bin/systemctl as 316
+[   67.847991] <31>systemd[1]: systemd-journal-flush.service changed failed -> start
+[   67.850402] <31>systemd[1]: Accepted connection on private bus.
+[   67.853637] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.854400] <31>systemd[1]: Received SIGCHLD from PID 307 (n/a).
+[   67.854522] <31>systemd[1]: Got SIGCHLD for process 310 (n/a)
+[   67.854827] <31>systemd[1]: Child 310 died (code=exited, status=213/SECUREBITS)
+[   67.854888] <31>systemd[1]: Child 310 belongs to start-user-session.service
+[   67.854949] <29>systemd[1]: start-user-session.service: control process exited, code=exited status=213
+[   67.856292] <27>systemd[316]: Failed at step SECUREBITS spawning /bin/systemctl: Invalid argument
+[   67.859893] <31>systemd[1]: start-user-session.service got final SIGCHLD for state start-pre
+[   67.860198] <31>systemd[1]: start-user-session.service changed start-pre -> failed
+[   67.860565] <31>systemd[1]: Job start-user-session.service/start finished, result=failed
+[   67.862335] <27>systemd[1]: Failed to start Start User Session.
+[   67.862457] <29>systemd[1]: Unit start-user-session.service entered failed state.
+[   67.862609] <31>systemd[1]: Got SIGCHLD for process 312 (n/a)
+[   67.862884] <31>systemd[1]: Child 312 died (code=exited, status=206/OOM_ADJUST)
+[   67.862945] <31>systemd[1]: Child 312 belongs to systemd-udevd.service
+[   67.863037] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   67.863464] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   67.863769] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   67.866485] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   67.866607] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   67.866729] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   67.866882] <31>systemd[1]: Got SIGCHLD for process 313 (n/a)
+[   67.867187] <31>systemd[1]: Child 313 died (code=exited, status=218/CAPABILITIES)
+[   67.867248] <31>systemd[1]: Child 313 belongs to systemd-journald.service
+[   67.867340] <29>systemd[1]: systemd-journald.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.867736] <31>systemd[1]: systemd-journald.service changed running -> failed
+[   67.868041] <29>systemd[1]: Unit systemd-journald.service entered failed state.
+[   67.868133] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: no)
+[   67.868225] <31>systemd[1]: systemd-journald.socket changed running -> listening
+[   67.868377] <31>systemd[1]: systemd-journald.service changed failed -> auto-restart
+[   67.868530] <31>systemd[1]: Got SIGCHLD for process 316 (n/a)
+[   67.868804] <31>systemd[1]: Child 316 died (code=exited, status=213/SECUREBITS)
+[   67.868865] <31>systemd[1]: Child 316 belongs to systemd-journal-flush.service
+[   67.868957] <29>systemd[1]: systemd-journal-flush.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.869232] <31>systemd[1]: systemd-journal-flush.service changed start -> failed
+[   67.869506] <31>systemd[1]: Job systemd-journal-flush.service/start finished, result=failed
+[   67.870117] <27>systemd[1]: Failed to start Trigger Flushing of Journal to Persistent Storage.
+[   67.870208] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.870269] <29>systemd[1]: Unit systemd-journal-flush.service entered failed state.
+[   67.870391] <30>systemd[1]: Starting Indicate boot is done...
+[   67.870880] <31>systemd[1]: About to execute: /usr/lib/startup/init-done /run/systemd/boot-status/init-done
+[   67.871459] <31>systemd[1]: Forked /usr/lib/startup/init-done as 319
+[   67.872619] <31>systemd[1]: init-done.service changed dead -> start
+[   67.872833] <30>systemd[1]: Starting Inform dsme about runlevel change...
+[   67.873504] <31>systemd[1]: About to execute: /usr/lib/startup/runlevel-change-done USER
+[   67.874084] <31>systemd[1]: Forked /usr/lib/startup/runlevel-change-done as 320
+[   67.874877] <31>systemd[1]: runlevel-user-done.service changed dead -> start
+[   67.875091] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.876403] <30>systemd[1]: systemd-logind.service holdoff time over, scheduling restart.
+[   67.876495] <31>systemd[1]: Trying to enqueue job systemd-logind.service/restart/fail
+[   67.876739] <28>systemd[1]: Cannot add dependency job for unit sys-fs-pstore.mount, ignoring: Unit sys-fs-pstore.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-pstore.mount' for details.
+[   67.876892] <28>systemd[1]: Cannot add dependency job for unit sys-fs-cgroup-bfqio.mount, ignoring: Unit sys-fs-cgroup-bfqio.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-cgroup-bfqio.mount' for details.
+[   67.877014] <31>systemd[1]: Cannot add dependency job for unit system.mount, ignoring: Unit system.mount is masked.
+[   67.877105] <31>systemd[1]: Cannot add dependency job for unit sdcard.mount, ignoring: Unit sdcard.mount is masked.
+[   67.877532] <31>systemd[1]: Cannot add dependency job for unit usb-moded.service, ignoring: Unit usb-moded.service is masked.
+[   67.877624] <31>systemd[1]: Cannot add dependency job for unit droid-battery-monitor.service, ignoring: Unit droid-battery-monitor.service is masked.
+[   67.877990] <31>systemd[1]: Installed new job systemd-logind.service/restart as 115
+[   67.878051] <31>systemd[1]: Enqueued job systemd-logind.service/restart as 115
+[   67.878112] <31>systemd[1]: systemd-logind.service scheduled restart job.
+[   67.878234] <30>systemd[1]: Stopping Login Service...
+[   67.880798] <27>systemd[319]: Failed at step SECUREBITS spawning /usr/lib/startup/init-done: Invalid argument
+[   67.883514] <27>systemd[320]: Failed at step SECUREBITS spawning /usr/lib/startup/runlevel-change-done: Invalid argument
+[   67.890075] <31>systemd[1]: systemd-logind.service changed auto-restart -> dead
+[   67.890533] <31>systemd[1]: Job systemd-logind.service/restart finished, result=done
+[   67.890869] <31>systemd[1]: Converting job systemd-logind.service/restart -> systemd-logind.service/start
+[   67.891021] <30>systemd[1]: Starting Login Service...
+[   67.891662] <31>systemd[1]: About to execute: /lib/systemd/systemd-logind
+[   67.892333] <31>systemd[1]: Forked /lib/systemd/systemd-logind as 323
+[   67.893096] <31>systemd[1]: systemd-logind.service changed dead -> start
+[   67.895080] <31>systemd[1]: Accepted connection on private bus.
+[   67.897827] <27>systemd[323]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-logind: Operation not permitted
+[   67.899658] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.906585] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.906860] <31>systemd[1]: Received SIGCHLD from PID 316 (n/a).
+[   67.906982] <31>systemd[1]: Got SIGCHLD for process 319 (n/a)
+[   67.907257] <31>systemd[1]: Child 319 died (code=exited, status=213/SECUREBITS)
+[   67.907318] <31>systemd[1]: Child 319 belongs to init-done.service
+[   67.907409] <29>systemd[1]: init-done.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.907714] <31>systemd[1]: init-done.service changed start -> failed
+[   67.908050] <31>systemd[1]: Job init-done.service/start finished, result=failed
+[   67.908538] <27>systemd[1]: Failed to start Indicate boot is done.
+[   67.908630] <29>systemd[1]: Unit init-done.service entered failed state.
+[   67.908782] <31>systemd[1]: Got SIGCHLD for process 320 (n/a)
+[   67.909088] <31>systemd[1]: Child 320 died (code=exited, status=213/SECUREBITS)
+[   67.909149] <31>systemd[1]: Child 320 belongs to runlevel-user-done.service
+[   67.909240] <29>systemd[1]: runlevel-user-done.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.909515] <31>systemd[1]: runlevel-user-done.service changed start -> failed
+[   67.909820] <31>systemd[1]: Job runlevel-user-done.service/start finished, result=failed
+[   67.910278] <27>systemd[1]: Failed to start Inform dsme about runlevel change.
+[   67.910400] <29>systemd[1]: Unit runlevel-user-done.service entered failed state.
+[   67.910522] <31>systemd[1]: Got SIGCHLD for process 323 (n/a)
+[   67.910827] <31>systemd[1]: Child 323 died (code=exited, status=218/CAPABILITIES)
+[   67.910888] <31>systemd[1]: Child 323 belongs to systemd-logind.service
+[   67.910980] <29>systemd[1]: systemd-logind.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.911376] <31>systemd[1]: systemd-logind.service changed start -> failed
+[   67.911682] <31>systemd[1]: Job systemd-logind.service/start finished, result=failed
+[   67.912231] <27>systemd[1]: Failed to start Login Service.
+[   67.912353] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.912414] <29>systemd[1]: Unit systemd-logind.service entered failed state.
+[   67.912506] <31>systemd[1]: systemd-logind.service changed failed -> auto-restart
+[   67.912658] <30>systemd[1]: Starting Oneshot stuff for root (late run)...
+[   67.913146] <31>systemd[1]: About to execute: /usr/bin/oneshot --late
+[   67.913726] <31>systemd[1]: Forked /usr/bin/oneshot as 325
+[   67.914550] <31>systemd[1]: oneshot-root-late.service changed dead -> start
+[   67.914764] <30>systemd[1]: Starting Turn rescue passwords off...
+[   67.915374] <31>systemd[1]: About to execute: /usr/bin/rescue-password-off
+[   67.915954] <31>systemd[1]: Forked /usr/bin/rescue-password-off as 326
+[   67.916839] <31>systemd[1]: rescue-password-off.service changed dead -> start
+[   67.916961] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.918792] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   67.918914] <31>systemd[1]: Trying to enqueue job systemd-udevd.service/restart/fail
+[   67.919067] <31>systemd[1]: Installed new job systemd-udevd.service/restart as 176
+[   67.919097] <31>systemd[1]: Enqueued job systemd-udevd.service/restart as 176
+[   67.919158] <31>systemd[1]: systemd-udevd.service scheduled restart job.
+[   67.919281] <30>systemd[1]: Stopping udev Kernel Device Manager...
+[   67.921844] <27>systemd[325]: Failed at step SECUREBITS spawning /usr/bin/oneshot: Invalid argument
+[   67.924621] <27>systemd[326]: Failed at step SECUREBITS spawning /usr/bin/rescue-password-off: Invalid argument
+[   67.925292] <31>systemd[1]: systemd-udevd.service changed auto-restart -> dead
+[   67.925384] <31>systemd[1]: Job systemd-udevd.service/restart finished, result=done
+[   67.929199] <31>systemd[1]: Converting job systemd-udevd.service/restart -> systemd-udevd.service/start
+[   67.929779] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   67.929901] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   67.930694] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   67.931274] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 329
+[   67.932098] <31>systemd[1]: systemd-udevd.service changed dead -> start
+[   67.935913] <31>systemd[1]: Incoming traffic on systemd-journald.socket
+[   67.936096] <31>systemd[1]: systemd-journald.socket changed listening -> running
+[   67.936187] <30>systemd[1]: systemd-journald.service holdoff time over, scheduling restart.
+[   67.936248] <28>systemd[1]: systemd-journald.service start request repeated too quickly, refusing to start.
+[   67.936309] <31>systemd[1]: systemd-journald.service changed auto-restart -> failed
+[   67.936370] <29>systemd[1]: Unit systemd-journald.service entered failed state.
+[   67.936431] <31>systemd[1]: systemd-journald.socket got notified about service death (failed permanently: yes)
+[   67.936492] <31>systemd[1]: systemd-journald.socket changed running -> failed
+[   67.936553] <29>systemd[1]: Unit systemd-journald.socket entered failed state.
+[   67.939819] <27>systemd[329]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   67.940643] <31>systemd[1]: Accepted connection on private bus.
+[   67.942077] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.945739] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.945983] <31>systemd[1]: Received SIGCHLD from PID 325 (n/a).
+[   67.946075] <31>systemd[1]: Got SIGCHLD for process 325 (n/a)
+[   67.946350] <31>systemd[1]: Child 325 died (code=exited, status=213/SECUREBITS)
+[   67.946411] <31>systemd[1]: Child 325 belongs to oneshot-root-late.service
+[   67.946502] <29>systemd[1]: oneshot-root-late.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.946807] <31>systemd[1]: oneshot-root-late.service changed start -> failed
+[   67.947113] <31>systemd[1]: Job oneshot-root-late.service/start finished, result=failed
+[   67.950866] <27>systemd[1]: Failed to start Oneshot stuff for root (late run).
+[   67.950988] <29>systemd[1]: Unit oneshot-root-late.service entered failed state.
+[   67.951110] <31>systemd[1]: Got SIGCHLD for process 326 (n/a)
+[   67.951416] <31>systemd[1]: Child 326 died (code=exited, status=213/SECUREBITS)
+[   67.951477] <31>systemd[1]: Child 326 belongs to rescue-password-off.service
+[   67.951568] <29>systemd[1]: rescue-password-off.service: main process exited, code=exited, status=213/SECUREBITS
+[   67.951873] <31>systemd[1]: rescue-password-off.service changed start -> failed
+[   67.952301] <31>systemd[1]: Job rescue-password-off.service/start finished, result=failed
+[   67.952758] <27>systemd[1]: Failed to start Turn rescue passwords off.
+[   67.952850] <29>systemd[1]: Unit rescue-password-off.service entered failed state.
+[   67.952972] <31>systemd[1]: Got SIGCHLD for process 329 (n/a)
+[   67.953277] <31>systemd[1]: Child 329 died (code=exited, status=206/OOM_ADJUST)
+[   67.953338] <31>systemd[1]: Child 329 belongs to systemd-udevd.service
+[   67.953430] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   67.953826] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   67.954132] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   67.954589] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   67.954681] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.954742] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   67.954864] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   67.955017] <30>systemd[1]: Starting Graphical Interface.
+[   67.955047] <31>systemd[1]: graphical.target changed dead -> active
+[   67.955108] <31>systemd[1]: Job graphical.target/start finished, result=done
+[   67.955383] <30>systemd[1]: Reached target Graphical Interface.
+[   67.955505] <30>systemd[1]: Starting Stop Read-Ahead Data Collection 10s After Completed Startup.
+[   67.955566] <31>systemd[1]: systemd-readahead-done.timer: Monotonic timer elapses in 30s.
+[   67.955657] <31>systemd[1]: systemd-readahead-done.timer changed dead -> waiting
+[   67.955718] <31>systemd[1]: Job systemd-readahead-done.timer/start finished, result=done
+[   67.955810] <30>systemd[1]: Started Stop Read-Ahead Data Collection 10s After Completed Startup.
+[   67.956237] <30>systemd[1]: Startup finished in 1min 6.274s (kernel) + 1.169s (userspace) = 1min 7.443s.
+[   67.958007] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.961151] <30>systemd[1]: systemd-logind.service holdoff time over, scheduling restart.
+[   67.961242] <31>systemd[1]: Trying to enqueue job systemd-logind.service/restart/fail
+[   67.961395] <28>systemd[1]: Cannot add dependency job for unit sys-fs-pstore.mount, ignoring: Unit sys-fs-pstore.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-pstore.mount' for details.
+[   67.961517] <28>systemd[1]: Cannot add dependency job for unit sys-fs-cgroup-bfqio.mount, ignoring: Unit sys-fs-cgroup-bfqio.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-cgroup-bfqio.mount' for details.
+[   67.961639] <31>systemd[1]: Cannot add dependency job for unit system.mount, ignoring: Unit system.mount is masked.
+[   67.961730] <31>systemd[1]: Cannot add dependency job for unit sdcard.mount, ignoring: Unit sdcard.mount is masked.
+[   67.962493] <31>systemd[1]: Cannot add dependency job for unit usb-moded.service, ignoring: Unit usb-moded.service is masked.
+[   67.962615] <31>systemd[1]: Cannot add dependency job for unit droid-battery-monitor.service, ignoring: Unit droid-battery-monitor.service is masked.
+[   67.962982] <31>systemd[1]: Installed new job systemd-logind.service/restart as 179
+[   67.963073] <31>systemd[1]: Enqueued job systemd-logind.service/restart as 179
+[   67.963134] <31>systemd[1]: systemd-logind.service scheduled restart job.
+[   67.963226] <30>systemd[1]: Stopping Login Service...
+[   67.963317] <31>systemd[1]: systemd-logind.service changed auto-restart -> dead
+[   67.963745] <31>systemd[1]: Job systemd-logind.service/restart finished, result=done
+[   67.963806] <31>systemd[1]: Converting job systemd-logind.service/restart -> systemd-logind.service/start
+[   67.963928] <30>systemd[1]: Starting Login Service...
+[   67.964416] <31>systemd[1]: About to execute: /lib/systemd/systemd-logind
+[   67.964996] <31>systemd[1]: Forked /lib/systemd/systemd-logind as 331
+[   67.965820] <31>systemd[1]: systemd-logind.service changed dead -> start
+[   67.965972] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.970550] <27>systemd[331]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-logind: Operation not permitted
+[   67.971374] <31>systemd[1]: Accepted connection on private bus.
+[   67.973083] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.976562] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.979980] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.980255] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.980468] <31>systemd[1]: Received SIGCHLD from PID 329 (n/a).
+[   67.980560] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   67.980621] <28>systemd[1]: systemd-udevd.service start request repeated too quickly, refusing to start.
+[   67.980712] <31>systemd[1]: systemd-udevd.service changed auto-restart -> failed
+[   67.980804] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   67.985168] <31>systemd[1]: Accepted connection on private bus.
+[   67.985534] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   67.989166] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.989410] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.989624] <31>systemd[1]: Received SIGCHLD from PID 331 (n/a).
+[   67.989715] <31>systemd[1]: Got SIGCHLD for process 331 (n/a)
+[   67.989990] <31>systemd[1]: Child 331 died (code=exited, status=218/CAPABILITIES)
+[   67.990051] <31>systemd[1]: Child 331 belongs to systemd-logind.service
+[   67.990142] <29>systemd[1]: systemd-logind.service: main process exited, code=exited, status=218/CAPABILITIES
+[   67.990570] <31>systemd[1]: systemd-logind.service changed start -> failed
+[   67.990905] <31>systemd[1]: Job systemd-logind.service/start finished, result=failed
+[   67.991027] <27>systemd[1]: Failed to start Login Service.
+[   67.991119] <31>systemd[1]: Closed jobs progress timerfd.
+[   67.991180] <29>systemd[1]: Unit systemd-logind.service entered failed state.
+[   67.991333] <31>systemd[1]: systemd-logind.service changed failed -> auto-restart
+[   67.992584] <31>systemd[1]: Accepted connection on private bus.
+[   67.993225] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   67.993377] <30>systemd[1]: systemd-logind.service holdoff time over, scheduling restart.
+[   67.993438] <31>systemd[1]: Trying to enqueue job systemd-logind.service/restart/fail
+[   67.993621] <28>systemd[1]: Cannot add dependency job for unit sys-fs-pstore.mount, ignoring: Unit sys-fs-pstore.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-pstore.mount' for details.
+[   67.993743] <28>systemd[1]: Cannot add dependency job for unit sys-fs-cgroup-bfqio.mount, ignoring: Unit sys-fs-cgroup-bfqio.mount failed to load: Invalid argument. See system logs and 'systemctl status sys-fs-cgroup-bfqio.mount' for details.
+[   67.993835] <31>systemd[1]: Cannot add dependency job for unit system.mount, ignoring: Unit system.mount is masked.
+[   67.993957] <31>systemd[1]: Cannot add dependency job for unit sdcard.mount, ignoring: Unit sdcard.mount is masked.
+[   67.994354] <31>systemd[1]: Cannot add dependency job for unit usb-moded.service, ignoring: Unit usb-moded.service is masked.
+[   67.994476] <31>systemd[1]: Cannot add dependency job for unit droid-battery-monitor.service, ignoring: Unit droid-battery-monitor.service is masked.
+[   67.994842] <31>systemd[1]: Installed new job systemd-logind.service/restart as 240
+[   67.994934] <31>systemd[1]: Enqueued job systemd-logind.service/restart as 240
+[   67.994995] <31>systemd[1]: systemd-logind.service scheduled restart job.
+[   67.995086] <30>systemd[1]: Stopping Login Service...
+[   67.995178] <31>systemd[1]: systemd-logind.service changed auto-restart -> dead
+[   67.995239] <31>systemd[1]: Job systemd-logind.service/restart finished, result=done
+[   67.995300] <31>systemd[1]: Converting job systemd-logind.service/restart -> systemd-logind.service/start
+[   67.995391] <30>systemd[1]: Starting Login Service...
+[   67.995941] <31>systemd[1]: About to execute: /lib/systemd/systemd-logind
+[   67.996551] <31>systemd[1]: Forked /lib/systemd/systemd-logind as 333
+[   67.997344] <31>systemd[1]: systemd-logind.service changed dead -> start
+[   67.997528] <31>systemd[1]: Set up jobs progress timerfd.
+[   67.999969] <31>systemd[1]: Accepted connection on private bus.
+[   68.002929] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.004302] <31>systemd[1]: Accepted connection on private bus.
+[   68.005889] <27>systemd[333]: Failed at step CAPABILITIES spawning /lib/systemd/systemd-logind: Operation not permitted
+[   68.006713] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.007629] <31>systemd[1]: Accepted connection on private bus.
+[   68.009002] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.016326] <31>systemd[1]: Accepted connection on private bus.
+[   68.016967] <31>systemd[1]: Received SIGCHLD from PID 333 (n/a).
+[   68.017059] <31>systemd[1]: Got SIGCHLD for process 333 (n/a)
+[   68.017333] <31>systemd[1]: Child 333 died (code=exited, status=218/CAPABILITIES)
+[   68.017395] <31>systemd[1]: Child 333 belongs to systemd-logind.service
+[   68.017456] <29>systemd[1]: systemd-logind.service: main process exited, code=exited, status=218/CAPABILITIES
+[   68.017913] <31>systemd[1]: systemd-logind.service changed start -> failed
+[   68.018249] <31>systemd[1]: Job systemd-logind.service/start finished, result=failed
+[   68.018341] <27>systemd[1]: Failed to start Login Service.
+[   68.018432] <31>systemd[1]: Closed jobs progress timerfd.
+[   68.018524] <29>systemd[1]: Unit systemd-logind.service entered failed state.
+[   68.018646] <31>systemd[1]: systemd-logind.service changed failed -> auto-restart
+[   68.019592] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.023101] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.024047] <31>systemd[1]: Accepted connection on private bus.
+[   68.025238] <30>systemd[1]: systemd-logind.service holdoff time over, scheduling restart.
+[   68.025329] <28>systemd[1]: systemd-logind.service start request repeated too quickly, refusing to start.
+[   68.025421] <31>systemd[1]: systemd-logind.service changed auto-restart -> failed
+[   68.025482] <29>systemd[1]: Unit systemd-logind.service entered failed state.
+[   68.025695] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.029022] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.029937] <31>systemd[1]: Accepted connection on private bus.
+[   68.031280] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.035064] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.036010] <31>systemd[1]: Accepted connection on private bus.
+[   68.037353] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.040710] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.041625] <31>systemd[1]: Accepted connection on private bus.
+[   68.043029] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.046386] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.047302] <31>systemd[1]: Accepted connection on private bus.
+[   68.048614] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.051971] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.053222] <31>systemd[1]: Accepted connection on private bus.
+[   68.055023] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.055572] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.056488] <31>systemd[1]: Accepted connection on private bus.
+[   68.057800] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.058319] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.059234] <31>systemd[1]: Accepted connection on private bus.
+[   68.060546] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.061096] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.061981] <31>systemd[1]: Accepted connection on private bus.
+[   68.063537] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.064086] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.064971] <31>systemd[1]: Accepted connection on private bus.
+[   68.066314] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.069671] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.070587] <31>systemd[1]: Accepted connection on private bus.
+[   68.071899] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.075347] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.076293] <31>systemd[1]: Accepted connection on private bus.
+[   68.077636] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.080963] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.081329] <31>systemd[1]: Accepted connection on private bus.
+[   68.082885] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.086242] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.086608] <31>systemd[1]: Accepted connection on private bus.
+[   68.087921] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.091278] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.091644] <31>systemd[1]: Accepted connection on private bus.
+[   68.093017] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.096374] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.096740] <31>systemd[1]: Accepted connection on private bus.
+[   68.098083] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.101440] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.101806] <31>systemd[1]: Accepted connection on private bus.
+[   68.103424] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.106781] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.107147] <31>systemd[1]: Accepted connection on private bus.
+[   68.108459] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.111816] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.112243] <31>systemd[1]: Accepted connection on private bus.
+[   68.113555] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.116912] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.117309] <31>systemd[1]: Accepted connection on private bus.
+[   68.118652] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.121978] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.122650] <31>systemd[1]: Accepted connection on private bus.
+[   68.123992] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.127349] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.127716] <31>systemd[1]: Accepted connection on private bus.
+[   68.129028] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.132446] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.132812] <31>systemd[1]: Accepted connection on private bus.
+[   68.134124] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.137451] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.137817] <31>systemd[1]: Accepted connection on private bus.
+[   68.139160] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.142852] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.143218] <31>systemd[1]: Accepted connection on private bus.
+[   68.144622] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.147949] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.148315] <31>systemd[1]: Accepted connection on private bus.
+[   68.149658] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.153106] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.153472] <31>systemd[1]: Accepted connection on private bus.
+[   68.154785] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.158111] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.158477] <31>systemd[1]: Accepted connection on private bus.
+[   68.159790] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.163482] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.163848] <31>systemd[1]: Accepted connection on private bus.
+[   68.165161] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.168518] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.168884] <31>systemd[1]: Accepted connection on private bus.
+[   68.170227] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.173645] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.174041] <31>systemd[1]: Accepted connection on private bus.
+[   68.175323] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.175689] <31>systemd[1]: zramswap.service: cgroup is empty
+[   68.175933] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.176269] <31>systemd[1]: Accepted connection on private bus.
+[   68.177581] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.177917] <31>systemd[1]: droid-late-start.service: cgroup is empty
+[   68.178161] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.178497] <31>systemd[1]: Accepted connection on private bus.
+[   68.179809] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.183471] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.183837] <31>systemd[1]: Accepted connection on private bus.
+[   68.185180] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.185516] <31>systemd[1]: jolla-rfkill-hciwait.service: cgroup is empty
+[   68.185760] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.186096] <31>systemd[1]: Accepted connection on private bus.
+[   68.187408] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.187774] <31>systemd[1]: systemd-user-sessions.service: cgroup is empty
+[   68.188018] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.188354] <31>systemd[1]: Accepted connection on private bus.
+[   68.189666] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.190032] <31>systemd[1]: start-user-session.service: cgroup is empty
+[   68.190246] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.190612] <31>systemd[1]: Accepted connection on private bus.
+[   68.191894] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.195343] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.195709] <31>systemd[1]: Accepted connection on private bus.
+[   68.197052] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.200408] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.200775] <31>systemd[1]: Accepted connection on private bus.
+[   68.202117] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.202606] <31>systemd[1]: start-user-session.service: cgroup is empty
+[   68.202850] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.203216] <31>systemd[1]: Accepted connection on private bus.
+[   68.204528] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.207885] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.208251] <31>systemd[1]: Accepted connection on private bus.
+[   68.209564] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.209899] <31>systemd[1]: init-done.service: cgroup is empty
+[   68.210144] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.210479] <31>systemd[1]: Accepted connection on private bus.
+[   68.211791] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.212432] <31>systemd[1]: runlevel-user-done.service: cgroup is empty
+[   68.212707] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.213043] <31>systemd[1]: Accepted connection on private bus.
+[   68.214355] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.217712] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.219116] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.219482] <31>systemd[1]: rescue-password-off.service: cgroup is empty
+[   68.219726] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.221008] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.221374] <31>systemd[1]: oneshot-root-late.service: cgroup is empty
+[   68.221588] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.222686] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.226104] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.227081] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.230438] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.230712] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.234375] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.234649] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.651580] <30>systemd[1]: statefs.service holdoff time over, scheduling restart.
+[   68.652038] <31>systemd[1]: Trying to enqueue job statefs.service/restart/fail
+[   68.652740] <31>systemd[1]: Installed new job statefs.service/restart as 301
+[   68.653198] <31>systemd[1]: Enqueued job statefs.service/restart as 301
+[   68.653533] <31>systemd[1]: statefs.service scheduled restart job.
+[   68.654052] <30>systemd[1]: Stopping StateFS FUSE filesystem, system-wide...
+[   68.654510] <31>systemd[1]: statefs.service changed auto-restart -> dead
+[   68.654907] <31>systemd[1]: Job statefs.service/restart finished, result=done
+[   68.655303] <31>systemd[1]: Converting job statefs.service/restart -> statefs.service/start
+[   68.655914] <30>systemd[1]: Starting StateFS FUSE filesystem, system-wide...
+[   68.659942] <31>systemd[1]: About to execute: /usr/bin/statefs-prerun
+[   68.662139] <31>systemd[1]: Forked /usr/bin/statefs-prerun as 335
+[   68.663848] <31>systemd[1]: statefs.service changed dead -> start-pre
+[   68.664062] <31>systemd[1]: Set up jobs progress timerfd.
+[   68.665954] <30>systemd[1]: mce.service holdoff time over, scheduling restart.
+[   68.666076] <31>systemd[1]: Trying to enqueue job mce.service/restart/fail
+[   68.666290] <31>systemd[1]: Installed new job mce.service/restart as 304
+[   68.666381] <31>systemd[1]: Enqueued job mce.service/restart as 304
+[   68.666473] <31>systemd[1]: mce.service scheduled restart job.
+[   68.666625] <30>systemd[1]: Stopping Mode Control Entity (MCE)...
+[   68.666748] <31>systemd[1]: mce.service changed auto-restart -> dead
+[   68.666839] <31>systemd[1]: Job mce.service/restart finished, result=done
+[   68.666961] <31>systemd[1]: Converting job mce.service/restart -> mce.service/start
+[   68.667114] <30>systemd[1]: Starting Mode Control Entity (MCE)...
+[   68.667907] <31>systemd[1]: About to execute: /usr/sbin/mce --systemd
+[   68.668670] <31>systemd[1]: Forked /usr/sbin/mce as 336
+[   68.669677] <31>systemd[1]: mce.service changed dead -> start
+[   68.674377] <27>systemd[335]: Failed at step SECUREBITS spawning /usr/bin/statefs-prerun: Invalid argument
+[   68.678192] <27>systemd[336]: Failed at step SECUREBITS spawning /usr/sbin/mce: Invalid argument
+[   68.682708] <31>systemd[1]: Received SIGCHLD from PID 335 (n/a).
+[   68.682830] <31>systemd[1]: Got SIGCHLD for process 335 (n/a)
+[   68.683074] <31>systemd[1]: Child 335 died (code=exited, status=213/SECUREBITS)
+[   68.683135] <31>systemd[1]: Child 335 belongs to statefs.service
+[   68.683197] <29>systemd[1]: statefs.service: control process exited, code=exited status=213
+[   68.683593] <31>systemd[1]: statefs.service got final SIGCHLD for state start-pre
+[   68.683807] <31>systemd[1]: statefs.service changed start-pre -> failed
+[   68.684143] <31>systemd[1]: Job statefs.service/start finished, result=failed
+[   68.684234] <27>systemd[1]: Failed to start StateFS FUSE filesystem, system-wide.
+[   68.684326] <29>systemd[1]: Unit statefs.service entered failed state.
+[   68.684417] <31>systemd[1]: statefs.service changed failed -> auto-restart
+[   68.684539] <31>systemd[1]: Got SIGCHLD for process 336 (n/a)
+[   68.684783] <31>systemd[1]: Child 336 died (code=exited, status=213/SECUREBITS)
+[   68.684844] <31>systemd[1]: Child 336 belongs to mce.service
+[   68.684906] <29>systemd[1]: mce.service: main process exited, code=exited, status=213/SECUREBITS
+[   68.685302] <31>systemd[1]: mce.service changed start -> failed
+[   68.685577] <31>systemd[1]: Job mce.service/start finished, result=failed
+[   68.685668] <27>systemd[1]: Failed to start Mode Control Entity (MCE).
+[   68.685760] <31>systemd[1]: Closed jobs progress timerfd.
+[   68.685821] <29>systemd[1]: Unit mce.service entered failed state.
+[   68.685913] <31>systemd[1]: mce.service changed failed -> auto-restart
+[   68.690948] <31>systemd[1]: Accepted connection on private bus.
+[   68.691253] <31>systemd[1]: Accepted connection on private bus.
+[   68.692901] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.696380] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.697296] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.700744] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.746643] <30>systemd[1]: droid-hal-init.service holdoff time over, scheduling restart.
+[   68.746734] <31>systemd[1]: Trying to enqueue job droid-hal-init.service/restart/fail
+[   68.746887] <31>systemd[1]: Installed new job droid-hal-init.service/restart as 307
+[   68.746978] <31>systemd[1]: Installed new job systemd-udev-settle.service/start as 308
+[   68.747009] <31>systemd[1]: Installed new job systemd-udevd.service/start as 309
+[   68.747100] <31>systemd[1]: Enqueued job droid-hal-init.service/restart as 307
+[   68.747161] <31>systemd[1]: droid-hal-init.service scheduled restart job.
+[   68.747650] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   68.747772] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   68.748321] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   68.748901] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 339
+[   68.749694] <31>systemd[1]: systemd-udevd.service changed failed -> start
+[   68.749908] <30>systemd[1]: Stopping droid-hal-init...
+[   68.750030] <31>systemd[1]: droid-hal-init.service changed auto-restart -> dead
+[   68.750122] <31>systemd[1]: Job droid-hal-init.service/restart finished, result=done
+[   68.750183] <31>systemd[1]: Converting job droid-hal-init.service/restart -> droid-hal-init.service/start
+[   68.750671] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udev-settle.service.
+[   68.750793] <30>systemd[1]: Starting udev Wait for Complete Device Initialization...
+[   68.751464] <31>systemd[1]: About to execute: /bin/udevadm settle
+[   68.752014] <31>systemd[1]: Forked /bin/udevadm as 340
+[   68.754150] <27>systemd[339]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   68.755310] <31>systemd[1]: systemd-udev-settle.service changed failed -> start
+[   68.755493] <31>systemd[1]: Set up jobs progress timerfd.
+[   68.758453] <27>systemd[340]: Failed at step SECUREBITS spawning /bin/udevadm: Invalid argument
+[   68.762359] <31>systemd[1]: Received SIGCHLD from PID 340 (n/a).
+[   68.762481] <31>systemd[1]: Got SIGCHLD for process 339 (n/a)
+[   68.762725] <31>systemd[1]: Child 339 died (code=exited, status=206/OOM_ADJUST)
+[   68.762786] <31>systemd[1]: Child 339 belongs to systemd-udevd.service
+[   68.762878] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   68.763336] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   68.763671] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   68.763763] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   68.763854] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   68.767486] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   68.767700] <31>systemd[1]: Got SIGCHLD for process 340 (n/a)
+[   68.767944] <31>systemd[1]: Child 340 died (code=exited, status=213/SECUREBITS)
+[   68.768005] <31>systemd[1]: Child 340 belongs to systemd-udev-settle.service
+[   68.768066] <29>systemd[1]: systemd-udev-settle.service: main process exited, code=exited, status=213/SECUREBITS
+[   68.768402] <31>systemd[1]: systemd-udev-settle.service changed start -> failed
+[   68.768737] <31>systemd[1]: Job systemd-udev-settle.service/start finished, result=failed
+[   68.768829] <27>systemd[1]: Failed to start udev Wait for Complete Device Initialization.
+[   68.768920] <31>systemd[1]: Closed jobs progress timerfd.
+[   68.768951] <29>systemd[1]: Unit systemd-udev-settle.service entered failed state.
+[   68.769073] <30>systemd[1]: Starting droid-hal-init...
+[   68.769622] <31>systemd[1]: About to execute: /bin/sh /usr/bin/droid/droid-hal-startup.sh
+[   68.770202] <31>systemd[1]: Forked /bin/sh as 343
+[   68.770965] <31>systemd[1]: droid-hal-init.service changed dead -> start
+[   68.771148] <31>systemd[1]: Set up jobs progress timerfd.
+[   68.774871] <27>systemd[343]: Failed at step SECUREBITS spawning /bin/sh: Invalid argument
+[   68.775604] <31>systemd[1]: Accepted connection on private bus.
+[   68.775726] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   68.775787] <28>systemd[1]: systemd-udevd.service start request repeated too quickly, refusing to start.
+[   68.775878] <31>systemd[1]: systemd-udevd.service changed auto-restart -> failed
+[   68.775939] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   68.776214] <31>systemd[1]: Accepted connection on private bus.
+[   68.776702] <31>systemd[1]: Received SIGCHLD from PID 343 (n/a).
+[   68.776794] <31>systemd[1]: Got SIGCHLD for process 343 (n/a)
+[   68.777038] <31>systemd[1]: Child 343 died (code=exited, status=213/SECUREBITS)
+[   68.777099] <31>systemd[1]: Child 343 belongs to droid-hal-init.service
+[   68.777160] <29>systemd[1]: droid-hal-init.service: main process exited, code=exited, status=213/SECUREBITS
+[   68.777801] <31>systemd[1]: About to execute: /usr/bin/droid/kill-cgroup.sh /system.slice/droid-hal-init.service
+[   68.778411] <31>systemd[1]: Forked /usr/bin/droid/kill-cgroup.sh as 345
+[   68.778991] <31>systemd[1]: droid-hal-init.service changed start -> stop
+[   68.784454] <27>systemd[345]: Failed at step SECUREBITS spawning /usr/bin/droid/kill-cgroup.sh: Invalid argument
+[   68.790679] <31>systemd[1]: Accepted connection on private bus.
+[   68.791717] <31>systemd[1]: Accepted connection on private bus.
+[   68.792877] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.797058] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.800628] <31>systemd[1]: Received SIGCHLD from PID 345 (n/a).
+[   68.800720] <31>systemd[1]: Got SIGCHLD for process 345 (n/a)
+[   68.800964] <31>systemd[1]: Child 345 died (code=exited, status=213/SECUREBITS)
+[   68.801025] <31>systemd[1]: Child 345 belongs to droid-hal-init.service
+[   68.801086] <29>systemd[1]: droid-hal-init.service: control process exited, code=exited status=213
+[   68.801574] <31>systemd[1]: droid-hal-init.service got final SIGCHLD for state stop
+[   68.801818] <31>systemd[1]: droid-hal-init.service changed stop -> failed
+[   68.802154] <31>systemd[1]: Job droid-hal-init.service/start finished, result=failed
+[   68.802368] <27>systemd[1]: Failed to start droid-hal-init.
+[   68.802459] <31>systemd[1]: Closed jobs progress timerfd.
+[   68.802551] <29>systemd[1]: Unit droid-hal-init.service entered failed state.
+[   68.802612] <31>systemd[1]: droid-hal-init.service changed failed -> auto-restart
+[   68.802886] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.803497] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.808135] <31>systemd[1]: Accepted connection on private bus.
+[   68.809020] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.813049] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.816467] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.817016] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   68.817993] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   68.821502] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.685028] <30>systemd[1]: statefs.service holdoff time over, scheduling restart.
+[   69.685485] <31>systemd[1]: Trying to enqueue job statefs.service/restart/fail
+[   69.686126] <31>systemd[1]: Installed new job statefs.service/restart as 313
+[   69.686584] <31>systemd[1]: Enqueued job statefs.service/restart as 313
+[   69.686889] <31>systemd[1]: statefs.service scheduled restart job.
+[   69.687408] <30>systemd[1]: Stopping StateFS FUSE filesystem, system-wide...
+[   69.687866] <31>systemd[1]: statefs.service changed auto-restart -> dead
+[   69.688262] <31>systemd[1]: Job statefs.service/restart finished, result=done
+[   69.688659] <31>systemd[1]: Converting job statefs.service/restart -> statefs.service/start
+[   69.689239] <30>systemd[1]: Starting StateFS FUSE filesystem, system-wide...
+[   69.693328] <31>systemd[1]: About to execute: /usr/bin/statefs-prerun
+[   69.695495] <31>systemd[1]: Forked /usr/bin/statefs-prerun as 348
+[   69.697479] <31>systemd[1]: statefs.service changed dead -> start-pre
+[   69.698120] <31>systemd[1]: Set up jobs progress timerfd.
+[   69.705291] <27>systemd[348]: Failed at step SECUREBITS spawning /usr/bin/statefs-prerun: Invalid argument
+[   69.709320] <30>systemd[1]: mce.service holdoff time over, scheduling restart.
+[   69.709411] <31>systemd[1]: Trying to enqueue job mce.service/restart/fail
+[   69.709564] <31>systemd[1]: Installed new job mce.service/restart as 316
+[   69.709594] <31>systemd[1]: Enqueued job mce.service/restart as 316
+[   69.709655] <31>systemd[1]: mce.service scheduled restart job.
+[   69.709747] <30>systemd[1]: Stopping Mode Control Entity (MCE)...
+[   69.709838] <31>systemd[1]: mce.service changed auto-restart -> dead
+[   69.709899] <31>systemd[1]: Job mce.service/restart finished, result=done
+[   69.709960] <31>systemd[1]: Converting job mce.service/restart -> mce.service/start
+[   69.710052] <30>systemd[1]: Starting Mode Control Entity (MCE)...
+[   69.710632] <31>systemd[1]: About to execute: /usr/sbin/mce --systemd
+[   69.711212] <31>systemd[1]: Forked /usr/sbin/mce as 350
+[   69.711975] <31>systemd[1]: mce.service changed dead -> start
+[   69.713378] <31>systemd[1]: Accepted connection on private bus.
+[   69.713562] <31>systemd[1]: Received SIGCHLD from PID 348 (n/a).
+[   69.713653] <31>systemd[1]: Got SIGCHLD for process 348 (n/a)
+[   69.713897] <31>systemd[1]: Child 348 died (code=exited, status=213/SECUREBITS)
+[   69.713958] <31>systemd[1]: Child 348 belongs to statefs.service
+[   69.714019] <29>systemd[1]: statefs.service: control process exited, code=exited status=213
+[   69.715911] <31>systemd[1]: statefs.service got final SIGCHLD for state start-pre
+[   69.716247] <31>systemd[1]: statefs.service changed start-pre -> failed
+[   69.716644] <31>systemd[1]: Job statefs.service/start finished, result=failed
+[   69.716766] <27>systemd[1]: Failed to start StateFS FUSE filesystem, system-wide.
+[   69.716857] <29>systemd[1]: Unit statefs.service entered failed state.
+[   69.716949] <31>systemd[1]: statefs.service changed failed -> auto-restart
+[   69.717987] <27>systemd[350]: Failed at step SECUREBITS spawning /usr/sbin/mce: Invalid argument
+[   69.719024] <31>systemd[1]: Received SIGCHLD from PID 350 (n/a).
+[   69.719146] <31>systemd[1]: Got SIGCHLD for process 350 (n/a)
+[   69.719360] <31>systemd[1]: Child 350 died (code=exited, status=213/SECUREBITS)
+[   69.719421] <31>systemd[1]: Child 350 belongs to mce.service
+[   69.719512] <29>systemd[1]: mce.service: main process exited, code=exited, status=213/SECUREBITS
+[   69.719940] <31>systemd[1]: mce.service changed start -> failed
+[   69.720245] <31>systemd[1]: Job mce.service/start finished, result=failed
+[   69.720336] <27>systemd[1]: Failed to start Mode Control Entity (MCE).
+[   69.720428] <31>systemd[1]: Closed jobs progress timerfd.
+[   69.720489] <29>systemd[1]: Unit mce.service entered failed state.
+[   69.720581] <31>systemd[1]: mce.service changed failed -> auto-restart
+[   69.728149] <31>systemd[1]: Accepted connection on private bus.
+[   69.729125] <31>systemd[1]: Accepted connection on private bus.
+[   69.729461] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.733673] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.735443] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.738983] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.742462] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.742736] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.802825] <30>systemd[1]: droid-hal-init.service holdoff time over, scheduling restart.
+[   69.802978] <31>systemd[1]: Trying to enqueue job droid-hal-init.service/restart/fail
+[   69.803253] <31>systemd[1]: Installed new job droid-hal-init.service/restart as 319
+[   69.803405] <31>systemd[1]: Installed new job systemd-udev-settle.service/start as 320
+[   69.803527] <31>systemd[1]: Installed new job systemd-udevd.service/start as 321
+[   69.803710] <31>systemd[1]: Enqueued job droid-hal-init.service/restart as 319
+[   69.803802] <31>systemd[1]: droid-hal-init.service scheduled restart job.
+[   69.804626] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udevd.service.
+[   69.804840] <30>systemd[1]: Starting udev Kernel Device Manager...
+[   69.805786] <31>systemd[1]: About to execute: /lib/systemd/systemd-udevd
+[   69.806671] <31>systemd[1]: Forked /lib/systemd/systemd-udevd as 353
+[   69.807922] <31>systemd[1]: systemd-udevd.service changed failed -> start
+[   69.808258] <30>systemd[1]: Stopping droid-hal-init...
+[   69.808471] <31>systemd[1]: droid-hal-init.service changed auto-restart -> dead
+[   69.808593] <31>systemd[1]: Job droid-hal-init.service/restart finished, result=done
+[   69.808746] <31>systemd[1]: Converting job droid-hal-init.service/restart -> droid-hal-init.service/start
+[   69.809570] <31>systemd[1]: ConditionPathIsReadWrite=/sys succeeded for systemd-udev-settle.service.
+[   69.809814] <30>systemd[1]: Starting udev Wait for Complete Device Initialization...
+[   69.810943] <31>systemd[1]: About to execute: /bin/udevadm settle
+[   69.811798] <31>systemd[1]: Forked /bin/udevadm as 354
+[   69.815704] <27>systemd[353]: Failed at step OOM_ADJUST spawning /lib/systemd/systemd-udevd: No such file or directory
+[   69.819488] <31>systemd[1]: systemd-udev-settle.service changed failed -> start
+[   69.819763] <31>systemd[1]: Set up jobs progress timerfd.
+[   69.828643] <27>systemd[354]: Failed at step SECUREBITS spawning /bin/udevadm: Invalid argument
+[   69.829650] <31>systemd[1]: Received SIGCHLD from PID 353 (n/a).
+[   69.829833] <31>systemd[1]: Got SIGCHLD for process 353 (n/a)
+[   69.830230] <31>systemd[1]: Child 353 died (code=exited, status=206/OOM_ADJUST)
+[   69.830352] <31>systemd[1]: Child 353 belongs to systemd-udevd.service
+[   69.830535] <29>systemd[1]: systemd-udevd.service: main process exited, code=exited, status=206/OOM_ADJUST
+[   69.831237] <31>systemd[1]: systemd-udevd.service changed start -> failed
+[   69.831848] <31>systemd[1]: Job systemd-udevd.service/start finished, result=failed
+[   69.832031] <27>systemd[1]: Failed to start udev Kernel Device Manager.
+[   69.836181] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   69.836334] <31>systemd[1]: systemd-udevd.service changed failed -> auto-restart
+[   69.836486] <31>systemd[1]: Got SIGCHLD for process 354 (n/a)
+[   69.836730] <31>systemd[1]: Child 354 died (code=exited, status=213/SECUREBITS)
+[   69.836791] <31>systemd[1]: Child 354 belongs to systemd-udev-settle.service
+[   69.836853] <29>systemd[1]: systemd-udev-settle.service: main process exited, code=exited, status=213/SECUREBITS
+[   69.837188] <31>systemd[1]: systemd-udev-settle.service changed start -> failed
+[   69.837524] <31>systemd[1]: Job systemd-udev-settle.service/start finished, result=failed
+[   69.837615] <27>systemd[1]: Failed to start udev Wait for Complete Device Initialization.
+[   69.837707] <31>systemd[1]: Closed jobs progress timerfd.
+[   69.837768] <29>systemd[1]: Unit systemd-udev-settle.service entered failed state.
+[   69.837860] <30>systemd[1]: Starting droid-hal-init...
+[   69.838409] <31>systemd[1]: About to execute: /bin/sh /usr/bin/droid/droid-hal-startup.sh
+[   69.838989] <31>systemd[1]: Forked /bin/sh as 357
+[   69.839782] <31>systemd[1]: droid-hal-init.service changed dead -> start
+[   69.839965] <31>systemd[1]: Set up jobs progress timerfd.
+[   69.841156] <31>systemd[1]: Accepted connection on private bus.
+[   69.841339] <31>systemd[1]: Received SIGCHLD from PID 354 (n/a).
+[   69.841430] <30>systemd[1]: systemd-udevd.service holdoff time over, scheduling restart.
+[   69.841491] <28>systemd[1]: systemd-udevd.service start request repeated too quickly, refusing to start.
+[   69.841583] <31>systemd[1]: systemd-udevd.service changed auto-restart -> failed
+[   69.841644] <29>systemd[1]: Unit systemd-udevd.service entered failed state.
+[   69.841979] <31>systemd[1]: Accepted connection on private bus.
+[   69.844329] <27>systemd[357]: Failed at step SECUREBITS spawning /bin/sh: Invalid argument
+[   69.846954] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.850585] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.857879] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.858154] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.858489] <31>systemd[1]: Accepted connection on private bus.
+[   69.858642] <31>systemd[1]: Received SIGCHLD from PID 357 (n/a).
+[   69.858734] <31>systemd[1]: Got SIGCHLD for process 357 (n/a)
+[   69.858978] <31>systemd[1]: Child 357 died (code=exited, status=213/SECUREBITS)
+[   69.859039] <31>systemd[1]: Child 357 belongs to droid-hal-init.service
+[   69.859100] <29>systemd[1]: droid-hal-init.service: main process exited, code=exited, status=213/SECUREBITS
+[   69.859710] <31>systemd[1]: About to execute: /usr/bin/droid/kill-cgroup.sh /system.slice/droid-hal-init.service
+[   69.860321] <31>systemd[1]: Forked /usr/bin/droid/kill-cgroup.sh as 359
+[   69.860870] <31>systemd[1]: droid-hal-init.service changed start -> stop
+[   69.863433] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.864105] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   69.866485] <27>systemd[359]: Failed at step SECUREBITS spawning /usr/bin/droid/kill-cgroup.sh: Invalid argument
+[   69.867126] <31>systemd[1]: Received SIGCHLD from PID 359 (n/a).
+[   69.867218] <31>systemd[1]: Got SIGCHLD for process 359 (n/a)
+[   69.867462] <31>systemd[1]: Child 359 died (code=exited, status=213/SECUREBITS)
+[   69.867523] <31>systemd[1]: Child 359 belongs to droid-hal-init.service
+[   69.867584] <29>systemd[1]: droid-hal-init.service: control process exited, code=exited status=213
+[   69.867980] <31>systemd[1]: droid-hal-init.service got final SIGCHLD for state stop
+[   69.868194] <31>systemd[1]: droid-hal-init.service changed stop -> failed
+[   69.868530] <31>systemd[1]: Job droid-hal-init.service/start finished, result=failed
+[   69.868621] <27>systemd[1]: Failed to start droid-hal-init.
+[   69.868713] <31>systemd[1]: Closed jobs progress timerfd.
+[   69.868774] <29>systemd[1]: Unit droid-hal-init.service entered failed state.
+[   69.868865] <31>systemd[1]: droid-hal-init.service changed failed -> auto-restart
+[   69.872406] <31>systemd[1]: Accepted connection on private bus.
+[   69.873626] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   69.877655] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.670166] <30>systemd[1]: hd2-usb-debug.service holdoff time over, scheduling restart.
+[   70.670684] <31>systemd[1]: Trying to enqueue job hd2-usb-debug.service/restart/fail
+[   70.671264] <31>systemd[1]: Installed new job hd2-usb-debug.service/restart as 325
+[   70.671752] <31>systemd[1]: Enqueued job hd2-usb-debug.service/restart as 325
+[   70.672149] <31>systemd[1]: hd2-usb-debug.service scheduled restart job.
+[   70.672821] <30>systemd[1]: Stopping Always-on HD2 USB root rescue shell...
+[   70.673278] <31>systemd[1]: hd2-usb-debug.service changed auto-restart -> dead
+[   70.673706] <31>systemd[1]: Job hd2-usb-debug.service/restart finished, result=done
+[   70.674102] <31>systemd[1]: Converting job hd2-usb-debug.service/restart -> hd2-usb-debug.service/start
+[   70.674713] <30>systemd[1]: Starting Always-on HD2 USB root rescue shell...
+[   70.677062] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-debug
+[   70.679260] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-debug as 361
+[   70.686004] <27>systemd[361]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-debug: Invalid argument
+[   70.687042] <31>systemd[1]: hd2-usb-debug.service changed dead -> running
+[   70.687164] <31>systemd[1]: Job hd2-usb-debug.service/start finished, result=done
+[   70.687316] <30>systemd[1]: Started Always-on HD2 USB root rescue shell.
+[   70.688262] <30>systemd[1]: hd2-adbd.service holdoff time over, scheduling restart.
+[   70.688385] <31>systemd[1]: Trying to enqueue job hd2-adbd.service/restart/fail
+[   70.688537] <31>systemd[1]: Installed new job hd2-adbd.service/restart as 327
+[   70.688629] <31>systemd[1]: Enqueued job hd2-adbd.service/restart as 327
+[   70.688720] <31>systemd[1]: hd2-adbd.service scheduled restart job.
+[   70.688842] <30>systemd[1]: Stopping Always-on HD2 USB ADB...
+[   70.688964] <31>systemd[1]: hd2-adbd.service changed auto-restart -> dead
+[   70.689056] <31>systemd[1]: Job hd2-adbd.service/restart finished, result=done
+[   70.689147] <31>systemd[1]: Converting job hd2-adbd.service/restart -> hd2-adbd.service/start
+[   70.689270] <30>systemd[1]: Starting Always-on HD2 USB ADB...
+[   70.690063] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-setup
+[   70.690765] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-setup as 363
+[   70.691467] <31>systemd[1]: hd2-adbd.service changed dead -> start-pre
+[   70.691650] <31>systemd[1]: Set up jobs progress timerfd.
+[   70.700225] <27>systemd[363]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-setup: Invalid argument
+[   70.701843] <31>systemd[1]: Accepted connection on private bus.
+[   70.702087] <31>systemd[1]: Received SIGCHLD from PID 361 (n/a).
+[   70.702697] <31>systemd[1]: Got SIGCHLD for process 361 (n/a)
+[   70.702941] <31>systemd[1]: Child 361 died (code=exited, status=213/SECUREBITS)
+[   70.703002] <31>systemd[1]: Child 361 belongs to hd2-usb-debug.service
+[   70.703063] <29>systemd[1]: hd2-usb-debug.service: main process exited, code=exited, status=213/SECUREBITS
+[   70.703491] <31>systemd[1]: hd2-usb-debug.service changed running -> failed
+[   70.703857] <29>systemd[1]: Unit hd2-usb-debug.service entered failed state.
+[   70.703948] <31>systemd[1]: hd2-usb-debug.service changed failed -> auto-restart
+[   70.707855] <31>systemd[1]: Received SIGCHLD from PID 363 (n/a).
+[   70.707977] <31>systemd[1]: Got SIGCHLD for process 363 (n/a)
+[   70.708221] <31>systemd[1]: Child 363 died (code=exited, status=213/SECUREBITS)
+[   70.708282] <31>systemd[1]: Child 363 belongs to hd2-adbd.service
+[   70.708343] <29>systemd[1]: hd2-adbd.service: control process exited, code=exited status=213
+[   70.708831] <31>systemd[1]: hd2-adbd.service got final SIGCHLD for state start-pre
+[   70.709106] <31>systemd[1]: hd2-adbd.service changed start-pre -> failed
+[   70.709411] <31>systemd[1]: Job hd2-adbd.service/start finished, result=failed
+[   70.709533] <27>systemd[1]: Failed to start Always-on HD2 USB ADB.
+[   70.709625] <31>systemd[1]: Closed jobs progress timerfd.
+[   70.709686] <29>systemd[1]: Unit hd2-adbd.service entered failed state.
+[   70.709777] <31>systemd[1]: hd2-adbd.service changed failed -> auto-restart
+[   70.710113] <31>systemd[1]: Accepted connection on private bus.
+[   70.711822] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.718994] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.719360] <31>systemd[1]: Accepted connection on private bus.
+[   70.719451] <30>systemd[1]: statefs.service holdoff time over, scheduling restart.
+[   70.719512] <31>systemd[1]: Trying to enqueue job statefs.service/restart/fail
+[   70.719635] <31>systemd[1]: Installed new job statefs.service/restart as 329
+[   70.719696] <31>systemd[1]: Enqueued job statefs.service/restart as 329
+[   70.719757] <31>systemd[1]: statefs.service scheduled restart job.
+[   70.719848] <30>systemd[1]: Stopping StateFS FUSE filesystem, system-wide...
+[   70.719909] <31>systemd[1]: statefs.service changed auto-restart -> dead
+[   70.719970] <31>systemd[1]: Job statefs.service/restart finished, result=done
+[   70.720031] <31>systemd[1]: Converting job statefs.service/restart -> statefs.service/start
+[   70.720123] <30>systemd[1]: Starting StateFS FUSE filesystem, system-wide...
+[   70.721069] <31>systemd[1]: About to execute: /usr/bin/statefs-prerun
+[   70.721618] <31>systemd[1]: Forked /usr/bin/statefs-prerun as 366
+[   70.722381] <31>systemd[1]: statefs.service changed dead -> start-pre
+[   70.722564] <31>systemd[1]: Set up jobs progress timerfd.
+[   70.724395] <30>systemd[1]: mce.service holdoff time over, scheduling restart.
+[   70.724487] <31>systemd[1]: Trying to enqueue job mce.service/restart/fail
+[   70.724670] <31>systemd[1]: Installed new job mce.service/restart as 332
+[   70.724731] <31>systemd[1]: Enqueued job mce.service/restart as 332
+[   70.724761] <31>systemd[1]: mce.service scheduled restart job.
+[   70.724884] <30>systemd[1]: Stopping Mode Control Entity (MCE)...
+[   70.724945] <31>systemd[1]: mce.service changed auto-restart -> dead
+[   70.725006] <31>systemd[1]: Job mce.service/restart finished, result=done
+[   70.725067] <31>systemd[1]: Converting job mce.service/restart -> mce.service/start
+[   70.725189] <30>systemd[1]: Starting Mode Control Entity (MCE)...
+[   70.725769] <31>systemd[1]: About to execute: /usr/sbin/mce --systemd
+[   70.726348] <31>systemd[1]: Forked /usr/sbin/mce as 367
+[   70.727172] <31>systemd[1]: mce.service changed dead -> start
+[   70.728363] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.731445] <27>systemd[366]: Failed at step SECUREBITS spawning /usr/bin/statefs-prerun: Invalid argument
+[   70.734039] <27>systemd[367]: Failed at step SECUREBITS spawning /usr/sbin/mce: Invalid argument
+[   70.741821] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.742309] <31>systemd[1]: Received SIGCHLD from PID 367 (n/a).
+[   70.742401] <31>systemd[1]: Got SIGCHLD for process 366 (n/a)
+[   70.742675] <31>systemd[1]: Child 366 died (code=exited, status=213/SECUREBITS)
+[   70.742706] <31>systemd[1]: Child 366 belongs to statefs.service
+[   70.742767] <29>systemd[1]: statefs.service: control process exited, code=exited status=213
+[   70.743286] <31>systemd[1]: statefs.service got final SIGCHLD for state start-pre
+[   70.743560] <31>systemd[1]: statefs.service changed start-pre -> failed
+[   70.743865] <31>systemd[1]: Job statefs.service/start finished, result=failed
+[   70.743988] <27>systemd[1]: Failed to start StateFS FUSE filesystem, system-wide.
+[   70.744079] <29>systemd[1]: Unit statefs.service entered failed state.
+[   70.744171] <31>systemd[1]: statefs.service changed failed -> auto-restart
+[   70.744293] <31>systemd[1]: Got SIGCHLD for process 367 (n/a)
+[   70.744537] <31>systemd[1]: Child 367 died (code=exited, status=213/SECUREBITS)
+[   70.744598] <31>systemd[1]: Child 367 belongs to mce.service
+[   70.744659] <29>systemd[1]: mce.service: main process exited, code=exited, status=213/SECUREBITS
+[   70.745056] <31>systemd[1]: mce.service changed start -> failed
+[   70.745361] <31>systemd[1]: Job mce.service/start finished, result=failed
+[   70.745452] <27>systemd[1]: Failed to start Mode Control Entity (MCE).
+[   70.745513] <31>systemd[1]: Closed jobs progress timerfd.
+[   70.745605] <29>systemd[1]: Unit mce.service entered failed state.
+[   70.745697] <31>systemd[1]: mce.service changed failed -> auto-restart
+[   70.746032] <31>systemd[1]: Accepted connection on private bus.
+[   70.750427] <31>systemd[1]: Accepted connection on private bus.
+[   70.750823] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.754486] <31>systemd[1]: Accepted connection on private bus.
+[   70.755096] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.757293] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.761505] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.765350] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.765655] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   70.769073] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.769348] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   70.869079] <30>systemd[1]: droid-hal-init.service holdoff time over, scheduling restart.
+[   70.869171] <28>systemd[1]: droid-hal-init.service start request repeated too quickly, refusing to start.
+[   70.869293] <31>systemd[1]: droid-hal-init.service changed auto-restart -> failed
+[   70.869354] <29>systemd[1]: Unit droid-hal-init.service entered failed state.
+[   71.744750] <30>systemd[1]: statefs.service holdoff time over, scheduling restart.
+[   71.745178] <28>systemd[1]: statefs.service start request repeated too quickly, refusing to start.
+[   71.745635] <31>systemd[1]: statefs.service changed auto-restart -> failed
+[   71.746093] <29>systemd[1]: Unit statefs.service entered failed state.
+[   71.746520] <30>systemd[1]: mce.service holdoff time over, scheduling restart.
+[   71.746887] <28>systemd[1]: mce.service start request repeated too quickly, refusing to start.
+[   71.747344] <31>systemd[1]: mce.service changed auto-restart -> failed
+[   71.747711] <29>systemd[1]: Unit mce.service entered failed state.
+[   73.704589] <30>systemd[1]: hd2-usb-debug.service holdoff time over, scheduling restart.
+[   73.705108] <31>systemd[1]: Trying to enqueue job hd2-usb-debug.service/restart/fail
+[   73.705688] <31>systemd[1]: Installed new job hd2-usb-debug.service/restart as 335
+[   73.706176] <31>systemd[1]: Enqueued job hd2-usb-debug.service/restart as 335
+[   73.706512] <31>systemd[1]: hd2-usb-debug.service scheduled restart job.
+[   73.707031] <30>systemd[1]: Stopping Always-on HD2 USB root rescue shell...
+[   73.707519] <31>systemd[1]: hd2-usb-debug.service changed auto-restart -> dead
+[   73.707946] <31>systemd[1]: Job hd2-usb-debug.service/restart finished, result=done
+[   73.708343] <31>systemd[1]: Converting job hd2-usb-debug.service/restart -> hd2-usb-debug.service/start
+[   73.708953] <30>systemd[1]: Starting Always-on HD2 USB root rescue shell...
+[   73.711395] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-debug
+[   73.713165] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-debug as 371
+[   73.714660] <31>systemd[1]: hd2-usb-debug.service changed dead -> running
+[   73.714904] <31>systemd[1]: Job hd2-usb-debug.service/start finished, result=done
+[   73.715148] <30>systemd[1]: Started Always-on HD2 USB root rescue shell.
+[   73.717041] <30>systemd[1]: hd2-adbd.service holdoff time over, scheduling restart.
+[   73.717193] <31>systemd[1]: Trying to enqueue job hd2-adbd.service/restart/fail
+[   73.717437] <31>systemd[1]: Installed new job hd2-adbd.service/restart as 337
+[   73.717620] <31>systemd[1]: Enqueued job hd2-adbd.service/restart as 337
+[   73.717712] <31>systemd[1]: hd2-adbd.service scheduled restart job.
+[   73.717895] <30>systemd[1]: Stopping Always-on HD2 USB ADB...
+[   73.718048] <31>systemd[1]: hd2-adbd.service changed auto-restart -> dead
+[   73.718200] <31>systemd[1]: Job hd2-adbd.service/restart finished, result=done
+[   73.718322] <31>systemd[1]: Converting job hd2-adbd.service/restart -> hd2-adbd.service/start
+[   73.718536] <30>systemd[1]: Starting Always-on HD2 USB ADB...
+[   73.719696] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-setup
+[   73.720642] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-setup as 372
+[   73.721496] <31>systemd[1]: hd2-adbd.service changed dead -> start-pre
+[   73.721740] <31>systemd[1]: Set up jobs progress timerfd.
+[   73.726226] <27>systemd[371]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-debug: Invalid argument
+[   73.731414] <27>systemd[372]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-setup: Invalid argument
+[   73.736572] <31>systemd[1]: Received SIGCHLD from PID 371 (n/a).
+[   73.736694] <31>systemd[1]: Got SIGCHLD for process 371 (n/a)
+[   73.736907] <31>systemd[1]: Child 371 died (code=exited, status=213/SECUREBITS)
+[   73.736968] <31>systemd[1]: Child 371 belongs to hd2-usb-debug.service
+[   73.737060] <29>systemd[1]: hd2-usb-debug.service: main process exited, code=exited, status=213/SECUREBITS
+[   73.737487] <31>systemd[1]: hd2-usb-debug.service changed running -> failed
+[   73.737823] <29>systemd[1]: Unit hd2-usb-debug.service entered failed state.
+[   73.737945] <31>systemd[1]: hd2-usb-debug.service changed failed -> auto-restart
+[   73.738281] <31>systemd[1]: Accepted connection on private bus.
+[   73.739501] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   73.740325] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   73.740753] <31>systemd[1]: Received SIGCHLD from PID 372 (n/a).
+[   73.740844] <31>systemd[1]: Got SIGCHLD for process 372 (n/a)
+[   73.741058] <31>systemd[1]: Child 372 died (code=exited, status=213/SECUREBITS)
+[   73.741119] <31>systemd[1]: Child 372 belongs to hd2-adbd.service
+[   73.741180] <29>systemd[1]: hd2-adbd.service: control process exited, code=exited status=213
+[   73.741546] <31>systemd[1]: hd2-adbd.service got final SIGCHLD for state start-pre
+[   73.741760] <31>systemd[1]: hd2-adbd.service changed start-pre -> failed
+[   73.742065] <31>systemd[1]: Job hd2-adbd.service/start finished, result=failed
+[   73.745819] <27>systemd[1]: Failed to start Always-on HD2 USB ADB.
+[   73.745971] <31>systemd[1]: Closed jobs progress timerfd.
+[   73.746032] <29>systemd[1]: Unit hd2-adbd.service entered failed state.
+[   73.746124] <31>systemd[1]: hd2-adbd.service changed failed -> auto-restart
+[   73.746459] <31>systemd[1]: Accepted connection on private bus.
+[   73.747192] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   73.751190] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   76.738189] <30>systemd[1]: hd2-usb-debug.service holdoff time over, scheduling restart.
+[   76.738647] <31>systemd[1]: Trying to enqueue job hd2-usb-debug.service/restart/fail
+[   76.739227] <31>systemd[1]: Installed new job hd2-usb-debug.service/restart as 339
+[   76.739715] <31>systemd[1]: Enqueued job hd2-usb-debug.service/restart as 339
+[   76.740051] <31>systemd[1]: hd2-usb-debug.service scheduled restart job.
+[   76.740570] <30>systemd[1]: Stopping Always-on HD2 USB root rescue shell...
+[   76.741027] <31>systemd[1]: hd2-usb-debug.service changed auto-restart -> dead
+[   76.741455] <31>systemd[1]: Job hd2-usb-debug.service/restart finished, result=done
+[   76.741851] <31>systemd[1]: Converting job hd2-usb-debug.service/restart -> hd2-usb-debug.service/start
+[   76.742645] <30>systemd[1]: Starting Always-on HD2 USB root rescue shell...
+[   76.745025] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-debug
+[   76.747283] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-debug as 375
+[   76.750762] <31>systemd[1]: hd2-usb-debug.service changed dead -> running
+[   76.751373] <31>systemd[1]: Job hd2-usb-debug.service/start finished, result=done
+[   76.752014] <30>systemd<27>systemd[375]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-debug: Invalid argument
+[   76.756195] [1]: Started Always-on HD2 USB root rescue shell.
+[   76.757080] <30>systemd[1]: hd2-adbd.service holdoff time over, scheduling restart.
+[   76.757171] <31>systemd[1]: Trying to enqueue job hd2-adbd.service/restart/fail
+[   76.757293] <31>systemd[1]: Installed new job hd2-adbd.service/restart as 341
+[   76.757415] <31>systemd[1]: Enqueued job hd2-adbd.service/restart as 341
+[   76.757476] <31>systemd[1]: hd2-adbd.service scheduled restart job.
+[   76.757568] <30>systemd[1]: Stopping Always-on HD2 USB ADB...
+[   76.757690] <31>systemd[1]: hd2-adbd.service changed auto-restart -> dead
+[   76.757751] <31>systemd[1]: Job hd2-adbd.service/restart finished, result=done
+[   76.757843] <31>systemd[1]: Converting job hd2-adbd.service/restart -> hd2-adbd.service/start
+[   76.757965] <30>systemd[1]: Starting Always-on HD2 USB ADB...
+[   76.758666] <31>systemd[1]: About to execute: /usr/local/sbin/hd2-usb-setup
+[   76.759307] <31>systemd[1]: Forked /usr/local/sbin/hd2-usb-setup as 377
+[   76.759948] <31>systemd[1]: hd2-adbd.service changed dead -> start-pre
+[   76.760131] <31>systemd[1]: Set up jobs progress timerfd.
+[   76.768371] <27>systemd[377]: Failed at step SECUREBITS spawning /usr/local/sbin/hd2-usb-setup: Invalid argument
+[   76.769134] <31>systemd[1]: Received SIGCHLD from PID 375 (n/a).
+[   76.769287] <31>systemd[1]: Got SIGCHLD for process 375 (n/a)
+[   76.769561] <31>systemd[1]: Child 375 died (code=exited, status=213/SECUREBITS)
+[   76.769622] <31>systemd[1]: Child 375 belongs to hd2-usb-debug.service
+[   76.769714] <29>systemd[1]: hd2-usb-debug.service: main process exited, code=exited, status=213/SECUREBITS
+[   76.770233] <31>systemd[1]: hd2-usb-debug.service changed running -> failed
+[   76.770690] <29>systemd[1]: Unit hd2-usb-debug.service entered failed state.
+[   76.770812] <31>systemd[1]: hd2-usb-debug.service changed failed -> auto-restart
+[   76.771270] <31>systemd[1]: Accepted connection on private bus.
+[   76.775726] <31>systemd[1]: Received SIGCHLD from PID 377 (n/a).
+[   76.775848] <31>systemd[1]: Got SIGCHLD for process 377 (n/a)
+[   76.776062] <31>systemd[1]: Child 377 died (code=exited, status=213/SECUREBITS)
+[   76.776123] <31>systemd[1]: Child 377 belongs to hd2-adbd.service
+[   76.776184] <29>systemd[1]: hd2-adbd.service: control process exited, code=exited status=213
+[   76.776702] <31>systemd[1]: hd2-adbd.service got final SIGCHLD for state start-pre
+[   76.776947] <31>systemd[1]: hd2-adbd.service changed start-pre -> failed
+[   76.777252] <31>systemd[1]: Job hd2-adbd.service/start finished, result=failed
+[   76.777374] <27>systemd[1]: Failed to start Always-on HD2 USB ADB.
+[   76.777465] <31>systemd[1]: Closed jobs progress timerfd.
+[   76.777557] <29>systemd[1]: Unit hd2-adbd.service entered failed state.
+[   76.777648] <31>systemd[1]: hd2-adbd.service changed failed -> auto-restart
+[   76.777984] <31>systemd[1]: Accepted connection on private bus.
+[   76.779663] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   76.786895] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   76.787261] <31>systemd[1]: Accepted connection on private bus.
+[   76.788238] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   76.792022] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   76.793273] <31>systemd[1]: Got D-Bus request: org.freedesktop.systemd1.Agent.Released() on /org/freedesktop/systemd1/agent
+[   76.796783] <31>systemd[1]: Got D-Bus request: org.freedesktop.DBus.Local.Disconnected() on /org/freedesktop/DBus/Local
+[   79.771057] <30>systemd[1]: hd2-usb-debug.service holdoff time over, scheduling restart.
+[   79.771514] <28>systemd[1]: hd2-usb-debug.service start request repeated too quickly, refusing to start.
+[   79.772033] <31>systemd[1]: hd2-usb-debug.service changed auto-restart -> failed
+[   79.772613] <29>systemd[1]: Unit hd2-usb-debug.service entered failed state.
+[   79.777801] <30>systemd[1]: hd2-adbd.service holdoff time over, scheduling restart.
+[   79.778198] <28>systemd[1]: hd2-adbd.service start request repeated too quickly, refusing to start.
+[   79.778656] <31>systemd[1]: hd2-adbd.service changed auto-restart -> failed
+[   79.779022] <29>systemd[1]: Unit hd2-adbd.service entered failed state.
+[   89.094604] [USB] hsusb: ONLINE -> RESET
+[   89.094635] [USB] msm_hsusb: disable pullup
+[   89.094665] [USB] hsusb: reset controller
+[   89.132202] msm_hsusb_phy_reset
+[   89.132537] [USB] usb_ept_queue_xfer() called while offline

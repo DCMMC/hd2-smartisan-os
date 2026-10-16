@@ -1,0 +1,18 @@
+{
+  "zip": "out/hd2-sailfish-2.0.1.11-alpha3-SD.zip",
+  "bytes": 450058999,
+  "sha256": "e55fa211867b659f83779a32a11361dc6e9e34e11f6ee8c273022a66bd223c54",
+  "zip_crc_passed": true,
+  "user_confirmed": [
+    "display",
+    "touch",
+    "swipe",
+    "sound",
+    "vibration"
+  ],
+  "known_broken": [
+    "Wi-Fi",
+    "camera"
+  ],
+  "cold_boot_of_repacked_image": false
+}

@@ -1,0 +1,31 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /etc/pulse/arm_droid_default.pa
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/pulse/arm_droid_default.pa /etc/pulse/arm_droid_default.pa
+Allocated inode: 610
+debugfs: sif /etc/pulse/arm_droid_default.pa uid 0
+debugfs: sif /etc/pulse/arm_droid_default.pa gid 0
+debugfs: rm /usr/share/ngfd/plugins.d/resource.ini
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/share/ngfd/plugins.d/resource.ini /usr/share/ngfd/plugins.d/resource.ini
+Allocated inode: 15963
+debugfs: sif /usr/share/ngfd/plugins.d/resource.ini uid 0
+debugfs: sif /usr/share/ngfd/plugins.d/resource.ini gid 0
+debugfs: rm /system/build.prop
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/build.prop /system/build.prop
+Allocated inode: 2352
+debugfs: sif /system/build.prop uid 0
+debugfs: sif /system/build.prop gid 0
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+Allocated inode: 1574
+debugfs: sif /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko uid 0
+debugfs: sif /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko gid 0
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: sif /etc/hd2-build-status.json uid 0
+debugfs: sif /etc/hd2-build-status.json gid 0

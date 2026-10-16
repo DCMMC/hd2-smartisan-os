@@ -1,0 +1,11 @@
+{
+  "input_sha256": "324b7b78070f946c2f42957f9a47a321fe2324fde84391725b4cca8221a05517",
+  "output_sha256": "7fd738c435f58a3eec469f2c8752e5e14ccc148e0c12b5530e5fdf2c20780e1c",
+  "compare_call_sites": [
+    "0x10604",
+    "0x106b4",
+    "0x106dc"
+  ],
+  "selector_address": "0x136c4",
+  "selector_bytes": 28
+}

@@ -1,0 +1,91 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/kineto_gan.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/kineto_gan.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/kineto_gan.ko
+Allocated inode: 1569
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/kineto_gan.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/msm_rmnet.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/msm_rmnet.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/msm_rmnet.ko
+Allocated inode: 1570
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/msm_rmnet.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/tun.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/tun.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/tun.ko
+Allocated inode: 1571
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/tun.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko
+Allocated inode: 1574
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/cifs/cifs.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/cifs/cifs.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/cifs/cifs.ko
+Allocated inode: 1577
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/cifs/cifs.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/fuse/fuse.ko
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/fuse/fuse.ko /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/fuse/fuse.ko
+Allocated inode: 1579
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/kernel/fs/fuse/fuse.ko mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.alias /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias
+Allocated inode: 1580
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias.bin
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.alias.bin /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias.bin
+Allocated inode: 1581
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.alias.bin mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.alias.bin
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.alias.bin /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.alias.bin
+Allocated inode: 1582
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.alias.bin mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.bin
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.bin /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.bin
+Allocated inode: 1583
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.builtin.bin mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.dep /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep
+Allocated inode: 1584
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep.bin
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.dep.bin /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep.bin
+Allocated inode: 1585
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.dep.bin mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.devname
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.devname /lib/modules/2.6.32_tytung_jellybean_r2/modules.devname
+Allocated inode: 1586
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.devname mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.order
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.order /lib/modules/2.6.32_tytung_jellybean_r2/modules.order
+Allocated inode: 1587
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.order mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.softdep
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.softdep /lib/modules/2.6.32_tytung_jellybean_r2/modules.softdep
+Allocated inode: 1588
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.softdep mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols
+Allocated inode: 1589
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols.bin
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols.bin /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols.bin
+Allocated inode: 1590
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.symbols.bin mode 0100644
+debugfs: rm /lib/modules/2.6.32_tytung_jellybean_r2/modules.weakdep
+
+debugfs: write out/sailfish-kernel-experimental/lib/modules/2.6.32_tytung_jellybean_r2/modules.weakdep /lib/modules/2.6.32_tytung_jellybean_r2/modules.weakdep
+Allocated inode: 1591
+debugfs: set_inode_field /lib/modules/2.6.32_tytung_jellybean_r2/modules.weakdep mode 0100644

@@ -1,0 +1,10 @@
+** /dev/block/mmcblk0p1
+** Phase 1 - Read and Compare FATs
+Attempting to allocate 1664 KB for FAT
+Attempting to allocate 1664 KB for FAT
+** Phase 2 - Check Cluster Chains
+** Phase 3 - Checking Directories
+** Phase 4 - Checking for Lost Files
+Free space in FSInfo block (188672) not correct (188707)
+Fix? yes
+127 files, 1844320 free (188707 clusters)

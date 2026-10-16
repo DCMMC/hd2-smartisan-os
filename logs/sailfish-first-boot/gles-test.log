@@ -1,0 +1,19 @@
+HOOKS hooks.c:1691 (get_hooked_symbol) DEBUG: __pthread_gettid -2
+
+EGL eglplatform_fbdev.cpp:36 (void fbdevws_init_module(ws_egl_interface*)) DEBUG: ** framebuffer_open: status=(Success) format=x2
+EGL eglplatform_fbdev.cpp:43 (void fbdevws_init_module(ws_egl_interface*)) DEBUG: ** gralloc_open 0x4065b004 status=Success
+EGL nativewindowbase.cpp:86 (BaseNativeWindow::BaseNativeWindow()) DEBUG: this=0x29448 or A 0x2944c
+EGL fbdev_window.cpp:487 (virtual int FbDevNativeWindow::setBufferCount(int)) DEBUG: cnt=2
+EGL nativewindowbase.cpp:148 (static void BaseNativeWindow::_incRef(android_native_base_t*)) DEBUG: 0x29448 refcount = 1
+EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_API_CONNECT
+EGL nativewindowbase.cpp:369 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: api connect
+EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFERS_FORMAT
+EGL fbdev_window.cpp:475 (virtual int FbDevNativeWindow::setBuffersFormat(int)) DEBUG: format=x1 m_allocateBuffers=1
+EGL fbdev_window.cpp:123 (virtual int FbDevNativeWindow::setSwapInterval(int)) DEBUG: interval=1
+EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x2944c 2 NATIVE_WINDOW_FORMAT 0xbe95faac
+EGL fbdev_window.cpp:383 (virtual unsigned int FbDevNativeWindow::format() const) DEBUG: format=x2
+EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFERS_FORMAT
+EGL fbdev_window.cpp:475 (virtual int FbDevNativeWindow::setBuffersFormat(int)) DEBUG: format=x0 m_allocateBuffers=1
+EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_API_DISCONNECT
+EGL nativewindowbase.cpp:372 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: api disconnect
+test_glesv2: test_glesv2.c:116: main: Assertion `eglGetError() == 0x3000' failed.

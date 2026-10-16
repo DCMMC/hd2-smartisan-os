@@ -1,0 +1,7 @@
+0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989  /system/framework/core.jar
+37ccaabf61dc732ec77af6816d8ba26e60527e8835ef16e6eaf66ed85b2c1220  /system/lib/libhwui.so
+2a0b22a2fa0c5ee52d571e9925931d1c5bee1a3488963f30ce4588d9acc920e3  /system/lib/libcamera.so
+system    10718 10688 417432 45408 ffffffff 40048790 S system_server
+u0_a1     11061 10688 452508 67044 ffffffff 40048790 S com.smartisanos.launcher
+u0_a72    11399 10688 387784 59184 ffffffff 40048790 S com.smartisanos.setupwizard
+stopped

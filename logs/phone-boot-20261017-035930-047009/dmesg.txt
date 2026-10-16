@@ -1,0 +1,463 @@
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 2.6.32_tytung_jellybean_r2 (DCMMC@DCMMC) (gcc version 4.4.3 (GCC) ) #1 PREEMPT Sat Oct 17 01:19:04 CST 2026
+[    0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c53c7f
+[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+[    0.000000] Machine: htcleo
+[    0.000000] Ignoring unrecognised tag 0x00000000
+[    0.000000] Nand Boot: 1
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 124864
+[    0.000000] free_area_init_node: node 0, pgdat c065f21c, node_mem_map c0aad000
+[    0.000000]   Normal zone: 512 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 65024 pages, LIFO batch:15
+[    0.000000]   HighMem zone: 464 pages used for memmap
+[    0.000000]   HighMem zone: 58864 pages, LIFO batch:15
+[    0.000000] allocating 33554432 bytes at c0e83000 (12683000 physical) for sf pmem arena
+[    0.000000] allocating 42991616 bytes at c2e83000 (14683000 physical) for adsp pmem arena
+[    0.000000] ram_console: found existing buffer, size 25508, start 25508
+[    0.000000] console [ram0] enabled
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 123888
+[    0.000000] Kernel command line: rel_path=HD2-SF
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Memory: 256MB 231MB = 487MB total
+[    0.000000] Memory: 411208KB available (5844K code, 1836K data, 408K init, 237312K highmem)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:332
+[    0.000000] $$$ msm_timer_init $$$
+[    0.000000]  1DIV = 00000003
+[    0.000000]  2DIV = 00000003
+[    0.000000] Console: colour dummy device 80x30
+[    0.000000] console [tty0] enabled
+[    0.000000] ram_console_early_init: already initialized, bailing out
+[    0.000000] Calibrating delay loop... 663.55 BogoMIPS (lpj=3317760)
+[    0.239166] Mount-cache hash table entries: 512
+[    0.239501] Initializing cgroup subsys debug
+[    0.239532] Initializing cgroup subsys cpuacct
+[    0.239562] Initializing cgroup subsys devices
+[    0.239562] Initializing cgroup subsys freezer
+[    0.239624] CPU: Testing write buffer coherency: ok
+[    0.239959] devtmpfs: initialized
+[    0.240997] regulator: core version 0.5
+[    0.241180] NET: Registered protocol family 16
+[    0.241607] htcleo_init()
+[    0.242645] Max ACPU freq from efuse data is 1190400 KHz
+[    1.114196] init_dex_comm: WinCE DEX init.
+[    1.114257] init_dex_comm: WinCE DEX initialized.
+[    1.114288] PLL0 @ f8005300: MODE=00000007 L=0000000c M=00000004 N=00000005 freq=245760000 Hz (245 MHz)
+[    1.114349] PLL1 @ f8005320: MODE=00000007 L=00000028 M=00000000 N=00000001 freq=768000000 Hz (768 MHz)
+[    1.114410] PLL4 @ f8005380: MODE=00000000 L=0000000f M=00000000 N=00000001 freq=288000000 Hz (288 MHz)
+[    1.114440] PLL5 @ f80053a0: MODE=00000000 L=00000032 M=00000000 N=00000001 freq=960000000 Hz (960 MHz)
+[    1.114501] PCB XC: 00000004
+[    1.114532] AMSS version: 15.42.50.11U
+[    1.114807] register analog ops = c062fed0
+[    1.114837] [HS_MGR] (headset_notifier_register) Register MIC_BIAS notifier
+[    1.114868] /proc/mic_level created
+[    1.215728] Init Panel
+[    1.215759] panel type is 10 :board id is 4 : SHARP
+[    1.216156] htcleo_init_mmc()+
+[    1.216308] htcleo_init_mmc()-
+[    1.220886] bio: create slab <bio-0> at 0
+[    1.221588] mdp_probe: initialized
+[    1.221832] msm_i2c_probe
+[    1.221954] msm_i2c_probe: clk_ctl 315, 400000 Hz
+[    1.222229] regulator: VDCDC1: 800 <--> 1375 mV 
+[    1.222320] regulator: VDCDC2: 1260 mV 
+[    1.222442] regulator: VDCDC3: 800 <--> 3300 mV 
+[    1.222534] regulator: LDO1: 1000 <--> 3150 mV 
+[    1.222625] regulator: LDO2: 3300 mV 
+[    1.223510] Bluetooth: Core ver 2.15
+[    1.223693] NET: Registered protocol family 31
+[    1.223724] Bluetooth: HCI device and connection manager initialized
+[    1.223754] Bluetooth: HCI socket layer initialized
+[    1.223968] cfg80211: Using static regulatory domain info
+[    1.223999] cfg80211: Regulatory domain: US
+[    1.223999] 	(start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[    1.224060] 	(2402000 KHz - 2472000 KHz @ 40000 KHz), (600 mBi, 2700 mBm)
+[    1.224090] 	(5170000 KHz - 5190000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    1.224121] 	(5190000 KHz - 5210000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    1.224151] 	(5210000 KHz - 5230000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    1.224182] 	(5230000 KHz - 5330000 KHz @ 40000 KHz), (600 mBi, 2300 mBm)
+[    1.224212] 	(5735000 KHz - 5835000 KHz @ 40000 KHz), (600 mBi, 3000 mBm)
+[    1.224273] cfg80211: Calling CRDA for country: US
+[    1.224487] Switching to clocksource gp_timer
+[    1.225372] spi clk = 0x0
+[    1.225402] spi: SPI_CONFIG=88
+[    1.225433] spi: SPI_IO_CONTROL=401
+[    1.225463] spi: SPI_OPERATIONAL=85
+[    1.225463] spi: SPI_ERROR_FLAGS_EN=7f
+[    1.225494] spi: SPI_ERROR_FLAGS=0
+[    1.225524] -msm_spi_probe()
+[    1.225891] NET: Registered protocol family 2
+[    1.226074] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    1.226440] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    1.226623] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+[    1.226715] TCP: Hash tables configured (established 8192 bind 8192)
+[    1.226745] TCP reno registered
+[    1.226928] NET: Registered protocol family 1
+[    1.227172] Trying to unpack rootfs image as initramfs...
+[    1.278106] Freeing initrd memory: 688K
+[    1.278320] smd_init()
+[    1.278320] smd_core_init()
+[    1.278411] smd_core_init() done
+[    1.278442] msm_init_last_radio_log: could not retrieve SMEM_CLKREGIM_BSP
+[    1.278564] smd_alloc_channel() cid=00 size=08192 'SMD_DS'
+[    1.278686] smd_alloc_channel() cid=01 size=32768 'SMD_DIAG'
+[    1.278778] smd_alloc_channel() cid=02 size=08192 'SMD_RPCCALL'
+[    1.278869] smd_alloc_channel() cid=05 size=08192 'SMD_CONTROL'
+[    1.278961] smd_alloc_channel() cid=07 size=32768 'SMD_DATA1'
+[    1.279052] smd_alloc_channel() cid=08 size=32768 'SMD_DATA2'
+[    1.279144] smd_alloc_channel() cid=09 size=32768 'SMD_DATA3'
+[    1.279205] smd_alloc_channel() cid=11 size=32768 'SMD_DATA5'
+[    1.279296] smd_alloc_channel() cid=12 size=32768 'SMD_DATA6'
+[    1.279388] smd_alloc_channel() cid=13 size=32768 'SMD_DATA7'
+[    1.279479] smd_alloc_channel() cid=15 size=08192 'SMD_DATA9'
+[    1.279571] smd_alloc_channel() cid=27 size=08192 'SMD_GPSNMEA'
+[    1.279693] smd_alloc_channel() cid=40 size=08192 'DSP_DIAG'
+[    1.279754] smd_alloc_v2: cid 41 does not exist
+[    1.279785] smd_alloc_v1: cid 41 does not exist
+[    1.279815] smd_alloc_channel() cid=42 size=08192 'DSP_DAL_AQ_VID'
+[    1.279907] smd_alloc_channel() cid=43 size=08192 'DSP_DAL_AQ_AUD'
+[    1.279998] smd_alloc_channel() cid=46 size=08192 'DSP_DAL00'
+[    1.280090] smd_alloc_v2: cid 47 does not exist
+[    1.280120] smd_alloc_v1: cid 47 does not exist
+[    1.280151] smd_alloc_channel() cid=48 size=08192 'SMD_DAL00'
+[    1.280731] _smem_log_init: no power log or log_idx allocated, smem_log disabled
+[    1.281188] RPC Probe
+[    1.281433] RPC Init done
+[    1.281463] SMD: ch 2 0 -> 1
+[    1.281585] Init amss parameters, found AMSS: 1550
+[    1.281646] SMD: ch 2 1 -> 2
+[    1.282470] Acquire 'boot-time' halt_lock
+[    1.282867] Registered led device: button-backlight
+[    1.924957] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+[    1.925018] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+[    1.925079] msm_i2c msm_i2c.0: error, status 43c8 (34)
+[    1.925109] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+[    1.925720] input: htcleo-touchscreen as /devices/virtual/input/input0
+[    1.925842] leo_touch_name 0-0000: Start touchscreen htcleo-touchscreen
+[    1.926300] htcleo_wifi_init: start
+[    1.927825] htcleo-microp 0-0066: microp version [05][14]
+[    1.931365] htcleo-microp 0-0066: Init Done
+[    1.931549] capella_cm3602_probe: probe
+[    1.931732] input: proximity as /devices/virtual/input/input1
+[    1.932281] htcleo_backlight_probe: HTCLeo Backlight connect with microP: Probe
+[    1.932403] Registered led device: lcd-backlight
+[    1.933685] BTN-BCKM: Registering btn manager...
+[    1.933959] Registered led device: flashlight
+[    1.933990] flashlight_probe: The Flashlight Driver is ready
+[    1.934112] HTC Battery Probe
+[    1.934143] batt: init over voltage interrupt detection. at 1069655797 (1970-01-01 00:00:01.069625279 UTC)
+[    1.934265] htc_battery_core_probe
+[    1.934631] [USB] msm_hsusb_set_vbus_state: 1
+[    1.934844] [HS_MGR] (htc_35mm_probe) ++++++++++++++++++++
+[    1.935516] input: h2w headset as /devices/virtual/input/input2
+[    1.935668] [HS_MGR] (htc_35mm_probe) --------------------
+[    1.935821] [HS_GPIO] (audiojack_probe) ++++++++++++++++++++
+[    1.935913] DET IRQ Registered!
+[    1.935974] MIC IRQ Registered!
+[    1.936004] [HS_MGR] (headset_notifier_register) Register MIC_STATUS notifier
+[    1.936035] [HS_MGR] (headset_notifier_register) Register KEY_INT_ENABLE notifier
+[    1.936065] [HS_GPIO] (audiojack_probe) --------------------
+[    1.936431] audit: initializing netlink socket (disabled)
+[    1.936523] type=2000 audit(1.070:1): initialized
+[    1.945312] highmem bounce pool size: 64 pages
+[    1.945617] ashmem: initialized
+[    1.947387] Btrfs loaded
+[    1.947418] yaffs: yaffs built Oct 17 2026 01:19:03 Installing.
+[    1.947479] msgmni has been set to 342
+[    1.950744] alg: No test for stdrng (krng)
+[    1.950836] io scheduler noop registered
+[    1.950866] io scheduler anticipatory registered
+[    1.950897] io scheduler deadline registered
+[    1.951019] io scheduler cfq registered (default)
+[    1.951660] clock-wince: pc_clk_set_rate: id=42 rate=24576000
+[    1.951690] clock-wince: set mdns: 42, 24576000; bitidx=0, offset=0, ns=0
+[    1.951721] set_mdns_host_clock: FIXME! Don't know how to set clock 42 - no known Md/Ns reg
+[    1.951751] clock-wince: pc_clk_set_rate: id=43 rate=24576000
+[    1.951782] clock-wince: set mdns: 43, 24576000; bitidx=0, offset=0, ns=0
+[    1.951843] set_mdns_host_clock: FIXME! Don't know how to set clock 43 - no known Md/Ns reg
+[    1.952362] msmfb_probe() installing 480 x 800 panel
+[    1.952667] load_565rle_image: Can not open /logo.rle
+[    1.952697] mdp_lcdc_probe: initialized
+[    1.960662] kgsl kgsl-3d0: |kgsl_gpummu_init| MMU type set for device is GPUMMU
+[    1.961151] msm_serial_hs.0: ttyHS0 at MMIO 0xa0200000 (irq = 44) is a MSM HS UART
+[    1.961578] msm_serial_hs module loaded
+[    1.966339] brd: module loaded
+[    1.968658] loop: module loaded
+[    1.968780] pmem: Initializing pmem (user-space) as cached
+[    1.969696] pmem: Initializing pmem_adsp (user-space) as non-cached
+[    1.970672] pmem: Initializing pmem_venc (user-space) as non-cached
+[    1.971221] Android kernel panic handler initialized (bind=kpanic)
+[    1.971343] spi_bma150_probe: G-sensor connect with microP: start initial, kvalue = 0x0
+[    2.004577] __spi_bma150_set_mode: BMA get into SLEEP mode!
+[    2.006561] msm_nand: allocated dma buffer at ffa4d000, dma_addr 21300000
+[    2.006713] status: c03120
+[    2.006713] nandid: 5501b3ec maker ec device b3
+[    2.006744] Found a supported NAND device
+[    2.006774] NAND Id  : 0xB3EC
+[    2.006774] Buswidth : 16 Bits 
+[    2.006805] Density  : 1024 MByte
+[    2.006835] Pagesize : 2048 Bytes
+[    2.006835] Erasesize: 131072 Bytes
+[    2.006866] Oobsize  : 64 Bytes
+[    2.006958] msm_nand: read CFG0 = aa5400c0, CFG1 = 6744e
+[    2.006988] CFG0 Old: 0xaa5400c0 
+[    2.007019] CFG1 Old: 0x0006744e 
+[    2.007019] CFG0 Init  : 0xea5400c0 
+[    2.007049] CFG1 Init  : 0x0006744e 
+[    2.007080] CFG0: cw/page=3 ud_sz=512 ecc_sz=10 spare_sz=4 num_addr_cycles=5
+[    2.007171] DEV_CMD1: f00f3000
+[    2.007263] <6>NAND_EBI2_ECC_BUF_CFG: 1ff
+[    2.007537] Device WiFi MAC Address: macaddr=<MAC-REDACTED>
+[    2.007568] 
+[    2.007843] Device Bluetooth MAC Address: <MAC-REDACTED>
+[    2.007873] #MTD# parts in atag = 8
+[    2.007904] Creating 8 MTD partitions on "msm_nand":
+[    2.007934] 0x000004320000-0x000005520000 : "namss"
+[    2.027770] 0x000005520000-0x000006320000 : "nqdsp"
+[    2.043609] 0x000006320000-0x000006b20000 : "nefs2"
+[    2.052703] 0x000006b20000-0x000006ca0000 : "nspl"
+[    2.054931] 0x000006ca0000-0x00003f800000 : ""
+[    2.087341] ###BAD BLOCK 1109 08AA0000###
+[    2.095581] ###BAD BLOCK 1171 09260000###
+[    2.145263] ###BAD BLOCK 1542 0C0C0000###
+[    2.216461] ###BAD BLOCK 2073 10320000###
+[    2.233520] ###BAD BLOCK 2199 112E0000###
+[    2.485382] ###BAD BLOCK 4096 20000000###
+[    2.589477] ###BAD BLOCK 4879 261E0000###
+[    2.892822] ###BAD BLOCK 7161 37F20000###
+[    3.022125] 0x00003f800000-0x00003f900000 : "htceblogs"
+[    3.023834] 0x00003f900000-0x00003f980000 : "apps"
+[    3.025024] 0x00003f980000-0x000040000000 : "htcmisc"
+[    3.032714] PPP generic driver version 2.4.2
+[    3.032989] PPP Deflate Compression module registered
+[    3.033020] PPP BSD Compression module registered
+[    3.033874] PPP MPPE Compression module registered
+[    3.033905] NET: Registered protocol family 24
+[    3.033996] PPPoL2TP kernel driver, V1.0
+[    3.034027] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+[    3.034881] [USB] msm72k_probe
+[    3.034912] [USB] accessory detect 0
+[    3.034942] [USB] id_pin_gpio 0
+[    3.034942] [USB] dock detect 0
+[    3.034973] [USB] dock pin gpio 0
+[    3.035034] [USB] msm72k_probe() io=d0860000, irq=58, dma=ffb4d000(212e5000)
+[    3.035675] android init
+[    3.035766] android_probe pdata: c062c300
+[    3.035888] android_bind
+[    3.035888] android_bind_config
+[    3.035919] android_usb gadget: android_usb ready
+[    3.035949] [USB] msm72k_udc: registered gadget driver 'android_usb'
+[    3.036041] f_adb init
+[    3.036071] android_register_function adb
+[    3.036071] f_mass_storage init
+[    3.036102] android_register_function usb_mass_storage
+[    3.036132] f_rndis init
+[    3.036254] android_register_function rndis
+[    3.036285] rndis_function_bind_config MAC: <MAC-REDACTED>
+[    3.036315] android_usb gadget: using random self ethernet address
+[    3.036376] android_usb gadget: using random host ethernet address
+[    3.036743] usb0: MAC <MAC-REDACTED>
+[    3.036773] usb0: HOST MAC <MAC-REDACTED>
+[    3.036895] mass_storage_bind_config
+[    3.037017] fsg_probe pdata: c062d678
+[    3.037353] [USB] hsusb: IDLE -> ONLINE
+[    3.037384] [USB] lpm exit
+[    3.037414] [USB] hsusb: reset controller
+[    3.037445] android_usb gadget: Number of LUNs=1
+[    3.037475] adb_bind_config
+[    3.037933] usb: product_id=0xc02
+[    3.038604] GPIO Matrix Keypad Driver: Start keypad matrix for htcleo-keypad in interrupt mode
+[    3.038757] GPIO Input Driver: Start gpio inputs for htcleo-keypad in interrupt mode
+[    3.039001] input: htcleo-keypad as /devices/virtual/input/input3
+[    3.039733] using input dev h2w headset for key reset
+[    3.039794] using input dev htcleo-keypad for key reset
+[    3.040191] RTC: Init MSM RTC Clock
+[    3.040618] using rtc device, msm_rtc, for alarms
+[    3.040649] rs30000048:00010000 rs30000048:00010000: rtc core: registered msm_rtc as rtc0
+[    3.040740] AKM8973 compass driver: init
+[    3.041351] input: compass as /devices/virtual/input/input4
+[    3.041900] [FLT]adp1650 Led Flash driver: init
+[    3.041961] Linux video capture interface: v2.00
+[    3.042572] sctrl.node 0
+[    3.042602] s5k3e2fx_sensor_probe
+[    3.074890] msm_hsusb_phy_reset
+[    3.284912] [USB] ulpi: write 0x0c to 0x31
+[    3.284942] [USB] ulpi: write 0x30 to 0x32
+[    3.284973] [USB] ulpi: write 0x1d to 0x0d
+[    3.285003] [USB] ulpi: write 0x1d to 0x10
+[    3.285034] [USB] handle_notify_offline: notify offline
+[    3.285064] [USB] msm_hsusb: enable pullup
+[    3.288116] [USB] suspend
+[    3.304901] [USB] not AC charger
+[    3.390991] [USB] reset
+[    3.391021] [USB] send connect type 1
+[    3.391052] fsg_set_ums_state: 1
+[    3.391052] ums: set state 1
+[    3.391143] batt:online=1
+[    3.393249] [USB] portchange USB_SPEED_HIGH
+[    3.476226] s5k3e2fx:kobject creat and add
+[    3.476287] s5k3e2fx:sysfs_create_file
+[    3.476318] s5k3e2fx:sysfs_create_file
+[    3.477386] [ds2746_batt]ds2746_battery_init
+[    3.477447] /proc/fast_charge created
+[    3.477539] [ds2746_batt] ds2746_battery_prob
+[    3.477569] batt: ds2784_notify: 0 1 at 2613051816 (1970-01-01 00:00:02.613051816 UTC)
+[    3.477600] batt: charger ON (SLOW) at 2613112851 (1970-01-01 00:00:02.613082333 UTC)
+[    3.477966] [D:BATT]Use 600 Kohm thermal resistance
+[    3.478790] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+[    3.478912] Bluetooth: HCI UART driver ver 2.2
+[    3.478912] Bluetooth: HCI H4 protocol initialized
+[    3.478942] Bluetooth: HCILL protocol initialized
+[    3.479522] [imoseyon] interactiveX enter
+[    3.480590] mmc0: Qualcomm MSM SDCC at 0x00000000a0300000 irq 24,0 dma 8
+[    3.480621] mmc0: Platform slot type: N/A
+[    3.480651] mmc0: 4 bit data mode enabled
+[    3.480682] mmc0: 8 bit data mode disabled
+[    3.480682] mmc0: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+[    3.480712] mmc0: Slot eject status = 1
+[    3.480743] mmc0: Power save feature enable = 1
+[    3.480773] mmc0: DM non-cached buffer at ffb4f000, dma_addr 0x2141c000
+[    3.480804] mmc0: DM cmd busaddr 0x2141c000, cmdptr busaddr 0x2141cc00
+[    3.481353] msmsdcc_platform_status_irq: 240
+[    3.481384] mmc1: Slot status change detected (0 -> 1)
+[    3.481567] @@@ SD power 0 @@@
+[    3.481842] mmc1: Qualcomm MSM SDCC at 0x00000000a0400000 irq 26,240 dma 8
+[    3.481872] mmc1: Platform slot type: SD
+[    3.481903] mmc1: 4 bit data mode enabled
+[    3.481933] mmc1: 8 bit data mode disabled
+[    3.481964] mmc1: MMC clock 144000 -> 64000000 Hz, PCLK 64000000 Hz
+[    3.481994] mmc1: Slot eject status = 0
+[    3.481994] mmc1: Power save feature enable = 1
+[    3.482025] mmc1: DM non-cached buffer at ffb50000, dma_addr 0x2141d000
+[    3.482055] mmc1: DM cmd busaddr 0x2141d000, cmdptr busaddr 0x2141dc00
+[    3.482482] Registered led device: amber
+[    3.482574] Registered led device: green
+[    3.482604] microp_led_probe: succeeded
+[    3.483428] logger: created 64K log 'log_main'
+[    3.483581] logger: created 256K log 'log_events'
+[    3.483734] logger: created 64K log 'log_radio'
+[    3.483917] logger: created 64K log 'log_system'
+[    3.484222] zram: num_devices not specified. Using default: 1
+[    3.484252] zram: Creating 1 devices ...
+[    3.484863] GACT probability NOT on
+[    3.484924] Mirror/redirect action on
+[    3.484924] u32 classifier
+[    3.484954]     Actions configured 
+[    3.484985] Netfilter messages via NETLINK v0.30.
+[    3.485076] nf_conntrack version 0.5.0 (6444 buckets, 25776 max)
+[    3.485351] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+[    3.485382] nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+[    3.485443] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+[    3.485565] ctnetlink v0.93: registering with nfnetlink.
+[    3.485656] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+[    3.485687] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+[    3.486145] xt_time: kernel timezone is -0000
+[    3.486236] GRE over IPv4 tunneling driver
+[    3.486785] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    3.486999] arp_tables: (C) 2002 David S. Miller
+[    3.487091] TCP cubic registered
+[    3.487121] Initializing XFRM netlink socket
+[    3.487426] NET: Registered protocol family 10
+[    3.488586] Mobile IPv6
+[    3.488647] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    3.488861] IPv6 over IPv4 tunneling driver
+[    3.489807] NET: Registered protocol family 17
+[    3.489868] NET: Registered protocol family 15
+[    3.490020] Bridge firewalling registered
+[    3.490051] Bluetooth: L2CAP ver 2.14
+[    3.490081] Bluetooth: L2CAP socket layer initialized
+[    3.490112] Bluetooth: SCO (Voice Link) ver 0.6
+[    3.490142] Bluetooth: SCO socket layer initialized
+[    3.490417] Bluetooth: RFCOMM TTY layer initialized
+[    3.490447] Bluetooth: RFCOMM socket layer initialized
+[    3.490478] Bluetooth: RFCOMM ver 1.11
+[    3.490509] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    3.490539] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    3.490692] NET: Registered protocol family 35
+[    3.490875] ThumbEE CPU extension supported.
+[    3.490905] wifi_nvs_init
+[    3.490936] [Port list] init()
+[    3.490966] [Port list] Virtual Address for port_list: [f81b6678]
+[    3.490997] [Port list] Physical Address for port_list: [1B6678]
+[    3.491821] input: lightsensor-level as /devices/virtual/input/input5
+[    3.492919] [D:BATT] V=4196(6b8) I=0(ffffffff) C=1231.0/1230(1119) id=4(b0) T=340(dc) KADC=1000
+[    3.492980] [D:BATT] acr update: P=990, C=4340.
+[    3.493194] [D:BATT]new RARC=990 C=1217mAh adc=4340.
+[    3.493255] [D:BATT] state change(0->3), full count=0, over load count=0 [2628]
+[    3.493286] [D:BATT] state change(3->5), full count=0, over load count=1 [2628]
+[    3.493316] batt: ds2784_notify: 1 99 at 2628829404 (1970-01-01 00:00:02.628798886 UTC)
+[    3.493377] batt: batt:power_supply_changed: battery at 2628890439 (1970-01-01 00:00:02.628859921 UTC)
+[    3.493438] batt: ds2784_notify: 0 2 at 2628951474 (1970-01-01 00:00:02.628920956 UTC)
+[    3.493499] batt: charger ON (FAST) at 2628981992 (1970-01-01 00:00:02.628981992 UTC)
+[    3.494079] clock_late_init() disabled 17 unused clocks
+[    3.494110] VFP support v0.3: implementor 51 architecture 0 part 0f variant 0 rev 1
+[    3.495147] regulator_init_complete: incomplete constraints, leaving ldo2 on
+[    3.495391] regulator_init_complete: incomplete constraints, leaving ldo1 on
+[    3.495605] regulator_init_complete: incomplete constraints, leaving dcdc3 on
+[    3.495849] regulator_init_complete: incomplete constraints, leaving dcdc2 on
+[    3.496063] regulator_init_complete: incomplete constraints, leaving dcdc1 on
+[    3.497161] rs30000048:00010000 rs30000048:00010000: setting system clock to 2014-05-20 00:35:07 UTC (1400546107)
+[    3.497467] Freeing init memory: 408K
+[    3.507812] [USB] reset
+[    3.510101] [USB] portchange USB_SPEED_HIGH
+[    3.522735] HD2-SF: initramfs started; proc and device filesystem ready
+[    3.528045] [USB] hsusb: ONLINE -> RESET
+[    3.528106] [USB] msm_hsusb: disable pullup
+[    3.528137] [USB] hsusb: reset controller
+[    3.533508] HD2-SF: USB setup attempted; starting early ADB
+[    3.537017] ADDRCONF(NETDEV_UP): usb0: link is not ready
+[    3.564910] msm_hsusb_phy_reset
+[    3.574920] @@@ SD power 17 @@@
+[    3.644195] @@@ SD power 15 @@@
+[    3.774902] [USB] ulpi: write 0x0c to 0x31
+[    3.774932] [USB] ulpi: write 0x30 to 0x32
+[    3.774963] [USB] ulpi: write 0x1d to 0x0d
+[    3.774963] [USB] ulpi: write 0x1d to 0x10
+[    3.775024] [USB] handle_notify_offline: notify offline
+[    3.775054] [USB] msm_hsusb: enable pullup
+[    3.775085] [USB] hsusb: RESET -> ONLINE
+[    3.775115] [USB] hsusb: ONLINE -> RESET
+[    3.775146] [USB] msm_hsusb: disable pullup
+[    3.775146] [USB] hsusb: reset controller
+[    3.783325] mmc1: host does not support reading read-only switch. assuming write-enable.
+[    3.783386] mmc1: new high speed SDHC card at address 59b4
+[    3.783721] mmcblk0: mmc1:59b4 SD32G 29.1 GiB 
+[    3.783996]  mmcblk0: p1 p2 p3
+[    3.814910] msm_hsusb_phy_reset
+[    4.024902] [USB] ulpi: write 0x0c to 0x31
+[    4.024932] [USB] ulpi: write 0x30 to 0x32
+[    4.024963] [USB] ulpi: write 0x1d to 0x0d
+[    4.024993] [USB] ulpi: write 0x1d to 0x10
+[    4.025024] [USB] handle_notify_offline: notify offline
+[    4.025054] [USB] msm_hsusb: enable pullup
+[    4.025085] [USB] hsusb: RESET -> ONLINE
+[    4.028106] [USB] suspend
+[    4.031005] [USB] reset
+[    4.033294] [USB] portchange USB_SPEED_HIGH
+[    4.093719] [USB] reset
+[    4.095977] [USB] portchange USB_SPEED_HIGH
+[    4.348999] [USB] reset
+[    4.351257] [USB] portchange USB_SPEED_HIGH
+[    4.485046] android_usb gadget: high speed config #1: android
+[    4.485260] ums: set state 1
+[    4.486267] ADDRCONF(NETDEV_CHANGE): usb0: link becomes ready
+[    4.700134] EXT4-fs (loop0): mounted filesystem with ordered data mode
+[   14.854888] usb0: no IPv6 routers present
+[   54.266448] [D:BATT] V=4204(6bb) I=24(3f) C=1216.0/1230(10f4) id=4(b1) T=340(dc) KADC=1000
+[   61.274566] Release 'boot-time' halt_lock
+[   61.294799] acpuclk_set_vdd_level got regulator setting vdd_level 1000 
+[  104.287963] [D:BATT] V=4204(6bb) I=23(3b) C=1217.0/1230(10f5) id=4(b1) T=340(dc) KADC=1000
+[  104.288269] [D:BATT] acr update: P=1000, C=4373.
+[  104.288909] [D:BATT]new RARC=1000 C=1230mAh adc=4373.
+[  104.289093] [D:BATT] state change(5->6), full count=3, over load count=1 [386869795]
+[  104.289337] batt: ds2784_notify: 1 100 at 103424910946 (2014-05-20 00:36:48.292175292 UTC)
+[  104.289672] batt: batt:power_supply_changed: battery at 103425277157 (2014-05-20 00:36:48.292510985 UTC)
+[  154.297943] [D:BATT] V=4204(6bb) I=21(37) C=1229.0/1230(1115) id=4(b1) T=340(dc) KADC=1000
+[  204.307922] [D:BATT] V=4204(6bb) I=20(34) C=1230.0/1230(1116) id=4(b1) T=340(dc) KADC=1000
+[  248.869628] enabling adb
+[  248.869934] adb_open(hd2-adbd)
+[  254.317962] [D:BATT] V=4204(6bb) I=18(30) C=1230.0/1230(1117) id=4(b1) T=340(dc) KADC=1000

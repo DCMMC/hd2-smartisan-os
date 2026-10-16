@@ -1,0 +1,7 @@
+200 {'server': 'nginx/1.14.0', 'date': 'Fri, 16 Oct 2026 17:18:23 GMT', 'content-type': 'application/zip', 'content-length': '211084920', 'last-modified': 'Wed, 18 Dec 2013 20:12:15 GMT', 'etag': '"52b2019f-c94e678"', 'content-disposition': 'attachment; filename=NexusHD2-KitKat-CM11.0_V4.0.zip', 'accept-ranges': 'bytes', 'set-cookie': '443_aVA4_androidfilehost_com_=73a0dadac82296e2f318d45300a275b364b289c3; path=/'}
+META-INF/com/google/android/updater-script
+boot/boot_NAND/initrd.gz
+boot/boot_NAND_with_DataOnEXT/initrd.gz
+boot/boot_NativeSD/initrd.gz
+boot/zImage
+system/build.prop

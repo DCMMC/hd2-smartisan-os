@@ -1,0 +1,11 @@
+{
+  "input_sha256": "577c9c23e0a5b11e9ae66d9097cd0f4fad2a49dfa5174dec579e22bdeba921b0",
+  "output_sha256": "9665d327ad249e81199da02b26f006bf8e5960e8d13c0a380e2f9f2e5a33f8c3",
+  "patches": {
+    "0x54ae": "FramebufferNativeWindow free",
+    "0x56ac": "FramebufferNativeWindow alloc",
+    "0x62e8": "GraphicBufferAllocator dump",
+    "0x6390": "GraphicBufferAllocator alloc",
+    "0x6454": "GraphicBufferAllocator free"
+  }
+}

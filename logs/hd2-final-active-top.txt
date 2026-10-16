@@ -1,0 +1,625 @@
+Mem: 408620K used, 11628K free, 0K shrd, 980K buff, 158780K cached
+CPU: 83.3% usr 16.6% sys  0.0% nic  0.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 5.41 7.21 5.79 2/451 15049
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+15048 15046 root     R    11252  2.6 91.5 /system/bin/app_process.hd2 /system/bin com.android.commands.input.Input swipe 240 15 240 700 500
+15049 15044 root     R     1348  0.3  8.3 /system/xbin/busybox top -b -d 1 -n 6
+14479 14141 u0_a1    S     447m108.6  0.0 {isanos.launcher} com.smartisanos.launcher
+14165 14141 system   S <   397m 96.6  0.0 system_server
+14319 14141 u0_a2    S     389m 94.6  0.0 {isanos.systemui} com.smartisanos.systemui
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14630 14141 u0_a46   S     321m 78.0  0.0 {tisanos.weather} com.smartisanos.weather
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+ 3701     1 system   S <  63892 15.1  0.0 /system/bin/surfaceflinger
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+   65     1 root     S     6600  1.5  0.0 /sbin/adbd
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15046    65 root     S      864  0.2  0.0 /system/bin/sh -c input swipe 240 15 240 700 500; /system/xbin/busybox sleep 1; /system/xbin/busybox dd if=/dev/graphics/fb0 of=/data/local/tmp/hd2-tools-confirmed.raw bs=1920 count=2400; cat /sys/class/graphics/fb0/pan; /system/xbin/busybox grep -h Compiler /proc/14479/task/*/status
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   24     2 root     SWN      0  0.0  0.0 [ksmd]
+   63     2 root     SW       0  0.0  0.0 [mmcqd]
+   78     2 root     SW<      0  0.0  0.0 [loop7]
+   23     2 root     SW       0  0.0  0.0 [kswapd0]
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+Mem: 410420K used, 9828K free, 0K shrd, 960K buff, 156712K cached
+CPU: 53.4% usr 11.8% sys  0.0% nic  0.0% idle 34.6% io  0.0% irq  0.0% sirq
+Load average: 5.41 7.21 5.79 2/458 15056
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+15048 15046 root     R     267m 65.1 60.3 /system/bin/app_process.hd2 /system/bin com.android.commands.input.Input swipe 240 15 240 700 500
+   78     2 root     SW<      0  0.0  3.9 [loop7]
+15049 15044 root     R     1356  0.3  0.9 /system/xbin/busybox top -b -d 1 -n 6
+14479 14141 u0_a1    S     447m108.6  0.0 {isanos.launcher} com.smartisanos.launcher
+14165 14141 system   S <   397m 96.6  0.0 system_server
+14319 14141 u0_a2    S     389m 94.6  0.0 {isanos.systemui} com.smartisanos.systemui
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14630 14141 u0_a46   S     321m 78.0  0.0 {tisanos.weather} com.smartisanos.weather
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+ 3701     1 system   S <  63892 15.1  0.0 /system/bin/surfaceflinger
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+   65     1 root     S     6600  1.5  0.0 /sbin/adbd
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15046    65 root     S      864  0.2  0.0 /system/bin/sh -c input swipe 240 15 240 700 500; /system/xbin/busybox sleep 1; /system/xbin/busybox dd if=/dev/graphics/fb0 of=/data/local/tmp/hd2-tools-confirmed.raw bs=1920 count=2400; cat /sys/class/graphics/fb0/pan; /system/xbin/busybox grep -h Compiler /proc/14479/task/*/status
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   24     2 root     SWN      0  0.0  0.0 [ksmd]
+   63     2 root     SW       0  0.0  0.0 [mmcqd]
+   23     2 root     DW       0  0.0  0.0 [kswapd0]
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+Mem: 404512K used, 15736K free, 0K shrd, 976K buff, 150900K cached
+CPU: 30.3% usr 21.5% sys  1.9% nic 11.7% idle 34.3% io  0.0% irq  0.0% sirq
+Load average: 5.41 7.21 5.79 1/451 15066
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+14319 14141 u0_a2    S     379m 92.1 18.6 {isanos.systemui} com.smartisanos.systemui
+14165 14141 system   S <   397m 96.6  9.8 system_server
+ 3701     1 system   S <  63892 15.1  4.9 /system/bin/surfaceflinger
+14479 14141 u0_a1    S     447m108.6  2.9 {isanos.launcher} com.smartisanos.launcher
+15049 15044 root     R     1356  0.3  1.9 /system/xbin/busybox top -b -d 1 -n 6
+   63     2 root     SW       0  0.0  1.9 [mmcqd]
+   78     2 root     SW<      0  0.0  1.9 [loop7]
+   23     2 root     SW       0  0.0  1.9 [kswapd0]
+14630 14141 u0_a46   S     321m 78.0  0.9 {tisanos.weather} com.smartisanos.weather
+   24     2 root     SWN      0  0.0  0.9 [ksmd]
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+   65     1 root     S     6600  1.5  0.0 /sbin/adbd
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+15065 15046 root     S     1332  0.3  0.0 /system/xbin/busybox sleep 1
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15046    65 root     S      864  0.2  0.0 /system/bin/sh -c input swipe 240 15 240 700 500; /system/xbin/busybox sleep 1; /system/xbin/busybox dd if=/dev/graphics/fb0 of=/data/local/tmp/hd2-tools-confirmed.raw bs=1920 count=2400; cat /sys/class/graphics/fb0/pan; /system/xbin/busybox grep -h Compiler /proc/14479/task/*/status
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+Mem: 408844K used, 11404K free, 0K shrd, 968K buff, 155180K cached
+CPU:  0.9% usr 15.8% sys  0.0% nic 80.1% idle  2.9% io  0.0% irq  0.0% sirq
+Load average: 5.41 7.21 5.79 1/449 15069
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+   65     1 root     S     6668  1.5  0.9 /sbin/adbd
+15049 15044 root     R     1356  0.3  0.9 /system/xbin/busybox top -b -d 1 -n 6
+   24     2 root     SWN      0  0.0  0.9 [ksmd]
+14479 14141 u0_a1    S     447m108.6  0.0 {isanos.launcher} com.smartisanos.launcher
+14165 14141 system   S <   397m 96.6  0.0 system_server
+14319 14141 u0_a2    S     379m 92.1  0.0 {isanos.systemui} com.smartisanos.systemui
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14630 14141 u0_a46   S     321m 78.0  0.0 {tisanos.weather} com.smartisanos.weather
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+ 3701     1 system   S <  63892 15.1  0.0 /system/bin/surfaceflinger
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   63     2 root     SW       0  0.0  0.0 [mmcqd]
+   78     2 root     SW<      0  0.0  0.0 [loop7]
+   23     2 root     DW       0  0.0  0.0 [kswapd0]
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+Mem: 407756K used, 12492K free, 0K shrd, 896K buff, 154520K cached
+CPU:  0.9% usr 11.6% sys  0.0% nic 54.3% idle 33.0% io  0.0% irq  0.0% sirq
+Load average: 5.13 7.13 5.77 1/449 15069
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+   65     1 root     S     6668  1.5  9.7 /sbin/adbd
+15049 15044 root     R     1356  0.3  1.9 /system/xbin/busybox top -b -d 1 -n 6
+14479 14141 u0_a1    S     447m108.6  0.0 {isanos.launcher} com.smartisanos.launcher
+14165 14141 system   S <   397m 96.6  0.0 system_server
+14319 14141 u0_a2    S     379m 92.1  0.0 {isanos.systemui} com.smartisanos.systemui
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14630 14141 u0_a46   S     321m 78.0  0.0 {tisanos.weather} com.smartisanos.weather
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+ 3701     1 system   S <  63892 15.1  0.0 /system/bin/surfaceflinger
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   24     2 root     SWN      0  0.0  0.0 [ksmd]
+   63     2 root     SW       0  0.0  0.0 [mmcqd]
+   78     2 root     SW<      0  0.0  0.0 [loop7]
+   23     2 root     SW       0  0.0  0.0 [kswapd0]
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+Mem: 407876K used, 12372K free, 0K shrd, 896K buff, 154528K cached
+CPU:  0.0% usr  4.9% sys  0.0% nic 95.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 5.13 7.13 5.77 1/449 15069
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+   65     1 root     R     6668  1.5  2.4 /sbin/adbd
+   24     2 root     SWN      0  0.0  1.6 [ksmd]
+15049 15044 root     R     1356  0.3  0.8 /system/xbin/busybox top -b -d 1 -n 6
+14479 14141 u0_a1    S     447m108.6  0.0 {isanos.launcher} com.smartisanos.launcher
+14165 14141 system   S <   397m 96.6  0.0 system_server
+14319 14141 u0_a2    S     379m 92.1  0.0 {isanos.systemui} com.smartisanos.systemui
+14457 14141 radio    S     340m 82.7  0.0 {m.android.phone} com.android.phone
+14304 14141 system   S     336m 81.8  0.0 {isanos.keyguard} com.smartisanos.keyguard
+14415 14141 u0_a38   S     334m 81.2  0.0 {putv5.smartisan} com.cootek.smartinputv5.smartisan
+14403 14141 u0_a5    S     327m 79.6  0.0 {umber_assistant} com.smartisanos.phone_number_assistant
+14746 14141 u0_a40   S     326m 79.2  0.0 {tisanos.tracker} com.smartisanos.tracker
+14772 14141 u0_a8    S     322m 78.3  0.0 {ndroid.incallui} com.android.incallui
+14385 14141 u0_a39   S     321m 78.0  0.0 {anos.music:main} com.smartisanos.music:main
+14595 14141 u0_a19   S     321m 78.0  0.0 {d.process.acore} android.process.acore
+14630 14141 u0_a46   S     321m 78.0  0.0 {tisanos.weather} com.smartisanos.weather
+14444 14141 system   S     321m 78.0  0.0 {ndroid.settings} com.android.settings
+14651 14141 u0_a2    S     319m 77.7  0.0 {emui:screenshot} com.smartisanos.systemui:screenshot
+14512 14141 u0_a11   S     319m 77.5  0.0 {d.process.media} android.process.media
+14432 14141 u0_a25   S     317m 77.1  0.0 {ndroid.location} com.amap.android.location
+14577 14141 u0_a48   S     316m 76.9  0.0 {llpaperprovider} com.smartisanos.wallpaperprovider
+14704 14141 u0_a31   S     316m 76.8  0.0 {id.printspooler} com.android.printspooler
+14463 14141 system   S     315m 76.6  0.0 {artisanos.voice} com.smartisanos.voice
+14816 14141 shell    S     315m 76.6  0.0 {m.smartisan.rem} com.smartisan.rem
+14141     1 root     S     306m 74.5  0.0 zygote /bin/app_process.hd2 -Xzygote /system/bin --zygote --start-system-server
+ 3701     1 system   S <  63892 15.1  0.0 /system/bin/surfaceflinger
+13137     1 media    S    25564  6.0  0.0 /system/bin/mediaserver
+13126     1 root     S     9664  2.2  0.0 /system/bin/netd
+   99     1 drm      S     9580  2.2  0.0 /system/bin/drmserver
+   96     1 radio    S     8956  2.1  0.0 /system/bin/rild
+ 4195     1 root     S     4192  0.9  0.0 /system/bin/vold
+ 6512     1 media_rw S     3624  0.8  0.0 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  102     1 keystore S     3304  0.7  0.0 /system/bin/keystore /data/misc/keystore
+14621     1 wifi     S     2688  0.6  0.0 /system/bin/wpa_supplicant -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf
+12206     1 root     S     2476  0.5  0.0 /system/bin/logcat -v threadtime -f /dev/hd2-logcat.txt -r 256 -n 2
+   89     1 root     S     1376  0.3  0.0 /sbin/healthd
+ 5495    65 root     S     1044  0.2  0.0 logcat -v threadtime
+   95     1 root     S     1012  0.2  0.0 /system/bin/debuggerd
+   90     1 system   S      952  0.2  0.0 /system/bin/servicemanager
+  101     1 install  S      948  0.2  0.0 /system/bin/installd
+  105     1 shell    S      876  0.2  0.0 /system/bin/sh
+15044    65 root     S      860  0.2  0.0 /system/bin/sh -c /system/xbin/busybox top -b -d 1 -n 6 > /data/local/tmp/hd2-final-active-top.txt
+  103     1 compass  S      840  0.2  0.0 /system/bin/akmd
+  106     1 root     S      608  0.1  0.0 /system/xbin/su --daemon
+    1     0 root     S      496  0.1  0.0 /init
+   64     1 root     S      476  0.1  0.0 /sbin/ueventd
+   63     2 root     SW       0  0.0  0.0 [mmcqd]
+   78     2 root     SW<      0  0.0  0.0 [loop7]
+   23     2 root     SW       0  0.0  0.0 [kswapd0]
+   40     2 root     SW       0  0.0  0.0 [kgsl-3d0/0]
+   87     2 root     SW       0  0.0  0.0 [flush-179:0]
+   86     2 root     SW       0  0.0  0.0 [flush-7:7]
+   80     2 root     SW       0  0.0  0.0 [jbd2/loop7-8]
+   11     2 root     SW       0  0.0  0.0 [kmmcd]
+    4     2 root     SW       0  0.0  0.0 [events/0]
+   10     2 root     SW       0  0.0  0.0 [kblockd/0]
+    7     2 root     SW       0  0.0  0.0 [suspend]
+   18     2 root     SW       0  0.0  0.0 [htcleo_touch_wq]
+   61     2 root     SW       0  0.0  0.0 [binder]
+   17     2 root     DW       0  0.0  0.0 [rpcrouter]
+14611     2 root     SW       0  0.0  0.0 [dhd_dpc]
+   15     2 root     SW       0  0.0  0.0 [smd_tty]
+   81     2 root     SW       0  0.0  0.0 [ext4-dio-unwrit]
+    2     0 root     SW       0  0.0  0.0 [kthreadd]
+    3     2 root     SW       0  0.0  0.0 [ksoftirqd/0]
+    5     2 root     SW       0  0.0  0.0 [khelper]
+    6     2 root     SW       0  0.0  0.0 [async/mgr]
+    8     2 root     SW       0  0.0  0.0 [sync_supers]
+    9     2 root     SW       0  0.0  0.0 [bdi-default]
+   12     2 root     SW       0  0.0  0.0 [bluetooth]
+   13     2 root     DW       0  0.0  0.0 [kinteractiveup]
+   14     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   16     2 root     SW       0  0.0  0.0 [qmi]
+   19     2 root     SW       0  0.0  0.0 [krpcserversd]
+   20     2 root     SW       0  0.0  0.0 [p-sensor_microp]
+   21     2 root     SW       0  0.0  0.0 [detection/0]
+   22     2 root     SW       0  0.0  0.0 [button/0]
+   25     2 root     SW       0  0.0  0.0 [aio/0]
+   26     2 root     SW       0  0.0  0.0 [crypto/0]
+   39     2 root     SW       0  0.0  0.0 [panel_on/0]
+   41     2 root     SW       0  0.0  0.0 [msm_serial_hs]
+   42     2 root     SW       0  0.0  0.0 [mtdblockd]
+   49     2 root     SW       0  0.0  0.0 [msm_hsusb]
+   50     2 root     SW       0  0.0  0.0 [usb_mass_storag]
+   51     2 root     SW       0  0.0  0.0 [ds2746-battery]
+   52     2 root     SW       0  0.0  0.0 [kstriped]
+   53     2 root     SW       0  0.0  0.0 [kondemand/0]
+   54     2 root     SW       0  0.0  0.0 [kconservative/0]
+   55     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   56     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   57     2 root     SW       0  0.0  0.0 [kinteractive_up]
+   58     2 root     SW       0  0.0  0.0 [knteractive_dow]
+   59     2 root     SW       0  0.0  0.0 [ksmartass_up/0]
+   60     2 root     SW       0  0.0  0.0 [ksmartass_down/]
+   62     2 root     SW<      0  0.0  0.0 [krfcommd]
+14137     2 root     SW       0  0.0  0.0 [flush-0:17]
+14608     2 root     SW       0  0.0  0.0 [iscan_sysioc]
+14609     2 root     SW       0  0.0  0.0 [dhcp_sysioc]
+14610     2 root     SW       0  0.0  0.0 [dhd_watchdog]
+14612     2 root     SW       0  0.0  0.0 [dhd_sysioc]
+

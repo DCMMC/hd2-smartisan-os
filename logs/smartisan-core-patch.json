@@ -1,0 +1,7 @@
+{
+  "source_sha256": "c340b57dfbb98130c8f8825e316151cb41a3428d01d83c5260c9a970d56eebbd",
+  "output_sha256": "0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989",
+  "change": "Runtime.gcAndTrim calls Runtime.gc; extra heap trimming unavailable",
+  "recipe": "gcAndTrim-calls-gc-v1",
+  "device_probe": "HD2 gcAndTrim bridge passed; status 0"
+}

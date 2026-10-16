@@ -1,0 +1,16 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /system/build.prop
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/build.prop /system/build.prop
+Allocated inode: 288
+debugfs: sif /system/build.prop uid 0
+debugfs: sif /system/build.prop gid 0
+debugfs: sif /system/build.prop mode 0o100644
+Couldn't parse '0o100644' for field mode.
+e2fsck 1.47.4 (6-Mar-2025)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+HD2-SM20: 1720/131072 files (0.3% non-contiguous), 270175/524288 blocks

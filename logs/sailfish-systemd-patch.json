@@ -1,0 +1,7 @@
+{
+  "input_sha256": "e9c8f917214024c92eb2295afdb0b500da6ba1eeab32fa14f382c4a877d5e920",
+  "output_sha256": "cd8e12032f18c885d53739233fcbac0c831b40dad28f19ac7af1fa34aac5fafa",
+  "literal_address": "0x52658",
+  "reason": "Use the legacy kernel's writable tasks interface for systemd cg_attach.\n\nThis is a bring-up compatibility patch, not a kernel-wide cgroup.procs\nbackport. Service children are attached before exec and their later threads\ninherit that group. Moving an already multithreaded external process as a\nwhole remains unverified; this call moves the supplied task only.",
+  "upstream_function": "https://github.com/systemd/systemd/blob/v208/src/shared/cgroup-util.c"
+}

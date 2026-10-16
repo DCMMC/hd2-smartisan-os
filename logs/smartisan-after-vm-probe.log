@@ -1,0 +1,1132 @@
+--------- beginning of /dev/log/main
+05-20 00:01:30.957  8512  9111 D KeyguardViewManager: User action <value, active> tracked, date: 2014-05-20
+05-20 00:01:30.957  3701  3701 D SurfaceFlinger: Screen acquired, type=0 flinger=0x2a0074f0
+05-20 00:01:30.967  3701  3701 E SurfaceFlinger: GL error 0x0502
+05-20 00:01:30.977  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:30.977  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:30.977  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:30.977  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:30.987  3701  3701 D SurfaceFlinger: The screen is drew after light up!
+05-20 00:01:31.007  8927  8927 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@41a09918 time:1780872
+05-20 00:01:31.037  8536  8536 D PowerButton: onReceive time:131 action:android.intent.action.SCREEN_ON
+05-20 00:01:31.067  8957  8957 D FloatViewManager: onReceive: ACTION_SCREEN_ON
+05-20 00:01:31.067  8957  8957 D InCall  : fr - isPhoneInUse ? :false
+05-20 00:01:31.067  8957  8957 D FloatViewManager: shouldShowFloatView(), isPhoneInUse=false, return false
+05-20 00:01:31.067  8957  8957 D FloatViewManager: hide()
+05-20 00:01:31.067  8957  8957 D FloatViewManager: detachFromWindow(), mIsAdded=false
+05-20 00:01:31.087  8903  8903 D TrackerReceiver: action is com.smartisanos.intent.action.ADD_TRACKER
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mPackageName = framework
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mTag = UserActive_Keyguard
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mSubTag = null
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mData = null
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mAction = 11
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mValues = 1
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: mTimeStamp = 1400544091095
+05-20 00:01:31.127  8903  8915 D FrameworkTrackerTask: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:01:33.017  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:33.087  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:33.087  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:33.097  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=73)
+05-20 00:01:33.097  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.097  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:01:33.097  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:01:33.097  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:01:33.097  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=73)
+05-20 00:01:33.097  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:01:33.137  3701  3701 W GLConsumer: [com.smartisanos.setupwizard/com.smartisanos.setupwizard.LicenseActivity] bindTextureImage: clearing GL error: 0x502
+05-20 00:01:33.197  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.197  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.197  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.197  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.197  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.197  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.217  8378  8392 W ResourceType: Skipping entry 0x2030002 in package table 0 because it is not complex!
+05-20 00:01:33.227  8378  8392 W ResourceType: Skipping entry 0x2030005 in package table 0 because it is not complex!
+05-20 00:01:33.247  8649  8649 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@41a48480 time:1783115
+05-20 00:01:33.617  8378  8392 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41cd54b0 u0 com.android.settings/.inputmethod.LocalePickerActivity t2} time:1783480
+05-20 00:01:33.637  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.637  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.637  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.637  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:33.637  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:33.637  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.357  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.357  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.367  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.367  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.387  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.387  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.407  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.407  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.437  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.437  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.447  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.457  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.467  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.467  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.487  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.487  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.497  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:34.507  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.507  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.517  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.517  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.537  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.537  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.547  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.547  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.567  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.567  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.587  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.587  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.597  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.597  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.617  8649  8649 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:01:34.617  8649  8649 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.745  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:34.787  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:34.787  8378  8487 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:01:34.797  8649  8649 I ActivityManager: Timeline: Activity_launch_request id:com.smartisanos.setupwizard time:1784661
+05-20 00:01:34.797  8378  8388 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:01:34.807  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=71)
+05-20 00:01:34.807  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:34.807  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:01:34.807  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:01:34.807  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:01:34.807  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=71)
+05-20 00:01:34.807  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:01:34.837  3701  3701 W GLConsumer: [com.android.settings/com.android.settings.inputmethod.LocalePickerActivity] bindTextureImage: clearing GL error: 0x502
+05-20 00:01:35.037  8927  8927 D AwContents: loadUrl 0 {DEFAULT, BROWSER_INITIATED_HTTP_POST, DATA}, file:////data/data/com.smartisanos.setupwizard/files/law_info.html
+05-20 00:01:35.157  8927  8927 D AwContents: shouldIgnoreNavigation false, file:///data/data/com.smartisanos.setupwizard/files/law_info.html
+05-20 00:01:35.197  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.197  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.197  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.197  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.227  8378  8392 I ActivityManager: Displayed com.smartisanos.setupwizard/.LicenseActivity: +400ms
+05-20 00:01:35.267  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.267  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.267  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.267  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.297  8927  8927 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fe010 time:1785166
+05-20 00:01:35.577  8378  8392 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:01:35.577  8378  8392 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41e47cb8 u0 com.smartisanos.setupwizard/.LicenseActivity t2} time:1785446
+05-20 00:01:35.617  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.617  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.647  8927  8927 I chromium: [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+05-20 00:01:35.697  8927  8927 I chromium: [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+05-20 00:01:35.697  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.697  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.697  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.697  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.697  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.697  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.697  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.697  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.697  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.697  8927  8927 W GraphicBufferAllocator: alloc(64, 512, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.707  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.707  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.707  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.707  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.717  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.717  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.757  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.757  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.757  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.757  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.757  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.757  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.757  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.757  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.827  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.827  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.827  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.827  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.827  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.827  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.827  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.827  8927  8927 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.827  8927  8927 E gralloc : gralloc failed err=Permission denied
+05-20 00:01:35.827  8927  8927 W GraphicBufferAllocator: alloc(64, 512, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:01:35.847  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.847  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.847  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.847  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.847  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.847  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.847  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.847  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.867  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.867  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:35.867  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.867  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.867  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.867  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:35.877  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:35.877  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.304  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.307  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.307  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.307  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.307  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.307  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.307  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.307  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.317  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.317  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.327  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.327  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.327  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.327  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.327  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.327  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.337  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.337  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.347  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.347  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.347  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.347  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.347  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.347  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.367  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.367  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.367  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.367  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.367  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.367  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.367  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.367  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.387  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.387  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.387  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.387  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.387  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.397  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.397  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.397  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.407  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.407  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.407  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.407  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.407  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.407  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.417  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.417  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.427  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.427  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.427  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.427  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.427  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.427  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.427  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.427  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.457  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.457  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.457  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.457  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.457  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.457  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.457  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.457  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.467  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.467  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.477  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.477  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.477  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.477  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.477  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.477  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.497  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.497  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.497  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.497  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.497  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.497  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.497  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.497  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.507  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.507  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.507  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.507  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.517  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.517  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.517  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.517  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.537  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.537  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.537  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.537  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.537  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.537  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.547  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.547  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.557  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.557  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.557  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.567  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.567  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.567  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.567  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.567  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.577  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.577  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.577  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.577  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.577  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.587  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.587  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.587  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.597  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.597  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.597  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.597  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.597  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.597  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.617  8927  8927 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=96)
+05-20 00:01:36.627  8927  8927 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:36.627  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.627  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.627  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:36.627  8927  8927 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a498bd8]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:01:38.503  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:42.504  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:46.505  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:46.719  8378  8666 D NetworkTimeUpdateService: handleMessage(), msg=2
+05-20 00:01:46.719  8378  8666 D NetworkTimeUpdateService: onPollNetworkTime(), event=2, autoTime=true
+05-20 00:01:46.719  8378  8666 D NetworkTimeUpdateService: refTime=1796588
+05-20 00:01:46.719  8378  8666 D NetworkTimeUpdateService: System time = 1400544106726, mLastNtpFetchTime=-1
+05-20 00:01:46.719  8378  8666 D NetworkTimeUpdateService: Before Ntp fetch
+05-20 00:01:46.727  8378  8666 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:01:46.747  9015  9015 D REM     : REMService.java, 82, DeleteFile() /data/rem.txt does not exist when rem is disable.
+05-20 00:01:46.767  9015  9015 E bhj     : REMService.java:112: 
+05-20 00:01:46.807  8378  8666 D NtpTrustedTime: requestTime fail
+05-20 00:01:46.807  8378  8666 D NetworkTimeUpdateService: getCacheAge=9223372036854775807
+05-20 00:01:46.807  8378  8666 D NetworkTimeUpdateService: mTryAgainCounter=3
+05-20 00:01:50.497  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:54.507  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:58.508  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:02.509  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:05.167  8512  8528 D KeyguardViewMediator: onScreenTurnedOff(3)
+05-20 00:02:05.177  8512  8528 D KeyguardViewMediator: get isSecure state
+05-20 00:02:05.197  3701  3701 D SurfaceFlinger: Screen released, type=0 flinger=0x2a0074f0
+05-20 00:02:05.347  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=75)
+05-20 00:02:05.347  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:02:05.347  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:02:05.347  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:02:05.347  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:02:05.347  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=75)
+05-20 00:02:05.347  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:02:05.397  8512  8528 D KeyguardViewMediator: setting alarm to turn off keyguard, seq = 2
+05-20 00:02:05.427  8536  8536 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:02:05.427  8536  8536 D PowerButton: onReceive time:205 action:android.intent.action.SCREEN_OFF
+05-20 00:02:06.510  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:10.187  8512  8512 D KeyguardViewMediator: received DELAYED_KEYGUARD_ACTION with seq = 2, mDelayedShowingSequence = 2
+05-20 00:02:10.187  8512  8512 D KeyguardViewMediator: doKeyguardLocked
+05-20 00:02:10.187  8512  8512 D KeyguardViewMediator: doKeyguard: not showing because device isn't provisioned and the sim is not locked or missing
+05-20 00:02:10.512  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:14.513  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:18.515  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:22.507  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:26.517  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:30.518  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:34.520  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:38.521  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:42.523  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+--------- beginning of /dev/log/system
+05-20 00:02:45.416  8378  8378 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:02:45.416  8378  8378 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:02:45.416  8378  8378 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:02:45.416  8378  8378 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:02:45.426  8378  8378 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:02:45.426  8378  8378 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:02:45.436  8378  8378 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:02:45.436  8378  8378 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:02:45.436  8378  8378 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:02:45.436  8378  8378 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:02:45.436  8378  8378 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:02:45.446  8378  8378 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:02:45.446  8378  8378 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:02:45.446  8378  8378 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:02:45.446  8378  8378 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:02:45.446  8378  8378 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:02:45.446  8378  8378 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:02:45.446  8378  8378 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:02:45.456  8378  8378 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:02:45.456  8378  8378 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:02:45.456  8378  8378 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:02:45.466  8378  8378 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:02:45.466  8378  8378 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:02:45.466  8378  8378 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:02:45.466  8378  8378 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:02:45.466  8378  8378 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:02:45.476  8378  8378 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:02:45.726  8378  8378 I SystemServer: Entropy Mixer
+05-20 00:02:45.736  8378  8378 I EntropyMixer: Writing entropy...
+05-20 00:02:45.787  8378  8378 I SystemServer: User Service
+05-20 00:02:45.787  8378  8378 I SystemServer: Account Manager
+05-20 00:02:45.806  8378  8378 I SystemServer: Content Manager
+05-20 00:02:45.806  8378  8378 I SystemServer: System Content Providers
+05-20 00:02:45.866  8378  8378 I SystemServer: Lights Service
+05-20 00:02:45.866  8378  8378 I SystemServer: Battery Service
+05-20 00:02:45.876  8378  8378 I SystemServer: Vibrator Service
+05-20 00:02:45.896  8378  8378 I SystemServer: Consumer IR Service
+05-20 00:02:45.906  8378  8378 I SystemServer: Alarm Manager
+05-20 00:02:45.916  8378  8378 E AlarmManager: Error reading History Heartbeat statistics
+05-20 00:02:45.916  8378  8378 E AlarmManager: java.io.FileNotFoundException: /data/system/heartbeatstats.bin: open failed: ENOENT (No such file or directory)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.readFromFile(AlarmManagerService.java:2694)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.init(AlarmManagerService.java:2873)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.server.AlarmManagerService.<init>(AlarmManagerService.java:649)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:320)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:45.916  8378  8378 E AlarmManager: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at libcore.io.Posix.open(Native Method)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:02:45.916  8378  8378 E AlarmManager: 	... 12 more
+05-20 00:02:45.916  8378  8378 I SystemServer: Init Watchdog
+05-20 00:02:45.916  8378  8378 I SystemServer: Input Manager
+05-20 00:02:45.926  8378  8378 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+05-20 00:02:45.936  8378  8378 I SystemServer: Window Manager
+05-20 00:02:45.946  8378  8392 I WindowManager: No existing display settings /data/system/display_settings.xml; starting empty
+05-20 00:02:45.996  8378  8475 I WindowManager: <1400544166003> :  screenTurningOn null
+05-20 00:02:45.996  8378  8475 I WindowManager: No keyguard interface!
+05-20 00:02:45.996  8378  8475 I WindowManager: <1400544166003~1400544166003> :  finishScreenTurningOn null
+05-20 00:02:46.016  8378  8378 I InputManager: Starting input manager
+05-20 00:02:46.016  8378  8378 I SystemServer: Bluetooth Manager Service
+05-20 00:02:46.036  8378  8378 I SystemServer: Input Method Service
+05-20 00:02:46.086  8378  8378 W InputMethodManagerService: Couldn't create dir.: /data/system/inputmethod
+05-20 00:02:46.326  8378  8378 I SystemServer: Accessibility Manager
+05-20 00:02:46.336  8378  8378 W ActivityManager: Unable to write /sys/module/lowmemorykiller/parameters/minfree
+05-20 00:02:46.336  8378  8378 I ActivityManager: Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h533dp 240dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:02:46.356  8378  8378 I ActivityManager: Config changes=408 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:02:46.366  8378  8378 I SystemServer: Mount Service
+05-20 00:02:46.366  8378  8378 D MountService: got storage path: /storage/sdcard0 description: 内存设备 primary: true removable: false emulated: true mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+05-20 00:02:46.366  8378  8378 D MountService: addVolumeLocked() StorageVolume:
+05-20 00:02:46.366  8378  8378 D MountService:     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040761 
+05-20 00:02:46.366  8378  8378 D MountService:     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=0 
+05-20 00:02:46.366  8378  8378 D MountService:     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+05-20 00:02:46.366  8378  8378 D MountService:     mUserLabel=null mState=null 
+05-20 00:02:46.386  8378  8378 I SystemServer: LockSettingsService
+05-20 00:02:46.386  8378  8378 I SystemServer: Device Policy
+05-20 00:02:46.396  8378  8378 I SystemServer: Status Bar
+05-20 00:02:46.396  8378  8378 I SystemServer: Clipboard Service
+05-20 00:02:46.396  8378  8378 W ClipboardService: No security bridge jar found, using default
+05-20 00:02:46.396  8378  8378 I SystemServer: NetworkManagement Service
+05-20 00:02:46.406  8378  8378 D NetworkManagementService: Creating NetworkManagementService
+05-20 00:02:46.416  8378  8378 D NetworkManagementService: Awaiting socket connection
+05-20 00:02:46.416  8378  8378 D NetworkManagementService: Connected
+05-20 00:02:46.416  8378  8378 I SystemServer: Text Service Manager Service
+05-20 00:02:46.426  8378  8491 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x88be45)
+05-20 00:02:46.436  8378  8491 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:02:46.436  8378  8378 I SystemServer: NetworkStats Service
+05-20 00:02:46.436  8378  8491 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:02:46.446  8378  8491 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:02:46.446  8378  8491 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:02:46.456  8378  8491 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:02:46.456  8378  8378 I SystemServer: NetworkPolicy Service
+05-20 00:02:46.456  8378  8491 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:02:46.456  8378  8491 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:02:46.456  8378  8491 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:02:46.466  8378  8491 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:02:46.466  8378  8378 I SystemServer: Wi-Fi P2pService
+05-20 00:02:46.466  8378  8491 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:02:46.476  8378  8491 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:02:46.486  8378  8491 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:02:46.486  8378  8491 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:02:46.486  8378  8491 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:02:46.486  8378  8491 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:02:46.486  8378  8491 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:02:46.486  8378  8491 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:02:46.496  8378  8491 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:02:46.496  8378  8491 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:02:46.496  8378  8491 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:02:46.506  8378  8491 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:02:46.506  8378  8491 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:02:46.506  8378  8491 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:02:46.506  8378  8491 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:02:46.506  8378  8491 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:02:46.516  8378  8491 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:02:46.516  8378  8491 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:02:46.520  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:46.796  8378  8378 I SystemServer: Wi-Fi Service
+05-20 00:02:46.809  8378  8666 D NetworkTimeUpdateService: handleMessage(), msg=2
+05-20 00:02:46.809  8378  8666 D NetworkTimeUpdateService: onPollNetworkTime(), event=2, autoTime=true
+05-20 00:02:46.817  8378  8666 D NetworkTimeUpdateService: refTime=1856679
+05-20 00:02:46.817  8378  8666 D NetworkTimeUpdateService: System time = 1400544166819, mLastNtpFetchTime=-1
+05-20 00:02:46.817  8378  8666 D NetworkTimeUpdateService: Before Ntp fetch
+05-20 00:02:46.817  8378  8666 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:02:46.907  8378  8666 D NtpTrustedTime: requestTime fail
+05-20 00:02:46.907  8378  8666 D NetworkTimeUpdateService: getCacheAge=9223372036854775807
+05-20 00:02:46.907  8378  8666 D NetworkTimeUpdateService: mTryAgainCounter=4
+05-20 00:02:46.966  8378  8378 I SystemServer: Connectivity Service
+05-20 00:02:46.966  8378  8378 D ConnectivityService: wifiOnly=false
+05-20 00:02:47.016  8378  8378 E MobileDataStateTracker: default: Ignoring feature request because could not acquire PhoneService
+05-20 00:02:47.016  8378  8378 E MobileDataStateTracker: default: Could not enable APN type "default"
+05-20 00:02:47.026  8378  8378 I WifiService: WifiService starting up with Wi-Fi enabled
+05-20 00:02:47.026  8378  8378 I WifiService: setWifiEnabled: true pid=8378, uid=1000
+05-20 00:02:47.056  8378  8378 I SystemServer: Network Service Discovery Service
+05-20 00:02:47.056  8378  8378 D NsdService: Network service discovery enabled true
+05-20 00:02:47.066  8378  8378 I SystemServer: UpdateLock Service
+05-20 00:02:47.156  8042  8362 D NetlinkEvent: Unexpected netlink message. type=0x11
+05-20 00:02:47.206  8378  8378 I SystemServer: Notification Manager
+05-20 00:02:47.216  8378  8378 I SystemServer: Device Storage Monitor
+05-20 00:02:47.226  8378  8378 I SystemServer: Location Manager
+05-20 00:02:47.226  8378  8378 I SystemServer: Country Detector
+05-20 00:02:47.226  8378  8378 I SystemServer: Search Service
+05-20 00:02:47.236  8378  8378 I SystemServer: DropBox Service
+05-20 00:02:47.236  8378  8378 I SystemServer: Wallpaper Service
+05-20 00:02:47.246  8378  8378 I SystemServer: Audio Service
+05-20 00:02:47.356  8378  8378 I SystemServer: Dock Observer
+05-20 00:02:47.356  8378  8378 W DockObserver: This kernel does not have dock station support
+05-20 00:02:47.356  8378  8378 I SystemServer: Wired Accessory Manager
+05-20 00:02:47.366  8378  8378 W WiredAccessoryManager: This kernel does not have usb audio support
+05-20 00:02:47.366  8378  8378 W WiredAccessoryManager: This kernel does not have HDMI audio support
+05-20 00:02:47.366  8378  8378 I SystemServer: USB Service
+05-20 00:02:47.366  8378  8378 I SystemServer: Serial Service
+05-20 00:02:47.366  8378  8378 I SystemServer: Twilight Service
+05-20 00:02:47.366  8378  8378 I SystemServer: UI Mode Manager Service
+05-20 00:02:47.376  8378  8378 I SystemServer: Backup Service
+05-20 00:02:47.386  8378  8378 V BackupManagerService: Initializing package tracking
+05-20 00:02:47.386  8378  8378 V BackupManagerService: No ancestral data
+05-20 00:02:47.386  8378  8378 V BackupManagerService: addPackageParticipantsLocked: all
+05-20 00:02:47.386  8378  8378 I BackupManagerService: Scheduling backup for new app com.android.calendar
+05-20 00:02:47.386  8378  8378 D BackupManagerService: Now staging backup of com.android.calendar
+05-20 00:02:47.416  8378  8378 I BackupManagerService: Scheduling backup for new app com.android.browser
+05-20 00:02:47.416  8378  8378 D BackupManagerService: Now staging backup of com.android.browser
+05-20 00:02:47.436  8378  8378 I BackupManagerService: Scheduling backup for new app com.android.sharedstoragebackup
+05-20 00:02:47.436  8378  8378 D BackupManagerService: Now staging backup of com.android.sharedstoragebackup
+05-20 00:02:47.436  8378  8378 I BackupManagerService: Scheduling backup for new app com.android.providers.settings
+05-20 00:02:47.436  8378  8378 D BackupManagerService: Now staging backup of com.android.providers.settings
+05-20 00:02:47.446  8378  8378 I BackupManagerService: Scheduling backup for new app com.android.providers.userdictionary
+05-20 00:02:47.446  8378  8378 D BackupManagerService: Now staging backup of com.android.providers.userdictionary
+05-20 00:02:47.456  8378  8378 I BackupManagerService: Scheduling backup for new app android
+05-20 00:02:47.456  8378  8378 D BackupManagerService: Now staging backup of android
+05-20 00:02:47.456  8378  8378 V BackupManagerService: Starting with transport android/com.android.internal.backup.LocalTransport
+05-20 00:02:47.456  8378  8378 V BackupManagerService: Found transports: 1
+05-20 00:02:47.466  8378  8378 I BackupManagerService: Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:02:47.476  8378  8378 I BackupManagerService: Found stale backup journal, scheduling
+05-20 00:02:47.476  8378  8378 I BackupManagerService:   com.android.calendar
+05-20 00:02:47.486  8378  8378 I BackupManagerService:   com.android.browser
+05-20 00:02:47.486  8378  8378 I BackupManagerService:   com.android.sharedstoragebackup
+05-20 00:02:47.486  8378  8378 I BackupManagerService:   com.android.providers.settings
+05-20 00:02:47.486  8378  8378 I BackupManagerService:   com.android.providers.userdictionary
+05-20 00:02:47.486  8378  8378 I BackupManagerService:   android
+05-20 00:02:47.486  8378  8378 I BackupManagerService: Backup enabled => false
+05-20 00:02:47.486  8378  8378 I BackupManagerService: Opting out of backup
+05-20 00:02:47.486  8378  8378 I SystemServer: AppWidget Service
+05-20 00:02:47.496  8378  8378 I SystemServer: Recognition Service
+05-20 00:02:47.496  8378  8378 I SystemServer: DiskStats Service
+05-20 00:02:47.496  8378  8378 I SystemServer: SamplingProfiler Service
+05-20 00:02:47.506  8378  8378 I SystemServer: NetworkTimeUpdateService
+05-20 00:02:47.506  8378  8378 I SystemServer: CommonTimeManagementService
+05-20 00:02:47.506  8378  8378 I SystemServer: CertBlacklister
+05-20 00:02:47.516  8378  8378 I SystemServer: Dreams Service
+05-20 00:02:47.516  8378  8378 I SystemServer: Assets Atlas Service
+05-20 00:02:47.516  8378  8378 I SystemServer: IdleMaintenanceService
+05-20 00:02:47.526  8378  8378 I SystemServer: IconManagerService
+05-20 00:02:47.536  8378  8378 I SystemServer: Print Service
+05-20 00:02:47.546  8378  8378 I SystemServer: Media Router Service
+05-20 00:02:47.556  8378  8378 I SystemServer: AssetRedirectionManager Service
+05-20 00:02:47.776  8378  8378 I ActivityManager: Start proc com.smartisanos.keyguard for service com.smartisanos.keyguard/.KeyguardService: pid=8512 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:02:47.806  8378  8378 V WindowManager.STA: sEEnterTXY =Cubic.INOUT, sEExitTXY =Cubic.INOUT, sEEnterTZ =Cubic.INOUT, sEExitTZ =Cubic.INOUT, sEEnterRotate =Cubic.INOUT, sEExitRotate =Cubic.INOUT
+05-20 00:02:47.806  8378  8378 I WindowManager.STA: left=-0.28125, right=0.28125, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=1920, mScreenWidth=1080, far=38400.0, near=1.0
+05-20 00:02:48.276  8378  8378 I AppOps  : Pruning old package media/1013: new uid=-1
+05-20 00:02:48.286  8378  8378 I ActivityManager: System now ready
+05-20 00:02:48.316  8378  8378 I SystemServer: Making services ready
+05-20 00:02:48.366  8378  8378 I ActivityManager: Start proc com.smartisanos.systemui for service com.smartisanos.systemui/.SystemUIService: pid=8536 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:02:48.366  8378  8378 D NetworkManagementService: enabling bandwidth control
+05-20 00:02:48.416  8378  8489 W MountService: Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+05-20 00:02:49.016  8378  8378 E NetdConnector: NDC Command {1 bandwidth enable} took too long (651ms)
+05-20 00:02:49.186  8512  8512 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:02:49.196  8378  8378 D NetworkManagementService: Prepared
+05-20 00:02:49.256  8378  8388 I ActivityManager: Start proc com.smartisanos.music:main for service com.smartisanos.music/.service.SmartisanMusicService: pid=8582 uid=10039 gids={50039, 3003, 1028, 1015}
+05-20 00:02:49.256  8512  8512 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:02:49.346  8378  8378 W NetworkStats: problem registering for global alert: java.lang.IllegalStateException: command '4 bandwidth setglobalalert 2097152' failed with '400 4 Bandwidth command failed'
+05-20 00:02:49.606  8378  8378 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:02:49.776  8378  8378 W InputMethodManagerService: Ignoring setImeWindowStatus of uid 1000 token: null
+05-20 00:02:50.026  8378  8504 I ActivityManager: Start proc com.smartisanos.phone_number_assistant for service com.smartisanos.phone_number_assistant/.NumberService: pid=8613 uid=10005 gids={50005, 1028, 1015, 3003, 1007}
+05-20 00:02:50.097  8378  8389 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41cee8b8
+05-20 00:02:50.156  8378  8378 I ActivityManager: Start proc com.cootek.smartinputv5.smartisan for service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalIME: pid=8623 uid=10038 gids={50038, 1028, 1015, 3003}
+05-20 00:02:50.166  8378  8378 V InputMethodManagerService: Adding window token: android.os.Binder@41cfa6a8
+05-20 00:02:50.356  8378  8378 I ActivityManager: Start proc com.amap.android.location for service com.amap.android.location/.NetworkLocationService: pid=8636 uid=10025 gids={50025, 3003, 1028, 1015}
+05-20 00:02:50.466  8378  8378 E LocationManagerService: No FusedProvider found.
+05-20 00:02:50.506  8378  8378 E LocationManagerService: no geofence provider found
+05-20 00:02:50.525  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:50.546  8378  8393 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.tracker.TrackerReceiver: pid=8649 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:02:50.866  8378  8378 I ActivityManager: Start proc com.android.phone for added application com.android.phone: pid=8670 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:02:50.906  8378  8378 I ActivityManager: Start proc com.smartisanos.voice for added application com.smartisanos.voice: pid=8675 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:02:50.986  8378  8378 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:02:51.026  8042  8680 W SocketClient: write error (Broken pipe)
+05-20 00:02:51.226  8378  8378 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=8686 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:02:51.526  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:02:51.556  8378  8378 I WindowManager: <1400544171564> :  screenTurningOn com.android.server.power.Notifier$2@41a31c78
+05-20 00:02:51.566  8378  8378 W KeyguardServiceDelegate: onScreenTurnedOn(): no keyguard service!
+05-20 00:02:51.566  8378  8378 I WindowManager: No lock screen! windowToken=null
+05-20 00:02:51.566  8378  8378 I WindowManager: <1400544171564~1400544171569> :  finishScreenTurningOn com.android.server.power.Notifier$2@41a31c78
+05-20 00:02:51.566  8378  8378 I WindowManager: <1400544171570> : ScreenOnListener Notified Screen On State
+05-20 00:02:51.766  8512  8528 D TAG     : disable what:0
+05-20 00:02:51.766  8378  8712 D StatusBarManagerService: disableInternal
+05-20 00:02:51.766  8378  8712 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d159d8
+05-20 00:02:52.066  8378  8389 I ActivityManager: Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=8715 uid=10011 gids={50011, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+05-20 00:02:52.206  8512  8528 D TAG     : disable what:0
+05-20 00:02:52.216  8378  8668 D StatusBarManagerService: disableInternal
+05-20 00:02:52.216  8378  8668 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d159d8
+05-20 00:02:53.496  8378  8392 W WindowManager: Window freeze timeout expired.
+05-20 00:02:53.496  8378  8392 W WindowManager: Force clearing orientation change: Window{41cbb6b8 u0 KeyguardScrim}
+05-20 00:02:53.716  8378  8393 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41ceab28 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c02c80, started 2010ms ago
+05-20 00:02:53.716  8378  8393 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41bfb620 u0 ReceiverList{41c02e28 8378 system/1000/u0 local:41c02c80}}
+05-20 00:02:54.006  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:02:54.006  8378  8378 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:02:54.096  8378  8378 D NotificationService: onReceive:android.intent.action.USER_SWITCHED
+05-20 00:02:54.527  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:54.596  8378  8378 V BackupManagerService: Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:02:54.596  8378  8378 V BackupManagerService: Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41ce17d0
+05-20 00:02:54.866  8378  8378 W PowerManagerNotifier: policy turn screen on toooo slowly!
+05-20 00:02:54.986  8378  8378 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:02:55.256  8512  8512 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:02:55.256  8512  8512 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:02:56.236  8378  8712 I ActivityManager: Start proc com.smartisanos.weather for content provider com.smartisanos.weather/.provider.WeatherProvider: pid=8774 uid=10046 gids={50046, 3003}
+05-20 00:02:58.306  8378  8798 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:58.416  8378  8388 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:58.528  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:58.536  8378  8659 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:58.606  8378  8798 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:58.906  8378  8392 I WindowManager: Focus remains null for a while, update it
+05-20 00:02:58.976  8378  8394 I ActivityManager: Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=8800 uid=10031 gids={50031}
+05-20 00:02:59.116  8536  8536 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:02:59.406  8536  8814 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:02:59.446  8378  8504 I ActivityManager: Start proc com.smartisanos.systemui:screenshot for service com.smartisanos.systemui/.screenshot.TakeScreenshotService: pid=8818 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:02:59.936  8378  8712 I ActivityManager: Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=8834 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 00:02:59.996  8378  8485 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1400544180000
+05-20 00:03:00.316  8378  8393 V NotificationService: enqueueNotificationInternal: pkg=com.smartisanos.systemui id=1 notification=Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:00.346  8378  8378 V NotificationService: Initial score is 0.
+05-20 00:03:00.346  8378  8378 V NotificationService: Final score is 0.
+05-20 00:03:00.346  8378  8378 V NotificationService: Assigned score=0 to Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:00.346  8378  8378 E NotificationService: Not posting notification with icon==0: Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+05-20 00:03:00.346  8378  8378 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+05-20 00:03:00.506  8536  8536 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:03:02.426  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:02.530  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:03:03.016  8378  8378 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:03.036  8378  8378 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.076  8378  8378 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:03.076  8378  8378 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.096  8378  8378 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:03.096  8378  8378 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.106  8378  8378 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:03.116  8378  8378 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.146  8378  8378 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:03.146  8378  8378 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.156  8378  8378 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:03.166  8378  8378 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.186  8378  8378 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:03.186  8378  8378 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.206  8378  8378 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:03.206  8378  8378 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.236  8378  8378 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:03.236  8378  8378 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.268  8378  8378 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:03.268  8378  8378 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.316  8378  8378 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:03.316  8378  8378 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.326  8378  8378 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:03.337  8378  8378 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.356  8378  8378 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:03.356  8378  8378 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.386  8378  8378 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:03.386  8378  8378 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.406  8378  8378 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:03.406  8378  8378 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.416  8378  8378 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:03.426  8378  8378 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:03.476  8378  8378 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:03.476  8378  8378 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.486  8378  8378 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:03.496  8378  8378 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.496  8378  8378 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:03.506  8378  8378 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.516  8378  8378 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:03.516  8378  8378 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.536  8378  8378 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:03.546  8378  8378 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.546  8378  8378 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:03.586  8378  8378 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.586  8378  8378 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:03.596  8378  8378 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.596  8378  8378 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:03.596  8378  8378 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:03.606  8378  8378 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:03.616  8378  8378 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.626  8378  8378 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:03.676  8378  8378 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.676  8378  8378 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:03.716  8378  8378 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.726  8378  8378 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:03.726  8378  8378 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.746  8378  8378 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:03.766  8378  8378 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.766  8378  8378 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:03.786  8378  8378 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.786  8378  8378 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:03.786  8378  8378 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.786  8378  8378 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:03.796  8378  8378 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.836  8378  8378 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:03.836  8378  8378 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.856  8378  8378 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:03.856  8378  8378 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.876  8378  8378 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:03.896  8378  8378 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.896  8378  8378 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:03.896  8378  8378 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.916  8378  8378 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:03.946  8378  8378 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.946  8378  8378 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:03.956  8378  8378 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.956  8378  8378 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:03.996  8378  8378 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:03.996  8378  8378 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:04.006  8378  8378 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:04.776  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:05.086  8536  8536 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:03:05.736  8536  8536 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:03:05.926  8536  8536 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:03:05.936  8378  8392 W WindowManager: Window freeze timeout expired.
+05-20 00:03:05.936  8378  8392 W WindowManager: Force clearing orientation change: Window{41e31ed0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:03:06.116  8536  8536 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:03:06.336  8536  8536 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:03:06.456  8536  8536 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:03:06.530  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:03:08.006  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:03:08.016  8378  8659 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:03:08.806  8378  8479 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:03:10.406  8378  8393 W ActivityManager: Timeout executing service: ServiceRecord{41ce8a18 u0 com.smartisanos.phone_number_assistant/.NumberService}
+05-20 00:03:10.406  8378  8393 I ActivityManager: Skipping ANR before process restarted:com.smartisanos.phone_number_assistant
+05-20 00:03:10.532  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:03:13.796  8649  8649 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:03:14.533  9002  9032 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:03:14.546  8378  8389 I ActivityManager: Start proc com.smartisanos.tracker for service com.smartisanos.tracker/.service.TrackerService: pid=8903 uid=10040 gids={50040, 3003}
+05-20 00:03:15.167    90    90 I ServiceManager: service 'isms' died
+05-20 00:03:15.167    90    90 I ServiceManager: service 'simphonebook' died
+05-20 00:03:15.167    90    90 I ServiceManager: service 'iphonesubinfo' died
+05-20 00:03:15.167    90    90 I ServiceManager: service 'sip' died
+05-20 00:03:15.167    90    90 I ServiceManager: service 'phone' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'activity' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'procstats' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'meminfo' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'gfxinfo' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'sensorservice' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'cpuinfo' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'power' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'scheduling_policy' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'batterystats' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'content' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'usagestats' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'appops' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'display' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'telephony.registry' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'permission' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'package' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'entropy' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'account' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'mount' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'user' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'dbinfo' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'alarm' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'hardware' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'consumer_ir' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'battery' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'vibrator' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'window' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'search' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'dropbox' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'updatelock' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'devicestoragemonitor' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'wallpaper' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'country_detector' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'location' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'notification' died
+05-20 00:03:15.177    90    90 I ServiceManager: service 'network_management' died
+05-20 00:00:00.547  8378  8394 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:03:15.177    90    90 I ServiceManager: service 'input' died
+05-20 00:00:00.677  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:15.177    90    90 I ServiceManager: service 'bluetooth_manager' died
+05-20 00:00:00.927  8378  8393 W ProcessCpuTracker: Skipping unknown process pid 8947
+05-20 00:03:15.177    90    90 I ServiceManager: service 'textservices' died
+05-20 00:00:01.037  8378  8504 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=8957 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:03:15.177    90    90 I ServiceManager: service 'netpolicy' died
+05-20 00:00:01.107  8378  8378 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:03:15.177    90    90 I ServiceManager: service 'wifi' died
+05-20 00:00:01.147  8378  8378 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:03:15.177    90    90 I ServiceManager: service 'connectivity' died
+05-20 00:00:01.147  8378  8378 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:03:15.177    90    90 I ServiceManager: service 'servicediscovery' died
+05-20 00:00:01.147  8378  8378 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:03:15.177    90    90 I ServiceManager: service 'wifip2p' died
+05-20 00:00:01.157  8378  8378 V WiredAccessoryManager: init()
+05-20 00:03:15.177    90    90 I ServiceManager: service 'input_method' died
+05-20 00:00:01.157  8378  8509 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:03:15.177    90    90 I ServiceManager: service 'accessibility' died
+05-20 00:00:01.457  8378  8483 I PowerManagerService: Boot animation finished.
+05-20 00:03:15.177    90    90 I ServiceManager: service 'lock_settings' died
+05-20 00:00:01.737  8378  8977 I BootReceiver: Copying /data/tombstones/tombstone_08 to DropBox (SYSTEM_TOMBSTONE)
+05-20 00:03:15.177    90    90 I ServiceManager: service 'device_policy' died
+05-20 00:00:01.767  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:15.177    90    90 I ServiceManager: service 'statusbar' died
+05-20 00:00:01.857  8649  8649 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:03:15.177    90    90 I ServiceManager: service 'clipboard' died
+05-20 00:00:02.747  8378  8518 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:15.177    90    90 I ServiceManager: service 'netstats' died
+05-20 00:00:04.247  8378  8393 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+05-20 00:03:15.177    90    90 I ServiceManager: service 'audio' died
+05-20 00:00:04.287  8378  8393 I ActivityManager: Start proc com.qualcomm.qcrilmsgtunnel for broadcast com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelAutoboot: pid=9002 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:03:15.177    90    90 I ServiceManager: service 'usb' died
+05-20 00:00:04.857  8649  9000 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 android.content.ContextWrapper.sendBroadcast:365 com.android.settings.fuelgauge.PowerUsageService.onHandleIntent:95 android.app.IntentService$ServiceHandler.handleMessage:65 android.os.Handler.dispatchMessage:102 
+05-20 00:03:15.177    90    90 I ServiceManager: service 'serial' died
+05-20 00:00:05.797  8378  8393 I ActivityManager: Start proc com.smartisan.rem for broadcast com.smartisan.rem/.framework.REMReceiver: pid=9015 uid=2000 gids={42000, 3003, 3002, 3001, 1028, 1015, 1023, 3008}
+05-20 00:03:15.177    90    90 I ServiceManager: service 'uimode' died
+05-20 00:00:06.947  8378  8388 I ActivityManager: Delay finish: com.android.settings/.SmartisanEventReceiver
+05-20 00:03:15.177    90    90 I ServiceManager: service 'backup' died
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 8686
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Native method not found: java.lang.Runtime.gcAndTrim:()V
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at java.lang.Runtime.gcAndTrim(Native Method)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at android.app.ActivityThread$HeapTrimerRunable.run(ActivityThread.java:5142)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:733)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:14.527  8686  8686 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:15.177    90    90 I ServiceManager: service 'appwidget' died
+05-20 00:00:14.547  8378  8712 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:03:15.177    90    90 I ServiceManager: service 'diskstats' died
+05-20 00:00:14.727  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:15.177    90    90 I ServiceManager: service 'samplingprofiler' died
+05-20 00:00:15.237  8378  8518 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:15.177    90    90 I ServiceManager: service 'commontime_management' died
+05-20 00:00:15.507  8378  8518 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:15.177    90    90 I ServiceManager: service 'dreams' died
+05-20 00:00:19.377  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:15.177    90    90 I ServiceManager: service 'assetatlas' died
+05-20 00:00:19.387  8378  8388 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41a49f18 attribute=null, token = android.os.BinderProxy@41ef1070
+05-20 00:03:15.177    90    90 I ServiceManager: service 'icon' died
+05-20 00:00:19.427  8378  8798 I ActivityManager: Process com.smartisanos.launcher (pid 8686) has died.
+05-20 00:03:15.177    90    90 I ServiceManager: service 'print' died
+05-20 00:00:19.427  8378  8504 I WindowState: WIN DEATH: Window{41e31ed0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:03:15.177    90    90 I ServiceManager: service 'assetredirection' died
+05-20 00:00:19.427  8378  8504 W WindowManager: Force-removing child win Window{41e07328 u0 SurfaceView} from container Window{41e31ed0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:03:15.177    90    90 I ServiceManager: service 'media_router' died
+05-20 00:00:19.437  8378  8720 W WindowManager: Failed looking up window
+05-20 00:00:19.437  8378  8720 W WindowManager: java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@41e07140 does not exist
+05-20 00:00:19.437  8378  8720 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8417)
+05-20 00:00:19.437  8378  8720 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8408)
+05-20 00:00:19.437  8378  8720 W WindowManager: 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1095)
+05-20 00:00:19.437  8378  8720 W WindowManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+05-20 00:00:19.437  8378  8720 W WindowManager: 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:03:15.187  8053  8053 W AudioFlinger: power manager service died !!!
+05-20 00:00:19.437  8378  8720 I WindowState: WIN DEATH: null
+05-20 00:03:15.187  3701  3701 D SurfaceFlinger: Screen acquired, type=0 flinger=0x2a0074f0
+05-20 00:00:19.687  8378  8518 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:03:15.187   101   101 E installd: eof
+05-20 00:00:20.597  8378  8393 I ActivityManager: Waited long enough for: ServiceRecord{41caa8a8 u0 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+05-20 00:03:15.187   101   101 E installd: failed to read size
+05-20 00:00:20.597  8378  8393 I ActivityManager: Resuming delayed broadcast
+05-20 00:03:15.187   101   101 I installd: closing connection
+05-20 00:00:20.852  8378  8389 I ActivityManager: START u0 {cmp=com.smartisanos.setupwizard/.LicenseActivity (has extras)} from pid 8649
+05-20 00:03:15.197  3701  3701 E SurfaceFlinger: GL error 0x0502
+05-20 00:00:20.877  8378  8389 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21005
+05-20 00:03:15.207  3701  3701 D SurfaceFlinger: The screen is drew after light up!
+05-20 00:00:21.377  8649  8649 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:03:15.277  9150  9152 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:00:23.567  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:15.307  9150  9152 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:00:24.217  8378  8518 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:03:15.317  9150  9152 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:00:34.057  8378  8498 D ConnectivityService: Sampling interval elapsed, updating statistics ..
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: Local Branch: 
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: Local Patches: NONE
+05-20 00:03:15.317  9150  9152 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:00:34.087  8378  8498 D ConnectivityService: Done.
+05-20 00:03:15.357  9150  9152 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:03:16.076  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:03:16.156  8378  8711 I PackageManager: Adding preferred activity ComponentInfo{com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity} for user 0 :
+05-20 00:03:16.416  8378  8389 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smartisanos.setupwizard/.SetupWizardActivity} from pid 8686
+05-20 00:03:16.596  8378  8712 I ActivityManager: Start proc com.smartisanos.setupwizard for activity com.smartisanos.setupwizard/.SetupWizardActivity: pid=8927 uid=10072 gids={50072}
+05-20 00:03:16.896  8378  8659 I ActivityManager: START u0 {cmp=com.android.settings/.inputmethod.LocalePickerActivity (has extras)} from pid 8927
+05-20 00:03:16.976  8927  8927 D TAG     : disable what:65536
+05-20 00:03:16.976  8378  8388 D StatusBarManagerService: disableInternal
+05-20 00:00:34.157  8042  9082 W SocketClient: write error (Broken pipe)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Native method not found: java.lang.Runtime.gcAndTrim:()V
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at java.lang.Runtime.gcAndTrim(Native Method)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at VmProbe.main(Unknown Source)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: Error reporting crash
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: java.lang.NullPointerException
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:52.547  9092  9092 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:56.437  8378  8483 I PowerManagerService: Going to sleep due to screen timeout...
+05-20 00:00:56.887  8378  8378 I WindowManager: <1400544056891> : screenTurnedOff for reason 3
+05-20 00:00:56.967  8378  8378 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21010
+05-20 00:00:57.017  8378  8378 D NotificationService: onReceive:android.intent.action.SCREEN_OFF
+05-20 00:01:30.867  8378  8483 I PowerManagerService: Waking up from sleep...
+05-20 00:01:30.867  8378  8378 I WindowManager: <1400544090875> :  screenTurningOn com.android.server.power.Notifier$2@41a31c78
+05-20 00:01:30.877  8378  8720 I WindowManager: No lock screen! windowToken=null
+05-20 00:01:30.877  8378  8720 I WindowManager: <1400544090875~1400544090884> :  finishScreenTurningOn com.android.server.power.Notifier$2@41a31c78
+05-20 00:01:30.917  8512  8527 D TAG     : disable what:0
+05-20 00:01:30.928  8378  8720 I WindowManager: <1400544090936> : ScreenOnListener Notified Screen On State
+05-20 00:01:30.947  8378  8388 D StatusBarManagerService: disableInternal
+05-20 00:01:30.947  8378  8388 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41e41b08
+05-20 00:01:31.007  8378  8378 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:01:33.097  8378  8798 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21010
+05-20 00:01:33.147  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:01:33.237  8378  8668 W InputMethodManagerService: Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41efb548 (uid=10072 pid=8927)
+05-20 00:01:33.597  8378  8518 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:01:34.797  8378  8388 I ActivityManager: START u0 {cmp=com.smartisanos.setupwizard/.LicenseActivity (has extras)} from pid 8649
+05-20 00:01:34.807  8378  8388 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21005
+05-20 00:01:35.097  8378  8475 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bb2d88
+05-20 00:01:35.577  8378  8518 W WindowManager.STA: IconCellShoter, unlockTouch failed e=android.os.DeadObjectException
+05-20 00:02:04.747  8378  8483 I PowerManagerService: Going to sleep due to screen timeout...
+05-20 00:02:05.167  8378  8378 I WindowManager: <1400544125173> : screenTurnedOff for reason 3
+05-20 00:02:05.357  8378  8378 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21010
+05-20 00:02:05.417  8378  8378 D NotificationService: onReceive:android.intent.action.SCREEN_OFF
+05-20 00:02:46.907  8042  9136 W SocketClient: write error (Broken pipe)
+05-20 00:03:16.976  8378  8388 D StatusBarManagerService: manageDisableList userId=0 what=0x10000 pkg=com.smartisanos.setupwizard token:android.os.BinderProxy@41e5bfc8
+05-20 00:03:17.487  9154  9154 D AndroidRuntime: 
+05-20 00:03:17.487  9154  9154 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:03:17.487  9154  9154 D AndroidRuntime: CheckJNI is OFF
+05-20 00:03:17.567  9154  9154 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:03:17.567  9154  9154 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:03:17.577  9154  9154 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:03:17.577  9154  9154 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:03:17.577  9154  9154 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:03:17.647  9154  9154 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:03:17.997  9154  9154 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:03:17.997  9154  9154 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:03:18.107  9154  9154 D AndroidRuntime: Calling main entry VmProbe
+05-20 00:03:18.107  9154  9154 W dalvikvm: No implementation found for native Ljava/lang/Runtime;.gcAndTrim:()V
+05-20 00:03:18.107  9154  9154 D AndroidRuntime: Shutting down VM
+05-20 00:03:18.117  9154  9154 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:03:18.117  9154  9154 E JavaBinder: Unknown binder error code. 0xfffffff7
+05-20 00:03:18.117  9154  9154 E ServiceManager: error in getService
+05-20 00:03:18.117  9154  9154 E ServiceManager: android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2100)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2098)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.util.Singleton.get(Singleton.java:34)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:77)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:03:18.117  9154  9154 E ServiceManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:18.117  9154  9154 I Process : killProcess pid=9154
+05-20 00:03:18.117  9154  9154 I Process : java.lang.RuntimeException
+05-20 00:03:18.117  9154  9154 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:03:18.117  9154  9154 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:03:18.117  9154  9154 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:03:18.117  9154  9154 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:03:18.117  9154  9154 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:18.117  9154  9154 I Process : Sending signal. PID: 9154 SIG: 9
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Native method not found: java.lang.Runtime.gcAndTrim:()V
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at java.lang.Runtime.gcAndTrim(Native Method)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at VmProbe.main(Unknown Source)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: Error reporting crash
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: java.lang.NullPointerException
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:03:18.117  9154  9154 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:18.717  9163  9163 D AndroidRuntime: 
+05-20 00:03:18.717  9163  9163 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+05-20 00:03:18.717  9163  9163 D AndroidRuntime: CheckJNI is OFF
+05-20 00:03:18.757  9163  9163 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:03:18.767  9163  9163 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:03:18.777  9163  9163 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:03:18.777  9163  9163 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:03:18.777  9163  9163 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:03:18.837  9163  9163 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:03:19.147  9163  9163 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:03:19.147  9163  9163 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:03:19.227  9163  9163 I SamplingProfilerIntegration: Profiling disabled.
+05-20 00:03:19.247  9163  9163 I Zygote  : Preloading classes...
+05-20 00:03:19.247  9163  9163 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:03:20.137  9163  9163 D skia    : ---- failed to open </system/fonts/DroidSerif-Regular.ttf> as a font
+05-20 00:03:20.147  9163  9163 D skia    : ---- failed to open </system/fonts/DroidSerif-Bold.ttf> as a font
+05-20 00:03:20.147  9163  9163 D skia    : ---- failed to open </system/fonts/DroidSerif-Italic.ttf> as a font
+05-20 00:03:20.147  9163  9163 D skia    : ---- failed to open </system/fonts/DroidSerif-BoldItalic.ttf> as a font
+05-20 00:03:20.447  9163  9163 D TextLayoutCache: Using debug level = 0 - Debug Enabled = 0
+05-20 00:03:20.777  9163  9163 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:03:20.777  9163  9163 D MtpDeviceJNI: register_android_mtp_MtpDevice
+05-20 00:03:20.777  9163  9163 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:03:20.777  9163  9163 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:03:20.777  9163  9163 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:03:21.657  9163  9163 I LibraryLoader: loading: webviewchromium
+05-20 00:03:21.797  9163  9163 I LibraryLoader: loaded: webviewchromium
+05-20 00:03:22.867  9163  9163 W Zygote  : Class not found for preloading: java.lang.UnsafeByteSequence
+05-20 00:03:23.157  9163  9163 I System  : Loaded time zone names for "" in 123ms (115ms in ICU)
+05-20 00:03:23.227  9163  9163 I System  : Loaded time zone names for "en_US" in 67ms (55ms in ICU)
+05-20 00:03:23.327  9163  9163 I System  : Loaded time zone names for "zh_CN" in 95ms (84ms in ICU)
+05-20 00:03:23.597  9163  9163 I Zygote  : ...preloaded 2777 classes in 4349ms.
+05-20 00:03:24.627  9163  9163 I Zygote  : Preloading resources...
+05-20 00:03:24.687  9163  9163 I Zygote  : ...preloaded 21 resources in 68ms.
+05-20 00:03:24.687  9163  9163 I Zygote  : ...preloaded 1 resources in 0ms.
+05-20 00:03:24.717  9163  9163 I Zygote  : Preloading resources...
+05-20 00:03:24.927  9163  9163 W Resources: Preloaded drawable resource #0x202003c (smartisanos:drawable/cal_btn_black_n) that varies with configuration!!
+05-20 00:03:24.937  9163  9163 W Resources: Preloaded drawable resource #0x202003d (smartisanos:drawable/cal_btn_black_p) that varies with configuration!!
+05-20 00:03:24.937  9163  9163 W Resources: Preloaded drawable resource #0x202003e (smartisanos:drawable/cal_btn_grey_n) that varies with configuration!!
+05-20 00:03:24.967  9163  9163 W Resources: Preloaded drawable resource #0x202003f (smartisanos:drawable/cal_btn_grey_p) that varies with configuration!!
+05-20 00:03:24.977  9163  9163 W Resources: Preloaded drawable resource #0x202005d (smartisanos:drawable/cal_btn_white_n) that varies with configuration!!
+05-20 00:03:24.997  9163  9163 W Resources: Preloaded drawable resource #0x202006f (smartisanos:drawable/cal_btn_white_p) that varies with configuration!!
+05-20 00:03:25.017  9163  9163 W Resources: Preloaded drawable resource #0x202003d (smartisanos:drawable/cal_btn_black_p) that varies with configuration!!
+05-20 00:03:25.027  9163  9163 W Resources: Preloaded drawable resource #0x202003c (smartisanos:drawable/cal_btn_black_n) that varies with configuration!!
+05-20 00:03:25.027  9163  9163 W Resources: Preloaded drawable resource #0x202006c (smartisanos:drawable/cal_selector_btn_black) that varies with configuration!!
+05-20 00:03:25.037  9163  9163 W Resources: Preloaded drawable resource #0x202003f (smartisanos:drawable/cal_btn_grey_p) that varies with configuration!!
+05-20 00:03:25.047  9163  9163 W Resources: Preloaded drawable resource #0x202003e (smartisanos:drawable/cal_btn_grey_n) that varies with configuration!!
+05-20 00:03:25.047  9163  9163 W Resources: Preloaded drawable resource #0x202006d (smartisanos:drawable/cal_selector_btn_grey) that varies with configuration!!
+05-20 00:03:25.057  9163  9163 W Resources: Preloaded drawable resource #0x202006f (smartisanos:drawable/cal_btn_white_p) that varies with configuration!!
+05-20 00:03:25.067  9163  9163 W Resources: Preloaded drawable resource #0x202005d (smartisanos:drawable/cal_btn_white_n) that varies with configuration!!
+05-20 00:03:25.067  9163  9163 W Resources: Preloaded drawable resource #0x202006e (smartisanos:drawable/cal_selector_btn_white) that varies with configuration!!
+05-20 00:03:25.067  9163  9163 I Zygote  : ...preloaded 29 smartisanos resources in 348ms.
+05-20 00:03:25.067  9163  9163 I Zygote  : ...preloaded 0 smartisanos resources in 0ms.
+05-20 00:03:25.217  9163  9163 I dalvikvm: System server process 9183 has been created
+05-20 00:03:25.237  9163  9163 I Zygote  : Accepting command socket connections
+05-20 00:03:25.277  9183  9183 D SensorService: nuSensorService starting...
+05-20 00:03:25.277  9183  9183 I SensorService: BMA150 3-axis Accelerometer
+05-20 00:03:25.277  9183  9183 I SensorService: AK8973 3-axis Magnetic field sensor
+05-20 00:03:25.277  9183  9183 I SensorService: AK8973 Orientation sensor
+05-20 00:03:25.277  9183  9183 I SensorService: CM3602 Proximity sensor
+05-20 00:03:25.277  9183  9183 I SystemServer: Entered the Android system server!
+05-20 00:03:25.287   103   103 D AK8973  : Compass Start
+05-20 00:03:25.287  9183  9183 I SensorService: CM3602 Light sensor
+05-20 00:03:25.287  9183  9183 D SensorService: Max socket buffer size 1048576
+05-20 00:03:25.287  9183  9196 D SensorService: nuSensorService thread starting...
+05-20 00:03:25.287   101   101 I installd: new connection
+05-20 00:03:25.287  9183  9183 I SystemServer: Waiting for installd to be ready.
+05-20 00:03:25.287  9183  9183 I Installer: connecting...
+05-20 00:03:25.287  9183  9183 I SystemServer: Power Manager
+05-20 00:03:25.297  9183  9183 I SystemServer: Activity Manager
+05-20 00:03:25.487   103   103 D AK8973  : Compass CLOSE 
+05-20 00:03:25.537  9183  9198 I ActivityManager: Memory class: 64
+05-20 00:03:25.587  9183  9198 W UsageStats: Usage stats version changed; dropping
+05-20 00:03:25.597  9183  9198 I AppOps  : No existing app ops config file /system/etc/package_ops_config.xml
+05-20 00:03:25.847  9183  9183 I IntentFirewall: Read new rules (A:0 B:0 S:0)
+05-20 00:03:25.847  9183  9183 I SystemServer: Display Manager
+05-20 00:03:25.857  9183  9183 I SystemServer: Telephony Registry
+05-20 00:03:25.867  9183  9197 I DisplayManagerService: Display device added: DisplayDeviceInfo{"内置屏幕": 480 x 800, 60.000004 fps, density 240, 254.0 x 254.0 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+05-20 00:03:25.897  9183  9183 I SystemServer: Scheduling Policy
+05-20 00:03:25.897  9183  9183 I SystemServer: Package Manager
+05-20 00:03:25.897  9183  9183 W PackageManager: No security bridge jar found, using default
+05-20 00:03:26.167  9183  9183 W PackageManager: Couldn't find or open file /system/etc/install_bl.xml
+05-20 00:03:26.167  9183  9183 D SELinuxMMAC: Couldn't find install policy /data/security/mac_permissions.xml
+05-20 00:03:26.177  9183  9183 D SELinuxMMAC: Using install policy file /system/etc/security/mac_permissions.xml
+05-20 00:03:26.197  9183  9183 W PackageSettings: packages can't be read
+05-20 00:03:26.207  9183  9183 W PackageSettings: Got execption parsing active monitor.
+05-20 00:03:26.207  9183  9183 W PackageSettings: java.io.FileNotFoundException: /system/etc/active_monitor.xml: open failed: ENOENT (No such file or directory)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.pm.Settings.readActiveMonitorList(Settings.java:3616)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.pm.Settings.readLPw(Settings.java:1791)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1311)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:26.207  9183  9183 W PackageSettings: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at libcore.io.Posix.open(Native Method)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:03:26.207  9183  9183 W PackageSettings: 	... 12 more
+05-20 00:03:26.607  9183  9183 W PackageManager: Library not found: /system/framework/com.google.widevine.software.drm.jar
+05-20 00:03:26.657  9183  9183 W PackageManager: Library not found: /system/framework/com.google.android.media.effects.jar
+05-20 00:03:26.707  9183  9183 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
+05-20 00:03:26.707  9183  9183 W PackageManager: Cannot dexopt /system/framework/cneapiclient.jar; is it an APK or JAR? /system/framework/cneapiclient.jar
+05-20 00:03:26.707  9183  9183 W PackageManager: Library not found: /system/framework/com.google.android.maps.jar
+05-20 00:03:26.717  9183  9183 W PackageManager: Library not found: /system/framework/org.cyanogenmod.hardware.jar
+05-20 00:03:26.747  9183  9183 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
+05-20 00:03:26.757  9183  9183 W PackageManager: Exception reading jar: /system/framework/cneapiclient.jar
+05-20 00:03:26.757  9183  9183 W PackageManager: java.io.IOException: /system/framework/cneapiclient.jar
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1411)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:03:26.757  9183  9183 W PackageManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:26.827  9183  9183 I PackageManager: Replacing default ResolverActivity with custom activity: ComponentInfo{android/com.android.internal.app.ResolverActivity}

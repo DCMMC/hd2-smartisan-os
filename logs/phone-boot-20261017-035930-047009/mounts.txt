@@ -1,0 +1,11 @@
+rootfs / rootfs rw 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=205880k,nr_inodes=43612,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620 0 0
+tmpfs /run tmpfs rw,relatime 0 0
+/dev/mmcblk0p1 /sd vfat rw,noatime,fmask=0022,dmask=0022,codepage=cp437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+/dev/loop0 /target ext4 rw,noatime,barrier=1,data=ordered 0 0
+proc /target/proc proc rw,relatime 0 0
+devtmpfs /target/dev devtmpfs rw,relatime,size=205880k,nr_inodes=43612,mode=755 0 0
+sysfs /target/sys sysfs rw,relatime 0 0

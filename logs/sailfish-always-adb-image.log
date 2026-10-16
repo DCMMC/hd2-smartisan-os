@@ -1,0 +1,79 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /default.prop
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/default.prop /default.prop
+Allocated inode: 121
+debugfs: sif /default.prop uid 0
+debugfs: sif /default.prop gid 0
+debugfs: sif /default.prop mode 0o100644
+Couldn't parse '0o100644' for field mode.
+debugfs: rm /usr/local/sbin/hd2-adbd
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/local/sbin/hd2-adbd /usr/local/sbin/hd2-adbd
+Allocated inode: 22425
+debugfs: sif /usr/local/sbin/hd2-adbd uid 0
+debugfs: sif /usr/local/sbin/hd2-adbd gid 0
+debugfs: sif /usr/local/sbin/hd2-adbd mode 0o100755
+Couldn't parse '0o100755' for field mode.
+debugfs: rm /usr/local/sbin/hd2-usb-setup
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/local/sbin/hd2-usb-setup /usr/local/sbin/hd2-usb-setup
+Allocated inode: 22426
+debugfs: sif /usr/local/sbin/hd2-usb-setup uid 0
+debugfs: sif /usr/local/sbin/hd2-usb-setup gid 0
+debugfs: sif /usr/local/sbin/hd2-usb-setup mode 0o100755
+Couldn't parse '0o100755' for field mode.
+debugfs: rm /usr/local/sbin/hd2-usb-debug
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/usr/local/sbin/hd2-usb-debug /usr/local/sbin/hd2-usb-debug
+Allocated inode: 8052
+debugfs: sif /usr/local/sbin/hd2-usb-debug uid 0
+debugfs: sif /usr/local/sbin/hd2-usb-debug gid 0
+debugfs: sif /usr/local/sbin/hd2-usb-debug mode 0o100755
+Couldn't parse '0o100755' for field mode.
+debugfs: rm /etc/systemd/system/hd2-adbd.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/hd2-adbd.service /etc/systemd/system/hd2-adbd.service
+Allocated inode: 22427
+debugfs: sif /etc/systemd/system/hd2-adbd.service uid 0
+debugfs: sif /etc/systemd/system/hd2-adbd.service gid 0
+debugfs: sif /etc/systemd/system/hd2-adbd.service mode 0o100644
+Couldn't parse '0o100644' for field mode.
+debugfs: rm /etc/systemd/system/hd2-usb-debug.service
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/systemd/system/hd2-usb-debug.service /etc/systemd/system/hd2-usb-debug.service
+Allocated inode: 708
+debugfs: sif /etc/systemd/system/hd2-usb-debug.service uid 0
+debugfs: sif /etc/systemd/system/hd2-usb-debug.service gid 0
+debugfs: sif /etc/systemd/system/hd2-usb-debug.service mode 0o100644
+Couldn't parse '0o100644' for field mode.
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: sif /etc/hd2-build-status.json uid 0
+debugfs: sif /etc/hd2-build-status.json gid 0
+debugfs: sif /etc/hd2-build-status.json mode 0o100644
+Couldn't parse '0o100644' for field mode.
+debugfs: rm /sbin/sh
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: symlink /sbin/sh /bin/sh
+debugfs: rm /etc/systemd/system/adbd.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: symlink /etc/systemd/system/adbd.service /dev/null
+debugfs: rm /etc/systemd/system/adbd-prepare.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: symlink /etc/systemd/system/adbd-prepare.service /dev/null
+debugfs: rm /etc/systemd/system/basic.target.wants/hd2-adbd.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: symlink /etc/systemd/system/basic.target.wants/hd2-adbd.service ../hd2-adbd.service
+debugfs: rm /etc/systemd/system/basic.target.wants/hd2-usb-debug.service
+
+debugfs: symlink /etc/systemd/system/basic.target.wants/hd2-usb-debug.service ../hd2-usb-debug.service
+e2fsck 1.47.4 (6-Mar-2025)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+HD2-SF: 22431/131072 files (0.1% non-contiguous), 236417/524288 blocks

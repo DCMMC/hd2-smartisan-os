@@ -1,0 +1,44 @@
+# 构建与复现说明
+
+仓库保留实际脚本和调试历史。它依赖历史 donor 二进制，不是从公开源码完整编译 Smartisan 的构建系统。工作目录以仓库根目录为基准；`work/`、`downloads/`、`out/` 不纳入 Git。
+
+## 输入和工具
+
+`sources.lock.json` 记录 NexusHD2 V4.0、Smartisan T1 2.0.0、设备树和 ARM GCC 4.4.3 的来源与哈希。下载后先按记录核对，不要替换成名字相近的其他版本。
+
+主机使用 Python 3、`requirements.txt` 中的库、Java、smali/baksmali、binutils、e2fsprogs/debugfs、fakeroot、cpio/gzip/zip 和 adb。历史脚本硬编码了部分工作区文件名；先准备这些目录：
+
+| 路径 | 内容 |
+| --- | --- |
+| `work/hd2-base/system/` | NexusHD2 ZIP 的 system |
+| `work/base-boot/` | NexusHD2 的 boot 与 META-INF，保留 NativeSD initrd |
+| `work/base-permissions.txt` | NexusHD2 updater-script 的 set_perm 规则 |
+| `work/smartisan-donor/system/` | Smartisan ZIP 的 system |
+| `downloads/smartisan-updater-script` | Smartisan 的 META-INF/com/google/android/updater-script |
+| `sources/toolchain-4.4.3/` | 锁定提交的 ARM 工具链 |
+| `sources/smali-jars/` | smali/baksmali 及 Java 依赖 |
+
+Smartisan donor 的 145 个带 odex 包均保留 classes.dex。`deodex.py` 优先保留原 dex 并移除 odex；不要用 HD2 框架重新反编译 donor。
+
+## 实际入口
+
+```sh
+python3 tools/deodex.py work/smartisan-donor/system
+python3 tools/assemble_smartisan.py
+python3 tools/integrate_smartisan_compat.py
+fakeroot -- python3 tools/make_ext4.py work/smartisan-stage \
+  out/smartisan-alpha0/HD2-SM20/rootfs.ext4 \
+  --permissions work/base-permissions.txt
+python3 tools/integrate_smartisan_compat.py --update-image
+python3 tools/package_smartisan.py
+```
+
+装配和镜像脚本拒绝覆盖已有 stage/image；使用独立工作目录或先改名保存旧产物。集成脚本会调用具体的兼容层、框架和资源补丁，输出清单供比对。脚本执行顺序的细节和输入假设以源码为准。
+
+`package_transfer.py` 是原双系统传输工具；仅准备本项目 gzip 时可调用 `prepare('smartisan-alpha0/HD2-SM20')`。gzip 上传后在 Recovery 解压，压缩文件与解压镜像共存时需额外空间。Release ZIP 已包含展开的 ext4 镜像，普通安装直接解压复制即可。
+
+## 验证范围
+
+对镜像执行 `e2fsck -fn`、检查镜像/ZIP 哈希，并对改动的二进制回读验证；运行 `native_abi_report.py` 可以找明显缺库。静态依赖通过不代表硬件可用。发布的 alpha1 复用已打包的最终系统镜像，实机功能状态见 README。
+
+`install_sd.py`、`resume_sd.py`、`recovery_sd.py` 等是本次特定 SD 卡的维护记录工具，含设备路径、身份校验和备份前提。它们不是通用安装器；普通用户按 README 复制目录即可。

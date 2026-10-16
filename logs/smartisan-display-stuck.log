@@ -1,0 +1,602 @@
+running
+Build configuration: [sf] [libui] [libgui]
+Sync configuration: [using: EGL_KHR_fence_sync]
+Visible layers (count = 14)
++ LayerDim 0x2a051798 (DimLayer)
+  Region transparentRegion (this=0x2a051940, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a0517a0, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=        0, pos=(0,0), size=(  16,  16), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=70 mCurrentTexture=-1
+            mCurrentCrop=[704670728,65536,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerSTAIconCell 0x2a05d818 (STAIconCellSurface)
+  Region transparentRegion (this=0x2a05d9c0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a05d820, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=        0, pos=(0,0), size=( 384,1024), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 2, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=73 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[384x1024], default-format=2, transform-hint=00, FIFO(0)={}
++ LayerDim 0x2a091188 (DimLayer)
+  Region transparentRegion (this=0x2a091330, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a091190, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=        0, pos=(0,0), size=(  16,  16), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=84 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ Layer 0x2a07d4f0 (com.smartisanos.systemui.ImageWallpaper)
+  Region transparentRegion (this=0x2a07d698, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a07d4f8, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21000, pos=(-160,0), size=( 800, 800), crop=( 160,   0, 640, 800), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a05c0f0
+      format= 2, activeBuffer=[ 800x 800: 800,  2], queued-frames=0, mRefreshPending=0
+            mTexName=78 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[800x800], default-format=2, transform-hint=00, FIFO(0)={}
+            >[00:0x2a056880] state=ACQUIRED, 0x2a0793c0 [ 800x 800: 800,  2]
++ Layer 0x2a08a108 (SurfaceView)
+  Region transparentRegion (this=0x2a08a2b0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a08a110, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21020, pos=(0,0), size=( 480, 800), crop=(   0,   0, 480, 800), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0420c0
+      format= 4, activeBuffer=[ 480x 800: 480,  2], queued-frames=0, mRefreshPending=0
+            mTexName=82 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=4, transform-hint=00, FIFO(0)={}
+             [00:0x2a062870] state=DEQUEUED, 0x2a079e18 [ 480x 800: 480,  2]
+             [01:0x2a08c0d8] state=FREE    , 0x2a08c170 [ 480x 800: 480,  2]
+            >[02:0x2a0682f0] state=ACQUIRED, 0x2a06e1f0 [ 480x 800: 480,  2]
++ Layer 0x2a088dd0 (com.smartisanos.launcher/com.smartisanos.launcher.Launcher)
+  Region transparentRegion (this=0x2a088f78, count=1)
+    [  0,   0, 480, 800]
+  Region visibleRegion (this=0x2a088dd8, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21025, pos=(0,0), size=( 480, 800), crop=(   0,   0, 480, 800), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0420c0
+      format= 1, activeBuffer=[ 480x 800: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=81 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=1, transform-hint=00, FIFO(0)={}
+            >[00:0x2a0884d8] state=ACQUIRED, 0x2a0773f8 [ 480x 800: 480,  1]
+             [01:0x2a063080] state=DEQUEUED, 0x2a079310 [ 480x 800: 480,  1]
++ Layer 0x2a077960 (com.smartisanos.launcher/com.smartisanos.launcher.Launcher)
+  Region transparentRegion (this=0x2a077b08, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a077968, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21030, pos=(55,281), size=( 369, 238), crop=(   0,   0, 369, 238), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0420c0
+      format= 1, activeBuffer=[ 369x 238: 384,  1], queued-frames=0, mRefreshPending=0
+            mTexName=80 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[369x238], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x2a0410c8] state=DEQUEUED, 0x2a056920 [ 369x 238: 384,  1]
+             [01:0x2a06b940] state=FREE    , 0x2a069ab0 [ 369x 238: 384,  1]
+            >[02:0x2a06b5b8] state=ACQUIRED, 0x2a057700 [ 369x 238: 384,  1]
++ Layer 0x2a0924c0 (com.android.settings/com.android.settings.Settings)
+  Region transparentRegion (this=0x2a092668, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a0924c8, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21035, pos=(0,0), size=( 480, 800), crop=(   0,  52, 480, 800), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a05c2b8
+      format= 1, activeBuffer=[ 480x 800: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=85 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x2a07b4b8] state=FREE    , 0x2a041ec8 [ 480x 800: 480,  1]
+            >[01:0x2a05b6f8] state=ACQUIRED, 0x2a076880 [ 480x 800: 480,  1]
+             [02:0x2a05c208] state=DEQUEUED, 0x2a056fe0 [ 480x 800: 480,  1]
++ Layer 0x2a0850c0 (FocusedStackFrame)
+  Region transparentRegion (this=0x2a085268, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a0850c8, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21036, pos=(0,0), size=(   1,   1), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x4d, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 1, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=71 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerDim 0x2a06a280 (DimLayer)
+  Region transparentRegion (this=0x2a06a428, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a06a288, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    90999, pos=(-120,-200), size=( 720,1200), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=69 mCurrentTexture=-1
+            mCurrentCrop=[704670728,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[720x1200], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerDim 0x2a073838 (DimLayer)
+  Region transparentRegion (this=0x2a0739e0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a073840, count=4)
+    [-120, -200, 600,   0]
+    [-120,   0,   0, 800]
+    [480,   0, 600, 800]
+    [-120, 800, 600, 1000]
+      layerStack=   0, z=    90999, pos=(-120,-200), size=( 720,1200), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x99, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a087238
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=83 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[720x1200], default-format=1, transform-hint=00, FIFO(0)={}
++ Layer 0x2a07ef98 (Application Error: com.smartisanos.launcher)
+  Region transparentRegion (this=0x2a07f140, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a07efa0, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    91000, pos=(12,322), size=( 456, 207), crop=(   0,   0, 456, 207), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a063420
+      format= 1, activeBuffer=[ 456x 207: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=79 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[456x207], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x2a057778] state=FREE    , 0x2a06f6e0 [ 456x 207: 480,  1]
+             [01:0x2a08c028] state=FREE    , 0x2a062818 [ 456x 207: 480,  1]
+            >[02:0x2a06e030] state=ACQUIRED, 0x2a06e0b0 [ 456x 207: 480,  1]
++ Layer 0x2a07c1b8 (StatusBar)
+  Region transparentRegion (this=0x2a07c360, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a07c1c0, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   161000, pos=(0,0), size=( 480,  52), crop=(   0,   0, 480,  52), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a05c0f0
+      format= 1, activeBuffer=[ 480x  52: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=77 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x52], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x2a0637d0] state=FREE    , 0x2a063880 [ 480x  52: 480,  1]
+            >[01:0x2a08bfa8] state=ACQUIRED, 0x2a0620c0 [ 480x  52: 480,  1]
+             [02:0x2a07bea0] state=DEQUEUED, 0x2a07c0d0 [ 480x  52: 480,  1]
++ Layer 0x2a06e380 (BootAnimation)
+  Region transparentRegion (this=0x2a06e528, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a06e388, count=1)
+    [  0,   0, 480, 800]
+      layerStack=   0, z=1073741824, pos=(0,0), size=( 480, 800), crop=(   0,   0,  -1,  -1), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a06b9e0
+      format= 4, activeBuffer=[ 480x 800: 480,  2], queued-frames=1, mRefreshPending=0
+            mTexName=68 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=4, transform-hint=00, FIFO(1)={02:0x2a08cc08 crop=[0,0,0,0], xform=0x00, time=0x13da3fd8ac7, scale=FREEZE
+}
+             [00:0x2a05f888] state=DEQUEUED, 0x2a057e20 [ 480x 800: 480,  2]
+            >[01:0x2a08cae8] state=ACQUIRED, 0x2a0681d8 [ 480x 800: 480,  2]
+             [02:0x2a08cc08] state=QUEUED  , 0x2a055fd8 [ 480x 800: 480,  2]
+Displays (1 entries)
++ DisplayDevice: Built-in Screen
+   type=0, hwcId=0, layerStack=0, ( 480x 800), ANativeWindow=0x2a03cdc0, orient= 0 (type=00000000), flips=13636, isSecure=1, secureVis=0, acquired=1, numLayers=1
+   v:[0,0,480,800], f:[0,0,480,800], s:[0,0,480,800],transform:[[1.000,0.000,0.000][0.000,1.000,0.000][0.000,0.000,1.000]]
+mAbandoned=0
+-BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=2, transform-hint=00, FIFO(0)={}
+ [00:0x2a03e158] state=FREE    , 0x2a03e270 [ 480x 800: 480,  2]
+>[01:0x2a0680f8] state=ACQUIRED, 0x2a068190 [ 480x 800: 480,  2]
+ [02:0x2a068a10] state=DEQUEUED, 0x2a071e38 [ 480x 800: 480,  2]
+SurfaceFlinger global state:
+EGL implementation : 1.4
+EGL_QUALCOMM_shared_image EGL_KHR_image EGL_KHR_image_base EGL_AMD_create_image EGL_KHR_lock_surface EGL_KHR_lock_surface2 EGL_KHR_fence_sync EGL_IMG_context_priority EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_renderbuffer_image EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+GLES: Qualcomm, Adreno (TM) 200, OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+  Region undefinedRegion (this=0x2a03cbd4, count=1)
+    [  0,   0,   0,   0]
+  orientation=0, canDraw=1
+  last eglSwapBuffers() time: 6805.420000 us
+  last transaction time     : 61.035000 us
+  transaction-flags         : 00000000
+  refresh-rate              : 60.000002 fps
+  x-dpi                     : 254.000000
+  y-dpi                     : 254.000000
+  EGL_NATIVE_VISUAL_ID      : 2
+  gpu_to_cpu_unsupported    : 0
+  eglSwapBuffers time: 0.000000 us
+  transaction time: 0.000000 us
+VSYNC state: disabled
+  soft-vsync: disabled
+  numListeners=8,
+  events-delivered: 7537
+    0x2a053060: count=-1
+    0x2a061f30: count=-1
+    0x2a068a90: count=-1
+    0x2a077398: count=-1
+    0x2a080d08: count=-1
+    0x2a082dc0: count=-1
+    0x2a08c800: count=-1
+    0x2a08cde8: count=-1
+h/w composer state:
+  h/w composer present and enabled
+Hardware Composer state (version  1000000):
+  mDebugForceFakeVSync=0
+  Display[0] : 480x800, xdpi=254.000000, ydpi=254.000000, refresh=16666666
+  numHwLayers=1, flags=00000000
+    type    |  handle  |   hints  |   flags  | tr | blend |  format  |          source crop            |           frame           name 
+------------+----------+----------+----------+----+-------+----------+---------------------------------+--------------------------------
+    FB_BLIT | 2a0681d8 | 00000000 | 00000000 | 00 | 00100 | 00000002 | [      0,      0,    480,    800] | [    0,    0,  480,  800] BootAnimation
+Allocated buffers:
+0x2a03e270: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a041ec8: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a055fd8: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a056920:  357.00 KiB |  369 ( 384) x  238 |        1 | 0x00000b03
+0x2a056fe0: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a057700:  357.00 KiB |  369 ( 384) x  238 |        1 | 0x00000b03
+0x2a057e20: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a0620c0:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a062818:  388.12 KiB |  456 ( 480) x  207 |        1 | 0x00000933
+0x2a063880:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a068190: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a0681d8: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a069ab0:  357.00 KiB |  369 ( 384) x  238 |        1 | 0x00000b03
+0x2a06e0b0:  388.12 KiB |  456 ( 480) x  207 |        1 | 0x00000933
+0x2a06e1f0: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a06f6e0:  388.12 KiB |  456 ( 480) x  207 |        1 | 0x00000933
+0x2a071e38: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a076880: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a0773f8: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a079310: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a0793c0: 2500.00 KiB |  800 ( 800) x  800 |        2 | 0x00000933
+0x2a079e18: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a07c0d0:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a08c170: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+Total allocated (estimate): 26027.88 KB
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #11 Window{41c77dc8 u0 RecentsPanel}:
+    mDisplayId=0 mSession=Session{41c811c8 6686:u0a10002} mClient=android.os.BinderProxy@41d16bb0
+    mOwnerUid=10002 mShowToOwnerOnly=false package=com.smartisanos.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#53 sim=#31 ty=2014 fl=#820102 fmt=-3 wanim=0x7f100018 or=14}
+    Requested w=480 h=800 mLayoutSeq=18
+    mBaseLayer=171000 mSubLayer=0 mAnimLayer=171000+0=171000 mLastLayer=0
+    mToken=WindowToken{41cac2b0 null}
+    mRootToken=WindowToken{41cac2b0 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration=null
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41ccc018 RecentsPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #10 Window{41c851f8 u0 StatusBar}:
+    mDisplayId=0 mSession=Session{41c811c8 6686:u0a10002} mClient=android.os.BinderProxy@41cdd848
+    mOwnerUid=10002 mShowToOwnerOnly=false package=com.smartisanos.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx52) gr=#37 sim=#10 ty=2000 fl=#1840048 fmt=-3 vsysui=0x80000}
+    Requested w=480 h=52 mLayoutSeq=56
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{41cac2b0 null}
+    mRootToken=WindowToken{41cac2b0 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x80000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[0.0,0.0][480.0,52.0] isReadyForDisplay()=true
+    mFrame=[0,0][480,52] last=[0,0][480,52]
+    mSystemDecorRect=[0,0][480,52] last=[0,0][480,52]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[0,0][480,52] visible=[0,0][480,52]
+        decor=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41cfda18 StatusBar}:
+      mSurfaceControl=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 480.0 x 52.0
+  Window #9 Window{41cac358 u0 KeyguardScrim}:
+    mDisplayId=0 mSession=Session{41caac10 6530:1000} mClient=android.view.ViewRootImpl$W@41cab2e0
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#110900 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=480 h=800 mLayoutSeq=5
+    mBaseLayer=121000 mSubLayer=0 mAnimLayer=121000+0=121000 mLastLayer=121000
+    mToken=WindowToken{41cac2b0 null}
+    mRootToken=WindowToken{41cac2b0 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=false mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,0][480,800] last=[0,0][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41cacd58 KeyguardScrim}:
+    mLastFreezeDuration=+21m34s830ms
+  Window #8 Window{41efff88 u0 Application Error: com.smartisanos.launcher}:
+    mDisplayId=0 mSession=Session{41caac10 6530:1000} mClient=android.view.ViewRootImpl$W@41eff6b8
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=SYSTEM_ALERT_WINDOW
+    mAttrs=WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2003 fl=#820002 pfl=0x118 fmt=-2 wanim=0x103040b}
+    Requested w=456 h=207 mLayoutSeq=56
+    mBaseLayer=91000 mSubLayer=0 mAnimLayer=91000+0=91000 mLastLayer=91000
+    mToken=WindowToken{41cac2b0 null}
+    mRootToken=WindowToken{41cac2b0 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[12.0,322.0][468.0,529.0] isReadyForDisplay()=true
+    mFrame=[12,322][468,529] last=[12,322][468,529]
+    mSystemDecorRect=[0,0][456,207] last=[0,0][456,207]
+    Frames: containing=[0,52][480,800] parent=[0,52][480,800]
+        display=[0,52][480,800] overscan=[0,52][480,800]
+        content=[12,322][468,529] visible=[12,322][468,529]
+        decor=[0,52][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41f00568 Application Error: com.smartisanos.launcher}:
+      mSurfaceControl=Surface(name=Application Error: com.smartisanos.launcher)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=91000 alpha=1.0 rect=(12.0,322.0) 456.0 x 207.0
+    mLastFreezeDuration=+21m57s14ms
+  Window #7 Window{41ebb6b8 u0 com.android.settings/com.android.settings.Settings}:
+    mDisplayId=0 mSession=Session{41ec5198 6802:1000} mClient=android.os.BinderProxy@41eadb88
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#1010100 pfl=0x8 fmt=-2 wanim=0x103040a}
+    Requested w=480 h=800 mLayoutSeq=56
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21035+0=21035 mLastLayer=21035
+    mToken=AppWindowToken{41e589f8 token=Token{41e4f2d0 ActivityRecord{41c79b38 u0 com.android.settings/.Settings t3}}}
+    mRootToken=AppWindowToken{41e589f8 token=Token{41e4f2d0 ActivityRecord{41c79b38 u0 com.android.settings/.Settings t3}}}
+    mAppToken=AppWindowToken{41e589f8 token=Token{41e4f2d0 ActivityRecord{41c79b38 u0 com.android.settings/.Settings t3}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=true
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,52][480,800] last=[0,52][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[0,52][480,800] visible=[0,52][480,800]
+        decor=[0,52][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,52][0,0] visible=[0,52][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,52][0,0] visible=[0,52][0,0]
+    WindowStateAnimator{41eee2d8 com.android.settings/com.android.settings.Settings}:
+      mSurfaceControl=Surface(name=com.android.settings/com.android.settings.Settings)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21035 alpha=1.0 rect=(0.0,0.0) 480.0 x 800.0
+    mLastFreezeDuration=+22m9s602ms
+  Window #6 Window{41f0b150 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41f0aec8
+    mOwnerUid=10001 mShowToOwnerOnly=true package=com.smartisanos.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1820002 pfl=0x8 fmt=-2 wanim=0x103040b}
+    Requested w=369 h=238 mLayoutSeq=50
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21030+0=21030 mLastLayer=21030
+    mToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mRootToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mAppToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[55.0,281.0][424.0,519.0] isReadyForDisplay()=false
+    mFrame=[55,281][424,519] last=[55,281][424,519]
+    mSystemDecorRect=[0,0][369,238] last=[0,0][369,238]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[55,281][424,519] visible=[55,281][424,519]
+        decor=[0,52][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41f0b730 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+      mSurfaceControl=Surface(name=com.smartisanos.launcher/com.smartisanos.launcher.Launcher)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21030 alpha=1.0 rect=(55.0,281.0) 369.0 x 238.0
+    mLastFreezeDuration=+21m57s470ms
+  Window #5 Window{41c443a8 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41cbf138
+    mOwnerUid=10001 mShowToOwnerOnly=true package=com.smartisanos.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#5910700 pfl=0x8 fmt=-2 wanim=0x7f0c0002 sysui=0x2000 vsysui=0x500}
+    Requested w=480 h=800 mLayoutSeq=50
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21025+0=21025 mLastLayer=21025
+    mToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mRootToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mAppToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x2500
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,0][480,800] last=[0,0][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41f04868 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+      mSurfaceControl=Surface(name=com.smartisanos.launcher/com.smartisanos.launcher.Launcher)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21025 alpha=1.0 rect=(0.0,0.0) 480.0 x 800.0
+    mLastFreezeDuration=+21m57s583ms
+  Window #4 Window{41cc2be0 u0 SurfaceView}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41bce778
+    mOwnerUid=10001 mShowToOwnerOnly=true package=null appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(480x800) gr=#800033 ty=1001 fl=#4218 pfl=0x40 fmt=4}
+    Requested w=480 h=800 mLayoutSeq=50
+    mAttachedWindow=Window{41c443a8 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher} mLayoutAttached=true
+    mBaseLayer=21000 mSubLayer=-2 mAnimLayer=21020+0=21020 mLastLayer=21020
+    mToken=WindowToken{41e34228 android.os.BinderProxy@41cbf138}
+    mRootToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mAppToken=AppWindowToken{41f03410 token=Token{41f03010 ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,0][480,800] last=[0,0][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41e7d9a8 SurfaceView}:
+      mSurfaceControl=Surface(name=SurfaceView)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21020 alpha=1.0 rect=(0.0,0.0) 480.0 x 800.0
+    mLastFreezeDuration=+21m57s386ms
+  Window #3 Window{41c51278 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41d18ce0
+    mOwnerUid=10001 mShowToOwnerOnly=true package=com.smartisanos.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1820002 pfl=0x8 fmt=-2 wanim=0x103040b}
+    Requested w=369 h=238 mLayoutSeq=28
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+    mToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mRootToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mAppToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=false mShownFrame=[55.0,281.0][424.0,519.0] isReadyForDisplay()=false
+    mFrame=[55,281][424,519] last=[55,281][424,519]
+    mSystemDecorRect=[0,0][369,238] last=[0,0][369,238]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[0,0][480,800] overscan=[0,0][480,800]
+        content=[55,281][424,519] visible=[55,281][424,519]
+        decor=[0,52][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41ca6538 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mLastFreezeDuration=+21m43s802ms
+  Window #2 Window{41e57a98 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41e57810
+    mOwnerUid=10001 mShowToOwnerOnly=true package=com.smartisanos.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#5910700 pfl=0x8 fmt=-2 wanim=0x7f0c0002 sysui=0x2000 vsysui=0x500}
+    Requested w=480 h=800 mLayoutSeq=28
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mRootToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mAppToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x2500
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=false mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,0][480,800] last=[0,0][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41e58078 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}:
+    mLastFreezeDuration=+21m43s822ms
+  Window #1 Window{41e8e870 u0 SurfaceView}:
+    mDisplayId=0 mSession=Session{41cdc6d8 6834:u0a10001} mClient=android.os.BinderProxy@41e8e688
+    mOwnerUid=10001 mShowToOwnerOnly=true package=null appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(480x800) gr=#800033 ty=1001 fl=#4218 pfl=0x40 fmt=4}
+    Requested w=480 h=800 mLayoutSeq=28
+    mAttachedWindow=Window{41e57a98 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher} mLayoutAttached=true
+    mBaseLayer=21000 mSubLayer=-2 mAnimLayer=21005+0=21005 mLastLayer=21005
+    mToken=WindowToken{41e8e818 android.os.BinderProxy@41e57810}
+    mRootToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mAppToken=AppWindowToken{41d25b70 token=Token{41d247f0 ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mPolicyVisibility=true mPolicyVisibilityAfterAnim=true mAppOpVisibility=true mAttachedHidden=true
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=false mShownFrame=[0.0,0.0][480.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][480,800] last=[0,0][480,800]
+    mSystemDecorRect=[0,0][480,800] last=[0,0][480,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][480,800] visible=[0,0][480,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41e8ee98 SurfaceView}:
+    mLastFreezeDuration=+21m43s395ms
+  Window #0 Window{41edd4f0 u0 com.smartisanos.systemui.ImageWallpaper}:
+    mDisplayId=0 mSession=Session{41c811c8 6686:u0a10002} mClient=android.os.BinderProxy@41edd2f0
+    mOwnerUid=10002 mShowToOwnerOnly=true package=null appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(800x800) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x103020a}
+    Requested w=800 h=800 mLayoutSeq=52
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{41cb9250 android.os.Binder@41c5e500}
+    mRootToken=WindowToken{41cb9250 android.os.Binder@41c5e500}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    Offsets x=-160 y=0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+    mHasSurface=true mShownFrame=[-160.0,0.0][640.0,800.0] isReadyForDisplay()=false
+    mFrame=[0,0][800,800] last=[0,0][800,800]
+    mSystemDecorRect=[160,0][640,800] last=[160,0][640,800]
+    Frames: containing=[0,0][480,800] parent=[0,0][480,800]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][800,800] visible=[0,0][800,800]
+        decor=[0,0][480,800]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+    WindowStateAnimator{41ee4138 com.smartisanos.systemui.ImageWallpaper}:
+      mSurfaceControl=Surface(name=com.smartisanos.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21000 alpha=1.0 rect=(-160.0,0.0) 800.0 x 800.0
+    mLastFreezeDuration=+21m50s690ms
+    mWallpaperX=0.5 mWallpaperY=0.5
+
+  mCurConfiguration={1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+  mCurrentFocus=Window{41efff88 u0 Application Error: com.smartisanos.launcher}
+  mFocusedApp=AppWindowToken{41e589f8 token=Token{41e4f2d0 ActivityRecord{41c79b38 u0 com.android.settings/.Settings t3}}}
+  mInTouchMode=true mLayoutSeq=56
+  mLastDisplayFreezeDuration=0 due to Window{41ebb6b8 u0 com.android.settings/com.android.settings.Settings}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][480,800]
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+  mSystemBooted=false mDisplayEnabled=false
+  layoutNeeded on displays=0
+  mTransactionSequence=74
+  mDisplayFrozen=false windows=false client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=1
+  mDeferredRotationPauseCount=0
+  mWindowAnimationScale=1.0 mTransitionWindowAnimationScale=1.0 mAnimatorDurationScale=1.0
+  mTraversalScheduled=false
+  mStartingIconInTransition=false mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+ mNextAppTransition=0xffffffff  mAppTransitionState=APP_STATE_IDLE

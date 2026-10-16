@@ -1,0 +1,4676 @@
+{
+  "source_sha256": "9461035a307e51f8a237958ede2c72645b6f63cb93b03246acd92eeefbc0f54f",
+  "output_sha256": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
+  "dex_instruction_offset": "0xe6f52",
+  "change": "Packaged 1080p textures; 480x800 geometry and scaled pixel dimensions",
+  "resource_changes": [
+    {
+      "name": "screen_width",
+      "donor_width": 720,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "screen_height",
+      "donor_width": 720,
+      "from": 1280,
+      "to": 800
+    },
+    {
+      "name": "window_width",
+      "donor_width": 720,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "window_height",
+      "donor_width": 720,
+      "from": 1280,
+      "to": 800
+    },
+    {
+      "name": "text_font_size_9",
+      "donor_width": 720,
+      "from": 27,
+      "to": 18
+    },
+    {
+      "name": "page_view_margin_top_9",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_view_margin_bottom_9",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_width_9",
+      "donor_width": 720,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "page_height_9",
+      "donor_width": 720,
+      "from": 978,
+      "to": 652
+    },
+    {
+      "name": "cell_width_9",
+      "donor_width": 720,
+      "from": 238,
+      "to": 159
+    },
+    {
+      "name": "cell_height_9",
+      "donor_width": 720,
+      "from": 305,
+      "to": 203
+    },
+    {
+      "name": "icon_size_origin_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_9",
+      "donor_width": 720,
+      "from": 164,
+      "to": 109
+    },
+    {
+      "name": "cell_spacing_v_9",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_spacing_h_9",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_title_width_9",
+      "donor_width": 720,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "page_title_height_9",
+      "donor_width": 720,
+      "from": 200,
+      "to": 133
+    },
+    {
+      "name": "title_page_spacing_9",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "cell_normal_shadow_image_width_9",
+      "donor_width": 720,
+      "from": 311,
+      "to": 207
+    },
+    {
+      "name": "cell_normal_shadow_image_height_9",
+      "donor_width": 720,
+      "from": 399,
+      "to": 266
+    },
+    {
+      "name": "dock_height_9",
+      "donor_width": 720,
+      "from": 305,
+      "to": 203
+    },
+    {
+      "name": "setting_button_outer_shadow_width_9",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "setting_button_outer_shadow_height_9",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "dot_width_9",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_height_9",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_spacing_9",
+      "donor_width": 720,
+      "from": 8,
+      "to": 5
+    },
+    {
+      "name": "trash_width_9",
+      "donor_width": 720,
+      "from": 150,
+      "to": 100
+    },
+    {
+      "name": "trash_height_9",
+      "donor_width": 720,
+      "from": 198,
+      "to": 132
+    },
+    {
+      "name": "trash_zoom_width_9",
+      "donor_width": 720,
+      "from": 195,
+      "to": 130
+    },
+    {
+      "name": "trash_react_width_9",
+      "donor_width": 720,
+      "from": 200,
+      "to": 133
+    },
+    {
+      "name": "trash_react_height_9",
+      "donor_width": 720,
+      "from": 350,
+      "to": 233
+    },
+    {
+      "name": "trash_display_height_9",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "trash_float_up_height_9",
+      "donor_width": 720,
+      "from": 50,
+      "to": 33
+    },
+    {
+      "name": "edit_icon_width_9",
+      "donor_width": 720,
+      "from": 59,
+      "to": 39
+    },
+    {
+      "name": "edit_icon_height_9",
+      "donor_width": 720,
+      "from": 48,
+      "to": 32
+    },
+    {
+      "name": "eye_icon_width_9",
+      "donor_width": 720,
+      "from": 84,
+      "to": 56
+    },
+    {
+      "name": "eye_icon_height_9",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "lock_icon_width_9",
+      "donor_width": 720,
+      "from": 84,
+      "to": 56
+    },
+    {
+      "name": "lock_icon_height_9",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "flag_new_width_9",
+      "donor_width": 720,
+      "from": 107,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_9",
+      "donor_width": 720,
+      "from": 67,
+      "to": 45
+    },
+    {
+      "name": "flag_new_offset_x_9",
+      "donor_width": 720,
+      "from": 113,
+      "to": 75
+    },
+    {
+      "name": "flag_new_offset_y_9",
+      "donor_width": 720,
+      "from": 203,
+      "to": 135
+    },
+    {
+      "name": "flag_message_width_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_height_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_offset_x_9",
+      "donor_width": 720,
+      "from": 21,
+      "to": 14
+    },
+    {
+      "name": "flag_message_offset_y_9",
+      "donor_width": 720,
+      "from": 67,
+      "to": 45
+    },
+    {
+      "name": "flag_message_textsize_9",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "flag_message_ignoresize_9",
+      "donor_width": 720,
+      "from": 14,
+      "to": 9
+    },
+    {
+      "name": "flag_message_text_offsetx_9",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_up_shadow_image_width_9",
+      "donor_width": 720,
+      "from": 311,
+      "to": 207
+    },
+    {
+      "name": "cell_up_shadow_image_height_9",
+      "donor_width": 720,
+      "from": 399,
+      "to": 266
+    },
+    {
+      "name": "cell_up_overlay_image_width_9",
+      "donor_width": 720,
+      "from": 238,
+      "to": 159
+    },
+    {
+      "name": "cell_up_overlay_image_height_9",
+      "donor_width": 720,
+      "from": 302,
+      "to": 201
+    },
+    {
+      "name": "calendar_back_size_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "calendar_day_w_9",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "calendar_day_h_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "calendar_day_offsetx_9",
+      "donor_width": 720,
+      "from": 30,
+      "to": 20
+    },
+    {
+      "name": "calendar_day_offsety_9",
+      "donor_width": 720,
+      "from": 40,
+      "to": 27
+    },
+    {
+      "name": "clock_size_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "clock_dot_w_9",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_dot_h_9",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "clock_h_w_9",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_h_h_9",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "clock_h_shadow_w_9",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "clock_h_shadow_h_9",
+      "donor_width": 720,
+      "from": 61,
+      "to": 41
+    },
+    {
+      "name": "clock_m_w_9",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_m_h_9",
+      "donor_width": 720,
+      "from": 88,
+      "to": 59
+    },
+    {
+      "name": "clock_m_shadow_w_9",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "clock_m_shadow_h_9",
+      "donor_width": 720,
+      "from": 89,
+      "to": 59
+    },
+    {
+      "name": "clock_s_w_9",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "clock_s_h_9",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "clock_s_shadow_w_9",
+      "donor_width": 720,
+      "from": 5,
+      "to": 3
+    },
+    {
+      "name": "clock_s_shadow_h_9",
+      "donor_width": 720,
+      "from": 97,
+      "to": 65
+    },
+    {
+      "name": "weather_back_size_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "weather_cover_size_9",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "weather_icon_size_9",
+      "donor_width": 720,
+      "from": 63,
+      "to": 42
+    },
+    {
+      "name": "weather_icon_offset_9",
+      "donor_width": 720,
+      "from": 9,
+      "to": 6
+    },
+    {
+      "name": "weather_temp_icon_w_9",
+      "donor_width": 720,
+      "from": 21,
+      "to": 14
+    },
+    {
+      "name": "weather_temp_icon_h_9",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "weather_minus_w_9",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "weather_minus_h_9",
+      "donor_width": 720,
+      "from": 28,
+      "to": 19
+    },
+    {
+      "name": "weather_number_w_9",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "weather_number_h_9",
+      "donor_width": 720,
+      "from": 28,
+      "to": 19
+    },
+    {
+      "name": "weather_number0_offsetx_9",
+      "donor_width": 720,
+      "from": 85,
+      "to": 57
+    },
+    {
+      "name": "weather_number0_offsety_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_temp0_offsetx_9",
+      "donor_width": 720,
+      "from": 92,
+      "to": 61
+    },
+    {
+      "name": "weather_temp0_offsety_9",
+      "donor_width": 720,
+      "from": 47,
+      "to": 31
+    },
+    {
+      "name": "weather_minus0_offsetx_9",
+      "donor_width": 720,
+      "from": 77,
+      "to": 51
+    },
+    {
+      "name": "weather_minus0_offsety_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_number00_offsetx_9",
+      "donor_width": 720,
+      "from": 90,
+      "to": 60
+    },
+    {
+      "name": "weather_number00_offsety_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_number10_offsetx_9",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "weather_number10_offsety_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_temp00_offsetx_9",
+      "donor_width": 720,
+      "from": 97,
+      "to": 65
+    },
+    {
+      "name": "weather_temp00_offsety_9",
+      "donor_width": 720,
+      "from": 47,
+      "to": 31
+    },
+    {
+      "name": "weather_minus00_offsetx_9",
+      "donor_width": 720,
+      "from": 72,
+      "to": 48
+    },
+    {
+      "name": "weather_minus00_offsety_9",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "float_text_font_size_9",
+      "donor_width": 720,
+      "from": 25,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_36",
+      "donor_width": 720,
+      "from": 27,
+      "to": 18
+    },
+    {
+      "name": "page_view_margin_top_36",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "page_view_margin_bottom_36",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "page_view_margin_left_36",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "page_view_margin_right_36",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "page_width_36",
+      "donor_width": 720,
+      "from": 351,
+      "to": 234
+    },
+    {
+      "name": "page_height_36",
+      "donor_width": 720,
+      "from": 519,
+      "to": 346
+    },
+    {
+      "name": "page_spacing_v_36",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_spacing_h_36",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "cell_width_36",
+      "donor_width": 720,
+      "from": 115,
+      "to": 77
+    },
+    {
+      "name": "cell_height_36",
+      "donor_width": 720,
+      "from": 171,
+      "to": 114
+    },
+    {
+      "name": "icon_size_origin_36",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_36",
+      "donor_width": 720,
+      "from": 164,
+      "to": 109
+    },
+    {
+      "name": "cell_spacing_v_36",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_spacing_h_36",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_title_width_36",
+      "donor_width": 720,
+      "from": 346,
+      "to": 231
+    },
+    {
+      "name": "page_title_height_36",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "title_page_spacing_36",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "page_title_name_height_36",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "dock_height_36",
+      "donor_width": 720,
+      "from": 172,
+      "to": 115
+    },
+    {
+      "name": "setting_button_outer_shadow_width_36",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "setting_button_outer_shadow_height_36",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "dot_width_36",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_height_36",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_spacing_36",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "trash_width_36",
+      "donor_width": 720,
+      "from": 90,
+      "to": 60
+    },
+    {
+      "name": "trash_height_36",
+      "donor_width": 720,
+      "from": 119,
+      "to": 79
+    },
+    {
+      "name": "trash_zoom_width_36",
+      "donor_width": 720,
+      "from": 113,
+      "to": 75
+    },
+    {
+      "name": "trash_react_width_36",
+      "donor_width": 720,
+      "from": 200,
+      "to": 133
+    },
+    {
+      "name": "trash_react_height_36",
+      "donor_width": 720,
+      "from": 420,
+      "to": 280
+    },
+    {
+      "name": "trash_display_height_36",
+      "donor_width": 720,
+      "from": 42,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_36",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_36",
+      "donor_width": 720,
+      "from": 84,
+      "to": 56
+    },
+    {
+      "name": "edit_icon_height_36",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "eye_icon_width_36",
+      "donor_width": 720,
+      "from": 84,
+      "to": 56
+    },
+    {
+      "name": "eye_icon_height_36",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "lock_icon_width_36",
+      "donor_width": 720,
+      "from": 84,
+      "to": 56
+    },
+    {
+      "name": "lock_icon_height_36",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "flag_new_width_36",
+      "donor_width": 720,
+      "from": 107,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_36",
+      "donor_width": 720,
+      "from": 67,
+      "to": 45
+    },
+    {
+      "name": "flag_new_offset_x_36",
+      "donor_width": 720,
+      "from": 108,
+      "to": 72
+    },
+    {
+      "name": "flag_new_offset_y_36",
+      "donor_width": 720,
+      "from": 203,
+      "to": 135
+    },
+    {
+      "name": "flag_message_width_36",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_height_36",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_offset_x_36",
+      "donor_width": 720,
+      "from": 46,
+      "to": 31
+    },
+    {
+      "name": "flag_message_offset_y_36",
+      "donor_width": 720,
+      "from": 57,
+      "to": 38
+    },
+    {
+      "name": "page_up_shadow_image_width_36",
+      "donor_width": 720,
+      "from": 410,
+      "to": 273
+    },
+    {
+      "name": "page_up_shadow_image_height_36",
+      "donor_width": 720,
+      "from": 609,
+      "to": 406
+    },
+    {
+      "name": "cell_up_shadow_image_width_36",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "cell_up_shadow_image_height_36",
+      "donor_width": 720,
+      "from": 316,
+      "to": 211
+    },
+    {
+      "name": "cell_up_overlay_image_width_36",
+      "donor_width": 720,
+      "from": 262,
+      "to": 175
+    },
+    {
+      "name": "cell_up_overlay_image_height_36",
+      "donor_width": 720,
+      "from": 333,
+      "to": 222
+    },
+    {
+      "name": "page_green_cover_image_width_36",
+      "donor_width": 720,
+      "from": 362,
+      "to": 241
+    },
+    {
+      "name": "page_green_cover_image_height_36",
+      "donor_width": 720,
+      "from": 542,
+      "to": 361
+    },
+    {
+      "name": "page_red_cover_image_width_36",
+      "donor_width": 720,
+      "from": 362,
+      "to": 241
+    },
+    {
+      "name": "page_red_cover_image_height_36",
+      "donor_width": 720,
+      "from": 542,
+      "to": 361
+    },
+    {
+      "name": "float_text_font_size_36",
+      "donor_width": 720,
+      "from": 25,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_81",
+      "donor_width": 720,
+      "from": 27,
+      "to": 18
+    },
+    {
+      "name": "page_view_margin_top_81",
+      "donor_width": 720,
+      "from": 8,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_bottom_81",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_view_margin_left_81",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "page_view_margin_right_81",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "page_width_81",
+      "donor_width": 720,
+      "from": 233,
+      "to": 155
+    },
+    {
+      "name": "page_height_81",
+      "donor_width": 720,
+      "from": 301,
+      "to": 201
+    },
+    {
+      "name": "page_spacing_v_81",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "page_spacing_h_81",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "cell_width_81",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "cell_height_81",
+      "donor_width": 720,
+      "from": 98,
+      "to": 65
+    },
+    {
+      "name": "icon_size_origin_81",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_81",
+      "donor_width": 720,
+      "from": 164,
+      "to": 109
+    },
+    {
+      "name": "cell_spacing_v_81",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_spacing_h_81",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_title_width_81",
+      "donor_width": 720,
+      "from": 232,
+      "to": 155
+    },
+    {
+      "name": "page_title_height_81",
+      "donor_width": 720,
+      "from": 64,
+      "to": 43
+    },
+    {
+      "name": "title_page_spacing_81",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "page_title_name_height_81",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "dock_height_81",
+      "donor_width": 720,
+      "from": 172,
+      "to": 115
+    },
+    {
+      "name": "setting_button_outer_shadow_width_81",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "setting_button_outer_shadow_height_81",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "dot_width_81",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_height_81",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_spacing_81",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "trash_width_81",
+      "donor_width": 720,
+      "from": 90,
+      "to": 60
+    },
+    {
+      "name": "trash_height_81",
+      "donor_width": 720,
+      "from": 119,
+      "to": 79
+    },
+    {
+      "name": "trash_zoom_width_81",
+      "donor_width": 720,
+      "from": 113,
+      "to": 75
+    },
+    {
+      "name": "trash_react_width_81",
+      "donor_width": 720,
+      "from": 180,
+      "to": 120
+    },
+    {
+      "name": "trash_react_height_81",
+      "donor_width": 720,
+      "from": 400,
+      "to": 267
+    },
+    {
+      "name": "trash_display_height_81",
+      "donor_width": 720,
+      "from": 42,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_81",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_81",
+      "donor_width": 720,
+      "from": 67,
+      "to": 45
+    },
+    {
+      "name": "edit_icon_height_81",
+      "donor_width": 720,
+      "from": 54,
+      "to": 36
+    },
+    {
+      "name": "eye_icon_width_81",
+      "donor_width": 720,
+      "from": 59,
+      "to": 39
+    },
+    {
+      "name": "eye_icon_height_81",
+      "donor_width": 720,
+      "from": 48,
+      "to": 32
+    },
+    {
+      "name": "lock_icon_width_81",
+      "donor_width": 720,
+      "from": 59,
+      "to": 39
+    },
+    {
+      "name": "lock_icon_height_81",
+      "donor_width": 720,
+      "from": 48,
+      "to": 32
+    },
+    {
+      "name": "flag_new_width_81",
+      "donor_width": 720,
+      "from": 107,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_81",
+      "donor_width": 720,
+      "from": 67,
+      "to": 45
+    },
+    {
+      "name": "flag_new_offset_x_81",
+      "donor_width": 720,
+      "from": 108,
+      "to": 72
+    },
+    {
+      "name": "flag_new_offset_y_81",
+      "donor_width": 720,
+      "from": 203,
+      "to": 135
+    },
+    {
+      "name": "flag_message_width_81",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_height_81",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "flag_message_offset_x_81",
+      "donor_width": 720,
+      "from": 46,
+      "to": 31
+    },
+    {
+      "name": "flag_message_offset_y_81",
+      "donor_width": 720,
+      "from": 57,
+      "to": 38
+    },
+    {
+      "name": "page_up_shadow_image_width_81",
+      "donor_width": 720,
+      "from": 274,
+      "to": 183
+    },
+    {
+      "name": "page_up_shadow_image_height_81",
+      "donor_width": 720,
+      "from": 376,
+      "to": 251
+    },
+    {
+      "name": "cell_up_shadow_image_width_81",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "cell_up_shadow_image_height_81",
+      "donor_width": 720,
+      "from": 316,
+      "to": 211
+    },
+    {
+      "name": "cell_up_overlay_image_width_81",
+      "donor_width": 720,
+      "from": 262,
+      "to": 175
+    },
+    {
+      "name": "cell_up_overlay_image_height_81",
+      "donor_width": 720,
+      "from": 333,
+      "to": 222
+    },
+    {
+      "name": "page_green_cover_image_width_81",
+      "donor_width": 720,
+      "from": 240,
+      "to": 160
+    },
+    {
+      "name": "page_green_cover_image_height_81",
+      "donor_width": 720,
+      "from": 352,
+      "to": 235
+    },
+    {
+      "name": "page_red_cover_image_width_81",
+      "donor_width": 720,
+      "from": 240,
+      "to": 160
+    },
+    {
+      "name": "page_red_cover_image_height_81",
+      "donor_width": 720,
+      "from": 352,
+      "to": 235
+    },
+    {
+      "name": "float_text_font_size_81",
+      "donor_width": 720,
+      "from": 25,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_16",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "page_view_margin_top_16",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "page_view_margin_bottom_16",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "page_width_16",
+      "donor_width": 720,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "page_height_16",
+      "donor_width": 720,
+      "from": 978,
+      "to": 652
+    },
+    {
+      "name": "page_spacing_v_16",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_spacing_h_16",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "cell_width_16",
+      "donor_width": 720,
+      "from": 178,
+      "to": 119
+    },
+    {
+      "name": "cell_height_16",
+      "donor_width": 720,
+      "from": 242,
+      "to": 161
+    },
+    {
+      "name": "icon_size_origin_16",
+      "donor_width": 720,
+      "from": 92,
+      "to": 61
+    },
+    {
+      "name": "icon_size_with_shadow_16",
+      "donor_width": 720,
+      "from": 118,
+      "to": 79
+    },
+    {
+      "name": "cell_spacing_v_16",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_spacing_h_16",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_title_width_16",
+      "donor_width": 720,
+      "from": 346,
+      "to": 231
+    },
+    {
+      "name": "page_title_height_16",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "title_page_spacing_16",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "cell_normal_shadow_image_width_16",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "cell_normal_shadow_image_height_16",
+      "donor_width": 720,
+      "from": 336,
+      "to": 224
+    },
+    {
+      "name": "dock_height_16",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "setting_button_outer_shadow_width_16",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "setting_button_outer_shadow_height_16",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "dot_width_16",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_height_16",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_spacing_16",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "trash_width_16",
+      "donor_width": 720,
+      "from": 122,
+      "to": 81
+    },
+    {
+      "name": "trash_height_16",
+      "donor_width": 720,
+      "from": 161,
+      "to": 107
+    },
+    {
+      "name": "trash_zoom_width_16",
+      "donor_width": 720,
+      "from": 159,
+      "to": 106
+    },
+    {
+      "name": "trash_react_width_16",
+      "donor_width": 720,
+      "from": 180,
+      "to": 120
+    },
+    {
+      "name": "trash_react_height_16",
+      "donor_width": 720,
+      "from": 300,
+      "to": 200
+    },
+    {
+      "name": "trash_display_height_16",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "trash_float_up_height_16",
+      "donor_width": 720,
+      "from": 40,
+      "to": 27
+    },
+    {
+      "name": "edit_icon_width_16",
+      "donor_width": 720,
+      "from": 59,
+      "to": 39
+    },
+    {
+      "name": "edit_icon_height_16",
+      "donor_width": 720,
+      "from": 48,
+      "to": 32
+    },
+    {
+      "name": "eye_icon_width_16",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "eye_icon_height_16",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "lock_icon_width_16",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "lock_icon_height_16",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "flag_new_width_16",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "flag_new_height_16",
+      "donor_width": 720,
+      "from": 54,
+      "to": 36
+    },
+    {
+      "name": "flag_new_offset_x_16",
+      "donor_width": 720,
+      "from": 70,
+      "to": 47
+    },
+    {
+      "name": "flag_new_offset_y_16",
+      "donor_width": 720,
+      "from": 152,
+      "to": 101
+    },
+    {
+      "name": "flag_message_width_16",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_16",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_16",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "flag_message_offset_y_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "flag_message_textsize_16",
+      "donor_width": 720,
+      "from": 22,
+      "to": 15
+    },
+    {
+      "name": "flag_message_ignoresize_16",
+      "donor_width": 720,
+      "from": 12,
+      "to": 8
+    },
+    {
+      "name": "flag_message_text_offsetx_16",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_up_shadow_image_width_16",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "cell_up_shadow_image_height_16",
+      "donor_width": 720,
+      "from": 316,
+      "to": 211
+    },
+    {
+      "name": "cell_up_overlay_image_width_16",
+      "donor_width": 720,
+      "from": 178,
+      "to": 119
+    },
+    {
+      "name": "cell_up_overlay_image_height_16",
+      "donor_width": 720,
+      "from": 242,
+      "to": 161
+    },
+    {
+      "name": "calendar_back_size_16",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "calendar_day_w_16",
+      "donor_width": 720,
+      "from": 68,
+      "to": 45
+    },
+    {
+      "name": "calendar_day_h_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "calendar_day_offsetx_16",
+      "donor_width": 720,
+      "from": 30,
+      "to": 20
+    },
+    {
+      "name": "calendar_day_offsety_16",
+      "donor_width": 720,
+      "from": 40,
+      "to": 27
+    },
+    {
+      "name": "clock_size_16",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "clock_dot_w_16",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_dot_h_16",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "clock_h_w_16",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_h_h_16",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "clock_h_shadow_w_16",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "clock_h_shadow_h_16",
+      "donor_width": 720,
+      "from": 61,
+      "to": 41
+    },
+    {
+      "name": "clock_m_w_16",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "clock_m_h_16",
+      "donor_width": 720,
+      "from": 88,
+      "to": 59
+    },
+    {
+      "name": "clock_m_shadow_w_16",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "clock_m_shadow_h_16",
+      "donor_width": 720,
+      "from": 89,
+      "to": 59
+    },
+    {
+      "name": "clock_s_w_16",
+      "donor_width": 720,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "name": "clock_s_h_16",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "clock_s_shadow_w_16",
+      "donor_width": 720,
+      "from": 5,
+      "to": 3
+    },
+    {
+      "name": "clock_s_shadow_h_16",
+      "donor_width": 720,
+      "from": 63,
+      "to": 42
+    },
+    {
+      "name": "weather_back_size_16",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "weather_cover_size_16",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "weather_icon_size_16",
+      "donor_width": 720,
+      "from": 63,
+      "to": 42
+    },
+    {
+      "name": "weather_icon_offset_16",
+      "donor_width": 720,
+      "from": 9,
+      "to": 6
+    },
+    {
+      "name": "weather_temp_icon_w_16",
+      "donor_width": 720,
+      "from": 21,
+      "to": 14
+    },
+    {
+      "name": "weather_temp_icon_h_16",
+      "donor_width": 720,
+      "from": 18,
+      "to": 12
+    },
+    {
+      "name": "weather_minus_w_16",
+      "donor_width": 720,
+      "from": 17,
+      "to": 11
+    },
+    {
+      "name": "weather_minus_h_16",
+      "donor_width": 720,
+      "from": 28,
+      "to": 19
+    },
+    {
+      "name": "weather_number_w_16",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "weather_number_h_16",
+      "donor_width": 720,
+      "from": 28,
+      "to": 19
+    },
+    {
+      "name": "weather_number0_offsetx_16",
+      "donor_width": 720,
+      "from": 85,
+      "to": 57
+    },
+    {
+      "name": "weather_number0_offsety_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_temp0_offsetx_16",
+      "donor_width": 720,
+      "from": 92,
+      "to": 61
+    },
+    {
+      "name": "weather_temp0_offsety_16",
+      "donor_width": 720,
+      "from": 47,
+      "to": 31
+    },
+    {
+      "name": "weather_minus0_offsetx_16",
+      "donor_width": 720,
+      "from": 77,
+      "to": 51
+    },
+    {
+      "name": "weather_minus0_offsety_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_number00_offsetx_16",
+      "donor_width": 720,
+      "from": 90,
+      "to": 60
+    },
+    {
+      "name": "weather_number00_offsety_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_number10_offsetx_16",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "weather_number10_offsety_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "weather_temp00_offsetx_16",
+      "donor_width": 720,
+      "from": 97,
+      "to": 65
+    },
+    {
+      "name": "weather_temp00_offsety_16",
+      "donor_width": 720,
+      "from": 47,
+      "to": 31
+    },
+    {
+      "name": "weather_minus00_offsetx_16",
+      "donor_width": 720,
+      "from": 72,
+      "to": 48
+    },
+    {
+      "name": "weather_minus00_offsety_16",
+      "donor_width": 720,
+      "from": 52,
+      "to": 35
+    },
+    {
+      "name": "float_text_font_size_16",
+      "donor_width": 720,
+      "from": 22,
+      "to": 15
+    },
+    {
+      "name": "text_font_size_64",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "page_view_margin_top_64",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_view_margin_bottom_64",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_view_margin_left_64",
+      "donor_width": 720,
+      "from": 9,
+      "to": 6
+    },
+    {
+      "name": "page_view_margin_right_64",
+      "donor_width": 720,
+      "from": 9,
+      "to": 6
+    },
+    {
+      "name": "page_width_64",
+      "donor_width": 720,
+      "from": 346,
+      "to": 231
+    },
+    {
+      "name": "page_height_64",
+      "donor_width": 720,
+      "from": 470,
+      "to": 313
+    },
+    {
+      "name": "page_spacing_v_64",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "page_spacing_h_64",
+      "donor_width": 720,
+      "from": 10,
+      "to": 7
+    },
+    {
+      "name": "cell_width_64",
+      "donor_width": 720,
+      "from": 85,
+      "to": 57
+    },
+    {
+      "name": "cell_height_64",
+      "donor_width": 720,
+      "from": 116,
+      "to": 77
+    },
+    {
+      "name": "icon_size_origin_64",
+      "donor_width": 720,
+      "from": 128,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_64",
+      "donor_width": 720,
+      "from": 164,
+      "to": 109
+    },
+    {
+      "name": "cell_spacing_v_64",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_spacing_h_64",
+      "donor_width": 720,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "page_title_width_64",
+      "donor_width": 720,
+      "from": 346,
+      "to": 231
+    },
+    {
+      "name": "page_title_height_64",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "title_page_spacing_64",
+      "donor_width": 720,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "name": "page_title_name_height_64",
+      "donor_width": 720,
+      "from": 20,
+      "to": 13
+    },
+    {
+      "name": "dock_height_64",
+      "donor_width": 720,
+      "from": 133,
+      "to": 89
+    },
+    {
+      "name": "setting_button_outer_shadow_width_64",
+      "donor_width": 720,
+      "from": 76,
+      "to": 51
+    },
+    {
+      "name": "setting_button_outer_shadow_height_64",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "dot_width_64",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_height_64",
+      "donor_width": 720,
+      "from": 16,
+      "to": 11
+    },
+    {
+      "name": "dot_spacing_64",
+      "donor_width": 720,
+      "from": 6,
+      "to": 4
+    },
+    {
+      "name": "trash_width_64",
+      "donor_width": 720,
+      "from": 72,
+      "to": 48
+    },
+    {
+      "name": "trash_height_64",
+      "donor_width": 720,
+      "from": 95,
+      "to": 63
+    },
+    {
+      "name": "trash_zoom_width_64",
+      "donor_width": 720,
+      "from": 94,
+      "to": 63
+    },
+    {
+      "name": "trash_react_width_64",
+      "donor_width": 720,
+      "from": 180,
+      "to": 120
+    },
+    {
+      "name": "trash_react_height_64",
+      "donor_width": 720,
+      "from": 360,
+      "to": 240
+    },
+    {
+      "name": "trash_display_height_64",
+      "donor_width": 720,
+      "from": 42,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_64",
+      "donor_width": 720,
+      "from": 24,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_64",
+      "donor_width": 720,
+      "from": 62,
+      "to": 41
+    },
+    {
+      "name": "edit_icon_height_64",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "eye_icon_width_64",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "eye_icon_height_64",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "lock_icon_width_64",
+      "donor_width": 720,
+      "from": 80,
+      "to": 53
+    },
+    {
+      "name": "lock_icon_height_64",
+      "donor_width": 720,
+      "from": 60,
+      "to": 40
+    },
+    {
+      "name": "flag_new_width_64",
+      "donor_width": 720,
+      "from": 82,
+      "to": 55
+    },
+    {
+      "name": "flag_new_height_64",
+      "donor_width": 720,
+      "from": 54,
+      "to": 36
+    },
+    {
+      "name": "flag_new_offset_x_64",
+      "donor_width": 720,
+      "from": 70,
+      "to": 47
+    },
+    {
+      "name": "flag_new_offset_y_64",
+      "donor_width": 720,
+      "from": 152,
+      "to": 101
+    },
+    {
+      "name": "flag_message_width_64",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_64",
+      "donor_width": 720,
+      "from": 96,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_64",
+      "donor_width": 720,
+      "from": 30,
+      "to": 20
+    },
+    {
+      "name": "flag_message_offset_y_64",
+      "donor_width": 720,
+      "from": 37,
+      "to": 25
+    },
+    {
+      "name": "page_up_shadow_image_width_64",
+      "donor_width": 720,
+      "from": 410,
+      "to": 273
+    },
+    {
+      "name": "page_up_shadow_image_height_64",
+      "donor_width": 720,
+      "from": 609,
+      "to": 406
+    },
+    {
+      "name": "cell_up_shadow_image_width_64",
+      "donor_width": 720,
+      "from": 250,
+      "to": 167
+    },
+    {
+      "name": "cell_up_shadow_image_height_64",
+      "donor_width": 720,
+      "from": 316,
+      "to": 211
+    },
+    {
+      "name": "cell_up_overlay_image_width_64",
+      "donor_width": 720,
+      "from": 178,
+      "to": 119
+    },
+    {
+      "name": "cell_up_overlay_image_height_64",
+      "donor_width": 720,
+      "from": 242,
+      "to": 161
+    },
+    {
+      "name": "page_green_cover_image_width_64",
+      "donor_width": 720,
+      "from": 362,
+      "to": 241
+    },
+    {
+      "name": "page_green_cover_image_height_64",
+      "donor_width": 720,
+      "from": 554,
+      "to": 369
+    },
+    {
+      "name": "page_red_cover_image_width_64",
+      "donor_width": 720,
+      "from": 362,
+      "to": 241
+    },
+    {
+      "name": "page_red_cover_image_height_64",
+      "donor_width": 720,
+      "from": 554,
+      "to": 369
+    },
+    {
+      "name": "float_text_font_size_64",
+      "donor_width": 720,
+      "from": 22,
+      "to": 15
+    },
+    {
+      "name": "screen_width",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "screen_height",
+      "donor_width": 1080,
+      "from": 1920,
+      "to": 800
+    },
+    {
+      "name": "status_bar_height",
+      "donor_width": 1080,
+      "from": 79,
+      "to": 52
+    },
+    {
+      "name": "window_width",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "window_height",
+      "donor_width": 1080,
+      "from": 1920,
+      "to": 800
+    },
+    {
+      "name": "text_font_size_9",
+      "donor_width": 1080,
+      "from": 40,
+      "to": 18
+    },
+    {
+      "name": "page_width_9",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "page_height_9",
+      "donor_width": 1080,
+      "from": 1375,
+      "to": 611
+    },
+    {
+      "name": "cell_width_9",
+      "donor_width": 1080,
+      "from": 360,
+      "to": 160
+    },
+    {
+      "name": "cell_height_9",
+      "donor_width": 1080,
+      "from": 460,
+      "to": 204
+    },
+    {
+      "name": "icon_size_origin_9",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_9",
+      "donor_width": 1080,
+      "from": 246,
+      "to": 109
+    },
+    {
+      "name": "page_title_width_9",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "title_page_spacing_9",
+      "donor_width": 1080,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_normal_shadow_image_width_9",
+      "donor_width": 1080,
+      "from": 468,
+      "to": 208
+    },
+    {
+      "name": "cell_normal_shadow_image_height_9",
+      "donor_width": 1080,
+      "from": 598,
+      "to": 266
+    },
+    {
+      "name": "dock_height_9",
+      "donor_width": 1080,
+      "from": 461,
+      "to": 205
+    },
+    {
+      "name": "dot_width_9",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_height_9",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_spacing_9",
+      "donor_width": 1080,
+      "from": 9,
+      "to": 4
+    },
+    {
+      "name": "trash_width_9",
+      "donor_width": 1080,
+      "from": 225,
+      "to": 100
+    },
+    {
+      "name": "trash_height_9",
+      "donor_width": 1080,
+      "from": 297,
+      "to": 132
+    },
+    {
+      "name": "trash_zoom_width_9",
+      "donor_width": 1080,
+      "from": 292,
+      "to": 130
+    },
+    {
+      "name": "trash_react_width_9",
+      "donor_width": 1080,
+      "from": 280,
+      "to": 124
+    },
+    {
+      "name": "trash_react_height_9",
+      "donor_width": 1080,
+      "from": 500,
+      "to": 222
+    },
+    {
+      "name": "trash_display_height_9",
+      "donor_width": 1080,
+      "from": 123,
+      "to": 55
+    },
+    {
+      "name": "trash_float_up_height_9",
+      "donor_width": 1080,
+      "from": 75,
+      "to": 33
+    },
+    {
+      "name": "edit_icon_width_9",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "edit_icon_height_9",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "eye_icon_width_9",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "eye_icon_height_9",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "lock_icon_width_9",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "lock_icon_height_9",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "flag_new_width_9",
+      "donor_width": 1080,
+      "from": 160,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_9",
+      "donor_width": 1080,
+      "from": 100,
+      "to": 44
+    },
+    {
+      "name": "flag_new_offset_x_9",
+      "donor_width": 1080,
+      "from": 160,
+      "to": 71
+    },
+    {
+      "name": "flag_new_offset_y_9",
+      "donor_width": 1080,
+      "from": 308,
+      "to": 137
+    },
+    {
+      "name": "flag_message_width_9",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_9",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_9",
+      "donor_width": 1080,
+      "from": 53,
+      "to": 24
+    },
+    {
+      "name": "flag_message_offset_y_9",
+      "donor_width": 1080,
+      "from": 115,
+      "to": 51
+    },
+    {
+      "name": "flag_message_textsize_9",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_ignoresize_9",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_text_offsetx_9",
+      "donor_width": 1080,
+      "from": 3,
+      "to": 1
+    },
+    {
+      "name": "cell_up_shadow_image_width_9",
+      "donor_width": 1080,
+      "from": 464,
+      "to": 206
+    },
+    {
+      "name": "cell_up_shadow_image_height_9",
+      "donor_width": 1080,
+      "from": 590,
+      "to": 262
+    },
+    {
+      "name": "cell_up_overlay_image_width_9",
+      "donor_width": 1080,
+      "from": 360,
+      "to": 160
+    },
+    {
+      "name": "cell_up_overlay_image_height_9",
+      "donor_width": 1080,
+      "from": 460,
+      "to": 204
+    },
+    {
+      "name": "calendar_back_size_9",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "calendar_day_w_9",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "calendar_day_h_9",
+      "donor_width": 1080,
+      "from": 78,
+      "to": 35
+    },
+    {
+      "name": "calendar_day_offsetx_9",
+      "donor_width": 1080,
+      "from": 45,
+      "to": 20
+    },
+    {
+      "name": "calendar_day_offsety_9",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "clock_size_9",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "clock_dot_w_9",
+      "donor_width": 1080,
+      "from": 30,
+      "to": 13
+    },
+    {
+      "name": "clock_dot_h_9",
+      "donor_width": 1080,
+      "from": 34,
+      "to": 15
+    },
+    {
+      "name": "clock_h_w_9",
+      "donor_width": 1080,
+      "from": 28,
+      "to": 12
+    },
+    {
+      "name": "clock_h_h_9",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "clock_h_shadow_w_9",
+      "donor_width": 1080,
+      "from": 22,
+      "to": 10
+    },
+    {
+      "name": "clock_h_shadow_h_9",
+      "donor_width": 1080,
+      "from": 104,
+      "to": 46
+    },
+    {
+      "name": "clock_m_w_9",
+      "donor_width": 1080,
+      "from": 28,
+      "to": 12
+    },
+    {
+      "name": "clock_m_h_9",
+      "donor_width": 1080,
+      "from": 132,
+      "to": 59
+    },
+    {
+      "name": "clock_m_shadow_w_9",
+      "donor_width": 1080,
+      "from": 26,
+      "to": 12
+    },
+    {
+      "name": "clock_m_shadow_h_9",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "clock_s_w_9",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "clock_s_h_9",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "clock_s_shadow_w_9",
+      "donor_width": 1080,
+      "from": 10,
+      "to": 4
+    },
+    {
+      "name": "clock_s_shadow_h_9",
+      "donor_width": 1080,
+      "from": 142,
+      "to": 63
+    },
+    {
+      "name": "weather_back_size_9",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "weather_cover_size_9",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "weather_icon_size_9",
+      "donor_width": 1080,
+      "from": 100,
+      "to": 44
+    },
+    {
+      "name": "weather_icon_offset_9",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "weather_temp_icon_w_9",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "weather_temp_icon_h_9",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_minus_w_9",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "weather_minus_h_9",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_number_w_9",
+      "donor_width": 1080,
+      "from": 25,
+      "to": 11
+    },
+    {
+      "name": "weather_number_h_9",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_number0_offsetx_9",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "weather_number0_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp0_offsetx_9",
+      "donor_width": 1080,
+      "from": 146,
+      "to": 65
+    },
+    {
+      "name": "weather_temp0_offsety_9",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_minus0_offsetx_9",
+      "donor_width": 1080,
+      "from": 113,
+      "to": 50
+    },
+    {
+      "name": "weather_minus0_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_number00_offsetx_9",
+      "donor_width": 1080,
+      "from": 135,
+      "to": 60
+    },
+    {
+      "name": "weather_number00_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_number10_offsetx_9",
+      "donor_width": 1080,
+      "from": 117,
+      "to": 52
+    },
+    {
+      "name": "weather_number10_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp00_offsetx_9",
+      "donor_width": 1080,
+      "from": 155,
+      "to": 69
+    },
+    {
+      "name": "weather_temp00_offsety_9",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_minus00_offsetx_9",
+      "donor_width": 1080,
+      "from": 106,
+      "to": 47
+    },
+    {
+      "name": "weather_minus00_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "float_text_font_size_9",
+      "donor_width": 1080,
+      "from": 38,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_36",
+      "donor_width": 1080,
+      "from": 40,
+      "to": 18
+    },
+    {
+      "name": "page_view_margin_top_36",
+      "donor_width": 1080,
+      "from": 16,
+      "to": 7
+    },
+    {
+      "name": "page_view_margin_bottom_36",
+      "donor_width": 1080,
+      "from": 16,
+      "to": 7
+    },
+    {
+      "name": "page_view_margin_left_36",
+      "donor_width": 1080,
+      "from": 13,
+      "to": 6
+    },
+    {
+      "name": "page_view_margin_right_36",
+      "donor_width": 1080,
+      "from": 13,
+      "to": 6
+    },
+    {
+      "name": "page_width_36",
+      "donor_width": 1080,
+      "from": 521,
+      "to": 232
+    },
+    {
+      "name": "page_height_36",
+      "donor_width": 1080,
+      "from": 665,
+      "to": 296
+    },
+    {
+      "name": "page_spacing_v_36",
+      "donor_width": 1080,
+      "from": 14,
+      "to": 6
+    },
+    {
+      "name": "page_spacing_h_36",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "cell_width_36",
+      "donor_width": 1080,
+      "from": 173,
+      "to": 77
+    },
+    {
+      "name": "cell_height_36",
+      "donor_width": 1080,
+      "from": 221,
+      "to": 98
+    },
+    {
+      "name": "icon_size_origin_36",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_36",
+      "donor_width": 1080,
+      "from": 268,
+      "to": 119
+    },
+    {
+      "name": "page_title_width_36",
+      "donor_width": 1080,
+      "from": 521,
+      "to": 232
+    },
+    {
+      "name": "page_title_height_36",
+      "donor_width": 1080,
+      "from": 104,
+      "to": 46
+    },
+    {
+      "name": "dock_height_36",
+      "donor_width": 1080,
+      "from": 260,
+      "to": 116
+    },
+    {
+      "name": "dot_width_36",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_height_36",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_spacing_36",
+      "donor_width": 1080,
+      "from": 9,
+      "to": 4
+    },
+    {
+      "name": "trash_width_36",
+      "donor_width": 1080,
+      "from": 135,
+      "to": 60
+    },
+    {
+      "name": "trash_height_36",
+      "donor_width": 1080,
+      "from": 178,
+      "to": 79
+    },
+    {
+      "name": "trash_zoom_width_36",
+      "donor_width": 1080,
+      "from": 175,
+      "to": 78
+    },
+    {
+      "name": "trash_react_width_36",
+      "donor_width": 1080,
+      "from": 280,
+      "to": 124
+    },
+    {
+      "name": "trash_react_height_36",
+      "donor_width": 1080,
+      "from": 560,
+      "to": 249
+    },
+    {
+      "name": "trash_display_height_36",
+      "donor_width": 1080,
+      "from": 63,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_36",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_36",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "edit_icon_height_36",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "eye_icon_width_36",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "eye_icon_height_36",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "lock_icon_width_36",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "lock_icon_height_36",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "flag_new_width_36",
+      "donor_width": 1080,
+      "from": 160,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_36",
+      "donor_width": 1080,
+      "from": 100,
+      "to": 44
+    },
+    {
+      "name": "flag_new_offset_x_36",
+      "donor_width": 1080,
+      "from": 108,
+      "to": 48
+    },
+    {
+      "name": "flag_new_offset_y_36",
+      "donor_width": 1080,
+      "from": 203,
+      "to": 90
+    },
+    {
+      "name": "flag_message_width_36",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_36",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_36",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_offset_y_36",
+      "donor_width": 1080,
+      "from": 53,
+      "to": 24
+    },
+    {
+      "name": "page_up_shadow_image_width_36",
+      "donor_width": 1080,
+      "from": 612,
+      "to": 272
+    },
+    {
+      "name": "page_up_shadow_image_height_36",
+      "donor_width": 1080,
+      "from": 908,
+      "to": 404
+    },
+    {
+      "name": "cell_up_shadow_image_width_36",
+      "donor_width": 1080,
+      "from": 250,
+      "to": 111
+    },
+    {
+      "name": "cell_up_shadow_image_height_36",
+      "donor_width": 1080,
+      "from": 316,
+      "to": 140
+    },
+    {
+      "name": "cell_up_overlay_image_width_36",
+      "donor_width": 1080,
+      "from": 394,
+      "to": 175
+    },
+    {
+      "name": "cell_up_overlay_image_height_36",
+      "donor_width": 1080,
+      "from": 498,
+      "to": 221
+    },
+    {
+      "name": "page_green_cover_image_width_36",
+      "donor_width": 1080,
+      "from": 533,
+      "to": 237
+    },
+    {
+      "name": "page_green_cover_image_height_36",
+      "donor_width": 1080,
+      "from": 780,
+      "to": 347
+    },
+    {
+      "name": "page_red_cover_image_width_36",
+      "donor_width": 1080,
+      "from": 533,
+      "to": 237
+    },
+    {
+      "name": "page_red_cover_image_height_36",
+      "donor_width": 1080,
+      "from": 780,
+      "to": 347
+    },
+    {
+      "name": "float_text_font_size_36",
+      "donor_width": 1080,
+      "from": 38,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_81",
+      "donor_width": 1080,
+      "from": 40,
+      "to": 18
+    },
+    {
+      "name": "page_view_margin_top_81",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_bottom_81",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_left_81",
+      "donor_width": 1080,
+      "from": 8,
+      "to": 4
+    },
+    {
+      "name": "page_view_margin_right_81",
+      "donor_width": 1080,
+      "from": 8,
+      "to": 4
+    },
+    {
+      "name": "page_width_81",
+      "donor_width": 1080,
+      "from": 350,
+      "to": 156
+    },
+    {
+      "name": "page_height_81",
+      "donor_width": 1080,
+      "from": 445,
+      "to": 198
+    },
+    {
+      "name": "page_spacing_v_81",
+      "donor_width": 1080,
+      "from": 7,
+      "to": 3
+    },
+    {
+      "name": "page_spacing_h_81",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "cell_width_81",
+      "donor_width": 1080,
+      "from": 116,
+      "to": 52
+    },
+    {
+      "name": "cell_height_81",
+      "donor_width": 1080,
+      "from": 148,
+      "to": 66
+    },
+    {
+      "name": "icon_size_origin_81",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_81",
+      "donor_width": 1080,
+      "from": 164,
+      "to": 73
+    },
+    {
+      "name": "page_title_width_81",
+      "donor_width": 1080,
+      "from": 350,
+      "to": 156
+    },
+    {
+      "name": "page_title_height_81",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "dock_height_81",
+      "donor_width": 1080,
+      "from": 260,
+      "to": 116
+    },
+    {
+      "name": "dot_width_81",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_height_81",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_spacing_81",
+      "donor_width": 1080,
+      "from": 9,
+      "to": 4
+    },
+    {
+      "name": "trash_width_81",
+      "donor_width": 1080,
+      "from": 135,
+      "to": 60
+    },
+    {
+      "name": "trash_height_81",
+      "donor_width": 1080,
+      "from": 178,
+      "to": 79
+    },
+    {
+      "name": "trash_zoom_width_81",
+      "donor_width": 1080,
+      "from": 175,
+      "to": 78
+    },
+    {
+      "name": "trash_react_width_81",
+      "donor_width": 1080,
+      "from": 250,
+      "to": 111
+    },
+    {
+      "name": "trash_react_height_81",
+      "donor_width": 1080,
+      "from": 560,
+      "to": 249
+    },
+    {
+      "name": "trash_display_height_81",
+      "donor_width": 1080,
+      "from": 63,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_81",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_81",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "edit_icon_height_81",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "eye_icon_width_81",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "eye_icon_height_81",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "lock_icon_width_81",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "lock_icon_height_81",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "flag_new_width_81",
+      "donor_width": 1080,
+      "from": 160,
+      "to": 71
+    },
+    {
+      "name": "flag_new_height_81",
+      "donor_width": 1080,
+      "from": 100,
+      "to": 44
+    },
+    {
+      "name": "flag_new_offset_x_81",
+      "donor_width": 1080,
+      "from": 108,
+      "to": 48
+    },
+    {
+      "name": "flag_new_offset_y_81",
+      "donor_width": 1080,
+      "from": 203,
+      "to": 90
+    },
+    {
+      "name": "flag_message_width_81",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_81",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_81",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_offset_y_81",
+      "donor_width": 1080,
+      "from": 53,
+      "to": 24
+    },
+    {
+      "name": "page_up_shadow_image_width_81",
+      "donor_width": 1080,
+      "from": 411,
+      "to": 183
+    },
+    {
+      "name": "page_up_shadow_image_height_81",
+      "donor_width": 1080,
+      "from": 606,
+      "to": 269
+    },
+    {
+      "name": "cell_up_shadow_image_width_81",
+      "donor_width": 1080,
+      "from": 250,
+      "to": 111
+    },
+    {
+      "name": "cell_up_shadow_image_height_81",
+      "donor_width": 1080,
+      "from": 316,
+      "to": 140
+    },
+    {
+      "name": "cell_up_overlay_image_width_81",
+      "donor_width": 1080,
+      "from": 393,
+      "to": 175
+    },
+    {
+      "name": "cell_up_overlay_image_height_81",
+      "donor_width": 1080,
+      "from": 500,
+      "to": 222
+    },
+    {
+      "name": "page_green_cover_image_width_81",
+      "donor_width": 1080,
+      "from": 358,
+      "to": 159
+    },
+    {
+      "name": "page_green_cover_image_height_81",
+      "donor_width": 1080,
+      "from": 521,
+      "to": 232
+    },
+    {
+      "name": "page_red_cover_image_width_81",
+      "donor_width": 1080,
+      "from": 358,
+      "to": 159
+    },
+    {
+      "name": "page_red_cover_image_height_81",
+      "donor_width": 1080,
+      "from": 521,
+      "to": 232
+    },
+    {
+      "name": "float_text_font_size_81",
+      "donor_width": 1080,
+      "from": 38,
+      "to": 17
+    },
+    {
+      "name": "text_font_size_16",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "page_width_16",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "page_height_16",
+      "donor_width": 1080,
+      "from": 1464,
+      "to": 651
+    },
+    {
+      "name": "cell_width_16",
+      "donor_width": 1080,
+      "from": 270,
+      "to": 120
+    },
+    {
+      "name": "cell_height_16",
+      "donor_width": 1080,
+      "from": 366,
+      "to": 163
+    },
+    {
+      "name": "icon_size_origin_16",
+      "donor_width": 1080,
+      "from": 138,
+      "to": 61
+    },
+    {
+      "name": "icon_size_with_shadow_16",
+      "donor_width": 1080,
+      "from": 177,
+      "to": 79
+    },
+    {
+      "name": "page_title_width_16",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "title_page_spacing_16",
+      "donor_width": 1080,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "name": "cell_normal_shadow_image_width_16",
+      "donor_width": 1080,
+      "from": 374,
+      "to": 166
+    },
+    {
+      "name": "cell_normal_shadow_image_height_16",
+      "donor_width": 1080,
+      "from": 508,
+      "to": 226
+    },
+    {
+      "name": "dock_height_16",
+      "donor_width": 1080,
+      "from": 377,
+      "to": 168
+    },
+    {
+      "name": "dot_width_16",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_height_16",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_spacing_16",
+      "donor_width": 1080,
+      "from": 9,
+      "to": 4
+    },
+    {
+      "name": "trash_width_16",
+      "donor_width": 1080,
+      "from": 179,
+      "to": 80
+    },
+    {
+      "name": "trash_height_16",
+      "donor_width": 1080,
+      "from": 238,
+      "to": 106
+    },
+    {
+      "name": "trash_zoom_width_16",
+      "donor_width": 1080,
+      "from": 232,
+      "to": 103
+    },
+    {
+      "name": "trash_react_width_16",
+      "donor_width": 1080,
+      "from": 220,
+      "to": 98
+    },
+    {
+      "name": "trash_react_height_16",
+      "donor_width": 1080,
+      "from": 400,
+      "to": 178
+    },
+    {
+      "name": "trash_display_height_16",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "trash_float_up_height_16",
+      "donor_width": 1080,
+      "from": 60,
+      "to": 27
+    },
+    {
+      "name": "edit_icon_width_16",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "edit_icon_height_16",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "eye_icon_width_16",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "eye_icon_height_16",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "lock_icon_width_16",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "lock_icon_height_16",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "flag_new_width_16",
+      "donor_width": 1080,
+      "from": 125,
+      "to": 56
+    },
+    {
+      "name": "flag_new_height_16",
+      "donor_width": 1080,
+      "from": 77,
+      "to": 34
+    },
+    {
+      "name": "flag_new_offset_x_16",
+      "donor_width": 1080,
+      "from": 119,
+      "to": 53
+    },
+    {
+      "name": "flag_new_offset_y_16",
+      "donor_width": 1080,
+      "from": 238,
+      "to": 106
+    },
+    {
+      "name": "flag_message_width_16",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_16",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_16",
+      "donor_width": 1080,
+      "from": 33,
+      "to": 15
+    },
+    {
+      "name": "flag_message_offset_y_16",
+      "donor_width": 1080,
+      "from": 81,
+      "to": 36
+    },
+    {
+      "name": "flag_message_textsize_16",
+      "donor_width": 1080,
+      "from": 32,
+      "to": 14
+    },
+    {
+      "name": "flag_message_ignoresize_16",
+      "donor_width": 1080,
+      "from": 16,
+      "to": 7
+    },
+    {
+      "name": "flag_message_text_offsetx_16",
+      "donor_width": 1080,
+      "from": 3,
+      "to": 1
+    },
+    {
+      "name": "cell_up_shadow_image_width_16",
+      "donor_width": 1080,
+      "from": 376,
+      "to": 167
+    },
+    {
+      "name": "cell_up_shadow_image_height_16",
+      "donor_width": 1080,
+      "from": 510,
+      "to": 227
+    },
+    {
+      "name": "cell_up_overlay_image_width_16",
+      "donor_width": 1080,
+      "from": 270,
+      "to": 120
+    },
+    {
+      "name": "cell_up_overlay_image_height_16",
+      "donor_width": 1080,
+      "from": 366,
+      "to": 163
+    },
+    {
+      "name": "calendar_back_size_16",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "calendar_day_w_16",
+      "donor_width": 1080,
+      "from": 102,
+      "to": 45
+    },
+    {
+      "name": "calendar_day_h_16",
+      "donor_width": 1080,
+      "from": 78,
+      "to": 35
+    },
+    {
+      "name": "calendar_day_offsetx_16",
+      "donor_width": 1080,
+      "from": 45,
+      "to": 20
+    },
+    {
+      "name": "calendar_day_offsety_16",
+      "donor_width": 1080,
+      "from": 72,
+      "to": 32
+    },
+    {
+      "name": "clock_size_16",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "clock_dot_w_16",
+      "donor_width": 1080,
+      "from": 30,
+      "to": 13
+    },
+    {
+      "name": "clock_dot_h_16",
+      "donor_width": 1080,
+      "from": 34,
+      "to": 15
+    },
+    {
+      "name": "clock_h_w_16",
+      "donor_width": 1080,
+      "from": 28,
+      "to": 12
+    },
+    {
+      "name": "clock_h_h_16",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "clock_h_shadow_w_16",
+      "donor_width": 1080,
+      "from": 22,
+      "to": 10
+    },
+    {
+      "name": "clock_h_shadow_h_16",
+      "donor_width": 1080,
+      "from": 104,
+      "to": 46
+    },
+    {
+      "name": "clock_m_w_16",
+      "donor_width": 1080,
+      "from": 28,
+      "to": 12
+    },
+    {
+      "name": "clock_m_h_16",
+      "donor_width": 1080,
+      "from": 132,
+      "to": 59
+    },
+    {
+      "name": "clock_m_shadow_w_16",
+      "donor_width": 1080,
+      "from": 26,
+      "to": 12
+    },
+    {
+      "name": "clock_m_shadow_h_16",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "clock_s_w_16",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "clock_s_h_16",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "clock_s_shadow_w_16",
+      "donor_width": 1080,
+      "from": 10,
+      "to": 4
+    },
+    {
+      "name": "clock_s_shadow_h_16",
+      "donor_width": 1080,
+      "from": 142,
+      "to": 63
+    },
+    {
+      "name": "weather_back_size_16",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "weather_cover_size_16",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "weather_icon_size_16",
+      "donor_width": 1080,
+      "from": 100,
+      "to": 44
+    },
+    {
+      "name": "weather_icon_offset_16",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "weather_temp_icon_w_16",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "weather_temp_icon_h_16",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_minus_w_16",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "weather_minus_h_16",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_number_w_16",
+      "donor_width": 1080,
+      "from": 25,
+      "to": 11
+    },
+    {
+      "name": "weather_number_h_16",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "weather_number0_offsetx_16",
+      "donor_width": 1080,
+      "from": 126,
+      "to": 56
+    },
+    {
+      "name": "weather_number0_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp0_offsetx_16",
+      "donor_width": 1080,
+      "from": 146,
+      "to": 65
+    },
+    {
+      "name": "weather_temp0_offsety_16",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_minus0_offsetx_16",
+      "donor_width": 1080,
+      "from": 113,
+      "to": 50
+    },
+    {
+      "name": "weather_minus0_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_number00_offsetx_16",
+      "donor_width": 1080,
+      "from": 135,
+      "to": 60
+    },
+    {
+      "name": "weather_number00_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_number10_offsetx_16",
+      "donor_width": 1080,
+      "from": 117,
+      "to": 52
+    },
+    {
+      "name": "weather_number10_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp00_offsetx_16",
+      "donor_width": 1080,
+      "from": 155,
+      "to": 69
+    },
+    {
+      "name": "weather_temp00_offsety_16",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_minus00_offsetx_16",
+      "donor_width": 1080,
+      "from": 106,
+      "to": 47
+    },
+    {
+      "name": "weather_minus00_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "float_text_font_size_16",
+      "donor_width": 1080,
+      "from": 34,
+      "to": 15
+    },
+    {
+      "name": "text_font_size_64",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "page_view_margin_top_64",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_bottom_64",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_left_64",
+      "donor_width": 1080,
+      "from": 11,
+      "to": 5
+    },
+    {
+      "name": "page_view_margin_right_64",
+      "donor_width": 1080,
+      "from": 11,
+      "to": 5
+    },
+    {
+      "name": "page_width_64",
+      "donor_width": 1080,
+      "from": 524,
+      "to": 233
+    },
+    {
+      "name": "page_height_64",
+      "donor_width": 1080,
+      "from": 712,
+      "to": 316
+    },
+    {
+      "name": "page_spacing_v_64",
+      "donor_width": 1080,
+      "from": 10,
+      "to": 4
+    },
+    {
+      "name": "page_spacing_h_64",
+      "donor_width": 1080,
+      "from": 10,
+      "to": 4
+    },
+    {
+      "name": "cell_width_64",
+      "donor_width": 1080,
+      "from": 131,
+      "to": 58
+    },
+    {
+      "name": "cell_height_64",
+      "donor_width": 1080,
+      "from": 178,
+      "to": 79
+    },
+    {
+      "name": "icon_size_origin_64",
+      "donor_width": 1080,
+      "from": 192,
+      "to": 85
+    },
+    {
+      "name": "icon_size_with_shadow_64",
+      "donor_width": 1080,
+      "from": 164,
+      "to": 73
+    },
+    {
+      "name": "page_title_width_64",
+      "donor_width": 1080,
+      "from": 524,
+      "to": 233
+    },
+    {
+      "name": "page_title_height_64",
+      "donor_width": 1080,
+      "from": 92,
+      "to": 41
+    },
+    {
+      "name": "dock_height_64",
+      "donor_width": 1080,
+      "from": 200,
+      "to": 89
+    },
+    {
+      "name": "dot_width_64",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_height_64",
+      "donor_width": 1080,
+      "from": 21,
+      "to": 9
+    },
+    {
+      "name": "dot_spacing_64",
+      "donor_width": 1080,
+      "from": 9,
+      "to": 4
+    },
+    {
+      "name": "trash_width_64",
+      "donor_width": 1080,
+      "from": 135,
+      "to": 60
+    },
+    {
+      "name": "trash_height_64",
+      "donor_width": 1080,
+      "from": 178,
+      "to": 79
+    },
+    {
+      "name": "trash_zoom_width_64",
+      "donor_width": 1080,
+      "from": 175,
+      "to": 78
+    },
+    {
+      "name": "trash_react_width_64",
+      "donor_width": 1080,
+      "from": 200,
+      "to": 89
+    },
+    {
+      "name": "trash_react_height_64",
+      "donor_width": 1080,
+      "from": 420,
+      "to": 187
+    },
+    {
+      "name": "trash_display_height_64",
+      "donor_width": 1080,
+      "from": 63,
+      "to": 28
+    },
+    {
+      "name": "trash_float_up_height_64",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "edit_icon_width_64",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "edit_icon_height_64",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "eye_icon_width_64",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "eye_icon_height_64",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "lock_icon_width_64",
+      "donor_width": 1080,
+      "from": 120,
+      "to": 53
+    },
+    {
+      "name": "lock_icon_height_64",
+      "donor_width": 1080,
+      "from": 90,
+      "to": 40
+    },
+    {
+      "name": "flag_new_width_64",
+      "donor_width": 1080,
+      "from": 125,
+      "to": 56
+    },
+    {
+      "name": "flag_new_height_64",
+      "donor_width": 1080,
+      "from": 77,
+      "to": 34
+    },
+    {
+      "name": "flag_new_offset_x_64",
+      "donor_width": 1080,
+      "from": 70,
+      "to": 31
+    },
+    {
+      "name": "flag_new_offset_y_64",
+      "donor_width": 1080,
+      "from": 152,
+      "to": 68
+    },
+    {
+      "name": "flag_message_width_64",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_height_64",
+      "donor_width": 1080,
+      "from": 144,
+      "to": 64
+    },
+    {
+      "name": "flag_message_offset_x_64",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_offset_y_64",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "page_up_shadow_image_width_64",
+      "donor_width": 1080,
+      "from": 615,
+      "to": 273
+    },
+    {
+      "name": "page_up_shadow_image_height_64",
+      "donor_width": 1080,
+      "from": 944,
+      "to": 420
+    },
+    {
+      "name": "cell_up_shadow_image_width_64",
+      "donor_width": 1080,
+      "from": 250,
+      "to": 111
+    },
+    {
+      "name": "cell_up_shadow_image_height_64",
+      "donor_width": 1080,
+      "from": 316,
+      "to": 140
+    },
+    {
+      "name": "cell_up_overlay_image_width_64",
+      "donor_width": 1080,
+      "from": 268,
+      "to": 119
+    },
+    {
+      "name": "cell_up_overlay_image_height_64",
+      "donor_width": 1080,
+      "from": 364,
+      "to": 162
+    },
+    {
+      "name": "page_green_cover_image_width_64",
+      "donor_width": 1080,
+      "from": 534,
+      "to": 237
+    },
+    {
+      "name": "page_green_cover_image_height_64",
+      "donor_width": 1080,
+      "from": 813,
+      "to": 361
+    },
+    {
+      "name": "page_red_cover_image_width_64",
+      "donor_width": 1080,
+      "from": 534,
+      "to": 237
+    },
+    {
+      "name": "page_red_cover_image_height_64",
+      "donor_width": 1080,
+      "from": 813,
+      "to": 361
+    },
+    {
+      "name": "float_text_font_size_64",
+      "donor_width": 1080,
+      "from": 34,
+      "to": 15
+    },
+    {
+      "name": "icon_view_off_set_y",
+      "donor_width": 1080,
+      "from": 8,
+      "to": 4
+    },
+    {
+      "name": "name_off_set_y_9",
+      "donor_width": 1080,
+      "from": -131,
+      "to": -58
+    },
+    {
+      "name": "page_title_shadow_width_9",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "flag_message_number_width_9",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_number_height_9",
+      "donor_width": 1080,
+      "from": 29,
+      "to": 13
+    },
+    {
+      "name": "multi_select_distance_9",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "calendar_down_distance_9",
+      "donor_width": 1080,
+      "from": 210,
+      "to": 93
+    },
+    {
+      "name": "calendar_right_distance_9",
+      "donor_width": 1080,
+      "from": 30,
+      "to": 13
+    },
+    {
+      "name": "weather_number000_w_9",
+      "donor_width": 1080,
+      "from": 56,
+      "to": 25
+    },
+    {
+      "name": "weather_number000_offsetx_9",
+      "donor_width": 1080,
+      "from": 109,
+      "to": 48
+    },
+    {
+      "name": "weather_number000_offsety_9",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp000_offsetx_9",
+      "donor_width": 1080,
+      "from": 159,
+      "to": 71
+    },
+    {
+      "name": "weather_temp000_offsety_9",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_cover_margin_top_9",
+      "donor_width": 1080,
+      "from": 47,
+      "to": 21
+    },
+    {
+      "name": "dock_ignore_touch_height_9",
+      "donor_width": 1080,
+      "from": 40,
+      "to": 18
+    },
+    {
+      "name": "magnify_stencil_radius_9",
+      "donor_width": 1080,
+      "from": 70,
+      "to": 31
+    },
+    {
+      "name": "magnify_x_offset_9",
+      "donor_width": 1080,
+      "from": -15,
+      "to": -7
+    },
+    {
+      "name": "magnify_y_offset_9",
+      "donor_width": 1080,
+      "from": 35,
+      "to": 16
+    },
+    {
+      "name": "name_off_set_y_36",
+      "donor_width": 1080,
+      "from": -131,
+      "to": -58
+    },
+    {
+      "name": "page_title_shadow_width_36",
+      "donor_width": 1080,
+      "from": 558,
+      "to": 248
+    },
+    {
+      "name": "page_title_shadow_height_36",
+      "donor_width": 1080,
+      "from": 172,
+      "to": 76
+    },
+    {
+      "name": "flag_message_textsize_36",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_ignoresize_36",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_text_offsetx_36",
+      "donor_width": 1080,
+      "from": 3,
+      "to": 1
+    },
+    {
+      "name": "flag_message_number_width_36",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_number_height_36",
+      "donor_width": 1080,
+      "from": 29,
+      "to": 13
+    },
+    {
+      "name": "multi_select_distance_36",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "magnify_stencil_radius_36",
+      "donor_width": 1080,
+      "from": 75,
+      "to": 33
+    },
+    {
+      "name": "magnify_x_offset_36",
+      "donor_width": 1080,
+      "from": -15,
+      "to": -7
+    },
+    {
+      "name": "magnify_y_offset_36",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "sort_bubble_width_36",
+      "donor_width": 1080,
+      "from": 270,
+      "to": 120
+    },
+    {
+      "name": "sort_bubble_height_36",
+      "donor_width": 1080,
+      "from": 133,
+      "to": 59
+    },
+    {
+      "name": "name_off_set_y_81",
+      "donor_width": 1080,
+      "from": -131,
+      "to": -58
+    },
+    {
+      "name": "page_title_shadow_width_81",
+      "donor_width": 1080,
+      "from": 374,
+      "to": 166
+    },
+    {
+      "name": "page_title_shadow_height_81",
+      "donor_width": 1080,
+      "from": 116,
+      "to": 52
+    },
+    {
+      "name": "flag_message_textsize_81",
+      "donor_width": 1080,
+      "from": 36,
+      "to": 16
+    },
+    {
+      "name": "flag_message_ignoresize_81",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_text_offsetx_81",
+      "donor_width": 1080,
+      "from": 3,
+      "to": 1
+    },
+    {
+      "name": "flag_message_number_width_81",
+      "donor_width": 1080,
+      "from": 20,
+      "to": 9
+    },
+    {
+      "name": "flag_message_number_height_81",
+      "donor_width": 1080,
+      "from": 29,
+      "to": 13
+    },
+    {
+      "name": "multi_select_distance_81",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "magnify_stencil_radius_81",
+      "donor_width": 1080,
+      "from": 75,
+      "to": 33
+    },
+    {
+      "name": "magnify_x_offset_81",
+      "donor_width": 1080,
+      "from": -15,
+      "to": -7
+    },
+    {
+      "name": "magnify_y_offset_81",
+      "donor_width": 1080,
+      "from": 12,
+      "to": 5
+    },
+    {
+      "name": "sort_bubble_width_81",
+      "donor_width": 1080,
+      "from": 270,
+      "to": 120
+    },
+    {
+      "name": "sort_bubble_height_81",
+      "donor_width": 1080,
+      "from": 133,
+      "to": 59
+    },
+    {
+      "name": "name_off_set_y_16",
+      "donor_width": 1080,
+      "from": -100,
+      "to": -44
+    },
+    {
+      "name": "page_title_shadow_width_16",
+      "donor_width": 1080,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "flag_message_number_width_16",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "flag_message_number_height_16",
+      "donor_width": 1080,
+      "from": 25,
+      "to": 11
+    },
+    {
+      "name": "multi_select_distance_16",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "calendar_down_distance_16",
+      "donor_width": 1080,
+      "from": 170,
+      "to": 76
+    },
+    {
+      "name": "calendar_right_distance_16",
+      "donor_width": 1080,
+      "from": 24,
+      "to": 11
+    },
+    {
+      "name": "weather_number000_w_16",
+      "donor_width": 1080,
+      "from": 56,
+      "to": 25
+    },
+    {
+      "name": "weather_number000_offsetx_16",
+      "donor_width": 1080,
+      "from": 109,
+      "to": 48
+    },
+    {
+      "name": "weather_number000_offsety_16",
+      "donor_width": 1080,
+      "from": 62,
+      "to": 28
+    },
+    {
+      "name": "weather_temp000_offsetx_16",
+      "donor_width": 1080,
+      "from": 159,
+      "to": 71
+    },
+    {
+      "name": "weather_temp000_offsety_16",
+      "donor_width": 1080,
+      "from": 61,
+      "to": 27
+    },
+    {
+      "name": "weather_cover_margin_top_16",
+      "donor_width": 1080,
+      "from": 47,
+      "to": 21
+    },
+    {
+      "name": "dock_ignore_touch_height_16",
+      "donor_width": 1080,
+      "from": 30,
+      "to": 13
+    },
+    {
+      "name": "magnify_stencil_radius_16",
+      "donor_width": 1080,
+      "from": 51,
+      "to": 23
+    },
+    {
+      "name": "magnify_x_offset_16",
+      "donor_width": 1080,
+      "from": -12,
+      "to": -5
+    },
+    {
+      "name": "magnify_y_offset_16",
+      "donor_width": 1080,
+      "from": 26,
+      "to": 12
+    },
+    {
+      "name": "name_off_set_y_64",
+      "donor_width": 1080,
+      "from": -100,
+      "to": -44
+    },
+    {
+      "name": "page_title_shadow_width_64",
+      "donor_width": 1080,
+      "from": 558,
+      "to": 248
+    },
+    {
+      "name": "page_title_shadow_height_64",
+      "donor_width": 1080,
+      "from": 156,
+      "to": 69
+    },
+    {
+      "name": "flag_message_textsize_64",
+      "donor_width": 1080,
+      "from": 32,
+      "to": 14
+    },
+    {
+      "name": "flag_message_ignoresize_64",
+      "donor_width": 1080,
+      "from": 16,
+      "to": 7
+    },
+    {
+      "name": "flag_message_text_offsetx_64",
+      "donor_width": 1080,
+      "from": 3,
+      "to": 1
+    },
+    {
+      "name": "flag_message_number_width_64",
+      "donor_width": 1080,
+      "from": 18,
+      "to": 8
+    },
+    {
+      "name": "flag_message_number_height_64",
+      "donor_width": 1080,
+      "from": 25,
+      "to": 11
+    },
+    {
+      "name": "multi_select_distance_64",
+      "donor_width": 1080,
+      "from": 6,
+      "to": 3
+    },
+    {
+      "name": "magnify_stencil_radius_64",
+      "donor_width": 1080,
+      "from": 50,
+      "to": 22
+    },
+    {
+      "name": "magnify_x_offset_64",
+      "donor_width": 1080,
+      "from": -12,
+      "to": -5
+    },
+    {
+      "name": "magnify_y_offset_64",
+      "donor_width": 1080,
+      "from": 16,
+      "to": 7
+    },
+    {
+      "name": "sort_bubble_width_64",
+      "donor_width": 1080,
+      "from": 270,
+      "to": 120
+    },
+    {
+      "name": "sort_bubble_height_64",
+      "donor_width": 1080,
+      "from": 133,
+      "to": 59
+    }
+  ]
+}

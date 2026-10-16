@@ -1,0 +1,12 @@
+{
+  "tag": "v2.0-hd2-alpha1",
+  "assets": [
+    {
+      "name": "hd2-smartisan-2.0-alpha1-SD.zip",
+      "bytes": 859101976,
+      "sha256": "9d9e3a18466a373189551b10e5bda0eb3660e8c7326e639fbe5f0f411490969a"
+    }
+  ],
+  "experimental": true,
+  "date": "2026-10-17"
+}

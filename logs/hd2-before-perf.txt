@@ -1,0 +1,99 @@
+60
+0
+nr_free_pages 4451
+nr_inactive_anon 23205
+nr_active_anon 21050
+nr_inactive_file 17526
+nr_active_file 16373
+nr_unevictable 503
+nr_mlock 0
+nr_anon_pages 44394
+nr_mapped 13972
+nr_file_pages 34582
+nr_dirty 10
+nr_writeback 0
+nr_slab_reclaimable 1039
+nr_slab_unreclaimable 2229
+nr_page_table_pages 1529
+nr_kernel_stack 477
+nr_unstable 0
+nr_bounce 0
+nr_vmscan_write 68
+nr_writeback_temp 0
+nr_isolated_anon 0
+nr_isolated_file 0
+nr_shmem 180
+pgpgin 7157191
+pgpgout 1460257
+pswpin 0
+pswpout 0
+pgalloc_normal 3315981
+pgalloc_high 2478158
+pgalloc_movable 0
+pgfree 5798761
+pgactivate 239668
+pgdeactivate 317297
+pgfault 5204619
+pgmajfault 8129
+pgrefill_normal 90868
+pgrefill_high 230271
+pgrefill_movable 0
+pgsteal_normal 883657
+pgsteal_high 1128851
+pgsteal_movable 0
+pgscan_kswapd_normal 636234
+pgscan_kswapd_high 789802
+pgscan_kswapd_movable 0
+pgscan_direct_normal 277342
+pgscan_direct_high 415648
+pgscan_direct_movable 0
+pginodesteal 24903
+slabs_scanned 1127168
+kswapd_steal 1358511
+kswapd_inodesteal 18241
+pageoutrun 18505
+allocstall 9417
+pgrotated 15
+unevictable_pgs_culled 504
+unevictable_pgs_scanned 0
+unevictable_pgs_rescued 0
+unevictable_pgs_mlocked 0
+unevictable_pgs_munlocked 0
+unevictable_pgs_cleared 0
+unevictable_pgs_stranded 0
+unevictable_pgs_mlockfreed 0
+<6>[ 2586.295623] msmfb: pan_update in state(3)
+<3>[ 2586.731842] msm_i2c msm_i2c.0: error, status 43c8 (5C)
+<3>[ 2586.733642] msm_i2c msm_i2c.0: Error during data xfer (-5) (5C)
+<3>[ 2586.733734] msm_i2c msm_i2c.0: error, status c8 (34)
+<3>[ 2586.733795] msm_i2c msm_i2c.0: Error during data xfer (-5) (34)
+<6>[ 2586.734893] [R] late_resume end
+<4>[ 2611.927062] [D:BATT] V=4191(6b6) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2662.148712] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2712.203796] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2762.233703] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<4>[ 2812.271972] [D:BATT] V=4189(6b5) I=0(ffffffff) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2855.319213] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2855.349212] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<4>[ 2862.528869] [D:BATT] V=4189(6b5) I=0(0) C=1233.0/1230(111e) id=4(b0) T=340(dc) KADC=1000
+<3>[ 2891.332519] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2891.362518] (loop7) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2891.393768] (app_process.hd2) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<3>[ 2891.423767] (app_process.hd2) bdi_queue_work: wake up flush-7:7 FAIL, retries 4
+<3>[ 2891.571411] (loop7) bdi_queue_work: wake up flush-179:0 FAIL, retries 4
+<6>[ 2898.617889] pcm_out: open
+<6>[ 2898.618255] dal_attach: status = 0, name = 'DAL_AQ_AUD'
+<4>[ 2898.618774] audio_update_acdb (17306899, 607)
+<4>[ 2898.618804] table
+<6>[ 2898.618804] acdb: 588 bytes for device 607, rate 48000.
+<4>[ 2898.618865] res1 = 588
+<4>[ 2898.618865] res2 = 588
+<4>[ 2898.618896] call audio_set_table
+<4>[ 2898.648742] audio_out_open: 1000 44100 2
+<6>[ 2898.718444] open done!
+<6>[ 2898.718475] Audio: htcleo_speaker_enable 1
+<6>[ 2901.942993] Audio: htcleo_speaker_enable 0
+<4>[ 2901.944061] audio_cb: s=2 e=01075c54 status=20
+<3>[ 2901.951416] buffer status 43
+<6>[ 2901.959136] pcm_out: release
+<3>[ 2901.976470] audio callback: unknown session 2

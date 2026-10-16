@@ -1,0 +1,14 @@
+{
+  "problem": "Lipstick SIGSEGV when Wayland client requests server-side buffer",
+  "pc": "gralloc.qsd8k.so + 0x1520",
+  "caller": "libhybris-eglplatformcommon.so.1.0.0 + 0x5f72",
+  "bad_argument": "buffer width 234 passed as native_handle pointer to gralloc_free",
+  "fix": "At 0x5f62 ldr ip,[r0,#68] becomes ldr ip,[r0,#64]",
+  "evidence": "logs/sailfish-first-boot/lipstick-lock-crash-gdb.txt",
+  "phone_installed": true,
+  "runtime_verified": true,
+  "sim_wait_note": "Initial spinner was transient; no SIM/lock bypass changes applied",
+  "runtime_evidence": "logs/sailfish-first-boot/sailfish-swipe-test-0.png",
+  "process_before_after": 2424,
+  "physical_swipe_retest_pending": true
+}

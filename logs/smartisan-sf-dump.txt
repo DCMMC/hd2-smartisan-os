@@ -1,0 +1,67 @@
+Build configuration: [sf] [libui] [libgui]
+Sync configuration: [using: EGL_KHR_fence_sync]
+Visible layers (count = 1)
++ Layer 0x2a04f2f8 (BootAnimation)
+  Region transparentRegion (this=0x2a04f4a0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a04f300, count=1)
+    [  0,   0, 480, 800]
+      layerStack=   0, z=1073741824, pos=(0,0), size=( 480, 800), crop=(   0,   0,  -1,  -1), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a065da8
+      format= 4, activeBuffer=[ 480x 800: 480,  2], queued-frames=1, mRefreshPending=0
+            mTexName=2 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=4, transform-hint=00, FIFO(1)={02:0x2a067110 crop=[0,0,0,0], xform=0x00, time=0xa9a492aeab, scale=FREEZE
+}
+             [00:0x2a04f278] state=DEQUEUED, 0x2a066960 [ 480x 800: 480,  2]
+            >[01:0x2a0669d0] state=ACQUIRED, 0x2a066a80 [ 480x 800: 480,  2]
+             [02:0x2a067110] state=QUEUED  , 0x2a066ee8 [ 480x 800: 480,  2]
+Displays (1 entries)
++ DisplayDevice: Built-in Screen
+   type=0, hwcId=0, layerStack=0, ( 480x 800), ANativeWindow=0x2a03cdc0, orient= 0 (type=00000000), flips=709, isSecure=1, secureVis=0, acquired=1, numLayers=1
+   v:[0,0,480,800], f:[0,0,480,800], s:[0,0,480,800],transform:[[1.000,0.000,0.000][0.000,1.000,0.000][0.000,0.000,1.000]]
+mAbandoned=0
+-BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=2, transform-hint=00, FIFO(0)={}
+ [00:0x2a03e158] state=DEQUEUED, 0x2a03e270 [ 480x 800: 480,  2]
+>[01:0x2a065c60] state=ACQUIRED, 0x2a065cf8 [ 480x 800: 480,  2]
+ [02:0x0] state=DEQUEUED
+SurfaceFlinger global state:
+EGL implementation : 1.4
+EGL_QUALCOMM_shared_image EGL_KHR_image EGL_KHR_image_base EGL_AMD_create_image EGL_KHR_lock_surface EGL_KHR_lock_surface2 EGL_KHR_fence_sync EGL_IMG_context_priority EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_renderbuffer_image EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+GLES: Qualcomm, Adreno (TM) 200, OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+  Region undefinedRegion (this=0x2a03cbd4, count=1)
+    [  0,   0,   0,   0]
+  orientation=0, canDraw=1
+  last eglSwapBuffers() time: 17028.808000 us
+  last transaction time     : 30.517000 us
+  transaction-flags         : 00000000
+  refresh-rate              : 60.000002 fps
+  x-dpi                     : 254.000000
+  y-dpi                     : 254.000000
+  EGL_NATIVE_VISUAL_ID      : 2
+  gpu_to_cpu_unsupported    : 0
+  eglSwapBuffers time: 16510.010000 us
+  transaction time: 0.000000 us
+VSYNC state: disabled
+  soft-vsync: disabled
+  numListeners=1,
+  events-delivered: 0
+    0x2a066fc0: count=-1
+h/w composer state:
+  h/w composer present and enabled
+Hardware Composer state (version  1000000):
+  mDebugForceFakeVSync=0
+  Display[0] : 480x800, xdpi=254.000000, ydpi=254.000000, refresh=16666666
+  numHwLayers=1, flags=00000000
+    type    |  handle  |   hints  |   flags  | tr | blend |  format  |          source crop            |           frame           name 
+------------+----------+----------+----------+----+-------+----------+---------------------------------+--------------------------------
+    FB_BLIT | 2a066a80 | 00000000 | 00000000 | 00 | 00100 | 00000002 | [      0,      0,    480,    800] | [    0,    0,  480,  800] BootAnimation
+Allocated buffers:
+0x2a03e270: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a065cf8: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a066960: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a066a80: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a066ee8: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+Total allocated (estimate): 7500.00 KB

@@ -1,0 +1,1347 @@
+--------- beginning of /dev/log/system
+05-20 00:00:04.968  5522  5845 W WindowManager: Failed looking up window
+05-20 00:00:04.968  5522  5845 W WindowManager: java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@41e7cbb0 does not exist
+05-20 00:00:04.968  5522  5845 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8417)
+05-20 00:00:04.968  5522  5845 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8408)
+05-20 00:00:04.968  5522  5845 W WindowManager: 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1095)
+05-20 00:00:04.968  5522  5845 W WindowManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+05-20 00:00:04.968  5522  5845 W WindowManager: 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:00:04.968  5522  5845 I WindowState: WIN DEATH: null
+05-20 00:00:04.968  5522  5822 I WindowState: WIN DEATH: Window{41ca5bc0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:04.968  5522  5846 I WindowState: WIN DEATH: Window{41ce5fe0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:04.968  5522  5846 W WindowManager: Force-removing child win Window{41cee4e0 u0 SurfaceView} from container Window{41ce5fe0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:04.998  5522  5847 W WindowManager: Failed looking up window
+05-20 00:00:04.998  5522  5847 W WindowManager: java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@41f058f0 does not exist
+05-20 00:00:04.998  5522  5847 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8417)
+05-20 00:00:04.998  5522  5847 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8408)
+05-20 00:00:04.998  5522  5847 W WindowManager: 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1095)
+05-20 00:00:04.998  5522  5847 W WindowManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+05-20 00:00:04.998  5522  5847 W WindowManager: 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:00:04.998  5522  5847 I WindowState: WIN DEATH: null
+05-20 00:00:05.028  5522  5618 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c2da58
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: FATAL EXCEPTION: Thread-65
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: Process: com.android.incallui, PID: 6080
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: java.lang.SecurityException: Neither user 10008 nor current process has android.permission.READ_PROFILE.
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:1465)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:185)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:137)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:413)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.content.ContentResolver.query(ContentResolver.java:461)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at android.content.ContentResolver.query(ContentResolver.java:404)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at com.android.incallui.dw.l(ProfileUtils.java:57)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at com.android.incallui.ez.run(InCallApp.java:191)
+05-20 00:00:09.838  6080  6095 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:841)
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: Error reporting crash
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: android.os.DeadObjectException
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: 	at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:3770)
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:00:09.868  6080  6095 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: FATAL EXCEPTION: ContactsProviderWorker
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: Process: android.process.acore, PID: 5906
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: java.lang.RuntimeException: android.os.DeadObjectException
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.accounts.AccountManager.getAccounts(AccountManager.java:386)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at com.android.providers.contacts.ContactsProvider2.performBackgroundTask(ContactsProvider2.java:1626)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at com.android.providers.contacts.ContactsProvider2$1.handleMessage(ContactsProvider2.java:1490)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: Caused by: android.os.DeadObjectException
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.accounts.IAccountManager$Stub$Proxy.getAccounts(IAccountManager.java:589)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	at android.accounts.AccountManager.getAccounts(AccountManager.java:383)
+05-20 00:00:09.908  5906  5984 E AndroidRuntime: 	... 5 more
+05-20 00:00:27.228  6530  6530 I SystemServer: Entered the Android system server!
+05-20 00:00:27.238  6530  6530 I SystemServer: Waiting for installd to be ready.
+05-20 00:00:27.238  6530  6530 I Installer: connecting...
+05-20 00:00:27.238  6530  6530 I SystemServer: Power Manager
+05-20 00:00:27.238  6530  6530 I SystemServer: Activity Manager
+05-20 00:00:27.578  6530  6545 I ActivityManager: Memory class: 64
+05-20 00:00:27.618  6530  6545 W UsageStats: Usage stats version changed; dropping
+05-20 00:00:27.638  6530  6545 I AppOps  : No existing app ops config file /system/etc/package_ops_config.xml
+05-20 00:00:27.928  6530  6530 I IntentFirewall: Read new rules (A:0 B:0 S:0)
+05-20 00:00:27.938  6530  6530 I SystemServer: Display Manager
+05-20 00:00:27.948  6530  6530 I SystemServer: Telephony Registry
+05-20 00:00:27.958  6530  6544 I DisplayManagerService: Display device added: DisplayDeviceInfo{"内置屏幕": 480 x 800, 60.000004 fps, density 240, 254.0 x 254.0 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+05-20 00:00:27.958  6530  6530 I SystemServer: Scheduling Policy
+05-20 00:00:27.958  6530  6530 I SystemServer: Package Manager
+05-20 00:00:27.968  6530  6530 W PackageManager: No security bridge jar found, using default
+05-20 00:00:28.368  6530  6530 W PackageManager: Couldn't find or open file /system/etc/install_bl.xml
+05-20 00:00:28.368  6530  6530 D SELinuxMMAC: Couldn't find install policy /data/security/mac_permissions.xml
+05-20 00:00:28.368  6530  6530 D SELinuxMMAC: Using install policy file /system/etc/security/mac_permissions.xml
+05-20 00:00:28.408  6530  6530 W PackageSettings: packages can't be read
+05-20 00:00:28.408  6530  6530 W PackageSettings: Got execption parsing active monitor.
+05-20 00:00:28.408  6530  6530 W PackageSettings: java.io.FileNotFoundException: /system/etc/active_monitor.xml: open failed: ENOENT (No such file or directory)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.pm.Settings.readActiveMonitorList(Settings.java:3616)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.pm.Settings.readLPw(Settings.java:1791)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1311)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:28.408  6530  6530 W PackageSettings: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at libcore.io.Posix.open(Native Method)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:00:28.408  6530  6530 W PackageSettings: 	... 12 more
+05-20 00:00:28.848  6530  6530 W PackageManager: Library not found: /system/framework/com.google.widevine.software.drm.jar
+05-20 00:00:28.858  6530  6530 W PackageManager: Library not found: /system/framework/com.google.android.media.effects.jar
+05-20 00:00:28.858  6530  6530 W PackageManager: Cannot dexopt /system/framework/cneapiclient.jar; is it an APK or JAR? /system/framework/cneapiclient.jar
+05-20 00:00:28.858  6530  6530 W PackageManager: Library not found: /system/framework/com.google.android.maps.jar
+05-20 00:00:28.858  6530  6530 W PackageManager: Library not found: /system/framework/org.cyanogenmod.hardware.jar
+05-20 00:00:28.948  6530  6530 W PackageManager: Exception reading jar: /system/framework/cneapiclient.jar
+05-20 00:00:28.948  6530  6530 W PackageManager: java.io.IOException: /system/framework/cneapiclient.jar
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1411)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:28.948  6530  6530 W PackageManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:29.078  6530  6530 I PackageManager: Replacing default ResolverActivity with custom activity: ComponentInfo{android/com.android.internal.app.ResolverActivity}
+05-20 00:00:30.268  6530  6530 W PackageManager: Skipping provider name com.android.badge (in package com.smartisanos.keyguard): name already used by com.smartisanos.launcher
+05-20 00:00:30.568  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeCyan.apk Binary XML file line #8
+05-20 00:00:30.668  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemePurple.apk Binary XML file line #8
+05-20 00:00:31.098  6530  6530 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #71
+05-20 00:00:31.098  6530  6530 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #73
+05-20 00:00:31.098  6530  6530 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #75
+05-20 00:00:31.308  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeYellow.apk Binary XML file line #8
+05-20 00:00:31.778  6530  6530 I PackageParser: com.qualcomm.qcom_qmi: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:00:31.898  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeThirdApp.apk Binary XML file line #8
+05-20 00:00:32.028  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeGreen.apk Binary XML file line #8
+05-20 00:00:32.448  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeWhite.apk Binary XML file line #8
+05-20 00:00:32.488  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeDefault.apk Binary XML file line #8
+05-20 00:00:32.578  6530  6530 I PackageParser: com.qualcomm.interfacepermissions: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:00:32.708  6530  6530 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeOrange.apk Binary XML file line #8
+05-20 00:00:33.158  6530  6530 I PackageManager: Time to scan packages: 4.306 seconds
+05-20 00:00:33.158  6530  6530 W PackageManager: Removing dangling permission: com.tmobile.permission.ACCESS_DRM_THEME from package null
+05-20 00:00:33.158  6530  6530 W PackageManager: Removing dangling permission: com.qualcomm.permission.READ_DHCP_INFO from package null
+05-20 00:00:33.158  6530  6530 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x8be45)
+05-20 00:00:33.158  6530  6530 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:00:33.158  6530  6530 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:00:33.158  6530  6530 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:00:33.158  6530  6530 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:00:33.168  6530  6530 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:00:33.168  6530  6530 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:00:33.178  6530  6530 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:00:33.188  6530  6530 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:00:33.198  6530  6530 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:00:33.198  6530  6530 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:00:33.198  6530  6530 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:00:33.208  6530  6530 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:00:33.208  6530  6530 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:00:33.218  6530  6530 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:00:33.218  6530  6530 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:00:33.228  6530  6530 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:00:33.228  6530  6530 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:00:33.228  6530  6530 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:00:33.228  6530  6530 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:00:33.238  6530  6530 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:00:33.238  6530  6530 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:00:33.248  6530  6530 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:00:33.508  6530  6530 I SystemServer: Entropy Mixer
+05-20 00:00:33.518  6530  6530 I EntropyMixer: Writing entropy...
+05-20 00:00:33.538  6530  6530 I SystemServer: User Service
+05-20 00:00:33.538  6530  6530 I SystemServer: Account Manager
+05-20 00:00:33.558  6530  6530 I SystemServer: Content Manager
+05-20 00:00:33.558  6530  6530 I SystemServer: System Content Providers
+05-20 00:00:33.598  6530  6530 I SystemServer: Lights Service
+05-20 00:00:33.608  6530  6530 I SystemServer: Battery Service
+05-20 00:00:33.618  6530  6530 I SystemServer: Vibrator Service
+05-20 00:00:33.628  6530  6530 I SystemServer: Consumer IR Service
+05-20 00:00:33.648  6530  6530 I SystemServer: Alarm Manager
+05-20 00:00:33.648  6530  6530 E AlarmManager: Error reading History Heartbeat statistics
+05-20 00:00:33.648  6530  6530 E AlarmManager: java.io.FileNotFoundException: /data/system/heartbeatstats.bin: open failed: ENOENT (No such file or directory)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.readFromFile(AlarmManagerService.java:2694)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.init(AlarmManagerService.java:2873)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.server.AlarmManagerService.<init>(AlarmManagerService.java:649)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:320)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:33.648  6530  6530 E AlarmManager: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at libcore.io.Posix.open(Native Method)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:00:33.648  6530  6530 E AlarmManager: 	... 12 more
+05-20 00:00:33.668  6530  6530 I SystemServer: Init Watchdog
+05-20 00:00:33.668  6530  6530 I SystemServer: Input Manager
+05-20 00:00:33.668  6530  6530 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+05-20 00:00:33.668  6530  6530 I SystemServer: Window Manager
+05-20 00:00:33.678  6530  6544 I WindowManager: No existing display settings /data/system/display_settings.xml; starting empty
+05-20 00:00:33.738  6530  6626 I WindowManager: <1400544033743> :  screenTurningOn null
+05-20 00:00:33.738  6530  6626 I WindowManager: No keyguard interface!
+05-20 00:00:33.738  6530  6626 I WindowManager: <1400544033743~1400544033744> :  finishScreenTurningOn null
+05-20 00:00:33.748  6530  6530 I InputManager: Starting input manager
+05-20 00:00:33.758  6530  6530 I SystemServer: Bluetooth Manager Service
+05-20 00:00:33.768  6530  6530 I SystemServer: Input Method Service
+05-20 00:00:33.798  6530  6530 W InputMethodManagerService: Couldn't create dir.: /data/system/inputmethod
+05-20 00:00:33.908  6530  6530 I SystemServer: Accessibility Manager
+05-20 00:00:33.918  6530  6530 W ActivityManager: Unable to write /sys/module/lowmemorykiller/parameters/minfree
+05-20 00:00:33.918  6530  6530 I ActivityManager: Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h533dp 240dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:00:33.948  6530  6530 I ActivityManager: Config changes=408 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:00:33.958  6530  6530 I SystemServer: Mount Service
+05-20 00:00:33.958  6530  6530 D MountService: got storage path: /storage/sdcard0 description: 内存设备 primary: true removable: false emulated: true mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+05-20 00:00:33.958  6530  6530 D MountService: addVolumeLocked() StorageVolume:
+05-20 00:00:33.958  6530  6530 D MountService:     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040761 
+05-20 00:00:33.958  6530  6530 D MountService:     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=0 
+05-20 00:00:33.958  6530  6530 D MountService:     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+05-20 00:00:33.958  6530  6530 D MountService:     mUserLabel=null mState=null 
+05-20 00:00:33.968  6530  6530 I SystemServer: LockSettingsService
+05-20 00:00:33.978  6530  6530 I SystemServer: Device Policy
+05-20 00:00:33.988  6530  6530 I SystemServer: Status Bar
+05-20 00:00:33.988  6530  6530 I SystemServer: Clipboard Service
+05-20 00:00:33.998  6530  6530 W ClipboardService: No security bridge jar found, using default
+05-20 00:00:33.998  6530  6530 I SystemServer: NetworkManagement Service
+05-20 00:00:34.008  6530  6530 D NetworkManagementService: Creating NetworkManagementService
+05-20 00:00:34.018  6530  6530 D NetworkManagementService: Awaiting socket connection
+05-20 00:00:34.018  6530  6530 D NetworkManagementService: Connected
+05-20 00:00:34.018  6530  6530 I SystemServer: Text Service Manager Service
+05-20 00:00:34.018  6530  6649 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x88be45)
+05-20 00:00:34.018  6530  6649 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:00:34.018  6530  6649 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:00:34.018  6530  6649 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:00:34.018  6530  6649 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:00:34.028  6530  6649 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:00:34.028  6530  6649 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:00:34.038  6530  6649 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:00:34.038  6530  6649 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:00:34.038  6530  6649 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:00:34.038  6530  6649 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:00:34.038  6530  6649 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:00:34.038  6530  6649 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:00:34.038  6530  6649 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:00:34.048  6530  6649 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:00:34.048  6530  6649 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:00:34.048  6530  6649 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:00:34.058  6530  6649 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:00:34.058  6530  6649 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:00:34.058  6530  6649 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:00:34.058  6530  6649 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:00:34.058  6530  6649 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:00:34.558  6530  6530 I SystemServer: NetworkStats Service
+05-20 00:00:34.558  6530  6530 I SystemServer: NetworkPolicy Service
+05-20 00:00:34.568  6530  6530 I SystemServer: Wi-Fi P2pService
+05-20 00:00:34.638  6530  6530 I SystemServer: Wi-Fi Service
+05-20 00:00:34.768  6530  6530 I SystemServer: Connectivity Service
+05-20 00:00:34.768  6530  6530 D ConnectivityService: wifiOnly=false
+05-20 00:00:34.818  6530  6530 E MobileDataStateTracker: default: Ignoring feature request because could not acquire PhoneService
+05-20 00:00:34.818  6530  6530 E MobileDataStateTracker: default: Could not enable APN type "default"
+05-20 00:00:34.828  6530  6530 I WifiService: WifiService starting up with Wi-Fi enabled
+05-20 00:00:34.828  6530  6530 I WifiService: setWifiEnabled: true pid=6530, uid=1000
+05-20 00:00:34.858  6530  6530 I SystemServer: Network Service Discovery Service
+05-20 00:00:34.858  6530  6530 D NsdService: Network service discovery enabled true
+05-20 00:00:34.868  6530  6530 I SystemServer: UpdateLock Service
+05-20 00:00:34.948  6530  6530 I SystemServer: Notification Manager
+05-20 00:00:34.968  6190  6506 D NetlinkEvent: Unexpected netlink message. type=0x11
+05-20 00:00:34.968  6530  6530 I SystemServer: Device Storage Monitor
+05-20 00:00:34.978  6530  6530 I SystemServer: Location Manager
+05-20 00:00:34.988  6530  6530 I SystemServer: Country Detector
+05-20 00:00:34.988  6530  6530 I SystemServer: Search Service
+05-20 00:00:34.998  6530  6530 I SystemServer: DropBox Service
+05-20 00:00:34.998  6530  6530 I SystemServer: Wallpaper Service
+05-20 00:00:35.018  6530  6530 I SystemServer: Audio Service
+05-20 00:00:35.128  6530  6530 I SystemServer: Dock Observer
+05-20 00:00:35.128  6530  6530 W DockObserver: This kernel does not have dock station support
+05-20 00:00:35.128  6530  6530 I SystemServer: Wired Accessory Manager
+05-20 00:00:35.128  6530  6530 W WiredAccessoryManager: This kernel does not have usb audio support
+05-20 00:00:35.128  6530  6530 W WiredAccessoryManager: This kernel does not have HDMI audio support
+05-20 00:00:35.138  6530  6530 I SystemServer: USB Service
+05-20 00:00:35.138  6530  6530 I SystemServer: Serial Service
+05-20 00:00:35.138  6530  6530 I SystemServer: Twilight Service
+05-20 00:00:35.148  6530  6530 I SystemServer: UI Mode Manager Service
+05-20 00:00:35.148  6530  6530 I SystemServer: Backup Service
+05-20 00:00:35.158  6530  6530 V BackupManagerService: Initializing package tracking
+05-20 00:00:35.158  6530  6530 V BackupManagerService: No ancestral data
+05-20 00:00:35.168  6530  6530 V BackupManagerService: addPackageParticipantsLocked: all
+05-20 00:00:35.168  6530  6530 I BackupManagerService: Scheduling backup for new app com.android.calendar
+05-20 00:00:35.168  6530  6530 D BackupManagerService: Now staging backup of com.android.calendar
+05-20 00:00:35.188  6530  6530 I BackupManagerService: Scheduling backup for new app com.android.browser
+05-20 00:00:35.188  6530  6530 D BackupManagerService: Now staging backup of com.android.browser
+05-20 00:00:35.198  6530  6530 I BackupManagerService: Scheduling backup for new app com.android.sharedstoragebackup
+05-20 00:00:35.198  6530  6530 D BackupManagerService: Now staging backup of com.android.sharedstoragebackup
+05-20 00:00:35.198  6530  6530 I BackupManagerService: Scheduling backup for new app com.android.providers.settings
+05-20 00:00:35.208  6530  6530 D BackupManagerService: Now staging backup of com.android.providers.settings
+05-20 00:00:35.208  6530  6530 I BackupManagerService: Scheduling backup for new app com.android.providers.userdictionary
+05-20 00:00:35.208  6530  6530 D BackupManagerService: Now staging backup of com.android.providers.userdictionary
+05-20 00:00:35.218  6530  6530 I BackupManagerService: Scheduling backup for new app android
+05-20 00:00:35.218  6530  6530 D BackupManagerService: Now staging backup of android
+05-20 00:00:35.258  6530  6530 V BackupManagerService: Starting with transport android/com.android.internal.backup.LocalTransport
+05-20 00:00:35.258  6530  6530 V BackupManagerService: Found transports: 1
+05-20 00:00:35.258  6530  6530 I BackupManagerService: Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:00:35.268  6530  6530 I BackupManagerService: Found stale backup journal, scheduling
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   com.android.calendar
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   com.android.browser
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   com.android.sharedstoragebackup
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   com.android.providers.settings
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   com.android.providers.userdictionary
+05-20 00:00:35.268  6530  6530 I BackupManagerService:   android
+05-20 00:00:35.278  6530  6530 I BackupManagerService: Backup enabled => false
+05-20 00:00:35.278  6530  6530 I BackupManagerService: Opting out of backup
+05-20 00:00:35.278  6530  6530 I SystemServer: AppWidget Service
+05-20 00:00:35.288  6530  6530 I SystemServer: Recognition Service
+05-20 00:00:35.288  6530  6530 I SystemServer: DiskStats Service
+05-20 00:00:35.288  6530  6530 I SystemServer: SamplingProfiler Service
+05-20 00:00:35.298  6530  6530 I SystemServer: NetworkTimeUpdateService
+05-20 00:00:35.298  6530  6530 I SystemServer: CommonTimeManagementService
+05-20 00:00:35.298  6530  6530 I SystemServer: CertBlacklister
+05-20 00:00:35.298  6530  6530 I SystemServer: Dreams Service
+05-20 00:00:35.308  6530  6530 I SystemServer: Assets Atlas Service
+05-20 00:00:35.308  6530  6530 I SystemServer: IdleMaintenanceService
+05-20 00:00:35.318  6530  6530 I SystemServer: IconManagerService
+05-20 00:00:35.328  6530  6530 I SystemServer: Print Service
+05-20 00:00:35.348  6530  6530 I SystemServer: Media Router Service
+05-20 00:00:35.348  6530  6530 I SystemServer: AssetRedirectionManager Service
+05-20 00:00:35.548  6530  6530 I ActivityManager: Start proc com.smartisanos.keyguard for service com.smartisanos.keyguard/.KeyguardService: pid=6671 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:00:35.558  6530  6530 V WindowManager.STA: sEEnterTXY =Cubic.INOUT, sEExitTXY =Cubic.INOUT, sEEnterTZ =Cubic.INOUT, sEExitTZ =Cubic.INOUT, sEEnterRotate =Cubic.INOUT, sEExitRotate =Cubic.INOUT
+05-20 00:00:35.558  6530  6530 I WindowManager.STA: left=-0.28125, right=0.28125, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=1920, mScreenWidth=1080, far=38400.0, near=1.0
+05-20 00:00:35.658  6530  6530 I AppOps  : Pruning old package media/1013: new uid=-1
+05-20 00:00:35.668  6530  6530 I ActivityManager: System now ready
+05-20 00:00:35.688  6530  6530 I SystemServer: Making services ready
+05-20 00:00:35.738  6530  6530 I ActivityManager: Start proc com.smartisanos.systemui for service com.smartisanos.systemui/.SystemUIService: pid=6686 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:00:35.738  6530  6530 D NetworkManagementService: enabling bandwidth control
+05-20 00:00:35.768  6530  6647 W MountService: Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+05-20 00:00:36.418  6530  6530 E NetdConnector: NDC Command {1 bandwidth enable} took too long (681ms)
+05-20 00:00:36.568  6530  6530 D NetworkManagementService: Prepared
+05-20 00:00:36.748  6530  6530 W NetworkStats: problem registering for global alert: java.lang.IllegalStateException: command '4 bandwidth setglobalalert 2097152' failed with '400 4 Bandwidth command failed'
+05-20 00:00:36.948  6530  6530 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:00:37.048  6530  6530 W InputMethodManagerService: Ignoring setImeWindowStatus of uid 1000 token: null
+05-20 00:00:37.118  6671  6671 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:00:37.158  6530  6540 I ActivityManager: Start proc com.smartisanos.music:main for service com.smartisanos.music/.service.SmartisanMusicService: pid=6746 uid=10039 gids={50039, 3003, 1028, 1015}
+05-20 00:00:37.158  6671  6671 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:00:37.328  6530  6541 I ActivityManager: Start proc com.smartisanos.phone_number_assistant for service com.smartisanos.phone_number_assistant/.NumberService: pid=6758 uid=10005 gids={50005, 1028, 1015, 3003, 1007}
+05-20 00:00:37.388  6530  6662 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41ae2178
+05-20 00:00:37.408  6530  6530 I ActivityManager: Start proc com.cootek.smartinputv5.smartisan for service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalIME: pid=6768 uid=10038 gids={50038, 1028, 1015, 3003}
+05-20 00:00:37.408  6530  6530 V InputMethodManagerService: Adding window token: android.os.Binder@41cd4488
+05-20 00:00:37.558  6530  6530 I ActivityManager: Start proc com.amap.android.location for service com.amap.android.location/.NetworkLocationService: pid=6782 uid=10025 gids={50025, 3003, 1028, 1015}
+05-20 00:00:37.708  6530  6530 E LocationManagerService: No FusedProvider found.
+05-20 00:00:37.728  6530  6530 E LocationManagerService: no geofence provider found
+05-20 00:00:37.778  6530  6545 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.tracker.TrackerReceiver: pid=6802 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:00:37.938  6530  6530 I ActivityManager: Start proc com.android.phone for added application com.android.phone: pid=6812 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:00:38.018  6530  6530 I ActivityManager: Start proc com.smartisanos.voice for added application com.smartisanos.voice: pid=6820 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:00:38.178  6530  6530 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:00:38.248  6530  6530 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=6834 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:00:38.768  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:00:38.828  6530  6530 I WindowManager: <1400544038833> :  screenTurningOn com.android.server.power.Notifier$2@41cba428
+05-20 00:00:38.828  6530  6530 W KeyguardServiceDelegate: onScreenTurnedOn(): no keyguard service!
+05-20 00:00:38.828  6530  6530 I WindowManager: No lock screen! windowToken=null
+05-20 00:00:38.838  6530  6530 I WindowManager: <1400544038833~1400544038838> :  finishScreenTurningOn com.android.server.power.Notifier$2@41cba428
+05-20 00:00:38.838  6530  6530 I WindowManager: <1400544038841> : ScreenOnListener Notified Screen On State
+05-20 00:00:39.558  6530  6731 I ActivityManager: Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=6865 uid=10011 gids={50011, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+05-20 00:00:40.768  6530  6544 W WindowManager: Window freeze timeout expired.
+05-20 00:00:40.768  6530  6544 W WindowManager: Force clearing orientation change: Window{41cac358 u0 KeyguardScrim}
+05-20 00:00:40.942  6530  6545 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d31fe0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41b3bfc0, started 2007ms ago
+05-20 00:00:40.942  6530  6545 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41bb10d8 u0 ReceiverList{41b3c168 6530 system/1000/u0 local:41b3bfc0}}
+05-20 00:00:41.678  6530  6900 W ProcessCpuTracker: Read interrupted because of timeout
+05-20 00:00:42.788  6671  6671 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:00:42.798  6671  6671 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:00:42.948  6530  6545 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d31fe0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c58248, started 2002ms ago
+05-20 00:00:42.948  6530  6545 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c58460 u0 ReceiverList{41c58400 6530 system/1000/u0 local:41c58248}}
+05-20 00:00:43.438  6530  6540 I ActivityManager: Start proc com.smartisanos.weather for content provider com.smartisanos.weather/.provider.WeatherProvider: pid=6914 uid=10046 gids={50046, 3003}
+05-20 00:00:43.508  6671  6685 D TAG     : disable what:0
+05-20 00:00:43.518  6530  6731 D StatusBarManagerService: disableInternal
+05-20 00:00:43.518  6530  6731 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41ca7490
+05-20 00:00:44.848  6671  6685 D TAG     : disable what:0
+05-20 00:00:44.848  6530  6856 D StatusBarManagerService: disableInternal
+05-20 00:00:44.848  6530  6856 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41ca7490
+05-20 00:00:44.958  6530  6545 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d31fe0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c3b330, started 2010ms ago
+05-20 00:00:44.958  6530  6545 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c3b848 u0 ReceiverList{41c3b7e8 6530 system/1000/u0 local:41c3b330}}
+05-20 00:00:45.668  6530  6861 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:45.988  6530  6662 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:45.998  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:00:46.008  6530  6530 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:00:46.018  6530  6530 D NotificationService: onReceive:android.intent.action.USER_SWITCHED
+05-20 00:00:46.018  6530  6541 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:46.078  6530  6540 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:00:46.928  6530  6546 I ActivityManager: Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=6946 uid=10031 gids={50031}
+05-20 00:00:46.998  6686  6686 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:00:47.068  6530  6545 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d31fe0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c57270, started 2111ms ago
+05-20 00:00:47.068  6190  6962 W SocketClient: write error (Broken pipe)
+05-20 00:00:47.068  6530  6545 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c574c8 u0 ReceiverList{41c57428 6530 system/1000/u0 local:41c57270}}
+05-20 00:00:47.298  6686  6963 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:00:47.358  6530  6530 V BackupManagerService: Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:00:47.358  6530  6530 V BackupManagerService: Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41d32ba8
+05-20 00:00:47.408  6530  6811 I ActivityManager: Start proc com.smartisanos.systemui:screenshot for service com.smartisanos.systemui/.screenshot.TakeScreenshotService: pid=6969 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:00:47.558  6530  6530 W PowerManagerNotifier: policy turn screen on toooo slowly!
+05-20 00:00:47.608  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:00:47.668  6530  6530 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:00:48.268  6530  6860 I ActivityManager: Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=6992 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 00:00:48.378  6530  6545 V NotificationService: enqueueNotificationInternal: pkg=com.smartisanos.systemui id=1 notification=Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:00:48.428  6530  6530 V NotificationService: Initial score is 0.
+05-20 00:00:48.428  6530  6530 V NotificationService: Final score is 0.
+05-20 00:00:48.428  6530  6530 V NotificationService: Assigned score=0 to Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:00:48.428  6530  6530 E NotificationService: Not posting notification with icon==0: Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+05-20 00:00:48.428  6530  6530 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+05-20 00:00:48.628  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:00:48.838  6686  6686 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+--------- beginning of /dev/log/main
+05-20 00:00:48.848  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [30], status [0], name []
+05-20 00:00:48.848  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [31], status [0], name []
+05-20 00:00:48.848  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [32], status [0], name []
+05-20 00:00:48.858  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [33], status [0], name []
+05-20 00:00:48.858  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [34], status [0], name []
+05-20 00:00:48.858  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [35], status [0], name []
+05-20 00:00:48.858  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [36], status [0], name []
+05-20 00:00:48.898  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:48.908  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [37], status [0], name []
+05-20 00:00:48.908  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:48.918  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [38], status [0], name []
+05-20 00:00:48.918  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [39], status [0], name []
+05-20 00:00:48.938  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [40], status [0], name []
+05-20 00:00:48.948  6834  6966 E NewLauncher: PageDB->dump : 149 dump page table done  ###################################################
+05-20 00:00:49.018  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023aa0 successful
+05-20 00:00:49.018  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023cb0 successful
+05-20 00:00:49.018  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023df0 successful
+05-20 00:00:49.018  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023f18 successful
+05-20 00:00:49.088  6834  6966 E NewLauncher: DatabaseHandler->resetIndex : 769 reset index done, data is consecutive, spend [66]
+05-20 00:00:49.088  6834  6966 E NewLauncher: DatabaseHandler->switchLauncherBaseModeIfNeeded : 930 switchLauncherBaseModeIfNeeded newBaseMode [1], oldBaseMode [1]
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023918 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023860 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a028268 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0280b0 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023988 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0240d8 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024568 successful
+05-20 00:00:49.258  6193  7024 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024428 successful
+05-20 00:00:49.318  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:49.508  6834  6834 I Choreographer: Skipped 54 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:49.568  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 325 switch language from [中文 (中国)] to [中文 (中国)]
+05-20 00:00:49.578  6530  6530 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:49.588  6530  6530 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.618  6834  6966 E NewLauncher: IconDB->loadIconToItem : 191 DEBUG : loadIcons total item size 22, isOta = false
+05-20 00:00:49.618  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 82 DEBUG : onSurfaceCreated
+05-20 00:00:49.618  6530  6530 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:49.638  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 88 vender = Qualcomm
+05-20 00:00:49.638  6530  6530 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.638  6530  6530 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:49.648  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 89 render = Adreno (TM) 200
+05-20 00:00:49.658  6530  6530 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.668  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 90 version = OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+05-20 00:00:49.668  6530  6530 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:49.688  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 91 shadingL = OpenGL ES GLSL ES 1.00
+05-20 00:00:49.728  6530  6530 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.728  6530  6530 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:49.738  6530  6544 W WindowManager: Window freeze timeout expired.
+05-20 00:00:49.758  6530  6544 W WindowManager: Force clearing orientation change: Window{41c51278 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:49.758  6530  6544 W WindowManager: Force clearing orientation change: Window{41e57a98 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:00:49.778  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 92 extent = GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+05-20 00:00:49.778  6834  6965 E NewLauncher: World->cleanDataStructureAboutHardwareResource : 178 DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:00:49.788  6834  6965 E NewLauncher: SMRenderer->onSurfaceCreated : 99 DEBUG : GL_THREAD_ID [6965]
+05-20 00:00:49.788  6530  6530 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.788  6530  6530 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:49.808  6530  6530 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.808  6530  6530 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:49.828  6530  6530 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.848  6834  6965 E NewLauncher: SMRenderer->onSurfaceChanged : 53 DEBUG : onSurfaceChanged : false, size = 480 , 800
+05-20 00:00:49.848  6530  6530 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:49.868  6834  6965 E NewLauncher: MainView->create : 899 DEBUG : MainView create : mode is PAGE_1_3X3_MODE, w 480, h 800
+05-20 00:00:49.878  6530  6530 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.878  6530  6530 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:49.928  6530  6530 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.928  6530  6530 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:49.938  6530  6530 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:49.968  6834  6965 E NewLauncher: World->cleanDataStructureAboutHardwareResource : 178 DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:00:49.968  6530  6530 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:49.998  6530  6530 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.008  6530  6530 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:50.048  6530  6530 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.048  6530  6530 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:50.058  6530  6530 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.068  6530  6530 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:50.128  6834  6965 E NewLauncher: Launcher$21->run : 1019 ######## emergency unlock animation play
+05-20 00:00:50.168  6530  6530 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.168  6530  6530 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:50.168  6530  6530 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.178  6530  6530 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:50.198  6530  6530 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:00:50.198  6530  6530 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:50.208  6530  6530 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.208  6530  6530 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:50.378  6834  6966 E NewLauncher: IconDB->loadIconToItem : 249 DEBUG : loadIcons icon table record size 22
+05-20 00:00:50.398  6530  6530 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.408  6530  6530 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:50.428  6530  6530 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.438  6530  6530 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:50.438  6530  6530 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.448  6530  6530 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:50.458  6530  6530 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.458  6530  6530 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:50.468  6530  6530 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.478  6530  6530 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:50.548  6530  6530 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.548  6530  6530 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:50.558  6530  6530 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:00:50.558  6530  6530 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:50.568  6530  6530 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.568  6530  6530 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:50.578  6530  6530 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.588  6530  6530 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:50.598  6812  6812 D TelephonyDebugService: TelephonyDebugService()
+05-20 00:00:50.598  6530  6530 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.598  6530  6530 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:50.618  6686  6686 D SmartisanPhoneStatusBarTransitions: updateStatusBarColor mode:4 res:com.smartisanos.launcher: pkg:com.smartisanos.launcher theme:null
+05-20 00:00:50.618  6530  6530 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.618  6530  6530 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:50.638  6530  6530 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.638  6530  6530 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:50.648  6834  6966 E NewLauncher: IconDB->loadIconToItem : 289 DEBUG : loadIcons ==============> ids size 22
+05-20 00:00:50.648  6530  6530 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.648  6530  6530 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:50.678  6530  6530 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.678  6530  6530 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:50.688  6530  6530 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.688  6530  6530 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:00:50.698  6530  6530 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.708  6530  6530 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:00:50.718  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 335 load page count [3]
+05-20 00:00:50.728  6530  6530 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.728  6530  6530 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:00:50.728  6530  6530 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.748  6530  6530 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:00:50.758  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 337 A140 : data init     time [3564 ms]
+05-20 00:00:50.768  6834  6966 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_INIT_DATA] Done !
+05-20 00:00:50.798  6686  6686 D SmartisanPhoneStatusBarTransitions: getColorByPackageName pkg:com.smartisanos.launcher colorname:status_bar_icon_color id:0 color:-2147483648
+05-20 00:00:50.798  6530  6530 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.798  6530  6530 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:00:50.808  6530  6530 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.808  6530  6530 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:00:50.808  6530  6530 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:50.808  6530  6530 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:00:50.828  6686  6686 D SmartisanPhoneStatusBarTransitions: getColorByPackageName pkg:com.smartisanos.launcher colorname:status_bar_text_color id:0 color:-2147483648
+05-20 00:00:50.838  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:00:50.838  6530  6530 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:51.078  6530  6530 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:00:51.088  6686  6686 D SmartisanPhoneStatusBarTransitions: getColorByPackageName pkg:com.smartisanos.launcher colorname:status_bar_number_color id:0 color:-2147483648
+05-20 00:00:51.088  6969  6969 D GlobalScreenshot: onStartCommand
+05-20 00:00:51.098  6812  6812 D BluetoothPhoneService:  handlePreciseCallStateChange: foreground: IDLE background: IDLE ringing: IDLE
+05-20 00:00:51.108  6969  6969 I StatusBar.NotificationSoundController: tele: false
+05-20 00:00:51.108  6686  6686 D SmartisanPhoneStatusBarTransitions: onTransition mode:0
+05-20 00:00:51.108  6530  6530 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:00:51.118  6812  6812 E BluetoothPhoneService: Could not get a handle on Connection object for the call
+05-20 00:00:51.118  6812  6812 D BluetoothPhoneService: registerForServiceStateChanged
+05-20 00:00:51.118  6812  6812 D BluetoothPhoneService: BluetoothPhoneService started
+05-20 00:00:51.138  6812  6812 D CallNotifier: onMwiChanged(): false
+05-20 00:00:51.138  6812  6812 D NotificationMgr: updateMwi(): false
+05-20 00:00:51.178  6686  6686 D StatusBar.NetworkController: getNetworkName mSimState:READY
+05-20 00:00:51.178  6812  6812 D CallNotifier: onCfiChanged(): false
+05-20 00:00:51.178  6812  6812 D NotificationMgr: updateCfi(): false
+05-20 00:00:51.178  6812  6812 D NotificationMgr: updateNetworkSelection()...state = 3, new network=, isManuSelection=false, isSimReady=false
+05-20 00:00:51.188  6686  6686 D StatusBar.NetworkController: getNetworkName displayPlmn:无服务 longName:null shortName:null numeric:null
+05-20 00:00:51.208  6686  6686 D StatusBar.NetworkController: getNetworkName mSimState:UNKNOWN
+05-20 00:00:51.208  6530  6654 E WifiHW  : Failed to stop supplicant
+05-20 00:00:51.228  6686  6686 D StatusBar.NetworkController: getNetworkName displayPlmn:无服务 longName:null shortName:null numeric:null
+05-20 00:00:51.238  6686  6686 I StatusBar.NotificationSoundController: tele: false
+05-20 00:00:51.238  6686  6686 I Choreographer: Skipped 291 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:51.318  6812  6812 D BluetoothManager: isBluetoothAvailable()...
+05-20 00:00:51.328  6812  6812 D BluetoothManager:  mBluetoothHeadsetState ===>0
+05-20 00:00:51.328  6812  6812 D TtsManager: isWiredHeadsetOn ? false, isBluetoothHeadsetOn ? false, isSpeakNameSettingOn ? false
+05-20 00:00:51.328  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.328  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.328  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.338  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.348  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.348  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.348  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.348  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.348  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.358  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.358  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.358  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.358  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.368  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.368  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.368  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.378  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.378  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.378  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.388  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.388  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.388  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.388  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.388  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.388  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.398  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.398  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.398  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.398  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.408  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.408  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.418  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.418  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.428  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.428  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.428  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.428  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.428  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.428  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.428  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.438  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.438  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.438  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.438  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.448  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.458  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.458  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.468  6812  6812 D PhoneApp: - reason: radioTurnedOff
+05-20 00:00:51.468  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.468  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.468  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.468  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.468  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.478  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.478  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.488  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.488  6834  6834 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+05-20 00:00:51.488  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.488  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.498  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.498  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.498  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.508  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.518  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.518  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.518  6834  6834 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:51.528  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.528  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.528  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.538  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.538  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.548  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.548  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.548  6812  6812 D PhoneApp: - reason: dataDetached
+05-20 00:00:51.548  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.558  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.568  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.568  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.568  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.578  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.588  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.588  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.588  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.588  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.608  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.608  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.608  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.618  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.618  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.618  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.618  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.618  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.628  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.628  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.628  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.628  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.638  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.638  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.638  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.648  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.648  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.648  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.658  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.658  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.678  6530  6544 I ActivityManager: Displayed com.smartisanos.launcher/.Launcher: +13s460ms
+05-20 00:00:51.678  6530  6544 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41d24568 u0 com.smartisanos.launcher/.Launcher t1} time:1305745
+05-20 00:00:51.678  6834  6834 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 14
+05-20 00:00:51.688  6834  6965 E NewLauncher: Launcher : view create begin !
+05-20 00:00:51.728  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.738  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.738  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.738  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.748  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.748  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.748  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.748  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.748  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.748  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.748  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.758  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.758  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.758  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.758  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.758  6812  6812 D PhoneApp: mReceiver: ACTION_ANY_DATA_CONNECTION_STATE_CHANGED
+05-20 00:00:51.758  6812  6812 D PhoneApp: - state: DISCONNECTED
+05-20 00:00:51.768  6812  6812 D PhoneApp: - reason: roamingOff
+05-20 00:00:51.768  6812  6812 I PhoneApp: Headset phone created, binding local service.
+05-20 00:00:51.768  6530  6546 D LocationProviderProxy-network: unbinding com.amap.android.location
+05-20 00:00:51.778  6834  6965 E NewLauncher: PageView : DEBUG : PageView create !!!
+05-20 00:00:51.878  6671  6671 D KeyguardUpdateMonitor: received broadcast android.intent.action.SIM_STATE_CHANGED
+05-20 00:00:51.878  6671  6671 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED stateABSENT
+05-20 00:00:51.878  6671  6671 D KeyguardUpdateMonitor: ACTION_SIM_STATE_CHANGED intent received on sub = 0
+05-20 00:00:51.878  6671  6671 D KeyguardUpdateMonitor: handleSimStateChange: intentValue = ABSENT state resolved to ABSENT subscription =0
+05-20 00:00:51.878  6671  6671 V KeyguardUpdateMonitor: dispatching state: ABSENTsubscription: 0
+05-20 00:00:51.888  6671  6671 D KeyguardViewMediator: onSimStateChanged: ABSENT
+05-20 00:00:51.888  6671  6671 D KeyguardViewMediator: get isShowing state
+05-20 00:00:51.888  6671  6671 D KeyguardViewMediator: ICC_ABSENT isn't showing, we need to show the keyguard since the device isn't provisioned yet.
+05-20 00:00:51.888  6671  6671 D KeyguardViewMediator: doKeyguardLocked
+05-20 00:00:51.888  6671  6671 D KeyguardViewMediator: doKeyguard: not showing because device isn't provisioned and the sim is not locked or missing
+05-20 00:00:51.888  6671  6671 D KeyguardUpdateMonitor: received broadcast android.provider.Telephony.SPN_STRINGS_UPDATED
+05-20 00:00:51.898  6671  6671 D KeyguardUpdateMonitor: Received SPN update on sub :0
+05-20 00:00:51.898  6671  6671 D KeyguardUpdateMonitor: handleCarrierInfoUpdate: plmn = 无服务, spn = null, subscription = 0
+05-20 00:00:51.908  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:51.908  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:51.908  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.168  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader key = SimpleTextureMaterial
+05-20 00:00:52.188  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:00:52.188  6834  6965 E NewLauncher: //invariant gl_Position;
+05-20 00:00:52.188  6834  6965 E NewLauncher: attribute vec3 aPosition;
+05-20 00:00:52.188  6834  6965 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.188  6834  6965 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:00:52.188  6834  6965 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: }
+05-20 00:00:52.188  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader key = SimpleTextureMaterial
+05-20 00:00:52.188  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:00:52.188  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:00:52.188  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.188  6834  6965 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:00:52.188  6834  6965 E NewLauncher:     gl_FragColor = diffuseMapColor;
+05-20 00:00:52.188  6834  6965 E NewLauncher: }
+05-20 00:00:52.188  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureModularColorMaterial
+05-20 00:00:52.188  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:00:52.188  6834  6965 E NewLauncher: attribute vec3 aPosition;
+05-20 00:00:52.188  6834  6965 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.188  6834  6965 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:00:52.188  6834  6965 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:00:52.188  6834  6965 E NewLauncher: }
+05-20 00:00:52.198  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureModularColorMaterial
+05-20 00:00:52.198  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:00:52.198  6834  6965 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:00:52.198  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.198  6834  6965 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:00:52.198  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.198  6834  6965 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:00:52.198  6834  6965 E NewLauncher: diffuseMapColor = diffuseMapColor.rgba * uModularColor.rgba ;
+05-20 00:00:52.198  6834  6965 E NewLauncher:   gl_FragColor = diffuseMapColor;
+05-20 00:00:52.198  6834  6965 E NewLauncher: }
+05-20 00:00:52.458  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.468  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.468  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.468  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:00:52.478  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.478  6530  6856 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:00:52.478  6530  6856 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:00:52.478  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:00:52.488  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.488  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.488  6834  6834 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:00:52.488  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:00:52.498  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.498  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.498  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:00:52.498  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:00:52.498  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:00:52.508  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.508  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:00:52.508  6530  6856 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:00:52.528  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.528  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.538  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.538  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.578  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.578  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.588  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.588  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.598  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.608  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.618  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.618  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.628  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.628  6834  6965 E NewLauncher: MainView : DEBUG : load page id [0], index [0], title [], status [VISIBLE]
+05-20 00:00:52.628  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.638  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.648  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.648  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.648  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.658  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.658  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureBatch9Material
+05-20 00:00:52.658  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.708  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.708  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.728  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.728  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.728  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMatArray9[9];
+05-20 00:00:52.728  6834  6965 E NewLauncher: uniform vec4 uModularColorArray9[9];
+05-20 00:00:52.728  6834  6965 E NewLauncher: attribute vec3 aPosition;
+05-20 00:00:52.728  6834  6965 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:00:52.728  6834  6965 E NewLauncher: attribute float aMvpArrayIndex;
+05-20 00:00:52.728  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.728  6834  6965 E NewLauncher: varying vec4 vModularColor;
+05-20 00:00:52.728  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.728  6834  6965 E NewLauncher:     int matrixIndex = int(aMvpArrayIndex);
+05-20 00:00:52.728  6834  6965 E NewLauncher:     mat4 currentMatrix = uMVPMatArray9[matrixIndex];
+05-20 00:00:52.728  6834  6965 E NewLauncher:     vec4 currentColor = uModularColorArray9[matrixIndex];
+05-20 00:00:52.728  6834  6965 E NewLauncher: vModularColor = currentColor;
+05-20 00:00:52.728  6834  6965 E NewLauncher:     gl_Position = currentMatrix  * vec4(aPosition, 1.0);
+05-20 00:00:52.728  6834  6965 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:00:52.728  6834  6965 E NewLauncher: }
+05-20 00:00:52.728  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.728  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureBatch9Material
+05-20 00:00:52.738  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.738  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:00:52.738  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.738  6834  6965 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:00:52.738  6834  6965 E NewLauncher: varying vec4 vModularColor;
+05-20 00:00:52.738  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.738  6834  6965 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:00:52.738  6834  6965 E NewLauncher:   gl_FragColor = diffuseMapColor.rgba * vModularColor.rgba ;
+05-20 00:00:52.738  6834  6965 E NewLauncher: }
+05-20 00:00:52.748  6812  6812 D NotificationMgr: hideDataDisconnectedRoaming()...
+05-20 00:00:52.748  6812  6812 D NotificationMgr: updateNetworkSelection()...state = 1, new network=, isManuSelection=false, isSimReady=false
+05-20 00:00:52.828  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureBlendModularColorMaterial
+05-20 00:00:52.838  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:00:52.838  6834  6965 E NewLauncher: attribute vec3 aPosition;
+05-20 00:00:52.838  6834  6965 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:00:52.838  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.838  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.838  6834  6965 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:00:52.838  6834  6965 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:00:52.838  6834  6965 E NewLauncher: }
+05-20 00:00:52.838  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureBlendModularColorMaterial
+05-20 00:00:52.848  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:00:52.848  6834  6965 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:00:52.848  6834  6965 E NewLauncher: uniform vec4 uBlendColor;
+05-20 00:00:52.848  6834  6965 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:00:52.848  6834  6965 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:00:52.848  6834  6965 E NewLauncher: void main() {
+05-20 00:00:52.848  6834  6965 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:00:52.848  6834  6965 E NewLauncher: diffuseMapColor.r = (2.0 * uBlendColor.r - 1.0) * (sqrt(diffuseMapColor.r) - diffuseMapColor.r) + diffuseMapColor.r;
+05-20 00:00:52.848  6834  6965 E NewLauncher: diffuseMapColor.g = (2.0 * uBlendColor.g - 1.0) * (sqrt(diffuseMapColor.g) - diffuseMapColor.g) + diffuseMapColor.g;
+05-20 00:00:52.848  6834  6965 E NewLauncher: diffuseMapColor.b = (2.0 * uBlendColor.b - 1.0) * (sqrt(diffuseMapColor.b) - diffuseMapColor.b) + diffuseMapColor.b;
+05-20 00:00:52.848  6834  6965 E NewLauncher:     gl_FragColor = diffuseMapColor * uModularColor;
+05-20 00:00:52.848  6834  6965 E NewLauncher: }
+05-20 00:00:52.879  6834  6834 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419f5088 time:1306949
+05-20 00:00:53.128  6530  6630 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:00:53.178  6782  6782 D AMap NetworkLocationService: onDestroy 1
+05-20 00:00:53.178  6782  6782 D AMap NetworkLocationService: onDestroy 2
+05-20 00:00:53.578  6782  6782 D AMap LocationClient: destroy
+05-20 00:00:53.658  6782  6782 D AMap NetworkLocationService: onDestroy 3
+05-20 00:00:53.708  6782  6782 D AMap NetworkLocationService: onDestroy 4
+05-20 00:00:53.798  6782  6782 D AMap NetworkLocationService: onDestroy 5
+05-20 00:00:53.808  6686  6686 D android.widget.GridLayout: horizontal constraints: x3-x0>=680, x3-x2<=168, x2-x1<=168, x1-x0<=168 are inconsistent; permanently removing: x3-x2<=168. 
+05-20 00:00:53.818  6686  6686 D android.widget.GridLayout: vertical constraints: y4-y0>=934, y4-y3<=175, y3-y2<=175, y2-y1<=175, y1-y0<=175 are inconsistent; permanently removing: y4-y3<=175. 
+05-20 00:00:53.928  6686  6686 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:00:53.928  6686  6686 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:00:53.938  6782  6782 D AMap InternalService: onUnbind
+05-20 00:00:53.978  6686  6686 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: Local Branch: 
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: Local Patches: NONE
+05-20 00:00:54.008  6686  6686 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:00:54.168  6782  6782 D AMap InternalService: onDestroy
+05-20 00:00:54.268  6686  6686 D OpenGLRenderer: Enabling debug mode 0
+05-20 00:00:54.338  6686  6686 E memalloc: /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:75 Error: Invalid argument
+05-20 00:00:54.338  6686  6686 E gralloc : Could not mmap handle 0x2a209188, fd=75 (Invalid argument)
+05-20 00:00:54.338  6686  6686 E gralloc : gralloc_register_buffer: gralloc_map failed
+05-20 00:00:54.338  6686  6686 W GraphicBufferMapper: registerBuffer(0x2a209188) failed -22 (Invalid argument)
+05-20 00:00:54.338  6686  6686 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+05-20 00:00:54.338  6686  6686 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=75)
+05-20 00:00:54.338  6686  6686 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:54.338  6686  6686 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:00:54.338  6686  6686 W OpenGLRenderer: Error creating image (0x502)
+05-20 00:00:54.338  6686  6686 D PhoneStatusBar: updated expaneded position to : -810
+05-20 00:00:54.458  6686  6686 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:00:54.498  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.498  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.508  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:54.518  6782  6782 D AMap InternalService: onDestroy APS destroy
+05-20 00:00:54.518  6686  6686 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:00:54.528  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.548  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.568  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:54.568  6834  6834 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:54.608  6802  6802 D SettingItems: initGlobals(), , mMultiSimEnabled=false, mDefaultNetworkMode=0 , mAirPlaneModeOn=false, mSimState=1 , mServiceState=1 , mMobileDataEnabled=true, mDefaultDataSlot=0
+05-20 00:00:54.618  6686  6686 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:00:54.628  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.688  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.688  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:54.708  6686  6686 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:00:54.778  6834  6965 E NewLauncher: MainView : DEBUG : load page id [1], index [1], title [], status [VISIBLE]
+05-20 00:00:54.778  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.798  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.828  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:54.828  6686  6686 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:00:54.838  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.878  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.898  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:54.908  6686  6686 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:00:54.978  6686  6686 D AirplaneButton: getState state:0
+05-20 00:00:54.998  6686  6686 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:54.998  6686  6686 D BluetoothAdapter: 1101183176: getState() :  mService = null. Returning STATE_OFF
+05-20 00:00:55.038  6686  6686 I StatusBar.NotificationSoundController: type_power: true
+05-20 00:00:55.048  6193  6663 D AwesomePlayer: Before reset_l
+05-20 00:00:55.048  6193  6663 D AwesomePlayer: printFileName fd(19) -> /system/media/audio/ui/start_charging.ogg
+05-20 00:00:55.308  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0287e0 successful
+05-20 00:00:55.308  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0289f0 successful
+05-20 00:00:55.308  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a028b30 successful
+05-20 00:00:55.308  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a028c58 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a028658 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0285a0 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0284d0 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021c50 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0299c0 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029898 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029790 successful
+05-20 00:00:55.408  6193  7047 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0296b8 successful
+05-20 00:00:55.568  6193  6632 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 3
+05-20 00:00:55.578  6193  6632 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 5
+05-20 00:00:55.578  6193  6250 I AudioMixer: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-20 00:00:55.738  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader key = GlobalColorMaterial
+05-20 00:00:55.768  6834  6965 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:00:55.768  6834  6965 E NewLauncher: attribute vec3 aPosition;
+05-20 00:00:55.768  6834  6965 E NewLauncher: void main() {
+05-20 00:00:55.768  6834  6965 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:00:55.768  6834  6965 E NewLauncher: }
+05-20 00:00:55.768  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader key = GlobalColorMaterial
+05-20 00:00:55.778  6834  6965 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:00:55.778  6834  6965 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:00:55.778  6834  6965 E NewLauncher: void main() {
+05-20 00:00:55.778  6834  6965 E NewLauncher:     gl_FragColor = uModularColor;
+05-20 00:00:55.778  6834  6965 E NewLauncher: }
+05-20 00:00:55.778  6834  6965 E NewLauncher: Weather number = 5
+05-20 00:00:55.818  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+05-20 00:00:55.818  6834  6965 E NewLauncher: Weather number = 2
+05-20 00:00:55.818  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+05-20 00:00:55.828  6834  6965 E NewLauncher: Weather number = 5
+05-20 00:00:55.838  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+05-20 00:00:55.838  6834  6965 E NewLauncher: Weather number = 2
+05-20 00:00:55.848  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+05-20 00:00:55.958  6193  6246 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 3
+05-20 00:00:55.958  6193  6246 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 5
+05-20 00:00:55.998  6834  6965 E NewLauncher: Weather number = 5
+05-20 00:00:55.998  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_5.png
+05-20 00:00:55.998  6834  6965 E NewLauncher: Weather number = 2
+05-20 00:00:56.008  6834  6965 E NewLauncher: Weather image name = Textures/720p/weather/num_2.png
+05-20 00:00:56.638  6686  6686 D SmartisanPhoneStatusBarTransitions: onTransition mode:4
+05-20 00:00:56.958  6686  6686 D StatusBar.NetworkController: getNetworkName mSimState:UNKNOWN
+05-20 00:00:56.968  6686  6686 D StatusBar.NetworkController: getNetworkName displayPlmn:正在搜索... longName:null shortName:null numeric:null
+05-20 00:00:57.258  6834  6965 E NewLauncher: MainView : DEBUG : load page id [2], index [2], title [], status [VISIBLE]
+05-20 00:00:57.528  6686  6686 D StatusBar.NetworkController: getNetworkName mSimState:UNKNOWN
+05-20 00:00:57.548  6686  6686 D StatusBar.NetworkController: getNetworkName displayPlmn:正在搜索... longName:null shortName:null numeric:null
+05-20 00:00:57.558  6686  6686 D StatusBar.NetworkController: getNetworkName mSimState:ABSENT
+05-20 00:00:57.568  6686  6686 I Choreographer: Skipped 191 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:57.648  6834  6965 E NewLauncher: MainView : DEBUG : mPageList size         ==> 3
+05-20 00:00:57.658  6834  6965 E NewLauncher: MainView : DEBUG : invisiblePageList size ==> 0
+05-20 00:00:57.658  6834  6965 E NewLauncher: MainView : A140 : ########## 3
+05-20 00:00:57.778  6530  6545 W ActivityManager: Timeout executing service: ServiceRecord{41c6fc20 u0 com.smartisanos.phone_number_assistant/.NumberService}
+05-20 00:00:57.778  6530  6545 I ActivityManager: Skipping ANR before process restarted:com.smartisanos.phone_number_assistant
+05-20 00:00:58.318  6834  6965 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=23
+05-20 00:00:58.388  6834  6965 E NewLauncher: Launcher : #### mainView loadPage #####
+05-20 00:00:58.838  6802  6802 D SettingItems: SettingsObserver created
+05-20 00:00:58.918  6193  6631 D AudioHardwareQSD: AudioHardware pcm playback is going to standby.
+05-20 00:00:59.718  6834  6965 E NewLauncher: Launcher : view create done !
+05-20 00:00:59.718  6834  6965 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=26
+05-20 00:00:59.858  6530  6546 D LocationProviderProxy-network: bindBestPackage for com.android.location.service.v3.NetworkLocationProvider : (com.amap.android.location)  found 1, new best package: com.amap.android.location
+05-20 00:00:59.968  6812  6812 D NotificationMgr: call log query complete.
+05-20 00:00:59.968  6812  6812 D NotificationMgr: closing call log cursor.
+05-20 00:01:00.008  6530  6643 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1400544060000
+05-20 00:01:00.888  6530  6546 D LocationProviderProxy-network: binding com.amap.android.location (version 2147483647) (single-user)
+05-20 00:01:01.018  6834  6834 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+05-20 00:01:01.598  6834  6965 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=36
+05-20 00:01:01.618  6834  6965 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=37
+05-20 00:01:01.638  6802  6802 D SettingItems: SettingItemsProvider created!
+05-20 00:01:02.078  6812  6812 I PhoneNumberAssistantProxy: onServiceConnected
+05-20 00:01:02.078  6686  6686 I PhoneNumberAssistantProxy: onServiceConnected
+05-20 00:01:02.078  6686  6686 D CootekManager: PhoneNumberAssistantProxy, onConnected
+05-20 00:01:02.078  6782  6782 D AMap InternalService: onDestroy APS destroy end
+05-20 00:01:02.088  6758  6758 E Thomas  : file: /data/data/com.smartisanos.phone_number_assistant/shared_prefs/history.json.xml exist: false
+05-20 00:01:02.098  6758  6758 E phoneassist: phoneassist check interval hours=4
+05-20 00:01:02.108  6530  6546 D GeocoderProxy: unbinding com.amap.android.location
+05-20 00:01:02.108  6758  6758 D VoipClient: initClient echo param path=/data/data/com.smartisanos.phone_number_assistant/files/data/echo.json
+05-20 00:01:02.118  6782  6782 D AMap NetworkLocationService: onCreate 1
+05-20 00:01:02.128  6758  6758 D VoipService: onCreate
+05-20 00:01:02.128  6812  6812 I VoipServiceProxy: onServiceConnected
+05-20 00:01:02.128  6758  6792 D VoipCallsManager: hangupAllVoipCalls: []
+05-20 00:01:02.148  6782  6782 D AMap NetworkLocationService: onCreate 2
+05-20 00:01:02.148  6758  6758 E phoneassist: phoneassist check interval hours=4
+05-20 00:01:02.148  6782  6782 D AMap NetworkLocationService: onCreate 3
+05-20 00:01:02.158  6758  6758 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-20 00:01:02.158  6758  7058 E PresentConfigLoader: update -- parser exception: file not found
+05-20 00:01:02.158  6782  6782 D AMap NetworkLocationService: onBind 1
+05-20 00:01:02.178  6758  6758 D CallClient: ContextManager initContext
+05-20 00:01:02.178  6758  6758 D VoipClient: PrefUtil initializeLocal
+05-20 00:01:02.178  6758  6758 I LogUtil : logfile: /storage/emulated/0/logutil.txt
+05-20 00:01:02.178  6758  6758 I LogUtil : logfile: /storage/emulated/0/logutil.txt
+05-20 00:01:02.198  6758  6758 I VoipService: onCreate
+05-20 00:01:02.198  6758  6758 I VoipClient: registerReceiver
+05-20 00:01:02.208  6758  6758 I VOIPCALL: VoipService: onStartCommand: null
+05-20 00:01:02.208  6782  6782 D AMap NetworkLocationProvider: Construct
+05-20 00:01:02.248  6834  6965 W dalvikvm: threadid=10: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:01:02.258  6782  6782 D AMap MyServiceConnection: MyServiceConnection
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: FATAL EXCEPTION: GLThread 45
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 6834
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: com.smartisanos.smengine.mymaterial.Material$MaterialException: load image error: Textures/720p/background.png
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.loadBitmap(Material.java:468)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:476)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.Material.bindTexture(Material.java:493)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.mymaterial.TextureModularColorMaterial.draw(TextureModularColorMaterial.java:16)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.SceneNode.render(SceneNode.java:1351)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.RenderManager.renderSceneNode(RenderManager.java:766)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.smengine.World.runOneFrame(World.java:170)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.launcher.MainView.update(MainView.java:891)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at com.smartisanos.launcher.SMRenderer.onDrawFrame(SMRenderer.java:48)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1523)
+05-20 00:01:02.258  6834  6965 E AndroidRuntime: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1240)
+05-20 00:01:02.268  6782  6782 D AMap LocationClient: binding to Intent { act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location }
+05-20 00:01:02.288  6802  6802 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:01:02.308  6782  6782 D AMap NetworkLocationProvider: applySettings
+05-20 00:01:02.308  6530  6856 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:01:02.318  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:01:02.338  6782  6782 D AMap NetworkLocationProvider: applySettings  enabled: true
+05-20 00:01:02.398  6782  6782 D AMap NetworkLocationProvider: applySettings user-confirmed: 1
+05-20 00:01:02.408  6834  6834 E NewLauncher: Launcher : ### onPause ####
+05-20 00:01:02.418  6834  6834 E NewLauncher: UninstallApp : cancelUninstallWithoutAnim nothing to do by mUninstallDialog is null
+05-20 00:01:02.428  6782  6782 D AMap NetworkLocationProvider: setUserConfirmedPreference flag: true
+05-20 00:01:02.458  6782  6782 D AMap NetworkLocationProvider: setUserConfirmedPreference enabled: true
+05-20 00:01:02.478  6782  6782 D AMap NetworkLocationService: onBind 3
+05-20 00:01:02.498  6530  6626 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bfd028
+05-20 00:01:02.528  6530  6861 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:01:02.548  6530  6530 D LocationProviderProxy-network: com.amap.android.location connected
+05-20 00:01:02.558  6530  6935 I ActivityManager: Start proc com.smartisanos.tracker for service com.smartisanos.tracker/.service.TrackerService: pid=7065 uid=10040 gids={50040, 3003}
+05-20 00:01:02.568  6834  6834 E NewLauncher: Launcher : DEBUG : ########## Launcher Activity onCreate  #############
+05-20 00:01:02.578  6834  6834 E NewLauncher: Launcher : DEBUG : MAIN_THREAD_ID [6834]
+05-20 00:01:02.588  6834  6834 E NewLauncher: Launcher : DEBUG : onCreate set mode sPageMode [1] to [1]
+05-20 00:01:02.698  6782  6782 D AMap GeocodeService: onDestroy
+05-20 00:01:02.738  6530  6935 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41f04b10 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41c98b30 6834 com.smartisanos.launcher/10001/u0 remote:41c98998}: process crashing
+05-20 00:01:02.778  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/revert_sort_icon.png
+05-20 00:01:02.788  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/gaussian.png
+05-20 00:01:02.858  6782  6782 D AMap GeocodeProvider: destroy start!
+05-20 00:01:02.858  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/flip_anim_side.png
+05-20 00:01:02.858  6782  6782 D AMap GeocodeProvider: destroy end!
+05-20 00:01:02.858  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/icon_sort_shadow.png
+05-20 00:01:02.868  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/page_mask.png
+05-20 00:01:02.878  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/page_scroll_louver_h.png
+05-20 00:01:02.878  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/page_scroll_louver_v.png
+05-20 00:01:02.878  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/page_scroll_rotate_icon.png
+05-20 00:01:02.878  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/page_scroll_rotate_page.png
+05-20 00:01:02.888  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/title_mask.png
+05-20 00:01:02.888  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/lofi_mask.png
+05-20 00:01:02.888  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/lookup_lofi.png
+05-20 00:01:02.888  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/sort_by_color_icon.png
+05-20 00:01:02.888  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/sort_by_install_time_icon.png
+05-20 00:01:02.898  6834  6834 E NewLauncher: ResourceValue : DEBUG : error name [java.io.FileNotFoundException] ==> Textures/720p/9/sort_by_usage_frequency_icon.png
+05-20 00:01:02.998  6834  6966 E NewLauncher: DatabaseHandler : DEBUG : DB_THREAD_ID [6966]
+05-20 00:01:03.008  6834  6966 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_INIT_DATA]
+05-20 00:01:03.028  6834  6834 E NewLauncher: IconCellShoter->registerToServer : 58 DEBUG : registerToServer, mInstance=com.smartisanos.launcher.IconCellShoter@421d1570
+05-20 00:01:03.028  6834  6834 E NewLauncher: Launcher->onResume : 481 #### onResume #####
+05-20 00:01:03.138  6834  6966 E NewLauncher: ItemDB->dump : 200 dump item table begin ###################################################
+05-20 00:01:03.218  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [-2], cid [0], id [19], name [电话], pkg [com.android.contacts], cmp [com.android.contacts.activities.DialtactsActivity]
+05-20 00:01:03.218  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [-2], cid [1], id [20], name [浏览器], pkg [com.android.browser], cmp [com.android.browser.BrowserActivity]
+05-20 00:01:03.218  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [-2], cid [2], id [21], name [短信], pkg [com.android.mms], cmp [com.android.mms.ui.ConversationList]
+05-20 00:01:03.228  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [0], id [1], name [应用商店], pkg [com.smartisanos.appstore], cmp [com.smartisanos.appstore.AppStoreActivity]
+05-20 00:01:03.228  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [1], id [2], name [相机], pkg [com.android.camera2], cmp [com.android.camera.CameraLauncher]
+05-20 00:01:03.238  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [2], id [3], name [相册], pkg [com.android.gallery3d], cmp [com.android.gallery3d.app.Gallery]
+05-20 00:01:03.248  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [3], id [4], name [便签], pkg [com.smartisanos.notes], cmp [com.smartisanos.notes.NotesActivity]
+05-20 00:01:03.248  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [4], id [5], name [日历], pkg [com.android.calendar], cmp [com.android.calendar.AllInOneActivity]
+05-20 00:01:03.258  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [5], id [6], name [时钟], pkg [com.smartisanos.clock], cmp [com.smartisanos.clock.activity.ClockActivity]
+05-20 00:01:03.268  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [6], id [7], name [音乐], pkg [com.smartisanos.music], cmp [com.smartisanos.music.activities.MusicMain]
+05-20 00:01:03.268  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [7], id [8], name [设置], pkg [com.android.settings], cmp [com.android.settings.Settings]
+05-20 00:01:03.268  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [0], cid [8], id [9], name [邮件], pkg [com.android.email], cmp [com.android.email.activity.Welcome]
+05-20 00:01:03.278  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [0], id [10], name [计算器], pkg [com.smartisanos.calculator], cmp [com.smartisanos.calculator.Calculator]
+05-20 00:01:03.278  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [1], id [11], name [游戏中心], pkg [com.smartisanos.gamestore], cmp [com.smartisanos.gamestore.GameStoreActivity]
+05-20 00:01:03.288  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [2], id [12], name [天气], pkg [com.smartisanos.weather], cmp [com.smartisanos.weather.CityWeather]
+05-20 00:01:03.328  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [3], id [13], name [安全中心], pkg [com.smartisanos.securitycenter], cmp [com.smartisanos.securitycenter.SecurityCenterActivity]
+05-20 00:01:03.338  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [4], id [14], name [录音机], pkg [com.smartisanos.recorder], cmp [com.smartisanos.recorder.activity.EmptyActivity]
+05-20 00:01:03.348  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [5], id [15], name [搜索], pkg [com.smartisanos.quicksearch], cmp [com.android.quicksearchbox.SearchActivity]
+05-20 00:01:03.348  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [6], id [16], name [欢喜云服务], pkg [com.smartisanos.cloudsync], cmp [com.smartisanos.cloudsync.AccountsActivityLauncher]
+05-20 00:01:03.358  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [7], id [17], name [下载], pkg [com.android.providers.downloads.ui], cmp [com.android.providers.downloads.ui.SplashActivity]
+05-20 00:01:03.368  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [1], cid [8], id [18], name [桌面使用向导], pkg [com.smartisanos.setupwizard], cmp [com.smartisanos.setupwizard.launcherguidance.LauncherGuidanceActivity]
+05-20 00:01:03.368  6834  6966 E NewLauncher: ItemDB->dump : 218 pid [2], cid [0], id [22], name [语音搜索], pkg [com.smartisanos.sara], cmp [com.smartisanos.sara.SpeechNowActivity]
+05-20 00:01:03.388  6834  6966 E NewLauncher: ItemDB->dump : 227 dump item table done  ###################################################
+05-20 00:01:03.408  6834  6966 E NewLauncher: PageDB->dump : 130 dump page table begin ###################################################
+05-20 00:01:03.438  6834  6834 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=67)
+05-20 00:01:03.448  6834  6966 E NewLauncher: PageDB->dump : 144 pid [0], id [1], status [0], name []
+05-20 00:01:03.448  6834  6966 E NewLauncher: PageDB->dump : 144 pid [1], id [2], status [0], name []
+05-20 00:01:03.458  6834  6966 E NewLauncher: PageDB->dump : 144 pid [2], id [3], status [0], name []
+05-20 00:01:03.458  6834  6834 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:01:03.458  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [4], status [0], name []
+05-20 00:01:03.468  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [5], status [0], name []
+05-20 00:01:03.468  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [6], status [0], name []
+05-20 00:01:03.478  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [7], status [0], name []
+05-20 00:01:03.488  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 82 DEBUG : onSurfaceCreated
+05-20 00:01:03.488  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [8], status [0], name []
+05-20 00:01:03.488  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 88 vender = Qualcomm
+05-20 00:01:03.498  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [9], status [0], name []
+05-20 00:01:03.498  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 89 render = Adreno (TM) 200
+05-20 00:01:03.498  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [10], status [0], name []
+05-20 00:01:03.498  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 90 version = OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+05-20 00:01:03.498  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [11], status [0], name []
+05-20 00:01:03.498  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 91 shadingL = OpenGL ES GLSL ES 1.00
+05-20 00:01:03.498  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 92 extent = GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+05-20 00:01:03.508  6834  7079 E NewLauncher: World->cleanDataStructureAboutHardwareResource : 178 DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:01:03.508  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [12], status [0], name []
+05-20 00:01:03.508  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [13], status [0], name []
+05-20 00:01:03.508  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [14], status [0], name []
+05-20 00:01:03.538  6530  6544 I ActivityManager: Displayed com.smartisanos.launcher/.Launcher: +1s13ms
+05-20 00:01:03.538  6530  6544 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2} time:1317607
+05-20 00:01:03.568  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [15], status [0], name []
+05-20 00:01:03.568  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [16], status [0], name []
+05-20 00:01:03.568  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [17], status [0], name []
+05-20 00:01:03.568  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [18], status [0], name []
+05-20 00:01:03.578  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [19], status [0], name []
+05-20 00:01:03.578  6834  7079 E NewLauncher: SMRenderer->onSurfaceCreated : 99 DEBUG : GL_THREAD_ID [7079]
+05-20 00:01:03.578  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [20], status [0], name []
+05-20 00:01:03.578  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [21], status [0], name []
+05-20 00:01:03.588  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [22], status [0], name []
+05-20 00:01:03.588  6834  7079 E NewLauncher: SMRenderer->onSurfaceChanged : 53 DEBUG : onSurfaceChanged : false, size = 480 , 800
+05-20 00:01:03.588  6834  7079 E NewLauncher: MainView->create : 899 DEBUG : MainView create : mode is PAGE_1_3X3_MODE, w 480, h 800
+05-20 00:01:03.588  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [23], status [0], name []
+05-20 00:01:03.588  6834  7079 E NewLauncher: World->cleanDataStructureAboutHardwareResource : 178 DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:01:03.588  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [24], status [0], name []
+05-20 00:01:03.588  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [25], status [0], name []
+05-20 00:01:03.588  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [26], status [0], name []
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [27], status [0], name []
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [28], status [0], name []
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [29], status [0], name []
+05-20 00:01:03.598  6802  6802 D SettingItems: onSimStateChanged()
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [30], status [0], name []
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [31], status [0], name []
+05-20 00:01:03.598  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [32], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [33], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [34], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [35], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [36], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [37], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [38], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [39], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 144 pid [-1], id [40], status [0], name []
+05-20 00:01:03.608  6834  6966 E NewLauncher: PageDB->dump : 149 dump page table done  ###################################################
+05-20 00:01:03.628  6834  6966 E NewLauncher: DatabaseHandler->resetIndex : 769 reset index done, data is consecutive, spend [6]
+05-20 00:01:03.628  6834  6966 E NewLauncher: DatabaseHandler->switchLauncherBaseModeIfNeeded : 930 switchLauncherBaseModeIfNeeded newBaseMode [1], oldBaseMode [1]
+05-20 00:01:03.648  6834  7079 E NewLauncher: Utils->isHome : 382 DEBUG : ### rti = 1 ##
+05-20 00:01:03.648  6834  7079 E NewLauncher: Utils->isHome : 386 DEBUG : ## rt = com.smartisanos.launcher.Launcher ##
+05-20 00:01:03.648  6834  7079 E NewLauncher: Launcher$21->run : 1019 ######## emergency unlock animation play
+05-20 00:01:03.648  6782  6782 D AMap InternalService: nlpVersion : 3.3.8
+05-20 00:01:03.648  6530  6546 D GeocoderProxy: bindBestPackage for com.android.location.service.GeocodeProvider :  found 1, new best package: com.amap.android.location
+05-20 00:01:03.648  6530  6546 D GeocoderProxy: binding com.amap.android.location (version 2147483647) (single-user)
+05-20 00:01:03.698  6782  6782 D AMap InternalService: NetworkInfo: null
+05-20 00:01:03.698  6782  6782 D AMap InternalService: onCreate mEnabled: true isNetworkAvailable: false
+05-20 00:01:03.698  6782  6782 D AMap InternalService: initAPS, nlpVersion: 3.3.8
+05-20 00:01:03.698  6782  6782 D AMap InternalService: APS getInstance
+05-20 00:01:03.698  6782  6782 D AMap InternalService: APS getInstance end
+05-20 00:01:03.698  6782  6782 D AMap InternalService: APS init
+05-20 00:01:03.708  6834  6834 E NewLauncher: Launcher$23->handleMessage : 1209 DEBUG : handleMessage begin, msg.what == 12
+05-20 00:01:03.708  6834  6834 E NewLauncher: Launcher$23->handleMessage : 1218 #### MESSAGE_COMPLETE #####
+05-20 00:01:03.858  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 325 switch language from [中文 (中国)] to [中文 (中国)]
+05-20 00:01:03.858  6834  6966 E NewLauncher: IconDB->loadIconToItem : 191 DEBUG : loadIcons total item size 22, isOta = false
+05-20 00:01:03.898  6834  6966 E NewLauncher: IconDB->loadIconToItem : 249 DEBUG : loadIcons icon table record size 22
+05-20 00:01:03.928  6834  6966 E NewLauncher: IconDB->loadIconToItem : 289 DEBUG : loadIcons ==============> ids size 22
+05-20 00:01:03.938  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 335 load page count [3]
+05-20 00:01:03.938  6834  6966 E NewLauncher: DatabaseHandler->dataInit : 337 A140 : data init     time [936 ms]
+05-20 00:01:03.948  6834  6966 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_INIT_DATA] Done !
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS init end, APS version: 2.0.201501131131.a.r
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setUseGps(false)
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setUseGps(false) end
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setAuth
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setAuth end
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setExtra, nlpVersion: 3.3.8
+05-20 00:01:04.948  6782  6782 D AMap InternalService: APS setExtra end
+05-20 00:01:04.948  6782  6782 D AMap InternalService: initAPS end
+05-20 00:01:04.948  6782  6782 D AMap InternalService: onCreate
+05-20 00:01:04.948  6782  6782 D AMap InternalService: onBind
+05-20 00:01:05.098  6834  7042 E NewLauncher: WeatherView: Weather code is error, weather code:cloudy
+05-20 00:01:05.508  6802  6802 D SettingItems: onServiceStateChanged()
+05-20 00:01:05.638  6782  6782 D AMap LocationClient: handleMessage msg = 0
+05-20 00:01:05.778  6782  6782 D AMap GeocodeService: onBind
+05-20 00:01:05.778  6782  6782 D AMap GeocodeProvider: Construct
+05-20 00:01:06.048  6671  6671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BOOT_COMPLETED
+05-20 00:01:06.128  6782  6782 D AMap MyServiceConnection: onServiceConnected success
+05-20 00:01:06.168  6812  6812 I OtaStartupReceiver: onReceive: BOOT_COMPLETED
+05-20 00:01:06.168  6812  6812 I PhoneApp: onBootComplete()
+05-20 00:01:06.178  6812  6812 I PhoneApp: handleMessage: EVENT_BOOT_COMPLETED
+05-20 00:01:06.188  6812  6812 D CallHandlerServiceProxy: InitConnect
+05-20 00:01:06.188  6812  6812 D CallHandlerServiceProxy: InitConnect()
+05-20 00:01:06.188  6812  6812 D CallHandlerServiceProxy: setupServiceConnection
+05-20 00:01:06.188  6812  6812 D CallHandlerServiceProxy: binding to service Intent { act=com.android.services.telephony.common.ICallHandlerService cmp=com.android.incallui/.CallHandlerService }
+05-20 00:01:06.198  6812  6812 D CallHandlerServiceProxy: binding to service Intent { act=com.android.services.telephony.common.ICallHandlerService cmp=com.android.incallui/.CallHandlerService }
+05-20 00:01:06.238  6530  6731 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=7092 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:01:07.058  7092  7092 D InCall  : InCallApp - InCallApp onCreate()...
+05-20 00:01:07.138  7092  7092 I InCall  : InCallApp - InCallApp onCreate()...isMasterClearReboot:false
+05-20 00:01:07.468  7092  7092 D CallCard: CallCard constructor...
+05-20 00:01:07.468  7092  7092 D CallCard: - this = com.android.incallui.CallCard{41a3ad18 V.E..... ......I. 0,0-0,0 #7f060024 app:id/call_info_container}
+05-20 00:01:07.468  7092  7092 D CallCard: - context com.android.incallui.InCallApp@41a012a8, attrs android.content.res.XmlBlock$Parser@41a3a830
+05-20 00:01:07.868  7092  7092 D CallCard: CallCard onFinishInflate(this = com.android.incallui.CallCard{41a3ad18 V.E..... ......I. 0,0-0,0 #7f060024 app:id/call_info_container})...
+05-20 00:01:07.978  7092  7092 D CallCard:    showImage clear unknown
+05-20 00:01:07.988  7091  7091 D AndroidRuntime: 
+05-20 00:01:07.988  7091  7091 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:01:08.098  7091  7091 D AndroidRuntime: CheckJNI is OFF
+05-20 00:01:08.158  7091  7091 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:01:08.178  7091  7091 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:01:08.188  7091  7091 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:01:08.198  7091  7091 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:01:08.198  7091  7091 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:01:08.278  7092  7092 E InCall  : fr - Cannot isPhoneInUse; CallCommandService == null
+05-20 00:01:08.298  7092  7092 I InCallTouchUi: [InCallTouchUi] InCallTouchUi constructor...
+05-20 00:01:08.368  7091  7091 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:08.458  6802  6802 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=true, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+05-20 00:01:08.978  7091  7091 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:01:08.978  7091  7091 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:01:09.228  7091  7091 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+05-20 00:01:09.288  6530  6731 E SmartisanOS_Perf_JNI: onload
+05-20 00:01:09.298  6530  6731 E OpenGLHelper_Jni: opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+05-20 00:01:09.298  6530  6731 E SmartisanOS_Perf_JNI: smartiperf module not found
+05-20 00:01:09.298  6530  6731 E SmartisanOS_Perf: SmartiPerformance initialized failed!
+05-20 00:01:09.298  6530  6731 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:01:09.298  6530  6731 I ActivityManager: START u0 {act=android.settings.SETTINGS flg=0x10000000 cmp=com.android.settings/.Settings} from pid 7091
+05-20 00:01:09.438  7065  7065 D TrackerApplication: onCreate()
+05-20 00:01:09.488  7065  7065 D TrackerBaseTask: TrackerInsertTask() status is : PENDING
+05-20 00:01:09.808  7091  7091 D AndroidRuntime: Shutting down VM
+05-20 00:01:09.808  7091  7114 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:01:09.828  7065  7065 D TransportService: onBind()
+05-20 00:01:10.318  6530  6545 W ActivityManager: Activity pause timeout for ActivityRecord{41f02ea0 u0 com.smartisanos.launcher/.Launcher t2}
+05-20 00:01:10.348  6530  6545 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{41ebd828 u0 android.intent.action.ACTIVITY_RESUMED} to ReceiverList{41c98b30 6834 com.smartisanos.launcher/10001/u0 remote:41c98998}: process crashing
+05-20 00:01:10.618  6782  6818 D AMap NetworkLocationProvider: onDisable
+05-20 00:01:10.798  6782  6810 D AMap NetworkLocationProvider: onEnable
+05-20 00:01:10.938  7065  7075 D TransportService: onTransport()
+05-20 00:01:10.958  7065  7075 D TransportService: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:01:11.058  7065  7075 D TransportService: mPackageName = com.android.settings
+05-20 00:01:11.078  7065  7075 D TransportService: mTag = location_provider_enabled
+05-20 00:01:11.098  7065  7075 D TransportService: mSubTag = null
+05-20 00:01:11.128  7065  7075 D TransportService: mData = {"enable":true}
+05-20 00:01:11.168  7065  7075 D TransportService: mAction = 9
+05-20 00:01:11.188  7065  7075 D TransportService: mValues = 1
+05-20 00:01:11.198  7065  7075 D TransportService: mTimeStamp = 1400544062291
+05-20 00:01:11.228  7065  7075 D TransportService: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:01:11.238  7065  7075 D TrackerBaseTask: insert() sources size : 1
+05-20 00:01:11.428  7065  7122 D TrackerBaseTask: doInBackground() status is : RUNNING
+05-20 00:01:11.608  6782  6818 D AMap NetworkLocationProvider: onSetRequest calling pid: 6530 calling uid: 1000 nlp used by: [android(1000)]
+05-20 00:01:11.708  6530  6627 D BluetoothManagerService: Message: 20
+05-20 00:01:11.708  6530  6627 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41cd0400:true
+05-20 00:01:11.728  6782  6818 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+05-20 00:01:11.808  6802  6802 D BluetoothAdapter: 1101522136: getState() :  mService = null. Returning STATE_OFF
+05-20 00:01:11.818  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:01:11.858  6530  6654 E WifiStateMachine: Failed to start supplicant!
+05-20 00:01:11.879  6802  6802 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothInputDevice.doBind:257 android.bluetooth.BluetoothInputDevice.<init>:250 android.bluetooth.BluetoothAdapter.getProfileProxy:1191 
+05-20 00:01:12.128  7092  7092 I InCallTouchUi: InCallTouchUi onFinishInflate(this = com.android.incallui.InCallTouchUi{41a07a28 V.E..... ......I. 0,0-0,0})...
+05-20 00:01:12.128  7092  7092 I InCallTouchUi: [updateRecordButtonUI] state:0
+05-20 00:01:12.168  6782  7078 D AMap InternalService: handleMessage msg = 0
+05-20 00:01:12.168  6782  7078 D AMap InternalService: onClientRegisterd
+05-20 00:01:12.188  7092  7092 E InCall  : fr - Cannot isPhoneInUse; CallCommandService == null
+05-20 00:01:12.198  6802  6802 D LocalBluetoothProfileManager: Adding local MAP profile
+05-20 00:01:12.198  7092  7092 I InCallTouchUi: shouldDisableAllButtonfalse
+05-20 00:01:12.198  7092  7092 I InCallTouchUi: CallIsNull: mInCallScreen=null
+05-20 00:01:12.198  6802  6802 D BluetoothMap: Create BluetoothMap proxy object
+05-20 00:01:12.208  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:01:12.228  6802  6802 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothMap.doBind:110 android.bluetooth.BluetoothMap.<init>:103 android.bluetooth.BluetoothAdapter.getProfileProxy:1206 
+05-20 00:01:12.238  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:01:12.268  6802  6802 D LocalBluetoothProfileManager: LocalBluetoothProfileManager construction complete
+05-20 00:01:12.268  6802  6802 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPbap.doBind:165 android.bluetooth.BluetoothPbap.<init>:158 com.android.settings.bluetooth.PbapServerProfile.<init>:69 
+05-20 00:01:12.288  6530  6530 D GeocoderProxy: com.amap.android.location connected
+05-20 00:01:12.288  6530  6530 I FusedLocation: engine stopped (com.android.location.fused)
+05-20 00:01:12.298  6530  6530 I FusedLocation: engine started (com.android.location.fused)
+05-20 00:01:12.308  6530  6530 V SyncManager: Boot completed, clearing boot queue.
+05-20 00:01:12.318  6530  6530 D AudioService: readSmartisanOSPersistedSettings()  mCameraSoundForced false mSystemMuteAffectedStreams 1006
+05-20 00:01:12.318  6530  6661 D AudioService: setSysMuteState() systemMute=0;systemMuteAffectedStreams=1006;systemMuteAffectedDevices=2
+05-20 00:01:12.328  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:01:12.348  6530  6530 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:01:12.358  6530  6661 E SoundPool: error loading /system/media/audio/ui/KeypressInvalid.ogg
+05-20 00:01:12.368  6193  6663 D AwesomePlayer: Before reset_l
+05-20 00:01:12.368  6193  6663 D AwesomePlayer: printFileName fd(22) -> /system/media/audio/ui/Effect_Tick.ogg
+05-20 00:01:12.368  6530  6545 W ActivityManager: Launch timeout has expired, giving up wake lock!
+05-20 00:01:12.388  6530  6661 W AudioService: Soundpool could not load file: /system/media/audio/ui/KeypressInvalid.ogg
+05-20 00:01:12.408  6530  6627 D BluetoothManagerService: Message: 30
+05-20 00:01:12.418  6530  6530 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:01:12.438  6782  6782 D AMap NetworkLocationProvider: handleMessage msg = 1
+05-20 00:01:12.448  6530  6530 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:01:12.488  6530  6530 E WiredAccessoryManager: No state change.
+05-20 00:01:12.488  6530  6530 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:01:12.488  6530  6530 V WiredAccessoryManager: init()
+05-20 00:01:12.498  6530  6667 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:01:12.538  6802  6802 D BluetoothAdapter: 1101522136: getState() :  mService = null. Returning STATE_OFF
+05-20 00:01:12.538  6802  6802 D BluetoothAdapter: 1101522136: getState() :  mService = null. Returning STATE_OFF
+05-20 00:01:12.538  6802  6802 D BluetoothAdapter: 1101522136: getState() :  mService = null. Returning STATE_OFF
+05-20 00:01:12.538  6802  6802 E NFC     : could not retrieve NFC service
+05-20 00:01:12.568  6782  6782 D AMap NetworkLocationProvider: onDisable
+05-20 00:01:12.578  6530  7130 I RecoverySystem: No recovery log file
+05-20 00:01:12.588  6782  6782 D AMap NetworkLocationProvider: handleMessage msg = 0
+05-20 00:01:12.648  6782  6782 D AMap NetworkLocationProvider: onEnable
+05-20 00:01:12.668  6782  6782 D AMap NetworkLocationProvider: handleMessage msg = 20
+05-20 00:01:12.678  6530  7130 I BootReceiver: Copying /data/tombstones/tombstone_08 to DropBox (SYSTEM_TOMBSTONE)
+05-20 00:01:12.708  6802  6802 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:01:12.718  6782  6782 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+05-20 00:01:12.738  7092  7092 D com.android.incallui.InComingCallView: loadResourceAndInitSomeVariables()...
+05-20 00:01:12.748  6782  6782 D AMap LocationClient: handleMessage msg = 1
+05-20 00:01:12.778  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021208 successful
+05-20 00:01:12.778  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029688 successful
+05-20 00:01:12.788  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0297c8 successful
+05-20 00:01:12.788  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0298f0 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021080 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020fc8 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020ef8 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023a50 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a760 successful
+05-20 00:01:12.858  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a638 successful
+05-20 00:01:12.868  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a4f8 successful
+05-20 00:01:12.868  6193  7138 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a3b8 successful
+05-20 00:01:12.878  6782  7078 D AMap InternalService: handleMessage msg = 6
+05-20 00:01:12.878  6782  7078 D AMap InternalService: setPeriod: 86400000
+05-20 00:01:12.918  6782  6782 D AMap LocationClient: setPeriod: 86400000

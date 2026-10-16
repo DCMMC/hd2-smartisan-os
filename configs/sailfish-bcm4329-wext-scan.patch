@@ -1,0 +1,26 @@
+--- a/drivers/net/wireless/bcm4329/wl_iw.c
++++ b/drivers/net/wireless/bcm4329/wl_iw.c
+@@ -3450,10 +3450,7 @@
+ 	int error;
+ 	WL_TRACE(("%s dev:%s: SIOCSIWSCAN : SCAN\n", __FUNCTION__, dev->name));
+ 
+-#if defined(CSCAN)
+-	WL_ERROR(("%s: Scan from SIOCGIWSCAN not supported\n", __FUNCTION__));
+-	return -EINVAL;
+-#endif 
++/* HD2 Sailfish: allow standard WEXT scans alongside Android CSCAN. */ 
+ 
+ #if defined(SOFTAP)
+ 	if (ap_cfg_running) {
+@@ -3573,10 +3570,7 @@
+ 
+ 	WL_SCAN(("%s: SIOCSIWSCAN : ISCAN\n", dev->name));
+ 
+-#if defined(CSCAN)
+-	WL_ERROR(("%s: Scan from SIOCGIWSCAN not supported\n", __FUNCTION__));
+-	return -EINVAL;
+-#endif
++/* HD2 Sailfish: allow standard WEXT scans alongside Android CSCAN. */
+ 
+ 	net_os_wake_lock(dev);
+ 

@@ -1,0 +1,4 @@
+uid=2000 gid=2000 groups=1003,1004,1007,1009,1011,1015,1028,3001,3002,3003,3006
+Linux (none) 2.6.32_tytung_jellybean_r2 #1 PREEMPT Sat Oct 17 01:19:04 CST 2026 armv7l GNU/Linux
+rel_path=HD2-SF
+sailfish-hybris-leo-initramfs

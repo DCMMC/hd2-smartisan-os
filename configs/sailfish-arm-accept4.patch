@@ -1,0 +1,21 @@
+--- a/arch/arm/kernel/calls.S
++++ b/arch/arm/kernel/calls.S
+@@ -374,6 +374,8 @@
+ 		CALL(sys_pwritev)
+ 		CALL(sys_rt_tgsigqueueinfo)
+ 		CALL(sys_perf_event_open)
++/* 365 */	CALL(sys_ni_syscall)	/* recvmmsg is not backported */
++		CALL(sys_accept4)
+ #ifndef syscalls_counted
+ .equ syscalls_padding, ((NR_syscalls + 3) & ~3) - NR_syscalls
+ #define syscalls_counted
+--- a/arch/arm/include/asm/unistd.h
++++ b/arch/arm/include/asm/unistd.h
+@@ -391,6 +391,7 @@
+ #define __NR_pwritev			(__NR_SYSCALL_BASE+362)
+ #define __NR_rt_tgsigqueueinfo		(__NR_SYSCALL_BASE+363)
+ #define __NR_perf_event_open		(__NR_SYSCALL_BASE+364)
++#define __NR_accept4			(__NR_SYSCALL_BASE+366)
+ 
+ /*
+  * The following SWIs are ARM private.

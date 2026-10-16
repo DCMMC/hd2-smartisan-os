@@ -1,0 +1,7 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: sif /etc/hd2-build-status.json uid 0
+debugfs: sif /etc/hd2-build-status.json gid 0

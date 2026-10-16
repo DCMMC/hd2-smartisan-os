@@ -1,0 +1,2022 @@
+{
+  "source_sha256": "411b7747a117d47e880b358421099a5ae1b28abbeb85ba7c2040607eafaf9099",
+  "output_sha256": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
+  "resource_changes": [
+    {
+      "name": "smartisan_status_bar_expanded_gradient_width",
+      "density": 0,
+      "orientation": 0,
+      "from": 333.296875,
+      "from_unit": 1,
+      "to_px": 444
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_height",
+      "density": 0,
+      "orientation": 0,
+      "from": 460.0,
+      "from_unit": 1,
+      "to_px": 560
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_margin_top",
+      "density": 0,
+      "orientation": 0,
+      "from": 68.0,
+      "from_unit": 1,
+      "to_px": 83
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_margin_left",
+      "density": 0,
+      "orientation": 0,
+      "from": 13.29998779296875,
+      "from_unit": 1,
+      "to_px": 18
+    },
+    {
+      "name": "noti_panel_translate_y_threshold_for_toggle_recent_task",
+      "density": 0,
+      "orientation": 0,
+      "from": 616.0,
+      "from_unit": 1,
+      "to_px": 750
+    },
+    {
+      "name": "noti_panel_translate_y_threshold_for_switch",
+      "density": 0,
+      "orientation": 0,
+      "from": 616.0,
+      "from_unit": 1,
+      "to_px": 750
+    },
+    {
+      "name": "music_view_margin_top",
+      "density": 0,
+      "orientation": 0,
+      "from": 213.0,
+      "from_unit": 1,
+      "to_px": 259
+    },
+    {
+      "name": "music_info_margin_top",
+      "density": 0,
+      "orientation": 0,
+      "from": 356.0,
+      "from_unit": 1,
+      "to_px": 434
+    },
+    {
+      "name": "power_widget_height",
+      "density": 0,
+      "orientation": 0,
+      "from": 467.0,
+      "from_unit": 1,
+      "to_px": 569
+    },
+    {
+      "name": "power_widget_width",
+      "density": 0,
+      "orientation": 0,
+      "from": 337.0,
+      "from_unit": 1,
+      "to_px": 449
+    },
+    {
+      "name": "smartisan_notifications_clear_button_translate_y",
+      "density": 0,
+      "orientation": 0,
+      "from": 424.0,
+      "from_unit": 1,
+      "to_px": 517
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_width",
+      "density": 0,
+      "orientation": 2,
+      "from": 614.59375,
+      "from_unit": 1,
+      "to_px": 768
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_height",
+      "density": 0,
+      "orientation": 2,
+      "from": 200.0,
+      "from_unit": 1,
+      "to_px": 256
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_margin_top",
+      "density": 0,
+      "orientation": 2,
+      "from": 54.5999755859375,
+      "from_unit": 1,
+      "to_px": 70
+    },
+    {
+      "name": "smartisan_status_bar_expanded_gradient_margin_left",
+      "density": 0,
+      "orientation": 2,
+      "from": 12.5999755859375,
+      "from_unit": 1,
+      "to_px": 16
+    },
+    {
+      "name": "noti_panel_translate_y_threshold_for_toggle_recent_task",
+      "density": 0,
+      "orientation": 2,
+      "from": 336.0,
+      "from_unit": 1,
+      "to_px": 431
+    },
+    {
+      "name": "noti_panel_translate_y_threshold_for_switch",
+      "density": 0,
+      "orientation": 2,
+      "from": 336.0,
+      "from_unit": 1,
+      "to_px": 431
+    },
+    {
+      "name": "music_view_margin_top",
+      "density": 0,
+      "orientation": 2,
+      "from": 46.0,
+      "from_unit": 1,
+      "to_px": 59
+    },
+    {
+      "name": "music_info_margin_top",
+      "density": 0,
+      "orientation": 2,
+      "from": 188.0,
+      "from_unit": 1,
+      "to_px": 241
+    },
+    {
+      "name": "power_widget_height",
+      "density": 0,
+      "orientation": 2,
+      "from": 207.0,
+      "from_unit": 1,
+      "to_px": 265
+    },
+    {
+      "name": "power_widget_width",
+      "density": 0,
+      "orientation": 2,
+      "from": 617.0,
+      "from_unit": 1,
+      "to_px": 771
+    },
+    {
+      "name": "smartisan_notifications_clear_button_translate_y",
+      "density": 0,
+      "orientation": 2,
+      "from": 158.0,
+      "from_unit": 1,
+      "to_px": 202
+    },
+    {
+      "name": "status_bar_icon_drawing_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 30.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "status_bar_left_side_icon_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 30.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "expanded_status_bar_header_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 131.0,
+      "from_unit": 0,
+      "to_px": 80
+    },
+    {
+      "name": "smartisan_notifications_container_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 680.0,
+      "from_unit": 0,
+      "to_px": 453
+    },
+    {
+      "name": "smartisan_notifications_container_width_double",
+      "density": 320,
+      "orientation": 0,
+      "from": 1360.0,
+      "from_unit": 0,
+      "to_px": 907
+    },
+    {
+      "name": "smartisan_power_widget_container_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 1097.0,
+      "from_unit": 0,
+      "to_px": 668
+    },
+    {
+      "name": "smartisan_notifications_container_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 934.0,
+      "from_unit": 0,
+      "to_px": 569
+    },
+    {
+      "name": "close_handle_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 204.0,
+      "from_unit": 0,
+      "to_px": 124
+    },
+    {
+      "name": "recent_item_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 515.0,
+      "from_unit": 0,
+      "to_px": 314
+    },
+    {
+      "name": "recent_item_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 303.0,
+      "from_unit": 0,
+      "to_px": 202
+    },
+    {
+      "name": "status_bar_recents_thumbnail_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 257.0,
+      "from_unit": 0,
+      "to_px": 171
+    },
+    {
+      "name": "status_bar_recents_thumbnail_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 458.0,
+      "from_unit": 0,
+      "to_px": 279
+    },
+    {
+      "name": "recent_item_header_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 68.0,
+      "from_unit": 0,
+      "to_px": 41
+    },
+    {
+      "name": "recent_item_title_icon_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 43.0,
+      "from_unit": 0,
+      "to_px": 26
+    },
+    {
+      "name": "recent_item_title_icon_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 43.0,
+      "from_unit": 0,
+      "to_px": 29
+    },
+    {
+      "name": "recent_item_title_padding_left",
+      "density": 320,
+      "orientation": 0,
+      "from": 13.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "recent_item_title_padding_right",
+      "density": 320,
+      "orientation": 0,
+      "from": 13.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "battery_low_dialog_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 680.0,
+      "from_unit": 0,
+      "to_px": 453
+    },
+    {
+      "name": "battery_low_dialog_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 407.0,
+      "from_unit": 0,
+      "to_px": 248
+    },
+    {
+      "name": "battery_low_level_percent_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 10.0,
+      "from_unit": 0,
+      "to_px": 6
+    },
+    {
+      "name": "notification_panel_margin_bottom",
+      "density": 320,
+      "orientation": 0,
+      "from": -10.0,
+      "from_unit": 0,
+      "to_px": -6
+    },
+    {
+      "name": "smartisanos_status_bar_recent_item_margin_top_offset",
+      "density": 320,
+      "orientation": 0,
+      "from": 21.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "status_bar_hit_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 225.0,
+      "from_unit": 0,
+      "to_px": 150
+    },
+    {
+      "name": "shutdown_encrypt_pattern_view_header_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 720.0,
+      "from_unit": 0,
+      "to_px": 480
+    },
+    {
+      "name": "shutdown_encrypt_pattern_view_header_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 365.0,
+      "from_unit": 0,
+      "to_px": 222
+    },
+    {
+      "name": "shutdown_encrypt_lockPatternView_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 362.0,
+      "from_unit": 0,
+      "to_px": 221
+    },
+    {
+      "name": "shutdown_pattern_view_bottom_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 720.0,
+      "from_unit": 0,
+      "to_px": 480
+    },
+    {
+      "name": "shutdown_pattern_view_bottom_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 150.0,
+      "from_unit": 0,
+      "to_px": 91
+    },
+    {
+      "name": "shutdown_encrypt_tv_info_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 218.0,
+      "from_unit": 0,
+      "to_px": 133
+    },
+    {
+      "name": "shutdown_encrypt_tv_info_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 36.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_pattern_view_cancel_btn_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 36.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_view_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 39.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_tip_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 196.0,
+      "from_unit": 0,
+      "to_px": 119
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_margin_left",
+      "density": 320,
+      "orientation": 0,
+      "from": 94.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 273.0,
+      "from_unit": 0,
+      "to_px": 166
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 48.0,
+      "from_unit": 0,
+      "to_px": 32
+    },
+    {
+      "name": "shutdown_encryption_easy_password_tip_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 36.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_container_margin_left",
+      "density": 320,
+      "orientation": 0,
+      "from": 94.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "shutdown_encryption_easy_password_container_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 273.0,
+      "from_unit": 0,
+      "to_px": 166
+    },
+    {
+      "name": "easy_password_no_margin_left",
+      "density": 320,
+      "orientation": 0,
+      "from": 15.0,
+      "from_unit": 0,
+      "to_px": 10
+    },
+    {
+      "name": "easy_password_no_margin_right",
+      "density": 320,
+      "orientation": 0,
+      "from": 15.0,
+      "from_unit": 0,
+      "to_px": 10
+    },
+    {
+      "name": "keyboard_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 29.0,
+      "from_unit": 0,
+      "to_px": 18
+    },
+    {
+      "name": "keypad_shadow_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 563.0,
+      "from_unit": 0,
+      "to_px": 343
+    },
+    {
+      "name": "easy_password_keyboard_1_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 569.0,
+      "from_unit": 0,
+      "to_px": 347
+    },
+    {
+      "name": "easy_password_keyboard_cancel_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 30.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "shutdown_encryption_password_view_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 1228.0,
+      "from_unit": 0,
+      "to_px": 748
+    },
+    {
+      "name": "title_bar_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "shutdown_encrypt_password_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 45.0,
+      "from_unit": 0,
+      "to_px": 30
+    },
+    {
+      "name": "shutdown_cancel_button_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 27.0,
+      "from_unit": 0,
+      "to_px": 18
+    },
+    {
+      "name": "shutdown_encryption_password_tip_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 235.0,
+      "from_unit": 0,
+      "to_px": 143
+    },
+    {
+      "name": "shutdown_encryption_password_tip_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 36.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "passwordEntry_comp_container_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "passwordEntry_comp_container_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 312.0,
+      "from_unit": 0,
+      "to_px": 190
+    },
+    {
+      "name": "passwordEntry_comp_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "passwordEntry_comp_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 444.0,
+      "from_unit": 0,
+      "to_px": 296
+    },
+    {
+      "name": "passwordEntry_comp_padding_left",
+      "density": 320,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "passwordEntry_comp_padding_right",
+      "density": 320,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "passwordEntry_comp_text_size",
+      "density": 320,
+      "orientation": 0,
+      "from": 48.0,
+      "from_unit": 0,
+      "to_px": 32
+    },
+    {
+      "name": "screen_port_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 1280.0,
+      "from_unit": 0,
+      "to_px": 800
+    },
+    {
+      "name": "status_bar_notification_row_container_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 970.0,
+      "from_unit": 0,
+      "to_px": 647
+    },
+    {
+      "name": "smartisan_forbid_notification_width",
+      "density": 320,
+      "orientation": 0,
+      "from": 104.0,
+      "from_unit": 0,
+      "to_px": 69
+    },
+    {
+      "name": "smartisan_forbid_notification_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 104.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "smartisan_forbid_notification_threshold",
+      "density": 320,
+      "orientation": 0,
+      "from": 554.0,
+      "from_unit": 0,
+      "to_px": 369
+    },
+    {
+      "name": "smartisan_forbid_notification_max_scroll_distance",
+      "density": 320,
+      "orientation": 0,
+      "from": 128.0,
+      "from_unit": 0,
+      "to_px": 85
+    },
+    {
+      "name": "status_bar_notification_row_margin_right",
+      "density": 320,
+      "orientation": 0,
+      "from": 295.0,
+      "from_unit": 0,
+      "to_px": 197
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_top",
+      "density": 320,
+      "orientation": 0,
+      "from": 12.0,
+      "from_unit": 0,
+      "to_px": 7
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_right",
+      "density": 320,
+      "orientation": 0,
+      "from": 167.0,
+      "from_unit": 0,
+      "to_px": 111
+    },
+    {
+      "name": "recent_page_view_column_space",
+      "density": 320,
+      "orientation": 0,
+      "from": 17.0,
+      "from_unit": 0,
+      "to_px": 11
+    },
+    {
+      "name": "notification_panel_shadow_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 12.0,
+      "from_unit": 0,
+      "to_px": 7
+    },
+    {
+      "name": "notification_panel_header_height",
+      "density": 320,
+      "orientation": 0,
+      "from": 50.0,
+      "from_unit": 0,
+      "to_px": 30
+    },
+    {
+      "name": "expanded_status_bar_header_left_padding",
+      "density": 320,
+      "orientation": 2,
+      "from": 19.0,
+      "from_unit": 0,
+      "to_px": 12
+    },
+    {
+      "name": "expanded_status_bar_header_height",
+      "density": 320,
+      "orientation": 2,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 65
+    },
+    {
+      "name": "smartisan_notifications_container_width",
+      "density": 320,
+      "orientation": 2,
+      "from": 1244.0,
+      "from_unit": 0,
+      "to_px": 778
+    },
+    {
+      "name": "smartisan_notifications_container_width_double",
+      "density": 320,
+      "orientation": 2,
+      "from": 2488.0,
+      "from_unit": 0,
+      "to_px": 1555
+    },
+    {
+      "name": "smartisan_power_widget_container_height",
+      "density": 320,
+      "orientation": 2,
+      "from": 570.0,
+      "from_unit": 0,
+      "to_px": 365
+    },
+    {
+      "name": "smartisan_notifications_container_height",
+      "density": 320,
+      "orientation": 2,
+      "from": 414.0,
+      "from_unit": 0,
+      "to_px": 265
+    },
+    {
+      "name": "close_handle_height",
+      "density": 320,
+      "orientation": 2,
+      "from": 200.0,
+      "from_unit": 0,
+      "to_px": 128
+    },
+    {
+      "name": "smartisanos_status_bar_recent_item_margin_top_offset",
+      "density": 320,
+      "orientation": 2,
+      "from": 18.0,
+      "from_unit": 0,
+      "to_px": 12
+    },
+    {
+      "name": "status_bar_hit_size",
+      "density": 320,
+      "orientation": 2,
+      "from": 200.0,
+      "from_unit": 0,
+      "to_px": 125
+    },
+    {
+      "name": "status_bar_notification_row_container_width",
+      "density": 320,
+      "orientation": 2,
+      "from": 1534.0,
+      "from_unit": 0,
+      "to_px": 959
+    },
+    {
+      "name": "smartisan_forbid_notification_width",
+      "density": 320,
+      "orientation": 2,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 64
+    },
+    {
+      "name": "smartisan_forbid_notification_height",
+      "density": 320,
+      "orientation": 2,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 65
+    },
+    {
+      "name": "smartisan_forbid_notification_threshold",
+      "density": 320,
+      "orientation": 2,
+      "from": 1134.0,
+      "from_unit": 0,
+      "to_px": 709
+    },
+    {
+      "name": "smartisan_forbid_notification_max_scroll_distance",
+      "density": 320,
+      "orientation": 2,
+      "from": 128.0,
+      "from_unit": 0,
+      "to_px": 80
+    },
+    {
+      "name": "status_bar_notification_row_margin_right",
+      "density": 320,
+      "orientation": 2,
+      "from": 295.0,
+      "from_unit": 0,
+      "to_px": 184
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_top",
+      "density": 320,
+      "orientation": 2,
+      "from": 12.0,
+      "from_unit": 0,
+      "to_px": 8
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_right",
+      "density": 320,
+      "orientation": 2,
+      "from": 167.0,
+      "from_unit": 0,
+      "to_px": 104
+    },
+    {
+      "name": "status_bar_icon_drawing_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 44.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "smartisan_notifications_clear_button_translate_y",
+      "density": 480,
+      "orientation": 0,
+      "from": 1273.0,
+      "from_unit": 0,
+      "to_px": 517
+    },
+    {
+      "name": "status_bar_left_side_icon_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 44.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "expanded_status_bar_header_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 200.0,
+      "from_unit": 0,
+      "to_px": 81
+    },
+    {
+      "name": "smartisan_notifications_container_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 1010.0,
+      "from_unit": 0,
+      "to_px": 449
+    },
+    {
+      "name": "smartisan_notifications_container_width_double",
+      "density": 480,
+      "orientation": 0,
+      "from": 2020.0,
+      "from_unit": 0,
+      "to_px": 898
+    },
+    {
+      "name": "smartisan_power_widget_container_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1646.0,
+      "from_unit": 0,
+      "to_px": 668
+    },
+    {
+      "name": "smartisan_notifications_container_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1417.0,
+      "from_unit": 0,
+      "to_px": 575
+    },
+    {
+      "name": "close_handle_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 307.0,
+      "from_unit": 0,
+      "to_px": 125
+    },
+    {
+      "name": "recent_item_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 785.0,
+      "from_unit": 0,
+      "to_px": 319
+    },
+    {
+      "name": "recent_item_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 501.0,
+      "from_unit": 0,
+      "to_px": 223
+    },
+    {
+      "name": "status_bar_recents_thumbnail_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 405.0,
+      "from_unit": 0,
+      "to_px": 180
+    },
+    {
+      "name": "status_bar_recents_thumbnail_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 689.0,
+      "from_unit": 0,
+      "to_px": 280
+    },
+    {
+      "name": "recent_item_header_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 102.0,
+      "from_unit": 0,
+      "to_px": 41
+    },
+    {
+      "name": "recent_item_title_icon_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 176.0,
+      "from_unit": 0,
+      "to_px": 71
+    },
+    {
+      "name": "recent_item_title_icon_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 176.0,
+      "from_unit": 0,
+      "to_px": 78
+    },
+    {
+      "name": "recent_item_title_padding_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 18.0,
+      "from_unit": 0,
+      "to_px": 8
+    },
+    {
+      "name": "recent_item_title_padding_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 18.0,
+      "from_unit": 0,
+      "to_px": 8
+    },
+    {
+      "name": "battery_low_dialog_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 1020.0,
+      "from_unit": 0,
+      "to_px": 453
+    },
+    {
+      "name": "battery_low_dialog_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 611.0,
+      "from_unit": 0,
+      "to_px": 248
+    },
+    {
+      "name": "battery_low_level_percent_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 15.0,
+      "from_unit": 0,
+      "to_px": 6
+    },
+    {
+      "name": "notification_panel_margin_bottom",
+      "density": 480,
+      "orientation": 0,
+      "from": -16.0,
+      "from_unit": 0,
+      "to_px": -6
+    },
+    {
+      "name": "smartisanos_status_bar_recent_item_margin_top_offset",
+      "density": 480,
+      "orientation": 0,
+      "from": 32.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "status_bar_hit_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 336.0,
+      "from_unit": 0,
+      "to_px": 149
+    },
+    {
+      "name": "shutdown_encrypt_pattern_view_header_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 1080.0,
+      "from_unit": 0,
+      "to_px": 480
+    },
+    {
+      "name": "shutdown_encrypt_pattern_view_header_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 548.0,
+      "from_unit": 0,
+      "to_px": 223
+    },
+    {
+      "name": "shutdown_encrypt_lockPatternView_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 543.0,
+      "from_unit": 0,
+      "to_px": 221
+    },
+    {
+      "name": "shutdown_pattern_view_bottom_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 1080.0,
+      "from_unit": 0,
+      "to_px": 480
+    },
+    {
+      "name": "shutdown_pattern_view_bottom_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 303.0,
+      "from_unit": 0,
+      "to_px": 123
+    },
+    {
+      "name": "shutdown_encrypt_tv_info_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 327.0,
+      "from_unit": 0,
+      "to_px": 133
+    },
+    {
+      "name": "shutdown_encrypt_tv_info_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 54.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_pattern_view_cancel_btn_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 54.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_view_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 59.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_tip_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 300.0,
+      "from_unit": 0,
+      "to_px": 122
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 141.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 350.0,
+      "from_unit": 0,
+      "to_px": 142
+    },
+    {
+      "name": "shutdown_encryption_easy_password_entry_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 72.0,
+      "from_unit": 0,
+      "to_px": 32
+    },
+    {
+      "name": "shutdown_encryption_easy_password_tip_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 54.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "shutdown_encryption_easy_password_container_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 141.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "shutdown_encryption_easy_password_container_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 427.0,
+      "from_unit": 0,
+      "to_px": 173
+    },
+    {
+      "name": "keyboard_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 44.0,
+      "from_unit": 0,
+      "to_px": 18
+    },
+    {
+      "name": "keypad_shadow_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 845.0,
+      "from_unit": 0,
+      "to_px": 343
+    },
+    {
+      "name": "easy_password_keyboard_1_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 854.0,
+      "from_unit": 0,
+      "to_px": 347
+    },
+    {
+      "name": "easy_password_keyboard_cancel_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 45.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "shutdown_encryption_password_view_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1842.0,
+      "from_unit": 0,
+      "to_px": 748
+    },
+    {
+      "name": "title_bar_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 153.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "shutdown_encrypt_password_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 68.0,
+      "from_unit": 0,
+      "to_px": 30
+    },
+    {
+      "name": "shutdown_cancel_button_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 41.0,
+      "from_unit": 0,
+      "to_px": 18
+    },
+    {
+      "name": "shutdown_encryption_password_tip_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 353.0,
+      "from_unit": 0,
+      "to_px": 143
+    },
+    {
+      "name": "shutdown_encryption_password_tip_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 54.0,
+      "from_unit": 0,
+      "to_px": 24
+    },
+    {
+      "name": "passwordEntry_comp_container_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 153.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "passwordEntry_comp_container_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 468.0,
+      "from_unit": 0,
+      "to_px": 190
+    },
+    {
+      "name": "passwordEntry_comp_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 153.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "passwordEntry_comp_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 666.0,
+      "from_unit": 0,
+      "to_px": 296
+    },
+    {
+      "name": "passwordEntry_comp_padding_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 30.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "passwordEntry_comp_padding_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 30.0,
+      "from_unit": 0,
+      "to_px": 13
+    },
+    {
+      "name": "passwordEntry_comp_text_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 72.0,
+      "from_unit": 0,
+      "to_px": 32
+    },
+    {
+      "name": "screen_port_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1920.0,
+      "from_unit": 0,
+      "to_px": 800
+    },
+    {
+      "name": "status_bar_notification_row_container_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 1455.0,
+      "from_unit": 0,
+      "to_px": 647
+    },
+    {
+      "name": "smartisan_forbid_notification_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 156.0,
+      "from_unit": 0,
+      "to_px": 69
+    },
+    {
+      "name": "smartisan_forbid_notification_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 156.0,
+      "from_unit": 0,
+      "to_px": 63
+    },
+    {
+      "name": "smartisan_forbid_notification_threshold",
+      "density": 480,
+      "orientation": 0,
+      "from": 830.0,
+      "from_unit": 0,
+      "to_px": 369
+    },
+    {
+      "name": "smartisan_forbid_notification_max_scroll_distance",
+      "density": 480,
+      "orientation": 0,
+      "from": 192.0,
+      "from_unit": 0,
+      "to_px": 85
+    },
+    {
+      "name": "status_bar_notification_row_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 443.0,
+      "from_unit": 0,
+      "to_px": 197
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 18.0,
+      "from_unit": 0,
+      "to_px": 7
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 251.0,
+      "from_unit": 0,
+      "to_px": 112
+    },
+    {
+      "name": "notification_panel_shadow_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 19.0,
+      "from_unit": 0,
+      "to_px": 8
+    },
+    {
+      "name": "notification_panel_header_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 74.0,
+      "from_unit": 0,
+      "to_px": 30
+    },
+    {
+      "name": "screem_shot_menu_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 153.0,
+      "from_unit": 0,
+      "to_px": 62
+    },
+    {
+      "name": "screem_shot_menu_btn_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 41.0,
+      "from_unit": 0,
+      "to_px": 18
+    },
+    {
+      "name": "global_screenshot_frame_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 229.0,
+      "from_unit": 0,
+      "to_px": 93
+    },
+    {
+      "name": "global_screenshot_frame_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 122.0,
+      "from_unit": 0,
+      "to_px": 54
+    },
+    {
+      "name": "screemshot_crop_indicator_size",
+      "density": 480,
+      "orientation": 0,
+      "from": 120.0,
+      "from_unit": 0,
+      "to_px": 53
+    },
+    {
+      "name": "screem_shot_frame_x_position",
+      "density": 480,
+      "orientation": 0,
+      "from": 538.0,
+      "from_unit": 0,
+      "to_px": 239
+    },
+    {
+      "name": "screem_shot_frame_y_position",
+      "density": 480,
+      "orientation": 0,
+      "from": 865.0,
+      "from_unit": 0,
+      "to_px": 351
+    },
+    {
+      "name": "display_bound_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 136.0,
+      "from_unit": 0,
+      "to_px": 60
+    },
+    {
+      "name": "display_bound_margin_top",
+      "density": 480,
+      "orientation": 0,
+      "from": 242.0,
+      "from_unit": 0,
+      "to_px": 98
+    },
+    {
+      "name": "display_bound_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 944.0,
+      "from_unit": 0,
+      "to_px": 420
+    },
+    {
+      "name": "display_bound_margin_bottom",
+      "density": 480,
+      "orientation": 0,
+      "from": 1679.0,
+      "from_unit": 0,
+      "to_px": 682
+    },
+    {
+      "name": "screem_shot_frame_view_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 836.0,
+      "from_unit": 0,
+      "to_px": 372
+    },
+    {
+      "name": "screem_shot_frame_view_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1461.0,
+      "from_unit": 0,
+      "to_px": 593
+    },
+    {
+      "name": "screem_shot_translate_distance",
+      "density": 480,
+      "orientation": 0,
+      "from": 2225.0,
+      "from_unit": 0,
+      "to_px": 989
+    },
+    {
+      "name": "screemshot_shell_screen_x_position",
+      "density": 480,
+      "orientation": 0,
+      "from": 272.0,
+      "from_unit": 0,
+      "to_px": 121
+    },
+    {
+      "name": "screemshot_shell_screen_y_position",
+      "density": 480,
+      "orientation": 0,
+      "from": 477.0,
+      "from_unit": 0,
+      "to_px": 194
+    },
+    {
+      "name": "easy_password_no_1_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "easy_password_no_2_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "easy_password_no_2_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "easy_password_no_3_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "easy_password_no_3_margin_right",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "easy_password_no_4_margin_left",
+      "density": 480,
+      "orientation": 0,
+      "from": 20.0,
+      "from_unit": 0,
+      "to_px": 9
+    },
+    {
+      "name": "selection_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 3500.0,
+      "from_unit": 0,
+      "to_px": 1421
+    },
+    {
+      "name": "mini_selection_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 406.0,
+      "from_unit": 0,
+      "to_px": 165
+    },
+    {
+      "name": "thumb_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 108.0,
+      "from_unit": 0,
+      "to_px": 48
+    },
+    {
+      "name": "thumb_container_width",
+      "density": 480,
+      "orientation": 0,
+      "from": 150.0,
+      "from_unit": 0,
+      "to_px": 67
+    },
+    {
+      "name": "thumb_width2",
+      "density": 480,
+      "orientation": 0,
+      "from": 114.0,
+      "from_unit": 0,
+      "to_px": 51
+    },
+    {
+      "name": "thumb_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 177.0,
+      "from_unit": 0,
+      "to_px": 72
+    },
+    {
+      "name": "panel_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 78.0,
+      "from_unit": 0,
+      "to_px": 32
+    },
+    {
+      "name": "main_top_padding",
+      "density": 480,
+      "orientation": 0,
+      "from": 70.0,
+      "from_unit": 0,
+      "to_px": 31
+    },
+    {
+      "name": "main_padding",
+      "density": 480,
+      "orientation": 0,
+      "from": 70.0,
+      "from_unit": 0,
+      "to_px": 31
+    },
+    {
+      "name": "mini_panel_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 39.0,
+      "from_unit": 0,
+      "to_px": 16
+    },
+    {
+      "name": "screem_shot_main_height",
+      "density": 480,
+      "orientation": 0,
+      "from": 1767.0,
+      "from_unit": 0,
+      "to_px": 718
+    },
+    {
+      "name": "expanded_status_bar_header_left_padding",
+      "density": 480,
+      "orientation": 2,
+      "from": 28.0,
+      "from_unit": 0,
+      "to_px": 12
+    },
+    {
+      "name": "smartisan_notifications_clear_button_translate_y",
+      "density": 480,
+      "orientation": 2,
+      "from": 475.0,
+      "from_unit": 0,
+      "to_px": 203
+    },
+    {
+      "name": "expanded_status_bar_header_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 155.0,
+      "from_unit": 0,
+      "to_px": 66
+    },
+    {
+      "name": "smartisan_notifications_container_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 1850.0,
+      "from_unit": 0,
+      "to_px": 771
+    },
+    {
+      "name": "smartisan_notifications_container_width_double",
+      "density": 480,
+      "orientation": 2,
+      "from": 3700.0,
+      "from_unit": 0,
+      "to_px": 1542
+    },
+    {
+      "name": "smartisan_power_widget_container_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 855.0,
+      "from_unit": 0,
+      "to_px": 365
+    },
+    {
+      "name": "smartisan_notifications_container_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 619.0,
+      "from_unit": 0,
+      "to_px": 264
+    },
+    {
+      "name": "close_handle_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 300.0,
+      "from_unit": 0,
+      "to_px": 128
+    },
+    {
+      "name": "smartisanos_status_bar_recent_item_margin_top_offset",
+      "density": 480,
+      "orientation": 2,
+      "from": 27.0,
+      "from_unit": 0,
+      "to_px": 12
+    },
+    {
+      "name": "status_bar_hit_size",
+      "density": 480,
+      "orientation": 2,
+      "from": 300.0,
+      "from_unit": 0,
+      "to_px": 125
+    },
+    {
+      "name": "status_bar_notification_row_container_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 2300.0,
+      "from_unit": 0,
+      "to_px": 958
+    },
+    {
+      "name": "smartisan_forbid_notification_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 156.0,
+      "from_unit": 0,
+      "to_px": 65
+    },
+    {
+      "name": "smartisan_forbid_notification_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 156.0,
+      "from_unit": 0,
+      "to_px": 67
+    },
+    {
+      "name": "smartisan_forbid_notification_threshold",
+      "density": 480,
+      "orientation": 2,
+      "from": 1700.0,
+      "from_unit": 0,
+      "to_px": 708
+    },
+    {
+      "name": "smartisan_forbid_notification_max_scroll_distance",
+      "density": 480,
+      "orientation": 2,
+      "from": 192.0,
+      "from_unit": 0,
+      "to_px": 80
+    },
+    {
+      "name": "status_bar_notification_row_margin_right",
+      "density": 480,
+      "orientation": 2,
+      "from": 443.0,
+      "from_unit": 0,
+      "to_px": 185
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_top",
+      "density": 480,
+      "orientation": 2,
+      "from": 18.0,
+      "from_unit": 0,
+      "to_px": 8
+    },
+    {
+      "name": "smartisan_forbid_notification_margin_right",
+      "density": 480,
+      "orientation": 2,
+      "from": 251.0,
+      "from_unit": 0,
+      "to_px": 105
+    },
+    {
+      "name": "screem_shot_menu_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 153.0,
+      "from_unit": 0,
+      "to_px": 65
+    },
+    {
+      "name": "global_screenshot_frame_margin_top",
+      "density": 480,
+      "orientation": 2,
+      "from": 47.0,
+      "from_unit": 0,
+      "to_px": 20
+    },
+    {
+      "name": "global_screenshot_frame_margin_left",
+      "density": 480,
+      "orientation": 2,
+      "from": 230.0,
+      "from_unit": 0,
+      "to_px": 96
+    },
+    {
+      "name": "screem_shot_frame_x_position",
+      "density": 480,
+      "orientation": 2,
+      "from": 960.0,
+      "from_unit": 0,
+      "to_px": 400
+    },
+    {
+      "name": "screem_shot_frame_y_position",
+      "density": 480,
+      "orientation": 2,
+      "from": 468.0,
+      "from_unit": 0,
+      "to_px": 200
+    },
+    {
+      "name": "screem_shot_view_y_transition",
+      "density": 480,
+      "orientation": 2,
+      "from": -75.0,
+      "from_unit": 0,
+      "to_px": -32
+    },
+    {
+      "name": "screem_shot_menu_y_transition",
+      "density": 480,
+      "orientation": 2,
+      "from": 956.0,
+      "from_unit": 0,
+      "to_px": 408
+    },
+    {
+      "name": "display_bound_margin_left",
+      "density": 480,
+      "orientation": 2,
+      "from": 242.0,
+      "from_unit": 0,
+      "to_px": 101
+    },
+    {
+      "name": "display_bound_margin_top",
+      "density": 480,
+      "orientation": 2,
+      "from": 61.0,
+      "from_unit": 0,
+      "to_px": 26
+    },
+    {
+      "name": "display_bound_margin_right",
+      "density": 480,
+      "orientation": 2,
+      "from": 1678.0,
+      "from_unit": 0,
+      "to_px": 699
+    },
+    {
+      "name": "display_bound_margin_bottom",
+      "density": 480,
+      "orientation": 2,
+      "from": 870.0,
+      "from_unit": 0,
+      "to_px": 372
+    },
+    {
+      "name": "screem_shot_frame_view_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 1461.0,
+      "from_unit": 0,
+      "to_px": 609
+    },
+    {
+      "name": "screem_shot_frame_view_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 836.0,
+      "from_unit": 0,
+      "to_px": 357
+    },
+    {
+      "name": "screemshot_shell_screen_x_position",
+      "density": 480,
+      "orientation": 2,
+      "from": 477.0,
+      "from_unit": 0,
+      "to_px": 199
+    },
+    {
+      "name": "screemshot_shell_screen_y_position",
+      "density": 480,
+      "orientation": 2,
+      "from": 274.0,
+      "from_unit": 0,
+      "to_px": 117
+    },
+    {
+      "name": "selection_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 3500.0,
+      "from_unit": 0,
+      "to_px": 1495
+    },
+    {
+      "name": "mini_selection_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 406.0,
+      "from_unit": 0,
+      "to_px": 173
+    },
+    {
+      "name": "thumb_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 192.0,
+      "from_unit": 0,
+      "to_px": 80
+    },
+    {
+      "name": "thumb_container_width",
+      "density": 480,
+      "orientation": 2,
+      "from": 234.0,
+      "from_unit": 0,
+      "to_px": 98
+    },
+    {
+      "name": "thumb_width2",
+      "density": 480,
+      "orientation": 2,
+      "from": 198.0,
+      "from_unit": 0,
+      "to_px": 82
+    },
+    {
+      "name": "thumb_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 87.0,
+      "from_unit": 0,
+      "to_px": 37
+    },
+    {
+      "name": "main_top_padding",
+      "density": 480,
+      "orientation": 2,
+      "from": 70.0,
+      "from_unit": 0,
+      "to_px": 29
+    },
+    {
+      "name": "main_padding",
+      "density": 480,
+      "orientation": 2,
+      "from": 124.0,
+      "from_unit": 0,
+      "to_px": 52
+    },
+    {
+      "name": "screem_shot_main_height",
+      "density": 480,
+      "orientation": 2,
+      "from": 935.0,
+      "from_unit": 0,
+      "to_px": 399
+    }
+  ]
+}

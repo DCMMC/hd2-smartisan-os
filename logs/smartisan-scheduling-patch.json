@@ -1,0 +1,6 @@
+{
+  "offset": "0x4ad4",
+  "reason": "Map Smartisan system-server scheduling group 2 to HD2 foreground cgroup; previous unsupported case returned EINVAL",
+  "input_sha256": "9411e2b1854c33bcb6d702e1540016cbbb9d1c80fd36bcf36289d1af0e0b4047",
+  "output_sha256": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6"
+}

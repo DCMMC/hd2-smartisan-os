@@ -1,0 +1,131 @@
+debugfs: rm /system/lib/libhd2compat.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libhd2compat.so /system/lib/libhd2compat.so
+Allocated inode: 54
+debugfs: set_inode_field /system/lib/libhd2compat.so mode 0100644
+debugfs: set_inode_field /system/lib/libhd2compat.so uid 0
+debugfs: set_inode_field /system/lib/libhd2compat.so gid 0
+debugfs: rm /system/lib/libutils.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libutils.so /system/lib/libutils.so
+Allocated inode: 81
+debugfs: set_inode_field /system/lib/libutils.so mode 0100644
+debugfs: set_inode_field /system/lib/libutils.so uid 0
+debugfs: set_inode_field /system/lib/libutils.so gid 0
+debugfs: rm /system/lib/libui.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libui.so /system/lib/libui.so
+Allocated inode: 91
+debugfs: set_inode_field /system/lib/libui.so mode 0100644
+debugfs: set_inode_field /system/lib/libui.so uid 0
+debugfs: set_inode_field /system/lib/libui.so gid 0
+debugfs: rm /system/lib/libcutils.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libcutils.so /system/lib/libcutils.so
+Allocated inode: 366
+debugfs: set_inode_field /system/lib/libcutils.so mode 0100644
+debugfs: set_inode_field /system/lib/libcutils.so uid 0
+debugfs: set_inode_field /system/lib/libcutils.so gid 0
+debugfs: rm /system/lib/libsurfaceflinger.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libsurfaceflinger.so /system/lib/libsurfaceflinger.so
+Allocated inode: 367
+debugfs: set_inode_field /system/lib/libsurfaceflinger.so mode 0100644
+debugfs: set_inode_field /system/lib/libsurfaceflinger.so uid 0
+debugfs: set_inode_field /system/lib/libsurfaceflinger.so gid 0
+debugfs: rm /system/lib/libcamera.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libcamera.so /system/lib/libcamera.so
+Allocated inode: 381
+debugfs: set_inode_field /system/lib/libcamera.so mode 0100644
+debugfs: set_inode_field /system/lib/libcamera.so uid 0
+debugfs: set_inode_field /system/lib/libcamera.so gid 0
+debugfs: rm /system/lib/libhwui.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/libhwui.so /system/lib/libhwui.so
+Allocated inode: 388
+debugfs: set_inode_field /system/lib/libhwui.so mode 0100644
+debugfs: set_inode_field /system/lib/libhwui.so uid 0
+debugfs: set_inode_field /system/lib/libhwui.so gid 0
+debugfs: rm /system/lib/egl/eglsubAndroid.so
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/lib/egl/eglsubAndroid.so /system/lib/egl/eglsubAndroid.so
+Allocated inode: 389
+debugfs: set_inode_field /system/lib/egl/eglsubAndroid.so mode 0100644
+debugfs: set_inode_field /system/lib/egl/eglsubAndroid.so uid 0
+debugfs: set_inode_field /system/lib/egl/eglsubAndroid.so gid 0
+debugfs: rm /system/bin/app_process.hd2
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/bin/app_process.hd2 /system/bin/app_process.hd2
+Allocated inode: 397
+debugfs: set_inode_field /system/bin/app_process.hd2 mode 0100755
+debugfs: set_inode_field /system/bin/app_process.hd2 uid 0
+debugfs: set_inode_field /system/bin/app_process.hd2 gid 2000
+debugfs: rm /system/bin/app_process
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/bin/app_process /system/bin/app_process
+Allocated inode: 97
+debugfs: set_inode_field /system/bin/app_process mode 0100755
+debugfs: set_inode_field /system/bin/app_process uid 0
+debugfs: set_inode_field /system/bin/app_process gid 2000
+debugfs: rm /system/bin/hd2-runtime
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/bin/hd2-runtime /system/bin/hd2-runtime
+Allocated inode: 924
+debugfs: set_inode_field /system/bin/hd2-runtime mode 0100755
+debugfs: set_inode_field /system/bin/hd2-runtime uid 0
+debugfs: set_inode_field /system/bin/hd2-runtime gid 2000
+debugfs: rm /system/priv-app/LauncherSmartisanNew.apk
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/priv-app/LauncherSmartisanNew.apk /system/priv-app/LauncherSmartisanNew.apk
+Allocated inode: 829
+debugfs: set_inode_field /system/priv-app/LauncherSmartisanNew.apk mode 0100644
+debugfs: set_inode_field /system/priv-app/LauncherSmartisanNew.apk uid 0
+debugfs: set_inode_field /system/priv-app/LauncherSmartisanNew.apk gid 0
+debugfs: rm /system/priv-app/SystemUISmartisan.apk
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/priv-app/SystemUISmartisan.apk /system/priv-app/SystemUISmartisan.apk
+Allocated inode: 941
+debugfs: set_inode_field /system/priv-app/SystemUISmartisan.apk mode 0100644
+debugfs: set_inode_field /system/priv-app/SystemUISmartisan.apk uid 0
+debugfs: set_inode_field /system/priv-app/SystemUISmartisan.apk gid 0
+debugfs: rm /system/framework/core.jar
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/framework/core.jar /system/framework/core.jar
+Allocated inode: 731
+debugfs: set_inode_field /system/framework/core.jar mode 0100644
+debugfs: set_inode_field /system/framework/core.jar uid 0
+debugfs: set_inode_field /system/framework/core.jar gid 0
+debugfs: rm /system/build.prop
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/build.prop /system/build.prop
+Allocated inode: 288
+debugfs: set_inode_field /system/build.prop mode 0100644
+debugfs: set_inode_field /system/build.prop uid 0
+debugfs: set_inode_field /system/build.prop gid 0
+debugfs: rm /system/etc/gps.conf
+
+debugfs: write /home/DCMMC/Projects/hd2-ports/work/smartisan-stage/system/etc/gps.conf /system/etc/gps.conf
+Allocated inode: 322
+debugfs: set_inode_field /system/etc/gps.conf mode 0100644
+debugfs: set_inode_field /system/etc/gps.conf uid 0
+debugfs: set_inode_field /system/etc/gps.conf gid 0
+debugfs: rm /system/app/NfcNci.apk
+debugfs: rm /system/app/TimeService.apk
+debugfs: rm /system/app/qcrilmsgtunnel.apk
+debugfs: rm /system/etc/permissions/android.hardware.nfc.hce.xml
+debugfs: rm /system/etc/permissions/android.hardware.nfc.xml
+debugfs: rm /system/etc/permissions/com.android.nfc_extras.xml
+debugfs: rm /system/etc/permissions/com.broadcom.nfc.xml
+debugfs: rm /system/etc/permissions/com.vzw.nfc.xml
+debugfs: rm /system/etc/permissions/android.hardware.wifi.direct.xml
+debugfs 1.47.4 (6-Mar-2025)
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename
+rm: File not found by ext2_lookup while trying to resolve filename

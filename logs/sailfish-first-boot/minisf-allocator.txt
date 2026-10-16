@@ -1,0 +1,10 @@
+Reading /system/bin/linker from remote target...
+warning: File transfers from remote targets can be slow. Use "set sysroot" to access files locally instead.
+warning: Could not load shared library symbols for 22 libraries, e.g. libc.so.
+Use the "info sharedlibrary" command to see the complete listing.
+Do you need "set solib-search-path" or "set sysroot"?
+Reading /system/bin/linker from remote target...
+0x400525e0 in ?? ()
+0x4045300c:	0x00014a58
+0x14a58:	0x40452d60	0x00014a70	0x00014aa8	0x00014ab8
+[Inferior 1 (process 257) detached]

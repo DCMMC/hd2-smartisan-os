@@ -1,0 +1,5 @@
+db8f8928ba0b271472398537ec3274837f93fdc1c67db7e29ac111982140340b  /boot-sd/HD2-SM20/runtime-patch.tar.gz
+87f93eeee46f1241c276ee7a4622e7cb5ece268cda33cf91b199e328cd1b5587  /system/build.prop
+04e5221d99005c378fb319c1dcd93e6c12b63aa4e63e9fcd2fff028ae5c4150e  /boot-sd/HD2-SM20/initrd.gz
+1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5  /system/priv-app/SystemUISmartisan.apk
+eab7ccbd874f88b253ae3d7aac5ddeda64c23a66ac80528f76b6c77fdf59c99b  /system/etc/gps.conf

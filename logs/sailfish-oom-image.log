@@ -1,0 +1,36 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /etc/systemd/system/dbus.service.d/hd2-legacy.conf
+
+debugfs: rm /etc/systemd/system/dbus.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write work/sailfish-stage/etc/systemd/system/dbus.service /etc/systemd/system/dbus.service
+Allocated inode: 22434
+debugfs: set_inode_field /etc/systemd/system/dbus.service mode 0100644
+debugfs: rm /etc/systemd/system/systemd-readahead-collect.service.d/hd2-legacy.conf
+
+debugfs: rm /etc/systemd/system/systemd-readahead-collect.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-readahead-collect.service /etc/systemd/system/systemd-readahead-collect.service
+Allocated inode: 22436
+debugfs: set_inode_field /etc/systemd/system/systemd-readahead-collect.service mode 0100644
+debugfs: rm /etc/systemd/system/systemd-readahead-replay.service.d/hd2-legacy.conf
+
+debugfs: rm /etc/systemd/system/systemd-readahead-replay.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-readahead-replay.service /etc/systemd/system/systemd-readahead-replay.service
+Allocated inode: 22438
+debugfs: set_inode_field /etc/systemd/system/systemd-readahead-replay.service mode 0100644
+debugfs: rm /etc/systemd/system/systemd-udevd.service.d/hd2-legacy.conf
+
+debugfs: rm /etc/systemd/system/systemd-udevd.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-udevd.service /etc/systemd/system/systemd-udevd.service
+Allocated inode: 22440
+debugfs: set_inode_field /etc/systemd/system/systemd-udevd.service mode 0100644
+debugfs: rm /etc/systemd/system/user@.service.d/hd2-legacy.conf
+
+debugfs: rm /etc/systemd/system/user@.service
+rm: File not found by ext2_lookup while trying to resolve filename
+debugfs: write work/sailfish-stage/etc/systemd/system/user@.service /etc/systemd/system/user@.service
+Allocated inode: 22442
+debugfs: set_inode_field /etc/systemd/system/user@.service mode 0100644

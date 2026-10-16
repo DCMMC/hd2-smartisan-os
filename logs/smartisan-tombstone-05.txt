@@ -1,0 +1,385 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'htc/cm_leo/leo:4.4.1/KOT49E/a4fc6336a7:eng/test-keys'
+Revision: '0'
+pid: 4117, tid: 4117, name: UNKNOWN  >>> zygote <<<
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+    r0 00000000  r1 00001015  r2 00000006  r3 00000000
+    r4 40011f2c  r5 00000006  r6 00000016  r7 0000010c
+    r8 00000001  r9 2a0478b0  sl 00000000  fp 00000000
+    ip 00001015  sp bed4b360  lr 4003a057  pc 40048fe4  cpsr 000f0010
+    d0  6165726874202c7a  d1  6c616e7265747879
+    d2  6c62616e75203b67  d3  6f7270206f74206f
+    d4  006c00610063002f  d5  006c00650073005f
+    d6  3e4ccccd00083000  d7  42c800004a7f69a0
+    d8  0000000000000000  d9  0000000000000000
+    d10 0000000000000000  d11 0000000000000000
+    d12 0000000000000000  d13 0000000000000000
+    d14 0000000000000000  d15 0000000000000000
+    d16 000000000000001c  d17 00f58e4e00f39043
+    d18 00f98a6400f78c59  d19 00fd867a00fb886f
+    d20 000ff058000ff058  d21 000ff058000ff058
+    d22 0000000100000001  d23 0000000100000001
+    d24 000000ea000000e8  d25 000000ee000000ec
+    d26 038680e2037e80e0  d27 039640e6038e40e4
+    d28 000000e9000000e7  d29 000000ed000000eb
+    d30 03a640ea039e40e8  d31 03b640ee03ae40ec
+    scr 80000010
+
+backtrace:
+    #00  pc 00021fe4  /system/lib/libc.so (tgkill+12)
+    #01  pc 00013053  /system/lib/libc.so (pthread_kill+50)
+    #02  pc 0001324b  /system/lib/libc.so (raise+10)
+    #03  pc 00011fb7  /system/lib/libc.so
+    #04  pc 00021898  /system/lib/libc.so (abort+4)
+    #05  pc 00047127  /system/lib/libdvm.so (dvmAbort+78)
+    #06  pc 000680c5  /system/lib/libdvm.so
+    #07  pc 00068213  /system/lib/libdvm.so
+    #08  pc 00027e60  /system/lib/libdvm.so
+    #09  pc 0002f30c  /system/lib/libdvm.so (dvmMterpStd(Thread*)+76)
+    #10  pc 0002c9a4  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+184)
+    #11  pc 000618b1  /system/lib/libdvm.so (dvmCallMethodV(Thread*, Method const*, Object*, bool, JValue*, std::__va_list)+336)
+    #12  pc 0004b0eb  /system/lib/libdvm.so
+    #13  pc 0004e197  /system/lib/libandroid_runtime.so
+    #14  pc 0004eebb  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+354)
+    #15  pc 0000105b  /system/bin/app_process
+    #16  pc 0000e3ff  /system/lib/libc.so (__libc_init+50)
+    #17  pc 00000d7c  /system/bin/app_process
+
+stack:
+         bed4b320  00000000  
+         bed4b324  00000000  
+         bed4b328  2a053e28  [heap]
+         bed4b32c  40011f2c  /system/bin/linker
+         bed4b330  4152cc6c  /system/lib/libdvm.so
+         bed4b334  00000001  
+         bed4b338  2a0478b0  [heap]
+         bed4b33c  00000000  
+         bed4b340  00000000  
+         bed4b344  4004d791  /system/lib/libc.so (snprintf+80)
+         bed4b348  00000000  
+         bed4b34c  00000000  
+         bed4b350  bed4b3c4  [stack]
+         bed4b354  00000000  
+         bed4b358  00000000  
+         bed4b35c  00000000  
+    #00  bed4b360  40011f2c  /system/bin/linker
+         bed4b364  00000006  
+         bed4b368  00000016  
+         bed4b36c  00001015  
+         bed4b370  00001015  
+         bed4b374  4003a057  /system/lib/libc.so (pthread_kill+54)
+    #01  bed4b378  40011f24  /system/bin/linker
+         bed4b37c  00000006  
+         bed4b380  00000000  
+         bed4b384  40011f2c  /system/bin/linker
+         bed4b388  4152cc6c  /system/lib/libdvm.so
+         bed4b38c  4003a24f  /system/lib/libc.so (raise+14)
+    #02  bed4b390  bed4b39c  [stack]
+         bed4b394  40038fbb  /system/lib/libc.so
+    #03  bed4b398  00000000  
+         bed4b39c  ffffffdf  
+         bed4b3a0  400712c4  /system/lib/libc.so
+         bed4b3a4  4007122c  /system/lib/libc.so
+         bed4b3a8  00000000  
+         bed4b3ac  4003bb47  /system/lib/libc.so (_fwalk+34)
+         bed4b3b0  415312c8  /system/lib/libdvm.so
+         bed4b3b4  415312c8  /system/lib/libdvm.so
+         bed4b3b8  2a053e28  [heap]
+         bed4b3bc  4004889c  /system/lib/libc.so (__pthread_clone)
+    #04  bed4b3c0  00000000  
+         bed4b3c4  414c612b  /system/lib/libdvm.so (dvmAbort+82)
+    #05  bed4b3c8  2a00b4d0  [heap]
+         bed4b3cc  6c756e28  
+         bed4b3d0  0000296c  
+         bed4b3d4  00000000  
+         bed4b3d8  00000000  
+         bed4b3dc  00000000  
+         bed4b3e0  00000000  
+         bed4b3e4  00000000  
+         bed4b3e8  00000000  
+         bed4b3ec  00000000  
+         bed4b3f0  00000000  
+         bed4b3f4  00000000  
+         bed4b3f8  00000000  
+         bed4b3fc  00000000  
+         bed4b400  00000000  
+         bed4b404  00000000  
+         ........  ........
+    #06  bed4b5d8  00000000  
+         bed4b5dc  4c508600  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b5e0  2a00d5d0  [heap]
+         bed4b5e4  414ce569  /system/lib/libdvm.so (dvmCallJNIMethod(unsigned int const*, JValue*, Method const*, Thread*)+600)
+         bed4b5e8  4c4e5e58  
+         bed4b5ec  4d6b6acf  /data/dalvik-cache/system@framework@core.jar@classes.dex
+         bed4b5f0  00000000  
+         bed4b5f4  00000000  
+         bed4b5f8  00000000  
+         bed4b5fc  00000002  
+         bed4b600  000003e8  
+         bed4b604  415312c8  /system/lib/libdvm.so
+         bed4b608  00000000  
+         bed4b60c  00000000  
+         bed4b610  419f4d30  /dev/ashmem/dalvik-heap (deleted)
+         bed4b614  40075384  
+         ........  ........
+    #07  bed4b6f8  4d563442  /data/dalvik-cache/system@framework@core.jar@classes.dex
+         bed4b6fc  414a6e64  /system/lib/libdvm.so
+    #08  bed4b700  bed4b73c  [stack]
+         bed4b704  2a00d5d0  [heap]
+         bed4b708  414ae2c0  /system/lib/libdvm.so (dvmMterpStd(Thread*))
+         bed4b70c  00000000  
+         bed4b710  bed4b828  [stack]
+         bed4b714  2a00d5d0  [heap]
+         bed4b718  bed4b754  [stack]
+         bed4b71c  4c5bfd10  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b720  bed4b858  [stack]
+         bed4b724  414ae310  /system/lib/libdvm.so (dvmMterpStd(Thread*)+80)
+    #09  bed4b728  414ae2c0  /system/lib/libdvm.so (dvmMterpStd(Thread*))
+         bed4b72c  414ab9a8  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+188)
+         bed4b730  415312c8  /system/lib/libdvm.so
+         bed4b734  40075384  
+         bed4b738  4e787e94  /data/dalvik-cache/system@framework@framework2.jar@classes.dex
+         bed4b73c  fffffea4  
+         bed4b740  414ae2c0  /system/lib/libdvm.so (dvmMterpStd(Thread*))
+         bed4b744  414ab9a8  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+188)
+    #10  bed4b748  41599e08  /dev/ashmem/dalvik-zygote (deleted)
+         bed4b74c  000001d8  
+         bed4b750  2a00d93c  [heap]
+         bed4b754  00000000  
+         bed4b758  4c4e5fa8  
+         bed4b75c  00000000  
+         bed4b760  00000000  
+         bed4b764  00000000  
+         bed4b768  00000000  
+         bed4b76c  00000000  
+         bed4b770  00000000  
+         bed4b774  00000000  
+         bed4b778  00000000  
+         bed4b77c  00000000  
+         bed4b780  00000000  
+         bed4b784  00000000  
+         ........  ........
+    #11  bed4b7d8  bed4b7a0  [stack]
+         bed4b7dc  00000020  
+         bed4b7e0  4c5bfd24  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b7e4  4e6dc2a0  /data/dalvik-cache/system@framework@framework2.jar@classes.dex
+         bed4b7e8  00000001  
+         bed4b7ec  00000001  
+         bed4b7f0  415331b0  
+         bed4b7f4  4c5bfd10  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b7f8  bed4b854  [stack]
+         bed4b7fc  1df00009  
+         bed4b800  1d500015  
+         bed4b804  00000004  
+         bed4b808  bed4bb23  [stack]
+         bed4b80c  00000000  
+         bed4b810  bed4bb02  [stack]
+         bed4b814  414ca0ef  /system/lib/libdvm.so
+    #12  bed4b818  bed4b828  [stack]
+         bed4b81c  bed4b854  [stack]
+         bed4b820  4c5bfd10  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b824  2a00d5d0  [heap]
+         bed4b828  4154d1c8  /dev/ashmem/dalvik-zygote (deleted)
+         bed4b82c  414c9961  /system/lib/libdvm.so
+         bed4b830  1d500015  
+         bed4b834  414ca0cd  /system/lib/libdvm.so
+         bed4b838  2a02e7f0  [heap]
+         bed4b83c  4013d199  /system/lib/libandroid_runtime.so
+    #13  bed4b840  2a009ee0  [heap]
+         bed4b844  bed4b854  [stack]
+         bed4b848  2a0013ac  /system/bin/app_process
+         bed4b84c  4013debf  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+358)
+         bed4b850  4c5bfd10  /dev/ashmem/dalvik-LinearAlloc (deleted)
+         bed4b854  1df00009  
+    #14  bed4b858  2a009ee0  [heap]
+         bed4b85c  00000000  
+         bed4b860  4145c128  
+         bed4b864  414cde09  /system/lib/libdvm.so (JNI_GetDefaultJavaVMInitArgs)
+         bed4b868  414cde39  /system/lib/libdvm.so (JNI_CreateJavaVM)
+         bed4b86c  414cde11  /system/lib/libdvm.so (JNI_GetCreatedJavaVMs)
+         bed4b870  000000bb  
+         bed4b874  00000000  
+         bed4b878  2a009e68  [heap]
+         bed4b87c  40037ef7  /system/lib/libc.so (dlmalloc+4254)
+         bed4b880  00000000  
+         bed4b884  bed4b90c  [stack]
+         bed4b888  00000000  
+         bed4b88c  400af39d  /system/lib/libutils.so (android::VectorImpl::_grow(unsigned int, unsigned int)+152)
+         bed4b890  00000000  
+         bed4b894  400af003  /system/lib/libutils.so (android::VectorImpl::itemLocation(unsigned int) const+10)
+         ........  ........
+    #15  bed4b8e0  00000001  
+         bed4b8e4  00000001  
+         bed4b8e8  00000000  
+         bed4b8ec  bed4ba04  [stack]
+         bed4b8f0  40075384  
+         bed4b8f4  2a001372  /system/bin/app_process
+         bed4b8f8  2a001300  /system/bin/app_process
+         bed4b8fc  2a00137b  /system/bin/app_process
+         bed4b900  2a001391  /system/bin/app_process
+         bed4b904  2a00139f  /system/bin/app_process
+         bed4b908  2a002e08  /system/bin/app_process
+         bed4b90c  40199448  /system/lib/libandroid_runtime.so
+         bed4b910  2a009f70  [heap]
+         bed4b914  00000016  
+         bed4b918  00000000  
+         bed4b91c  00000008  
+         ........  ........
+    #16  bed4b9c0  00000000  
+         bed4b9c4  00000000  
+         bed4b9c8  00000000  
+         bed4b9cc  00000000  
+         bed4b9d0  00000000  
+         bed4b9d4  2a000d80  /system/bin/app_process
+    #17  bed4b9d8  2a002de8  /system/bin/app_process
+         bed4b9dc  2a002df0  /system/bin/app_process
+         bed4b9e0  2a002df8  /system/bin/app_process
+         bed4b9e4  bed4b9f0  [stack]
+         bed4b9e8  00000000  
+         bed4b9ec  4000187d  /system/bin/linker
+         bed4b9f0  00000005  
+         bed4b9f4  bed4bb02  [stack]
+         bed4b9f8  bed4bb1a  [stack]
+         bed4b9fc  bed4bb23  [stack]
+         bed4ba00  bed4bb2f  [stack]
+         bed4ba04  bed4bb38  [stack]
+         bed4ba08  00000000  
+         bed4ba0c  bed4bb4e  [stack]
+         bed4ba10  bed4bb8b  [stack]
+         bed4ba14  bed4bbb3  [stack]
+
+memory near r1:
+    00000ff4 ffffffff ffffffff ffffffff ffffffff  
+    00001004 ffffffff ffffffff ffffffff ffffffff  
+    00001014 ffffffff ffffffff ffffffff ffffffff  
+    00001024 ffffffff ffffffff ffffffff ffffffff  
+    00001034 ffffffff ffffffff ffffffff ffffffff  
+    00001044 ffffffff ffffffff ffffffff ffffffff  
+    00001054 ffffffff ffffffff ffffffff ffffffff  
+    00001064 ffffffff ffffffff ffffffff ffffffff  
+    00001074 ffffffff ffffffff ffffffff ffffffff  
+    00001084 ffffffff ffffffff ffffffff ffffffff  
+    00001094 ffffffff ffffffff ffffffff ffffffff  
+    000010a4 ffffffff ffffffff ffffffff ffffffff  
+    000010b4 ffffffff ffffffff ffffffff ffffffff  
+    000010c4 ffffffff ffffffff ffffffff ffffffff  
+    000010d4 ffffffff ffffffff ffffffff ffffffff  
+    000010e4 ffffffff ffffffff ffffffff ffffffff  
+
+memory near r4:
+    40011f0c 00000000 00000000 00000000 00000000  
+    40011f1c bed4ba0c 00000000 40011f24 40012154  
+    40011f2c 00000016 402e6844 00000000 00000000  
+    40011f3c 40012194 00000000 00000000 2a0f6030  
+    40011f4c 00000000 00000000 00000000 00000000  
+    40011f5c 00000000 2a00d5d0 2a012360 00000000  
+    40011f6c 2a0ccdd0 00000000 00000000 00000000  
+    40011f7c 00000000 00000000 00000000 00000000  
+    40011f8c 00000000 00000000 00000000 00000000  
+    40011f9c 00000000 00000000 00000000 00000000  
+    40011fac 00000000 00000000 00000000 00000000  
+    40011fbc 00000000 00000000 00000000 00000000  
+    40011fcc 00000000 00000000 00000000 00000000  
+    40011fdc 00000000 00000000 00000000 00000000  
+    40011fec 00000000 00000000 00000000 00000000  
+    40011ffc 00000000 00000000 00000000 00000000  
+
+memory near r9:
+    2a047890 419f4318 00000000 00000000 2a047860  
+    2a0478a0 00000000 00000000 00000012 00000013  
+    2a0478b0 61666564 00746c75 00000010 0000005b  
+    2a0478c0 09020201 2a0478e0 2a0478e8 00000000  
+    2a0478d0 00000000 00000000 00000000 2a0478f0  
+    2a0478e0 0000000e 00000010 00000005 00000006  
+    2a0478f0 00000000 00000000 00000000 00000000  
+    2a047900 00000000 00000000 00000001 00000001  
+    2a047910 00000001 0000003b 00000000 2a046ff8  
+    2a047920 00000000 00000001 417be480 00000000  
+    2a047930 00000078 0000001e 0000000f 00040006  
+    2a047940 392e6c61 676e702e 00000038 00000053  
+    2a047950 00000000 41400000 3f800000 00000000  
+    2a047960 00000000 00000000 00000000 00000000  
+    2a047970 00000000 00000000 00000000 00000000  
+    2a047980 00000000 ff000000 00000000 40800000  
+
+memory near ip:
+    00000ff4 ffffffff ffffffff ffffffff ffffffff  
+    00001004 ffffffff ffffffff ffffffff ffffffff  
+    00001014 ffffffff ffffffff ffffffff ffffffff  
+    00001024 ffffffff ffffffff ffffffff ffffffff  
+    00001034 ffffffff ffffffff ffffffff ffffffff  
+    00001044 ffffffff ffffffff ffffffff ffffffff  
+    00001054 ffffffff ffffffff ffffffff ffffffff  
+    00001064 ffffffff ffffffff ffffffff ffffffff  
+    00001074 ffffffff ffffffff ffffffff ffffffff  
+    00001084 ffffffff ffffffff ffffffff ffffffff  
+    00001094 ffffffff ffffffff ffffffff ffffffff  
+    000010a4 ffffffff ffffffff ffffffff ffffffff  
+    000010b4 ffffffff ffffffff ffffffff ffffffff  
+    000010c4 ffffffff ffffffff ffffffff ffffffff  
+    000010d4 ffffffff ffffffff ffffffff ffffffff  
+    000010e4 ffffffff ffffffff ffffffff ffffffff  
+
+memory near sp:
+    bed4b340 00000000 4004d791 00000000 00000000  
+    bed4b350 bed4b3c4 00000000 00000000 00000000  
+    bed4b360 40011f2c 00000006 00000016 00001015  
+    bed4b370 00001015 4003a057 40011f24 00000006  
+    bed4b380 00000000 40011f2c 4152cc6c 4003a24f  
+    bed4b390 bed4b39c 40038fbb 00000000 ffffffdf  
+    bed4b3a0 400712c4 4007122c 00000000 4003bb47  
+    bed4b3b0 415312c8 415312c8 2a053e28 4004889c  
+    bed4b3c0 00000000 414c612b 2a00b4d0 6c756e28  
+    bed4b3d0 0000296c 00000000 00000000 00000000  
+    bed4b3e0 00000000 00000000 00000000 00000000  
+    bed4b3f0 00000000 00000000 00000000 00000000  
+    bed4b400 00000000 00000000 00000000 00000000  
+    bed4b410 00000000 00000000 00000000 00000000  
+    bed4b420 00000000 00000000 00000000 00000000  
+    bed4b430 00000000 00000000 00000000 00000000  
+
+code around pc:
+    40048fc4 e8bd00f0 e3700a01 912fff1e e2600000  
+    40048fd4 ea006eb9 e92d50f0 e3a07f43 ef000000  
+    40048fe4 e8bd50f0 e3700a01 912fff1e e2600000  
+    40048ff4 ea006eb1 e92d50f0 e3a070ee ef000000  
+    40049004 e8bd50f0 e3700a01 912fff1e e2600000  
+    40049014 ea006ea9 e1520003 8a00008c f5d1f040  
+    40049024 e92d4001 e3520010 3a000024 e2603000  
+    40049034 e213300f 0a00000e e0422003 e1b0cf83  
+    40049044 44d1e001 44c0e001 24d1c001 24d1e001  
+    40049054 24c0c001 24c0e001 e1b0ce83 aa000001  
+    40049064 f4a1030d f480031d 3a000001 f421070d  
+    40049074 f400071d e2522040 3a000006 f421020d  
+    40049084 f421420d f5d1f100 e2522040 f400022d  
+    40049094 f400422d 2afffff8 e2922020 3a000002  
+    400490a4 f421020d e2422020 f400022d e2822020  
+    400490b4 e3120010 0a000001 f4210a0d f4000a2d  
+
+code around lr:
+    4003a034 4b11ec28 e010447b d10e42bb 480f6a1f  
+    4003a044 f7fb4478 f00dec9c 4639ea00 f00e462a  
+    4003a054 3001efc2 2500d00a 681be009 d1eb2b00  
+    4003a064 25034807 f7fb4478 e000ec8a 60266825  
+    4003a074 bdf84628 0003b36c 0003b360 0003b358  
+    4003a084 0003b334 bf82f7ff 4a3a4b39 e92d447b  
+    4003a094 b08a47f0 4607589e 6833460d 930946b1  
+    4003a0a4 f9fcf001 f8d04604 2d008000 4628d04a  
+    4003a0b4 fe96f00f 4606280f f7ffd846 4287ffe3  
+    4003a0c4 200fd106 f00d4629 2800e8ce e032d03d  
+    4003a0d4 44784829 ebd4f7fb 44784828 42b8e015  
+    4003a0e4 6a07d113 44784826 ec48f7fb 463b4a25  
+    4003a0f4 447a2120 f013a801 2101fb21 f01aa801  
+    4003a104 1c43fe33 d1044607 6800e015 d1e62800  
+    4003a114 4638e023 46324629 e908f00d 3ffff1b0  
+    4003a124 d1024682 29046821 4638d0f3 e958f00d  
+--------- tail end of log /dev/log/main
+10-16 18:58:55.488  4117  4117 E dalvikvm: Storage environment undefined; unable to provide external storage
+10-16 18:58:55.498  4117  4117 E dalvikvm: cannot mountExternalStorage(): Invalid argument
+10-16 18:58:55.498  4117  4117 E dalvikvm: VM aborting
+10-16 18:58:55.498  4117  4117 F libc    : Fatal signal 6 (SIGABRT) at 0x00001015 (code=-6), thread 4117 (zygote)
+--------- log /dev/log/main
+10-16 18:58:55.488  4117  4117 E dalvikvm: Storage environment undefined; unable to provide external storage
+10-16 18:58:55.498  4117  4117 E dalvikvm: cannot mountExternalStorage(): Invalid argument
+10-16 18:58:55.498  4117  4117 E dalvikvm: VM aborting
+10-16 18:58:55.498  4117  4117 F libc    : Fatal signal 6 (SIGABRT) at 0x00001015 (code=-6), thread 4117 (zygote)

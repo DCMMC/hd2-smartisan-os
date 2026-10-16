@@ -1,0 +1,54 @@
+warning: .dynamic section for "/home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcutils.so" is not at the expected address (wrong library or version mismatch?)
+0x400d2ed8 in nanosleep () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+
+Thread 3 (Thread 256.4905):
+#0  0x400d25e0 in __ioctl () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#1  0x400df162 in ioctl () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#2  0x40173ae4 in android::IPCThreadState::talkWithDriver(bool) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#3  0x401741ee in android::IPCThreadState::getAndExecuteCommand() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#4  0x40174284 in android::IPCThreadState::joinThreadPool(bool) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#5  0x401780ac in ?? () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#6  0x4013f4b6 in android::Thread::_threadLoop(void*) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libutils.so
+#7  0x4013efe8 in ?? () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libutils.so
+#8  0x400bf22c in __thread_entry () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#9  0x400bf3c4 in pthread_create () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#10 0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 2 (Thread 256.375):
+#0  0x400d25e0 in __ioctl () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#1  0x400df162 in ioctl () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#2  0x40173ae4 in android::IPCThreadState::talkWithDriver(bool) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#3  0x401741ee in android::IPCThreadState::getAndExecuteCommand() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#4  0x40174284 in android::IPCThreadState::joinThreadPool(bool) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#5  0x401780ac in ?? () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#6  0x4013f4b6 in android::Thread::_threadLoop(void*) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libutils.so
+#7  0x4013efe8 in ?? () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libutils.so
+#8  0x400bf22c in __thread_entry () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#9  0x400bf3c4 in pthread_create () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#10 0x00000000 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 1 (Thread 256.256):
+#0  0x400d2ed8 in nanosleep () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#1  0x400e05fe in sleep () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#2  0x40174db0 in ?? () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#3  0x401dcb00 in android::AudioSystem::get_audio_flinger() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libmedia.so
+#4  0x401dcd30 in android::AudioSystem::newAudioSessionId() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libmedia.so
+#5  0x401de518 in android::MediaPlayer::MediaPlayer() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libmedia.so
+#6  0x40055620 in android::CameraService::newMediaPlayer(char const*) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#7  0x4005789c in android::CameraService::loadSound() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#8  0x40057c2e in android::CameraService::Client::Client(android::sp<android::CameraService> const&, android::sp<android::ICameraClient> const&, android::String16 const&, int, int, int, unsigned int, int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#9  0x4005b84a in android::CameraClient::CameraClient(android::sp<android::CameraService> const&, android::sp<android::ICameraClient> const&, android::String16 const&, int, int, int, int, int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#10 0x400571fa in android::CameraService::connect(android::sp<android::ICameraClient> const&, int, android::String16 const&, int, android::sp<android::ICamera>&) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#11 0x403e5f1c in android::BnCameraService::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcamera_client.so
+#12 0x40054fd0 in android::CameraService::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libcameraservice.so
+#13 0x4016f91a in android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#14 0x40173e8e in android::IPCThreadState::executeCommand(int) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#15 0x4017420e in android::IPCThreadState::getAndExecuteCommand() () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#16 0x40174284 in android::IPCThreadState::joinThreadPool(bool) () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libbinder.so
+#17 0x00008910 in ?? ()
+#18 0x400c0400 in __libc_init () from /home/DCMMC/Projects/hd2-ports/work/sailfish-stage/system/lib/libc.so
+#19 0x000087f0 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+[Inferior 1 (process 256) detached]

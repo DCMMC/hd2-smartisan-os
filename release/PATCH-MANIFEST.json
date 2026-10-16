@@ -1,0 +1,40 @@
+{
+  "files": {
+    "system/lib/libhd2compat.so": "c3045aa8b32928d3410c5edf6717c7f32bc262f122232566d318a99e0206c22a",
+    "system/lib/libutils.so": "7fd738c435f58a3eec469f2c8752e5e14ccc148e0c12b5530e5fdf2c20780e1c",
+    "system/lib/libui.so": "9665d327ad249e81199da02b26f006bf8e5960e8d13c0a380e2f9f2e5a33f8c3",
+    "system/lib/libcutils.so": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6",
+    "system/lib/libsurfaceflinger.so": "7591d88e78048e181fe50067a5b9dd33ebf91b173139b80c531fe64ac8501534",
+    "system/lib/libcamera.so": "2a0b22a2fa0c5ee52d571e9925931d1c5bee1a3488963f30ce4588d9acc920e3",
+    "system/lib/libhwui.so": "37ccaabf61dc732ec77af6816d8ba26e60527e8835ef16e6eaf66ed85b2c1220",
+    "system/lib/egl/eglsubAndroid.so": "1d3f4e8ee0a1b49f3911d27005f8278959f244636d68e34747bb62ab3011aa2c",
+    "system/bin/app_process.hd2": "28ef0cb30dfc2743050e64bac6b35ff749149d908c82d05b019f2d7746b91848",
+    "system/bin/app_process": "a9a3ef91ce6d37ad88cb769226e872aebf664489658d14fd753a94e2a8e0786b",
+    "system/bin/hd2-runtime": "d85dce9e216f204b85c1e1243cd023b4da40816e2315cd7ace6fc6c77ff68694",
+    "system/priv-app/LauncherSmartisanNew.apk": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
+    "system/priv-app/SystemUISmartisan.apk": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
+    "system/framework/core.jar": "0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989",
+    "system/build.prop": "87f93eeee46f1241c276ee7a4622e7cb5ece268cda33cf91b199e328cd1b5587",
+    "system/etc/gps.conf": "eab7ccbd874f88b253ae3d7aac5ddeda64c23a66ac80528f76b6c77fdf59c99b"
+  },
+  "removed": [
+    "system/app/NfcNci.apk",
+    "system/app/TimeService.apk",
+    "system/app/qcrilmsgtunnel.apk",
+    "system/etc/permissions/android.hardware.nfc.hce.xml",
+    "system/etc/permissions/android.hardware.nfc.xml",
+    "system/etc/permissions/com.android.nfc_extras.xml",
+    "system/etc/permissions/com.broadcom.nfc.xml",
+    "system/etc/permissions/com.vzw.nfc.xml",
+    "system/etc/permissions/android.hardware.wifi.direct.xml"
+  ],
+  "local_image_updated": true,
+  "device_evidence": "root ADB, SurfaceFlinger, Zygote, system_server, launcher process, boot-complete",
+  "user_evidence": "User confirms desktop size correct and substantially smoother interaction after quick-controls/JIT/zram/animation fixes",
+  "not_verified": [
+    "calls",
+    "Wi-Fi",
+    "audio",
+    "camera"
+  ]
+}

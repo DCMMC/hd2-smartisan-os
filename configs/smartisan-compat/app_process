@@ -1,0 +1,34 @@
+#!/system/bin/sh
+# The donor framework expects Android's emulated multiuser storage layout.
+export EMULATED_STORAGE_SOURCE=/mnt/shell/emulated
+export EMULATED_STORAGE_TARGET=/storage/emulated
+export EXTERNAL_STORAGE=/storage/emulated/legacy
+if [ "$1" = "-Xzygote" ]; then
+    BB=/system/xbin/busybox
+    $BB mkdir -p /mnt/shell/emulated /storage/emulated/legacy /storage/emulated/0 /data/media/0
+    $BB chmod 0711 /mnt/shell /mnt/shell/emulated /storage/emulated
+    $BB chown 1023:1023 /data/media /data/media/0
+    $BB chmod 0770 /data/media /data/media/0
+    # Recover a stale FUSE mount left by an earlier framework restart.
+    if $BB grep -q ' /mnt/shell/emulated fuse ' /proc/mounts &&
+       ! $BB ls /mnt/shell/emulated/0 >/dev/null 2>&1; then
+        $BB umount -l /mnt/shell/emulated
+    fi
+    if ! $BB grep -q ' /mnt/shell/emulated fuse ' /proc/mounts; then
+        if [ -n "$(getprop init.svc.hd2-emulated)" ]; then
+            start hd2-emulated
+        else
+            # Live-update fallback until the updated initramfs is booted.
+            $BB setsid /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated >>/data/local/tmp/hd2-sdcard.log 2>&1 </dev/null &
+        fi
+        n=0
+        while ! $BB grep -q ' /mnt/shell/emulated fuse ' /proc/mounts; do
+            n=$((n+1))
+            [ "$n" -ge 10 ] && exit 1
+            $BB sleep 1
+        done
+    fi
+    # The ext4 SD image is plain data; no fs_mgr encryption step is used.
+    [ -n "$(getprop ro.crypto.state)" ] || setprop ro.crypto.state unencrypted
+fi
+exec /system/bin/app_process.hd2 "$@"

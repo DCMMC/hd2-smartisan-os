@@ -1,0 +1,1 @@
+Unable to open log device '/dev/log/main': Not a directory

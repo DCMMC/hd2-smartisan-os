@@ -1,0 +1,11 @@
+{
+  "input_sha256": "f60b6b6c6f410389906c2faaf777102b8d459de12dfd20b7187af966a503ef9a",
+  "output_sha256": "07a4e88b960b10696050ad9ac63bfe59d96d39281ba6a4d28247ac5b229ff131",
+  "file_offset": "0xecea",
+  "old": "0821",
+  "new": "0021",
+  "change": "Qt HWC 32-bit framebuffer alpha size 8 -> 0 (RGBX)",
+  "evidence": "logs/sailfish-first-boot/egl-configs.log",
+  "runtime_verified": true,
+  "runtime_evidence": "logs/sailfish-first-boot/sailfish-reboot-frame.png"
+}

@@ -1,0 +1,50 @@
+{
+  "IOS6": [
+    {
+      "sector": 2,
+      "signature": "0x4858",
+      "version": 5,
+      "attributes": "0x80000100",
+      "block_bytes": 8192,
+      "total_blocks": 217604,
+      "free_blocks": 18859,
+      "file_bytes": 1782611968,
+      "geometry_matches_file": true
+    },
+    {
+      "sector": 3481662,
+      "signature": "0x4858",
+      "version": 5,
+      "attributes": "0x80000100",
+      "block_bytes": 8192,
+      "total_blocks": 217604,
+      "free_blocks": 18814,
+      "file_bytes": 1782611968,
+      "geometry_matches_file": true
+    }
+  ],
+  "IOS7": [
+    {
+      "sector": 2,
+      "signature": "0x4858",
+      "version": 5,
+      "attributes": "0x80000100",
+      "block_bytes": 4096,
+      "total_blocks": 229376,
+      "free_blocks": 104970,
+      "file_bytes": 939524096,
+      "geometry_matches_file": true
+    },
+    {
+      "sector": 1835006,
+      "signature": "0x4858",
+      "version": 5,
+      "attributes": "0x80000100",
+      "block_bytes": 4096,
+      "total_blocks": 229376,
+      "free_blocks": 104970,
+      "file_bytes": 939524096,
+      "geometry_matches_file": true
+    }
+  ]
+}

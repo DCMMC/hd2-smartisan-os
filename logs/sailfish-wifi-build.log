@@ -1,0 +1,3 @@
+make[2]: 'include/asm-arm/mach-types.h' is up to date.
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fuse/dev.c: In function 'fuse_notify_inval_entry':
+/home/DCMMC/Projects/hd2-ports/sources/kernel-tytung/fs/fuse/dev.c:925: warning: the frame size of 1064 bytes is larger than 1024 bytes; see http://go/big_stack_frame

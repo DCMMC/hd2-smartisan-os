@@ -1,0 +1,14 @@
+#!/bin/sh
+# HTC Leo uses the legacy Android gadget, not FunctionFS/configfs.
+[ -c /dev/android_adb ] || exit 1
+for function in usb_mass_storage rndis adb; do
+    value=1
+    [ "$function" != usb_mass_storage ] || value=0
+    node=/sys/class/usb_composite/$function/enable
+    [ ! -w "$node" ] || echo "$value" > "$node"
+done
+# Before Android properties exist, adbd may run as uid 2000.
+for node in /dev/android_adb /dev/android_adb_enable; do
+    [ ! -e "$node" ] || { chown 2000:2000 "$node"; chmod 0660 "$node"; }
+done
+exit 0

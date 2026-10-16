@@ -1,0 +1,8 @@
+{
+  "input_sha256": "223a28777cf36a4c0048b46542b9b47284774b2a72b99e8d3129584c41339c2d",
+  "output_sha256": "48c8a410bec393c3a7bbd0c5b00f8b94ae7406c72d5b5efc5ecfcb5636675ba9",
+  "property_trie_entry": "0x1ffb6",
+  "guard_address": "0x2e5c0",
+  "guard_bytes": 18,
+  "reason": "Let the HD2 static adbd handle an absent early-boot Android property area.\n\nThe CM11 bionic property trie assumes /dev/__properties__ was initialized by\nAndroid init. Before that happens, its root pointer is NULL + 128. Treat that\ncase as an absent property, retaining the existing behavior for valid trees."
+}

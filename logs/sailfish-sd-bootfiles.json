@@ -1,0 +1,15 @@
+{
+  "BUILD-STATUS.json": true,
+  "zImage": true,
+  "initrd.gz": true,
+  "INSTALL-zh.txt": true,
+  "unpack-rootfs.sh": true,
+  "SHA256SUMS": true,
+  "ROOTFS-UNPACKED.sha256": true,
+  "initrd_proc_bootstrap_fix": {
+    "sha256": "f65ab51040038e9ed190ecfc0278a1401cd3970a14001bf28a246e794403ae17",
+    "device_readback_match": true,
+    "original_backup": "/sdcard/HD2-SF/initrd.gz.before-proc-fix",
+    "next_boot_pending": true
+  }
+}

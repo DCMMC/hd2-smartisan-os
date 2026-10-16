@@ -1,0 +1,301 @@
+-- Logs begin at Tue 2014-05-20 04:12:20 EEST, end at Tue 2014-05-20 04:43:21 EEST. --
+May 20 04:38:42 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2796/oom_score_adj for reading
+May 20 04:38:42 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2522/oom_score_adj for reading
+May 20 04:38:42 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2534/oom_score_adj for reading
+May 20 04:38:42 Jolla lipstick[2424]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model 
+May 20 04:38:42 Jolla invoker[2452]: WARNING: An inactive plugin is misbehaving - tried to show a window!
+May 20 04:38:42 Jolla invoker[2452]: WARNING: requestActivate() called for  QQuickView(0x5a6e8)  which has Qt::WindowDoesNotAcceptFocus set.
+May 20 04:38:43 Jolla lipstick[2424]: [W] WindowPixmapItem::updatePaintNode:665 - WindowPixmapItem does not have a source texture, cover will be dropped..
+May 20 04:38:43 Jolla ohmd[214]: *** resource_request:  update   13
+May 20 04:38:43 Jolla ohmd[214]: *** resource_request:  register   14
+May 20 04:38:43 Jolla ohmd[214]: *** resource_request:  acquire   13
+May 20 04:38:43 Jolla [5114]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+May 20 04:38:43 Jolla ohmd[214]: *** resource_request:  acquire   14
+May 20 04:38:44 Jolla [5114]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "failed to negotiate caps" 
+May 20 04:38:44 Jolla [5114]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "The stream is in the wrong format." 
+May 20 04:38:44 Jolla [5114]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "failed to negotiate caps" 
+May 20 04:38:44 Jolla [5114]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "The stream is in the wrong format." 
+May 20 04:38:46 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:38:47 Jolla su[5415]: (to media) LOGIN on pts/4
+May 20 04:38:47 Jolla systemd-logind[316]: New session c20 of user media.
+May 20 04:38:47 Jolla su[5415]: pam_unix(su:session): session opened for user media by LOGIN(uid=0)
+May 20 04:38:47 Jolla systemd[5417]: pam_unix(systemd-user:account): account media has password changed in future
+May 20 04:38:47 Jolla systemd[5417]: pam_unix(systemd-user:session): session opened for user media by (uid=0)
+May 20 04:38:47 Jolla su[5415]: pam_unix(su:session): session closed for user media
+May 20 04:38:47 Jolla validate-user[5417]: /usr/lib/startup/validate-user checking  1013
+May 20 04:38:47 Jolla systemd-logind[316]: Removed session c20.
+May 20 04:38:48 Jolla validate-user[5417]: Preventing session start for 1013
+May 20 04:38:49 Jolla systemd[5426]: pam_unix(systemd-user:account): account media has password changed in future
+May 20 04:38:49 Jolla systemd[5426]: pam_unix(systemd-user:session): session opened for user media by (uid=0)
+May 20 04:38:49 Jolla validate-user[5426]: /usr/lib/startup/validate-user checking  1013
+May 20 04:38:49 Jolla validate-user[5426]: Preventing session start for 1013
+May 20 04:38:49 Jolla systemd[5427]: pam_unix(systemd-user:session): session closed for user media
+May 20 04:38:50 Jolla systemd[5433]: pam_unix(systemd-user:account): account media has password changed in future
+May 20 04:38:50 Jolla systemd[5433]: pam_unix(systemd-user:session): session opened for user media by (uid=0)
+May 20 04:38:50 Jolla validate-user[5433]: /usr/lib/startup/validate-user checking  1013
+May 20 04:38:50 Jolla validate-user[5433]: Preventing session start for 1013
+May 20 04:38:50 Jolla systemd[5434]: pam_unix(systemd-user:session): session closed for user media
+May 20 04:38:51 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:38:51 Jolla systemd[5441]: pam_unix(systemd-user:account): account media has password changed in future
+May 20 04:38:51 Jolla systemd[5441]: pam_unix(systemd-user:session): session opened for user media by (uid=0)
+May 20 04:38:51 Jolla validate-user[5441]: /usr/lib/startup/validate-user checking  1013
+May 20 04:38:51 Jolla validate-user[5441]: Preventing session start for 1013
+May 20 04:38:51 Jolla systemd[5442]: pam_unix(systemd-user:session): session closed for user media
+May 20 04:38:53 Jolla ohmd[214]: *** resource_request:  register   15
+May 20 04:38:53 Jolla [5114]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available! 
+May 20 04:38:53 Jolla ohmd[214]: *** resource_request:  audio   15
+May 20 04:38:54 Jolla ohmd[214]: *** resource_request:  video   15
+May 20 04:38:54 Jolla ohmd[214]: *** resource_request:  update   15
+May 20 04:38:54 Jolla dbus-daemon[424]: Activating via systemd: service name='org.nemo.transferengine' unit='transferengine.service'
+May 20 04:38:54 Jolla systemd[405]: Starting Transfer engine...
+May 20 04:38:54 Jolla mapplauncherd[5184]: Couldn't open '/proc/self/oom_score_adj' for writing
+May 20 04:38:54 Jolla pulseaudio[3580]: invalid (<null>) target sink for mute-by-route
+May 20 04:38:54 Jolla dbus-daemon[424]: Successfully activated service 'org.nemo.transferengine'
+May 20 04:38:54 Jolla systemd[405]: Started Transfer engine.
+May 20 04:38:55 Jolla [5114]: [W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*
+May 20 04:38:55 Jolla ne[5184]: [D] TransferEnginePrivate::exitSafely:189 - Scheduling exit in 5000 ms 
+May 20 04:38:55 Jolla ne[5184]: [D] TransferEnginePrivate::exitSafely:189 - Scheduling exit in 5000 ms 
+May 20 04:38:56 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:00 Jolla ne[5184]: [D] TransferEnginePrivate::delayedExitSafely:198 - Stopping transfer engine 
+May 20 04:39:00 Jolla mapplauncherd[423]: Boosted process (pid=5184) was terminated due to signal 15
+May 20 04:39:00 Jolla mapplauncherd[423]: Daemon: Failed to kill 5450: No such process
+May 20 04:39:00 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:05 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:11 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:15 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:20 Jolla lipstick[2424]: [W] QQuickShaderEffectCommon::updateMaterial:428 - ShaderEffect: Property 'source' is not assigned a valid texture provider (QQuickItem*).
+May 20 04:39:20 Jolla lipstick[2424]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model 
+May 20 04:39:20 Jolla pulseaudio[3580]: invalid (<null>) target sink for mute-by-route
+May 20 04:39:20 Jolla ohmd[214]: *** resource_request:  unregister   15
+May 20 04:39:20 Jolla mapplauncherd[2451]: Boosted process (pid=5114) was terminated due to signal 9
+May 20 04:39:20 Jolla su[5223]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:39:20 Jolla ohmd[214]: *** resource_request:  unregister   14
+May 20 04:39:20 Jolla ohmd[214]: *** resource_request:  unregister   13
+May 20 04:39:20 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:26 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:31 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:32 Jolla su[5504]: (to nemo) root on none
+May 20 04:39:32 Jolla su[5504]: pam_unix(su-l:session): session opened for user nemo by (uid=0)
+May 20 04:39:33 Jolla mapplauncherd[5366]: Couldn't open '/proc/self/oom_score_adj' for writing
+May 20 04:39:33 Jolla [5366]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+May 20 04:39:34 Jolla booster-silica-qt5[5648]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL 
+May 20 04:39:35 Jolla mapplauncherd[5648]: SilicaBooster: Initiate asynchronous preload.
+May 20 04:39:36 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:37 Jolla [5366]: GLIB WARNING ** Tracker - Locale '0' is not set, defaulting to C locale
+May 20 04:39:39 Jolla ohmd[214]: *** resource_request:  register   16
+May 20 04:39:39 Jolla [5366]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available! 
+May 20 04:39:40 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/5366/oom_score_adj for reading
+May 20 04:39:40 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2796/oom_score_adj for reading
+May 20 04:39:40 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2522/oom_score_adj for reading
+May 20 04:39:41 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2534/oom_score_adj for reading
+May 20 04:39:41 Jolla lipstick[2424]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model 
+May 20 04:39:41 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:41 Jolla invoker[2452]: WARNING: An inactive plugin is misbehaving - tried to show a window!
+May 20 04:39:41 Jolla invoker[2452]: WARNING: requestActivate() called for  QQuickView(0x5a6e8)  which has Qt::WindowDoesNotAcceptFocus set.
+May 20 04:39:41 Jolla lipstick[2424]: [W] WindowPixmapItem::updatePaintNode:665 - WindowPixmapItem does not have a source texture, cover will be dropped..
+May 20 04:39:41 Jolla ohmd[214]: *** resource_request:  update   16
+May 20 04:39:41 Jolla ohmd[214]: *** resource_request:  register   17
+May 20 04:39:41 Jolla ohmd[214]: *** resource_request:  acquire   16
+May 20 04:39:41 Jolla [5366]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+May 20 04:39:41 Jolla ohmd[214]: *** resource_request:  acquire   17
+May 20 04:39:43 Jolla [5366]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "failed to negotiate caps" 
+May 20 04:39:43 Jolla [5366]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "The stream is in the wrong format." 
+May 20 04:39:43 Jolla [5366]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "failed to negotiate caps" 
+May 20 04:39:43 Jolla [5366]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "The stream is in the wrong format." 
+May 20 04:39:46 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:50 Jolla ohmd[214]: *** resource_request:  register   18
+May 20 04:39:50 Jolla [5366]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available! 
+May 20 04:39:51 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:51 Jolla pulseaudio[3580]: invalid (<null>) target sink for mute-by-route
+May 20 04:39:51 Jolla ohmd[214]: *** resource_request:  audio   18
+May 20 04:39:51 Jolla ohmd[214]: *** resource_request:  video   18
+May 20 04:39:51 Jolla ohmd[214]: *** resource_request:  update   18
+May 20 04:39:51 Jolla dbus-daemon[424]: Activating via systemd: service name='org.nemo.transferengine' unit='transferengine.service'
+May 20 04:39:51 Jolla systemd[405]: Starting Transfer engine...
+May 20 04:39:51 Jolla mapplauncherd[5452]: Couldn't open '/proc/self/oom_score_adj' for writing
+May 20 04:39:51 Jolla dbus-daemon[424]: Successfully activated service 'org.nemo.transferengine'
+May 20 04:39:51 Jolla systemd[405]: Started Transfer engine.
+May 20 04:39:51 Jolla [5366]: [W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*
+May 20 04:39:52 Jolla ne[5452]: [D] TransferEnginePrivate::exitSafely:189 - Scheduling exit in 5000 ms 
+May 20 04:39:52 Jolla ne[5452]: [D] TransferEnginePrivate::exitSafely:189 - Scheduling exit in 5000 ms 
+May 20 04:39:56 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:39:56 Jolla su[5700]: (to nemo) LOGIN on pts/4
+May 20 04:39:56 Jolla systemd-logind[316]: New session c22 of user nemo.
+May 20 04:39:56 Jolla su[5700]: pam_unix(su-l:session): session opened for user nemo by LOGIN(uid=0)
+May 20 04:39:56 Jolla statefs[236]: Display: "on" 
+May 20 04:39:56 Jolla ne[5452]: [D] TransferEnginePrivate::delayedExitSafely:198 - Stopping transfer engine 
+May 20 04:39:57 Jolla mapplauncherd[423]: Boosted process (pid=5452) was terminated due to signal 15
+May 20 04:39:57 Jolla mapplauncherd[423]: Daemon: Failed to kill 5691: No such process
+May 20 04:39:57 Jolla su[5700]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:39:57 Jolla systemd-logind[316]: Removed session c22.
+May 20 04:40:01 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:06 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:11 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:16 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:21 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:26 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:30 Jolla su[5878]: (to nemo) LOGIN on pts/4
+May 20 04:40:30 Jolla systemd-logind[316]: New session c23 of user nemo.
+May 20 04:40:30 Jolla su[5878]: pam_unix(su-l:session): session opened for user nemo by LOGIN(uid=0)
+May 20 04:40:31 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:31 Jolla su[5878]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:40:31 Jolla systemd-logind[316]: Removed session c23.
+May 20 04:40:36 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:37 Jolla su[6029]: (to nemo) LOGIN on pts/4
+May 20 04:40:37 Jolla systemd-logind[316]: New session c24 of user nemo.
+May 20 04:40:37 Jolla su[6029]: pam_unix(su-l:session): session opened for user nemo by LOGIN(uid=0)
+May 20 04:40:38 Jolla su[6029]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:40:38 Jolla systemd-logind[316]: Removed session c24.
+May 20 04:40:41 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:43 Jolla su[6179]: (to nemo) LOGIN on pts/4
+May 20 04:40:43 Jolla systemd-logind[316]: New session c25 of user nemo.
+May 20 04:40:43 Jolla su[6179]: pam_unix(su-l:session): session opened for user nemo by LOGIN(uid=0)
+May 20 04:40:44 Jolla su[6179]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:40:44 Jolla systemd-logind[316]: Removed session c25.
+May 20 04:40:46 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:51 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:40:56 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:01 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:06 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:11 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:16 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:21 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:22 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:23 Jolla pulseaudio[3580]: invalid (<null>) target sink for mute-by-route
+May 20 04:41:23 Jolla ohmd[214]: *** resource_request:  release   17
+May 20 04:41:23 Jolla ohmd[214]: *** resource_request:  update   16
+May 20 04:41:24 Jolla ohmd[214]: *** resource_request:  release   16
+May 20 04:41:26 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:26 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:26 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:26 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:26 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:27 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2534/oom_score_adj for reading
+May 20 04:41:27 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/5366/oom_score_adj for reading
+May 20 04:41:27 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2796/oom_score_adj for reading
+May 20 04:41:27 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2522/oom_score_adj for reading
+May 20 04:41:27 Jolla invoker[2452]: WARNING: An inactive plugin is misbehaving - tried to show a window!
+May 20 04:41:27 Jolla invoker[2452]: WARNING: requestActivate() called for  QQuickView(0x5a6e8)  which has Qt::WindowDoesNotAcceptFocus set.
+May 20 04:41:28 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:28 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:28 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:28 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:30 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:30 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:30 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:30 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:31 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:32 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:32 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:32 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/5366/oom_score_adj for reading
+May 20 04:41:32 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2796/oom_score_adj for reading
+May 20 04:41:32 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2522/oom_score_adj for reading
+May 20 04:41:32 Jolla lipstick[2424]: [D] onDestruction:277 - coverActionIndicators destroyed harbour-warehouse.desktop
+May 20 04:41:32 Jolla lipstick[2424]: [D] onDestruction:307 - Cover action destroyed harbour-warehouse.desktop
+May 20 04:41:32 Jolla lipstick[2424]: [D] onDestruction:307 - Cover action destroyed harbour-warehouse.desktop
+May 20 04:41:32 Jolla lipstick[2424]: [W] QQmlExpressionPrivate::value:281 - QQmlExpression: Attempted to evaluate an expression in an invalid context
+May 20 04:41:32 Jolla lipstick[2424]: [W] QQuickShaderEffectCommon::updateMaterial:428 - ShaderEffect: Property 'source' is not assigned a valid texture provider (QQuickItem*).
+May 20 04:41:32 Jolla mapplauncherd[2451]: Boosted process (pid=2534) exited with status 0
+May 20 04:41:33 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:33 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:34 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:34 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:34 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:34 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:34 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:36 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:36 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:36 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:36 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2796/oom_score_adj for reading
+May 20 04:41:36 Jolla lipstick[2424]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/2522/oom_score_adj for reading
+May 20 04:41:36 Jolla ohmd[214]: *** resource_request:  unregister   16
+May 20 04:41:36 Jolla ohmd[214]: *** resource_request:  unregister   17
+May 20 04:41:37 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:37 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:37 Jolla mapplauncherd[2451]: Boosted process (pid=5366) exited with status 0
+May 20 04:41:37 Jolla ohmd[214]: *** resource_request:  unregister   18
+May 20 04:41:37 Jolla su[5504]: pam_unix(su-l:session): session closed for user nemo
+May 20 04:41:38 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:38 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:38 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:38 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:40 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:40 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:41 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:41 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:41 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:41 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:41 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:42 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:42 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:44 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:44 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:44 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:44 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:45 Jolla invoker[2452]: WARNING: An inactive plugin is misbehaving - tried to show a window!
+May 20 04:41:45 Jolla invoker[2452]: WARNING: requestActivate() called for  QQuickView(0x5a6e8)  which has Qt::WindowDoesNotAcceptFocus set.
+May 20 04:41:45 Jolla dbus-daemon[424]: [7B blob data]
+May 20 04:41:46 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:47 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:47 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:47 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:48 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:48 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:49 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:49 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:50 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:50 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:51 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:51 Jolla estart[2796]: [D] AboutSettings::AboutSettings:125 - Drives: ("/", "/proc", "/sys", "/dev", "/dev/pts", "/run", "/run/hd2-sd", "/", "/dev/shm", "/sys/fs/cgroup", "/sys/fs/cgroup/systemd", "/sys/fs/cgroup/debug", "/sys/fs/cgroup/cpu,cpuacct", "/sys/fs/cgroup/devices", "/sys/fs/cgroup/freezer", "/tmp", "/mnt/fuse", "/mnt/obb", "/mnt/asec", "/sys/fs/fuse/connections", "/run/state", "/run/user/100000/state") 
+May 20 04:41:51 Jolla estart[2796]: [W] BluetoothInfo::initAdapterAddress:21 - Unable to open file: "/var/lib/bluetooth/board-address" 
+May 20 04:41:51 Jolla dbus-daemon[216]: dbus[216]: [system] Activating via systemd: service name='org.nemo.ssu' unit='dbus-org.nemo.ssu.service'
+May 20 04:41:51 Jolla dbus[216]: [system] Activating via systemd: service name='org.nemo.ssu' unit='dbus-org.nemo.ssu.service'
+May 20 04:41:51 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:51 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:51 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:51 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:52 Jolla dbus-daemon[216]: dbus[216]: [system] Successfully activated service 'org.nemo.ssu'
+May 20 04:41:52 Jolla dbus[216]: [system] Successfully activated service 'org.nemo.ssu'
+May 20 04:41:54 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:54 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:54 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:54 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:55 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:55 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:56 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:41:58 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:58 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:58 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:58 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:41:59 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:00 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:00 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:01 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:01 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:01 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:06 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:11 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:16 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:21 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:24 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:24 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:24 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:24 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:24 Jolla DSME[237]: IPHB: failed to open /dev/rtc0: No such file or directory
+May 20 04:42:26 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:31 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:36 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:41 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:46 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:51 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:42:56 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:43:01 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:43:06 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:43:11 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:43:16 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+May 20 04:43:21 Jolla mce[178]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument

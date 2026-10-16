@@ -1,0 +1,112 @@
+#!/bin/sh
+# HD2 MAGLDR SD early boot. No NAND devices are opened.
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+BB=/bin/busybox
+# This old BusyBox installs /proc/self/exe symlinks. Bootstrap proc with the
+# explicit executable before relying on any installed command names.
+$BB mkdir -p /dev /proc /sys /run /sd /ext /target
+$BB mount -t proc proc /proc
+$BB --install -s /bin
+$BB mount -t sysfs sysfs /sys
+$BB mount -t devtmpfs devtmpfs /dev
+[ -c /dev/kmsg ] || $BB mknod /dev/kmsg c 1 11
+exec >/dev/kmsg 2>&1
+echo 'HD2-SF: initramfs started; proc and device filesystem ready'
+mkdir -p /dev/pts
+mount -t devpts -o mode=0620,gid=5 devpts /dev/pts
+mount -t tmpfs tmpfs /run
+
+# USB debugging starts before SD mounting or first-boot decompression.
+/bin/sh /hd2-usb-setup
+echo 'HD2-SF: USB setup attempted; starting early ADB'
+mkdir -p /dev/socket
+(
+    while :; do
+        [ ! -c /dev/android_adb ] || /sbin/adbd >>/run/hd2-adbd-early.log 2>&1
+        sleep 3
+    done
+) &
+adb_supervisor=$!
+ifconfig usb0 192.168.2.15 netmask 255.255.255.0 up
+telnetd -b 192.168.2.15:23 -l /bin/sh
+
+count=0
+while [ ! -b /dev/mmcblk0p1 ] && [ "$count" -lt 30 ]; do
+    sleep 1
+    count=$((count + 1))
+done
+mount -t vfat -o rw,noatime /dev/mmcblk0p1 /sd
+if [ -d /sd/HD2-SF ]; then
+    exec >>/sd/HD2-SF/early-boot.log 2>&1
+fi
+echo 'HD2 Sailfish SD experimental boot; first-boot bring-up'
+uname -a
+cat /proc/cmdline
+cat /proc/partitions
+dmesg > /sd/HD2-SF/dmesg-early.log 2>/dev/null
+if [ -r /proc/config.gz ]; then
+    cat /proc/config.gz > /sd/HD2-SF/running-config.gz
+fi
+
+/bin/sh /hd2-unpack.sh /sd/HD2-SF
+
+ready=0
+if [ -f /sd/HD2-SF/rootfs.ext4 ]; then
+    # Keep /sd mounted while a loop-backed filesystem uses it.
+    [ -b /dev/loop0 ] || mknod /dev/loop0 b 7 0
+    if losetup /dev/loop0 /sd/HD2-SF/rootfs.ext4 &&
+       mount -t ext4 -o rw,noatime /dev/loop0 /target; then
+        ready=1
+    fi
+elif [ -b /dev/mmcblk0p2 ]; then
+    if mount -t ext4 -o rw,noatime /dev/mmcblk0p2 /ext; then
+        if [ -d /ext/HD2Ports/sailfish ]; then
+            if mount --bind /ext/HD2Ports/sailfish /target; then ready=1; fi
+        fi
+    fi
+fi
+
+handover() {
+if [ "$ready" -eq 1 ] &&
+   [ -f /target/etc/hd2-port-id ] &&
+   [ "$(cat /target/etc/hd2-port-id)" = sailfish-hybris-leo ] &&
+   [ -x /target/sbin/init ]; then
+    echo 'Handing over to supplied HD2-adapted rootfs'
+    mkdir -p /target/dev /target/proc /target/sys /target/run
+    mkdir -p /target/run/hd2-sd /target/run/hd2-ext
+    # Release the USB debugging daemon before systemd assumes control.
+    kill "$adb_supervisor" 2>/dev/null
+    killall adbd 2>/dev/null
+    killall telnetd 2>/dev/null
+    mount --move /dev /target/dev
+    mount --move /proc /target/proc
+    mount --move /sys /target/sys
+    mount --move /run /target/run
+    mkdir -p /target/run/hd2-sd /target/run/hd2-ext
+    mount --move /sd /target/run/hd2-sd
+    mount --move /ext /target/run/hd2-ext 2>/dev/null
+    # Keep a rootfs-resident rescue shell alive even if systemd fails before
+    # starting its normal ADB/USB units. Port 2323 avoids their port 23 listener.
+    chroot /target /usr/local/sbin/busybox telnetd \
+        -b 192.168.2.15:2323 -l /bin/sh
+    echo 'HD2-SF: persistent root rescue on USB port 2323; executing systemd'
+    sync
+    log_level=info
+    [ ! -f /target/run/hd2-sd/HD2-SF/SYSTEMD_DEBUG ] || log_level=debug
+    exec switch_root /target /sbin/init --log-target=kmsg --log-level="$log_level"
+fi
+}
+
+[ -f /sd/HD2-SF/DIAGNOSTIC_ONLY ] || handover
+
+echo 'No suitable rootfs found, or DIAGNOSTIC_ONLY requested. Staying in initramfs.'
+echo 'Copy HD2-SF/early-boot.log and dmesg-early.log from FAT32 for diagnosis.'
+sync
+while :; do
+    # Resume a diagnostic boot without another MAGLDR/Recovery cycle.
+    if [ -f /run/hd2-continue-boot ]; then
+        rm /run/hd2-continue-boot
+        handover
+    fi
+    sleep 1
+done

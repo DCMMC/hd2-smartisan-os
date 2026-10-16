@@ -1,0 +1,71 @@
+--------- beginning of /dev/log/main
+10-16 18:46:01.078   847   847 I SurfaceFlinger: SurfaceFlinger is starting
+10-16 18:46:01.097   847   847 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-16 18:46:01.148   847   847 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Local Branch: 
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Remote Branch: quic/master
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Local Patches: NONE
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-16 18:46:01.167   847   847 I gralloc : using (fd=15)
+10-16 18:46:01.167   847   847 I gralloc : id           = msmfb31_0
+10-16 18:46:01.167   847   847 I gralloc : xres         = 480 px
+10-16 18:46:01.167   847   847 I gralloc : yres         = 800 px
+10-16 18:46:01.167   847   847 I gralloc : xres_virtual = 480 px
+10-16 18:46:01.167   847   847 I gralloc : yres_virtual = 1600 px
+10-16 18:46:01.167   847   847 I gralloc : bpp          = 32
+10-16 18:46:01.167   847   847 I gralloc : r            =  0:8
+10-16 18:46:01.167   847   847 I gralloc : g            =  8:8
+10-16 18:46:01.167   847   847 I gralloc : b            = 16:8
+10-16 18:46:01.167   847   847 I gralloc : width        = 48 mm (254.000000 dpi)
+10-16 18:46:01.167   847   847 I gralloc : height       = 80 mm (254.000000 dpi)
+10-16 18:46:01.167   847   847 I gralloc : refresh rate = 60.00 Hz
+10-16 18:46:01.167   847   847 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:46:01.167   847   847 D CALCFPS : period: 10
+10-16 18:46:01.167   847   847 D CALCFPS : ignorethresh_us: 500000
+10-16 18:46:01.167   847   847 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:46:01.167   847   847 D CALCFPS : period: 10
+10-16 18:46:01.167   847   847 D CALCFPS : ignorethresh_us: 500000
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing Qualcomm Hardware Composer
+10-16 18:46:01.238   847   847 I hwcomposer: MDP version: 310
+10-16 18:46:01.238   847   847 I hwcomposer: DYN composition threshold : 2.000000
+10-16 18:46:01.238   847   847 I hwcomposer: hwc_device_open: Faking Hardware VSYNC
+10-16 18:46:01.238   847   847 I SurfaceFlinger: Using composer version 1.0
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing UEvent Listener Thread
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing VSYNC Thread
+10-16 18:46:01.238   847   847 W SurfaceFlinger: getting VSYNC period from fb HAL: 16666666
+10-16 18:46:01.567   849   849 D AndroidRuntime: 
+10-16 18:46:01.567   849   849 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+10-16 18:46:01.578   849   849 D AndroidRuntime: CheckJNI is OFF
+10-16 18:46:01.727   849   849 D dalvikvm: DexOpt: --- BEGIN 'core.jar' (bootstrap=1) ---
+10-16 18:46:02.058   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/Object;
+10-16 18:46:02.178   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/Class;
+10-16 18:46:02.197   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/Reference;
+10-16 18:46:02.197   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/ReferenceQueue;
+10-16 18:46:02.227   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/FinalizerReference;
+10-16 18:46:03.058   855   855 D dalvikvm: DexOpt: load 86ms, verify+opt 1003ms, 1510604 bytes
+10-16 18:46:03.498   849   849 D dalvikvm: DexOpt: --- END 'core.jar' (success) ---
+10-16 18:46:03.498   849   849 D dalvikvm: DEX prep '/system/framework/core.jar': unzip in 132ms, rewrite 1766ms
+10-16 18:46:03.548   849   849 D dalvikvm: DexOpt: --- BEGIN 'conscrypt.jar' (bootstrap=1) ---
+10-16 18:46:03.757   856   856 D dalvikvm: DexOpt: load 16ms, verify+opt 147ms, 420548 bytes
+10-16 18:46:03.798   849   849 D dalvikvm: DexOpt: --- END 'conscrypt.jar' (success) ---
+10-16 18:46:03.798   849   849 D dalvikvm: DEX prep '/system/framework/conscrypt.jar': unzip in 19ms, rewrite 256ms
+10-16 18:46:03.838   849   849 D dalvikvm: DexOpt: --- BEGIN 'okhttp.jar' (bootstrap=1) ---
+10-16 18:46:03.977   857   857 D dalvikvm: DexOpt: load 10ms, verify+opt 80ms, 344196 bytes
+10-16 18:46:04.008   849   849 D dalvikvm: DexOpt: --- END 'okhttp.jar' (success) ---
+10-16 18:46:04.008   849   849 D dalvikvm: DEX prep '/system/framework/okhttp.jar': unzip in 11ms, rewrite 169ms
+10-16 18:46:04.008   849   849 D dalvikvm: DexOpt: --- BEGIN 'core-junit.jar' (bootstrap=1) ---
+10-16 18:46:04.058   858   858 D dalvikvm: DexOpt: load 5ms, verify+opt 10ms, 144188 bytes
+10-16 18:46:04.078   849   849 D dalvikvm: DexOpt: --- END 'core-junit.jar' (success) ---
+10-16 18:46:04.078   849   849 D dalvikvm: DEX prep '/system/framework/core-junit.jar': unzip in 1ms, rewrite 60ms
+10-16 18:46:04.148   849   849 D dalvikvm: DexOpt: --- BEGIN 'bouncycastle.jar' (bootstrap=1) ---
+10-16 18:46:04.697   859   859 D dalvikvm: DexOpt: load 31ms, verify+opt 422ms, 694868 bytes
+10-16 18:46:04.828   849   849 D dalvikvm: DexOpt: --- END 'bouncycastle.jar' (success) ---
+10-16 18:46:04.828   849   849 D dalvikvm: DEX prep '/system/framework/bouncycastle.jar': unzip in 56ms, rewrite 679ms
+10-16 18:46:04.898   849   849 D dalvikvm: DexOpt: --- BEGIN 'ext.jar' (bootstrap=1) ---
+10-16 18:46:05.697   860   860 D dalvikvm: DexOpt: load 59ms, verify+opt 627ms, 943340 bytes
+10-16 18:46:05.898   849   849 D dalvikvm: DexOpt: --- END 'ext.jar' (success) ---
+10-16 18:46:05.898   849   849 D dalvikvm: DEX prep '/system/framework/ext.jar': unzip in 60ms, rewrite 996ms

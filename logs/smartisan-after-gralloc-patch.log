@@ -1,0 +1,755 @@
+--------- beginning of /dev/log/main
+10-16 18:51:52.918  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.918  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.918  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.958  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:52.958  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.958  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.958  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.981  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:52.981  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.981  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.981  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:52.998  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:52.998  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:52.998  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:52.998  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2057  2057 I LibraryLoader: loaded: webviewchromium
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.007  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.007  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.007  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.028  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.028  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.028  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.028  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.048  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.048  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.048  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.048  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.058  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.058  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.058  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.058  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.078  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.078  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.078  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.078  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.097  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.097  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.097  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.097  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.108  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.108  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.108  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.108  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.127  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.127  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.127  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.127  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.157  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.157  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.157  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.157  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.157  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.157  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.157  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.157  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.167  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.167  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.167  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.178  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.178  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.178  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.178  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.197  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.197  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.197  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.197  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.208  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.208  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.208  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.208  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.248  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.248  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.248  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.248  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.257  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.257  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.257  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.257  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.278  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.278  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.278  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.278  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.308  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.308  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.308  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.308  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.328  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.328  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.328  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.328  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.347  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.347  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.347  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.347  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.377  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.377  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.377  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.377  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.398  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.398  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.398  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.398  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.407  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.407  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.407  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.407  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.407  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.418  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.418  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.418  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.428  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.428  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.428  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.428  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.458  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.458  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.458  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.458  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.478  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.478  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.478  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.478  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.498  2055  2055 W GLConsumer: [BootAnimation] bindTextureImage: clearing GL error: 0x505
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 E hwcomposer: draw: eglGetRenderBufferANDROID returned NULL buffer
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 W Adreno200-ES20: <gl2_surface_swap:43>: GL_OUT_OF_MEMORY
+10-16 18:51:53.498  2055  2055 W Adreno200-EGL: <qeglDrvAPI_eglSwapBuffers:3477>: EGL_BAD_ALLOC
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (2) exceeded (dequeued=2 undequeudCount=1)
+10-16 18:51:53.498  2055  2055 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
+10-16 18:51:53.498  2055  2055 W Adreno200-EGL: <eglSurfaceResize:3568>: EGL_BAD_ALLOC

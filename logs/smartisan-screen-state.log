@@ -1,0 +1,229 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  mDirty=0x0
+  mWakefulness=Awake
+  mIsPowered=true
+  mPlugType=2
+  mBatteryLevel=10
+  mBatteryLevelWhenDreamStarted=0
+  mDockState=0
+  mStayOn=false
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x1
+  mNextTimeout=2581359, about 3237 ms in the future
+  mRequestWaitForNegativeProximity=false
+  mSandmanScheduled=false
+  mLastWakeTime=2574751 (3372 ms ago)
+  mLastSleepTime=2352430 (225693 ms ago)
+  mSendWakeUpFinishedNotificationWhenReady=false
+  mSendGoToSleepFinishedNotificationWhenReady=false
+  mLastUserActivityTime=2576359 (1781 ms ago)
+  mLastUserActivityTimeNoChangeLights=0 (2578141 ms ago)
+  mDisplayReady=true
+  mHoldingWakeLockSuspendBlocker=false
+  mHoldingDisplaySuspendBlocker=true
+
+Settings and Configuration:
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mSuspendWhenScreenOffDueToProximityConfig=false
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=true
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledSetting=true
+  mDreamsActivateOnSleepSetting=false
+  mDreamsActivateOnDockSetting=true
+  mScreenOffTimeoutSetting=30000
+  mMaximumScreenOffTimeoutFromDeviceAdmin=2147483647 (enforced=false)
+  mStayOnWhilePluggedInSetting=0
+  mScreenBrightnessSetting=133
+  mScreenAutoBrightnessAdjustmentSetting=0.0
+  mScreenBrightnessModeSetting=0
+  mScreenBrightnessOverrideFromWindowManager=-1
+  mUserActivityTimeoutOverrideFromWindowManager=15000
+  mTemporaryScreenBrightnessSettingOverride=-1
+  mTemporaryScreenAutoBrightnessAdjustmentSettingOverride=NaN
+  mScreenBrightnessSettingMinimum=12
+  mScreenBrightnessSettingMaximum=255
+  mScreenBrightnessSettingDefault=102
+
+Screen off timeout: 15000 ms
+Screen dim duration: 0 ms
+
+Wake Locks: size=0
+
+Suspend Blockers: size=4
+  PowerManagerService.WakeLocks: ref count=0
+  PowerManagerService.Display: ref count=1
+  PowerManagerService.Broadcasts: ref count=0
+  PowerManagerService.WirelessChargerDetector: ref count=0
+
+Screen On Blocker: held=false, mNestCount=0
+
+Display Blanker: blanked=false
+
+Queue for recent user activity size: 16
+index 0: {eventTime : 2310138, event : 0, flags : 0, deviceId : -1}
+index 1: {eventTime : 2310138, event : 2, flags : 0, deviceId : -1}
+index 2: {eventTime : 2310797, event : 2, flags : 0, deviceId : -1}
+index 3: {eventTime : 2311808, event : 0, flags : 0, deviceId : -1}
+index 4: {eventTime : 2311808, event : 2, flags : 0, deviceId : -1}
+index 5: {eventTime : 2312960, event : 0, flags : 0, deviceId : -1}
+index 6: {eventTime : 2312960, event : 2, flags : 0, deviceId : -1}
+index 7: {eventTime : 2316533, event : 0, flags : 0, deviceId : -1}
+index 8: {eventTime : 2316533, event : 2, flags : 0, deviceId : -1}
+index 9: {eventTime : 2318172, event : 1, flags : 0, deviceId : 3}
+index 10: {eventTime : 2321361, event : 0, flags : 0, deviceId : -1}
+index 11: {eventTime : 2321361, event : 2, flags : 0, deviceId : -1}
+index 12: {eventTime : 2321866, event : 2, flags : 0, deviceId : -1}
+index 13: {eventTime : 2321906, event : 0, flags : 0, deviceId : -1}
+index 14: {eventTime : 2322426, event : 0, flags : 0, deviceId : -1}
+index 15: {eventTime : 2322426, event : 2, flags : 0, deviceId : -1}
+
+Display Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=screenState=2, useProximitySensor=false, screenBrightness=133, screenAutoBrightnessAdjustment=0.0, useAutoBrightness=false, blockScreenOn=false
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Controller Configuration:
+  mScreenBrightnessDimConfig=10
+  mScreenBrightnessRangeMinimum=0
+  mScreenBrightnessRangeMaximum=255
+  mUseSoftwareAutoBrightnessConfig=true
+  mScreenAutoBrightnessSpline=[(0.0, 0.0: 0.039215688), (8.0, 0.3137255: 0.0026697884), (30.0, 0.33333334: 1.4634395E-4), (45.0, 0.3529412: 0.0013071895), (60.0, 0.37254903: 0.0011437908), (80.0, 0.39215687: 9.803921E-4), (100.0, 0.4117647: 9.803921E-4), (120.0, 0.43137255: 9.803921E-4), (140.0, 0.4509804: 0.0), (160.0, 0.4509804: 0.0), (200.0, 0.5882353: 0.004166667), (240.0, 0.78431374: 0.002614379), (480.0, 0.8627451: 2.0424835E-4), (960.0, 0.9019608: 6.1274506E-5), (1920.0, 0.9411765: 5.106209E-5), (2880.0, 1.0: 0.0), (3840.0, 1.0: 0.0), (7680.0, 1.0: 0.0), (15360.0, 1.0: 0.0), (30720.0, 1.0: 0.0)]
+  mLightSensorWarmUpTimeConfig=0
+
+Display Controller Thread State:
+  mPowerRequest=screenState=2, useProximitySensor=false, screenBrightness=133, screenAutoBrightnessAdjustment=0.0, useAutoBrightness=false, blockScreenOn=false
+  mWaitingForNegativeProximity=false
+  mProximitySensor={Sensor name="CM3602 Proximity sensor", vendor="Capella Microsystems", version=1, type=8, maxRange=9.0, resolution=9.0, power=0.5, minDelay=0}
+  mProximitySensorEnabled=false
+  mProximityThreshold=5.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (2578159 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLightSensor={Sensor name="CM3602 Light sensor", vendor="Capella Microsystems", version=1, type=5, maxRange=10240.0, resolution=1.0, power=0.5, minDelay=0}
+  mLightSensorEnabled=false
+  mLightSensorEnableTime=0 (2578159 ms ago)
+  mAmbientLux=0.0
+  mAmbientLuxValid=false
+  mLastObservedLux=0.0
+  mLastObservedLuxTime=0 (2578159 ms ago)
+  mRecentLightSamples=0
+  mRecentShortTermAverageLux=0.0
+  mRecentLongTermAverageLux=0.0
+  mDebounceLuxDirection=0
+  mDebounceLuxTime=0 (2578159 ms ago)
+  mScreenAutoBrightness=-1
+  mUsingScreenAutoBrightness=false
+  mLastScreenAutoBrightnessGamma=1.0
+  mTwilight.getCurrentState()={TwilightState: isNight=true, mYesterdaySunset=2014年5月18日 下午6:23:28, mTodaySunrise=2014年5月19日 上午5:32:30, mTodaySunset=2014年5月19日 下午6:23:33, mTomorrowSunrise=2014年5月20日 上午5:32:32}
+  mElectronBeamOnAnimator.isStarted()=false
+  mElectronBeamOffAnimator.isStarted()=false
+
+Display Power State:
+  mScreenOn=true
+  mScreenBrightness=133
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mElectronBeamPrepared=false
+  mElectronBeamLevel=1.0
+  mElectronBeamReady=true
+  mElectronBeamDrawPending=false
+
+Photonic Modulator State:
+  mPendingOn=true
+  mPendingBacklight=133
+  mActualOn=true
+  mActualBacklight=133
+  mChangeInProgress=false
+
+Electron Beam State:
+  mPrepared=false
+  mMode=2
+  mDisplayLayerStack=0
+  mDisplayWidth=480
+  mDisplayHeight=800
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+
+Wireless Charger Detector State:
+  mGravitySensor=null
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0
+
+AutoBrightnessController: 
+map lux to brightness is as below 
+    0 -> 0
+    8 -> 80
+    30 -> 85
+    45 -> 90
+    60 -> 95
+    80 -> 100
+    100 -> 105
+    120 -> 110
+    140 -> 115
+    160 -> 115
+    200 -> 150
+    240 -> 200
+    480 -> 220
+    960 -> 230
+    1920 -> 240
+    2880 -> 255
+    3840 -> 255
+    7680 -> 255
+    15360 -> 255
+    30720 -> 255
+WINDOW MANAGER POLICY STATE (dumpsys window policy)
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x40604500 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=1 mUserRotation=0 mAllowAllRotations=-1
+    mCurrentAppOrientation=5
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=false
+    mLongPressOnPowerBehavior=-1 mHasSoftInput=true
+    mScreenOnEarly=true mScreenOnFully=true mOrientationSensorEnabled=false
+    mOverscanScreen=(0,0) 480x800
+    mRestrictedOverscanScreen=(0,0) 480x800
+    mUnrestrictedScreen=(0,0) 480x800
+    mRestrictedScreen=(0,0) 480x800
+    mStableFullscreen=(0,0)-(480,800)
+    mStable=(0,52)-(480,800)
+    mSystem=(0,0)-(480,800)
+    mCur=(0,52)-(480,800)
+    mContent=(0,52)-(480,800)
+    mDock=(0,52)-(480,800)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=true mShowingDream=false mDreamingLockscreen=true
+    mStatusBar=Window{41e89df8 u0 StatusBar}
+    mKeyguard=Window{41e6e908 u0 Keyguard}
+    mFocusedWindow=Window{41e6e908 u0 Keyguard}
+    mTopFullscreenOpaqueWindowState=Window{41ee7c28 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null    mAllowLockscreenWhenOn=false mLockScreenTimeout=30000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+133

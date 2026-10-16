@@ -1,0 +1,707 @@
+--------- beginning of /dev/log/main
+10-16 18:50:43.148   940   940 I SurfaceFlinger: SurfaceFlinger is starting
+10-16 18:50:43.148   940   940 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-16 18:50:43.148   940   940 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-16 18:50:43.148   940   940 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-16 18:50:43.158   940   940 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-16 18:50:43.198   940   940 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-16 18:50:43.198   940   940 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-16 18:50:43.198   940   940 I Adreno200-EGL: Local Branch: 
+10-16 18:50:43.198   940   940 I Adreno200-EGL: Remote Branch: quic/master
+10-16 18:50:43.198   940   940 I Adreno200-EGL: Local Patches: NONE
+10-16 18:50:43.198   940   940 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-16 18:50:43.208   940   940 I gralloc : using (fd=15)
+10-16 18:50:43.208   940   940 I gralloc : id           = msmfb31_0
+10-16 18:50:43.208   940   940 I gralloc : xres         = 480 px
+10-16 18:50:43.208   940   940 I gralloc : yres         = 800 px
+10-16 18:50:43.208   940   940 I gralloc : xres_virtual = 480 px
+10-16 18:50:43.208   940   940 I gralloc : yres_virtual = 1600 px
+10-16 18:50:43.208   940   940 I gralloc : bpp          = 32
+10-16 18:50:43.208   940   940 I gralloc : r            =  0:8
+10-16 18:50:43.208   940   940 I gralloc : g            =  8:8
+10-16 18:50:43.208   940   940 I gralloc : b            = 16:8
+10-16 18:50:43.208   940   940 I gralloc : width        = 48 mm (254.000000 dpi)
+10-16 18:50:43.208   940   940 I gralloc : height       = 80 mm (254.000000 dpi)
+10-16 18:50:43.208   940   940 I gralloc : refresh rate = 60.00 Hz
+10-16 18:50:43.208   940   940 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:50:43.208   940   940 D CALCFPS : period: 10
+10-16 18:50:43.208   940   940 D CALCFPS : ignorethresh_us: 500000
+10-16 18:50:43.208   940   940 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:50:43.208   940   940 D CALCFPS : period: 10
+10-16 18:50:43.208   940   940 D CALCFPS : ignorethresh_us: 500000
+10-16 18:50:43.238   940   940 I hwcomposer: Initializing Qualcomm Hardware Composer
+10-16 18:50:43.238   940   940 I hwcomposer: MDP version: 310
+10-16 18:50:43.238   940   940 I hwcomposer: DYN composition threshold : 2.000000
+10-16 18:50:43.238   940   940 I hwcomposer: hwc_device_open: Faking Hardware VSYNC
+10-16 18:50:43.238   940   940 I SurfaceFlinger: Using composer version 1.0
+10-16 18:50:43.238   940   940 I hwcomposer: Initializing UEvent Listener Thread
+10-16 18:50:43.238   940   940 I hwcomposer: Initializing VSYNC Thread
+10-16 18:50:43.238   940   940 W SurfaceFlinger: getting VSYNC period from fb HAL: 16666666
+10-16 18:50:43.238   940   940 W Adreno200-EGL: <qeglDrvAPI_eglChooseConfig:780>: EGL_BAD_ATTRIBUTE
+10-16 18:50:43.238   940   940 W Adreno200-EGL: <qeglDrvAPI_eglChooseConfig:780>: EGL_BAD_ATTRIBUTE
+10-16 18:50:43.238   940   940 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+10-16 18:50:43.238   940   940 I SurfaceFlinger: EGL informations:
+10-16 18:50:43.238   940   940 I SurfaceFlinger: vendor    : Android
+10-16 18:50:43.238   940   940 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-16 18:50:43.238   940   940 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+10-16 18:50:43.238   940   940 I SurfaceFlinger: Client API: OpenGL_ES
+10-16 18:50:43.238   940   940 I SurfaceFlinger: EGLSurface: 8-8-8-0, config=0x7
+10-16 18:50:43.298   940   940 I SurfaceFlinger: OpenGL ES informations:
+10-16 18:50:43.298   940   940 I SurfaceFlinger: vendor    : Qualcomm
+10-16 18:50:43.298   940   940 I SurfaceFlinger: renderer  : Adreno (TM) 200
+10-16 18:50:43.298   940   940 I SurfaceFlinger: version   : OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+10-16 18:50:43.298   940   940 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+10-16 18:50:43.298   940   940 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 4096
+10-16 18:50:43.298   940   940 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 4096
+10-16 18:50:43.298   940   940 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-16 18:50:43.298   940   940 F libc    : Fatal signal 11 (SIGSEGV) at 0x000001e0 (code=1), thread 940 (surfaceflinger)
+10-16 18:50:43.347    95    95 I DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-16 18:50:43.347    95    95 I DEBUG   : Build fingerprint: 'htc/cm_leo/leo:4.4.1/KOT49E/a4fc6336a7:eng/test-keys'
+10-16 18:50:43.347    95    95 I DEBUG   : Revision: '0'
+10-16 18:50:43.347    95    95 I DEBUG   : pid: 940, tid: 940, name: UNKNOWN  >>> /system/bin/surfaceflinger <<<
+10-16 18:50:43.347    95    95 I DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 000001e0
+10-16 18:50:43.447    95    95 I DEBUG   :     r0 000001e0  r1 000001e0  r2 00000320  r3 000001e0
+10-16 18:50:43.447    95    95 I DEBUG   :     r4 000001e0  r5 2a03e200  r6 40cd9925  r7 00000002
+10-16 18:50:43.447    95    95 I DEBUG   :     r8 00001a03  r9 2a03e19c  sl 2a03e188  fp 00000000
+10-16 18:50:43.447    95    95 I DEBUG   :     ip 40217ef4  sp becf70f0  lr 40cd9931  pc 40cd9520  cpsr 600b0030
+10-16 18:50:43.447    95    95 I DEBUG   :     d0  666563616672756c  d1  3353327653454c69
+10-16 18:50:43.447    95    95 I DEBUG   :     d2  443353327653456e  d3  326f6e6572646167
+10-16 18:50:43.447    95    95 I DEBUG   :     d4  0000000200000000  d5  0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d6  0000058500000000  d7  ffffffff00003038
+10-16 18:50:43.447    95    95 I DEBUG   :     d8  0000000000000000  d9  0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d10 0000000000000000  d11 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d12 0000000000000000  d13 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d14 0000000000000000  d15 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d16 00000000000000f9  d17 0000000000000001
+10-16 18:50:43.447    95    95 I DEBUG   :     d18 416fca0555555555  d19 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d20 4018000000000000  d21 4000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d22 0000000000000000  d23 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d24 0000000000000000  d25 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d26 404e000000000000  d27 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d28 0000000000000000  d29 0000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     d30 0000000000000000  d31 4000000000000000
+10-16 18:50:43.447    95    95 I DEBUG   :     scr 80000010
+10-16 18:50:43.447    95    95 I DEBUG   : 
+10-16 18:50:43.447    95    95 I DEBUG   : backtrace:
+10-16 18:50:43.458    95    95 I DEBUG   :     #00  pc 00001520  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:43.458    95    95 I DEBUG   :     #01  pc 0000192d  /system/lib/hw/gralloc.qsd8k.so (gralloc::gpu_context_t::gralloc_free(alloc_device_t*, native_handle const*)+8)
+10-16 18:50:43.458    95    95 I DEBUG   :     #02  pc 00006399  /system/lib/libui.so (android::GraphicBufferAllocator::alloc(unsigned int, unsigned int, int, int, native_handle const**, int*, unsigned int)+76)
+10-16 18:50:43.458    95    95 I DEBUG   :     #03  pc 00005b87  /system/lib/libui.so (android::GraphicBuffer::initSize(unsigned int, unsigned int, int, unsigned int, unsigned int)+42)
+10-16 18:50:43.458    95    95 I DEBUG   :     #04  pc 00005edd  /system/lib/libui.so (android::GraphicBuffer::GraphicBuffer(unsigned int, unsigned int, int, unsigned int, unsigned int)+68)
+10-16 18:50:43.458    95    95 I DEBUG   :     #05  pc 0002976b  /system/lib/libgui.so (android::GraphicBufferAlloc::createGraphicBuffer(unsigned int, unsigned int, int, unsigned int, int*)+38)
+10-16 18:50:43.458    95    95 I DEBUG   :     #06  pc 00025ef7  /system/lib/libgui.so (android::BufferQueue::dequeueBuffer(int*, android::sp<android::Fence>*, bool, unsigned int, unsigned int, unsigned int, unsigned int)+862)
+10-16 18:50:43.458    95    95 I DEBUG   :     #07  pc 0002f433  /system/lib/libgui.so (android::Surface::dequeueBuffer(ANativeWindowBuffer**, int*)+98)
+10-16 18:50:43.458    95    95 I DEBUG   :     #08  pc 0002f00d  /system/lib/libgui.so (android::Surface::hook_dequeueBuffer_DEPRECATED(ANativeWindow*, ANativeWindowBuffer**)+36)
+10-16 18:50:43.458    95    95 I DEBUG   :     #09  pc 00001db3  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:43.458    95    95 I DEBUG   :     #10  pc 000034b5  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:43.458    95    95 I DEBUG   :     #11  pc 000037bf  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:43.458    95    95 I DEBUG   :     #12  pc 0000b444  /system/lib/egl/libEGL_adreno200.so (qeglDrvAPI_eglCreateWindowSurface+572)
+10-16 18:50:43.458    95    95 I DEBUG   :     #13  pc 00005ccc  /system/lib/egl/libEGL_adreno200.so (eglCreateWindowSurface+16)
+10-16 18:50:43.458    95    95 I DEBUG   :     #14  pc 0000efdb  /system/lib/libEGL.so (eglCreateWindowSurface+270)
+10-16 18:50:43.458    95    95 I DEBUG   :     #15  pc 000117d9  /system/lib/libsurfaceflinger.so
+10-16 18:50:43.458    95    95 I DEBUG   :     #16  pc 0001dc1f  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::init()+774)
+10-16 18:50:43.458    95    95 I DEBUG   :     #17  pc 000008a7  /system/bin/surfaceflinger
+10-16 18:50:43.458    95    95 I DEBUG   :     #18  pc 0000e3ff  /system/lib/libc.so (__libc_init+50)
+10-16 18:50:43.458    95    95 I DEBUG   :     #19  pc 000007dc  /system/bin/surfaceflinger
+10-16 18:50:43.458    95    95 I DEBUG   : 
+10-16 18:50:43.458    95    95 I DEBUG   : stack:
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70b0  0000000d  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70b4  becf70fc  [stack]
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70b8  00000038  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70bc  00455455  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70c0  00000000  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70c4  30000000  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70c8  00000001  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70cc  becf708c  [stack]
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70d0  00000001  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70d4  00000000  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70d8  00000002  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70dc  548bb7b6  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70e0  becf76a0  [stack]
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70e4  400a7384  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70e8  4005078a  /system/lib/libcutils.so
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70ec  00000006  
+10-16 18:50:43.458    95    95 I DEBUG   :     #00  becf70f0  40251046  /system/lib/libgui.so
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70f4  4004e915  /system/lib/libcutils.so (__android_log_print+56)
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70f8  becf7514  [stack]
+10-16 18:50:43.458    95    95 I DEBUG   :          becf70fc  6f727245  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf7100  706f2072  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf7104  6e696e65  
+10-16 18:50:43.458    95    95 I DEBUG   :          becf7108  72742067  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf710c  20656361  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7110  656c6966  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7114  6f4e203a  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7118  0000006c  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf711c  40cdc004  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7120  00000073  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7124  00000000  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7128  2a03e200  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf712c  000001e0  
+10-16 18:50:43.468    95    95 I DEBUG   :          ........  ........
+10-16 18:50:43.468    95    95 I DEBUG   :     #01  becf7140  00000002  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7144  00000320  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7148  000001e0  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf714c  4021439b  /system/lib/libui.so (android::GraphicBufferAllocator::alloc(unsigned int, unsigned int, int, int, native_handle const**, int*, unsigned int)+78)
+10-16 18:50:43.468    95    95 I DEBUG   :     #02  becf7150  00001a03  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7154  2a03e19c  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7158  2a03e188  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf715c  2a03e200  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7160  63003000  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7164  2a03e1f0  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7168  40cdc004  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:43.468    95    95 I DEBUG   :          becf716c  40cd9a7f  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7170  2a03e1f0  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7174  40216447  /system/lib/libui.so
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7178  40218020  /system/lib/libui.so
+10-16 18:50:43.468    95    95 I DEBUG   :          becf717c  00000320  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7180  000001e0  
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7184  402141af  /system/lib/libui.so (android::GraphicBufferAllocator::GraphicBufferAllocator()+54)
+10-16 18:50:43.468    95    95 I DEBUG   :          becf7188  2a03e1f0  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          becf718c  2a03e158  [heap]
+10-16 18:50:43.468    95    95 I DEBUG   :          ........  ........
+10-16 18:50:43.478    95    95 I DEBUG   : 
+10-16 18:50:43.478    95    95 I DEBUG   : memory near r5:
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e1e0 2a03e158 00000000 00000000 00000013  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e1f0 2a03e200 00000000 00000000 00000073  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e200 48574454 00000000 40cdc004 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e210 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e220 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e230 00000000 00000000 00000000 40cd950d  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e240 40cd9a05 40cd9925 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e250 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e260 00000000 00000000 2a009dc8 00000d71  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e270 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e280 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e290 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e2a0 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e2b0 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e2c0 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   :     2a03e2d0 00000000 00000000 00000000 00000000  
+10-16 18:50:43.488    95    95 I DEBUG   : 
+10-16 18:50:43.488    95    95 I DEBUG   : memory near r6:
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9904 f7ff447b 2500ecfc 61654620 ecf0f7ff  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9914 bd7c4628 00000ead 00000f3c 000013bd  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9924 4605b538 460c4608 fdf4f7ff db052800  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9934 46214628 4038e8bd bfaaf7ff 0015f06f  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9944 0000bd38 4ff0e92d ac12b089 468b4606  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9954 e8944692 469901b0 f06fb915 e0450415  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9964 d0fa2f00 aa064619 f7ffab07 ab05ff81  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9974 93004651 9a064658 f7ffab04 1e01ecfc  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9984 f1b8ddeb bf180f00 f4144641 d0012f06  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd9994 90072001 d50504e2 46224630 f7ff462b  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99a4 e00bff4f 46309b07 e88d9a04 9b050208  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99b4 46229202 462b9303 fe1ef7ff 46042800  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99c4 6828db14 ecdcf7ff b1684604 20064909  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99d4 4b0a4a09 447a4479 f7ff447b 4630ec90  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99e4 f7ff4629 e001ff55 60399904 b0094620  
+10-16 18:50:43.488    95    95 I DEBUG   :     40cd99f4 8ff0e8bd 00000dd5 00000e84 000012ef  
+10-16 18:50:43.488    95    95 I DEBUG   : 
+10-16 18:50:43.488    95    95 I DEBUG   : memory near r8:
+10-16 18:50:43.488    95    95 I DEBUG   :     000019e0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     000019f0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a00 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a10 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a20 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a30 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a40 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a50 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a60 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a70 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a80 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001a90 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001aa0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.488    95    95 I DEBUG   :     00001ab0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.498    95    95 I DEBUG   :     00001ac0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.498    95    95 I DEBUG   :     00001ad0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:43.498    95    95 I DEBUG   : 
+10-16 18:50:43.498    95    95 I DEBUG   : memory near r9:
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e17c 402138f7 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e18c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e19c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1ac 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1bc 00000000 00000002 2a03a1d8 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1cc 00000000 00000000 0000001b 10000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1dc 00000000 2a03e158 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1ec 00000013 2a03e200 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1fc 00000073 48574454 00000000 40cdc004  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e20c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e21c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e22c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e23c 40cd950d 40cd9a05 40cd9925 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e24c 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e25c 00000000 00000000 00000000 2a009dc8  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e26c 00000d71 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   : 
+10-16 18:50:43.498    95    95 I DEBUG   : memory near sl:
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e168 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e178 40213901 402138f7 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e188 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e198 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1a8 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1b8 00000000 00000000 00000002 2a03a1d8  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1c8 00000000 00000000 00000000 0000001b  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1d8 10000000 00000000 2a03e158 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1e8 00000000 00000013 2a03e200 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e1f8 00000000 00000073 48574454 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e208 40cdc004 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e218 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e228 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e238 00000000 40cd950d 40cd9a05 40cd9925  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e248 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     2a03e258 00000000 00000000 00000000 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   : 
+10-16 18:50:43.498    95    95 I DEBUG   : memory near ip:
+10-16 18:50:43.498    95    95 I DEBUG   :     40217ed4 40217d78 40217d38 40217d60 00000000  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217ee4 00000000 00000000 40081dd1 40081cdd  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217ef4 4004b4d0 4004e229 40079330 4007944c  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f04 4007f741 4006af81 400793e4 4004b53c  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f14 400b4917 402195e9 4006d4a1 4004e8dd  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f24 4006c461 400b4909 4004b520 402195fd  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f34 40079694 4021964d 4021969b 40219681  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f44 40093663 40067884 40067fcc 40067980  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f54 4007b29c 400e234d 40067dc0 40067cfc  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f64 40067668 40067d80 400d1855 40067ddc  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f74 400e1ad9 400e1bc7 400e1b1f 4007b020  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f84 4004b959 4004b941 4004b929 400e1cdd  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217f94 400e001b 400e001b 400e1ad1 400e001b  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217fa4 400e406f 400e3f6d 4007ba9d 400e4641  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217fb4 400e46fb 400e20b1 400e21a1 400e459d  
+10-16 18:50:43.498    95    95 I DEBUG   :     40217fc4 4007d6cc 400e3f21 400e3fb5 400e4081  
+10-16 18:50:43.498    95    95 I DEBUG   : 
+10-16 18:50:43.498    95    95 I DEBUG   : memory near sp:
+10-16 18:50:43.498    95    95 I DEBUG   :     becf70d0 00000001 00000000 00000002 548bb7b6  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf70e0 becf76a0 400a7384 4005078a 00000006  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf70f0 40251046 4004e915 becf7514 6f727245  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7100 706f2072 6e696e65 72742067 20656361  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7110 656c6966 6f4e203a 0000006c 40cdc004  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7120 00000073 00000000 2a03e200 000001e0  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7130 2a03e200 40cd9925 00000002 40cd9931  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7140 00000002 00000320 000001e0 4021439b  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7150 00001a03 2a03e19c 2a03e188 2a03e200  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7160 63003000 2a03e1f0 40cdc004 40cd9a7f  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7170 2a03e1f0 40216447 40218020 00000320  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7180 000001e0 402141af 2a03e1f0 2a03e158  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf7190 00001a03 00000002 00000320 000001e0  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf71a0 40245745 00000000 2a0399dc 40213b8b  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf71b0 00001a03 2a03e19c 2a03e188 00000000  
+10-16 18:50:43.507    95    95 I DEBUG   :     becf71c0 2a03e158 00000002 00000320 000001e0  
+10-16 18:50:43.507    95    95 I DEBUG   : 
+10-16 18:50:43.507    95    95 I DEBUG   : code around pc:
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9500 e24bd004 e8bd8800 00002b0c b108b508  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9510 eef0f7ff bd082000 4603b5f0 b310b08f  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9520 2d0c6805 6882d10a d1072a0c 28026840  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9530 695ad104 491f2000 d039428a 689f6959  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9540 4007f3c1 2207f3c1 685c0e0e 262dbf08  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9550 bf082800 2a00202d 222dbf08 01fff011  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9560 212dbf08 223fe007 34fff04f 46254627  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9570 46164610 92084611 91092267 920a2173  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9580 4a0d910c 9500490d 250c447a 90079404  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9590 206d2402 900b9501 900d4479 97022003  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95a0 94059503 f7ff9606 f06feeac e7ff0015  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95b0 bdf0b00f 676d736d 0000122d 00001215  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95c0 460db538 21006682 46042268 ee9ef7ff  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95d0 48074b06 4a084907 44794478 447a63e0  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95e0 60a56023 64214620 bd386462 48574454  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd95f0 ffffff31 00000427 00000343 47f0e92d  
+10-16 18:50:43.507    95    95 I DEBUG   : 
+10-16 18:50:43.507    95    95 I DEBUG   : code around lr:
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9910 ecf0f7ff bd7c4628 00000ead 00000f3c  
+10-16 18:50:43.507    95    95 I DEBUG   :     40cd9920 000013bd 4605b538 460c4608 fdf4f7ff  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9930 db052800 46214628 4038e8bd bfaaf7ff  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9940 0015f06f 0000bd38 4ff0e92d ac12b089  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9950 468b4606 e8944692 469901b0 f06fb915  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9960 e0450415 d0fa2f00 aa064619 f7ffab07  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9970 ab05ff81 93004651 9a064658 f7ffab04  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9980 1e01ecfc f1b8ddeb bf180f00 f4144641  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9990 d0012f06 90072001 d50504e2 46224630  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99a0 f7ff462b e00bff4f 46309b07 e88d9a04  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99b0 9b050208 46229202 462b9303 fe1ef7ff  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99c0 46042800 6828db14 ecdcf7ff b1684604  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99d0 20064909 4b0a4a09 447a4479 f7ff447b  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99e0 4630ec90 f7ff4629 e001ff55 60399904  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd99f0 b0094620 8ff0e8bd 00000dd5 00000e84  
+10-16 18:50:43.518    95    95 I DEBUG   :     40cd9a00 000012ef b150b51f 94009c06 94019c07  
+10-16 18:50:43.608    90    90 I ServiceManager: service 'display.hwcservice' died
+10-16 18:50:43.608    90    90 I ServiceManager: service 'media.audio_flinger' died
+10-16 18:50:43.608    90    90 I ServiceManager: service 'media.player' died
+10-16 18:50:43.608    90    90 I ServiceManager: service 'media.camera' died
+10-16 18:50:43.638   949   949 I Netd    : Netd 1.0 starting
+10-16 18:50:43.638   949   949 W InterfaceController: Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+10-16 18:50:44.188   950   950 I mediaserver: ServiceManager: 0x2a00b508
+10-16 18:50:44.188   950   950 I AudioFlinger: Using default 3000 mSec as standby time.
+10-16 18:50:44.188   950   950 E MediaPlayerFactory: calling dlopen on FACTORY_LIB
+10-16 18:50:44.208   950   950 E MediaPlayerFactory: Failed to open FACTORY_LIB Error : dlopen failed: cannot locate symbol "_ZN7android25MEDIA_MIMETYPE_VIDEO_HEVCE" referenced by "libdashplayer.so"... 
+10-16 18:50:44.208   950   950 I CameraService: CameraService started (pid=950)
+10-16 18:50:44.248   950   950 E HAL     : load: module=/system/lib/hw/camera.qsd8k.so
+10-16 18:50:44.248   950   950 E HAL     : dlopen failed: could not load library "libcamera.so" needed by "camera.qsd8k.so"; caused by cannot locate symbol "_ZN7android10MemoryBaseC1ERKNS_2spINS_11IMemoryHeapEEElj" referenced by "libcamera.so"...
+10-16 18:50:44.248   950   950 E CameraService: Could not load camera HAL module
+10-16 18:50:44.248   950   950 I AudioPolicyManagerBase: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+10-16 18:50:44.258   950   950 W AudioHardwareQSD: Cannot open /dev/audience_a1026 -1
+10-16 18:50:44.258   950   950 D AudioHardwareQSD: set_tpa2018d1_parameters() not present
+10-16 18:50:44.258   950   950 I HTC Acoustic: libhtc_acoustic.so version 2.0.1.2.
+10-16 18:50:44.258   950   950 I HTC Acoustic: open /system/etc/AdieHWCodecSetting.csv success.
+10-16 18:50:44.258   950   950 I HTC Acoustic: ADIE table version: PASSION_HTC_20091019
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 0
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 2
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 5
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 7
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 8
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 10
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 51
+10-16 18:50:44.258   950   950 E HTC Acoustic: Update ADIE table ID 53
+10-16 18:50:44.258   950   950 I HTC Acoustic: read_adie_para_from_file success.
+10-16 18:50:44.258   950   950 D HTC Acoustic: ioctl ACOUSTIC_UPDATE_ADIE success
+10-16 18:50:44.258   950   950 I HTC Acoustic: open /system/etc/AudioBTID.csv success.
+10-16 18:50:44.258   950   950 I HTC Acoustic: BT ID table version: PASSION_HTC_20091105
+10-16 18:50:44.258   950   950 I AudioHardwareQSD: Set master volume to 1.000000
+10-16 18:50:44.258   950   950 I AudioFlinger: loadHwModule() Loaded primary audio interface from LEGACY Audio HW HAL (audio) handle 1
+10-16 18:50:44.258   950   950 I AudioFlinger: HAL output buffer size 768 frames, normal mix buffer size 1056 frames
+10-16 18:50:44.268   950   950 I AudioMixer: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+10-16 18:50:44.288   950   950 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+10-16 18:50:47.377   949   949 V NatController: runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+10-16 18:50:47.388   949   949 V NatController: runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+10-16 18:50:47.398   949   949 V NatController: runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+10-16 18:50:47.408   949   949 V NatController: runCmd(/system/bin/ip rule flush) res=0
+10-16 18:50:47.418   949   949 V NatController: runCmd(/system/bin/ip -6 rule flush) res=0
+10-16 18:50:47.428   949   949 V NatController: runCmd(/system/bin/ip rule add from all lookup default prio 32767) res=0
+10-16 18:50:47.438   949   949 V NatController: runCmd(/system/bin/ip rule add from all lookup main prio 32766) res=0
+10-16 18:50:47.448   949   949 V NatController: runCmd(/system/bin/ip -6 rule add from all lookup default prio 32767) res=0
+10-16 18:50:47.458   949   949 V NatController: runCmd(/system/bin/ip -6 rule add from all lookup main prio 32766) res=0
+10-16 18:50:47.468   949   949 V NatController: runCmd(/system/bin/ip route flush cache) res=0
+10-16 18:50:47.478   949   949 V NatController: runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+10-16 18:50:47.488   949   949 V NatController: runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+10-16 18:50:47.498   949   949 V NatController: runCmd(/system/bin/ip route flush cache) res=0
+10-16 18:50:47.518   949   949 V NatController: runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+10-16 18:50:47.528   949   949 V NatController: runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+10-16 18:50:47.538   949   949 V NatController: runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+10-16 18:50:48.188   949   949 D MDnsDS  : MDnsSdListener::Hander starting up
+10-16 18:50:48.188   949  1224 D MDnsDS  : MDnsSdListener starting to monitor
+10-16 18:50:48.188   949  1224 D MDnsDS  : Going to poll with pollCount 1
+10-16 18:50:48.768  1227  1227 I SurfaceFlinger: SurfaceFlinger is starting
+10-16 18:50:48.787  1227  1227 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-16 18:50:48.787  1227  1227 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-16 18:50:48.787  1227  1227 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-16 18:50:48.787  1227  1227 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: Local Branch: 
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: Remote Branch: quic/master
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: Local Patches: NONE
+10-16 18:50:48.838  1227  1227 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-16 18:50:48.848  1227  1227 I gralloc : using (fd=15)
+10-16 18:50:48.848  1227  1227 I gralloc : id           = msmfb31_0
+10-16 18:50:48.848  1227  1227 I gralloc : xres         = 480 px
+10-16 18:50:48.848  1227  1227 I gralloc : yres         = 800 px
+10-16 18:50:48.848  1227  1227 I gralloc : xres_virtual = 480 px
+10-16 18:50:48.848  1227  1227 I gralloc : yres_virtual = 1600 px
+10-16 18:50:48.848  1227  1227 I gralloc : bpp          = 32
+10-16 18:50:48.848  1227  1227 I gralloc : r            =  0:8
+10-16 18:50:48.848  1227  1227 I gralloc : g            =  8:8
+10-16 18:50:48.848  1227  1227 I gralloc : b            = 16:8
+10-16 18:50:48.848  1227  1227 I gralloc : width        = 48 mm (254.000000 dpi)
+10-16 18:50:48.848  1227  1227 I gralloc : height       = 80 mm (254.000000 dpi)
+10-16 18:50:48.848  1227  1227 I gralloc : refresh rate = 60.00 Hz
+10-16 18:50:48.848  1227  1227 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:50:48.848  1227  1227 D CALCFPS : period: 10
+10-16 18:50:48.848  1227  1227 D CALCFPS : ignorethresh_us: 500000
+10-16 18:50:48.848  1227  1227 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:50:48.848  1227  1227 D CALCFPS : period: 10
+10-16 18:50:48.848  1227  1227 D CALCFPS : ignorethresh_us: 500000
+10-16 18:50:48.878  1227  1227 I hwcomposer: Initializing Qualcomm Hardware Composer
+10-16 18:50:48.878  1227  1227 I hwcomposer: MDP version: 310
+10-16 18:50:48.878  1227  1227 I hwcomposer: DYN composition threshold : 2.000000
+10-16 18:50:48.878  1227  1227 I hwcomposer: hwc_device_open: Faking Hardware VSYNC
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: Using composer version 1.0
+10-16 18:50:48.878  1227  1227 I hwcomposer: Initializing UEvent Listener Thread
+10-16 18:50:48.878  1227  1227 I hwcomposer: Initializing VSYNC Thread
+10-16 18:50:48.878  1227  1227 W SurfaceFlinger: getting VSYNC period from fb HAL: 16666666
+10-16 18:50:48.878  1227  1227 W Adreno200-EGL: <qeglDrvAPI_eglChooseConfig:780>: EGL_BAD_ATTRIBUTE
+10-16 18:50:48.878  1227  1227 W Adreno200-EGL: <qeglDrvAPI_eglChooseConfig:780>: EGL_BAD_ATTRIBUTE
+10-16 18:50:48.878  1227  1227 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: EGL informations:
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: vendor    : Android
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: version   : 1.4 Android META-EGL
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: Client API: OpenGL_ES
+10-16 18:50:48.878  1227  1227 I SurfaceFlinger: EGLSurface: 8-8-8-0, config=0x7
+10-16 18:50:48.888  1227  1227 I SurfaceFlinger: OpenGL ES informations:
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: vendor    : Qualcomm
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: renderer  : Adreno (TM) 200
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: version   : OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 4096
+10-16 18:50:48.907  1227  1227 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 4096
+10-16 18:50:48.907  1227  1227 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-16 18:50:48.907  1227  1227 F libc    : Fatal signal 11 (SIGSEGV) at 0x000001e0 (code=1), thread 1227 (surfaceflinger)
+10-16 18:50:48.958    95    95 I DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-16 18:50:48.958    95    95 I DEBUG   : Build fingerprint: 'htc/cm_leo/leo:4.4.1/KOT49E/a4fc6336a7:eng/test-keys'
+10-16 18:50:48.958    95    95 I DEBUG   : Revision: '0'
+10-16 18:50:48.958    95    95 I DEBUG   : pid: 1227, tid: 1227, name: UNKNOWN  >>> /system/bin/surfaceflinger <<<
+10-16 18:50:48.958    95    95 I DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 000001e0
+10-16 18:50:49.048    95    95 I DEBUG   :     r0 000001e0  r1 000001e0  r2 00000320  r3 000001e0
+10-16 18:50:49.048    95    95 I DEBUG   :     r4 000001e0  r5 2a03e1e8  r6 40cd9925  r7 00000002
+10-16 18:50:49.048    95    95 I DEBUG   :     r8 00001a03  r9 2a03e184  sl 2a03e170  fp 00000000
+10-16 18:50:49.048    95    95 I DEBUG   :     ip 40217ef4  sp be9140f0  lr 40cd9931  pc 40cd9520  cpsr 600b0030
+10-16 18:50:49.048    95    95 I DEBUG   :     d0  666563616672756c  d1  3353327653454c69
+10-16 18:50:49.048    95    95 I DEBUG   :     d2  443353327653456e  d3  326f6e6572646167
+10-16 18:50:49.048    95    95 I DEBUG   :     d4  0000308e00000000  d5  0000000000000007
+10-16 18:50:49.048    95    95 I DEBUG   :     d6  0000000100000007  d7  000000000000312f
+10-16 18:50:49.048    95    95 I DEBUG   :     d8  0000000000000000  d9  0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d10 0000000000000000  d11 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d12 0000000000000000  d13 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d14 0000000000000000  d15 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d16 00000000000000f9  d17 0000000000000001
+10-16 18:50:49.048    95    95 I DEBUG   :     d18 416fca0555555555  d19 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d20 4018000000000000  d21 4000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d22 0000000000000000  d23 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d24 0000000000000000  d25 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d26 404e000000000000  d27 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d28 0000000000000000  d29 0000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     d30 0000000000000000  d31 4000000000000000
+10-16 18:50:49.048    95    95 I DEBUG   :     scr 80000010
+10-16 18:50:49.048    95    95 I DEBUG   : 
+10-16 18:50:49.048    95    95 I DEBUG   : backtrace:
+10-16 18:50:49.048    95    95 I DEBUG   :     #00  pc 00001520  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:49.048    95    95 I DEBUG   :     #01  pc 0000192d  /system/lib/hw/gralloc.qsd8k.so (gralloc::gpu_context_t::gralloc_free(alloc_device_t*, native_handle const*)+8)
+10-16 18:50:49.048    95    95 I DEBUG   :     #02  pc 00006399  /system/lib/libui.so (android::GraphicBufferAllocator::alloc(unsigned int, unsigned int, int, int, native_handle const**, int*, unsigned int)+76)
+10-16 18:50:49.048    95    95 I DEBUG   :     #03  pc 00005b87  /system/lib/libui.so (android::GraphicBuffer::initSize(unsigned int, unsigned int, int, unsigned int, unsigned int)+42)
+10-16 18:50:49.048    95    95 I DEBUG   :     #04  pc 00005edd  /system/lib/libui.so (android::GraphicBuffer::GraphicBuffer(unsigned int, unsigned int, int, unsigned int, unsigned int)+68)
+10-16 18:50:49.048    95    95 I DEBUG   :     #05  pc 0002976b  /system/lib/libgui.so (android::GraphicBufferAlloc::createGraphicBuffer(unsigned int, unsigned int, int, unsigned int, int*)+38)
+10-16 18:50:49.048    95    95 I DEBUG   :     #06  pc 00025ef7  /system/lib/libgui.so (android::BufferQueue::dequeueBuffer(int*, android::sp<android::Fence>*, bool, unsigned int, unsigned int, unsigned int, unsigned int)+862)
+10-16 18:50:49.048    95    95 I DEBUG   :     #07  pc 0002f433  /system/lib/libgui.so (android::Surface::dequeueBuffer(ANativeWindowBuffer**, int*)+98)
+10-16 18:50:49.048    95    95 I DEBUG   :     #08  pc 0002f00d  /system/lib/libgui.so (android::Surface::hook_dequeueBuffer_DEPRECATED(ANativeWindow*, ANativeWindowBuffer**)+36)
+10-16 18:50:49.048    95    95 I DEBUG   :     #09  pc 00001db3  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:49.048    95    95 I DEBUG   :     #10  pc 000034b5  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:49.058    95    95 I DEBUG   :     #11  pc 000037bf  /system/lib/egl/eglsubAndroid.so
+10-16 18:50:49.058    95    95 I DEBUG   :     #12  pc 0000b444  /system/lib/egl/libEGL_adreno200.so (qeglDrvAPI_eglCreateWindowSurface+572)
+10-16 18:50:49.058    95    95 I DEBUG   :     #13  pc 00005ccc  /system/lib/egl/libEGL_adreno200.so (eglCreateWindowSurface+16)
+10-16 18:50:49.058    95    95 I DEBUG   :     #14  pc 0000efdb  /system/lib/libEGL.so (eglCreateWindowSurface+270)
+10-16 18:50:49.058    95    95 I DEBUG   :     #15  pc 000117d9  /system/lib/libsurfaceflinger.so
+10-16 18:50:49.058    95    95 I DEBUG   :     #16  pc 0001dc1f  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::init()+774)
+10-16 18:50:49.058    95    95 I DEBUG   :     #17  pc 000008a7  /system/bin/surfaceflinger
+10-16 18:50:49.058    95    95 I DEBUG   :     #18  pc 0000e3ff  /system/lib/libc.so (__libc_init+50)
+10-16 18:50:49.058    95    95 I DEBUG   :     #19  pc 000007dc  /system/bin/surfaceflinger
+10-16 18:50:49.058    95    95 I DEBUG   : 
+10-16 18:50:49.058    95    95 I DEBUG   : stack:
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140b0  0000000d  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140b4  be9140fc  [stack]
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140b8  00000038  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140bc  00455455  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140c0  00000000  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140c4  30000000  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140c8  00000001  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140cc  be91408c  [stack]
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140d0  00000001  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140d4  00000000  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140d8  00000002  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140dc  67704a02  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140e0  be9146a0  [stack]
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140e4  400a7384  
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140e8  4005078a  /system/lib/libcutils.so
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140ec  00000006  
+10-16 18:50:49.058    95    95 I DEBUG   :     #00  be9140f0  40251046  /system/lib/libgui.so
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140f4  4004e915  /system/lib/libcutils.so (__android_log_print+56)
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140f8  be914514  [stack]
+10-16 18:50:49.058    95    95 I DEBUG   :          be9140fc  6f727245  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914100  706f2072  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914104  6e696e65  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914108  72742067  
+10-16 18:50:49.058    95    95 I DEBUG   :          be91410c  20656361  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914110  656c6966  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914114  6f4e203a  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914118  0000006c  
+10-16 18:50:49.058    95    95 I DEBUG   :          be91411c  40cdc004  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:49.058    95    95 I DEBUG   :          be914120  00000073  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914124  00000000  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914128  2a03e1e8  [heap]
+10-16 18:50:49.058    95    95 I DEBUG   :          be91412c  000001e0  
+10-16 18:50:49.058    95    95 I DEBUG   :          ........  ........
+10-16 18:50:49.058    95    95 I DEBUG   :     #01  be914140  00000002  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914144  00000320  
+10-16 18:50:49.058    95    95 I DEBUG   :          be914148  000001e0  
+10-16 18:50:49.058    95    95 I DEBUG   :          be91414c  4021439b  /system/lib/libui.so (android::GraphicBufferAllocator::alloc(unsigned int, unsigned int, int, int, native_handle const**, int*, unsigned int)+78)
+10-16 18:50:49.058    95    95 I DEBUG   :     #02  be914150  00001a03  
+10-16 18:50:49.067    95    95 I DEBUG   :          be914154  2a03e184  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be914158  2a03e170  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be91415c  2a03e1e8  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be914160  63003000  
+10-16 18:50:49.067    95    95 I DEBUG   :          be914164  2a03e1d8  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be914168  40cdc004  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:49.067    95    95 I DEBUG   :          be91416c  40cd9a7f  /system/lib/hw/gralloc.qsd8k.so
+10-16 18:50:49.067    95    95 I DEBUG   :          be914170  2a03e1d8  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be914174  40216447  /system/lib/libui.so
+10-16 18:50:49.067    95    95 I DEBUG   :          be914178  40218020  /system/lib/libui.so
+10-16 18:50:49.067    95    95 I DEBUG   :          be91417c  00000320  
+10-16 18:50:49.067    95    95 I DEBUG   :          be914180  000001e0  
+10-16 18:50:49.067    95    95 I DEBUG   :          be914184  402141af  /system/lib/libui.so (android::GraphicBufferAllocator::GraphicBufferAllocator()+54)
+10-16 18:50:49.067    95    95 I DEBUG   :          be914188  2a03e1d8  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          be91418c  2a03e140  [heap]
+10-16 18:50:49.067    95    95 I DEBUG   :          ........  ........
+10-16 18:50:49.088    95    95 I DEBUG   : 
+10-16 18:50:49.088    95    95 I DEBUG   : memory near r5:
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1c8 2a03e140 00000000 00000000 00000013  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1d8 2a03e1e8 00000000 00000000 00000073  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1e8 48574454 00000000 40cdc004 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1f8 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e208 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e218 00000000 00000000 00000000 40cd950d  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e228 40cd9a05 40cd9925 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e238 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e248 00000000 00000000 2a009db0 00000d89  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e258 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e268 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e278 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e288 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e298 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e2a8 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e2b8 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   : 
+10-16 18:50:49.088    95    95 I DEBUG   : memory near r6:
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9904 f7ff447b 2500ecfc 61654620 ecf0f7ff  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9914 bd7c4628 00000ead 00000f3c 000013bd  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9924 4605b538 460c4608 fdf4f7ff db052800  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9934 46214628 4038e8bd bfaaf7ff 0015f06f  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9944 0000bd38 4ff0e92d ac12b089 468b4606  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9954 e8944692 469901b0 f06fb915 e0450415  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9964 d0fa2f00 aa064619 f7ffab07 ab05ff81  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9974 93004651 9a064658 f7ffab04 1e01ecfc  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9984 f1b8ddeb bf180f00 f4144641 d0012f06  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd9994 90072001 d50504e2 46224630 f7ff462b  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99a4 e00bff4f 46309b07 e88d9a04 9b050208  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99b4 46229202 462b9303 fe1ef7ff 46042800  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99c4 6828db14 ecdcf7ff b1684604 20064909  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99d4 4b0a4a09 447a4479 f7ff447b 4630ec90  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99e4 f7ff4629 e001ff55 60399904 b0094620  
+10-16 18:50:49.088    95    95 I DEBUG   :     40cd99f4 8ff0e8bd 00000dd5 00000e84 000012ef  
+10-16 18:50:49.088    95    95 I DEBUG   : 
+10-16 18:50:49.088    95    95 I DEBUG   : memory near r8:
+10-16 18:50:49.088    95    95 I DEBUG   :     000019e0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     000019f0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a00 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a10 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a20 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a30 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a40 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a50 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a60 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a70 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a80 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001a90 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001aa0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001ab0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001ac0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   :     00001ad0 ffffffff ffffffff ffffffff ffffffff  
+10-16 18:50:49.088    95    95 I DEBUG   : 
+10-16 18:50:49.088    95    95 I DEBUG   : memory near r9:
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e164 402138f7 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e174 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e184 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e194 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1a4 00000000 00000002 2a03a1c0 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1b4 00000000 00000000 0000001b 10000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1c4 00000000 2a03e140 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1d4 00000013 2a03e1e8 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1e4 00000073 48574454 00000000 40cdc004  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e1f4 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e204 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e214 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e224 40cd950d 40cd9a05 40cd9925 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e234 00000000 00000000 00000000 00000000  
+10-16 18:50:49.088    95    95 I DEBUG   :     2a03e244 00000000 00000000 00000000 2a009db0  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e254 00000d89 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   : 
+10-16 18:50:49.098    95    95 I DEBUG   : memory near sl:
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e150 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e160 40213901 402138f7 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e170 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e180 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e190 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1a0 00000000 00000000 00000002 2a03a1c0  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1b0 00000000 00000000 00000000 0000001b  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1c0 10000000 00000000 2a03e140 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1d0 00000000 00000013 2a03e1e8 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1e0 00000000 00000073 48574454 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e1f0 40cdc004 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e200 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e210 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e220 00000000 40cd950d 40cd9a05 40cd9925  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e230 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     2a03e240 00000000 00000000 00000000 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   : 
+10-16 18:50:49.098    95    95 I DEBUG   : memory near ip:
+10-16 18:50:49.098    95    95 I DEBUG   :     40217ed4 40217d78 40217d38 40217d60 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217ee4 00000000 00000000 40081dd1 40081cdd  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217ef4 4004b4d0 4004e229 40079330 4007944c  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f04 4007f741 4006af81 400793e4 4004b53c  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f14 400b4917 402195e9 4006d4a1 4004e8dd  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f24 4006c461 400b4909 4004b520 402195fd  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f34 40079694 4021964d 4021969b 40219681  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f44 40093663 40067884 40067fcc 40067980  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f54 4007b29c 400e234d 40067dc0 40067cfc  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f64 40067668 40067d80 400d1855 40067ddc  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f74 400e1ad9 400e1bc7 400e1b1f 4007b020  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f84 4004b959 4004b941 4004b929 400e1cdd  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217f94 400e001b 400e001b 400e1ad1 400e001b  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217fa4 400e406f 400e3f6d 4007ba9d 400e4641  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217fb4 400e46fb 400e20b1 400e21a1 400e459d  
+10-16 18:50:49.098    95    95 I DEBUG   :     40217fc4 4007d6cc 400e3f21 400e3fb5 400e4081  
+10-16 18:50:49.098    95    95 I DEBUG   : 
+10-16 18:50:49.098    95    95 I DEBUG   : memory near sp:
+10-16 18:50:49.098    95    95 I DEBUG   :     be9140d0 00000001 00000000 00000002 67704a02  
+10-16 18:50:49.098    95    95 I DEBUG   :     be9140e0 be9146a0 400a7384 4005078a 00000006  
+10-16 18:50:49.098    95    95 I DEBUG   :     be9140f0 40251046 4004e915 be914514 6f727245  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914100 706f2072 6e696e65 72742067 20656361  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914110 656c6966 6f4e203a 0000006c 40cdc004  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914120 00000073 00000000 2a03e1e8 000001e0  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914130 2a03e1e8 40cd9925 00000002 40cd9931  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914140 00000002 00000320 000001e0 4021439b  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914150 00001a03 2a03e184 2a03e170 2a03e1e8  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914160 63003000 2a03e1d8 40cdc004 40cd9a7f  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914170 2a03e1d8 40216447 40218020 00000320  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914180 000001e0 402141af 2a03e1d8 2a03e140  
+10-16 18:50:49.098    95    95 I DEBUG   :     be914190 00001a03 00000002 00000320 000001e0  
+10-16 18:50:49.098    95    95 I DEBUG   :     be9141a0 40245745 00000000 2a0399c4 40213b8b  
+10-16 18:50:49.098    95    95 I DEBUG   :     be9141b0 00001a03 2a03e184 2a03e170 00000000  
+10-16 18:50:49.098    95    95 I DEBUG   :     be9141c0 2a03e140 00000002 00000320 000001e0  
+10-16 18:50:49.098    95    95 I DEBUG   : 
+10-16 18:50:49.098    95    95 I DEBUG   : code around pc:
+10-16 18:50:49.098    95    95 I DEBUG   :     40cd9500 e24bd004 e8bd8800 00002b0c b108b508  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9510 eef0f7ff bd082000 4603b5f0 b310b08f  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9520 2d0c6805 6882d10a d1072a0c 28026840  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9530 695ad104 491f2000 d039428a 689f6959  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9540 4007f3c1 2207f3c1 685c0e0e 262dbf08  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9550 bf082800 2a00202d 222dbf08 01fff011  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9560 212dbf08 223fe007 34fff04f 46254627  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9570 46164610 92084611 91092267 920a2173  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9580 4a0d910c 9500490d 250c447a 90079404  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9590 206d2402 900b9501 900d4479 97022003  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95a0 94059503 f7ff9606 f06feeac e7ff0015  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95b0 bdf0b00f 676d736d 0000122d 00001215  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95c0 460db538 21006682 46042268 ee9ef7ff  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95d0 48074b06 4a084907 44794478 447a63e0  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95e0 60a56023 64214620 bd386462 48574454  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd95f0 ffffff31 00000427 00000343 47f0e92d  
+10-16 18:50:49.108    95    95 I DEBUG   : 
+10-16 18:50:49.108    95    95 I DEBUG   : code around lr:
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9910 ecf0f7ff bd7c4628 00000ead 00000f3c  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9920 000013bd 4605b538 460c4608 fdf4f7ff  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9930 db052800 46214628 4038e8bd bfaaf7ff  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9940 0015f06f 0000bd38 4ff0e92d ac12b089  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9950 468b4606 e8944692 469901b0 f06fb915  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9960 e0450415 d0fa2f00 aa064619 f7ffab07  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9970 ab05ff81 93004651 9a064658 f7ffab04  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9980 1e01ecfc f1b8ddeb bf180f00 f4144641  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9990 d0012f06 90072001 d50504e2 46224630  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99a0 f7ff462b e00bff4f 46309b07 e88d9a04  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99b0 9b050208 46229202 462b9303 fe1ef7ff  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99c0 46042800 6828db14 ecdcf7ff b1684604  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99d0 20064909 4b0a4a09 447a4479 f7ff447b  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99e0 4630ec90 f7ff4629 e001ff55 60399904  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd99f0 b0094620 8ff0e8bd 00000dd5 00000e84  
+10-16 18:50:49.108    95    95 I DEBUG   :     40cd9a00 000012ef b150b51f 94009c06 94019c07  
+10-16 18:50:49.208    90    90 I ServiceManager: service 'display.hwcservice' died
+10-16 18:50:49.208    90    90 I ServiceManager: service 'media.audio_flinger' died
+10-16 18:50:49.208    90    90 I ServiceManager: service 'media.player' died
+10-16 18:50:49.208    90    90 I ServiceManager: service 'media.camera' died
+10-16 18:50:49.227  1235  1235 I Netd    : Netd 1.0 starting
+10-16 18:50:49.238  1235  1235 W InterfaceController: Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library

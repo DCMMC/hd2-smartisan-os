@@ -1,0 +1,1134 @@
+--------- beginning of /dev/log/main
+05-20 00:00:46.688  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@android.policy.jar@classes.dex)
+05-20 00:00:46.708  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'android.policy.jar' (bootstrap=1) ---
+05-20 00:00:46.918  9901  9901 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:47.288  9901  9901 D dalvikvm: DexOpt: load 59ms, verify+opt 436ms, 928812 bytes
+05-20 00:00:47.338  9882  9882 D dalvikvm: DexOpt: --- END 'android.policy.jar' (success) ---
+05-20 00:00:47.338  9882  9882 D dalvikvm: DEX prep '/system/framework/android.policy.jar': unzip in 23ms, rewrite 623ms
+05-20 00:00:47.338  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:47.338  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@services.jar@classes.dex)
+05-20 00:00:47.539  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'services.jar' (bootstrap=1) ---
+05-20 00:00:47.948  9902  9902 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:51.078  9902  9902 D dalvikvm: DexOpt: load 198ms, verify+opt 3020ms, 2840108 bytes
+05-20 00:00:51.559  9882  9882 D dalvikvm: DexOpt: --- END 'services.jar' (success) ---
+05-20 00:00:51.559  9882  9882 D dalvikvm: DEX prep '/system/framework/services.jar': unzip in 200ms, rewrite 4020ms
+05-20 00:00:51.578  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:51.578  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@apache-xml.jar@classes.dex)
+05-20 00:00:51.678  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'apache-xml.jar' (bootstrap=1) ---
+05-20 00:00:52.608  9903  9903 D dalvikvm: DexOpt: load 88ms, verify+opt 700ms, 837444 bytes
+05-20 00:00:52.858  9882  9882 D dalvikvm: DexOpt: --- END 'apache-xml.jar' (success) ---
+05-20 00:00:52.858  9882  9882 D dalvikvm: DEX prep '/system/framework/apache-xml.jar': unzip in 83ms, rewrite 1183ms
+05-20 00:00:52.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:52.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@webviewchromium.jar@classes.dex)
+05-20 00:00:52.899  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'webviewchromium.jar' (bootstrap=1) ---
+05-20 00:00:53.608  9904  9904 D dalvikvm: DexOpt: load 96ms, verify+opt 486ms, 1368612 bytes
+05-20 00:00:53.858  9882  9882 D dalvikvm: DexOpt: --- END 'webviewchromium.jar' (success) ---
+05-20 00:00:53.858  9882  9882 D dalvikvm: DEX prep '/system/framework/webviewchromium.jar': unzip in 39ms, rewrite 952ms
+05-20 00:00:53.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:53.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@telephony-msim.jar@classes.dex)
+05-20 00:00:53.869  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'telephony-msim.jar' (bootstrap=1) ---
+05-20 00:00:54.018  9905  9905 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:54.118  9905  9905 D dalvikvm: DexOpt: load 43ms, verify+opt 133ms, 587188 bytes
+05-20 00:00:54.158  9882  9882 D dalvikvm: DexOpt: --- END 'telephony-msim.jar' (success) ---
+05-20 00:00:54.158  9882  9882 D dalvikvm: DEX prep '/system/framework/telephony-msim.jar': unzip in 9ms, rewrite 288ms
+05-20 00:00:54.158  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:54.158  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@smartisanos.jar@classes.dex)
+05-20 00:00:54.178  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'smartisanos.jar' (bootstrap=1) ---
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$anim;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$array;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$attr;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$bool;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$color;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$dimen;' has an earlier definition; blocking out
+05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$drawable;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$id;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$integer;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$interpolator;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$layout;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$string;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$style;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$styleable;' has an earlier definition; blocking out
+05-20 00:00:54.268  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R;' has an earlier definition; blocking out
+05-20 00:00:54.418  9906  9906 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$anim;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$array;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$attr;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$bool;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$color;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$dimen;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$drawable;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$id;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$integer;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$interpolator;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$layout;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$string;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$style;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$styleable;': multiple definitions
+05-20 00:00:54.428  9906  9906 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R;': multiple definitions
+05-20 00:00:54.488  9906  9906 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:54.618  9906  9906 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+05-20 00:00:54.618  9906  9906 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+05-20 00:00:54.618  9906  9906 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+05-20 00:00:54.658  9906  9906 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+05-20 00:00:54.658  9906  9906 D dalvikvm: DexOpt: load 169ms, verify+opt 234ms, 810668 bytes
+05-20 00:00:54.798  9882  9882 D dalvikvm: DexOpt: --- END 'smartisanos.jar' (success) ---
+05-20 00:00:54.798  9882  9882 D dalvikvm: DEX prep '/system/framework/smartisanos.jar': unzip in 18ms, rewrite 618ms
+05-20 00:00:54.798  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:54.798  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@qcmediaplayer.jar@classes.dex)
+05-20 00:00:54.798  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'qcmediaplayer.jar' (bootstrap=1) ---
+05-20 00:00:54.878  9907  9907 D dalvikvm: DexOpt: load 10ms, verify+opt 9ms, 136180 bytes
+05-20 00:00:54.898  9882  9882 D dalvikvm: DexOpt: --- END 'qcmediaplayer.jar' (success) ---
+05-20 00:00:54.898  9882  9882 D dalvikvm: DEX prep '/system/framework/qcmediaplayer.jar': unzip in 0ms, rewrite 105ms
+05-20 00:00:54.908  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:54.908  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@WfdCommon.jar@classes.dex)
+05-20 00:00:54.908  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'WfdCommon.jar' (bootstrap=1) ---
+05-20 00:00:55.018  9908  9908 D dalvikvm: DexOpt: load 12ms, verify+opt 32ms, 176412 bytes
+05-20 00:00:55.128  9882  9882 D dalvikvm: DexOpt: --- END 'WfdCommon.jar' (success) ---
+05-20 00:00:55.128  9882  9882 D dalvikvm: DEX prep '/system/framework/WfdCommon.jar': unzip in 2ms, rewrite 223ms
+05-20 00:00:55.128  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:55.128  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@oem-services.jar@classes.dex)
+05-20 00:00:55.128  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'oem-services.jar' (bootstrap=1) ---
+05-20 00:00:55.218  9909  9909 D dalvikvm: DexOpt: load 9ms, verify+opt 1ms, 85324 bytes
+05-20 00:00:55.228  9882  9882 D dalvikvm: DexOpt: --- END 'oem-services.jar' (success) ---
+05-20 00:00:55.228  9882  9882 D dalvikvm: DEX prep '/system/framework/oem-services.jar': unzip in 0ms, rewrite 100ms
+05-20 00:00:55.238  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:00:55.238  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@org.codeaurora.Performance.jar@classes.dex)
+05-20 00:00:55.238  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'org.codeaurora.Performance.jar' (bootstrap=1) ---
+05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: 'Lorg/codeaurora/Performance;' has an earlier definition; blocking out
+05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: 'Lorg/codeaurora/camera/QCFace;' has an earlier definition; blocking out
+05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/codeaurora/Performance;': multiple definitions
+05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/codeaurora/camera/QCFace;': multiple definitions
+05-20 00:00:55.329  9910  9910 D dalvikvm: DexOpt: load 10ms, verify+opt 5ms, 85676 bytes
+05-20 00:00:55.338  9882  9882 D dalvikvm: DexOpt: --- END 'org.codeaurora.Performance.jar' (success) ---
+05-20 00:00:55.338  9882  9882 D dalvikvm: DEX prep '/system/framework/org.codeaurora.Performance.jar': unzip in 0ms, rewrite 108ms
+05-20 00:00:55.358  9882  9882 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:55.388  9882  9882 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:55.398  9882  9882 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:55.398  9882  9882 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:55.398  9882  9882 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:55.438  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'vm-probe.dex' (bootstrap=0) ---
+05-20 00:00:55.498  9911  9911 D dalvikvm: DexOpt: load 5ms, verify+opt 1ms, 90060 bytes
+05-20 00:00:55.519  9882  9882 D dalvikvm: DexOpt: --- END 'vm-probe.dex' (success) ---
+05-20 00:00:55.519  9882  9882 D dalvikvm: DEX prep '/data/local/tmp/hd2-core-fix/vm-probe.dex': copy in 0ms, rewrite 85ms
+05-20 00:00:55.568  9882  9882 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:55.908  9882  9882 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:55.908  9882  9882 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:56.049  9882  9882 D AndroidRuntime: Calling main entry VmProbe
+05-20 00:00:56.049  9882  9882 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:56.058  9882  9882 D AndroidRuntime: Shutting down VM
+05-20 00:00:56.978  9921  9921 D AndroidRuntime: 
+05-20 00:00:56.978  9921  9921 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+05-20 00:00:56.978  9921  9921 D AndroidRuntime: CheckJNI is OFF
+05-20 00:00:57.018  9921  9921 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:00:57.028  9921  9921 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:00:57.038  9921  9921 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:00:57.038  9921  9921 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:00:57.038  9921  9921 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:00:57.118  9921  9921 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:00:57.458  9921  9921 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:00:57.458  9921  9921 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:00:57.558  9921  9921 I SamplingProfilerIntegration: Profiling disabled.
+05-20 00:00:57.578  9921  9921 I Zygote  : Preloading classes...
+05-20 00:00:57.578  9921  9921 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:00:58.458  9921  9921 D skia    : ---- failed to open </system/fonts/DroidSerif-Regular.ttf> as a font
+05-20 00:00:58.458  9921  9921 D skia    : ---- failed to open </system/fonts/DroidSerif-Bold.ttf> as a font
+05-20 00:00:58.458  9921  9921 D skia    : ---- failed to open </system/fonts/DroidSerif-Italic.ttf> as a font
+05-20 00:00:58.458  9921  9921 D skia    : ---- failed to open </system/fonts/DroidSerif-BoldItalic.ttf> as a font
+05-20 00:00:58.888  9921  9921 D TextLayoutCache: Using debug level = 0 - Debug Enabled = 0
+05-20 00:00:59.158  9921  9921 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:00:59.158  9921  9921 D MtpDeviceJNI: register_android_mtp_MtpDevice
+05-20 00:00:59.158  9921  9921 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:00:59.158  9921  9921 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:00:59.158  9921  9921 I dalvikvm: threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+05-20 00:01:00.018  9921  9921 I LibraryLoader: loading: webviewchromium
+05-20 00:01:00.428  9921  9921 I LibraryLoader: loaded: webviewchromium
+05-20 00:01:01.578  9921  9921 W Zygote  : Class not found for preloading: java.lang.UnsafeByteSequence
+05-20 00:01:01.928  9921  9921 I System  : Loaded time zone names for "" in 118ms (110ms in ICU)
+05-20 00:01:02.018  9921  9921 I System  : Loaded time zone names for "en_US" in 90ms (76ms in ICU)
+05-20 00:01:02.118  9921  9921 I System  : Loaded time zone names for "zh_CN" in 98ms (84ms in ICU)
+05-20 00:01:02.418  9921  9921 I Zygote  : ...preloaded 2777 classes in 4835ms.
+05-20 00:01:03.118  9921  9921 I Zygote  : Preloading resources...
+05-20 00:01:03.371  9921  9921 I Zygote  : ...preloaded 21 resources in 251ms.
+05-20 00:01:03.371  9921  9921 I Zygote  : ...preloaded 1 resources in 0ms.
+05-20 00:01:03.408  9921  9921 I Zygote  : Preloading resources...
+05-20 00:01:03.638  9921  9921 W Resources: Preloaded drawable resource #0x202003c (smartisanos:drawable/cal_btn_black_n) that varies with configuration!!
+05-20 00:01:03.648  9921  9921 W Resources: Preloaded drawable resource #0x202003d (smartisanos:drawable/cal_btn_black_p) that varies with configuration!!
+05-20 00:01:03.668  9921  9921 W Resources: Preloaded drawable resource #0x202003e (smartisanos:drawable/cal_btn_grey_n) that varies with configuration!!
+05-20 00:01:03.679  9921  9921 W Resources: Preloaded drawable resource #0x202003f (smartisanos:drawable/cal_btn_grey_p) that varies with configuration!!
+05-20 00:01:03.688  9921  9921 W Resources: Preloaded drawable resource #0x202005d (smartisanos:drawable/cal_btn_white_n) that varies with configuration!!
+05-20 00:01:03.698  9921  9921 W Resources: Preloaded drawable resource #0x202006f (smartisanos:drawable/cal_btn_white_p) that varies with configuration!!
+05-20 00:01:03.718  9921  9921 W Resources: Preloaded drawable resource #0x202003d (smartisanos:drawable/cal_btn_black_p) that varies with configuration!!
+05-20 00:01:03.728  9921  9921 W Resources: Preloaded drawable resource #0x202003c (smartisanos:drawable/cal_btn_black_n) that varies with configuration!!
+05-20 00:01:03.728  9921  9921 W Resources: Preloaded drawable resource #0x202006c (smartisanos:drawable/cal_selector_btn_black) that varies with configuration!!
+05-20 00:01:03.748  9921  9921 W Resources: Preloaded drawable resource #0x202003f (smartisanos:drawable/cal_btn_grey_p) that varies with configuration!!
+05-20 00:01:03.758  9921  9921 W Resources: Preloaded drawable resource #0x202003e (smartisanos:drawable/cal_btn_grey_n) that varies with configuration!!
+05-20 00:01:03.758  9921  9921 W Resources: Preloaded drawable resource #0x202006d (smartisanos:drawable/cal_selector_btn_grey) that varies with configuration!!
+05-20 00:01:03.768  9921  9921 W Resources: Preloaded drawable resource #0x202006f (smartisanos:drawable/cal_btn_white_p) that varies with configuration!!
+05-20 00:01:03.788  9921  9921 W Resources: Preloaded drawable resource #0x202005d (smartisanos:drawable/cal_btn_white_n) that varies with configuration!!
+05-20 00:01:03.788  9921  9921 W Resources: Preloaded drawable resource #0x202006e (smartisanos:drawable/cal_selector_btn_white) that varies with configuration!!
+05-20 00:01:03.788  9921  9921 I Zygote  : ...preloaded 29 smartisanos resources in 375ms.
+05-20 00:01:03.788  9921  9921 I Zygote  : ...preloaded 0 smartisanos resources in 0ms.
+05-20 00:01:03.968  9921  9921 I dalvikvm: System server process 9941 has been created
+05-20 00:01:03.978  9921  9921 I Zygote  : Accepting command socket connections
+05-20 00:01:04.038  9941  9941 D SensorService: nuSensorService starting...
+05-20 00:01:04.048   103   103 D AK8973  : Compass Start
+05-20 00:01:04.048  9941  9941 I SensorService: BMA150 3-axis Accelerometer
+05-20 00:01:04.048  9941  9941 I SensorService: AK8973 3-axis Magnetic field sensor
+05-20 00:01:04.048  9941  9941 I SensorService: AK8973 Orientation sensor
+05-20 00:01:04.058  9941  9941 I SensorService: CM3602 Proximity sensor
+05-20 00:01:04.058  9941  9941 I SensorService: CM3602 Light sensor
+05-20 00:01:04.058  9941  9941 D SensorService: Max socket buffer size 1048576
+05-20 00:01:04.058  9941  9954 D SensorService: nuSensorService thread starting...
+05-20 00:01:04.058   101   101 I installd: new connection
+05-20 00:01:04.259   103   103 D AK8973  : Compass CLOSE 
+05-20 00:01:05.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.818 10045 10045 D dalvikvm: DexOpt: load 11ms, verify+opt 34ms, 136260 bytes
+05-20 00:01:05.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.918 10046 10046 D dalvikvm: DexOpt: load 6ms, verify+opt 8ms, 121860 bytes
+05-20 00:01:05.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.008 10047 10047 D dalvikvm: DexOpt: load 8ms, verify+opt 3ms, 109652 bytes
+05-20 00:01:06.089  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.188 10048 10048 D dalvikvm: DexOpt: load 12ms, verify+opt 21ms, 147972 bytes
+05-20 00:01:06.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.488 10049 10049 D dalvikvm: DexOpt: load 33ms, verify+opt 148ms, 539340 bytes
+05-20 00:01:06.609  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.708 10050 10050 D dalvikvm: DexOpt: load 11ms, verify+opt 24ms, 175524 bytes
+05-20 00:01:06.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.818 10051 10051 D dalvikvm: DexOpt: load 8ms, verify+opt 7ms, 127732 bytes
+05-20 00:01:06.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.918 10052 10052 D dalvikvm: DexOpt: load 7ms, verify+opt 6ms, 125924 bytes
+05-20 00:01:07.049  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.188 10055 10055 D dalvikvm: DexOpt: load 8ms, verify+opt 9ms, 144260 bytes
+05-20 00:01:07.218  9941  9941 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
+05-20 00:01:07.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.368 10058 10058 D dalvikvm: DexOpt: load 9ms, verify+opt 66ms, 217892 bytes
+05-20 00:01:07.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.498 10059 10059 D dalvikvm: DexOpt: load 11ms, verify+opt 11ms, 154812 bytes
+05-20 00:01:07.529  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.748 10060 10060 D dalvikvm: DexOpt: load 15ms, verify+opt 130ms, 410596 bytes
+05-20 00:01:07.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.108 10061 10061 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:08.138 10061 10061 D dalvikvm: DexOpt: load 13ms, verify+opt 178ms, 486756 bytes
+05-20 00:01:08.178  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.248 10062 10062 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:08.258 10062 10062 D dalvikvm: DexOpt: load 7ms, verify+opt 19ms, 161676 bytes
+05-20 00:01:08.288  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.508 10063 10063 D dalvikvm: DexOpt: load 15ms, verify+opt 126ms, 366452 bytes
+05-20 00:01:08.628  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.708 10064 10064 D dalvikvm: DexOpt: load 10ms, verify+opt 9ms, 142468 bytes
+05-20 00:01:08.729  9941  9941 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
+05-20 00:01:08.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.808 10065 10065 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:08.818 10065 10065 D dalvikvm: DexOpt: load 5ms, verify+opt 13ms, 142932 bytes
+05-20 00:01:08.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.918 10066 10066 D dalvikvm: DexOpt: load 5ms, verify+opt 12ms, 131388 bytes
+05-20 00:01:08.939  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.008 10067 10067 D dalvikvm: DexOpt: load 6ms, verify+opt 6ms, 111452 bytes
+05-20 00:01:09.028  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.108 10068 10068 D dalvikvm: DexOpt: load 6ms, verify+opt 11ms, 115092 bytes
+05-20 00:01:09.128  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.198 10069 10069 D dalvikvm: DexOpt: load 7ms, verify+opt 5ms, 108020 bytes
+05-20 00:01:09.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.438 10070 10070 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:09.458 10070 10070 D dalvikvm: DexOpt: load 5ms, verify+opt 42ms, 237108 bytes
+05-20 00:01:09.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.558 10071 10071 D dalvikvm: DexOpt: load 7ms, verify+opt 12ms, 135252 bytes
+05-20 00:01:09.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.708 10072 10072 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:09.788 10072 10072 D dalvikvm: DexOpt: load 13ms, verify+opt 93ms, 385052 bytes
+05-20 00:01:09.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.928 10073 10073 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:09.938 10073 10073 D dalvikvm: DexOpt: load 9ms, verify+opt 43ms, 230604 bytes
+05-20 00:01:10.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.118 10074 10074 D dalvikvm: DexOpt: load 8ms, verify+opt 5ms, 122692 bytes
+05-20 00:01:10.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.218 10075 10075 D dalvikvm: DexOpt: load 5ms, verify+opt 10ms, 113684 bytes
+05-20 00:01:10.238  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.368 10076 10076 D dalvikvm: DexOpt: load 51ms, verify+opt 16ms, 279940 bytes
+05-20 00:01:10.728  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.979  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.008  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.030  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.038  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.048  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.169  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.568  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.758  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.779  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.878  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.928  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:11.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.118  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.168  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.188  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.248  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.708  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.729  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.859  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.078  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:13.940  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.158  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.429  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.498  9941  9941 D skia    : --- SkImageDecoder::Factory returned null
+05-20 00:01:14.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.518  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.668  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.748  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.990  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.148  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.240  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.278  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.318  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.389  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.459  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.768  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.798  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.808  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.888  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.918  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.978  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.988  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:15.998  9941  9941 D PackageManager: No files in app dir /vendor/app
+05-20 00:01:16.399  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.399  9941  9941 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@priv-app@SettingsProvider.apk@classes.dex)
+05-20 00:01:16.418  9941  9941 D dalvikvm: DexOpt: --- BEGIN 'SettingsProvider.apk' (bootstrap=0) ---
+05-20 00:01:16.748 10077 10077 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:16.768 10077 10077 D dalvikvm: DexOpt: load 13ms, verify+opt 85ms, 416212 bytes
+05-20 00:01:16.789  9941  9941 D dalvikvm: DexOpt: --- END 'SettingsProvider.apk' (success) ---
+05-20 00:01:16.789  9941  9941 D dalvikvm: DEX prep '/system/priv-app/SettingsProvider.apk': unzip in 13ms, rewrite 377ms
+05-20 00:01:16.858  9941  9951 E lights  : check_battery_level: Incorrect last battery_state! Resetting last battery state!
+05-20 00:01:16.858  9941  9951 I lights  : check_battery_level: state=5
+05-20 00:01:16.869  9941  9941 E ConsumerIrService: Can't open consumer IR HW Module, error: -2
+05-20 00:01:16.869  9941  9941 I libsuspend: Selected early suspend
+--------- beginning of /dev/log/system
+05-20 00:00:00.488  9183  9198 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+05-20 00:01:16.869  9941  9941 I libsuspend: Starting early suspend unblocker thread
+05-20 00:00:00.548  9183  9198 I ActivityManager: Start proc com.smartisan.rem for broadcast com.smartisan.rem/.framework.REMReceiver: pid=9825 uid=2000 gids={42000, 3003, 3002, 3001, 1028, 1015, 1023, 3008}
+05-20 00:01:16.898  3701  3701 D SurfaceFlinger: Screen acquired, type=0 flinger=0x2a0074f0
+05-20 00:00:01.319  9456  9823 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 android.content.ContextWrapper.sendBroadcast:365 com.android.settings.fuelgauge.PowerUsageService.onHandleIntent:95 android.app.IntentService$ServiceHandler.handleMessage:65 android.os.Handler.dispatchMessage:102 
+05-20 00:01:16.898  3701  3701 D SurfaceFlinger:  screen was previously acquired
+05-20 00:00:01.568  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:01:17.049  9941  9941 D BluetoothManagerService: Loading stored name and address
+05-20 00:00:02.818  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:01:17.049  9941  9941 D BluetoothManagerService: Stored bluetooth Name=NexusHD2,Address=<MAC-REDACTED>
+05-20 00:00:03.378  9183  9331 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:01:17.058  9941 10084 D EventHub: No input device configuration file found for device 'lightsensor-level'.
+05-20 00:00:04.088  8042  9840 W SocketClient: write error (Broken pipe)
+05-20 00:01:17.058  9941 10084 D EventHub: No input device configuration file found for device 'compass'.
+05-20 00:00:04.788  9183  9308 E NetdConnector: NDC Command {13 bandwidth gettetherstats} took too long (712ms)
+05-20 00:01:17.058  9941 10084 D EventHub: No input device configuration file found for device 'htcleo-keypad'.
+05-20 00:00:05.298  9456  9456 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:01:17.068  9941 10084 W EventHub: Unable to disable kernel key repeat for /dev/input/event3: Function not implemented
+05-20 00:00:06.268  9183  9199 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:01:17.068  9941 10084 I EventHub: New device: id=3, fd=106, path='/dev/input/event3', name='htcleo-keypad', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/htcleo-keypad.kl', keyCharacterMap='/system/usr/keychars/htcleo-keypad.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=false, usingClockIoctl=false
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 9496
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Native method not found: java.lang.Runtime.gcAndTrim:()V
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at java.lang.Runtime.gcAndTrim(Native Method)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at android.app.ActivityThread$HeapTrimerRunable.run(ActivityThread.java:5142)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:733)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:13.638  9496  9496 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:01:17.068  9941 10084 D EventHub: No input device configuration file found for device 'h2w headset'.
+05-20 00:00:13.668  9183  9393 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:01:17.078  9941 10084 W EventHub: Unable to disable kernel key repeat for /dev/input/event2: Function not implemented
+05-20 00:00:13.978  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:01:17.078  9941 10084 I EventHub: New device: id=4, fd=107, path='/dev/input/event2', name='h2w headset', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/h2w_headset.kl', keyCharacterMap='/system/usr/keychars/h2w_headset.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=false, usingClockIoctl=false
+05-20 00:00:14.478  9183  9331 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:01:17.078  9941 10084 D EventHub: No input device configuration file found for device 'proximity'.
+05-20 00:00:14.748  9183  9331 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:01:17.088  9941 10084 W EventHub: Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+05-20 00:00:23.688  9183  9198 W ActivityManager: Activity destroy timeout for ActivityRecord{41d23f98 u0 com.smartisanos.launcher/.Launcher t1 f}
+05-20 00:01:17.088  9941 10084 I EventHub: New device: id=6, fd=108, path='/dev/input/event0', name='htcleo-touchscreen', classes=0x15, configuration='/system/usr/idc/htcleo-touchscreen.idc', keyLayout='/system/usr/keylayout/htcleo-touchscreen.kl', keyCharacterMap='/system/usr/keychars/htcleo-touchscreen.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=false, usingClockIoctl=false
+05-20 00:01:04.038  9941  9941 I SystemServer: Entered the Android system server!
+05-20 00:01:17.119  9941 10084 I InputReader: Device added: id=-1, name='Virtual', sources=0x00000301
+05-20 00:01:04.058  9941  9941 I SystemServer: Waiting for installd to be ready.
+05-20 00:01:17.119  9941 10084 I InputReader:   Touch device 'htcleo-touchscreen' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+05-20 00:01:04.058  9941  9941 I Installer: connecting...
+05-20 00:01:17.119  9941 10084 I InputReader: Device added: id=6, name='htcleo-touchscreen', sources=0x00001103
+05-20 00:01:04.068  9941  9941 I SystemServer: Power Manager
+05-20 00:01:17.119  9941 10084 I InputReader: Device added: id=4, name='h2w headset', sources=0x00000101
+05-20 00:01:04.068  9941  9941 I SystemServer: Activity Manager
+05-20 00:01:17.119  9941 10084 I InputReader: Device added: id=3, name='htcleo-keypad', sources=0x00000101
+05-20 00:01:04.388  9941  9956 I ActivityManager: Memory class: 64
+05-20 00:01:17.238  9941 10084 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-20 00:01:04.438  9941  9956 W UsageStats: Usage stats version changed; dropping
+05-20 00:01:17.238  9941 10084 I InputReader: Device reconfigured: id=6, name='htcleo-touchscreen', size 480x800, orientation 0, mode 1, display id 0
+05-20 00:01:04.458  9941  9956 I AppOps  : No existing app ops config file /system/etc/package_ops_config.xml
+05-20 00:01:17.238  9941 10084 I InputReader: Reconfiguring input devices.  changes=0x00000004
+05-20 00:01:04.768  9941  9941 I IntentFirewall: Read new rules (A:0 B:0 S:0)
+05-20 00:01:17.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:04.788  9941  9941 I SystemServer: Display Manager
+05-20 00:01:17.268  9941  9941 I PackageManager: Running dexopt on: com.android.stk
+05-20 00:01:04.798  9941  9941 I SystemServer: Telephony Registry
+05-20 00:01:17.668 10085 10085 D dalvikvm: DexOpt: load 46ms, verify+opt 252ms, 478044 bytes
+05-20 00:01:04.808  9941  9955 I DisplayManagerService: Display device added: DisplayDeviceInfo{"内置屏幕": 480 x 800, 60.000004 fps, density 240, 254.0 x 254.0 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+05-20 00:01:17.879  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:04.828  9941  9941 I SystemServer: Scheduling Policy
+05-20 00:01:17.879  9941  9941 I PackageManager: Running dexopt on: com.smartisan.sconf
+05-20 00:01:04.838  9941  9941 I SystemServer: Package Manager
+05-20 00:01:17.938  3701  3704 I SurfaceFlinger: Boot is finished (1193039 ms)
+05-20 00:01:04.848  9941  9941 W PackageManager: No security bridge jar found, using default
+05-20 00:01:18.178 10087 10087 D dalvikvm: DexOpt: load 35ms, verify+opt 164ms, 420372 bytes
+05-20 00:01:05.218  9941  9941 W PackageManager: Couldn't find or open file /system/etc/install_bl.xml
+05-20 00:01:18.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.218  9941  9941 D SELinuxMMAC: Couldn't find install policy /data/security/mac_permissions.xml
+05-20 00:01:18.228  9941  9941 I PackageManager: Running dexopt on: com.android.providers.downloads
+05-20 00:01:05.218  9941  9941 D SELinuxMMAC: Using install policy file /system/etc/security/mac_permissions.xml
+05-20 00:01:18.598 10088 10088 D dalvikvm: DexOpt: load 39ms, verify+opt 198ms, 588204 bytes
+05-20 00:01:05.258  9941  9941 W PackageSettings: packages can't be read
+05-20 00:01:18.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.258  9941  9941 W PackageSettings: Got execption parsing active monitor.
+05-20 00:01:05.258  9941  9941 W PackageSettings: java.io.FileNotFoundException: /system/etc/active_monitor.xml: open failed: ENOENT (No such file or directory)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.pm.Settings.readActiveMonitorList(Settings.java:3616)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.pm.Settings.readLPw(Settings.java:1791)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1311)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:01:05.258  9941  9941 W PackageSettings: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at libcore.io.Posix.open(Native Method)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:01:05.258  9941  9941 W PackageSettings: 	... 12 more
+05-20 00:01:18.688  9941  9941 I PackageManager: Running dexopt on: com.android.contacts
+05-20 00:01:06.609  9941  9941 W PackageManager: Library not found: /system/framework/com.google.widevine.software.drm.jar
+05-20 00:01:20.309 10089 10089 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:07.218  9941  9941 W PackageManager: Library not found: /system/framework/com.google.android.media.effects.jar
+05-20 00:01:22.228 10089 10089 D dalvikvm: DexOpt: load 655ms, verify+opt 2355ms, 3150364 bytes
+05-20 00:01:07.218  9941  9941 W PackageManager: Cannot dexopt /system/framework/cneapiclient.jar; is it an APK or JAR? /system/framework/cneapiclient.jar
+05-20 00:01:22.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.218  9941  9941 W PackageManager: Library not found: /system/framework/com.google.android.maps.jar
+05-20 00:01:22.718  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.clock
+05-20 00:01:07.518  9941  9941 W PackageManager: Library not found: /system/framework/org.cyanogenmod.hardware.jar
+05-20 00:01:23.308 10090 10090 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:08.729  9941  9941 W PackageManager: Exception reading jar: /system/framework/cneapiclient.jar
+05-20 00:01:08.729  9941  9941 W PackageManager: java.io.IOException: /system/framework/cneapiclient.jar
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1411)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:01:08.729  9941  9941 W PackageManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:01:24.308 10090 10090 D dalvikvm: DexOpt: load 338ms, verify+opt 959ms, 1792364 bytes
+05-20 00:01:10.398  9941  9941 I PackageManager: Replacing default ResolverActivity with custom activity: ComponentInfo{android/com.android.internal.app.ResolverActivity}
+05-20 00:01:24.508  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:12.118  9941  9941 W PackageManager: Skipping provider name com.android.badge (in package com.smartisanos.keyguard): name already used by com.smartisanos.launcher
+05-20 00:01:24.508  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.gamestore
+05-20 00:01:12.458  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeCyan.apk Binary XML file line #8
+05-20 00:01:26.019 10096 10096 D AndroidRuntime: 
+05-20 00:01:26.019 10096 10096 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:01:12.579  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemePurple.apk Binary XML file line #8
+05-20 00:01:26.038 10096 10096 D AndroidRuntime: CheckJNI is OFF
+05-20 00:01:13.528  9941  9941 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #71
+05-20 00:01:26.128 10096 10096 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:01:13.538  9941  9941 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #73
+05-20 00:01:26.138 10096 10096 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:01:13.538  9941  9941 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #75
+05-20 00:01:26.168 10096 10096 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:01:13.708  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeYellow.apk Binary XML file line #8
+05-20 00:01:26.168 10096 10096 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:01:14.228  9941  9941 I PackageParser: com.qualcomm.qcom_qmi: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:01:26.178 10096 10096 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:01:14.438  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeThirdApp.apk Binary XML file line #8
+05-20 00:01:26.338 10096 10096 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:14.578  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeGreen.apk Binary XML file line #8
+05-20 00:01:26.488 10091 10091 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:15.258  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeWhite.apk Binary XML file line #8
+05-20 00:01:26.998 10091 10091 D dalvikvm: DexOpt: load 589ms, verify+opt 1624ms, 1572748 bytes
+05-20 00:01:15.348  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeDefault.apk Binary XML file line #8
+05-20 00:01:27.098 10096 10096 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:01:15.398  9941  9941 I PackageParser: com.qualcomm.interfacepermissions: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:01:27.098 10096 10096 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:01:15.529  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeOrange.apk Binary XML file line #8
+05-20 00:01:27.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.008  9941  9941 I PackageManager: Time to scan packages: 10.301 seconds
+05-20 00:01:27.218  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.backup
+05-20 00:01:16.008  9941  9941 W PackageManager: Removing dangling permission: com.tmobile.permission.ACCESS_DRM_THEME from package null
+05-20 00:01:27.328 10096 10096 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+05-20 00:01:16.008  9941  9941 W PackageManager: Removing dangling permission: com.qualcomm.permission.READ_DHCP_INFO from package null
+05-20 00:01:27.328 10096 10096 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=224, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2027752, downTime=2027752, deviceId=-1, source=0x101 }
+05-20 00:01:16.008  9941  9941 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x8be45)
+05-20 00:01:27.358 10096 10096 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=224, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=2027752, downTime=2027752, deviceId=-1, source=0x101 }
+05-20 00:01:16.018  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:01:27.358 10096 10096 D AndroidRuntime: Shutting down VM
+05-20 00:01:16.018  9941  9941 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:01:27.368 10096 10100 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:01:16.018  9941  9941 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:01:27.868 10103 10103 D dalvikvm: DexOpt: load 108ms, verify+opt 345ms, 733972 bytes
+05-20 00:01:16.018  9941  9941 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:01:27.968  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:01:27.968  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.music
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:01:31.568 10107 10107 D dalvikvm: DexOpt: load 496ms, verify+opt 2412ms, 3309876 bytes
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:01:32.528  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:01:32.528  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.lightblue
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:01:32.618 10108 10108 D dalvikvm: DexOpt: load 16ms, verify+opt 1ms, 124108 bytes
+05-20 00:01:16.028  9941  9941 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:01:32.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:01:32.738  9941  9941 I PackageManager: Running dexopt on: com.android.providers.media
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:01:32.988 10109 10109 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:01:33.108 10109 10109 D dalvikvm: DexOpt: load 26ms, verify+opt 244ms, 560308 bytes
+05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:01:33.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:01:33.148  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.quicksearch
+05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:01:33.578 10110 10110 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:01:33.858 10110 10110 D dalvikvm: DexOpt: load 212ms, verify+opt 331ms, 1081588 bytes
+05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:01:33.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:01:33.958  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.appstore
+05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:01:35.018 10111 10111 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:01:35.268 10111 10111 D dalvikvm: DexOpt: load 260ms, verify+opt 803ms, 1587156 bytes
+05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:01:35.478  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:01:35.478  9941  9941 I PackageManager: Running dexopt on: com.android.mms
+05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:01:36.618 10112 10112 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:01:37.448 10112 10112 D dalvikvm: DexOpt: load 357ms, verify+opt 1305ms, 2103452 bytes
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:01:37.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:01:37.848  9941  9941 I PackageManager: Running dexopt on: com.youdao.dict.smartisan
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:01:38.318 10113 10113 D dalvikvm: DexOpt: 'Lorg/xmlpull/v1/XmlPullParser;' has an earlier definition; blocking out
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:01:38.318 10113 10113 D dalvikvm: DexOpt: 'Lorg/xmlpull/v1/XmlPullParserException;' has an earlier definition; blocking out
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:01:38.318 10113 10113 D dalvikvm: DexOpt: 'Lorg/xmlpull/v1/XmlPullParserFactory;' has an earlier definition; blocking out
+05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:01:38.468 10113 10113 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/xmlpull/v1/XmlPullParserException;'
+05-20 00:01:16.058  9941  9941 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:01:38.838 10113 10113 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/xmlpull/v1/XmlPullParser;': multiple definitions
+05-20 00:01:16.068  9941  9941 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:01:38.838 10113 10113 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/xmlpull/v1/XmlPullParserException;': multiple definitions
+05-20 00:01:16.068  9941  9941 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:01:38.838 10113 10113 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/xmlpull/v1/XmlPullParserFactory;': multiple definitions
+05-20 00:01:16.068  9941  9941 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:01:39.098 10113 10113 D dalvikvm: DexOpt: load 236ms, verify+opt 747ms, 1426428 bytes
+05-20 00:01:16.068  9941  9941 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:01:39.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.068  9941  9941 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:01:39.498  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.setupwizard
+05-20 00:01:16.078  9941  9941 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:01:40.018 10119 10119 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:16.078  9941  9941 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:01:40.058 10119 10119 D dalvikvm: DexOpt: load 136ms, verify+opt 267ms, 826356 bytes
+05-20 00:01:16.338  9941  9941 I SystemServer: Entropy Mixer
+05-20 00:01:40.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.348  9941  9941 I EntropyMixer: Writing entropy...
+05-20 00:01:40.198  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.clay
+05-20 00:01:16.369  9941  9941 I SystemServer: User Service
+05-20 00:01:40.308 10120 10120 D dalvikvm: DexOpt: load 16ms, verify+opt 1ms, 124108 bytes
+05-20 00:01:16.369  9941  9941 I SystemServer: Account Manager
+05-20 00:01:40.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:16.388  9941  9941 I SystemServer: Content Manager
+05-20 00:01:40.329  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.notes
+05-20 00:01:16.388  9941  9941 I SystemServer: System Content Providers
+05-20 00:01:41.088 10121 10121 W dalvikvm: method Lcom/smartisanos/notes/widget/notespic/DetailNoteEditText;.canCut incorrectly overrides package-private method with same name in Landroid/widget/TextView;
+05-20 00:01:16.838  9941  9941 I SystemServer: Lights Service
+05-20 00:01:41.088 10121 10121 W dalvikvm: method Lcom/smartisanos/notes/widget/notespic/DetailNoteEditText;.canPaste incorrectly overrides package-private method with same name in Landroid/widget/TextView;
+05-20 00:01:16.848  9941  9941 I SystemServer: Battery Service
+05-20 00:01:41.088 10121 10121 W dalvikvm: method Lcom/smartisanos/notes/widget/notespic/DetailNoteEditText;.convertToLocalHorizontalCoordinate incorrectly overrides package-private method with same name in Landroid/widget/TextView;
+05-20 00:01:16.858  9941  9941 I SystemServer: Vibrator Service
+05-20 00:01:41.088 10121 10121 W dalvikvm: method Lcom/smartisanos/notes/widget/notespic/DetailNoteEditText;.getLineAtCoordinate incorrectly overrides package-private method with same name in Landroid/widget/TextView;
+05-20 00:01:16.869  9941  9941 I SystemServer: Consumer IR Service
+05-20 00:01:41.088 10121 10121 W dalvikvm: method Lcom/smartisanos/notes/widget/notespic/DetailNoteEditText;.selectAllText incorrectly overrides package-private method with same name in Landroid/widget/TextView;
+05-20 00:01:16.898  9941  9941 I SystemServer: Alarm Manager
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/Decoder;' has an earlier definition; blocking out
+05-20 00:01:16.898  9941  9941 E AlarmManager: Error reading History Heartbeat statistics
+05-20 00:01:16.898  9941  9941 E AlarmManager: java.io.FileNotFoundException: /data/system/heartbeatstats.bin: open failed: ENOENT (No such file or directory)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.readFromFile(AlarmManagerService.java:2694)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.init(AlarmManagerService.java:2873)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.server.AlarmManagerService.<init>(AlarmManagerService.java:649)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:320)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:01:16.898  9941  9941 E AlarmManager: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at libcore.io.Posix.open(Native Method)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:01:16.898  9941  9941 E AlarmManager: 	... 12 more
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/BinaryDecoder;' has an earlier definition; blocking out
+05-20 00:01:16.908  9941  9941 I SystemServer: Init Watchdog
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/Encoder;' has an earlier definition; blocking out
+05-20 00:01:16.908  9941  9941 I SystemServer: Input Manager
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/BinaryEncoder;' has an earlier definition; blocking out
+05-20 00:01:16.908  9941  9941 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/DecoderException;' has an earlier definition; blocking out
+05-20 00:01:16.908  9941  9941 I SystemServer: Window Manager
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/EncoderException;' has an earlier definition; blocking out
+05-20 00:01:16.918  9941  9955 I WindowManager: No existing display settings /data/system/display_settings.xml; starting empty
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/StringDecoder;' has an earlier definition; blocking out
+05-20 00:01:17.018  9941 10038 I WindowManager: <1400544077026> :  screenTurningOn null
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/StringEncoder;' has an earlier definition; blocking out
+05-20 00:01:17.018  9941 10038 I WindowManager: No keyguard interface!
+05-20 00:01:41.128 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/StringEncoderComparator;' has an earlier definition; blocking out
+05-20 00:01:17.018  9941 10038 I WindowManager: <1400544077026~1400544077027> :  finishScreenTurningOn null
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/binary/Base64;' has an earlier definition; blocking out
+05-20 00:01:17.038  9941  9941 I InputManager: Starting input manager
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/binary/BinaryCodec;' has an earlier definition; blocking out
+05-20 00:01:17.049  9941  9941 I SystemServer: Bluetooth Manager Service
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/binary/Hex;' has an earlier definition; blocking out
+05-20 00:01:17.058  9941  9941 I SystemServer: Input Method Service
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;' has an earlier definition; blocking out
+05-20 00:01:17.108  9941  9941 W InputMethodManagerService: Couldn't create dir.: /data/system/inputmethod
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/DoubleMetaphone;' has an earlier definition; blocking out
+05-20 00:01:17.208  9941  9941 I SystemServer: Accessibility Manager
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/Metaphone;' has an earlier definition; blocking out
+05-20 00:01:17.218  9941  9941 W ActivityManager: Unable to write /sys/module/lowmemorykiller/parameters/minfree
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/RefinedSoundex;' has an earlier definition; blocking out
+05-20 00:01:17.218  9941  9941 I ActivityManager: Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h533dp 240dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/Soundex;' has an earlier definition; blocking out
+05-20 00:01:17.249  9941  9941 I ActivityManager: Config changes=408 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/language/SoundexUtils;' has an earlier definition; blocking out
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/net/RFC1522Codec;' has an earlier definition; blocking out
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/net/BCodec;' has an earlier definition; blocking out
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/net/QCodec;' has an earlier definition; blocking out
+05-20 00:01:41.138 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/net/QuotedPrintableCodec;' has an earlier definition; blocking out
+05-20 00:01:41.148 10121 10121 D dalvikvm: DexOpt: 'Lorg/apache/commons/codec/net/URLCodec;' has an earlier definition; blocking out
+05-20 00:01:41.888 10121 10121 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+05-20 00:01:42.158 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Hex;'
+05-20 00:01:42.458 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Base64;'
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/Decoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/BinaryDecoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/Encoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/BinaryEncoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/DecoderException;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/EncoderException;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/StringDecoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/StringEncoder;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/StringEncoderComparator;': multiple definitions
+05-20 00:01:42.468 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/DecoderException;'
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/binary/Base64;': multiple definitions
+05-20 00:01:42.468 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Base64;'
+05-20 00:01:42.468 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Base64;'
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/binary/BinaryCodec;': multiple definitions
+05-20 00:01:42.468 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/binary/Hex;': multiple definitions
+05-20 00:01:42.478 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Hex;'
+05-20 00:01:42.478 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/binary/Hex;'
+05-20 00:01:42.488 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.488 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.488 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.498 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;': multiple definitions
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/DoubleMetaphone;': multiple definitions
+05-20 00:01:42.498 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/Metaphone;': multiple definitions
+05-20 00:01:42.498 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/RefinedSoundex;': multiple definitions
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/Soundex;': multiple definitions
+05-20 00:01:42.498 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/language/SoundexUtils;': multiple definitions
+05-20 00:01:42.498 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/EncoderException;'
+05-20 00:01:42.518 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/RFC1522Codec;': multiple definitions
+05-20 00:01:42.518 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/BCodec;': multiple definitions
+05-20 00:01:42.518 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/QCodec;': multiple definitions
+05-20 00:01:42.528 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/QuotedPrintableCodec;': multiple definitions
+05-20 00:01:42.528 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/URLCodec;': multiple definitions
+05-20 00:01:42.528 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/DecoderException;'
+05-20 00:01:42.748 10121 10121 D dalvikvm: DexOpt: load 434ms, verify+opt 1556ms, 2484564 bytes
+05-20 00:01:43.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:43.308  9941  9941 I PackageManager: Running dexopt on: com.android.backupconfirm
+05-20 00:01:43.448 10122 10122 D dalvikvm: DexOpt: load 21ms, verify+opt 45ms, 236148 bytes
+05-20 00:01:43.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:43.468  9941  9941 I PackageManager: Running dexopt on: com.smartisan.crashreport
+05-20 00:01:45.288 10123 10123 D dalvikvm: DexOpt: load 248ms, verify+opt 1117ms, 1935708 bytes
+05-20 00:01:45.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:45.739  9941  9941 I PackageManager: Running dexopt on: com.android.camera2
+05-20 00:01:49.398 10130 10130 D dalvikvm: DexOpt: load 567ms, verify+opt 2337ms, 3859364 bytes
+05-20 00:01:49.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:49.938  9941  9941 I PackageManager: Running dexopt on: com.android.providers.calendar
+05-20 00:01:50.408 10131 10131 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:01:50.498 10131 10131 D dalvikvm: DexOpt: load 42ms, verify+opt 368ms, 645308 bytes
+05-20 00:01:50.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.588  9941  9941 I PackageManager: Running dexopt on: com.android.location.fused
+05-20 00:01:50.668 10132 10132 D dalvikvm: DexOpt: load 9ms, verify+opt 10ms, 150532 bytes
+05-20 00:01:50.698  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.698  9941  9941 I PackageManager: Running dexopt on: com.android.vpndialogs
+05-20 00:01:50.878 10133 10133 D dalvikvm: DexOpt: load 15ms, verify+opt 96ms, 294492 bytes
+05-20 00:01:50.898  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.898  9941  9941 I PackageManager: Running dexopt on: com.qualcomm.shutdownlistner
+05-20 00:01:50.968 10134 10134 D dalvikvm: DexOpt: load 5ms, verify+opt 0ms, 85668 bytes
+05-20 00:01:50.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.998  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.sara
+05-20 00:01:52.218 10135 10135 D dalvikvm: DexOpt: load 143ms, verify+opt 844ms, 1340876 bytes
+05-20 00:01:52.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:52.388  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.powersaving.launcher
+05-20 00:01:53.198 10136 10136 D dalvikvm: DexOpt: load 136ms, verify+opt 462ms, 1079548 bytes
+05-20 00:01:53.338  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.338  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.cleaner
+05-20 00:01:53.798 10137 10137 D dalvikvm: DexOpt: load 159ms, verify+opt 203ms, 702540 bytes
+05-20 00:01:53.829  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.838  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.darkwood
+05-20 00:01:53.908 10138 10138 D dalvikvm: DexOpt: load 16ms, verify+opt 2ms, 124108 bytes
+05-20 00:01:53.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.958  9941  9941 I PackageManager: Running dexopt on: com.svox.pico
+05-20 00:01:54.168 10141 10141 D dalvikvm: DexOpt: load 51ms, verify+opt 37ms, 226332 bytes
+05-20 00:01:54.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:54.308  9941  9941 I PackageManager: Running dexopt on: com.android.providers.userdictionary
+05-20 00:01:54.458 10152 10152 D dalvikvm: DexOpt: load 8ms, verify+opt 16ms, 173412 bytes
+05-20 00:01:54.538  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:54.538  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.security
+05-20 00:03:32.637  9183  9183 I SystemServer: Init Watchdog
+05-20 00:03:32.647  9183  9183 I SystemServer: Input Manager
+05-20 00:03:32.647  9183  9183 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+05-20 00:03:32.647  9183  9183 I SystemServer: Window Manager
+05-20 00:03:32.657  9183  9197 I WindowManager: No existing display settings /data/system/display_settings.xml; starting empty
+05-20 00:03:33.057  9183  9280 I WindowManager: <1400544213066> :  screenTurningOn null
+05-20 00:03:33.057  9183  9280 I WindowManager: No keyguard interface!
+05-20 00:03:33.057  9183  9280 I WindowManager: <1400544213066~1400544213067> :  finishScreenTurningOn null
+05-20 00:03:33.087  9183  9183 I InputManager: Starting input manager
+05-20 00:03:33.087  9183  9183 I SystemServer: Bluetooth Manager Service
+05-20 00:03:33.097  9183  9183 I SystemServer: Input Method Service
+05-20 00:03:33.157  9183  9183 W InputMethodManagerService: Couldn't create dir.: /data/system/inputmethod
+05-20 00:03:33.257  9183  9183 I SystemServer: Accessibility Manager
+05-20 00:03:33.257  9183  9183 W ActivityManager: Unable to write /sys/module/lowmemorykiller/parameters/minfree
+05-20 00:03:33.257  9183  9183 I ActivityManager: Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h533dp 240dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:33.287  9183  9183 I ActivityManager: Config changes=408 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:33.297  9183  9183 I SystemServer: Mount Service
+05-20 00:03:33.297  9183  9183 D MountService: got storage path: /storage/sdcard0 description: 内存设备 primary: true removable: false emulated: true mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+05-20 00:03:33.297  9183  9183 D MountService: addVolumeLocked() StorageVolume:
+05-20 00:03:33.297  9183  9183 D MountService:     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040761 
+05-20 00:03:33.297  9183  9183 D MountService:     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=0 
+05-20 00:03:33.297  9183  9183 D MountService:     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+05-20 00:03:33.297  9183  9183 D MountService:     mUserLabel=null mState=null 
+05-20 00:03:33.307  9183  9183 I SystemServer: LockSettingsService
+05-20 00:03:33.327  9183  9183 I SystemServer: Device Policy
+05-20 00:03:33.327  9183  9183 I SystemServer: Status Bar
+05-20 00:03:33.337  9183  9183 I SystemServer: Clipboard Service
+05-20 00:03:33.337  9183  9183 W ClipboardService: No security bridge jar found, using default
+05-20 00:03:33.337  9183  9183 I SystemServer: NetworkManagement Service
+05-20 00:03:33.357  9183  9183 D NetworkManagementService: Creating NetworkManagementService
+05-20 00:03:33.367  9183  9183 D NetworkManagementService: Awaiting socket connection
+05-20 00:03:33.377  9183  9183 D NetworkManagementService: Connected
+05-20 00:03:33.377  9183  9183 I SystemServer: Text Service Manager Service
+05-20 00:03:33.397  9183  9183 I SystemServer: NetworkStats Service
+05-20 00:03:33.397  9183  9306 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x88be45)
+05-20 00:03:33.407  9183  9306 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:03:33.407  9183  9306 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:03:33.407  9183  9306 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:03:33.417  9183  9306 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:03:33.417  9183  9183 I SystemServer: NetworkPolicy Service
+05-20 00:03:33.427  9183  9306 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:33.427  9183  9306 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:33.427  9183  9306 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:03:33.427  9183  9306 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:03:33.427  9183  9306 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:03:33.427  9183  9183 I SystemServer: Wi-Fi P2pService
+05-20 00:03:33.437  9183  9306 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:03:33.447  9183  9306 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:03:33.457  9183  9306 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:03:33.467  9183  9306 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:03:33.467  9183  9306 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:03:33.467  9183  9306 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:03:33.467  9183  9306 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:03:33.467  9183  9306 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:03:33.467  9183  9306 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:03:33.467  9183  9306 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:03:33.477  9183  9306 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:03:33.477  9183  9306 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:03:33.477  9183  9306 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:03:33.487  9183  9306 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:03:33.487  9183  9306 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:03:33.487  9183  9306 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:03:33.487  9183  9306 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:03:33.487  9183  9306 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:03:33.757  9183  9183 I SystemServer: Wi-Fi Service
+05-20 00:03:33.907  9183  9183 I SystemServer: Connectivity Service
+05-20 00:03:33.907  9183  9183 D ConnectivityService: wifiOnly=false
+05-20 00:03:33.957  9183  9183 E MobileDataStateTracker: default: Ignoring feature request because could not acquire PhoneService
+05-20 00:03:33.957  9183  9183 E MobileDataStateTracker: default: Could not enable APN type "default"
+05-20 00:03:33.967  9183  9183 I WifiService: WifiService starting up with Wi-Fi enabled
+05-20 00:03:33.967  9183  9183 I WifiService: setWifiEnabled: true pid=9183, uid=1000
+05-20 00:03:33.997  9183  9183 I SystemServer: Network Service Discovery Service
+05-20 00:03:33.997  9183  9183 D NsdService: Network service discovery enabled true
+05-20 00:03:33.997  9183  9183 I SystemServer: UpdateLock Service
+05-20 00:03:34.107  8042  8362 D NetlinkEvent: Unexpected netlink message. type=0x11
+05-20 00:03:34.117  9183  9183 I SystemServer: Notification Manager
+05-20 00:03:34.137  9183  9183 I SystemServer: Device Storage Monitor
+05-20 00:03:34.147  9183  9183 I SystemServer: Location Manager
+05-20 00:03:34.147  9183  9183 I SystemServer: Country Detector
+05-20 00:03:34.157  9183  9183 I SystemServer: Search Service
+05-20 00:03:34.157  9183  9183 I SystemServer: DropBox Service
+05-20 00:03:34.167  9183  9183 I SystemServer: Wallpaper Service
+05-20 00:03:34.177  9183  9183 I SystemServer: Audio Service
+05-20 00:03:34.317  9183  9183 I SystemServer: Dock Observer
+05-20 00:03:34.317  9183  9183 W DockObserver: This kernel does not have dock station support
+05-20 00:03:34.317  9183  9183 I SystemServer: Wired Accessory Manager
+05-20 00:03:34.317  9183  9183 W WiredAccessoryManager: This kernel does not have usb audio support
+05-20 00:03:34.317  9183  9183 W WiredAccessoryManager: This kernel does not have HDMI audio support
+05-20 00:03:34.317  9183  9183 I SystemServer: USB Service
+05-20 00:03:34.327  9183  9183 I SystemServer: Serial Service
+05-20 00:03:34.327  9183  9183 I SystemServer: Twilight Service
+05-20 00:03:34.327  9183  9183 I SystemServer: UI Mode Manager Service
+05-20 00:03:34.337  9183  9183 I SystemServer: Backup Service
+05-20 00:03:34.337  9183  9183 V BackupManagerService: Initializing package tracking
+05-20 00:03:34.337  9183  9183 V BackupManagerService: No ancestral data
+05-20 00:03:34.347  9183  9183 V BackupManagerService: addPackageParticipantsLocked: all
+05-20 00:03:34.347  9183  9183 I BackupManagerService: Scheduling backup for new app com.android.calendar
+05-20 00:03:34.347  9183  9183 D BackupManagerService: Now staging backup of com.android.calendar
+05-20 00:03:34.387  9183  9183 I BackupManagerService: Scheduling backup for new app com.android.browser
+05-20 00:03:34.387  9183  9183 D BackupManagerService: Now staging backup of com.android.browser
+05-20 00:03:34.397  9183  9183 I BackupManagerService: Scheduling backup for new app com.android.sharedstoragebackup
+05-20 00:03:34.397  9183  9183 D BackupManagerService: Now staging backup of com.android.sharedstoragebackup
+05-20 00:03:34.397  9183  9183 I BackupManagerService: Scheduling backup for new app com.android.providers.settings
+05-20 00:03:34.397  9183  9183 D BackupManagerService: Now staging backup of com.android.providers.settings
+05-20 00:03:34.407  9183  9183 I BackupManagerService: Scheduling backup for new app com.android.providers.userdictionary
+05-20 00:03:34.407  9183  9183 D BackupManagerService: Now staging backup of com.android.providers.userdictionary
+05-20 00:03:34.417  9183  9183 I BackupManagerService: Scheduling backup for new app android
+05-20 00:03:34.417  9183  9183 D BackupManagerService: Now staging backup of android
+05-20 00:03:34.427  9183  9183 V BackupManagerService: Starting with transport android/com.android.internal.backup.LocalTransport
+05-20 00:03:34.427  9183  9183 V BackupManagerService: Found transports: 1
+05-20 00:03:34.427  9183  9183 I BackupManagerService: Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:03:34.427  9183  9183 I BackupManagerService: Found stale backup journal, scheduling
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   com.android.calendar
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   com.android.browser
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   com.android.sharedstoragebackup
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   com.android.providers.settings
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   com.android.providers.userdictionary
+05-20 00:03:34.437  9183  9183 I BackupManagerService:   android
+05-20 00:03:34.437  9183  9183 I BackupManagerService: Backup enabled => false
+05-20 00:03:34.437  9183  9183 I BackupManagerService: Opting out of backup
+05-20 00:03:34.437  9183  9183 I SystemServer: AppWidget Service
+05-20 00:03:34.447  9183  9183 I SystemServer: Recognition Service
+05-20 00:03:34.447  9183  9183 I SystemServer: DiskStats Service
+05-20 00:03:34.447  9183  9183 I SystemServer: SamplingProfiler Service
+05-20 00:03:34.457  9183  9183 I SystemServer: NetworkTimeUpdateService
+05-20 00:03:34.457  9183  9183 I SystemServer: CommonTimeManagementService
+05-20 00:03:34.467  9183  9183 I SystemServer: CertBlacklister
+05-20 00:03:34.467  9183  9183 I SystemServer: Dreams Service
+05-20 00:03:34.467  9183  9183 I SystemServer: Assets Atlas Service
+05-20 00:03:34.487  9183  9183 I SystemServer: IdleMaintenanceService
+05-20 00:03:34.487  9183  9183 I SystemServer: IconManagerService
+05-20 00:03:34.497  9183  9183 I SystemServer: Print Service
+05-20 00:03:34.517  9183  9183 I SystemServer: Media Router Service
+05-20 00:03:34.517  9183  9183 I SystemServer: AssetRedirectionManager Service
+05-20 00:03:34.707  9183  9183 I ActivityManager: Start proc com.smartisanos.keyguard for service com.smartisanos.keyguard/.KeyguardService: pid=9326 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:34.717  9183  9183 V WindowManager.STA: sEEnterTXY =Cubic.INOUT, sEExitTXY =Cubic.INOUT, sEEnterTZ =Cubic.INOUT, sEExitTZ =Cubic.INOUT, sEEnterRotate =Cubic.INOUT, sEExitRotate =Cubic.INOUT
+05-20 00:03:34.727  9183  9183 I WindowManager.STA: left=-0.28125, right=0.28125, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=1920, mScreenWidth=1080, far=38400.0, near=1.0
+05-20 00:03:34.827  9183  9183 I AppOps  : Pruning old package media/1013: new uid=-1
+05-20 00:03:34.827  9183  9183 I ActivityManager: System now ready
+05-20 00:03:34.877  9183  9183 I SystemServer: Making services ready
+05-20 00:03:34.907  9183  9183 I ActivityManager: Start proc com.smartisanos.systemui for service com.smartisanos.systemui/.SystemUIService: pid=9342 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:34.907  9183  9183 D NetworkManagementService: enabling bandwidth control
+05-20 00:03:34.977  9183  9304 W MountService: Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+05-20 00:03:35.607  9183  9183 E NetdConnector: NDC Command {1 bandwidth enable} took too long (691ms)
+05-20 00:03:35.757  9183  9183 D NetworkManagementService: Prepared
+05-20 00:03:35.887  9183  9183 W NetworkStats: problem registering for global alert: java.lang.IllegalStateException: command '4 bandwidth setglobalalert 2097152' failed with '400 4 Bandwidth command failed'
+05-20 00:03:36.137  9183  9183 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:36.277  9326  9326 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:36.277  9183  9183 W InputMethodManagerService: Ignoring setImeWindowStatus of uid 1000 token: null
+05-20 00:03:36.307  9183  9319 I ActivityManager: Start proc com.smartisanos.music:main for service com.smartisanos.music/.service.SmartisanMusicService: pid=9402 uid=10039 gids={50039, 3003, 1028, 1015}
+05-20 00:03:36.307  9326  9326 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:36.627  9183  9194 I ActivityManager: Start proc com.smartisanos.phone_number_assistant for service com.smartisanos.phone_number_assistant/.NumberService: pid=9417 uid=10005 gids={50005, 1028, 1015, 3003, 1007}
+05-20 00:03:36.667  9183  9393 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41cde9a8
+05-20 00:03:36.727  9183  9183 I ActivityManager: Start proc com.cootek.smartinputv5.smartisan for service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalIME: pid=9429 uid=10038 gids={50038, 1028, 1015, 3003}
+05-20 00:03:36.737  9183  9183 V InputMethodManagerService: Adding window token: android.os.Binder@41c87678
+05-20 00:03:36.887  9183  9183 I ActivityManager: Start proc com.amap.android.location for service com.amap.android.location/.NetworkLocationService: pid=9442 uid=10025 gids={50025, 3003, 1028, 1015}
+05-20 00:03:37.037  9183  9183 E LocationManagerService: No FusedProvider found.
+05-20 00:03:37.077  9183  9183 E LocationManagerService: no geofence provider found
+05-20 00:03:37.107  9183  9198 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.tracker.TrackerReceiver: pid=9456 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:37.297  9183  9183 I ActivityManager: Start proc com.android.phone for added application com.android.phone: pid=9466 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:03:37.397  9183  9183 I ActivityManager: Start proc com.smartisanos.voice for added application com.smartisanos.voice: pid=9474 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:37.407  8042  9477 W SocketClient: write error (Broken pipe)
+05-20 00:03:37.527  9183  9183 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:03:37.617  9183  9183 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=9496 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:03:37.867  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:03:37.897  9183  9183 I WindowManager: <1400544217903> :  screenTurningOn com.android.server.power.Notifier$2@41c8c398
+05-20 00:03:37.897  9183  9183 W KeyguardServiceDelegate: onScreenTurnedOn(): no keyguard service!
+05-20 00:03:37.907  9183  9183 I WindowManager: No lock screen! windowToken=null
+05-20 00:03:37.907  9183  9183 I WindowManager: <1400544217903~1400544217913> :  finishScreenTurningOn com.android.server.power.Notifier$2@41c8c398
+05-20 00:03:37.917  9183  9183 I WindowManager: <1400544217918> : ScreenOnListener Notified Screen On State
+05-20 00:03:38.717  9183  9193 I ActivityManager: Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=9520 uid=10011 gids={50011, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+05-20 00:03:39.817  9183  9197 W WindowManager: Window freeze timeout expired.
+05-20 00:03:39.817  9183  9197 W WindowManager: Force clearing orientation change: Window{41c67200 u0 KeyguardScrim}
+05-20 00:03:40.007  9183  9198 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d3b2a0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c444b0, started 2006ms ago
+05-20 00:03:40.007  9183  9198 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c446b8 u0 ReceiverList{41c44658 9183 system/1000/u0 local:41c444b0}}
+05-20 00:03:40.817  9326  9340 D TAG     : disable what:0
+05-20 00:03:40.817  9183  9536 D StatusBarManagerService: disableInternal
+05-20 00:03:40.817  9183  9536 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d10530
+05-20 00:03:41.137  9326  9340 D TAG     : disable what:0
+05-20 00:03:41.167  9183  9536 D StatusBarManagerService: disableInternal
+05-20 00:03:41.167  9183  9536 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d10530
+05-20 00:03:41.877  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:03:41.887  9183  9183 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:03:41.887  9183  9183 D NotificationService: onReceive:android.intent.action.USER_SWITCHED
+05-20 00:03:42.017  9183  9198 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d3b2a0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41a88890, started 2009ms ago
+05-20 00:03:42.017  9183  9198 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c4e4e8 u0 ReceiverList{41c4e578 9183 system/1000/u0 local:41a88890}}
+05-20 00:03:42.367  9183  9393 I ActivityManager: Force stopping com.qualcomm.qcrilmsgtunnel appid=1001 user=0: pkg changed
+05-20 00:03:42.487  9183  9183 V BackupManagerService: Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:03:42.487  9183  9183 V BackupManagerService: Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41d334a8
+05-20 00:03:42.657  9183  9183 W PowerManagerNotifier: policy turn screen on toooo slowly!
+05-20 00:03:42.997  9326  9326 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:43.077  9326  9326 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:44.757  9183  9198 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d3b2a0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c439a8, started 2007ms ago
+05-20 00:03:44.757  9183  9198 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c43838 u0 ReceiverList{41c43be8 9183 system/1000/u0 local:41c439a8}}
+05-20 00:03:44.797  9183  9183 D NotificationService: onReceive:android.intent.action.PACKAGE_CHANGED
+05-20 00:03:44.817  9183  9393 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:44.847  9183  9488 I ActivityManager: Force stopping com.qualcomm.qcrilmsgtunnel appid=1001 user=0: from pid 9585
+05-20 00:03:44.877  9183  9517 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:44.917  9183  9183 I NotificationService: queryReplace=false
+05-20 00:03:44.947  9183  9533 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:44.987  9183  9183 D NotificationService: onReceive:android.intent.action.PACKAGE_RESTARTED
+05-20 00:03:44.997  9183  9183 I NotificationService: queryReplace=false
+05-20 00:03:45.017  9183  9319 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:45.027  9183  9183 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:03:45.707  9183  9536 I ActivityManager: Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=9610 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 00:03:46.777  9183  9183 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:46.787  9183  9183 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.797  9183  9183 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:46.807  9183  9183 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.827  9183  9183 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:46.827  9183  9183 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.857  9183  9183 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:46.857  9183  9183 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.867  9183  9183 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:46.867  9183  9183 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.877  9183  9183 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:46.887  9183  9183 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.927  9183  9183 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:46.927  9183  9183 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.927  9183  9183 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:46.937  9183  9183 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.947  9183  9183 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:46.947  9183  9183 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.957  9183  9183 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:46.967  9183  9183 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.977  9183  9183 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:46.977  9183  9183 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:46.997  9183  9183 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:46.997  9183  9183 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:47.037  9183  9183 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:47.037  9183  9183 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:47.047  9183  9183 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:47.047  9183  9183 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:47.057  9183  9183 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:47.057  9183  9183 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:47.067  9183  9183 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:47.067  9183  9183 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:47.077  9183  9183 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:47.087  9183  9183 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.097  9183  9183 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:47.107  9183  9183 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.247  9183  9183 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:47.257  9183  9183 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.257  9183  9183 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:47.267  9183  9183 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.267  9183  9183 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:47.277  9183  9183 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.277  9183  9183 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:47.297  9183  9183 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.297  9183  9183 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:47.307  9183  9183 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.307  9183  9183 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:47.327  9183  9183 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:47.327  9183  9183 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:47.337  9183  9183 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.347  9183  9183 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:47.357  9183  9183 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.357  9183  9183 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:47.357  9183  9183 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.357  9183  9183 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:47.367  9183  9183 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.367  9183  9183 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:47.457  9183  9183 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.457  9183  9183 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:47.467  9183  9183 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.467  9183  9183 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:47.477  9183  9183 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.487  9183  9183 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:47.487  9183  9183 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.487  9183  9183 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:47.497  9183  9183 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.497  9183  9183 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:47.517  9183  9183 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.517  9183  9183 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:47.527  9183  9183 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.527  9183  9183 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:47.537  9183  9183 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.537  9183  9183 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:47.547  9183  9183 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.557  9183  9183 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:47.557  9183  9183 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.557  9183  9183 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:47.557  9183  9183 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:47.557  9183  9183 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:47.567  9183  9183 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:48.967  9183  9197 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:50.307  9183  9517 I ActivityManager: Start proc com.smartisanos.weather for content provider com.smartisanos.weather/.provider.WeatherProvider: pid=9643 uid=10046 gids={50046, 3003}
+05-20 00:03:52.977  9183  9197 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:53.257  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:03:53.917  9183  9199 I ActivityManager: Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=9657 uid=10031 gids={50031}
+05-20 00:03:53.957  9342  9342 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:03:54.047  9342  9682 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:03:54.067  9183  9194 I ActivityManager: Start proc com.smartisanos.systemui:screenshot for service com.smartisanos.systemui/.screenshot.TakeScreenshotService: pid=9683 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:54.897  9342  9342 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:03:55.697  9183  9198 V NotificationService: enqueueNotificationInternal: pkg=com.smartisanos.systemui id=1 notification=Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:55.697  9183  9183 V NotificationService: Initial score is 0.
+05-20 00:03:55.697  9183  9183 V NotificationService: Final score is 0.
+05-20 00:03:55.697  9183  9183 V NotificationService: Assigned score=0 to Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:55.707  9183  9183 E NotificationService: Not posting notification with icon==0: Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+05-20 00:03:55.707  9183  9183 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+05-20 00:03:56.177  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:03:56.887  9183  9197 W WindowManager: Window freeze timeout expired.
+05-20 00:03:56.887  9183  9197 W WindowManager: Force clearing orientation change: Window{41c8a3e0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:03:57.637  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:03:57.647  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:03:57.687  9183  9517 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:03:58.077  9183  9285 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:03:58.347  9342  9342 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:03:58.367  9342  9342 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:03:58.417  9342  9342 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:03:58.507  9342  9342 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:03:58.537  9342  9342 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:03:58.577  9342  9342 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:04:00.007  9183  9300 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1400544240000
+05-20 00:04:02.207  9456  9456 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:04:03.167  9183  9536 I ActivityManager: Start proc com.smartisanos.tracker for service com.smartisanos.tracker/.service.TrackerService: pid=9735 uid=10040 gids={50040, 3003}
+05-20 00:04:06.627  9183  9280 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c50eb0
+05-20 00:04:06.877  9183  9517 I PackageManager: Adding preferred activity ComponentInfo{com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity} for user 0 :
+05-20 00:04:07.737  9183  9183 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:04:07.777  9183  9183 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:04:07.787  9183  9393 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=9768 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:04:07.827  9183  9183 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:04:07.827  9183  9183 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:04:07.827  9183  9183 V WiredAccessoryManager: init()
+05-20 00:04:07.827  9183  9323 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:04:08.687  9183  9199 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:04:08.837  9456  9456 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:04:08.887  9183  9536 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smartisanos.setupwizard/.SetupWizardActivity} from pid 9496
+05-20 00:04:09.777  9183  9393 I ActivityManager: Start proc com.smartisanos.setupwizard for activity com.smartisanos.setupwizard/.SetupWizardActivity: pid=9804 uid=10072 gids={50072}
+05-20 00:04:10.067  9183  9298 I PowerManagerService: Boot animation finished.
+05-20 00:04:10.447  9183  9319 I ActivityManager: START u0 {cmp=com.android.settings/.inputmethod.LocalePickerActivity (has extras)} from pid 9804
+05-20 00:04:10.547  9804  9804 D TAG     : disable what:65536
+05-20 00:04:10.547  9183  9533 D StatusBarManagerService: disableInternal
+05-20 00:04:10.547  9183  9533 D StatusBarManagerService: manageDisableList userId=0 what=0x10000 pkg=com.smartisanos.setupwizard token:android.os.BinderProxy@41e9bf40

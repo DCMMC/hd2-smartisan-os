@@ -1,0 +1,1378 @@
+--------- beginning of /dev/log/system
+05-20 00:03:31.788 10718 10718 I BackupManagerService:   com.android.providers.userdictionary
+05-20 00:03:31.788 10718 10718 I BackupManagerService:   android
+05-20 00:03:31.788 10718 10718 I BackupManagerService: Backup enabled => false
+05-20 00:03:31.788 10718 10718 I BackupManagerService: Opting out of backup
+05-20 00:03:31.798 10718 10718 I SystemServer: AppWidget Service
+05-20 00:03:31.798 10718 10718 I SystemServer: Recognition Service
+05-20 00:03:31.808 10718 10718 I SystemServer: DiskStats Service
+05-20 00:03:31.808 10718 10718 I SystemServer: SamplingProfiler Service
+05-20 00:03:31.808 10718 10718 I SystemServer: NetworkTimeUpdateService
+05-20 00:03:31.819 10718 10718 I SystemServer: CommonTimeManagementService
+05-20 00:03:31.819 10718 10718 I SystemServer: CertBlacklister
+05-20 00:03:31.819 10718 10718 I SystemServer: Dreams Service
+05-20 00:03:31.828 10718 10718 I SystemServer: Assets Atlas Service
+05-20 00:03:31.828 10718 10718 I SystemServer: IdleMaintenanceService
+05-20 00:03:31.838 10718 10718 I SystemServer: IconManagerService
+05-20 00:03:31.848 10718 10718 I SystemServer: Print Service
+05-20 00:03:31.869 10718 10718 I SystemServer: Media Router Service
+05-20 00:03:31.869 10718 10718 I SystemServer: AssetRedirectionManager Service
+05-20 00:03:32.138 10718 10718 I ActivityManager: Start proc com.smartisanos.keyguard for service com.smartisanos.keyguard/.KeyguardService: pid=10860 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:32.149 10718 10718 V WindowManager.STA: sEEnterTXY =Cubic.INOUT, sEExitTXY =Cubic.INOUT, sEEnterTZ =Cubic.INOUT, sEExitTZ =Cubic.INOUT, sEEnterRotate =Cubic.INOUT, sEExitRotate =Cubic.INOUT
+05-20 00:03:32.149 10718 10718 I WindowManager.STA: left=-0.28125, right=0.28125, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=1920, mScreenWidth=1080, far=38400.0, near=1.0
+05-20 00:03:32.309 10718 10718 I AppOps  : Pruning old package com.qualcomm.qcrilmsgtunnel/1001: new uid=-1
+05-20 00:03:32.319 10718 10718 I AppOps  : Pruning old package media/1013: new uid=-1
+05-20 00:03:32.319 10718 10718 I ActivityManager: System now ready
+05-20 00:03:32.338 10718 10718 I SystemServer: Making services ready
+05-20 00:03:32.388 10718 10718 I ActivityManager: Start proc com.smartisanos.systemui for service com.smartisanos.systemui/.SystemUIService: pid=10875 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:32.398 10718 10718 D NetworkManagementService: enabling bandwidth control
+05-20 00:03:32.448 10718 10836 W MountService: Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+05-20 00:03:32.929 10860 10860 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:32.959 10718 10729 I ActivityManager: Start proc com.smartisanos.music:main for service com.smartisanos.music/.service.SmartisanMusicService: pid=10893 uid=10039 gids={50039, 3003, 1028, 1015}
+05-20 00:03:32.968 10860 10860 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:33.609 10718 10718 E NetdConnector: NDC Command {1 bandwidth enable} took too long (1218ms)
+05-20 00:03:33.659 10718 10851 I ActivityManager: Start proc com.smartisanos.phone_number_assistant for service com.smartisanos.phone_number_assistant/.NumberService: pid=10933 uid=10005 gids={50005, 1028, 1015, 3003, 1007}
+05-20 00:03:33.698 10718 10729 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41bdd4a0
+05-20 00:03:33.988 10718 10718 D NetworkManagementService: Prepared
+05-20 00:03:34.178 10718 10718 W NetworkStats: problem registering for global alert: java.lang.IllegalStateException: command '4 bandwidth setglobalalert 2097152' failed with '400 4 Bandwidth command failed'
+05-20 00:03:34.408 10718 10718 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:34.728 10718 10718 W InputMethodManagerService: Ignoring setImeWindowStatus of uid 1000 token: null
+05-20 00:03:35.078 10718 10851 I ActivityManager: Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=10971 uid=10011 gids={50011, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+05-20 00:03:35.118 10718 10718 I ActivityManager: Start proc com.cootek.smartinputv5.smartisan for service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalIME: pid=10976 uid=10038 gids={50038, 1028, 1015, 3003}
+05-20 00:03:35.118 10718 10718 V InputMethodManagerService: Adding window token: android.os.Binder@41d06350
+05-20 00:03:35.258 10718 10718 I ActivityManager: Start proc com.amap.android.location for service com.amap.android.location/.NetworkLocationService: pid=10985 uid=10025 gids={50025, 3003, 1028, 1015}
+05-20 00:03:35.368 10718 10718 E LocationManagerService: No FusedProvider found.
+05-20 00:03:35.398 10718 10718 E LocationManagerService: no geofence provider found
+05-20 00:03:35.518 10718 10733 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.tracker.TrackerReceiver: pid=11006 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:35.708 10718 10718 I ActivityManager: Start proc com.android.phone for added application com.android.phone: pid=11019 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:03:35.919 10718 10718 I ActivityManager: Start proc com.smartisanos.voice for added application com.smartisanos.voice: pid=11027 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:35.919 10718 10718 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:03:36.948 10718 10718 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=11061 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:03:37.368 10718 11059 I ActivityManager: Start proc com.smartisanos.weather for content provider com.smartisanos.weather/.provider.WeatherProvider: pid=11072 uid=10046 gids={50046, 3003}
+05-20 00:03:37.868 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:03:37.908 10718 10718 I WindowManager: <1400544217917> :  screenTurningOn com.android.server.power.Notifier$2@41cb4370
+05-20 00:03:37.908 10718 10718 W KeyguardServiceDelegate: onScreenTurnedOn(): no keyguard service!
+05-20 00:03:37.908 10718 10718 I WindowManager: No lock screen! windowToken=null
+05-20 00:03:37.918 10718 10718 I WindowManager: <1400544217917~1400544217919> :  finishScreenTurningOn com.android.server.power.Notifier$2@41cb4370
+05-20 00:03:37.948 10718 10718 I WindowManager: <1400544217949> : ScreenOnListener Notified Screen On State
+05-20 00:03:38.368 10860 10872 D TAG     : disable what:0
+05-20 00:03:38.368 10718 11042 D StatusBarManagerService: disableInternal
+05-20 00:03:38.368 10718 11042 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41cbed30
+05-20 00:03:38.558 10860 10872 D TAG     : disable what:0
+05-20 00:03:38.558 10718 10729 D StatusBarManagerService: disableInternal
+05-20 00:03:38.558 10718 10729 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41cbed30
+05-20 00:03:38.918 10860 10860 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:39.098 10860 10860 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:39.848 10718 10732 W WindowManager: Window freeze timeout expired.
+05-20 00:03:39.848 10718 10732 W WindowManager: Force clearing orientation change: Window{41cac550 u0 KeyguardScrim}
+05-20 00:03:39.949  8042 11123 W SocketClient: write error (Broken pipe)
+05-20 00:03:40.298 10718 10733 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41ca9948 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41b4ad78, started 2007ms ago
+05-20 00:03:40.298 10718 10733 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c1ff48 u0 ReceiverList{41b4aea0 10718 system/1000/u0 local:41b4ad78}}
+05-20 00:03:42.158 10875 10875 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:03:42.278 10875 11141 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:03:42.338 10718 11018 I ActivityManager: Start proc com.smartisanos.systemui:screenshot for service com.smartisanos.systemui/.screenshot.TakeScreenshotService: pid=11146 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:42.349 10718 10733 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41ca9948 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c021b8, started 2051ms ago
+05-20 00:03:42.349 10718 10733 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c74008 u0 ReceiverList{41c73fa8 10718 system/1000/u0 local:41c021b8}}
+05-20 00:03:42.509 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x3610000 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:03:42.529 10718 10718 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:03:42.549 10718 10718 D NotificationService: onReceive:android.intent.action.USER_SWITCHED
+05-20 00:03:43.118 10718 10718 V BackupManagerService: Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:03:43.118 10718 10718 V BackupManagerService: Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41c8eea8
+05-20 00:03:43.138 10718 11057 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:43.249 10718 10728 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:43.368 10718 10718 W PowerManagerNotifier: policy turn screen on toooo slowly!
+05-20 00:03:43.528 10718 10718 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:03:43.818 10718 10733 V NotificationService: enqueueNotificationInternal: pkg=com.smartisanos.systemui id=1 notification=Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:43.838 10718 10729 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:43.848 10718 10718 V NotificationService: Initial score is 0.
+05-20 00:03:43.858 10718 10718 V NotificationService: Final score is 0.
+05-20 00:03:43.858 10718 10718 V NotificationService: Assigned score=0 to Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:43.888 10718 10718 E NotificationService: Not posting notification with icon==0: Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+05-20 00:03:43.898 10718 11058 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:43.898 10718 10718 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+05-20 00:03:44.148 10875 10875 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:03:45.558 10718 10733 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41ca9948 u-1 android.intent.action.SCREEN_ON} - receiver=android.os.BinderProxy@41cf88c8, started 2004ms ago
+05-20 00:03:45.558 10718 10733 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41cf9970 u0 ReceiverList{41cf8db8 10875 com.smartisanos.systemui/10002/u0 remote:41cf88c8}}
+05-20 00:03:45.558 10718 10733 E ActivityManager: ANR in com.smartisanos.systemui
+05-20 00:03:45.558 10718 10733 E ActivityManager: PID: 10875
+05-20 00:03:45.558 10718 10733 E ActivityManager: Reason: Broadcast of Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+05-20 00:03:45.558 10718 10733 I ActivityManager: Killing 10875:com.smartisanos.systemui/u0a2 (adj -12): background ANR
+05-20 00:03:45.849 10718 11059 I ActivityManager: Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=11187 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 00:03:47.848 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:48.308 10718 10718 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:48.328 10718 10718 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:48.408 10718 10718 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:48.418 10718 10718 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:48.498 10718 10718 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:48.498 10718 10718 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:48.588 10718 10718 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:48.588 10718 10718 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:48.628 10718 10718 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:48.638 10718 10718 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:48.638 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:48.668 10718 10718 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:48.679 10718 10718 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:49.508 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:51.108 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:51.859 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:51.978 10718 10718 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:51.989 10718 10718 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:51.989 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:51.999 10718 10718 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:51.999 10718 10718 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:51.999 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.008 10718 10718 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:52.018 10718 10718 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.058 10718 10718 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:52.058 10718 10718 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.089 10718 10718 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:52.098 10718 10718 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.118 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.128 10718 10718 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:52.128 10718 10718 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.158 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.168 10718 10718 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:52.168 10718 10718 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.188 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.208 10718 10718 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:52.208 10718 10718 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.229 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.259 10718 10718 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:52.268 10718 10718 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.298 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.298 10718 10718 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:52.298 10718 10718 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.328 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.338 10718 10718 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:52.350 10718 10718 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.368 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.418 10718 10718 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:52.418 10718 10718 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.458 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.468 10718 10718 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:52.468 10718 10718 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.488 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.498 10718 10718 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:52.508 10718 10718 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.528 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.548 10718 10718 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:52.558 10718 10718 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.598 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.618 10718 10718 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:52.628 10718 10718 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.658 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.668 10718 10718 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:52.668 10718 10718 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.739 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.779 10718 10718 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:52.779 10718 10718 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.818 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.829 10718 10718 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:52.838 10718 10718 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.868 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.888 10718 10718 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:52.888 10718 10718 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.918 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.948 10718 10718 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:52.969 10718 10718 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:52.988 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:52.999 10718 10718 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:52.999 10718 10718 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.018 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.038 10718 10718 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:53.038 10718 10718 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.048 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.069 10718 10718 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:53.069 10718 10718 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.079 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.148 10718 10718 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:53.148 10718 10718 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.178 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.208 10718 10718 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:53.208 10718 10718 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.238 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.249 10718 10718 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:53.258 10718 10718 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: android.os.TransactionTooLargeException
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at android.app.ApplicationThreadProxy.scheduleRegisteredReceiver(ApplicationThreadNative.java:1059)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:439)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:53.278 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:53.518 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:54.208 10718 10733 W ActivityManager: Timeout executing service: ServiceRecord{41cccc28 u0 com.smartisanos.phone_number_assistant/.NumberService}
+05-20 00:03:54.208 10718 10733 I ActivityManager: Skipping ANR before process restarted:com.smartisanos.phone_number_assistant
+05-20 00:03:55.849 11019 11186 E ActivityThread: Failed to find provider info for call_log
+05-20 00:03:55.869 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:56.778 10718 11055 I WindowState: WIN DEATH: Window{41c73340 u0 RecentsPanel}
+05-20 00:03:56.778 10718 10718 W WallpaperService: Wallpaper service gone: ComponentInfo{com.smartisanos.systemui/com.smartisanos.systemui.ImageWallpaper}
+05-20 00:03:56.798 10718 10728 I WindowState: WIN DEATH: Window{41ca9420 u0 StatusBar}
+05-20 00:03:56.849 11019 11194 E ActivityThread: Failed to find provider info for com.android.contacts
+05-20 00:03:56.868 10718 10734 I ActivityManager: Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=11225 uid=10031 gids={50031}
+05-20 00:03:56.908 10718 11058 W ActivityManager: Scheduling restart of crashed service com.smartisanos.systemui/.SystemUIService in 0ms
+05-20 00:03:56.908 10718 11058 W ActivityManager: Scheduling restart of crashed service com.smartisanos.systemui/.ImageWallpaper in 0ms
+05-20 00:03:57.278 10718 11058 I ActivityManager: Start proc com.smartisanos.systemui for restart com.smartisanos.systemui: pid=11238 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:57.289 10718 10718 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:57.289 10718 10718 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: Failure sending broadcast Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras) }
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: android.os.DeadObjectException
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at android.content.IIntentReceiver$Stub$Proxy.performReceive(IIntentReceiver.java:124)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.performReceiveLocked(BroadcastQueue.java:442)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.deliverToRegisteredReceiverLocked(BroadcastQueue.java:525)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:582)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at com.android.server.am.BroadcastQueue$1.handleMessage(BroadcastQueue.java:156)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:03:57.588 10718 10733 W BroadcastQueue: 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+05-20 00:03:57.618 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:03:57.698 10718 10718 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:57.708 10718 10718 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.718 10718 10718 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:57.728 10718 10718 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.728 10718 10718 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:57.738 10718 10718 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.758 10718 10718 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:57.758 10718 10718 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.758 10718 10718 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:57.788 10718 10718 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:57.798 10718 10718 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:57.838 10718 10718 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:59.869 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:04:00.009 10718 10827 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1400544240001
+05-20 00:04:00.498 10718 11058 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41ec5468
+05-20 00:04:00.809 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:04:00.809 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:04:01.618 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:04:03.869 10718 10732 I WindowManager: Focus remains null for a while, update it
+05-20 00:04:04.508 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+--------- beginning of /dev/log/main
+05-20 00:04:07.328 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [-2], cid [2], id [21], name [短信], pkg [com.android.mms], cmp [com.android.mms.ui.ConversationList]
+05-20 00:04:07.328 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [0], id [1], name [应用商店], pkg [com.smartisanos.appstore], cmp [com.smartisanos.appstore.AppStoreActivity]
+05-20 00:04:07.339 11061 11061 E NewLauncher: IconCellShoter->registerToServer : 58 DEBUG : registerToServer, mInstance=com.smartisanos.launcher.IconCellShoter@41f40210
+05-20 00:04:07.349 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [1], id [2], name [相机], pkg [com.android.camera2], cmp [com.android.camera.CameraLauncher]
+05-20 00:04:07.349 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [2], id [3], name [相册], pkg [com.android.gallery3d], cmp [com.android.gallery3d.app.Gallery]
+05-20 00:04:07.358 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [3], id [4], name [便签], pkg [com.smartisanos.notes], cmp [com.smartisanos.notes.NotesActivity]
+05-20 00:04:07.378 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:07.389 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [4], id [5], name [日历], pkg [com.android.calendar], cmp [com.android.calendar.AllInOneActivity]
+05-20 00:04:07.389 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [5], id [6], name [时钟], pkg [com.smartisanos.clock], cmp [com.smartisanos.clock.activity.ClockActivity]
+05-20 00:04:07.389 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [6], id [7], name [音乐], pkg [com.smartisanos.music], cmp [com.smartisanos.music.activities.MusicMain]
+05-20 00:04:07.398 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [7], id [8], name [设置], pkg [com.android.settings], cmp [com.android.settings.Settings]
+05-20 00:04:07.398 10718 10816 D BluetoothManagerService: Message: 20
+05-20 00:04:07.398 10718 10816 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41a93358:true
+05-20 00:04:07.408 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [0], cid [8], id [9], name [邮件], pkg [com.android.email], cmp [com.android.email.activity.Welcome]
+05-20 00:04:07.408 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [0], id [10], name [计算器], pkg [com.smartisanos.calculator], cmp [com.smartisanos.calculator.Calculator]
+05-20 00:04:07.408 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:07.418 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [1], id [11], name [游戏中心], pkg [com.smartisanos.gamestore], cmp [com.smartisanos.gamestore.GameStoreActivity]
+05-20 00:04:07.418 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [2], id [12], name [天气], pkg [com.smartisanos.weather], cmp [com.smartisanos.weather.CityWeather]
+05-20 00:04:07.418 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [3], id [13], name [安全中心], pkg [com.smartisanos.securitycenter], cmp [com.smartisanos.securitycenter.SecurityCenterActivity]
+05-20 00:04:07.428 11238 11238 D ExpandedStatusBarSwitch: ExpandedStatusBarSwitch
+05-20 00:04:07.428 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [4], id [14], name [录音机], pkg [com.smartisanos.recorder], cmp [com.smartisanos.recorder.activity.EmptyActivity]
+05-20 00:04:07.428 11238 11238 D ExpandedStatusBarSwitch: loadDimens
+05-20 00:04:07.428 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [5], id [15], name [搜索], pkg [com.smartisanos.quicksearch], cmp [com.android.quicksearchbox.SearchActivity]
+05-20 00:04:07.438 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [6], id [16], name [欢喜云服务], pkg [com.smartisanos.cloudsync], cmp [com.smartisanos.cloudsync.AccountsActivityLauncher]
+05-20 00:04:07.438 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [7], id [17], name [下载], pkg [com.android.providers.downloads.ui], cmp [com.android.providers.downloads.ui.SplashActivity]
+05-20 00:04:07.448 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [1], cid [8], id [18], name [桌面使用向导], pkg [com.smartisanos.setupwizard], cmp [com.smartisanos.setupwizard.launcherguidance.LauncherGuidanceActivity]
+05-20 00:04:07.448 11061 11275 E NewLauncher: ItemDB->dump : 218 pid [2], cid [0], id [22], name [语音搜索], pkg [com.smartisanos.sara], cmp [com.smartisanos.sara.SpeechNowActivity]
+05-20 00:04:07.448 11061 11275 E NewLauncher: ItemDB->dump : 227 dump item table done  ###################################################
+05-20 00:04:07.458 11061 11275 E NewLauncher: PageDB->dump : 130 dump page table begin ###################################################
+05-20 00:04:07.468 11061 11061 E NewLauncher: Launcher->onResume : 481 #### onResume #####
+05-20 00:04:07.498 11061 11275 E NewLauncher: PageDB->dump : 144 pid [0], id [1], status [0], name []
+05-20 00:04:07.498 11061 11061 I Choreographer: Skipped 200 frames!  The application may be doing too much work on its main thread.
+05-20 00:04:07.508 11061 11275 E NewLauncher: PageDB->dump : 144 pid [1], id [2], status [0], name []
+05-20 00:04:07.508 11061 11275 E NewLauncher: PageDB->dump : 144 pid [2], id [3], status [0], name []
+05-20 00:04:07.518 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [4], status [0], name []
+05-20 00:04:07.518 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [5], status [0], name []
+05-20 00:04:07.558 10985 10985 D AMap NetworkLocationService: onDestroy 3
+05-20 00:04:07.558 10985 10985 D AMap NetworkLocationService: onDestroy 4
+05-20 00:04:07.558 10985 10985 D AMap NetworkLocationService: onDestroy 5
+05-20 00:04:07.568 10985 10985 D AMap NetworkLocationService: onCreate 1
+05-20 00:04:07.568 10718 10734 D GeocoderProxy: unbinding com.amap.android.location
+05-20 00:04:07.568 10985 10985 D AMap NetworkLocationService: onCreate 2
+05-20 00:04:07.568 10985 10985 D AMap NetworkLocationService: onCreate 3
+05-20 00:04:07.579 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [6], status [0], name []
+05-20 00:04:07.598 10985 10985 D AMap NetworkLocationService: onBind 1
+05-20 00:04:07.608 10718 10734 D GeocoderProxy: bindBestPackage for com.android.location.service.GeocodeProvider :  found 1, new best package: com.amap.android.location
+05-20 00:04:07.608 10718 10734 D GeocoderProxy: binding com.amap.android.location (version 2147483647) (single-user)
+05-20 00:04:07.698 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [7], status [0], name []
+05-20 00:04:07.698 11006 11006 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:04:07.748 10985 10985 D AMap NetworkLocationProvider: Construct
+05-20 00:04:07.819 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [8], status [0], name []
+05-20 00:04:08.098 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [9], status [0], name []
+05-20 00:04:08.108 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [10], status [0], name []
+05-20 00:04:08.108 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [11], status [0], name []
+05-20 00:04:08.108 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [12], status [0], name []
+05-20 00:04:08.108 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [13], status [0], name []
+05-20 00:04:08.108 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [14], status [0], name []
+05-20 00:04:08.128 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [15], status [0], name []
+05-20 00:04:08.188 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [16], status [0], name []
+05-20 00:04:08.229 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [17], status [0], name []
+05-20 00:04:08.248 10985 11014 D AMap NetworkLocationProvider: onDisable
+05-20 00:04:08.248 10985 11005 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:08.258 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [18], status [0], name []
+05-20 00:04:08.268 10985 11014 D AMap NetworkLocationProvider: onSetRequest calling pid: 10718 calling uid: 1000 nlp used by: [android(1000)]
+05-20 00:04:08.268 10985 11014 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+05-20 00:04:08.398 10718 11018 I ActivityManager: Start proc com.smartisanos.tracker for service com.smartisanos.tracker/.service.TrackerService: pid=11280 uid=10040 gids={50040, 3003}
+05-20 00:04:08.408 10985 10985 D AMap MyServiceConnection: MyServiceConnection
+05-20 00:04:08.418 10985 10985 D AMap LocationClient: binding to Intent { act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location }
+05-20 00:04:08.478 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [19], status [0], name []
+05-20 00:04:08.568 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [20], status [0], name []
+05-20 00:04:08.568 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [21], status [0], name []
+05-20 00:04:08.568 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [22], status [0], name []
+05-20 00:04:08.588 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [23], status [0], name []
+05-20 00:04:08.588 10985 10985 D AMap NetworkLocationProvider: applySettings
+05-20 00:04:08.598 10985 10985 D AMap NetworkLocationProvider: applySettings  enabled: true
+05-20 00:04:08.598 10985 10985 D AMap NetworkLocationProvider: applySettings user-confirmed: 1
+05-20 00:04:08.598 10985 10985 D AMap NetworkLocationProvider: setUserConfirmedPreference flag: true
+05-20 00:04:08.618 10985 10985 D AMap NetworkLocationProvider: setUserConfirmedPreference enabled: true
+05-20 00:04:08.618 10985 10985 D AMap NetworkLocationService: onBind 3
+05-20 00:04:08.618 10985 10985 D AMap InternalService: onUnbind
+05-20 00:04:08.628 10985 10985 D AMap InternalService: onDestroy
+05-20 00:04:08.638 10985 10985 D AMap InternalService: onDestroy APS destroy
+05-20 00:04:08.638 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [24], status [0], name []
+05-20 00:04:08.638 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [25], status [0], name []
+05-20 00:04:08.649 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [26], status [0], name []
+05-20 00:04:08.658 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [27], status [0], name []
+05-20 00:04:08.669 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [28], status [0], name []
+05-20 00:04:08.698 11061 11061 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:04:08.698 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [29], status [0], name []
+05-20 00:04:08.708 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [30], status [0], name []
+05-20 00:04:08.748 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [31], status [0], name []
+05-20 00:04:08.748 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [32], status [0], name []
+05-20 00:04:08.748 11061 11061 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:04:08.748 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [33], status [0], name []
+05-20 00:04:08.758 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [34], status [0], name []
+05-20 00:04:08.758 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [35], status [0], name []
+05-20 00:04:08.788 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [36], status [0], name []
+05-20 00:04:08.788 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [37], status [0], name []
+05-20 00:04:08.798 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [38], status [0], name []
+05-20 00:04:08.808 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [39], status [0], name []
+05-20 00:04:08.808 11061 11275 E NewLauncher: PageDB->dump : 144 pid [-1], id [40], status [0], name []
+05-20 00:04:08.818 11061 11275 E NewLauncher: PageDB->dump : 149 dump page table done  ###################################################
+05-20 00:04:08.818 11061 11061 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: Local Branch: 
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: Local Patches: NONE
+05-20 00:04:08.858 11061 11061 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:04:08.968 11061 11275 E NewLauncher: DatabaseHandler->resetIndex : 769 reset index done, data is consecutive, spend [39]
+05-20 00:04:09.009 11061 11275 E NewLauncher: DatabaseHandler->switchLauncherBaseModeIfNeeded : 930 switchLauncherBaseModeIfNeeded newBaseMode [1], oldBaseMode [1]
+05-20 00:04:09.038 11019 11019 I PhoneNumberAssistantProxy: onServiceConnected
+05-20 00:04:09.278 11061 11275 E NewLauncher: DatabaseHandler->dataInit : 325 switch language from [中文 (中国)] to [中文 (中国)]
+05-20 00:04:09.278 11061 11275 E NewLauncher: IconDB->loadIconToItem : 191 DEBUG : loadIcons total item size 22, isOta = false
+05-20 00:04:09.498 11061 11275 E NewLauncher: IconDB->loadIconToItem : 249 DEBUG : loadIcons icon table record size 22
+05-20 00:04:09.538 10933 10933 E Thomas  : file: /data/data/com.smartisanos.phone_number_assistant/shared_prefs/history.json.xml exist: false
+05-20 00:04:09.568 11061 11275 E NewLauncher: IconDB->loadIconToItem : 289 DEBUG : loadIcons ==============> ids size 22
+05-20 00:04:09.568 11061 11061 D OpenGLRenderer: Enabling debug mode 0
+05-20 00:04:09.568 11061 11061 E memalloc: /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:63 Error: Invalid argument
+05-20 00:04:09.568 11061 11061 E gralloc : Could not mmap handle 0x2a231460, fd=63 (Invalid argument)
+05-20 00:04:09.568 11061 11061 E gralloc : gralloc_register_buffer: gralloc_map failed
+05-20 00:04:09.579 11061 11061 W GraphicBufferMapper: registerBuffer(0x2a231460) failed -22 (Invalid argument)
+05-20 00:04:09.579 11061 11061 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+05-20 00:04:09.608 11061 11275 E NewLauncher: DatabaseHandler->dataInit : 335 load page count [3]
+05-20 00:04:09.608 11061 11275 E NewLauncher: DatabaseHandler->dataInit : 337 A140 : data init     time [2869 ms]
+05-20 00:04:09.618 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_INIT_DATA] Done !
+05-20 00:04:09.748 10718 10718 I FusedLocation: engine stopped (com.android.location.fused)
+05-20 00:04:09.748 10718 10718 I FusedLocation: engine started (com.android.location.fused)
+05-20 00:04:09.899 10933 10933 E phoneassist: phoneassist check interval hours=4
+05-20 00:04:09.958 10718 10718 D LocationProviderProxy-network: com.amap.android.location connected
+05-20 00:04:10.068 10933 10933 D VoipClient: initClient echo param path=/data/data/com.smartisanos.phone_number_assistant/files/data/echo.json
+05-20 00:04:10.178 10933 10933 D VoipService: onCreate
+05-20 00:04:10.188 11061 11274 E NewLauncher: SMRenderer : DEBUG : onSurfaceCreated
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : vender = Qualcomm
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : render = Adreno (TM) 200
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : version = OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : shadingL = OpenGL ES GLSL ES 1.00
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : extent = GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit 
+05-20 00:04:10.199 11061 11274 E NewLauncher: World : DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:04:10.199 11061 11274 E NewLauncher: SMRenderer : DEBUG : GL_THREAD_ID [11274]
+05-20 00:04:10.208 11061 11274 E NewLauncher: SMRenderer : DEBUG : onSurfaceChanged : false, size = 480 , 800
+05-20 00:04:10.208 11061 11274 E NewLauncher: MainView : DEBUG : MainView create : mode is PAGE_1_3X3_MODE, w 480, h 800
+05-20 00:04:10.218 11019 11019 I VoipServiceProxy: onServiceConnected
+05-20 00:04:10.248 10933 10952 D VoipCallsManager: hangupAllVoipCalls: []
+05-20 00:04:10.288 11061 11274 E NewLauncher: World : DEBUG : #### cleanDataStructureAboutHardwareResource ####
+05-20 00:04:10.328 11061 11274 E NewLauncher: Launcher : ######## emergency unlock animation play
+05-20 00:04:10.398 11238 11238 D ExpandedStatusBarSwitch: stopSwitchAnimation
+05-20 00:04:10.408 11238 11238 D ExpandedStatusBarSwitch: goToNotificationPile anim:true
+05-20 00:04:10.408 11238 11238 D ExpandedStatusBarSwitch: createNotificationPileAnimation
+05-20 00:04:10.419 10933 10933 E phoneassist: phoneassist check interval hours=4
+05-20 00:04:10.428 11238 11238 D ExpandedStatusBarSwitch: stopSwitchAnimation
+05-20 00:04:10.449 11238 11238 D ExpandedStatusBarSwitch: goToPowerWidget anim:true
+05-20 00:04:10.449 11238 11238 D ExpandedStatusBarSwitch: createPowerWidgetAnimation
+05-20 00:04:10.468 10933 10933 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-20 00:04:10.518 10985 10985 D AMap InternalService: onDestroy APS destroy end
+05-20 00:04:10.529 10933 11302 E PresentConfigLoader: update -- parser exception: file not found
+05-20 00:04:10.548 11238 11238 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:04:10.568 10933 10933 D CallClient: ContextManager initContext
+05-20 00:04:10.568 10933 10933 D VoipClient: PrefUtil initializeLocal
+05-20 00:04:10.568 10933 10933 I LogUtil : logfile: /storage/emulated/0/logutil.txt
+05-20 00:04:10.578 10933 10933 I LogUtil : logfile: /storage/emulated/0/logutil.txt
+05-20 00:04:10.588 10718 10732 W WindowManager: Window freeze timeout expired.
+05-20 00:04:10.588 10718 10732 W WindowManager: Force clearing orientation change: Window{41cc0448 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:04:10.588 10718 10732 W WindowManager: Force clearing orientation change: Window{41cc7940 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+05-20 00:04:10.588 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:04:10.648 10933 10933 I VoipService: onCreate
+05-20 00:04:10.658 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.679 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.679 10933 10933 I VoipClient: registerReceiver
+05-20 00:04:10.679 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.688 10933 10933 I VOIPCALL: VoipService: onStartCommand: null
+05-20 00:04:10.708 11238 11238 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:04:10.728 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.738 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.768 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.768 11238 11238 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=2 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:04:10.778 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.798 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.798 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.798 11238 11238 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:04:10.838 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.838 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.888 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.888 11238 11238 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=4 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:04:10.918 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.918 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.929 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.929 11238 11238 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=5 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:04:10.938 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.948 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.958 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:10.958 11238 11238 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=6 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:04:10.968 11238 11238 D AirplaneButton: getState state:0
+05-20 00:04:10.968 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:04:10.978 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:11.008 11238 11238 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:04:11.019 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:11.019 11238 11238 D BluetoothAdapter: 1101170504: getState() :  mService = null. Returning STATE_OFF
+05-20 00:04:11.028 11238 11308 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:04:11.039 11146 11146 D GlobalScreenshot: onStartCommand
+05-20 00:04:11.039 11238 11238 D SystemUIService: loading: class com.smartisanos.systemui.c.e
+05-20 00:04:11.039 11238 11238 D SystemUIService: running: com.smartisanos.systemui.c.e@41a5d6a0
+05-20 00:04:11.068 11238 11238 D SystemUIService: loading: class com.smartisanos.systemui.a.a
+05-20 00:04:11.068 11238 11238 D SystemUIService: running: com.smartisanos.systemui.a.a@41a5fbe8
+05-20 00:04:11.098 10718 10732 I ActivityManager: Displayed com.smartisanos.launcher/.Launcher: +34s914ms
+05-20 00:04:11.098 10718 10732 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41cd7868 u0 com.smartisanos.launcher/.Launcher t1} time:2191522
+05-20 00:04:11.098 11061 11061 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 14
+05-20 00:04:11.098 11061 11274 E NewLauncher: Launcher : view create begin !
+05-20 00:04:11.158 11061 11274 E NewLauncher: PageView : DEBUG : PageView create !!!
+05-20 00:04:11.158 11238 11238 D StatusBar.BatteryController: updateBattery level:10 charging:false pluged:true
+05-20 00:04:11.298 11238 11238 D PhoneStatusBar: updateIcon slot=disturb index=20 viewIndex=6 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:04:11.518 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader key = SimpleTextureMaterial
+05-20 00:04:11.548 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:04:11.548 11061 11274 E NewLauncher: //invariant gl_Position;
+05-20 00:04:11.548 11061 11274 E NewLauncher: attribute vec3 aPosition;
+05-20 00:04:11.548 11061 11274 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:04:11.548 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.548 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.548 11061 11274 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:04:11.548 11061 11274 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:04:11.548 11061 11274 E NewLauncher: }
+05-20 00:04:11.548 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader key = SimpleTextureMaterial
+05-20 00:04:11.568 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:04:11.568 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.568 11061 11274 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:04:11.568 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.568 11061 11274 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:04:11.568 11061 11274 E NewLauncher:     gl_FragColor = diffuseMapColor;
+05-20 00:04:11.568 11061 11274 E NewLauncher: }
+05-20 00:04:11.568 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureModularColorMaterial
+05-20 00:04:11.568 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:04:11.568 11061 11274 E NewLauncher: attribute vec3 aPosition;
+05-20 00:04:11.568 11061 11274 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:04:11.568 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.568 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.568 11061 11274 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:04:11.568 11061 11274 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:04:11.568 11061 11274 E NewLauncher: }
+05-20 00:04:11.568 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureModularColorMaterial
+05-20 00:04:11.568 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:04:11.568 11061 11274 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:04:11.568 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.568 11061 11274 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:04:11.568 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.568 11061 11274 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:04:11.568 11061 11274 E NewLauncher: diffuseMapColor = diffuseMapColor.rgba * uModularColor.rgba ;
+05-20 00:04:11.568 11061 11274 E NewLauncher:   gl_FragColor = diffuseMapColor;
+05-20 00:04:11.568 11061 11274 E NewLauncher: }
+05-20 00:04:11.598 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:04:11.608 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:04:11.619 10718 10851 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:04:11.619 10718 10851 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:04:11.619 10718 10851 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:04:11.649 11061 11274 E NewLauncher: MainView : DEBUG : load page id [0], index [0], title [], status [VISIBLE]
+05-20 00:04:11.658 11238 11238 D StatusBar.NetworkController: getNetworkName mSimState:READY
+05-20 00:04:11.668 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureBatch9Material
+05-20 00:04:11.668 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMatArray9[9];
+05-20 00:04:11.668 11061 11274 E NewLauncher: uniform vec4 uModularColorArray9[9];
+05-20 00:04:11.668 11061 11274 E NewLauncher: attribute vec3 aPosition;
+05-20 00:04:11.668 11061 11274 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:04:11.668 11061 11274 E NewLauncher: attribute float aMvpArrayIndex;
+05-20 00:04:11.668 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.668 11061 11274 E NewLauncher: varying vec4 vModularColor;
+05-20 00:04:11.668 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.668 11061 11274 E NewLauncher:     int matrixIndex = int(aMvpArrayIndex);
+05-20 00:04:11.668 11061 11274 E NewLauncher:     mat4 currentMatrix = uMVPMatArray9[matrixIndex];
+05-20 00:04:11.668 11061 11274 E NewLauncher:     vec4 currentColor = uModularColorArray9[matrixIndex];
+05-20 00:04:11.668 11061 11274 E NewLauncher: vModularColor = currentColor;
+05-20 00:04:11.668 11061 11274 E NewLauncher:     gl_Position = currentMatrix  * vec4(aPosition, 1.0);
+05-20 00:04:11.668 11061 11274 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:04:11.668 11061 11274 E NewLauncher: }
+05-20 00:04:11.668 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureBatch9Material
+05-20 00:04:11.668 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:04:11.668 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.668 11061 11274 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:04:11.668 11061 11274 E NewLauncher: varying vec4 vModularColor;
+05-20 00:04:11.668 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.668 11061 11274 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:04:11.668 11061 11274 E NewLauncher:   gl_FragColor = diffuseMapColor.rgba * vModularColor.rgba ;
+05-20 00:04:11.668 11061 11274 E NewLauncher: }
+05-20 00:04:11.708 10718 10821 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:04:11.718 11238 11238 D StatusBar.NetworkController: getNetworkName displayPlmn:正在搜索... longName:null shortName:null numeric:null
+05-20 00:04:11.729 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader key = TextureBlendModularColorMaterial
+05-20 00:04:11.738 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:04:11.738 11061 11274 E NewLauncher: attribute vec3 aPosition;
+05-20 00:04:11.738 11061 11274 E NewLauncher: attribute vec2 aTexCoord;
+05-20 00:04:11.738 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.738 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.738 11061 11274 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:04:11.738 11061 11274 E NewLauncher: vTexCoord = aTexCoord;
+05-20 00:04:11.738 11061 11274 E NewLauncher: }
+05-20 00:04:11.738 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader key = TextureBlendModularColorMaterial
+05-20 00:04:11.738 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:04:11.738 11061 11274 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:04:11.738 11061 11274 E NewLauncher: uniform vec4 uBlendColor;
+05-20 00:04:11.738 11061 11274 E NewLauncher: varying vec2 vTexCoord;
+05-20 00:04:11.738 11061 11274 E NewLauncher: uniform sampler2D uDiffuseMap;
+05-20 00:04:11.738 11061 11274 E NewLauncher: void main() {
+05-20 00:04:11.738 11061 11274 E NewLauncher:     vec4 diffuseMapColor = texture2D(uDiffuseMap, vTexCoord);
+05-20 00:04:11.738 11061 11274 E NewLauncher: diffuseMapColor.r = (2.0 * uBlendColor.r - 1.0) * (sqrt(diffuseMapColor.r) - diffuseMapColor.r) + diffuseMapColor.r;
+05-20 00:04:11.738 11061 11274 E NewLauncher: diffuseMapColor.g = (2.0 * uBlendColor.g - 1.0) * (sqrt(diffuseMapColor.g) - diffuseMapColor.g) + diffuseMapColor.g;
+05-20 00:04:11.738 11061 11274 E NewLauncher: diffuseMapColor.b = (2.0 * uBlendColor.b - 1.0) * (sqrt(diffuseMapColor.b) - diffuseMapColor.b) + diffuseMapColor.b;
+05-20 00:04:11.738 11061 11274 E NewLauncher:     gl_FragColor = diffuseMapColor * uModularColor;
+05-20 00:04:11.738 11061 11274 E NewLauncher: }
+05-20 00:04:11.749 11238 11238 D StatusBar.NetworkController: getNetworkName mSimState:ABSENT
+05-20 00:04:11.758 11238 11238 I StatusBar.NotificationSoundController: tele: false
+05-20 00:04:11.758 11238 11238 I PhoneNumberAssistantProxy: onServiceConnected
+05-20 00:04:11.758 11238 11238 D CootekManager: PhoneNumberAssistantProxy, onConnected
+05-20 00:04:11.768 11238 11238 I Choreographer: Skipped 81 frames!  The application may be doing too much work on its main thread.
+05-20 00:04:11.808 10985 10985 D AMap GeocodeService: onDestroy
+05-20 00:04:11.978 10985 10985 D AMap GeocodeProvider: destroy start!
+05-20 00:04:11.988 10985 10985 D AMap GeocodeProvider: destroy end!
+05-20 00:04:12.098 10985 10985 D AMap GeocodeService: onBind
+05-20 00:04:12.098 10985 10985 D AMap GeocodeProvider: Construct
+05-20 00:04:12.108 10718 10718 D GeocoderProxy: com.amap.android.location connected
+05-20 00:04:12.108 10718 10734 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 1
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: onDisable
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 0
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 20
+05-20 00:04:12.128 10985 10985 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+05-20 00:04:12.149 10985 10985 D AMap InternalService: nlpVersion : 3.3.8
+05-20 00:04:12.149 10985 10985 D AMap InternalService: NetworkInfo: null
+05-20 00:04:12.149 10985 10985 D AMap InternalService: onCreate mEnabled: true isNetworkAvailable: false
+05-20 00:04:12.149 10985 10985 D AMap InternalService: initAPS, nlpVersion: 3.3.8
+05-20 00:04:12.149 10985 10985 D AMap InternalService: APS getInstance
+05-20 00:04:12.149 10985 10985 D AMap InternalService: APS getInstance end
+05-20 00:04:12.149 10985 10985 D AMap InternalService: APS init
+05-20 00:04:12.158 10985 11005 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:12.158 10985 11014 D AMap NetworkLocationProvider: onSetRequest calling pid: 10718 calling uid: 1000 nlp used by: [android(1000)]
+05-20 00:04:12.158 10985 11014 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+05-20 00:04:12.168 10718 10718 I FusedLocation: engine started (com.android.location.fused)
+05-20 00:04:12.478 10985 10985 D AMap InternalService: APS init end, APS version: 2.0.201501131131.a.r
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setUseGps(false)
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setUseGps(false) end
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setAuth
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setAuth end
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setExtra, nlpVersion: 3.3.8
+05-20 00:04:12.488 10985 10985 D AMap InternalService: APS setExtra end
+05-20 00:04:12.488 10985 10985 D AMap InternalService: initAPS end
+05-20 00:04:12.488 10985 10985 D AMap InternalService: onCreate
+05-20 00:04:12.488 10985 10985 D AMap InternalService: onBind
+05-20 00:04:12.568 11238 11238 D android.widget.GridLayout: horizontal constraints: x3-x0>=680, x3-x2<=168, x2-x1<=168, x1-x0<=168 are inconsistent; permanently removing: x3-x2<=168. 
+05-20 00:04:12.568 11238 11238 D android.widget.GridLayout: vertical constraints: y4-y0>=934, y4-y3<=175, y3-y2<=175, y2-y1<=175, y1-y0<=175 are inconsistent; permanently removing: y4-y3<=175. 
+05-20 00:04:12.608 11238 11238 D PhoneStatusBar: updated expaneded position to : -810
+05-20 00:04:12.749 11238 11238 D SmartisanPhoneStatusBarTransitions: onTransition mode:4
+05-20 00:04:12.788 11061 11061 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419f64a8 time:2193212
+05-20 00:04:12.878 10985 10985 D AMap LocationClient: handleMessage msg = 0
+05-20 00:04:12.918 11238 11238 D PhoneStatusBar: updateIcon slot=tty index=6 viewIndex=2 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:04:12.918 11238 11238 D PhoneStatusBar: updateIcon slot=cdma_eri index=11 viewIndex=4 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:04:12.928 11238 11238 D PhoneStatusBar: updateIcon slot=bluetooth index=4 viewIndex=1 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:04:12.928 11238 11238 D PhoneStatusBar: updateIcon slot=alarm_clock index=17 viewIndex=5 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:04:12.928 11238 11238 D PhoneStatusBar: updateIcon slot=sync_active index=2 viewIndex=0 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:04:12.939 11238 11238 D PhoneStatusBar: updateIcon slot=volume index=9 viewIndex=3 old=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 ) icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:04:12.948 11238 11238 I StatusBar.NotificationSoundController: type_power: true
+05-20 00:04:12.998 11061 11274 E NewLauncher: MainView : DEBUG : load page id [1], index [1], title [], status [VISIBLE]
+05-20 00:04:13.058 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 0
+05-20 00:04:13.058 10985 10985 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:13.058 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 20
+05-20 00:04:13.058 10985 10985 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+05-20 00:04:13.068 10985 10985 D AMap MyServiceConnection: onServiceConnected success
+05-20 00:04:13.078 10985 10985 D AMap LocationClient: handleMessage msg = 1
+05-20 00:04:13.078 10985 10985 D AMap LocationClient: setPeriod: 86400000
+05-20 00:04:13.078 10985 11311 D AMap InternalService: handleMessage msg = 0
+05-20 00:04:13.078 10985 11311 D AMap InternalService: onClientRegisterd
+05-20 00:04:13.078 10985 11311 D AMap InternalService: handleMessage msg = 6
+05-20 00:04:13.078 10985 11311 D AMap InternalService: setPeriod: 86400000
+05-20 00:04:13.088 10985 11311 D AMap InternalService: NetworkInfo: null
+05-20 00:04:13.088 10686 10823 D AwesomePlayer: Before reset_l
+05-20 00:04:13.088 10686 10823 D AwesomePlayer: printFileName fd(19) -> /system/media/audio/ui/start_charging.ogg
+05-20 00:04:13.258 10718 10733 W Process : Unable to open /proc/11315/status
+05-20 00:04:13.258 10718 10733 W ProcessCpuTracker: Skipping unknown process pid 11315
+05-20 00:04:13.378 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0215c0 successful
+05-20 00:04:13.378 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0217d0 successful
+05-20 00:04:13.378 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021910 successful
+05-20 00:04:13.378 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021a38 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021478 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0213c0 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021288 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0210d0 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0221f0 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021c08 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022060 successful
+05-20 00:04:13.429 10686 11326 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021f58 successful
+05-20 00:04:13.498 10686 10852 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 3
+05-20 00:04:13.498 10686 10852 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 5
+05-20 00:04:13.498 10686 10710 I AudioMixer: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-20 00:04:13.528 11280 11280 D TrackerApplication: onCreate()
+05-20 00:04:13.538 11280 11280 D TrackerBaseTask: TrackerInsertTask() status is : PENDING
+05-20 00:04:13.558 11280 11280 D TransportService: onBind()
+05-20 00:04:13.718 11061 11323 E NewLauncher: WeatherView: Weather code is error, weather code:cloudy
+05-20 00:04:13.879 10686 10701 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 3
+05-20 00:04:13.879 10686 10701 W AudioPolicyManager: getDeviceForStrategy() unknown strategy: 5
+05-20 00:04:14.229 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader key = GlobalColorMaterial
+05-20 00:04:14.238 11061 11274 E NewLauncher: MaterialDef : DEBUG : vertex shader = uniform mat4 uMVPMat;
+05-20 00:04:14.238 11061 11274 E NewLauncher: attribute vec3 aPosition;
+05-20 00:04:14.238 11061 11274 E NewLauncher: void main() {
+05-20 00:04:14.238 11061 11274 E NewLauncher:     gl_Position = uMVPMat * vec4(aPosition, 1.0);
+05-20 00:04:14.238 11061 11274 E NewLauncher: }
+05-20 00:04:14.238 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader key = GlobalColorMaterial
+05-20 00:04:14.238 11061 11274 E NewLauncher: MaterialDef : DEBUG : fragment shader = precision mediump float;
+05-20 00:04:14.238 11061 11274 E NewLauncher: uniform vec4 uModularColor;
+05-20 00:04:14.238 11061 11274 E NewLauncher: void main() {
+05-20 00:04:14.238 11061 11274 E NewLauncher:     gl_FragColor = uModularColor;
+05-20 00:04:14.238 11061 11274 E NewLauncher: }
+05-20 00:04:14.268 11238 11238 D StatusBar.LocationController: updateGpsUser num:1
+05-20 00:00:00.568 10718 10733 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+05-20 00:04:14.268 11238 11238 D StatusBar.LocationController: pkg:android
+05-20 00:00:00.628 10718 10733 I ActivityManager: Start proc com.smartisan.rem for broadcast com.smartisan.rem/.framework.REMReceiver: pid=11413 uid=2000 gids={42000, 3003, 3002, 3001, 1028, 1015, 1023, 3008}
+05-20 00:04:14.279 11238 11238 D StatusBar.LocationController: gps user info is null set visible to false oldervisible is:false
+05-20 00:00:01.598 11006 11411 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 android.content.ContextWrapper.sendBroadcast:365 com.android.settings.fuelgauge.PowerUsageService.onHandleIntent:95 android.app.IntentService$ServiceHandler.handleMessage:65 android.os.Handler.dispatchMessage:102 
+05-20 00:04:14.279 11238 11238 D StatusBar.LocationController: reset notification visible:false
+05-20 00:00:01.888 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:04:14.279 11238 11238 I Choreographer: Skipped 98 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:02.409  8042 11435 W SocketClient: write error (Broken pipe)
+05-20 00:04:14.368 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:00:03.568 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:04:14.388 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:00:03.658 11006 11006 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:04:14.458 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:00:04.158 10718 10865 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:04:14.469 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:00:04.338 10718 11057 I ActivityManager: Delay finish: com.android.providers.telephony/com.android.providers.subscripts.SubscriptsReceiver
+05-20 00:04:14.499 11280 11297 D TransportService: onTransport()
+05-20 00:00:04.388 10718 10728 I ActivityManager: Resuming delayed broadcast
+05-20 00:04:14.499 11280 11297 D TransportService: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:00:06.978 10718 10845 D ConnectivityService: Sampling interval elapsed, updating statistics ..
+05-20 00:04:14.499 11280 11297 D TransportService: mPackageName = com.android.settings
+05-20 00:00:07.038 10718 10845 D ConnectivityService: Done.
+05-20 00:04:14.499 11280 11297 D TransportService: mTag = location_provider_enabled
+05-20 00:00:07.078  8042 11445 W SocketClient: write error (Broken pipe)
+05-20 00:04:14.499 11280 11297 D TransportService: mSubTag = null
+05-20 00:00:29.348 10718 10825 I PowerManagerService: Going to sleep due to screen timeout...
+05-20 00:04:14.499 11280 11297 D TransportService: mData = {"enable":true}
+05-20 00:00:29.868 10718 10718 I WindowManager: <1400544029873> : screenTurnedOff for reason 3
+05-20 00:04:14.499 11280 11297 D TransportService: mAction = 9
+05-20 00:00:29.969 10718 10718 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21015
+05-20 00:04:14.509 11280 11297 D TransportService: mValues = 1
+05-20 00:00:30.028 10718 10718 D NotificationService: onReceive:android.intent.action.SCREEN_OFF
+05-20 00:04:14.509 11280 11297 D TransportService: mTimeStamp = 1400544247704
+05-20 00:04:14.509 11280 11297 D TransportService: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:04:14.509 11280 11297 D TrackerBaseTask: insert() sources size : 1
+05-20 00:04:14.518 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.539 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.548 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.559 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.588 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.588 11238 11238 W View    : View too large to fit into drawing cache, needs 2540480 bytes, only 1536000 available
+05-20 00:04:14.638 11280 11330 D TrackerBaseTask: doInBackground() status is : RUNNING
+05-20 00:04:14.898 11061 11274 E NewLauncher: MainView : DEBUG : load page id [2], index [2], title [], status [VISIBLE]
+05-20 00:04:15.118 11061 11274 E NewLauncher: MainView : DEBUG : mPageList size         ==> 3
+05-20 00:04:15.118 11061 11274 E NewLauncher: MainView : DEBUG : invisiblePageList size ==> 0
+05-20 00:04:15.118 11061 11274 E NewLauncher: MainView : A140 : ########## 3
+05-20 00:04:15.149 11006 11006 D SettingItems: onSimStateChanged()
+05-20 00:04:15.298 11006 11006 D SettingItems: onServiceStateChanged()
+05-20 00:04:15.298 10860 10860 D KeyguardUpdateMonitor: received broadcast android.intent.action.BOOT_COMPLETED
+05-20 00:04:15.468 11061 11274 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=23
+05-20 00:04:15.498 11061 11274 E NewLauncher: Launcher : #### mainView loadPage #####
+05-20 00:04:16.009 11019 11019 I OtaStartupReceiver: onReceive: BOOT_COMPLETED
+05-20 00:04:16.009 11019 11019 I PhoneApp: onBootComplete()
+05-20 00:04:16.009 11019 11019 I PhoneApp: handleMessage: EVENT_BOOT_COMPLETED
+05-20 00:04:16.009 11019 11019 D CallHandlerServiceProxy: InitConnect
+05-20 00:04:16.009 11019 11019 D CallHandlerServiceProxy: InitConnect()
+05-20 00:04:16.009 11019 11019 D CallHandlerServiceProxy: setupServiceConnection
+05-20 00:04:16.028 11019 11019 D CallHandlerServiceProxy: binding to service Intent { act=com.android.services.telephony.common.ICallHandlerService cmp=com.android.incallui/.CallHandlerService }
+05-20 00:04:16.028 11019 11019 D CallHandlerServiceProxy: binding to service Intent { act=com.android.services.telephony.common.ICallHandlerService cmp=com.android.incallui/.CallHandlerService }
+05-20 00:04:16.168 10718 10718 V SyncManager: Boot completed, clearing boot queue.
+05-20 00:04:16.168 10718 11058 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=11332 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:04:16.238 10718 10718 D AudioService: readSmartisanOSPersistedSettings()  mCameraSoundForced false mSystemMuteAffectedStreams 1006
+05-20 00:04:16.238 10718 10850 D AudioService: setSysMuteState() systemMute=0;systemMuteAffectedStreams=1006;systemMuteAffectedDevices=2
+05-20 00:04:16.249 10718 10816 D BluetoothManagerService: Message: 30
+05-20 00:04:16.288 10718 10816 D BluetoothManagerService: Message: 30
+05-20 00:04:16.288 10718 10718 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:04:16.288 10718 10718 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:04:16.309 10718 10850 E SoundPool: error loading /system/media/audio/ui/KeypressInvalid.ogg
+05-20 00:04:16.319 10718 10850 W AudioService: Soundpool could not load file: /system/media/audio/ui/KeypressInvalid.ogg
+05-20 00:04:16.319 10686 10852 D AwesomePlayer: Before reset_l
+05-20 00:04:16.319 10718 10718 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:04:16.328 10686 10852 D AwesomePlayer: printFileName fd(23) -> /system/media/audio/ui/Effect_Tick.ogg
+05-20 00:04:16.328 10718 10718 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:04:16.338 10718 10718 E WiredAccessoryManager: No state change.
+05-20 00:04:16.338 10718 10718 V WiredAccessoryManager: init()
+05-20 00:04:16.368 10718 10856 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:04:16.499 10718 11346 I RecoverySystem: No recovery log file
+05-20 00:04:16.688 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020c78 successful
+05-20 00:04:16.688 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020ea0 successful
+05-20 00:04:16.688 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020fe0 successful
+05-20 00:04:16.688 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021108 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020af0 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a388 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029d20 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02cac8 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023d38 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023c10 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023ad0 successful
+05-20 00:04:16.718 10686 11352 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0239f8 successful
+05-20 00:04:16.728 10686 10686 D AwesomePlayer: Before reset_l
+05-20 00:04:16.728 10686 10686 D AwesomePlayer: printFileName fd(23) -> /system/media/audio/ui/KeypressStandard.ogg
+05-20 00:04:16.748 11061 11274 E NewLauncher: Launcher : view create done !
+05-20 00:04:16.748 11061 11274 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=26
+05-20 00:04:16.838 10686 10822 D AudioHardwareQSD: AudioHardware pcm playback is going to standby.
+05-20 00:04:16.878 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027bc8 successful
+05-20 00:04:16.878 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029730 successful
+05-20 00:04:16.878 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029870 successful
+05-20 00:04:16.878 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029998 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023168 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0230b0 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022fe0 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022e28 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029838 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029710 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a029608 successful
+05-20 00:04:16.918 10686 11356 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023220 successful
+05-20 00:04:16.928 10686 10823 D AwesomePlayer: Before reset_l
+05-20 00:04:16.928 10686 10823 D AwesomePlayer: printFileName fd(22) -> /system/media/audio/ui/KeypressSpacebar.ogg
+05-20 00:04:17.088 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020e00 successful
+05-20 00:04:17.088 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021010 successful
+05-20 00:04:17.088 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a021150 successful
+05-20 00:04:17.088 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a023428 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020c78 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020bc0 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020af0 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a020938 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02d168 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0302a8 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02d5b0 successful
+05-20 00:04:17.118 10686 11360 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02d4a8 successful
+05-20 00:04:17.118 10686 10852 D AwesomePlayer: Before reset_l
+05-20 00:04:17.118 10686 10852 D AwesomePlayer: printFileName fd(22) -> /system/media/audio/ui/KeypressDelete.ogg
+05-20 00:04:17.248 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024738 successful
+05-20 00:04:17.248 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024948 successful
+05-20 00:04:17.248 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024a88 successful
+05-20 00:04:17.248 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024bb0 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0245b0 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0244f8 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a024428 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027be8 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a030350 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a030828 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0306e8 successful
+05-20 00:04:17.288 10686 11364 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0305e0 successful
+05-20 00:04:17.288 10686 10686 D AwesomePlayer: Before reset_l
+05-20 00:04:17.288 10686 10686 D AwesomePlayer: printFileName fd(22) -> /system/media/audio/ui/KeypressReturn.ogg
+05-20 00:04:17.648 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0227b8 successful
+05-20 00:04:17.648 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0229c8 successful
+05-20 00:04:17.648 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022b08 successful
+05-20 00:04:17.648 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022c30 successful
+05-20 00:04:17.668 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022670 successful
+05-20 00:04:17.668 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0225b8 successful
+05-20 00:04:17.668 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0224e8 successful
+05-20 00:04:17.668 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0211a8 successful
+05-20 00:04:17.668 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a022b08 successful
+05-20 00:04:17.678 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0229e0 successful
+05-20 00:04:17.678 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0228a0 successful
+05-20 00:04:17.678 10686 11368 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0226f8 successful
+05-20 00:04:17.718 11332 11332 D InCall  : InCallApp - InCallApp onCreate()...
+05-20 00:04:17.848 11332 11332 I InCall  : InCallApp - InCallApp onCreate()...isMasterClearReboot:false
+05-20 00:04:18.219 11332 11332 D CallCard: CallCard constructor...
+05-20 00:04:18.219 11332 11332 D CallCard: - this = com.android.incallui.CallCard{41a3bd78 V.E..... ......I. 0,0-0,0 #7f060024 app:id/call_info_container}
+05-20 00:04:18.219 11332 11332 D CallCard: - context com.android.incallui.InCallApp@41a02308, attrs android.content.res.XmlBlock$Parser@41a3b890
+05-20 00:04:18.458 11332 11332 D CallCard: CallCard onFinishInflate(this = com.android.incallui.CallCard{41a3bd78 V.E..... ......I. 0,0-0,0 #7f060024 app:id/call_info_container})...
+05-20 00:04:18.469 11006 11006 V NFC     : this device does not have NFC support
+05-20 00:04:18.548 11332 11332 D CallCard:    showImage clear unknown
+05-20 00:04:18.578 11006 11006 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:04:18.758 11332 11332 E InCall  : fr - Cannot isPhoneInUse; CallCommandService == null
+05-20 00:04:18.768 11332 11332 I InCallTouchUi: [InCallTouchUi] InCallTouchUi constructor...
+05-20 00:04:18.888 11006 11006 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=true, airPlaneChanged=false, simStateChanged=true, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+05-20 00:04:20.118 11061 11061 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+05-20 00:04:20.268 11061 11274 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=36
+05-20 00:04:20.368 11061 11274 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=37
+05-20 00:04:21.468 11332 11332 I InCallTouchUi: InCallTouchUi onFinishInflate(this = com.android.incallui.InCallTouchUi{41a13d40 V.E..... ......I. 0,0-0,0})...
+05-20 00:04:21.479 11332 11332 I InCallTouchUi: [updateRecordButtonUI] state:0
+05-20 00:04:21.479 11332 11332 E InCall  : fr - Cannot isPhoneInUse; CallCommandService == null
+05-20 00:04:21.479 11332 11332 I InCallTouchUi: shouldDisableAllButtonfalse
+05-20 00:04:21.479 11332 11332 I InCallTouchUi: CallIsNull: mInCallScreen=null
+05-20 00:04:21.538 10718 10734 D gps_leo : gps_cleanup() is called
+05-20 00:04:21.569 10718 10734 D gps_leo : update_gps_status(): GpsStatusValue=4
+05-20 00:04:21.958 10718 11038 D gps_leo : gps thread quitting on demand
+05-20 00:04:22.218 11332 11332 D com.android.incallui.InComingCallView: loadResourceAndInitSomeVariables()...
+05-20 00:04:22.268 10718 11039 D gps_leo : gps_get_position_thread() destroyed
+05-20 00:04:24.038 10718 10734 D GpsLocationProvider: set_capabilities_callback: 7u
+05-20 00:04:24.048 10718 10734 D gps_leo : gps_init() is called
+05-20 00:04:24.059 10718 10734 D gps_leo : update_gps_status(): GpsStatusValue=3
+05-20 00:04:24.128 10718 11385 D gps_leo : nmea_reader_init() is called
+05-20 00:04:24.258 10718 11385 D gps_leo : nmea_reader_update_utc_diff() is called. utc_diff = 0
+05-20 00:04:24.579 10718 11385 D gps_leo : gps thread running
+05-20 00:04:24.648 10718 11386 D gps_leo : gps_get_position_thread() running
+05-20 00:04:24.669 10718 10734 D gps_leo : gps state initialized
+05-20 00:04:25.019 10718 10734 D gps_leo : gps_xtra_init() is called
+05-20 00:04:25.019 10718 10734 D gps_leo : agps_init() is called
+05-20 00:04:25.019 10718 10734 D gps_leo : agps_set_server() is called
+05-20 00:04:25.019 10718 10734 D gps_leo : type=1, hostname=supl.google.com, port=7276
+05-20 00:04:25.439 10985 11005 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:25.439 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 0
+05-20 00:04:25.439 10985 10985 D AMap NetworkLocationProvider: onEnable
+05-20 00:04:25.448 10985 11014 D AMap NetworkLocationProvider: onSetRequest calling pid: 10718 calling uid: 1000 nlp used by: [android(1000)]
+05-20 00:04:25.468 10985 11014 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+05-20 00:04:25.468 10985 10985 D AMap NetworkLocationProvider: handleMessage msg = 20
+05-20 00:04:25.468 10985 10985 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+05-20 00:04:25.468 10985 10985 D AMap LocationClient: handleMessage msg = 1
+05-20 00:04:25.468 10985 10985 D AMap LocationClient: setPeriod: 86400000
+05-20 00:04:25.468 10985 11311 D AMap InternalService: handleMessage msg = 6
+05-20 00:04:25.468 10985 11311 D AMap InternalService: setPeriod: 86400000
+05-20 00:04:25.778 10985 11311 D AMap InternalService: NetworkInfo: null
+05-20 00:04:25.818 10718 10734 V SyncManager: handleSyncHandlerMessage: MESSAGE_CHECK_ALARMS
+05-20 00:04:25.828 10718 10734 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:04:26.008 11238 11238 D StatusBar.LocationController: updateGpsUser num:2
+05-20 00:04:26.008 11238 11238 D StatusBar.LocationController: pkg:android
+05-20 00:04:26.008 11238 11238 D StatusBar.LocationController: pkg:com.amap.android.location
+05-20 00:04:26.008 11238 11238 D StatusBar.LocationController: gps user info is null set visible to false oldervisible is:false
+05-20 00:04:26.008 11238 11238 D StatusBar.LocationController: reset notification visible:false
+05-20 00:04:26.058 11332 11332 D FloatViewManager: init(Context context, Handler handler)..
+05-20 00:04:26.078 11332 11332 D FloatViewManager: FloatViewManager(Context context)...
+05-20 00:04:26.158 11061 11061 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 12
+05-20 00:04:26.158 11061 11061 E NewLauncher: Launcher : #### MESSAGE_COMPLETE #####
+05-20 00:04:26.358 11061 11061 E NewLauncher: Launcher : #### loadAllApps #####
+05-20 00:04:26.398 10718 10815 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41bf27e8
+05-20 00:04:26.428 11332 11332 I InCall  : CallHandlerService - onCreate
+05-20 00:04:26.428 11061 11061 E NewLauncher: Launcher : launcher startup time ==> [28424] ms
+05-20 00:04:26.449 11061 11061 E NewLauncher: Launcher : DEBUG : ## wizard value = 0 ###
+05-20 00:04:26.458 11332 11332 I InCall  : CallHandlerService - onBind
+05-20 00:04:26.468 11332 11332 I PhoneNumberAssistantProxy: onServiceConnected
+05-20 00:04:26.479 11019 11019 D PhoneApp: mReceiver: launcher.ready
+05-20 00:04:26.539 11019 11019 D CallHandlerServiceProxy: Service Connected
+05-20 00:04:26.539 10718 11055 I PackageManager: Adding preferred activity ComponentInfo{com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity} for user 0 :
+05-20 00:04:26.549 11019 11019 D CallHandlerServiceProxy: onCallHandlerServiceConnected
+05-20 00:04:26.549 10718 11055 I PackageManager:   Action: "android.intent.action.MAIN"
+05-20 00:04:26.549 10718 11055 I PackageManager:   Category: "android.intent.category.HOME"
+05-20 00:04:26.549 10718 11055 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:04:26.558 11332 11348 I InCall  : CallHandlerService - startCallService: com.android.services.telephony.common.g@42041ad0
+05-20 00:04:26.568 11019 11019 D CallHandlerServiceProxy: onSupportedAudioModeChange
+05-20 00:04:26.568 11019 11019 D CallHandlerServiceProxy: onSupportAudioModeChange: EARPIECE
+05-20 00:04:26.568 11019 11019 D CallHandlerServiceProxy: onAudioModeChange
+05-20 00:04:26.568 11019 11019 I CallHandlerServiceProxy: Updating with new audio mode: EARPIECE with mute true
+05-20 00:04:26.568 11019 11019 D CallHandlerServiceProxy: processQueue
+05-20 00:04:26.568 11332 11332 D InCall  : CallHandlerService - executeMessage 9
+05-20 00:04:26.578 11332 11332 I InCall  : CallHandlerService - doStart
+05-20 00:04:26.758 11332 11332 D InCall  : as - onCreate: mProximityWakeLock: WakeLock{42057498 held=false, refCount=0}
+05-20 00:04:26.758 11332 11332 D PhoneUtils: getSupportedAudio ? :EARPIECE
+05-20 00:04:26.758 11332 11332 I InCall  : as - as{keybrd=0, offhook=0, ui=0, btAvailableWhenDialing=false, aud=EARPIECE}
+05-20 00:04:26.758 11332 11332 I InCall  : as - turning off proximity sensor: already released
+05-20 00:04:26.769 11332 11332 D InCall  : InCallPresenter - startOrFinishUi: NO_CALLS -> NO_CALLS
+05-20 00:04:26.769 11332 11332 I InCall  : fr - setSystemBarNavigationEnabled() enabled = true
+05-20 00:04:26.769 11332 11332 I InCall  : InCallPresenter - Phone switching state: NO_CALLS -> NO_CALLS
+05-20 00:04:26.769 11332 11332 I InCall  : InCallPresenter - No need update , return .  newstate:NO_CALLS
+05-20 00:04:26.769 11332 11332 D InCall  : InCallPresenter - Finished InCallPresenter.setUp
+05-20 00:04:26.769 11332 11332 D InCall  : CallHandlerService - executeMessage 5
+05-20 00:04:26.769 11332 11332 I InCall  : CallHandlerService - ON_SUPPORTED_AUDIO_MODE: EARPIECE
+05-20 00:04:26.769 11332 11332 D InCall  : CallHandlerService - executeMessage 4
+05-20 00:04:26.778 11332 11332 I InCall  : CallHandlerService - ON_AUDIO_MODE: EARPIECE, muted (true)
+05-20 00:04:26.839 11061 11061 I Choreographer: Skipped 40 frames!  The application may be doing too much work on its main thread.
+05-20 00:04:27.009 11061 11061 E NewLauncher: Launcher : ### delay update GL View #####
+05-20 00:04:27.018 11061 11061 E NewLauncher: Launcher : DEBUG : onWindowFocusChanged = true
+05-20 00:04:27.249 11061 11061 E NewLauncher: LauncherModel : DEBUG : handleOnNewMessage messageCount=0
+05-20 00:04:27.258 11061 11061 I ActivityManager: Timeline: Activity_launch_request id:com.smartisanos.setupwizard time:2207682
+05-20 00:04:27.258 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_MESSAGE_COUNT]
+05-20 00:04:27.268 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleEventUpdateMessageCount set count to [0] where ==> packageName = 'com.android.contacts' AND componentName = 'com.android.contacts.activities.DialtactsActivity'
+05-20 00:04:27.428 10718 10729 E SmartisanOS_Perf_JNI: onload
+05-20 00:04:27.428 10718 10729 E OpenGLHelper_Jni: opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+05-20 00:04:27.528 10718 10729 E SmartisanOS_Perf_JNI: smartiperf module not found
+05-20 00:04:27.528 10718 10729 E SmartisanOS_Perf: SmartiPerformance initialized failed!
+05-20 00:04:27.528 10718 10729 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:04:27.528 10718 10729 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smartisanos.setupwizard/.SetupWizardActivity} from pid 11061
+05-20 00:04:27.578 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_MESSAGE_COUNT] Done !
+05-20 00:04:27.588 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_ITEM]
+05-20 00:04:27.688 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_ITEM] Done !
+05-20 00:04:27.769 11061 11061 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+05-20 00:04:27.819 10860 10873 D KeyguardViewMediator: onBootCompleted
+05-20 00:04:27.819 10860 10873 D KeyguardViewManager: register p-sensor
+05-20 00:04:27.828  3701  3706 I SurfaceFlinger: Boot is finished (1382937 ms)
+05-20 00:04:27.858 11061 11061 E NewLauncher: Launcher : ### onPause ####
+05-20 00:04:27.878 11061 11061 E NewLauncher: UninstallApp : cancelUninstallWithoutAnim nothing to do by mUninstallDialog is null
+05-20 00:04:27.909 10860 10860 D KeyguardViewManager: p-sensor state changed to far
+05-20 00:04:27.909 10860 10873 D KeyguardViewManager: register light-sensor
+05-20 00:04:27.909 10860 10860 D KeyguardViewManager: light-sensor state change light 10.0
+05-20 00:04:27.979 10718 11067 I ActivityManager: Start proc com.smartisanos.setupwizard for activity com.smartisanos.setupwizard/.SetupWizardActivity: pid=11399 uid=10072 gids={50072}
+05-20 00:04:27.989 11061 11274 E NewLauncher: Utils : DEBUG : ### rti = 1 ##
+05-20 00:04:27.989 11061 11274 E NewLauncher: Utils : DEBUG : ## rt = com.smartisanos.launcher.Launcher ##
+05-20 00:04:28.048 11061 11061 E NewLauncher: Launcher : DEBUG : onWindowFocusChanged = false
+05-20 00:04:28.048 11061 11274 E NewLauncher: Launcher : DEBUG : ### cancel previous uncompleted touch event while window focus removed###
+05-20 00:04:28.058 10718 10825 I PowerManagerService: Boot animation finished.
+05-20 00:04:28.178 11061 11061 E NewLauncher: Launcher : ### onStop ###
+05-20 00:04:28.238 11061 11061 E NewLauncher: LauncherApplication : ACTION_ACTIVITY_RESUMED : component:com.smartisanos.setupwizard.SetupWizardActivity
+05-20 00:04:28.238 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_REMOVE_NEW_FLAG_BY_INTENT]
+05-20 00:04:28.248 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : get id [-1] by cmpName com.smartisanos.setupwizard.SetupWizardActivity
+05-20 00:04:28.248 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_REMOVE_NEW_FLAG_BY_INTENT] Done !
+05-20 00:04:28.508 11399 11399 I ActivityManager: Timeline: Activity_launch_request id:com.android.settings time:2208931
+05-20 00:04:28.508 10718 10728 I ActivityManager: START u0 {cmp=com.android.settings/.inputmethod.LocalePickerActivity (has extras)} from pid 11399
+05-20 00:04:28.648 10718 11339 W Searchables: No web search activity found
+05-20 00:04:28.701 11399 11399 D TAG     : disable what:65536
+05-20 00:04:28.701 10718 10851 D StatusBarManagerService: disableInternal
+05-20 00:00:00.008 11238 11238 D PowerButton: onReceive time:0 action:android.intent.action.TIME_SET
+05-20 00:00:00.008 11238 11238 D PowerButton: checkDisturbModeTime starttime:220000 endtime:80000 nowtime:0
+05-20 00:00:00.028 11061 11061 E NewLauncher: LauncherApplication : ACTION_ACTIVITY_RESUMED : component:com.android.settings.inputmethod.LocalePickerActivity
+05-20 00:00:00.028 11399 11399 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fc368 time:2209169
+05-20 00:00:00.038 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_REMOVE_NEW_FLAG_BY_INTENT]
+05-20 00:00:00.038 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : get id [-1] by cmpName com.android.settings.inputmethod.LocalePickerActivity
+05-20 00:00:00.038 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_REMOVE_NEW_FLAG_BY_INTENT] Done !
+05-20 00:00:00.409 11187 11259 I ContactLocale: AddressBook Labels [zh_CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, #, ]
+05-20 00:00:00.568 11006 11411 I PowerUsage: sql select sum(value),drainType,uid,name,package_name from powerusage where time>1401148801149 and time<1400544000574 group by package_name,drainType;
+05-20 00:00:00.588 11006 11412 D SettingItems: databasehelper recreate
+05-20 00:00:00.598 11027 11027 I BootCompleteReceiver: BootCompleteReceiver
+05-20 00:00:01.478 11413 11413 D REM     : REMReceiver.java, 44, onReceive() Device Boot Completely start to scan device log.
+05-20 00:00:01.528 11006 11411 I PowerUsage:  savePowerData current time 1400544001533
+05-20 00:00:01.538 11413 11413 D REM     : REMReceiver.java, 89, postponeScan() Postpone scanning seconds: 100
+05-20 00:00:01.559 11006 11411 I PowerUsage:  time 1400544001533
+05-20 00:00:01.559 11006 11411 I PowerUsage: now usageList is [通话 0.0 PHONE null 0, 屏幕 0.0 SCREEN null 0, 网络连接 0.0 WIFI null 0, 蓝牙 0.0 BLUETOOTH null 0, 待机 0.0 IDLE null 0]
+05-20 00:00:01.559 11006 11411 I PowerUsage: savePowerData end 
+05-20 00:00:01.758 11413 11413 E REMReceiver: REMReceiver.java:46: 
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at java.io.FileWriter.<init>(FileWriter.java:42)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at com.smartisan.rem.framework.REMReceiver.onReceive(REMReceiver.java:59)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:2442)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.app.ActivityThread.access$1700(ActivityThread.java:145)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:00:01.758 11413 11413 E REMReceiver: Caused by: libcore.io.ErrnoException: open failed: EACCES (Permission denied)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at libcore.io.Posix.open(Native Method)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:00:01.758 11413 11413 E REMReceiver: 	... 15 more
+05-20 00:00:01.968 11332 11370 I InCall  : ProfileUtils - loadProfileContact(), Cursor=android.content.ContentResolver$CursorWrapperInner@4205c368
+05-20 00:00:01.998 11006 11006 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:00:02.058 11006 11006 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:00:02.058 11006 11006 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: Local Branch: 
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: Local Patches: NONE
+05-20 00:00:02.069 11006 11006 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:00:02.288 11006 11006 D OpenGLRenderer: Enabling debug mode 0
+05-20 00:00:02.288 11006 11006 E memalloc: /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:64 Error: Invalid argument
+05-20 00:00:02.288 11006 11006 E gralloc : Could not mmap handle 0x2a21d6e8, fd=64 (Invalid argument)
+05-20 00:00:02.288 11006 11006 E gralloc : gralloc_register_buffer: gralloc_map failed
+05-20 00:00:02.288 11006 11006 W GraphicBufferMapper: registerBuffer(0x2a21d6e8) failed -22 (Invalid argument)
+05-20 00:00:02.288 11006 11006 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+05-20 00:00:02.308 11006 11006 D SettingItems: onServiceStateChanged()
+05-20 00:00:02.308 10718 10840 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:02.409 10718 10840 D NtpTrustedTime: requestTime fail
+05-20 00:00:02.498 11187 11259 D PhotoStore: pollingEntries 1
+05-20 00:00:02.498 10718 10841 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:02.498 10718 10841 D NtpTrustedTime: requestTime fail
+05-20 00:00:02.538 11187 11260 D PhotoStore: pollingEntries 1
+05-20 00:00:02.538 11187 11259 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:02.538 11187 11259 D PhotoStore: pollingEntries 2
+05-20 00:00:02.538 11187 11259 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:02.538 11187 11260 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:02.538 11187 11260 D PhotoStore: pollingEntries 2
+05-20 00:00:02.538 11187 11260 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:02.558 11187 11259 D PhotoStore: pollingEntries 1
+05-20 00:00:02.558 11187 11260 D PhotoStore: pollingEntries 1
+05-20 00:00:02.558 11187 11260 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:02.558 11187 11260 D PhotoStore: pollingEntries 2
+05-20 00:00:02.558 11187 11260 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:02.558 11187 11259 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:02.558 11187 11259 D PhotoStore: pollingEntries 2
+05-20 00:00:02.558 11187 11259 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:03.088 10933 11437 E AutoUpdateListener: time is not qualified
+05-20 00:00:03.568 11238 11238 D SmartisanPhoneStatusBarTransitions: onTransition mode:0
+05-20 00:00:03.598 10718 10732 I ActivityManager: Displayed com.android.settings/.inputmethod.LocalePickerActivity: +3s581ms (total +4s422ms)
+05-20 00:00:03.728 11280 11280 D TrackerBaseTask: TrackerInsertTask() status is : PENDING
+05-20 00:00:03.728 11280 11280 D TransportService: onBind()
+05-20 00:00:03.828 10933 10933 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-20 00:00:03.978 10933 10933 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-20 00:00:04.068 11061 11079 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+05-20 00:00:04.078 11280 11296 D TransportService: onTransport()
+05-20 00:00:04.078 11280 11296 D TransportService: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:00:04.078 11280 11296 D TransportService: mPackageName = com.android.settings
+05-20 00:00:04.088 11280 11296 D TransportService: mTag = location_provider_enabled
+05-20 00:00:04.088 11280 11296 D TransportService: mSubTag = null
+05-20 00:00:04.088 11280 11296 D TransportService: mData = {"enable":true}
+05-20 00:00:04.088 11280 11296 D TransportService: mAction = 9
+05-20 00:00:04.088 11280 11296 D TransportService: mValues = 1
+05-20 00:00:04.088 11280 11296 D TransportService: mTimeStamp = 1400544003598
+05-20 00:00:04.088 11280 11296 D TransportService: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:00:04.088 11280 11296 D TrackerBaseTask: insert() sources size : 1
+05-20 00:00:04.109 10718 10732 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:00:04.109 10718 10732 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41edfa60 u0 com.android.settings/.inputmethod.LocalePickerActivity t2} time:2213242
+05-20 00:00:04.148 11006 11006 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@41a517c0 time:2213287
+05-20 00:00:04.188 11280 11439 D TrackerBaseTask: doInBackground() status is : RUNNING
+05-20 00:00:04.318 11006 11006 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=false, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+05-20 00:00:04.518 11019 11019 V SubscriptsManager: message send broadcast to update the mms uread count: 0
+05-20 00:00:04.529 11061 11061 E NewLauncher: LauncherModel : DEBUG : handleOnNewMessage messageCount=0
+05-20 00:00:04.529 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_MESSAGE_COUNT]
+05-20 00:00:04.529 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : handleEventUpdateMessageCount set count to [0] where ==> packageName = 'com.android.mms' AND componentName = 'com.android.mms.ui.ConversationList'
+05-20 00:00:04.598 11061 11275 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_MESSAGE_COUNT] Done !
+05-20 00:00:07.008 10718 11011 D NetworkTimeUpdateService: handleMessage(), msg=2
+05-20 00:00:07.008 10718 11011 D NetworkTimeUpdateService: onPollNetworkTime(), event=2, autoTime=true
+05-20 00:00:07.008 10718 11011 D NetworkTimeUpdateService: refTime=2216144
+05-20 00:00:07.008 10718 11011 D NetworkTimeUpdateService: System time = 1400544007013, mLastNtpFetchTime=-1
+05-20 00:00:07.008 10718 11011 D NetworkTimeUpdateService: Before Ntp fetch
+05-20 00:00:07.008 10718 11011 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:07.078 10718 11011 D NtpTrustedTime: requestTime fail
+05-20 00:00:07.078 10718 11011 D NetworkTimeUpdateService: getCacheAge=9223372036854775807
+05-20 00:00:07.078 10718 11011 D NetworkTimeUpdateService: mTryAgainCounter=2
+05-20 00:00:08.558 11006 11412 D SettingItems: onDatabaseCreated()
+05-20 00:00:10.568 11006 11006 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=true, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+05-20 00:00:29.858  3701  3701 D SurfaceFlinger: Screen released, type=0 flinger=0x2a0074f0
+05-20 00:00:29.868 10860 10873 D KeyguardViewMediator: onScreenTurnedOff(3)
+05-20 00:00:29.888 10860 10873 D KeyguardViewMediator: get isSecure state
+05-20 00:00:29.918  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=60)
+05-20 00:00:29.918  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:29.918  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:00:29.969  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:00:29.969  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:00:29.969  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=60)
+05-20 00:00:29.969  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:00:29.998 10860 10873 D KeyguardViewMediator: setting alarm to turn off keyguard, seq = 1
+05-20 00:00:30.019 10718 10843 E WifiNative-wlan0: doBoolean: enable
+05-20 00:00:30.078 11238 11238 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:30.078 11238 11238 D PowerButton: onReceive time:30 action:android.intent.action.SCREEN_OFF
+05-20 00:04:28.701 10718 10851 D StatusBarManagerService: manageDisableList userId=0 what=0x10000 pkg=com.smartisanos.setupwizard token:android.os.BinderProxy@41e74de8
+05-20 00:04:28.708 10718 11067 D         : Setting time of day to sec=1400544000

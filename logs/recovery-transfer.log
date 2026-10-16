@@ -1,0 +1,41 @@
+Sending HD2-SM20/rootfs.ext4.gz
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/rootfs.ext4.gz: 1 file pushed, 0 skipped. 2.8 MB/s (855167189 bytes in 295.585s)
+Sending HD2-SM20/BUILD-STATUS.json
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/BUILD-STATUS.json: 1 file pushed, 0 skipped. 48.4 MB/s (4415 bytes in 0.000s)
+Sending HD2-SM20/INSTALL-zh.txt
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/INSTALL-zh.txt: 1 file pushed, 0 skipped. 7.1 MB/s (635 bytes in 0.000s)
+Sending HD2-SM20/ROOTFS-UNPACKED.sha256
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/ROOTFS-UNPACKED.sha256: 1 file pushed, 0 skipped. 0.6 MB/s (78 bytes in 0.000s)
+Sending HD2-SM20/SHA256SUMS
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/SHA256SUMS: 1 file pushed, 0 skipped. 5.2 MB/s (567 bytes in 0.000s)
+Sending HD2-SM20/initrd.gz
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/initrd.gz: 1 file pushed, 0 skipped. 1029.8 MB/s (1145404 bytes in 0.001s)
+Sending HD2-SM20/unpack-rootfs.sh
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/unpack-rootfs.sh: 1 file pushed, 0 skipped. 12.3 MB/s (1251 bytes in 0.000s)
+Sending HD2-SM20/zImage
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SM20/zImage: 1 file pushed, 0 skipped. 1555.9 MB/s (2914252 bytes in 0.002s)
+Extracting on the phone: HD2-SM20
+FIRST BOOT: decompressing rootfs.ext4.gz; keep power connected. ADB is available.
+Decompression complete; the compressed source is retained for recovery.
+__HD2_UNPACK_STATUS:0
+Sending HD2-SF/rootfs.ext4.gz
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/rootfs.ext4.gz: 1 file pushed, 0 skipped. 2.7 MB/s (446230079 bytes in 154.774s)
+Sending HD2-SF/BUILD-STATUS.json
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/BUILD-STATUS.json: 1 file pushed, 0 skipped. 34.8 MB/s (1115 bytes in 0.000s)
+Sending HD2-SF/INSTALL-zh.txt
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/INSTALL-zh.txt: 1 file pushed, 0 skipped. 21.7 MB/s (1180 bytes in 0.000s)
+Sending HD2-SF/ROOTFS-UNPACKED.sha256
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/ROOTFS-UNPACKED.sha256: 1 file pushed, 0 skipped. 0.6 MB/s (78 bytes in 0.000s)
+Sending HD2-SF/SHA256SUMS
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/SHA256SUMS: 1 file pushed, 0 skipped. 5.9 MB/s (567 bytes in 0.000s)
+Sending HD2-SF/initrd.gz
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/initrd.gz: 1 file pushed, 0 skipped. 436.0 MB/s (706747 bytes in 0.002s)
+Sending HD2-SF/unpack-rootfs.sh
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/unpack-rootfs.sh: 1 file pushed, 0 skipped. 19.3 MB/s (1251 bytes in 0.000s)
+Sending HD2-SF/zImage
+/home/DCMMC/Projects/hd2-ports/out/sd-transfer/HD2-SF/zImage: 1 file pushed, 0 skipped. 1023.1 MB/s (3081612 bytes in 0.003s)
+Extracting on the phone: HD2-SF
+FIRST BOOT: decompressing rootfs.ext4.gz; keep power connected. ADB is available.
+Decompression complete; the compressed source is retained for recovery.
+__HD2_UNPACK_STATUS:0
+Both SD images transferred and extracted; phone boot tests remain.

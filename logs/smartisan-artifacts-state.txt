@@ -1,0 +1,144 @@
+1
+stopped
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC         NAME
+root      1     0     496    384   c011fe70 0001a55c S /init
+root      2     0     0      0     c00bc9bc 00000000 S kthreadd
+root      3     2     0      0     c00aca5c 00000000 S ksoftirqd/0
+root      4     2     0      0     c00b90cc 00000000 S events/0
+root      5     2     0      0     c00b90cc 00000000 S khelper
+root      6     2     0      0     c00c3238 00000000 S async/mgr
+root      7     2     0      0     c00b90cc 00000000 S suspend
+root      8     2     0      0     c00f49a0 00000000 S sync_supers
+root      9     2     0      0     c00f5218 00000000 S bdi-default
+root      10    2     0      0     c00b90cc 00000000 S kblockd/0
+root      11    2     0      0     c00b90cc 00000000 S kmmcd
+root      12    2     0      0     c00b90cc 00000000 S bluetooth
+root      13    2     0      0     c00bcaec 00000000 D kinteractiveup
+root      14    2     0      0     c00b90cc 00000000 S knteractive_dow
+root      15    2     0      0     c00b90cc 00000000 S smd_tty
+root      16    2     0      0     c00b90cc 00000000 S qmi
+root      17    2     0      0     c00811fc 00000000 D rpcrouter
+root      18    2     0      0     c00b90cc 00000000 S htcleo_touch_wq
+root      19    2     0      0     c0083dd0 00000000 S krpcserversd
+root      20    2     0      0     c00b90cc 00000000 S p-sensor_microp
+root      21    2     0      0     c00b90cc 00000000 S detection/0
+root      22    2     0      0     c00b90cc 00000000 S button/0
+root      23    2     0      0     c00f4a2c 00000000 D kswapd0
+root      24    2     0      0     c010bcd0 00000000 S ksmd
+root      25    2     0      0     c00b90cc 00000000 S aio/0
+root      26    2     0      0     c00b90cc 00000000 S crypto/0
+root      39    2     0      0     c00b90cc 00000000 S panel_on/0
+root      40    2     0      0     c00b90cc 00000000 S kgsl-3d0/0
+root      41    2     0      0     c00b90cc 00000000 S msm_serial_hs
+root      42    2     0      0     c030a434 00000000 S mtdblockd
+root      49    2     0      0     c00b90cc 00000000 S msm_hsusb
+root      50    2     0      0     c0327ef8 00000000 S usb_mass_storag
+root      51    2     0      0     c00b90cc 00000000 S ds2746-battery
+root      52    2     0      0     c00b90cc 00000000 S kstriped
+root      53    2     0      0     c00b90cc 00000000 S kondemand/0
+root      54    2     0      0     c00b90cc 00000000 S kconservative/0
+root      55    2     0      0     c00b90cc 00000000 S ksmartass_up/0
+root      56    2     0      0     c00b90cc 00000000 S ksmartass_down/
+root      57    2     0      0     c00b90cc 00000000 S kinteractive_up
+root      58    2     0      0     c00b90cc 00000000 S knteractive_dow
+root      59    2     0      0     c00b90cc 00000000 S ksmartass_up/0
+root      60    2     0      0     c00b90cc 00000000 S ksmartass_down/
+root      61    2     0      0     c00b90cc 00000000 S binder
+root      62    2     0      0     c04ada30 00000000 S krfcommd
+root      63    2     0      0     c037cc90 00000000 S mmcqd
+root      64    1     476    228   c011fe70 0001a55c S /sbin/ueventd
+root      65    1     5568   228   ffffffff 00018dd4 S /sbin/adbd
+root      78    2     0      0     c02ff638 00000000 S loop7
+root      80    2     0      0     c01dcfa8 00000000 S jbd2/loop7-8
+root      81    2     0      0     c00b90cc 00000000 S ext4-dio-unwrit
+root      86    2     0      0     c012ff34 00000000 S flush-7:7
+root      87    2     0      0     c012ff34 00000000 S flush-179:0
+root      89    1     1376   148   c01436cc 000113b4 S /sbin/healthd
+system    90    1     952    356   c038b404 4003b5e0 S /system/bin/servicemanager
+root      92    1     1120   660   c011fe70 4003b72c S /system/bin/logcat
+root      95    1     1016   520   c039e7b8 400482d4 S /system/bin/debuggerd
+radio     96    1     8956   1040  ffffffff 4003bed8 S /system/bin/rild
+drm       99    1     9580   3256  ffffffff 400e75e0 S /system/bin/drmserver
+install   101   1     948    476   c044a950 4004731c S /system/bin/installd
+keystore  102   1     3304   1096  c038b404 400685e0 S /system/bin/keystore
+compass   103   1     840    384   c033b7d0 400365e0 S /system/bin/akmd
+shell     105   1     876    460   c02ca980 4003631c S /system/bin/sh
+root      106   1     608    40    c039e7b8 00042db4 S /system/xbin/su
+system    3701  1     63892  7568  ffffffff 4007a790 S /system/bin/surfaceflinger
+root      4195  1     4192   788   ffffffff 4004eed8 S /system/bin/vold
+root      5495  65    1044   592   c011fe70 4003b72c S logcat
+root      6190  1     9664   1176  ffffffff 4006bed8 S /system/bin/netd
+media     6193  1     25560  6236  ffffffff 4008b5e0 S /system/bin/mediaserver
+media_rw  6512  1     3624   700   ffffffff 2a0077d0 S /system/bin/sdcard
+root      7236  1     314240 39716 ffffffff 4004772c S zygote
+root      7240  2     0      0     c012ff34 00000000 S flush-0:17
+system    7260  7236  447000 48788 ffffffff 40048790 S system_server
+system    7408  7236  324276 24416 ffffffff 40048790 S com.smartisanos.keyguard
+u0_a2     7423  7236  381612 38344 ffffffff 40048790 S com.smartisanos.systemui
+u0_a39    7483  7236  326872 25388 ffffffff 40048790 S com.smartisanos.music:main
+u0_a5     7492  7236  333656 33092 ffffffff 40048790 S com.smartisanos.phone_number_assistant
+u0_a38    7516  7236  339296 40024 ffffffff 40048790 S com.cootek.smartinputv5.smartisan
+u0_a25    7526  7236  324184 25080 ffffffff 40048790 S com.amap.android.location
+system    7536  7236  339056 37000 ffffffff 40048790 S com.android.settings
+radio     7548  7236  346464 29212 ffffffff 40048790 S com.android.phone
+system    7555  7236  320880 22580 ffffffff 40048790 S com.smartisanos.voice
+u0_a1     7568  7236  398460 71876 ffffffff 400475e0 S com.smartisanos.launcher
+u0_a11    7604  7236  324780 24980 ffffffff 40048790 S android.process.media
+u0_a19    7664  7236  327860 27100 ffffffff 40048790 S android.process.acore
+u0_a31    7681  7236  321740 22836 ffffffff 40048790 S com.android.printspooler
+root      7707  2     0      0     c00c19ec 00000000 S iscan_sysioc
+root      7708  2     0      0     c00c19ec 00000000 S dhcp_sysioc
+root      7709  2     0      0     c00c19ec 00000000 S dhd_watchdog
+root      7710  2     0      0     c00c19ec 00000000 S dhd_dpc
+root      7711  2     0      0     c00c19ec 00000000 S dhd_sysioc
+u0_a46    7712  7236  326708 24216 ffffffff 40048790 S com.smartisanos.weather
+u0_a2     7722  7236  325404 24860 ffffffff 40048790 S com.smartisanos.systemui:screenshot
+u0_a40    7794  7236  326860 23732 ffffffff 40048790 S com.smartisanos.tracker
+u0_a72    7816  7236  410368 53100 ffffffff 40048790 S com.smartisanos.setupwizard
+u0_a8     7832  7236  328132 33456 ffffffff 40048790 S com.android.incallui
+radio     7882  7236  322640 22736 ffffffff 40048790 S com.qualcomm.qcrilmsgtunnel
+shell     7894  7236  320736 23468 ffffffff 40048790 S com.smartisan.rem
+system    7968  7236  320512 22824 ffffffff 400475e0 S com.qualcomm.timeservice
+root      7997  65    864    436   c0071098 40037164 S /system/bin/sh
+root      8001  7997  1188   460   00000000 4004731c R ps
+MemTotal:         420248 kB
+MemFree:           13080 kB
+Buffers:            1568 kB
+Cached:           165600 kB
+SwapCached:            0 kB
+Active:           154700 kB
+Inactive:         159036 kB
+Active(anon):      72848 kB
+Inactive(anon):    76480 kB
+Active(file):      81852 kB
+Inactive(file):    82556 kB
+Unevictable:        2012 kB
+Mlocked:               0 kB
+HighTotal:        237312 kB
+HighFree:            980 kB
+LowTotal:         182936 kB
+LowFree:           12100 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+AnonPages:        148728 kB
+Mapped:            89792 kB
+Shmem:               748 kB
+Slab:              12072 kB
+SReclaimable:       5780 kB
+SUnreclaim:         6292 kB
+KernelStack:        3792 kB
+PageTables:         6012 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      210124 kB
+Committed_AS:    5753212 kB
+VmallocTotal:     647168 kB
+VmallocUsed:      116708 kB
+VmallocChunk:     499964 kB
+0,0
+480,2400
+614400
+smartassV2

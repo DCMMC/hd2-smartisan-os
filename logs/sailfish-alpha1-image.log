@@ -1,0 +1,354 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/dbus.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/dbus.service /etc/systemd/system/dbus.service
+Allocated inode: 22434
+debugfs: set_inode_field /etc/systemd/system/dbus.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/systemd-readahead-collect.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-readahead-collect.service /etc/systemd/system/systemd-readahead-collect.service
+Allocated inode: 22436
+debugfs: set_inode_field /etc/systemd/system/systemd-readahead-collect.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/systemd-readahead-replay.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-readahead-replay.service /etc/systemd/system/systemd-readahead-replay.service
+Allocated inode: 22438
+debugfs: set_inode_field /etc/systemd/system/systemd-readahead-replay.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/systemd-udevd.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/systemd-udevd.service /etc/systemd/system/systemd-udevd.service
+Allocated inode: 22440
+debugfs: set_inode_field /etc/systemd/system/systemd-udevd.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/user@.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/user@.service /etc/systemd/system/user@.service
+Allocated inode: 22442
+debugfs: set_inode_field /etc/systemd/system/user@.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/booster-browser.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/booster-browser.service /etc/systemd/user/booster-browser.service
+Allocated inode: 22444
+debugfs: set_inode_field /etc/systemd/user/booster-browser.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/booster-generic.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/booster-generic.service /etc/systemd/user/booster-generic.service
+Allocated inode: 22445
+debugfs: set_inode_field /etc/systemd/user/booster-generic.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/booster-qt5.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/booster-qt5.service /etc/systemd/user/booster-qt5.service
+Allocated inode: 22446
+debugfs: set_inode_field /etc/systemd/user/booster-qt5.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/booster-silica-qt5.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/booster-silica-qt5.service /etc/systemd/user/booster-silica-qt5.service
+Allocated inode: 22447
+debugfs: set_inode_field /etc/systemd/user/booster-silica-qt5.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/tracker-extract.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/tracker-extract.service /etc/systemd/user/tracker-extract.service
+Allocated inode: 22448
+debugfs: set_inode_field /etc/systemd/user/tracker-extract.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/tracker-miner-fs.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/tracker-miner-fs.service /etc/systemd/user/tracker-miner-fs.service
+Allocated inode: 22449
+debugfs: set_inode_field /etc/systemd/user/tracker-miner-fs.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/user
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "user"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/user/voicecall-ui-prestart.service
+
+debugfs: write work/sailfish-stage/etc/systemd/user/voicecall-ui-prestart.service /etc/systemd/user/voicecall-ui-prestart.service
+Allocated inode: 22450
+debugfs: set_inode_field /etc/systemd/user/voicecall-ui-prestart.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/modules-load.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "modules-load.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/modules-load.d/hd2.conf
+
+debugfs: write work/sailfish-stage/etc/modules-load.d/hd2.conf /etc/modules-load.d/hd2.conf
+Allocated inode: 453
+debugfs: set_inode_field /etc/modules-load.d/hd2.conf mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/modprobe.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "modprobe.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/modprobe.d/hd2-wifi.conf
+
+debugfs: write work/sailfish-stage/etc/modprobe.d/hd2-wifi.conf /etc/modprobe.d/hd2-wifi.conf
+Allocated inode: 22451
+debugfs: set_inode_field /etc/modprobe.d/hd2-wifi.conf mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/hd2-wifi-load.service
+
+debugfs: write work/sailfish-stage/etc/systemd/system/hd2-wifi-load.service /etc/systemd/system/hd2-wifi-load.service
+Allocated inode: 22452
+debugfs: set_inode_field /etc/systemd/system/hd2-wifi-load.service mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/tmpfiles.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "tmpfiles.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/tmpfiles.d/hd2-user.conf
+
+debugfs: write work/sailfish-stage/etc/tmpfiles.d/hd2-user.conf /etc/tmpfiles.d/hd2-user.conf
+Allocated inode: 22453
+debugfs: set_inode_field /etc/tmpfiles.d/hd2-user.conf mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "dconf"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf/db
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "db"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf/db/vendor.d
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "vendor.d"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/dconf/db/vendor.d/silica-configs.txt
+
+debugfs: write work/sailfish-stage/etc/dconf/db/vendor.d/silica-configs.txt /etc/dconf/db/vendor.d/silica-configs.txt
+Allocated inode: 291
+debugfs: set_inode_field /etc/dconf/db/vendor.d/silica-configs.txt mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "systemd"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "system"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/systemd/system/multi-user.target.wants
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "multi-user.target.wants"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/systemd/system/multi-user.target.wants/hd2-wifi-load.service
+
+debugfs: symlink /etc/systemd/system/multi-user.target.wants/hd2-wifi-load.service ../hd2-wifi-load.service
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/local
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "local"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/local/sbin
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "sbin"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/local/sbin/hd2-logs
+
+debugfs: write work/sailfish-stage/usr/local/sbin/hd2-logs /usr/local/sbin/hd2-logs
+Allocated inode: 8051
+debugfs: set_inode_field /usr/local/sbin/hd2-logs mode 0100755
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/bin
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "bin"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/bin/droid
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "droid"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/bin/droid/droid-hal-startup.sh
+
+debugfs: write work/sailfish-stage/usr/bin/droid/droid-hal-startup.sh /usr/bin/droid/droid-hal-startup.sh
+Allocated inode: 3438
+debugfs: set_inode_field /usr/bin/droid/droid-hal-startup.sh mode 0100644
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "dconf"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /etc/dconf/db
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "db"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/dconf/db/vendor
+
+debugfs: write work/sailfish-stage/etc/dconf/db/vendor /etc/dconf/db/vendor
+Allocated inode: 275
+debugfs: set_inode_field /etc/dconf/db/vendor mode 0100666
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "lib"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/libhybris
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "libhybris"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/libhybris/eglplatform_fbdev.so
+
+debugfs: write work/sailfish-stage/usr/lib/libhybris/eglplatform_fbdev.so /usr/lib/libhybris/eglplatform_fbdev.so
+Allocated inode: 5078
+debugfs: set_inode_field /usr/lib/libhybris/eglplatform_fbdev.so mode 0100755
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "lib"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+
+debugfs: write work/sailfish-stage/usr/lib/libhybris-eglplatformcommon.so.1.0.0 /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+Allocated inode: 5085
+debugfs: set_inode_field /usr/lib/libhybris-eglplatformcommon.so.1.0.0 mode 0100755
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "lib"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/libhybris-hwcomposerwindow.so.1.0.0
+
+debugfs: write work/sailfish-stage/usr/lib/libhybris-hwcomposerwindow.so.1.0.0 /usr/lib/libhybris-hwcomposerwindow.so.1.0.0
+Allocated inode: 5087
+debugfs: set_inode_field /usr/lib/libhybris-hwcomposerwindow.so.1.0.0 mode 0100755
+debugfs: mkdir /usr
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "usr"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "lib"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/qt5
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "qt5"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/qt5/plugins
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "plugins"
+mkdir: Ext2 directory already exists 
+debugfs: mkdir /usr/lib/qt5/plugins/platforms
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "platforms"
+mkdir: Ext2 directory already exists 
+debugfs: rm /usr/lib/qt5/plugins/platforms/libhwcomposer.so
+
+debugfs: write work/sailfish-stage/usr/lib/qt5/plugins/platforms/libhwcomposer.so /usr/lib/qt5/plugins/platforms/libhwcomposer.so
+Allocated inode: 6077
+debugfs: set_inode_field /usr/lib/qt5/plugins/platforms/libhwcomposer.so mode 0100755
+debugfs: mkdir /etc
+ext2fs_mkdir2: Ext2 directory already exists while creating directory "etc"
+mkdir: Ext2 directory already exists 
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: set_inode_field /etc/hd2-build-status.json mode 0100644

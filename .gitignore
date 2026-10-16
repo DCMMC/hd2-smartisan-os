@@ -1,0 +1,13 @@
+/downloads/
+/work/
+/out/
+/backups/
+/sources/
+__pycache__/
+*.pyc
+*.raw
+*.ext4
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tmp

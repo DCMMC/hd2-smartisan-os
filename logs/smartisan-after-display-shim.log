@@ -1,0 +1,407 @@
+--------- beginning of /dev/log/main
+10-16 18:46:01.078   847   847 I SurfaceFlinger: SurfaceFlinger is starting
+10-16 18:46:01.097   847   847 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-16 18:46:01.097   847   847 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-16 18:46:01.148   847   847 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Local Branch: 
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Remote Branch: quic/master
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Local Patches: NONE
+10-16 18:46:01.148   847   847 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-16 18:46:01.167   847   847 I gralloc : using (fd=15)
+10-16 18:46:01.167   847   847 I gralloc : id           = msmfb31_0
+10-16 18:46:01.167   847   847 I gralloc : xres         = 480 px
+10-16 18:46:01.167   847   847 I gralloc : yres         = 800 px
+10-16 18:46:01.167   847   847 I gralloc : xres_virtual = 480 px
+10-16 18:46:01.167   847   847 I gralloc : yres_virtual = 1600 px
+10-16 18:46:01.167   847   847 I gralloc : bpp          = 32
+10-16 18:46:01.167   847   847 I gralloc : r            =  0:8
+10-16 18:46:01.167   847   847 I gralloc : g            =  8:8
+10-16 18:46:01.167   847   847 I gralloc : b            = 16:8
+10-16 18:46:01.167   847   847 I gralloc : width        = 48 mm (254.000000 dpi)
+10-16 18:46:01.167   847   847 I gralloc : height       = 80 mm (254.000000 dpi)
+10-16 18:46:01.167   847   847 I gralloc : refresh rate = 60.00 Hz
+10-16 18:46:01.167   847   847 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:46:01.167   847   847 D CALCFPS : period: 10
+10-16 18:46:01.167   847   847 D CALCFPS : ignorethresh_us: 500000
+10-16 18:46:01.167   847   847 D CALCFPS : DEBUG_CALC_FPS: 0
+10-16 18:46:01.167   847   847 D CALCFPS : period: 10
+10-16 18:46:01.167   847   847 D CALCFPS : ignorethresh_us: 500000
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing Qualcomm Hardware Composer
+10-16 18:46:01.238   847   847 I hwcomposer: MDP version: 310
+10-16 18:46:01.238   847   847 I hwcomposer: DYN composition threshold : 2.000000
+10-16 18:46:01.238   847   847 I hwcomposer: hwc_device_open: Faking Hardware VSYNC
+10-16 18:46:01.238   847   847 I SurfaceFlinger: Using composer version 1.0
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing UEvent Listener Thread
+10-16 18:46:01.238   847   847 I hwcomposer: Initializing VSYNC Thread
+10-16 18:46:01.238   847   847 W SurfaceFlinger: getting VSYNC period from fb HAL: 16666666
+10-16 18:46:01.567   849   849 D AndroidRuntime: 
+10-16 18:46:01.567   849   849 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+10-16 18:46:01.578   849   849 D AndroidRuntime: CheckJNI is OFF
+10-16 18:46:01.727   849   849 D dalvikvm: DexOpt: --- BEGIN 'core.jar' (bootstrap=1) ---
+10-16 18:46:02.058   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/Object;
+10-16 18:46:02.178   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/Class;
+10-16 18:46:02.197   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/Reference;
+10-16 18:46:02.197   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/ReferenceQueue;
+10-16 18:46:02.227   855   855 D dalvikvm: Ignoring duplicate verify attempt on Ljava/lang/ref/FinalizerReference;
+10-16 18:46:03.058   855   855 D dalvikvm: DexOpt: load 86ms, verify+opt 1003ms, 1510604 bytes
+10-16 18:46:03.498   849   849 D dalvikvm: DexOpt: --- END 'core.jar' (success) ---
+10-16 18:46:03.498   849   849 D dalvikvm: DEX prep '/system/framework/core.jar': unzip in 132ms, rewrite 1766ms
+10-16 18:46:03.548   849   849 D dalvikvm: DexOpt: --- BEGIN 'conscrypt.jar' (bootstrap=1) ---
+10-16 18:46:03.757   856   856 D dalvikvm: DexOpt: load 16ms, verify+opt 147ms, 420548 bytes
+10-16 18:46:03.798   849   849 D dalvikvm: DexOpt: --- END 'conscrypt.jar' (success) ---
+10-16 18:46:03.798   849   849 D dalvikvm: DEX prep '/system/framework/conscrypt.jar': unzip in 19ms, rewrite 256ms
+10-16 18:46:03.838   849   849 D dalvikvm: DexOpt: --- BEGIN 'okhttp.jar' (bootstrap=1) ---
+10-16 18:46:03.977   857   857 D dalvikvm: DexOpt: load 10ms, verify+opt 80ms, 344196 bytes
+10-16 18:46:04.008   849   849 D dalvikvm: DexOpt: --- END 'okhttp.jar' (success) ---
+10-16 18:46:04.008   849   849 D dalvikvm: DEX prep '/system/framework/okhttp.jar': unzip in 11ms, rewrite 169ms
+10-16 18:46:04.008   849   849 D dalvikvm: DexOpt: --- BEGIN 'core-junit.jar' (bootstrap=1) ---
+10-16 18:46:04.058   858   858 D dalvikvm: DexOpt: load 5ms, verify+opt 10ms, 144188 bytes
+10-16 18:46:04.078   849   849 D dalvikvm: DexOpt: --- END 'core-junit.jar' (success) ---
+10-16 18:46:04.078   849   849 D dalvikvm: DEX prep '/system/framework/core-junit.jar': unzip in 1ms, rewrite 60ms
+10-16 18:46:04.148   849   849 D dalvikvm: DexOpt: --- BEGIN 'bouncycastle.jar' (bootstrap=1) ---
+10-16 18:46:04.697   859   859 D dalvikvm: DexOpt: load 31ms, verify+opt 422ms, 694868 bytes
+10-16 18:46:04.828   849   849 D dalvikvm: DexOpt: --- END 'bouncycastle.jar' (success) ---
+10-16 18:46:04.828   849   849 D dalvikvm: DEX prep '/system/framework/bouncycastle.jar': unzip in 56ms, rewrite 679ms
+10-16 18:46:04.898   849   849 D dalvikvm: DexOpt: --- BEGIN 'ext.jar' (bootstrap=1) ---
+10-16 18:46:05.697   860   860 D dalvikvm: DexOpt: load 59ms, verify+opt 627ms, 943340 bytes
+10-16 18:46:05.898   849   849 D dalvikvm: DexOpt: --- END 'ext.jar' (success) ---
+10-16 18:46:05.898   849   849 D dalvikvm: DEX prep '/system/framework/ext.jar': unzip in 60ms, rewrite 996ms
+10-16 18:46:06.317   849   849 D dalvikvm: DexOpt: --- BEGIN 'framework.jar' (bootstrap=1) ---
+10-16 18:46:07.067   863   863 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:10.368   863   863 D dalvikvm: DexOpt: load 497ms, verify+opt 2832ms, 5024380 bytes
+10-16 18:46:11.377   849   849 D dalvikvm: DexOpt: --- END 'framework.jar' (success) ---
+10-16 18:46:11.377   849   849 D dalvikvm: DEX prep '/system/framework/framework.jar': unzip in 402ms, rewrite 5054ms
+10-16 18:46:11.458   849   849 D dalvikvm: DexOpt: --- BEGIN 'framework2.jar' (bootstrap=1) ---
+10-16 18:46:11.838   870   870 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:12.428   870   870 D dalvikvm: DexOpt: load 175ms, verify+opt 643ms, 1917228 bytes
+10-16 18:46:12.608   849   849 D dalvikvm: DexOpt: --- END 'framework2.jar' (success) ---
+10-16 18:46:12.608   849   849 D dalvikvm: DEX prep '/system/framework/framework2.jar': unzip in 81ms, rewrite 1147ms
+10-16 18:46:12.697   849   849 D dalvikvm: DexOpt: --- BEGIN 'telephony-common.jar' (bootstrap=1) ---
+10-16 18:46:13.108   879   879 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:13.688   879   879 D dalvikvm: DexOpt: load 84ms, verify+opt 778ms, 1214020 bytes
+10-16 18:46:13.888   849   849 D dalvikvm: DexOpt: --- END 'telephony-common.jar' (success) ---
+10-16 18:46:13.888   849   849 D dalvikvm: DEX prep '/system/framework/telephony-common.jar': unzip in 73ms, rewrite 1189ms
+10-16 18:46:13.898   849   849 D dalvikvm: DexOpt: --- BEGIN 'voip-common.jar' (bootstrap=1) ---
+10-16 18:46:14.028   880   880 D dalvikvm: DexOpt: load 9ms, verify+opt 73ms, 349092 bytes
+10-16 18:46:14.058   849   849 D dalvikvm: DexOpt: --- END 'voip-common.jar' (success) ---
+10-16 18:46:14.058   849   849 D dalvikvm: DEX prep '/system/framework/voip-common.jar': unzip in 7ms, rewrite 158ms
+10-16 18:46:14.067   849   849 D dalvikvm: DexOpt: --- BEGIN 'mms-common.jar' (bootstrap=1) ---
+10-16 18:46:14.178   881   881 D dalvikvm: DexOpt: load 6ms, verify+opt 70ms, 224836 bytes
+10-16 18:46:14.208   849   849 D dalvikvm: DexOpt: --- END 'mms-common.jar' (success) ---
+10-16 18:46:14.208   849   849 D dalvikvm: DEX prep '/system/framework/mms-common.jar': unzip in 5ms, rewrite 143ms
+10-16 18:46:14.248   849   849 D dalvikvm: DexOpt: --- BEGIN 'android.policy.jar' (bootstrap=1) ---
+10-16 18:46:14.398   882   882 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:14.608   882   882 D dalvikvm: DexOpt: load 40ms, verify+opt 256ms, 928812 bytes
+10-16 18:46:14.678   849   849 D dalvikvm: DexOpt: --- END 'android.policy.jar' (success) ---
+10-16 18:46:14.678   849   849 D dalvikvm: DEX prep '/system/framework/android.policy.jar': unzip in 15ms, rewrite 432ms
+10-16 18:46:14.838   849   849 D dalvikvm: DexOpt: --- BEGIN 'services.jar' (bootstrap=1) ---
+10-16 18:46:15.138   883   883 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:17.428   883   883 D dalvikvm: DexOpt: load 138ms, verify+opt 2200ms, 2840108 bytes
+10-16 18:46:17.848   849   849 D dalvikvm: DexOpt: --- END 'services.jar' (success) ---
+10-16 18:46:17.848   849   849 D dalvikvm: DEX prep '/system/framework/services.jar': unzip in 140ms, rewrite 3013ms
+10-16 18:46:17.928   849   849 D dalvikvm: DexOpt: --- BEGIN 'apache-xml.jar' (bootstrap=1) ---
+10-16 18:46:18.588   884   884 D dalvikvm: DexOpt: load 62ms, verify+opt 474ms, 837444 bytes
+10-16 18:46:18.739   849   849 D dalvikvm: DexOpt: --- END 'apache-xml.jar' (success) ---
+10-16 18:46:18.739   849   849 D dalvikvm: DEX prep '/system/framework/apache-xml.jar': unzip in 72ms, rewrite 812ms
+10-16 18:46:18.768   849   849 D dalvikvm: DexOpt: --- BEGIN 'webviewchromium.jar' (bootstrap=1) ---
+10-16 18:46:19.287   885   885 D dalvikvm: DexOpt: load 72ms, verify+opt 353ms, 1368612 bytes
+10-16 18:46:19.398   849   849 D dalvikvm: DexOpt: --- END 'webviewchromium.jar' (success) ---
+10-16 18:46:19.398   849   849 D dalvikvm: DEX prep '/system/framework/webviewchromium.jar': unzip in 29ms, rewrite 633ms
+10-16 18:46:19.407   849   849 D dalvikvm: DexOpt: --- BEGIN 'telephony-msim.jar' (bootstrap=1) ---
+10-16 18:46:19.518   888   888 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:19.597   888   888 D dalvikvm: DexOpt: load 32ms, verify+opt 101ms, 587188 bytes
+10-16 18:46:19.627   849   849 D dalvikvm: DexOpt: --- END 'telephony-msim.jar' (success) ---
+10-16 18:46:19.627   849   849 D dalvikvm: DEX prep '/system/framework/telephony-msim.jar': unzip in 6ms, rewrite 212ms
+10-16 18:46:19.638   849   849 D dalvikvm: DexOpt: --- BEGIN 'smartisanos.jar' (bootstrap=1) ---
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$anim;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$array;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$attr;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$bool;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$color;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$dimen;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$drawable;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$id;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$integer;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$interpolator;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$layout;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$string;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$style;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$styleable;' has an earlier definition; blocking out
+10-16 18:46:19.708   889   889 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R;' has an earlier definition; blocking out
+10-16 18:46:19.798   889   889 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$anim;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$array;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$attr;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$bool;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$color;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$dimen;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$drawable;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$id;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$integer;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$interpolator;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$layout;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$string;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$style;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R$styleable;': multiple definitions
+10-16 18:46:19.808   889   889 D dalvikvm: DexOpt: not verifying/optimizing 'Lcom/smartisanos/internal/R;': multiple definitions
+10-16 18:46:19.847   889   889 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:19.938   889   889 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+10-16 18:46:19.938   889   889 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+10-16 18:46:19.938   889   889 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+10-16 18:46:19.968   889   889 I dalvikvm: DexOpt: not resolving ambiguous class 'Lcom/smartisanos/internal/R$styleable;'
+10-16 18:46:19.968   889   889 D dalvikvm: DexOpt: load 105ms, verify+opt 162ms, 810668 bytes
+10-16 18:46:20.008   849   849 D dalvikvm: DexOpt: --- END 'smartisanos.jar' (success) ---
+10-16 18:46:20.008   849   849 D dalvikvm: DEX prep '/system/framework/smartisanos.jar': unzip in 14ms, rewrite 369ms
+10-16 18:46:20.008   849   849 D dalvikvm: DexOpt: --- BEGIN 'qcmediaplayer.jar' (bootstrap=1) ---
+10-16 18:46:20.067   890   890 D dalvikvm: DexOpt: load 6ms, verify+opt 7ms, 136180 bytes
+10-16 18:46:20.118   849   849 D dalvikvm: DexOpt: --- END 'qcmediaplayer.jar' (success) ---
+10-16 18:46:20.118   849   849 D dalvikvm: DEX prep '/system/framework/qcmediaplayer.jar': unzip in 0ms, rewrite 105ms
+10-16 18:46:20.127   849   849 D dalvikvm: DexOpt: --- BEGIN 'WfdCommon.jar' (bootstrap=1) ---
+10-16 18:46:20.208   891   891 D dalvikvm: DexOpt: load 7ms, verify+opt 25ms, 176412 bytes
+10-16 18:46:20.228   849   849 D dalvikvm: DexOpt: --- END 'WfdCommon.jar' (success) ---
+10-16 18:46:20.228   849   849 D dalvikvm: DEX prep '/system/framework/WfdCommon.jar': unzip in 3ms, rewrite 104ms
+10-16 18:46:20.228   849   849 D dalvikvm: DexOpt: --- BEGIN 'oem-services.jar' (bootstrap=1) ---
+10-16 18:46:20.278   892   892 D dalvikvm: DexOpt: load 5ms, verify+opt 1ms, 85324 bytes
+10-16 18:46:20.298   849   849 D dalvikvm: DexOpt: --- END 'oem-services.jar' (success) ---
+10-16 18:46:20.298   849   849 D dalvikvm: DEX prep '/system/framework/oem-services.jar': unzip in 0ms, rewrite 67ms
+10-16 18:46:20.298   849   849 D dalvikvm: DexOpt: --- BEGIN 'org.codeaurora.Performance.jar' (bootstrap=1) ---
+10-16 18:46:20.347   893   893 D dalvikvm: DexOpt: 'Lorg/codeaurora/Performance;' has an earlier definition; blocking out
+10-16 18:46:20.347   893   893 D dalvikvm: DexOpt: 'Lorg/codeaurora/camera/QCFace;' has an earlier definition; blocking out
+10-16 18:46:20.347   893   893 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/codeaurora/Performance;': multiple definitions
+10-16 18:46:20.347   893   893 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/codeaurora/camera/QCFace;': multiple definitions
+10-16 18:46:20.347   893   893 D dalvikvm: DexOpt: load 5ms, verify+opt 0ms, 85676 bytes
+10-16 18:46:20.358   849   849 D dalvikvm: DexOpt: --- END 'org.codeaurora.Performance.jar' (success) ---
+10-16 18:46:20.358   849   849 D dalvikvm: DEX prep '/system/framework/org.codeaurora.Performance.jar': unzip in 0ms, rewrite 62ms
+10-16 18:46:20.368   849   849 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-16 18:46:20.377   849   849 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-16 18:46:20.458   849   849 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-16 18:46:20.458   849   849 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-16 18:46:20.458   849   849 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-16 18:46:20.528   849   849 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-16 18:46:20.778   849   849 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-16 18:46:20.778   849   849 E android.os.Debug: failed to load memtrack module: -2
+10-16 18:46:20.847   849   849 I SamplingProfilerIntegration: Profiling disabled.
+10-16 18:46:20.877   849   849 I Zygote  : Preloading classes...
+10-16 18:46:20.877   849   849 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-16 18:46:21.478   849   849 F libc    : Fatal signal 8 (SIGFPE) at 0x00000351 (code=-6), thread 849 (zygote)
+10-16 18:46:21.582    95    95 I DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-16 18:46:21.582    95    95 I DEBUG   : Build fingerprint: 'htc/cm_leo/leo:4.4.1/KOT49E/a4fc6336a7:eng/test-keys'
+10-16 18:46:21.582    95    95 I DEBUG   : Revision: '0'
+10-16 18:46:21.582    95    95 I DEBUG   : pid: 849, tid: 849, name: UNKNOWN  >>> zygote <<<
+10-16 18:46:21.582    95    95 I DEBUG   : signal 8 (SIGFPE), code -6 (SI_TKILL), fault addr 00000351
+10-16 18:46:21.667    95    95 I DEBUG   :     r0 00000000  r1 00000351  r2 00000008  r3 00000000
+10-16 18:46:21.667    95    95 I DEBUG   :     r4 40011f2c  r5 00000008  r6 00000016  r7 0000010c
+10-16 18:46:21.667    95    95 I DEBUG   :     r8 fffffffe  r9 2a045050  sl 2a00d5e0  fp beab543c
+10-16 18:46:21.667    95    95 I DEBUG   :     ip 00000351  sp beab5308  lr 4003a057  pc 40048fe4  cpsr 000f0010
+10-16 18:46:21.667    95    95 I DEBUG   :     d0  6165726874202c7a  d1  006b70612e736579
+10-16 18:46:21.667    95    95 I DEBUG   :     d2  77656d6172662f67  d3  72616d732d6b726f
+10-16 18:46:21.667    95    95 I DEBUG   :     d4  5083b2c45083b0d8  d5  5083b6fc5083b4d0
+10-16 18:46:21.667    95    95 I DEBUG   :     d6  5083bad45083b8e8  d7  5083beac5083bcc0
+10-16 18:46:21.667    95    95 I DEBUG   :     d8  0000000000000000  d9  0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d10 0000000000000000  d11 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d12 0000000000000000  d13 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d14 0000000000000000  d15 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d16 64696f72646e610a  d17 636968706172672e
+10-16 18:46:21.667    95    95 I DEBUG   :     d18 00630069006e0055  d19 004c00650064006f
+10-16 18:46:21.667    95    95 I DEBUG   :     d20 0000000000000000  d21 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d22 0000000000000000  d23 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d24 0000000000000000  d25 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d26 0000000000000000  d27 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d28 0000000000000000  d29 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     d30 0000000000000000  d31 0000000000000000
+10-16 18:46:21.667    95    95 I DEBUG   :     scr 20000010
+10-16 18:46:21.678    95    95 I DEBUG   : 
+10-16 18:46:21.678    95    95 I DEBUG   : backtrace:
+10-16 18:46:21.678    95    95 I DEBUG   :     #00  pc 00021fe4  /system/lib/libc.so (tgkill+12)
+10-16 18:46:21.678    95    95 I DEBUG   :     #01  pc 00013053  /system/lib/libc.so (pthread_kill+50)
+10-16 18:46:21.678    95    95 I DEBUG   :     #02  pc 0001324b  /system/lib/libc.so (raise+10)
+10-16 18:46:21.678    95    95 I DEBUG   :     #03  pc 0003baf4  /system/lib/libc.so (__aeabi_idiv0+8)
+10-16 18:46:21.678    95    95 I DEBUG   :     #04  pc 0000ffef  /system/lib/libutils.so (android::VectorImpl::capacity() const+14)
+10-16 18:46:21.678    95    95 I DEBUG   :     #05  pc 00010181  /system/lib/libutils.so (android::VectorImpl::editItemLocation(unsigned int)+6)
+10-16 18:46:21.678    95    95 I DEBUG   :     #06  pc 000101af  /system/lib/libutils.so (android::VectorImpl::replaceAt(void const*, unsigned int)+16)
+10-16 18:46:21.678    95    95 I DEBUG   :     #07  pc 0001065f  /system/lib/libutils.so (android::SortedVectorImpl::add(void const*)+30)
+10-16 18:46:21.678    95    95 I DEBUG   :     #08  pc 0000f90f  /system/lib/libandroidfw.so (android::AssetManager::SharedZip::get(android::String8 const&)+174)
+10-16 18:46:21.678    95    95 I DEBUG   :     #09  pc 0000f9c9  /system/lib/libandroidfw.so (android::AssetManager::ZipSet::getZipResourceTableAsset(android::String8 const&)+32)
+10-16 18:46:21.678    95    95 I DEBUG   :     #10  pc 000101e3  /system/lib/libandroidfw.so (android::AssetManager::updateResTableFromAssetPath(android::ResTable*, android::AssetManager::asset_path const&, void*) const+30)
+10-16 18:46:21.678    95    95 I DEBUG   :     #11  pc 00010309  /system/lib/libandroidfw.so (android::AssetManager::getResTable(bool) const+80)
+10-16 18:46:21.678    95    95 I DEBUG   :     #12  pc 0007205f  /system/lib/libandroid_runtime.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #13  pc 0001ea0c  /system/lib/libdvm.so (dvmPlatformInvoke+112)
+10-16 18:46:21.678    95    95 I DEBUG   :     #14  pc 0004f49b  /system/lib/libdvm.so (dvmCallJNIMethod(unsigned int const*, JValue*, Method const*, Thread*)+394)
+10-16 18:46:21.678    95    95 I DEBUG   :     #15  pc 00027e60  /system/lib/libdvm.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #16  pc 0002f30c  /system/lib/libdvm.so (dvmMterpStd(Thread*)+76)
+10-16 18:46:21.678    95    95 I DEBUG   :     #17  pc 0002c9a4  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+184)
+10-16 18:46:21.678    95    95 I DEBUG   :     #18  pc 000618b1  /system/lib/libdvm.so (dvmCallMethodV(Thread*, Method const*, Object*, bool, JValue*, std::__va_list)+336)
+10-16 18:46:21.678    95    95 I DEBUG   :     #19  pc 000618d5  /system/lib/libdvm.so (dvmCallMethod(Thread*, Method const*, Object*, JValue*, ...)+20)
+10-16 18:46:21.678    95    95 I DEBUG   :     #20  pc 0006cf4d  /system/lib/libdvm.so (dvmInitClass+664)
+10-16 18:46:21.678    95    95 I DEBUG   :     #21  pc 0006d0e9  /system/lib/libdvm.so (dvmFindClass(char const*, Object*)+20)
+10-16 18:46:21.678    95    95 I DEBUG   :     #22  pc 000661d7  /system/lib/libdvm.so (dvmFindClassByName(StringObject*, Object*, bool)+78)
+10-16 18:46:21.678    95    95 I DEBUG   :     #23  pc 0006879b  /system/lib/libdvm.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #24  pc 00027e60  /system/lib/libdvm.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #25  pc 0002f30c  /system/lib/libdvm.so (dvmMterpStd(Thread*)+76)
+10-16 18:46:21.678    95    95 I DEBUG   :     #26  pc 0002c9a4  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+184)
+10-16 18:46:21.678    95    95 I DEBUG   :     #27  pc 000618b1  /system/lib/libdvm.so (dvmCallMethodV(Thread*, Method const*, Object*, bool, JValue*, std::__va_list)+336)
+10-16 18:46:21.678    95    95 I DEBUG   :     #28  pc 0004b0eb  /system/lib/libdvm.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #29  pc 0004e197  /system/lib/libandroid_runtime.so
+10-16 18:46:21.678    95    95 I DEBUG   :     #30  pc 0004eebb  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+354)
+10-16 18:46:21.678    95    95 I DEBUG   :     #31  pc 0000105b  /system/bin/app_process
+10-16 18:46:21.678    95    95 I DEBUG   : 
+10-16 18:46:21.678    95    95 I DEBUG   : stack:
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52c8  2a048668  [heap]
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52cc  40037ef7  /system/lib/libc.so (dlmalloc+4254)
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52d0  00001000  
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52d4  00000200  
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52d8  00000208  
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52dc  00001000  
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52e0  00000008  
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52e4  2a043c90  [heap]
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52e8  5083f9d0  /system/framework/framework-smartisanos-res.apk
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52ec  5083f9d0  /system/framework/framework-smartisanos-res.apk
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52f0  2a045050  [heap]
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52f4  2a00d5e0  [heap]
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52f8  beab543c  [stack]
+10-16 18:46:21.678    95    95 I DEBUG   :          beab52fc  2a048668  [heap]
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5300  40038811  /system/lib/libc.so (dlcalloc)
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5304  00000114  
+10-16 18:46:21.688    95    95 I DEBUG   :     #00  beab5308  40011f2c  /system/bin/linker
+10-16 18:46:21.688    95    95 I DEBUG   :          beab530c  00000008  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5310  00000016  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5314  00000351  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5318  00000351  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab531c  4003a057  /system/lib/libc.so (pthread_kill+54)
+10-16 18:46:21.688    95    95 I DEBUG   :     #01  beab5320  40011f24  /system/bin/linker
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5324  00000008  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5328  401d0150  /system/lib/libandroidfw.so
+10-16 18:46:21.688    95    95 I DEBUG   :          beab532c  2005a467  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5330  beab539c  [stack]
+10-16 18:46:21.688    95    95 I DEBUG   :          beab5334  4003a24f  /system/lib/libc.so (raise+14)
+10-16 18:46:21.688    95    95 I DEBUG   :     #02  beab5338  2005a467  
+10-16 18:46:21.688    95    95 I DEBUG   :          beab533c  40062af8  /system/lib/libc.so (__aeabi_idiv0+12)
+10-16 18:46:21.698    95    95 I DEBUG   : 
+10-16 18:46:21.698    95    95 I DEBUG   : memory near r4:
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f0c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f1c beab5a0c 00000000 40011f24 40012154  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f2c 00000016 402e6844 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f3c 40012194 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f4c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f5c 00000000 2a00d5d0 2a012360 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f6c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f7c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f8c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011f9c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011fac 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011fbc 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011fcc 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011fdc 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011fec 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     40011ffc 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   : 
+10-16 18:46:21.698    95    95 I DEBUG   : memory near r9:
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045030 00000198 0000001a 00090184 0904000a  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045040 0911090b 1f110b0b 000900f3 00000173  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045050 00000000 00000000 00000024 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045060 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045070 00000000 00000000 00000000 401cf9b8  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045080 2a0438e0 00000001 00000007 00000004  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045090 401cf9e0 2a043a28 00000001 00000007  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450a0 00000004 00000100 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450b0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450c0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450d0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450e0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a0450f0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045100 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045110 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a045120 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   : 
+10-16 18:46:21.698    95    95 I DEBUG   : memory near sl:
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d5c0 00000000 00000000 00000000 0000045b  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d5d0 4de15138 4c4e5dd4 4c531648 4e538000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d5e0 00000002 00000007 beab5558 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d5f0 beab55ac 00000001 00000000 4149db80  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d600 00000000 00000000 4bbb4a70 4c4e0300  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d610 00000000 00000000 00000001 00006000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d620 00000000 40012154 4149db80 414a2a80  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d630 00000000 414a6b7c 414a6bf0 414a6aa0  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d640 414a6ac0 414a6b1c 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d650 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d660 00000000 00000000 00002000 415319fc  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d670 00000000 00000000 00000007 2a041488  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d680 00000001 00000080 00000200 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d690 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d6a0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     2a00d6b0 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   : 
+10-16 18:46:21.698    95    95 I DEBUG   : memory near fp:
+10-16 18:46:21.698    95    95 I DEBUG   :     beab541c 40161063 4de07184 4149da10 4c4e5dd4  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab542c 00000001 00000000 415fec98 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab543c 414ce49f 4c4e5dd4 4e15528a 40161055  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab544c 2a00d5e0 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab545c 00000000 00000000 40075384 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab546c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab547c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab548c 00000000 00000000 00000000 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab549c 00000000 00000000 ef81e8c5 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54ac 4152cc6c 41535950 0000002f 0000006e  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54bc 0000002f 4c4e5dd4 414e93df 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54cc 00000000 414d5a05 415fed60 4152cc6c  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54dc b937a074 2a016fa8 414d5a05 00000000  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54ec 4c4e5dd4 00000000 414c92c9 00000001  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab54fc b937a074 415fed60 415312c8 415312c8  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab550c b937a074 2a00d93c 414d1d07 2a00d5d0  
+10-16 18:46:21.698    95    95 I DEBUG   : 
+10-16 18:46:21.698    95    95 I DEBUG   : memory near sp:
+10-16 18:46:21.698    95    95 I DEBUG   :     beab52e8 5083f9d0 5083f9d0 2a045050 2a00d5e0  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab52f8 beab543c 2a048668 40038811 00000114  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5308 40011f2c 00000008 00000016 00000351  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5318 00000351 4003a057 40011f24 00000008  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5328 401d0150 2005a467 beab539c 4003a24f  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5338 2005a467 40062af8 00000000 400aeff3  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5348 400b48d0 400af185 400b48d0 beab539c  
+10-16 18:46:21.698    95    95 I DEBUG   :     beab5358 401d0150 400af1b3 2a04489c beab539c  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab5368 401d0150 beab5394 2a0433b8 400af663  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab5378 401d0150 2005a467 00000000 beab53c4  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab5388 2a041958 401ba913 401d016c 2a041958  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab5398 2a044898 2a043c90 2a041958 2a044898  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab53a8 00000001 2a066258 2a0433b8 2a066250  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab53b8 00000002 401ba9cd 00000000 2a041958  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab53c8 2a066250 2a066258 2a0433b8 401bb1e7  
+10-16 18:46:21.708    95    95 I DEBUG   :     beab53d8 2a066250 2a045050 2a066250 2a045050  
+10-16 18:46:21.708    95    95 I DEBUG   : 
+10-16 18:46:21.708    95    95 I DEBUG   : code around pc:
+10-16 18:46:21.708    95    95 I DEBUG   :     40048fc4 e8bd00f0 e3700a01 912fff1e e2600000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40048fd4 ea006eb9 e92d50f0 e3a07f43 ef000000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40048fe4 e8bd50f0 e3700a01 912fff1e e2600000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40048ff4 ea006eb1 e92d50f0 e3a070ee ef000000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049004 e8bd50f0 e3700a01 912fff1e e2600000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049014 ea006ea9 e1520003 8a00008c f5d1f040  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049024 e92d4001 e3520010 3a000024 e2603000  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049034 e213300f 0a00000e e0422003 e1b0cf83  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049044 44d1e001 44c0e001 24d1c001 24d1e001  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049054 24c0c001 24c0e001 e1b0ce83 aa000001  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049064 f4a1030d f480031d 3a000001 f421070d  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049074 f400071d e2522040 3a000006 f421020d  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049084 f421420d f5d1f100 e2522040 f400022d  
+10-16 18:46:21.708    95    95 I DEBUG   :     40049094 f400422d 2afffff8 e2922020 3a000002  
+10-16 18:46:21.708    95    95 I DEBUG   :     400490a4 f421020d e2422020 f400022d e2822020  
+10-16 18:46:21.708    95    95 I DEBUG   :     400490b4 e3120010 0a000001 f4210a0d f4000a2d  
+10-16 18:46:21.708    95    95 I DEBUG   : 
+10-16 18:46:21.708    95    95 I DEBUG   : code around lr:
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a034 4b11ec28 e010447b d10e42bb 480f6a1f  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a044 f7fb4478 f00dec9c 4639ea00 f00e462a  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a054 3001efc2 2500d00a 681be009 d1eb2b00  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a064 25034807 f7fb4478 e000ec8a 60266825  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a074 bdf84628 0003b36c 0003b360 0003b358  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a084 0003b334 bf82f7ff 4a3a4b39 e92d447b  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a094 b08a47f0 4607589e 6833460d 930946b1  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0a4 f9fcf001 f8d04604 2d008000 4628d04a  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0b4 fe96f00f 4606280f f7ffd846 4287ffe3  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0c4 200fd106 f00d4629 2800e8ce e032d03d  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0d4 44784829 ebd4f7fb 44784828 42b8e015  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0e4 6a07d113 44784826 ec48f7fb 463b4a25  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a0f4 447a2120 f013a801 2101fb21 f01aa801  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a104 1c43fe33 d1044607 6800e015 d1e62800  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a114 4638e023 46324629 e908f00d 3ffff1b0  
+10-16 18:46:21.708    95    95 I DEBUG   :     4003a124 d1024682 29046821 4638d0f3 e958f00d  

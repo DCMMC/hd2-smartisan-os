@@ -1,0 +1,9 @@
+{
+  "zip": "out/hd2-sailfish-2.0.1.11-alpha1-SD.zip",
+  "bytes": 450057385,
+  "sha256": "104d7be828cab9e9f9483cb4ec069a48e2ca36fc9e7aa52eab3850c569b28da0",
+  "zip_crc_passed": true,
+  "image_patch_files_verified": 35,
+  "runtime_ui_evidence": "logs/sailfish-first-boot/sailfish-reboot-frame.png",
+  "runtime_notes": "Automatic reboot to welcome; active console seat session fixed; no failed system units after patch; touch and full desktop awaiting user validation"
+}

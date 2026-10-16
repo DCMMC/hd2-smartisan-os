@@ -1,0 +1,55 @@
+/home/DCMMC/Projects/hd2-ports/work/smartisan-compat
+{
+  "input_sha256": "324b7b78070f946c2f42957f9a47a321fe2324fde84391725b4cca8221a05517",
+  "output_sha256": "7fd738c435f58a3eec469f2c8752e5e14ccc148e0c12b5530e5fdf2c20780e1c",
+  "compare_call_sites": [
+    "0x10604",
+    "0x106b4",
+    "0x106dc"
+  ],
+  "selector_address": "0x136c4",
+  "selector_bytes": 28
+}
+{
+  "input_sha256": "577c9c23e0a5b11e9ae66d9097cd0f4fad2a49dfa5174dec579e22bdeba921b0",
+  "output_sha256": "9665d327ad249e81199da02b26f006bf8e5960e8d13c0a380e2f9f2e5a33f8c3",
+  "patches": {
+    "0x54ae": "FramebufferNativeWindow free",
+    "0x56ac": "FramebufferNativeWindow alloc",
+    "0x62e8": "GraphicBufferAllocator dump",
+    "0x6390": "GraphicBufferAllocator alloc",
+    "0x6454": "GraphicBufferAllocator free"
+  }
+}
+{
+  "libcutils.so": {
+    "input_sha256": "9411e2b1854c33bcb6d702e1540016cbbb9d1c80fd36bcf36289d1af0e0b4047",
+    "output_sha256": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6",
+    "offsets": [
+      "0x4ad2"
+    ]
+  },
+  "libsurfaceflinger.so": {
+    "input_sha256": "c8ec49fb3b7ceddc9acfcdaa62fc2b0368a9d8c56bb4f5595a29f68b9bda7e68",
+    "output_sha256": "7591d88e78048e181fe50067a5b9dd33ebf91b173139b80c531fe64ac8501534",
+    "offsets": [
+      "0x1fc50",
+      "0x1fc60"
+    ]
+  },
+  "reason": [
+    "Scheduling policy 2 uses HD2 foreground CPU cgroup",
+    "FramebufferSurface uses two buffers and one acquired buffer, matching the HD2 framebuffer geometry"
+  ]
+}
+/home/DCMMC/Projects/hd2-ports/work/smartisan-compat/LauncherSmartisanNew.apk
+/home/DCMMC/Projects/hd2-ports/work/smartisan-compat/core.jar
+/home/DCMMC/Projects/hd2-ports/work/smartisan-compat/libhwui.so
+/home/DCMMC/Projects/hd2-ports/work/smartisan-compat/SystemUISmartisan.apk 252 resource changes
+e2fsck 1.47.4 (6-Mar-2025)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+HD2-SM20: 1714/131072 files (0.5% non-contiguous), 270113/524288 blocks

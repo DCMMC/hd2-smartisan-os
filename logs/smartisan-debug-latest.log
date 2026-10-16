@@ -1,0 +1,1327 @@
+--------- beginning of /dev/log/main
+05-20 00:00:07.846  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:08.096  7816  7816 I BrowserProcessMain: Initializing chromium process, renderers=0
+05-20 00:00:08.116  7548  7671 D CallerInfoCache: Caching entries are done. Total: 0
+05-20 00:00:08.556  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:08.556  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (263, 757).
+05-20 00:00:08.626  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:08.626  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:08.806  7816  7816 D ProxyChangeListener: getProperty http.proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty https.proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty ftp.proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty proxyHost 'null'
+05-20 00:00:08.816  7816  7816 D ProxyChangeListener: getProperty socksProxyHost 'null'
+05-20 00:00:08.826  7816  7816 D ProxyChangeListener: getProperty ftp.nonProxyHosts 'null'
+05-20 00:00:08.826  7816  7816 D ProxyChangeListener: getProperty http.nonProxyHosts 'null'
+05-20 00:00:08.826  7816  7816 D ProxyChangeListener: getProperty https.nonProxyHosts 'null'
+05-20 00:00:09.216  7664  7774 D PhotoStore: pollingEntries 1
+05-20 00:00:09.256  7664  7775 D PhotoStore: pollingEntries 1
+05-20 00:00:09.296  7664  7774 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:09.296  7664  7775 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:09.306  7664  7774 D PhotoStore: pollingEntries 2
+05-20 00:00:09.306  7664  7775 D PhotoStore: pollingEntries 2
+05-20 00:00:09.316  7664  7775 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:09.316  7664  7774 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:09.326  7816  7937 W chromium: [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+05-20 00:00:09.356  7816  7816 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:00:09.386  7816  7816 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:00:09.406  7816  7816 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: Local Branch: 
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: Local Patches: NONE
+05-20 00:00:09.416  7816  7816 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:00:09.436  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:09.436  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (88, 240).
+05-20 00:00:09.576  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:09.576  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:09.906  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.106  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.106  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.346  7664  7774 D PhotoStore: pollingEntries 1
+05-20 00:00:10.346  7664  7775 D PhotoStore: pollingEntries 1
+05-20 00:00:10.346  7664  7775 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:10.346  7664  7774 D PhotoStore: pollingEntries 1 finish
+05-20 00:00:10.346  7664  7775 D PhotoStore: pollingEntries 2
+05-20 00:00:10.346  7664  7774 D PhotoStore: pollingEntries 2
+05-20 00:00:10.346  7664  7774 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:10.346  7664  7775 D PhotoStore: pollingEntries 2 finish
+05-20 00:00:10.446  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.536  7260  7274 W ResourceType: Skipping entry 0x2030003 in package table 0 because it is not complex!
+05-20 00:00:10.566  7260  7274 W ResourceType: Skipping entry 0x2030004 in package table 0 because it is not complex!
+05-20 00:00:10.666  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.676  7260  7373 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+05-20 00:00:10.746  7816  7816 D AwContents: loadUrl 0 {DEFAULT, BROWSER_INITIATED_HTTP_POST, DATA}, file:////data/data/com.smartisanos.setupwizard/files/law_info.html
+05-20 00:00:10.796  7260  7394 E WifiStateMachine: Failed to start supplicant!
+05-20 00:00:10.916  7568  7785 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+05-20 00:00:11.546  7816  7816 D OpenGLRenderer: Enabling debug mode 0
+05-20 00:00:11.546  7816  7816 E memalloc: /dev/pmem: Failed to map buffer size:2359296 offset:0 fd:97 Error: Invalid argument
+05-20 00:00:11.556  7816  7816 E gralloc : Could not mmap handle 0x2a27bf70, fd=97 (Invalid argument)
+05-20 00:00:11.556  7816  7816 E gralloc : gralloc_register_buffer: gralloc_map failed
+05-20 00:00:11.556  7816  7816 W GraphicBufferMapper: registerBuffer(0x2a27bf70) failed -22 (Invalid argument)
+05-20 00:00:11.556  7816  7816 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+05-20 00:00:11.556  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:11.556  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:11.566  7816  7816 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:00:11.566  7816  7816 W OpenGLRenderer: Error creating image (0x502)
+05-20 00:00:11.806  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:11.886  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:11.886  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:11.926  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:11.946  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:11.946  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.006  7260  7274 I ActivityManager: Displayed com.smartisanos.setupwizard/.LicenseActivity: +6s475ms
+05-20 00:00:12.006  7260  7274 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+05-20 00:00:12.006  7260  7274 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41e821f0 u0 com.smartisanos.setupwizard/.LicenseActivity t2} time:1504886
+05-20 00:00:12.056  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.056  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.056  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.056  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.176  7816  7816 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@41a0e300 time:1505054
+05-20 00:00:12.506  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.506  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.526  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.526  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.546  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.546  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.566  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.566  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.576  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.576  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.596  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.596  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.606  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.606  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.626  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.626  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.646  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.646  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.656  7568  7568 W dalvikvm: No implementation found for native Ljava/lang/Runtime;.gcAndTrim:()V
+05-20 00:00:12.676  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.686  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.706  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.706  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.726  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.736  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.746  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.746  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.756  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.756  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.776  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.776  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.796  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:12.796  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:12.886  7568  7568 D AndroidRuntime: Shutting down VM
+05-20 00:00:12.886  7568  7568 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:14.186  7816  7816 D AwContents: shouldIgnoreNavigation false, file:///data/data/com.smartisanos.setupwizard/files/law_info.html
+05-20 00:00:14.816  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:14.816  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:14.996  7816  7816 I chromium: [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+05-20 00:00:15.406  7816  7816 I chromium: [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+05-20 00:00:15.436  7816  7816 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+05-20 00:00:15.446  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:15.446  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:15.486  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:15.486  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:15.486  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:15.486  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:15.716  7568  7597 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+05-20 00:00:15.936  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:15.936  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:15.986  7568  7785 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+05-20 00:00:17.396  7816  7816 D memalloc: init_pmem_area: Initializing pmem area
+05-20 00:00:17.396  7816  7816 D memalloc: init_pmem_area_locked: Opening master pmem FD
+05-20 00:00:17.396  7816  7816 E memalloc: /dev/pmem: Failed to open pmem device: Permission denied
+05-20 00:00:17.396  7816  7816 E memalloc: /dev/pmem: failed to initialize pmem area
+05-20 00:00:17.396  7816  7816 E gralloc : gralloc failed err=Permission denied
+05-20 00:00:17.396  7816  7816 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:00:17.396  7816  7816 E gralloc : gralloc failed err=Permission denied
+05-20 00:00:17.396  7816  7816 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:00:17.396  7816  7816 E gralloc : gralloc failed err=Permission denied
+05-20 00:00:17.396  7816  7816 W GraphicBufferAllocator: alloc(64, 512, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:00:17.416  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:17.416  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:17.456  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.456  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.456  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.456  7816  7816 E gralloc : gralloc failed err=Permission denied
+05-20 00:00:17.456  7816  7816 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:00:17.456  7816  7816 E gralloc : gralloc failed err=Permission denied
+05-20 00:00:17.466  7816  7816 W GraphicBufferAllocator: alloc(384, 384, 1, 00000133, 0 ...) failed -13 (Permission denied)
+05-20 00:00:17.476  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:17.476  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:17.476  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.486  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.486  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.496  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.536  7816  7816 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=97)
+05-20 00:00:17.536  7816  7816 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:17.536  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.536  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.536  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.546  7816  7816 E chromium: [ERROR:gles2_cmd_decoder.cc(5758)] [.ChromiumCompositor-0x2a36a260]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering or is not 'texture complete'
+05-20 00:00:17.846  7260  7391 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:17.846  7492  7964 E AutoUpdateListener: time is not qualified
+05-20 00:00:18.036  7260  7391 D NtpTrustedTime: requestTime fail
+05-20 00:00:18.356  7260  7392 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:18.356  7260  7392 D NtpTrustedTime: requestTime fail
+05-20 00:00:18.656  7492  7492 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-20 00:00:18.756  7794  7794 D TrackerBaseTask: TrackerInsertTask() status is : PENDING
+05-20 00:00:18.766  7794  7794 D TransportService: onBind()
+05-20 00:00:18.776  7794  7805 D TransportService: onTransport()
+05-20 00:00:18.776  7794  7805 D TransportService: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05-20 00:00:18.776  7794  7805 D TransportService: mPackageName = com.android.settings
+05-20 00:00:18.776  7794  7805 D TransportService: mTag = location_provider_enabled
+05-20 00:00:18.776  7794  7805 D TransportService: mSubTag = null
+05-20 00:00:18.776  7794  7805 D TransportService: mData = {"enable":true}
+05-20 00:00:18.776  7794  7805 D TransportService: mAction = 9
+05-20 00:00:18.776  7794  7805 D TransportService: mValues = 1
+05-20 00:00:18.776  7794  7805 D TransportService: mTimeStamp = 1400544018751
+05-20 00:00:18.776  7794  7805 D TransportService: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+05-20 00:00:18.776  7794  7805 D TrackerBaseTask: insert() sources size : 1
+05-20 00:00:18.796  7794  7967 D TrackerBaseTask: doInBackground() status is : RUNNING
+05-20 00:00:19.036  7548  7548 V SubscriptsManager: message send broadcast to update the mms uread count: 0
+05-20 00:00:19.276  7968  7968 W dalvikvm: Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Lcom/qualcomm/timeservice/TimeServiceBroadcastReceiver;
+05-20 00:00:19.276  7968  7968 W dalvikvm: Class init failed in newInstance call (Lcom/qualcomm/timeservice/TimeServiceBroadcastReceiver;)
+05-20 00:00:19.276  7968  7968 D AndroidRuntime: Shutting down VM
+05-20 00:00:19.276  7968  7968 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41543c80)
+05-20 00:00:19.846  7568  7599 E NewLauncher: IconCellShoter : DEBUG : unlockTouch !
+05-20 00:00:19.946  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:19.946  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:21.446  7536  7881 D SettingItems: onDatabaseCreated()
+05-20 00:00:23.516  7536  7536 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=true, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+05-20 00:00:23.946  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:23.946  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:27.950  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:27.950  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:31.946  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:31.946  7882  7915 I QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket; retrying after timeout
+05-20 00:00:35.946  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:35.946  7882  7915 E QcrilMsgTunnelSocket: Couldn't find 'qmux_radio/rild_oem0' socket after 8 times, continuing to retry silently
+05-20 00:00:37.136  7260  7542 D NetworkTimeUpdateService: handleMessage(), msg=2
+05-20 00:00:37.136  7260  7542 D NetworkTimeUpdateService: onPollNetworkTime(), event=2, autoTime=true
+05-20 00:00:37.136  7260  7542 D NetworkTimeUpdateService: refTime=1530015
+05-20 00:00:37.136  7260  7542 D NetworkTimeUpdateService: System time = 1400544037141, mLastNtpFetchTime=-1
+05-20 00:00:37.136  7260  7542 D NetworkTimeUpdateService: Before Ntp fetch
+05-20 00:00:37.136  7260  7542 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:00:37.316  7260  7542 D NtpTrustedTime: requestTime fail
+05-20 00:00:37.316  7260  7542 D NetworkTimeUpdateService: getCacheAge=9223372036854775807
+05-20 00:00:37.316  7260  7542 D NetworkTimeUpdateService: mTryAgainCounter=2
+05-20 00:00:39.955  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:41.126  7408  7422 D KeyguardViewMediator: onScreenTurnedOff(3)
+05-20 00:00:41.126  3701  3701 D SurfaceFlinger: Screen released, type=0 flinger=0x2a0074f0
+05-20 00:00:41.156  7408  7422 D KeyguardViewMediator: get isSecure state
+05-20 00:00:41.296  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=102)
+05-20 00:00:41.296  3701  3701 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+05-20 00:00:41.296  3701  3701 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+05-20 00:00:41.296  3701  3701 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+05-20 00:00:41.296  3701  3701 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+05-20 00:00:41.296  3701  3701 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=102)
+05-20 00:00:41.296  3701  3701 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+05-20 00:00:41.926  7408  7422 D KeyguardViewMediator: setting alarm to turn off keyguard, seq = 1
+05-20 00:00:41.986  7423  7423 D PopUpStatusBar: setInPowerSaveMode powersave:false
+05-20 00:00:41.986  7423  7423 D PowerButton: onReceive time:41 action:android.intent.action.SCREEN_OFF
+05-20 00:00:43.956  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:46.837  7408  7408 D KeyguardViewMediator: received DELAYED_KEYGUARD_ACTION with seq = 1, mDelayedShowingSequence = 1
+05-20 00:00:46.837  7408  7408 D KeyguardViewMediator: doKeyguardLocked
+05-20 00:00:46.837  7408  7408 D KeyguardViewMediator: doKeyguard: not showing because device isn't provisioned and the sim is not locked or missing
+05-20 00:00:47.957  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:51.956  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:55.956  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:00:59.960  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:03.961  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:07.963  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:11.964  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:15.966  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:19.967  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:23.967  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:27.986  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:31.996  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:35.997  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:39.998  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:43.999  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:44.496  7260  7542 D NetworkTimeUpdateService: handleMessage(), msg=2
+05-20 00:01:44.496  7260  7542 D NetworkTimeUpdateService: onPollNetworkTime(), event=2, autoTime=true
+05-20 00:01:44.496  7260  7542 D NetworkTimeUpdateService: refTime=1597374
+05-20 00:01:44.496  7260  7542 D NetworkTimeUpdateService: System time = 1400544104501, mLastNtpFetchTime=-1
+05-20 00:01:44.496  7260  7542 D NetworkTimeUpdateService: Before Ntp fetch
+05-20 00:01:44.496  7260  7542 D NtpTrustedTime: forceRefresh() from cache miss, server=asia.pool.ntp.org
+05-20 00:01:44.566  7894  7894 D REM     : REMService.java, 82, DeleteFile() /data/rem.txt does not exist when rem is disable.
+05-20 00:01:44.596  7894  7894 E bhj     : REMService.java:112: 
+05-20 00:01:44.616  7260  7542 D NtpTrustedTime: requestTime fail
+05-20 00:01:44.616  7260  7542 D NetworkTimeUpdateService: getCacheAge=9223372036854775807
+05-20 00:01:44.616  7260  7542 D NetworkTimeUpdateService: mTryAgainCounter=3
+05-20 00:01:48.001  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:52.002  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:01:56.003  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:00.000  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:04.006  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:08.007  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:10.516  8016  8016 D AndroidRuntime: 
+05-20 00:02:10.516  8016  8016 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:02:10.566  8016  8016 D AndroidRuntime: CheckJNI is OFF
+05-20 00:02:11.696  8016  8016 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:02:11.716  8016  8016 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:02:11.746  8016  8016 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:02:11.746  8016  8016 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:02:11.746  8016  8016 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:02:12.116  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:12.736  8016  8016 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:02:13.006  8016  8016 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:02:13.006  8016  8016 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:02:13.486  8016  8016 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+05-20 00:02:13.566  7260  7580 I Process : killProcessQuiet pid=7968
+05-20 00:02:13.566  7260  7580 I Process : java.lang.RuntimeException
+05-20 00:02:13.566  7260  7580 I Process : 	at android.os.Process.killProcessQuiet(Process.java:982)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.killUnneededProcessLocked(ActivityManagerService.java:7399)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.removeProcessLocked(ActivityManagerService.java:5203)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.killPackageProcessesLocked(ActivityManagerService.java:5013)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.forceStopPackageLocked(ActivityManagerService.java:5074)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:13981)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:14292)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.pm.PackageManagerService.sendPackageBroadcast(PackageManagerService.java:6626)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.pm.PackageManagerService.sendPackageChangedBroadcast(PackageManagerService.java:11087)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:11067)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.pm.PackageManagerService.setApplicationEnabledSetting(PackageManagerService.java:10939)
+05-20 00:02:13.566  7260  7580 I Process : 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:1083)
+05-20 00:02:13.566  7260  7580 I Process : 	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:1691)
+05-20 00:02:13.566  7260  7580 I Process : 	at android.os.Binder.execTransact(Binder.java:404)
+05-20 00:02:13.566  7260  7580 I Process : 	at dalvik.system.NativeStart.run(Native Method)
+05-20 00:02:13.596  8016  8016 D AndroidRuntime: Shutting down VM
+05-20 00:02:13.606  8016  8020 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:02:13.776  7260  7374 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-20 00:02:14.376  7260  7598 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:02:14.376  7260  7598 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:02:14.376  7260  7598 I PackageManager:   Scheme: "sms"
+05-20 00:02:14.426  7260  7600 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:02:14.426  7260  7600 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:02:14.426  7260  7600 I PackageManager:   Scheme: "smsto"
+05-20 00:02:14.476  7260  7271 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:02:14.476  7260  7271 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:02:14.476  7260  7271 I PackageManager:   Scheme: "mms"
+05-20 00:02:14.576  7260  7693 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-20 00:02:14.576  7260  7693 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-20 00:02:14.576  7260  7693 I PackageManager:   Scheme: "mmsto"
+05-20 00:02:15.226  7260  7578 F libc    : Fatal signal 11 (SIGSEGV) at 0x00000007 (code=1), thread 7578 (android.bg)
+05-20 00:02:15.546    95    95 I DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-20 00:02:15.546    95    95 I DEBUG   : Build fingerprint: 'htc/cm_leo/leo:4.4.1/KOT49E/a4fc6336a7:eng/test-keys'
+05-20 00:02:15.546    95    95 I DEBUG   : Revision: '0'
+05-20 00:02:15.546    95    95 I DEBUG   : pid: 7260, tid: 7578, name: UNKNOWN  >>> system_server <<<
+05-20 00:02:15.546    95    95 I DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000007
+05-20 00:02:16.116  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:16.566    95    95 I DEBUG   :     r0 00000000  r1 00000001  r2 588d9d90  r3 588d9d90
+05-20 00:02:16.566    95    95 I DEBUG   :     r4 00000007  r5 2a318ea0  r6 9db05170  r7 9db03f56
+05-20 00:02:16.566    95    95 I DEBUG   :     r8 9db03d80  r9 9db03daf  sl 00000000  fp 00000001
+05-20 00:02:16.566    95    95 I DEBUG   :     ip 00000001  sp 588d9cf8  lr 00000000  pc 9db026dc  cpsr 200f0030
+05-20 00:02:16.566    95    95 I DEBUG   :     d0  2e64696f72646e61  d1  000000005084df35
+05-20 00:02:16.566    95    95 I DEBUG   :     d2  0000001000000037  d3  400752602a335e38
+05-20 00:02:16.566    95    95 I DEBUG   :     d4  2a5496882a5495e0  d5  55ae57ac00000008
+05-20 00:02:16.566    95    95 I DEBUG   :     d6  401cfa5855ae57bc  d7  000000012a318f08
+05-20 00:02:16.566    95    95 I DEBUG   :     d8  0000000000000000  d9  0000000000000000
+05-20 00:02:16.566    95    95 I DEBUG   :     d10 0000000000000000  d11 0000000000000000
+05-20 00:02:16.566    95    95 I DEBUG   :     d12 0000000000000000  d13 0000000000000000
+05-20 00:02:16.566    95    95 I DEBUG   :     d14 0000000000000000  d15 0000000000000000
+05-20 00:02:16.566    95    95 I DEBUG   :     d16 3fe99999a0000000  d17 3fc999999999999a
+05-20 00:02:16.566    95    95 I DEBUG   :     d18 00f98a6400f78c59  d19 00fd867a00fb886f
+05-20 00:02:16.566    95    95 I DEBUG   :     d20 000ff058000ff058  d21 000ff058000ff058
+05-20 00:02:16.566    95    95 I DEBUG   :     d22 0000000100000001  d23 0000000100000001
+05-20 00:02:16.566    95    95 I DEBUG   :     d24 000000ea000000e8  d25 000000ee000000ec
+05-20 00:02:16.566    95    95 I DEBUG   :     d26 038680e2037e80e0  d27 039640e6038e40e4
+05-20 00:02:16.566    95    95 I DEBUG   :     d28 000000e9000000e7  d29 000000ed000000eb
+05-20 00:02:16.566    95    95 I DEBUG   :     d30 03a640ea039e40e8  d31 03b640ee03ae40ec
+05-20 00:02:16.566    95    95 I DEBUG   :     scr 60000010
+05-20 00:02:16.566    95    95 I DEBUG   : 
+05-20 00:02:16.566    95    95 I DEBUG   : backtrace:
+05-20 00:02:16.566    95    95 I DEBUG   :     #00  pc 000026dc  /system/lib/librpc.so
+05-20 00:02:16.566    95    95 I DEBUG   :     #01  pc 0000d228  /system/lib/libc.so (__thread_entry+72)
+05-20 00:02:16.566    95    95 I DEBUG   :     #02  pc 0000d3c0  /system/lib/libc.so (pthread_create+240)
+05-20 00:02:16.566    95    95 I DEBUG   : 
+05-20 00:02:16.566    95    95 I DEBUG   : stack:
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cb8  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cbc  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cc0  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cc4  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cc8  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9ccc  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cd0  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cd4  00000000  
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cd8  9db04108  /system/lib/librpc.so
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9cdc  9db03c8b  /system/lib/librpc.so (acquire_wake_lock+10)
+05-20 00:02:16.566    95    95 I DEBUG   :          588d9ce0  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9ce4  2a318ea0  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9ce8  9db05170  /system/lib/librpc.so
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9cec  9db03221  /system/lib/librpc.so (grabPartialWakeLock+12)
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9cf0  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9cf4  9db026b5  /system/lib/librpc.so
+05-20 00:02:16.576    95    95 I DEBUG   :     #00  588d9cf8  588d9d88  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9cfc  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d00  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d04  9db03d08  /system/lib/librpc.so
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d08  00000001  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d0c  00000010  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d10  02150000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d14  025c4000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d18  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d1c  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d20  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d24  00000000  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d28  508505d8  /system/framework/framework-smartisanos-res.apk
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d2c  00000033  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d30  2a5495e0  
+05-20 00:02:16.576    95    95 I DEBUG   :          588d9d34  2a549688  
+05-20 00:02:16.586    95    95 I DEBUG   :          ........  ........
+05-20 00:02:16.586    95    95 I DEBUG   :     #01  588d9db8  2a318ea0  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dbc  2a31b630  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dc0  53e71dd8  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dc4  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dc8  00000078  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dcc  400343c4  /system/lib/libc.so (pthread_create+244)
+05-20 00:02:16.586    95    95 I DEBUG   :     #02  588d9dd0  588d9dd0  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dd4  2a31b630  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dd8  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9ddc  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9de0  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9de4  178d1016  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9de8  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9dec  00000000  
+05-20 00:02:16.586    95    95 I DEBUG   :          588d9df0  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9df4  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9df8  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9dfc  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9e00  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9e04  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9e08  00000000  
+05-20 00:02:16.596    95    95 I DEBUG   :          588d9e0c  00000000  
+05-20 00:02:16.606    95    95 I DEBUG   : 
+05-20 00:02:16.606    95    95 I DEBUG   : memory near r2:
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d70 55ae57dc 00000000 5084df14 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d80 00000000 00000033 00000000 000f416a  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d90 00000000 588d9dd0 2a31b630 9db025fd  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9da0 2a318ea0 9db025fd 588d9dd0 2a318f3c  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9db0 00000000 4003422c 2a318ea0 2a31b630  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9dc0 53e71dd8 00000000 00000078 400343c4  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9dd0 588d9dd0 2a31b630 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9de0 00000000 178d1016 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9df0 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e00 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e10 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e20 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e30 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e40 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e50 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e60 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   : 
+05-20 00:02:16.606    95    95 I DEBUG   : memory near r3:
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d70 55ae57dc 00000000 5084df14 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d80 00000000 00000033 00000000 000f416a  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9d90 00000000 588d9dd0 2a31b630 9db025fd  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9da0 2a318ea0 9db025fd 588d9dd0 2a318f3c  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9db0 00000000 4003422c 2a318ea0 2a31b630  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9dc0 53e71dd8 00000000 00000078 400343c4  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9dd0 588d9dd0 2a31b630 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9de0 00000000 178d1016 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9df0 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e00 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e10 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e20 00000000 00000000 00000000 00000000  
+05-20 00:02:16.606    95    95 I DEBUG   :     588d9e30 00000000 00000000 00000000 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   :     588d9e40 00000000 00000000 00000000 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   :     588d9e50 00000000 00000000 00000000 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   :     588d9e60 00000000 00000000 00000000 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   : 
+05-20 00:02:16.616    95    95 I DEBUG   : memory near r5:
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318e80 55ae48ec 401cfa58 2a318eb0 00000001  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318e90 00000007 00000004 00000248 0000002b  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318ea0 00000001 00000010 2a356cd0 2a5d4b50  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318eb0 55ae4b58 00000000 00000000 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318ec0 508505d8 00000033 2a5495e0 2a549688  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318ed0 00000008 55ae57ac 55ae57bc 401cfa58  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318ee0 2a318f08 00000001 00000007 00000004  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318ef0 00000007 0000002b 00000001 00000010  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f00 2a335e88 40075260 55ae57dc 00000000  
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f10 5084df14 00000000 00000000 00000033  
+--------- beginning of /dev/log/system
+05-20 00:00:00.026  7260  7260 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4460 
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f20 2a5495e0 2a549688 0000004f 55ae58b4  
+05-20 00:00:00.036  7260  7260 V WiredAccessoryManager: notifyWiredAccessoryChanged: when=0 bits= mask=14
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f30 55ae58c4 401cfa58 2a318f60 00000003  
+05-20 00:00:00.036  7260  7260 V WiredAccessoryManager: newName=h2w newState=0 headsetState=0 prev headsetState=0
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f40 00000007 00000004 00000007 0000002b  
+05-20 00:00:00.036  7260  7260 V WiredAccessoryManager: init()
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f50 00000001 00000010 2a09f8a8 40075208  
+05-20 00:00:00.046  7260  7406 D IconManagerService: cleanUpUselessDrawable()...
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f60 55ae5a00 55ae6064 55ae63c8 5084ecd4  
+05-20 00:00:00.056  7260  7369 I PowerManagerService: Boot animation finished.
+05-20 00:02:16.616    95    95 I DEBUG   :     2a318f70 5084fc74 00000043 00000001 00000020  
+05-20 00:00:00.126  7260  7270 I ActivityManager: Activity reported stop, but no longer stopping: ActivityRecord{41f38968 u0 com.smartisanos.setupwizard/.SetupWizardActivity t2}
+05-20 00:02:16.626    95    95 I DEBUG   : 
+05-20 00:02:16.626    95    95 I DEBUG   : memory near r6:
+05-20 00:00:00.746  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05150 00000000 40075384 9db05220 9db05224  
+05-20 00:00:00.836  7536  7536 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.BootReceiver.onReceive:42 android.app.ActivityThread.handleReceiver:2442 
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05160 40071184 9db05014 9db05074 9db05068  
+05-20 00:00:01.966  7260  7275 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05170 00000000 00000000 00000000 4004fdd1  
+05-20 00:00:02.076  7260  7275 I ActivityManager: Start proc com.qualcomm.qcrilmsgtunnel for broadcast com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelAutoboot: pid=7882 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05180 40049de5 40034ca1 40034cb5 4004929c  
+05-20 00:00:02.736  7260  7275 I ActivityManager: Start proc com.smartisan.rem for broadcast com.smartisan.rem/.framework.REMReceiver: pid=7894 uid=2000 gids={42000, 3003, 3002, 3001, 1028, 1015, 1023, 3008}
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05190 40038f81 40035884 40039d39 40035570  
+05-20 00:00:02.946  7536  7880 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 android.content.ContextWrapper.sendBroadcast:365 com.android.settings.fuelgauge.PowerUsageService.onHandleIntent:95 android.app.IntentService$ServiceHandler.handleMessage:65 android.os.Handler.dispatchMessage:102 
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051a0 40035cfc 40039f99 4004cb65 4003ba85  
+05-20 00:00:03.846  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051b0 40023559 40035980 4004744c 4003b4a1  
+05-20 00:00:03.896  7816  7816 E ActivityThread: Performing stop of activity that is not resumed: {com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity}
+05-20 00:00:03.896  7816  7816 E ActivityThread: java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity}
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3170)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3257)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.app.ActivityThread.access$1100(ActivityThread.java:145)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1233)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:03.896  7816  7816 E ActivityThread: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051c0 4003a461 400342d0 40049020 40047718  
+05-20 00:00:04.746  7260  7626 I ActivityManager: Delay finish: com.smartisanos.phone_number_assistant/com.cootek.phoneassist.service.PhoneassistServiceReceiver
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051d0 40048894 40034cc9 40039d1f 40039d47  
+05-20 00:00:04.886  7260  7276 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendStickyBroadcast:1318 com.android.server.LocationManagerService.broadcastUpdatesChanged:2498 com.android.server.LocationManagerService.access$1700:103 com.android.server.LocationManagerService$LocationWorkerHandler.handleMessage:2155 android.os.Handler.dispatchMessage:102 
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051e0 4003555c 40035668 40035de4 40035dc0  
+05-20 00:00:05.446  7260  7626 I ActivityManager: START u0 {cmp=com.smartisanos.setupwizard/.LicenseActivity (has extras)} from pid 7536
+05-20 00:02:16.626    95    95 I DEBUG   :     9db051f0 4004d741 40035d80 40035fcc 40054151  
+05-20 00:00:05.476  7260  7626 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21015
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05200 40047330 40047310 400473e4 40054d6d  
+05-20 00:00:09.486  7260  7274 I WindowManager: Focus remains null for a while, update it
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05210 40047694 00000000 9db04392 9db04395  
+05-20 00:00:10.926  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05220 2a319b08 00000001 00000000 00000000  
+05-20 00:00:11.416  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05230 00000000 00000000 00000000 00000000  
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: Process: com.smartisanos.launcher, PID: 7568
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Native method not found: java.lang.Runtime.gcAndTrim:()V
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at java.lang.Runtime.gcAndTrim(Native Method)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at android.app.ActivityThread$HeapTrimerRunable.run(ActivityThread.java:5142)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:733)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:13.056  7568  7568 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:16.626    95    95 I DEBUG   :     9db05240 00000000 00000000 2a319ac8 00000003  
+05-20 00:00:13.186  7260  7626 W ActivityManager:   Force finishing activity com.smartisanos.launcher/.Launcher
+05-20 00:02:16.626    95    95 I DEBUG   : 
+05-20 00:02:16.626    95    95 I DEBUG   : memory near r7:
+05-20 00:00:14.786  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:02:16.626    95    95 I DEBUG   :     9db03f34 5f4c5443 49474552 52455453 5245535f  
+05-20 00:00:15.716  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f44 29524556 69616620 3a64656c 21732520  
+05-20 00:00:15.996  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f54 6573000a 7463656c 65202928 726f7272  
+05-20 00:00:17.706  7260  7275 I ActivityManager: Waited long enough for: ServiceRecord{41efa030 u0 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f64 20732520 29642528 3025000a 253a7838  
+05-20 00:00:17.706  7260  7275 I ActivityManager: Resuming delayed broadcast
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f74 20783830 52434e4f 72204350 20646165  
+05-20 00:00:18.036  6190  7965 W SocketClient: write error (Broken pipe)
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f84 6f727265 61203a72 74726f62 21676e69  
+05-20 00:00:18.746  7536  7536 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03f94 642f000a 6f2f7665 7072636e 30252f63  
+05-20 00:00:18.876  7260  7275 I ActivityManager: Start proc com.qualcomm.timeservice for broadcast com.qualcomm.timeservice/.TimeServiceBroadcastReceiver: pid=7968 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03fa4 253a7838 00783830 6c696166 74206465  
+05-20 00:00:19.056  7260  7275 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{42173f28 u0 com.smartisanos.launcher.new_message} to ReceiverList{41ea8f60 7568 com.smartisanos.launcher/10001/u0 remote:41b79788}: process crashing
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03fb4 6e69206f 61697469 657a696c 696c6320  
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: FATAL EXCEPTION: main
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: Process: com.qualcomm.timeservice, PID: 7968
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: java.lang.UnsatisfiedLinkError: Couldn't load TimeService from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/system/app/TimeService.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]: findLibrary returned null
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary(Runtime.java:375)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:526)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at com.qualcomm.timeservice.TimeServiceBroadcastReceiver.<clinit>(TimeServiceBroadcastReceiver.java:26)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.Class.newInstanceImpl(Native Method)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.Class.newInstance(Class.java:1208)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:2418)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.app.ActivityThread.access$1700(ActivityThread.java:145)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1282)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:00:19.286  7968  7968 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03fc4 20746e65 72657028 7373696d 736e6f69  
+05-20 00:00:19.846  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03fd4 0a21293f 38302500 30253a78 65207838  
+05-20 00:00:23.196  7260  7275 W ActivityManager: Activity destroy timeout for ActivityRecord{41d33320 u0 com.smartisanos.launcher/.Launcher t1 f}
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03fe4 726f7272 206e6920 5f726478 6c6c6163  
+05-20 00:00:37.086  7260  7396 D ConnectivityService: Sampling interval elapsed, updating statistics ..
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03ff4 67736d5f 6174735f 29287472 3025000a  
+05-20 00:00:37.136  7260  7396 D ConnectivityService: Done.
+05-20 00:02:16.636    95    95 I DEBUG   :     9db04004 253a7838 20783830 6f727265 6e692072  
+05-20 00:00:37.316  6190  7994 W SocketClient: write error (Broken pipe)
+05-20 00:02:16.636    95    95 I DEBUG   :     9db04014 72647820 6772615f 0a292873 72726500  
+05-20 00:00:40.676  7260  7369 I PowerManagerService: Going to sleep due to screen timeout...
+05-20 00:02:16.636    95    95 I DEBUG   :     9db04024 6920726f 4458206e 534d5f52 45535f47  
+05-20 00:00:41.116  7260  7260 I WindowManager: <1400544041120> : screenTurnedOff for reason 3
+05-20 00:02:16.636    95    95 I DEBUG   : 
+05-20 00:02:16.636    95    95 I DEBUG   : memory near r8:
+05-20 00:00:41.296  7260  7260 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21020
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03d60 00006e65 5f726478 6e6f6c63 00000065  
+05-20 00:00:41.646  7260  7260 D NotificationService: onReceive:android.intent.action.SCREEN_OFF
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03d70 5f726478 74696e69 6d6f635f 006e6f6d  
+05-20 00:02:13.556  7260  7580 I ActivityManager: Force stopping com.qualcomm.timeservice appid=1000 user=0: pkg changed
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03d80 25287325 00202964 52206f6e 74204350  
+05-20 00:02:13.556  7260  7580 I ActivityManager: Killing 7968:com.qualcomm.timeservice/1000 (adj 13): stop com.qualcomm.timeservice
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03d90 736e6172 74726f70 73616820 65656220  
+05-20 00:02:13.636  7260  7275 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{4215d9f8 u0 android.intent.action.PACKAGE_CHANGED} to ReceiverList{41cfed68 7568 com.smartisanos.launcher/10001/u0 remote:41cd0940}: process crashing
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03da0 6572206e 74736967 64657265 52000a21  
+05-20 00:02:14.376  7260  7598 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03db0 61004350 66696420 65726566 5220746e  
+05-20 00:02:14.426  7260  7600 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03dc0 74204350 736e6172 74726f70 73616820  
+05-20 00:02:14.476  7260  7271 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:16.636    95    95 I DEBUG   :     9db03dd0 726c6120 79646165 65656220 6572206e  
+05-20 00:02:14.576  7260  7693 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03de0 74736967 64657265 45000a21 524f5252  
+05-20 00:02:14.736  7260  7260 D NotificationService: onReceive:android.intent.action.PACKAGE_CHANGED
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03df0 7865203a 74636570 20676e69 52206e61  
+05-20 00:02:14.746  7260  7260 I NotificationService: queryReplace=false
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e00 63204350 206c6c61 73206e6f 65767265  
+05-20 00:02:15.156  7260  7276 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e10 68632072 656e6e61 000a216c 4f525245  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e20 70203a52 20676f72 206d756e 78383025  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e30 656f6420 6f6e2073 616d2074 20686374  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e40 65707865 64657463 38302520 000a2178  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e50 4f525245 70203a52 20676f72 73726576  
+05-20 00:02:16.646    95    95 I DEBUG   : 
+05-20 00:02:16.646    95    95 I DEBUG   : memory near r9:
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03d8c 74204350 736e6172 74726f70 73616820  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03d9c 65656220 6572206e 74736967 64657265  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03dac 52000a21 61004350 66696420 65726566  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03dbc 5220746e 74204350 736e6172 74726f70  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03dcc 73616820 726c6120 79646165 65656220  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03ddc 6572206e 74736967 64657265 45000a21  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03dec 524f5252 7865203a 74636570 20676e69  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03dfc 52206e61 63204350 206c6c61 73206e6f  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e0c 65767265 68632072 656e6e61 000a216c  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e1c 4f525245 70203a52 20676f72 206d756e  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e2c 78383025 656f6420 6f6e2073 616d2074  
+05-20 00:02:16.646    95    95 I DEBUG   :     9db03e3c 20686374 65707865 64657463 38302520  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db03e4c 000a2178 4f525245 70203a52 20676f72  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db03e5c 73726576 38302520 6f642078 6e207365  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db03e6c 6d20746f 68637461 70786520 65746365  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db03e7c 30252064 0a217838 636f6900 52286c74  
+05-20 00:02:16.656    95    95 I DEBUG   : 
+05-20 00:02:16.656    95    95 I DEBUG   : memory near sp:
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9cd8 9db04108 9db03c8b 00000000 2a318ea0  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9ce8 9db05170 9db03221 00000000 9db026b5  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9cf8 588d9d88 00000000 00000000 9db03d08  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d08 00000001 00000010 02150000 025c4000  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d18 00000000 00000000 00000000 00000000  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d28 508505d8 00000033 2a5495e0 2a549688  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d38 00000008 55ae57ac 55ae57bc 401cfa58  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d48 2a318f08 00000001 00000007 00000004  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d58 00000007 0000002b 00000001 00000010  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d68 2a335e88 40075260 55ae57dc 00000000  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d78 5084df14 00000000 00000000 00000033  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d88 00000000 000f416a 00000000 588d9dd0  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9d98 2a31b630 9db025fd 2a318ea0 9db025fd  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9da8 588d9dd0 2a318f3c 00000000 4003422c  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9db8 2a318ea0 2a31b630 53e71dd8 00000000  
+05-20 00:02:16.656    95    95 I DEBUG   :     588d9dc8 00000078 400343c4 588d9dd0 2a31b630  
+05-20 00:02:16.656    95    95 I DEBUG   : 
+05-20 00:02:16.656    95    95 I DEBUG   : code around pc:
+05-20 00:02:16.656    95    95 I DEBUG   :     9db026bc f00aaa26 eb020e1f fa0b0380 f853fc0e  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db026cc ea1c1c88 bf180f01 40a8f8d5 e034d133  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db026dc 6a416820 d12d4551 68936802 bb204798  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db026ec 908cf8df 48232387 f8564d23 44781009  
+05-20 00:02:16.656    95    95 I DEBUG   :     9db026fc 0250f110 f101447d 492008a8 44794640  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0270c ef44f7fe 46296823 689a4640 f7fe68db  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0271c 6826ef3e 462a491a 68f72006 97004479  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0272c f7fe68b3 f7feef40 4620ef6e f7ff4629  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0273c e002fcfd 2c006924 f10ad1ca f8d50a01  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0274c 45922080 f000ddb2 f8d5fc4b 280000ac  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0275c af62f47f e8bdb027 bf008ff0 000016a8  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0276c 00002b5c 00001762 00001934 0000178b  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0277c fffffff0 000015ba 0000186a 00001672  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0278c 00001683 b5704818 4c184478 eee0f7fe  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db0279c 447c4817 681c5823 2001b9fc f7fe21b0  
+05-20 00:02:16.666    95    95 I DEBUG   :     9db027ac 4604ef38 2280b1c8 0584f104 f7fe2100  
+05-20 00:02:16.666    95    95 I DEBUG   : 
+05-20 00:02:16.666    95    95 I DEBUG   : code around lr:
+05-20 00:02:16.666    95    95 I DEBUG   :     00000000 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000010 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000020 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000030 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000040 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000050 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.666    95    95 I DEBUG   :     00000060 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     00000070 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     00000080 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     00000090 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000a0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000b0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000c0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000d0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000e0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:16.676    95    95 I DEBUG   :     000000f0 ffffffff ffffffff ffffffff ffffffff  
+05-20 00:02:17.306  8029  8029 D AndroidRuntime: 
+05-20 00:02:17.306  8029  8029 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:02:17.316  8029  8029 D AndroidRuntime: CheckJNI is OFF
+05-20 00:02:17.406  8029  8029 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:02:17.446  8029  8029 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:02:17.456  8029  8029 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:02:17.466  8029  8029 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:02:17.466  8029  8029 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:02:17.726  8029  8029 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:02:18.156  8029  8029 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:02:18.156  8029  8029 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:02:18.256  8029  8029 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+05-20 00:02:20.119  7882  7915 E QcrilMsgTunnelSocket: IOException - java.io.IOException: No such file or directory Reason: No such file or directory
+05-20 00:02:21.066    90    90 I ServiceManager: service 'sensorservice' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'power' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'scheduling_policy' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'batterystats' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'window' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'usagestats' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'appops' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'display' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'telephony.registry' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'content' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'textservices' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'package' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'activity' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'procstats' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'meminfo' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'gfxinfo' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'dbinfo' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'cpuinfo' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'permission' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'entropy' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'user' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'account' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'vibrator' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'hardware' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'consumer_ir' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'battery' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'alarm' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'input' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'bluetooth_manager' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'input_method' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'accessibility' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'mount' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'assetatlas' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'lock_settings' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'device_policy' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'statusbar' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'clipboard' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'wifip2p' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'network_management' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'wallpaper' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'search' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'commontime_management' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'netstats' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'netpolicy' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'serial' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'wifi' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'location' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'country_detector' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'devicestoragemonitor' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'notification' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'connectivity' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'updatelock' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'uimode' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'dropbox' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'usb' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'audio' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'servicediscovery' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'backup' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'appwidget' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'diskstats' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'dreams' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'samplingprofiler' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'print' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'icon' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'media_router' died
+05-20 00:02:21.066    90    90 I ServiceManager: service 'assetredirection' died
+05-20 00:02:21.086  7832  7843 W Sensors : sensorservice died [0x2a1a6050]
+05-20 00:02:21.086  7536  7581 W Sensors : sensorservice died [0x2a2959d8]
+05-20 00:02:21.086  7408  7422 W Sensors : sensorservice died [0x2a17a290]
+05-20 00:02:21.086  8029  8029 I AndroidRuntime: VM exiting with result code 1.
+05-20 00:02:21.096  6193  6193 W AudioFlinger: power manager service died !!!
+05-20 00:02:21.116  3701  3701 D SurfaceFlinger: Screen acquired, type=0 flinger=0x2a0074f0
+05-20 00:02:21.116  7548  7751 E WifiManager: Channel connection lost
+05-20 00:02:21.116  7423  7656 E WifiManager: Channel connection lost
+05-20 00:02:21.126  3701  3701 E SurfaceFlinger: GL error 0x0502
+05-20 00:02:21.146  3701  3701 D SurfaceFlinger: The screen is drew after light up!
+05-20 00:02:21.146  7526  7567 W Sensors : sensorservice died [0x2a17eab0]
+05-20 00:02:21.156  7526  7624 E WifiManager: Channel connection lost
+05-20 00:02:21.156  7568  7568 I Process : killProcess pid=7568
+05-20 00:02:21.156  7568  7568 I Process : java.lang.RuntimeException
+05-20 00:02:21.156  7568  7568 I Process : 	at android.os.Process.killProcess(Process.java:957)
+05-20 00:02:21.156  7568  7568 I Process : 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:94)
+05-20 00:02:21.156  7568  7568 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:02:21.156  7568  7568 I Process : 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:02:21.156  7568  7568 I Process : 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:21.156  7568  7568 I Process : Sending signal. PID: 7568 SIG: 9
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: Error reporting crash
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: android.os.DeadObjectException
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at android.os.BinderProxy.transact(Native Method)
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:3770)
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-20 00:02:21.156  7568  7568 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:02:21.186   101   101 E installd: eof
+05-20 00:02:21.186   101   101 E installd: failed to read size
+05-20 00:02:21.186   101   101 I installd: closing connection
+05-20 00:02:21.326  7236  7236 D Zygote  : Process 7260 terminated by signal (11)
+05-20 00:02:21.326  7236  7236 I Zygote  : Exit zygote because system server (7260) has terminated
+05-20 00:02:21.496  8042  8042 I Netd    : Netd 1.0 starting
+05-20 00:02:21.496  8042  8042 W InterfaceController: Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+05-20 00:02:21.566    90    90 I ServiceManager: service 'media.audio_policy' died
+05-20 00:02:21.566    90    90 I ServiceManager: service 'media.audio_flinger' died
+05-20 00:02:21.566    90    90 I ServiceManager: service 'media.player' died
+05-20 00:02:21.566    90    90 I ServiceManager: service 'media.camera' died
+05-20 00:02:21.616  8039  8051 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+05-20 00:02:21.686  8039  8051 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+05-20 00:02:21.716  8039  8051 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: Build Date: 07/31/12 Tue
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: Local Branch: 
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: Remote Branch: quic/master
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: Local Patches: NONE
+05-20 00:02:21.746  8039  8051 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+05-20 00:02:21.806  8039  8051 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:02:22.786    90    90 I ServiceManager: service 'isms' died
+05-20 00:02:22.786    90    90 I ServiceManager: service 'sip' died
+05-20 00:02:22.786    90    90 I ServiceManager: service 'simphonebook' died
+05-20 00:02:22.786    90    90 I ServiceManager: service 'iphonesubinfo' died
+05-20 00:02:22.786    90    90 I ServiceManager: service 'phone' died
+05-20 00:02:23.096  8053  8053 I mediaserver: ServiceManager: 0x2a00b508
+05-20 00:02:23.096  8053  8053 I AudioFlinger: Using default 3000 mSec as standby time.
+05-20 00:02:23.096  8053  8053 E MediaPlayerFactory: calling dlopen on FACTORY_LIB
+05-20 00:02:23.106  8053  8053 E MediaPlayerFactory: Failed to open FACTORY_LIB Error : dlopen failed: cannot locate symbol "_ZN7android25MEDIA_MIMETYPE_VIDEO_HEVCE" referenced by "libdashplayer.so"... 
+05-20 00:02:23.146  8053  8053 I CameraService: CameraService started (pid=8053)
+05-20 00:02:23.206  8053  8053 E HAL     : load: module=/system/lib/hw/camera.qsd8k.so
+05-20 00:02:23.206  8053  8053 E HAL     : dlopen failed: could not load library "libcamera.so" needed by "camera.qsd8k.so"; caused by cannot locate symbol "_ZN7android10MemoryBaseC1ERKNS_2spINS_11IMemoryHeapEEElj" referenced by "libcamera.so"...
+05-20 00:02:23.246  8053  8053 E CameraService: Could not load camera HAL module
+05-20 00:02:23.266  8053  8053 I AudioPolicyManagerBase: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-20 00:02:23.266  8053  8053 W AudioHardwareQSD: Cannot open /dev/audience_a1026 -1
+05-20 00:02:23.276  8053  8053 D AudioHardwareQSD: set_tpa2018d1_parameters() not present
+05-20 00:02:23.276  8053  8053 I HTC Acoustic: libhtc_acoustic.so version 2.0.1.2.
+05-20 00:02:23.276  8053  8053 I HTC Acoustic: open /system/etc/AdieHWCodecSetting.csv success.
+05-20 00:02:23.286  8053  8053 I HTC Acoustic: ADIE table version: PASSION_HTC_20091019
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 0
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 2
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 5
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 7
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 8
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 10
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 51
+05-20 00:02:23.286  8053  8053 E HTC Acoustic: Update ADIE table ID 53
+05-20 00:02:23.286  8053  8053 I HTC Acoustic: read_adie_para_from_file success.
+05-20 00:02:23.296  8053  8053 D HTC Acoustic: ioctl ACOUSTIC_UPDATE_ADIE success
+05-20 00:02:23.296  8053  8053 I HTC Acoustic: open /system/etc/AudioBTID.csv success.
+05-20 00:02:23.296  8053  8053 I HTC Acoustic: BT ID table version: PASSION_HTC_20091105
+05-20 00:02:23.296  8053  8053 I AudioHardwareQSD: Set master volume to 1.000000
+05-20 00:02:23.296  8053  8053 I AudioFlinger: loadHwModule() Loaded primary audio interface from LEGACY Audio HW HAL (audio) handle 1
+05-20 00:02:23.296  8053  8053 I AudioFlinger: HAL output buffer size 768 frames, normal mix buffer size 1056 frames
+05-20 00:02:23.416  8053  8053 I AudioMixer: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-20 00:02:23.416  8053  8053 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-20 00:02:23.476  8040  8040 D AndroidRuntime: 
+05-20 00:02:23.476  8040  8040 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:02:23.506  8040  8040 D AndroidRuntime: CheckJNI is OFF
+05-20 00:02:23.636  8040  8040 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:02:23.646  8040  8040 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:02:23.676  8040  8040 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:02:23.696  8040  8040 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:02:23.696  8040  8040 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:02:23.956  8040  8040 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:02:24.116  8043  8043 D AndroidRuntime: 
+05-20 00:02:24.116  8043  8043 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+05-20 00:02:24.136  8043  8043 D AndroidRuntime: CheckJNI is OFF
+05-20 00:02:24.246  8043  8043 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:02:24.276  8043  8043 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:02:24.296  8043  8043 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:02:24.326  8043  8043 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:02:24.326  8043  8043 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:02:24.576  8043  8043 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-20 00:02:25.156  8040  8040 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:02:25.186  8040  8040 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:02:25.666  8040  8040 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+05-20 00:02:25.686  8040  8040 D AndroidRuntime: Shutting down VM
+05-20 00:02:25.706  8040  8120 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:02:25.756  8043  8043 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-20 00:02:25.786  8043  8043 E android.os.Debug: failed to load memtrack module: -2
+05-20 00:02:26.056  8043  8043 I SamplingProfilerIntegration: Profiling disabled.
+05-20 00:02:26.166  8043  8043 I Zygote  : Preloading classes...
+05-20 00:02:26.176  8043  8043 E cutils-trace: Error opening trace file: No such file or directory (2)
+05-20 00:02:27.986  8183  8183 D AndroidRuntime: 
+05-20 00:02:27.986  8183  8183 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-20 00:02:27.986  8183  8183 D AndroidRuntime: CheckJNI is OFF
+05-20 00:02:28.146  8183  8183 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-20 00:02:28.186  8183  8183 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-20 00:02:28.226  8183  8183 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-20 00:02:28.226  8183  8183 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-20 00:02:28.236  8183  8183 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-20 00:03:18.988  7260  7260 W PackageManager: Library not found: /system/framework/com.google.widevine.software.drm.jar
+05-20 00:03:19.038  7260  7260 W PackageManager: Library not found: /system/framework/com.google.android.media.effects.jar
+05-20 00:03:19.099  7260  7260 W PackageManager: Cannot dexopt /system/framework/cneapiclient.jar; is it an APK or JAR? /system/framework/cneapiclient.jar
+05-20 00:03:19.099  7260  7260 W PackageManager: Library not found: /system/framework/com.google.android.maps.jar
+05-20 00:03:19.118  7260  7260 W PackageManager: Library not found: /system/framework/org.cyanogenmod.hardware.jar
+05-20 00:03:19.178  7260  7260 W PackageManager: Exception reading jar: /system/framework/cneapiclient.jar
+05-20 00:03:19.178  7260  7260 W PackageManager: java.io.IOException: /system/framework/cneapiclient.jar
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1411)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1188)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:262)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:03:19.178  7260  7260 W PackageManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:19.278  7260  7260 I PackageManager: Replacing default ResolverActivity with custom activity: ComponentInfo{android/com.android.internal.app.ResolverActivity}
+05-20 00:03:22.158  7260  7260 W PackageManager: Skipping provider name com.android.badge (in package com.smartisanos.keyguard): name already used by com.smartisanos.launcher
+05-20 00:03:22.548  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeCyan.apk Binary XML file line #8
+05-20 00:03:22.668  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemePurple.apk Binary XML file line #8
+05-20 00:03:23.538  7260  7260 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #71
+05-20 00:03:23.538  7260  7260 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #73
+05-20 00:03:23.538  7260  7260 W PackageParser: No readPermission or writePermssion for <path-permission>: path-permission at /system/app/MusicPlayer.apk Binary XML file line #75
+05-20 00:03:24.118  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeYellow.apk Binary XML file line #8
+05-20 00:03:24.678  7260  7260 I PackageParser: com.qualcomm.qcom_qmi: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:03:24.858  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeThirdApp.apk Binary XML file line #8
+05-20 00:03:24.998  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeGreen.apk Binary XML file line #8
+05-20 00:03:25.668  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeWhite.apk Binary XML file line #8
+05-20 00:03:25.748  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeDefault.apk Binary XML file line #8
+05-20 00:03:25.808  7260  7260 I PackageParser: com.qualcomm.interfacepermissions: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
+05-20 00:03:25.968  7260  7260 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeOrange.apk Binary XML file line #8
+05-20 00:03:26.468  7260  7260 I PackageManager: Time to scan packages: 7.541 seconds
+05-20 00:03:26.468  7260  7260 W PackageManager: Removing dangling permission: com.tmobile.permission.ACCESS_DRM_THEME from package null
+05-20 00:03:26.468  7260  7260 W PackageManager: Removing dangling permission: com.qualcomm.permission.READ_DHCP_INFO from package null
+05-20 00:03:26.468  7260  7260 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x8be45)
+05-20 00:03:26.468  7260  7260 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:03:26.468  7260  7260 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:03:26.468  7260  7260 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:03:26.478  7260  7260 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:03:26.478  7260  7260 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:26.478  7260  7260 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:03:26.488  7260  7260 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:03:26.488  7260  7260 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:03:26.498  7260  7260 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:03:26.498  7260  7260 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:03:26.498  7260  7260 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:03:26.498  7260  7260 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:03:26.498  7260  7260 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:03:26.508  7260  7260 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:03:26.508  7260  7260 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:03:26.508  7260  7260 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:03:26.508  7260  7260 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:03:26.508  7260  7260 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:03:26.508  7260  7260 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:03:26.518  7260  7260 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:03:26.528  7260  7260 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:03:26.528  7260  7260 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:03:26.528  7260  7260 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:03:26.538  7260  7260 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:03:26.548  7260  7260 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:03:26.548  7260  7260 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:03:26.548  7260  7260 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:03:26.548  7260  7260 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:03:26.848  7260  7260 I SystemServer: Entropy Mixer
+05-20 00:03:26.858  7260  7260 I EntropyMixer: Writing entropy...
+05-20 00:03:26.878  7260  7260 I SystemServer: User Service
+05-20 00:03:26.878  7260  7260 I SystemServer: Account Manager
+05-20 00:03:26.898  7260  7260 I SystemServer: Content Manager
+05-20 00:03:26.898  7260  7260 I SystemServer: System Content Providers
+05-20 00:03:26.958  7260  7260 I SystemServer: Lights Service
+05-20 00:03:26.968  7260  7260 I SystemServer: Battery Service
+05-20 00:03:26.978  7260  7260 I SystemServer: Vibrator Service
+05-20 00:03:26.988  7260  7260 I SystemServer: Consumer IR Service
+05-20 00:03:26.998  7260  7260 I SystemServer: Alarm Manager
+05-20 00:03:27.008  7260  7260 E AlarmManager: Error reading History Heartbeat statistics
+05-20 00:03:27.008  7260  7260 E AlarmManager: java.io.FileNotFoundException: /data/system/heartbeatstats.bin: open failed: ENOENT (No such file or directory)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:409)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.readFromFile(AlarmManagerService.java:2694)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.server.AlarmManagerService$HeartbeatStats.init(AlarmManagerService.java:2873)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.server.AlarmManagerService.<init>(AlarmManagerService.java:649)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:320)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.server.SystemServer.main(SystemServer.java:1265)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:893)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:702)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at dalvik.system.NativeStart.main(Native Method)
+05-20 00:03:27.008  7260  7260 E AlarmManager: Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at libcore.io.Posix.open(Native Method)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	at libcore.io.IoBridge.open(IoBridge.java:393)
+05-20 00:03:27.008  7260  7260 E AlarmManager: 	... 12 more
+05-20 00:03:27.028  7260  7260 I SystemServer: Init Watchdog
+05-20 00:03:27.028  7260  7260 I SystemServer: Input Manager
+05-20 00:03:27.028  7260  7260 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+05-20 00:03:27.038  7260  7260 I SystemServer: Window Manager
+05-20 00:03:27.048  7260  7274 I WindowManager: No existing display settings /data/system/display_settings.xml; starting empty
+05-20 00:03:27.108  7260  7357 I WindowManager: <1400544207111> :  screenTurningOn null
+05-20 00:03:27.108  7260  7357 I WindowManager: No keyguard interface!
+05-20 00:03:27.108  7260  7357 I WindowManager: <1400544207111~1400544207113> :  finishScreenTurningOn null
+05-20 00:03:27.128  7260  7260 I InputManager: Starting input manager
+05-20 00:03:27.128  7260  7260 I SystemServer: Bluetooth Manager Service
+05-20 00:03:27.138  7260  7260 I SystemServer: Input Method Service
+05-20 00:03:27.208  7260  7260 W InputMethodManagerService: Couldn't create dir.: /data/system/inputmethod
+05-20 00:03:27.308  7260  7260 I SystemServer: Accessibility Manager
+05-20 00:03:27.318  7260  7260 W ActivityManager: Unable to write /sys/module/lowmemorykiller/parameters/minfree
+05-20 00:03:27.318  7260  7260 I ActivityManager: Config changes=1df8 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h533dp 240dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:27.338  7260  7260 I ActivityManager: Config changes=408 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.3 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:31.528  7260  7260 I SystemServer: Mount Service
+05-20 00:03:31.588  7260  7260 D MountService: got storage path: /storage/sdcard0 description: 内存设备 primary: true removable: false emulated: true mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+05-20 00:03:31.588  7260  7260 D MountService: addVolumeLocked() StorageVolume:
+05-20 00:03:31.588  7260  7260 D MountService:     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040761 
+05-20 00:03:31.588  7260  7260 D MountService:     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=0 
+05-20 00:03:31.588  7260  7260 D MountService:     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+05-20 00:03:31.588  7260  7260 D MountService:     mUserLabel=null mState=null 
+05-20 00:03:31.598  7260  7260 I SystemServer: LockSettingsService
+05-20 00:03:31.679  7260  7260 I SystemServer: Device Policy
+05-20 00:03:31.679  7260  7260 I SystemServer: Status Bar
+05-20 00:03:31.688  7260  7260 I SystemServer: Clipboard Service
+05-20 00:03:31.688  7260  7260 W ClipboardService: No security bridge jar found, using default
+05-20 00:03:31.688  7260  7260 I SystemServer: NetworkManagement Service
+05-20 00:03:31.708  7260  7260 D NetworkManagementService: Creating NetworkManagementService
+05-20 00:03:31.708  7260  7260 D NetworkManagementService: Awaiting socket connection
+05-20 00:03:31.708  7260  7260 D NetworkManagementService: Connected
+05-20 00:03:31.708  7260  7260 I SystemServer: Text Service Manager Service
+05-20 00:03:31.738  7260  7389 W PackageManager: Not granting permission android.permission.BIND_ACCESSIBILITY_SERVICE to package com.cootek.smartinputv5.smartisan (protectionLevel=2 flags=0x88be45)
+05-20 00:03:31.738  7260  7389 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+05-20 00:03:31.738  7260  7389 W PackageManager: Unknown permission android.permission.READ_MMS in package com.android.contacts
+05-20 00:03:31.738  7260  7389 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
+05-20 00:03:31.748  7260  7260 I SystemServer: NetworkStats Service
+05-20 00:03:31.748  7260  7389 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+05-20 00:03:31.758  7260  7389 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:31.758  7260  7389 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+05-20 00:03:31.758  7260  7389 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+05-20 00:03:31.758  7260  7389 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+05-20 00:03:31.758  7260  7389 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+05-20 00:03:31.758  7260  7260 I SystemServer: NetworkPolicy Service
+05-20 00:03:31.768  7260  7389 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
+05-20 00:03:31.768  7260  7389 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
+05-20 00:03:31.778  7260  7260 I SystemServer: Wi-Fi P2pService
+05-20 00:03:31.778  7260  7389 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
+05-20 00:03:31.778  7260  7389 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
+05-20 00:03:31.778  7260  7389 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
+05-20 00:03:31.788  7260  7389 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
+05-20 00:03:31.788  7260  7389 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
+05-20 00:03:31.788  7260  7389 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+05-20 00:03:31.788  7260  7389 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+05-20 00:03:31.788  7260  7389 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+05-20 00:03:31.798  7260  7389 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
+05-20 00:03:31.798  7260  7389 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
+05-20 00:03:31.798  7260  7389 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
+05-20 00:03:31.808  7260  7389 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+05-20 00:03:31.808  7260  7389 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission android.permission.CHANGE_4G_STATE in package com.smartisanos.systemui
+05-20 00:03:31.808  7260  7389 W PackageManager: Unknown permission com.android.phone.CHANGE_NETWORK_MODE in package com.smartisanos.systemui
+05-20 00:03:31.818  7260  7389 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.systemui
+05-20 00:03:31.818  7260  7389 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.youdao.dict.smartisan (protectionLevel=18 flags=0x8be45)
+05-20 00:03:31.818  7260  7389 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.youdao.dict.smartisan (protectionLevel=50 flags=0x8be45)
+05-20 00:03:31.818  7260  7389 W PackageManager: Unknown permission android.permission.DISABLE_STATUS_BAR in package com.smartisanos.setupwizard
+05-20 00:03:31.828  7260  7389 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
+05-20 00:03:31.828  7260  7389 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
+05-20 00:03:31.828  7260  7389 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
+05-20 00:03:31.828  7260  7389 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
+05-20 00:03:31.828  7260  7389 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
+05-20 00:03:32.368  7260  7260 I SystemServer: Wi-Fi Service
+05-20 00:03:32.508  7260  7260 I SystemServer: Connectivity Service
+05-20 00:03:32.508  7260  7260 D ConnectivityService: wifiOnly=false
+05-20 00:03:32.558  7260  7260 E MobileDataStateTracker: default: Ignoring feature request because could not acquire PhoneService
+05-20 00:03:32.558  7260  7260 E MobileDataStateTracker: default: Could not enable APN type "default"
+05-20 00:03:32.578  7260  7260 I WifiService: WifiService starting up with Wi-Fi enabled
+05-20 00:03:32.578  7260  7260 I WifiService: setWifiEnabled: true pid=7260, uid=1000
+05-20 00:03:32.598  7260  7260 I SystemServer: Network Service Discovery Service
+05-20 00:03:32.598  7260  7260 D NsdService: Network service discovery enabled true
+05-20 00:03:32.598  7260  7260 I SystemServer: UpdateLock Service
+05-20 00:03:32.668  7260  7260 I SystemServer: Notification Manager
+05-20 00:03:32.678  7260  7260 I SystemServer: Device Storage Monitor
+05-20 00:03:32.698  7260  7260 I SystemServer: Location Manager
+05-20 00:03:32.708  6190  6506 D NetlinkEvent: Unexpected netlink message. type=0x11
+05-20 00:03:32.708  7260  7260 I SystemServer: Country Detector
+05-20 00:03:32.708  7260  7260 I SystemServer: Search Service
+05-20 00:03:32.718  7260  7260 I SystemServer: DropBox Service
+05-20 00:03:32.728  7260  7260 I SystemServer: Wallpaper Service
+05-20 00:03:32.738  7260  7260 I SystemServer: Audio Service
+05-20 00:03:32.898  7260  7260 I SystemServer: Dock Observer
+05-20 00:03:32.908  7260  7260 W DockObserver: This kernel does not have dock station support
+05-20 00:03:32.908  7260  7260 I SystemServer: Wired Accessory Manager
+05-20 00:03:32.908  7260  7260 W WiredAccessoryManager: This kernel does not have usb audio support
+05-20 00:03:32.908  7260  7260 W WiredAccessoryManager: This kernel does not have HDMI audio support
+05-20 00:03:32.908  7260  7260 I SystemServer: USB Service
+05-20 00:03:32.908  7260  7260 I SystemServer: Serial Service
+05-20 00:03:32.908  7260  7260 I SystemServer: Twilight Service
+05-20 00:03:32.918  7260  7260 I SystemServer: UI Mode Manager Service
+05-20 00:03:32.918  7260  7260 I SystemServer: Backup Service
+05-20 00:03:32.928  7260  7260 V BackupManagerService: Initializing package tracking
+05-20 00:03:32.928  7260  7260 V BackupManagerService: No ancestral data
+05-20 00:03:32.928  7260  7260 V BackupManagerService: addPackageParticipantsLocked: all
+05-20 00:03:32.928  7260  7260 I BackupManagerService: Scheduling backup for new app com.android.calendar
+05-20 00:03:32.928  7260  7260 D BackupManagerService: Now staging backup of com.android.calendar
+05-20 00:03:33.028  7260  7260 I BackupManagerService: Scheduling backup for new app com.android.browser
+05-20 00:03:33.028  7260  7260 D BackupManagerService: Now staging backup of com.android.browser
+05-20 00:03:33.038  7260  7260 I BackupManagerService: Scheduling backup for new app com.android.sharedstoragebackup
+05-20 00:03:33.048  7260  7260 D BackupManagerService: Now staging backup of com.android.sharedstoragebackup
+05-20 00:03:33.048  7260  7260 I BackupManagerService: Scheduling backup for new app com.android.providers.settings
+05-20 00:03:33.048  7260  7260 D BackupManagerService: Now staging backup of com.android.providers.settings
+05-20 00:03:33.058  7260  7260 I BackupManagerService: Scheduling backup for new app com.android.providers.userdictionary
+05-20 00:03:33.068  7260  7260 D BackupManagerService: Now staging backup of com.android.providers.userdictionary
+05-20 00:03:33.068  7260  7260 I BackupManagerService: Scheduling backup for new app android
+05-20 00:03:33.068  7260  7260 D BackupManagerService: Now staging backup of android
+05-20 00:03:33.078  7260  7260 V BackupManagerService: Starting with transport android/com.android.internal.backup.LocalTransport
+05-20 00:03:33.088  7260  7260 V BackupManagerService: Found transports: 1
+05-20 00:03:33.088  7260  7260 I BackupManagerService: Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:03:33.088  7260  7260 I BackupManagerService: Found stale backup journal, scheduling
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   com.android.calendar
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   com.android.browser
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   com.android.sharedstoragebackup
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   com.android.providers.settings
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   com.android.providers.userdictionary
+05-20 00:03:33.098  7260  7260 I BackupManagerService:   android
+05-20 00:03:33.098  7260  7260 I BackupManagerService: Backup enabled => false
+05-20 00:03:33.098  7260  7260 I BackupManagerService: Opting out of backup
+05-20 00:03:33.108  7260  7260 I SystemServer: AppWidget Service
+05-20 00:03:33.108  7260  7260 I SystemServer: Recognition Service
+05-20 00:03:33.118  7260  7260 I SystemServer: DiskStats Service
+05-20 00:03:33.118  7260  7260 I SystemServer: SamplingProfiler Service
+05-20 00:03:33.128  7260  7260 I SystemServer: NetworkTimeUpdateService
+05-20 00:03:33.128  7260  7260 I SystemServer: CommonTimeManagementService
+05-20 00:03:33.138  7260  7260 I SystemServer: CertBlacklister
+05-20 00:03:33.138  7260  7260 I SystemServer: Dreams Service
+05-20 00:03:33.138  7260  7260 I SystemServer: Assets Atlas Service
+05-20 00:03:33.148  7260  7260 I SystemServer: IdleMaintenanceService
+05-20 00:03:33.148  7260  7260 I SystemServer: IconManagerService
+05-20 00:03:33.158  7260  7260 I SystemServer: Print Service
+05-20 00:03:33.178  7260  7260 I SystemServer: Media Router Service
+05-20 00:03:33.178  7260  7260 I SystemServer: AssetRedirectionManager Service
+05-20 00:03:33.338  7260  7260 I ActivityManager: Start proc com.smartisanos.keyguard for service com.smartisanos.keyguard/.KeyguardService: pid=7408 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:33.348  7260  7260 V WindowManager.STA: sEEnterTXY =Cubic.INOUT, sEExitTXY =Cubic.INOUT, sEEnterTZ =Cubic.INOUT, sEExitTZ =Cubic.INOUT, sEEnterRotate =Cubic.INOUT, sEExitRotate =Cubic.INOUT
+05-20 00:03:33.368  7260  7260 I WindowManager.STA: left=-0.28125, right=0.28125, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=1920, mScreenWidth=1080, far=38400.0, near=1.0
+05-20 00:03:33.458  7260  7260 I AppOps  : Pruning old package media/1013: new uid=-1
+05-20 00:03:33.468  7260  7260 I ActivityManager: System now ready
+05-20 00:03:33.488  7260  7260 I SystemServer: Making services ready
+05-20 00:03:33.538  7260  7260 I ActivityManager: Start proc com.smartisanos.systemui for service com.smartisanos.systemui/.SystemUIService: pid=7423 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:33.538  7260  7260 D NetworkManagementService: enabling bandwidth control
+05-20 00:03:33.598  7260  7387 W MountService: Duplicate state transition (mounted -> mounted) for /storage/emulated/0
+05-20 00:03:34.148  7260  7260 E NetdConnector: NDC Command {1 bandwidth enable} took too long (612ms)
+05-20 00:03:34.288  7260  7260 D NetworkManagementService: Prepared
+05-20 00:03:34.438  7260  7260 W NetworkStats: problem registering for global alert: java.lang.IllegalStateException: command '4 bandwidth setglobalalert 2097152' failed with '400 4 Bandwidth command failed'
+05-20 00:03:34.718  7260  7260 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc zh_CN ldltr sw320dp w320dp h498dp 240dpi nrml long port finger -keyb/v/h -nav/h s.4 themeResource=com.smartisanos.theme.default(SmartisanOSDefault)}
+05-20 00:03:34.898  7408  7408 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:34.948  7260  7270 I ActivityManager: Start proc com.smartisanos.music:main for service com.smartisanos.music/.service.SmartisanMusicService: pid=7483 uid=10039 gids={50039, 3003, 1028, 1015}
+05-20 00:03:34.958  7408  7408 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198 
+05-20 00:03:34.968  7260  7260 W InputMethodManagerService: Ignoring setImeWindowStatus of uid 1000 token: null
+05-20 00:03:35.098  7260  7271 I ActivityManager: Start proc com.smartisanos.phone_number_assistant for service com.smartisanos.phone_number_assistant/.NumberService: pid=7492 uid=10005 gids={50005, 1028, 1015, 3003, 1007}
+05-20 00:03:35.148  7260  7271 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41ce79b8
+05-20 00:03:35.348  7260  7260 I ActivityManager: Start proc com.cootek.smartinputv5.smartisan for service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalIME: pid=7516 uid=10038 gids={50038, 1028, 1015, 3003}
+05-20 00:03:35.368  7260  7260 V InputMethodManagerService: Adding window token: android.os.Binder@41d1b7f8
+05-20 00:03:35.518  7260  7260 I ActivityManager: Start proc com.amap.android.location for service com.amap.android.location/.NetworkLocationService: pid=7526 uid=10025 gids={50025, 3003, 1028, 1015}
+05-20 00:03:35.608  7260  7260 E LocationManagerService: No FusedProvider found.
+05-20 00:03:35.628  7260  7260 E LocationManagerService: no geofence provider found
+05-20 00:03:35.679  7260  7275 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.tracker.TrackerReceiver: pid=7536 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:35.848  7260  7260 I ActivityManager: Start proc com.android.phone for added application com.android.phone: pid=7548 uid=1001 gids={41001, 3004, 3009, 3005, 1006, 3002, 3001, 3003, 1028, 1015}
+05-20 00:03:35.888  6190  7547 W SocketClient: write error (Broken pipe)
+05-20 00:03:35.918  7260  7260 I ActivityManager: Start proc com.smartisanos.voice for added application com.smartisanos.voice: pid=7555 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+05-20 00:03:36.078  7260  7260 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.smartisanos.launcher/.Launcher} from pid 0
+05-20 00:03:36.118  7260  7260 I ActivityManager: Start proc com.smartisanos.launcher for activity com.smartisanos.launcher/.Launcher: pid=7568 uid=10001 gids={50001, 3003, 1028, 1015}
+05-20 00:03:36.368  7260  7260 I WindowManager: <1400544216369> :  screenTurningOn com.android.server.power.Notifier$2@41a6a428
+05-20 00:03:36.368  7260  7260 W KeyguardServiceDelegate: onScreenTurnedOn(): no keyguard service!
+05-20 00:03:36.368  7260  7260 I WindowManager: No lock screen! windowToken=null
+05-20 00:03:36.368  7260  7260 I WindowManager: <1400544216369~1400544216371> :  finishScreenTurningOn com.android.server.power.Notifier$2@41a6a428
+05-20 00:03:36.368  7260  7260 I WindowManager: <1400544216371> : ScreenOnListener Notified Screen On State
+05-20 00:03:37.148  7260  7598 I ActivityManager: Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=7604 uid=10011 gids={50011, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+05-20 00:03:38.488  7260  7275 W BroadcastQueue: Timeout of broadcast BroadcastRecord{41d4a2b0 u-1 android.intent.action.SCREEN_ON} - receiver=android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@41c19d70, started 2009ms ago
+05-20 00:03:38.488  7260  7275 W BroadcastQueue: Receiver during timeout: BroadcastFilter{41c30b10 u0 ReceiverList{41c30ab0 7260 system/1000/u0 local:41c19d70}}
+05-20 00:03:39.188  7408  7429 D TAG     : disable what:0
+05-20 00:03:39.188  7260  7573 D StatusBarManagerService: disableInternal
+05-20 00:03:39.188  7260  7573 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41b2da78
+05-20 00:03:39.318  7408  7429 D TAG     : disable what:0
+05-20 00:03:39.318  7260  7402 D StatusBarManagerService: disableInternal
+05-20 00:03:39.318  7260  7402 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41b2da78
+05-20 00:03:39.478  7408  7408 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:39.488  7408  7408 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59 
+05-20 00:03:39.698  7260  7260 W AccessibilityManagerService: Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+05-20 00:03:39.708  7260  7260 D NotificationService: onReceive:android.intent.action.USER_SWITCHED
+05-20 00:03:40.008  7260  7260 V BackupManagerService: Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 00:03:40.008  7260  7260 V BackupManagerService: Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41d41c30
+05-20 00:03:40.128  7260  7260 W PowerManagerNotifier: policy turn screen on toooo slowly!
+05-20 00:03:40.188  7260  7260 D NotificationService: onReceive:android.intent.action.SCREEN_ON
+05-20 00:03:40.428  7260  7573 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:40.458  7260  7598 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:40.478  7260  7600 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:40.598  7260  7402 I PackageManager: Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 00:03:40.878  7260  7573 I ActivityManager: Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=7664 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 00:03:43.338  7260  7276 I ActivityManager: Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=7681 uid=10031 gids={50031}
+05-20 00:03:43.358  7260  7580 I ActivityManager: Start proc com.smartisanos.weather for content provider com.smartisanos.weather/.provider.WeatherProvider: pid=7712 uid=10046 gids={50046, 3003}
+05-20 00:03:43.398  7423  7423 D StorageNotification: Startup with UMS connection false (media state mounted)
+05-20 00:03:43.478  7423  7718 I StorageNotification: UMS connection changed to false (media state mounted)
+05-20 00:03:43.478  7260  7598 I ActivityManager: Start proc com.smartisanos.systemui:screenshot for service com.smartisanos.systemui/.screenshot.TakeScreenshotService: pid=7722 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+05-20 00:03:43.768  6190  7735 W SocketClient: write error (Broken pipe)
+05-20 00:03:44.128  7260  7260 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:44.158  7260  7260 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.158  7260  7260 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:44.158  7260  7260 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.168  7260  7260 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:44.168  7260  7260 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.178  7260  7260 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:44.178  7260  7260 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.198  7260  7260 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:44.198  7260  7260 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.208  7260  7260 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:44.208  7260  7260 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.248  7260  7260 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:44.248  7260  7260 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.258  7260  7260 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:44.268  7260  7260 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.278  7260  7260 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:44.278  7260  7260 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.308  7260  7260 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:44.308  7260  7260 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.328  7260  7260 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:44.328  7260  7260 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.348  7260  7260 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:44.348  7260  7260 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.358  7260  7260 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:44.358  7260  7260 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.368  7260  7260 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:44.368  7260  7260 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.398  7260  7260 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:44.398  7260  7260 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.408  7260  7260 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:44.408  7260  7260 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+05-20 00:03:44.458  7260  7260 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:44.498  7260  7260 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.510  7260  7260 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:44.518  7260  7260 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.518  7260  7260 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:44.518  7260  7260 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.518  7260  7260 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:44.528  7260  7260 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.528  7260  7260 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:44.538  7260  7260 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.538  7260  7260 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:44.548  7260  7260 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.548  7260  7260 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:44.558  7260  7260 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.558  7260  7260 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:44.578  7260  7260 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+05-20 00:03:44.578  7260  7260 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:44.588  7260  7260 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.588  7260  7260 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:44.608  7260  7260 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.608  7260  7260 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:44.618  7260  7260 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.628  7260  7260 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:44.638  7260  7260 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.638  7260  7260 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:44.648  7260  7260 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.648  7260  7260 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:44.668  7260  7260 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.668  7260  7260 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:44.668  7260  7275 V NotificationService: enqueueNotificationInternal: pkg=com.smartisanos.systemui id=1 notification=Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:44.688  7260  7260 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.688  7260  7260 V NotificationService: Initial score is 0.
+05-20 00:03:44.688  7260  7260 V NotificationService: Final score is 0.
+05-20 00:03:44.698  7260  7260 V NotificationService: Assigned score=0 to Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x40 kind=[null])
+05-20 00:03:44.698  7260  7260 E NotificationService: Not posting notification with icon==0: Notification(pri=0 contentView=com.smartisanos.systemui/0x1090070 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+05-20 00:03:44.708  7260  7260 E NotificationService: WARNING: In a future release this will crash the app: com.smartisanos.systemui
+05-20 00:03:44.708  7260  7260 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:44.728  7260  7260 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.728  7260  7260 D MobileDataStateTracker: fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+05-20 00:03:44.728  7260  7260 D MobileDataStateTracker: fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.728  7260  7260 D MobileDataStateTracker: dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+05-20 00:03:44.748  7260  7260 D MobileDataStateTracker: dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.748  7260  7260 D MobileDataStateTracker: supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+05-20 00:03:44.778  7260  7260 D MobileDataStateTracker: supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.778  7260  7260 D MobileDataStateTracker: hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+05-20 00:03:44.778  7260  7260 D MobileDataStateTracker: hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.818  7260  7260 D MobileDataStateTracker: ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+05-20 00:03:44.838  7260  7260 D MobileDataStateTracker: ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.838  7260  7260 D MobileDataStateTracker: default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+05-20 00:03:44.838  7260  7260 D MobileDataStateTracker: default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.838  7260  7260 D MobileDataStateTracker: mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+05-20 00:03:44.868  7260  7260 D MobileDataStateTracker: mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:44.868  7260  7260 D MobileDataStateTracker: cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+05-20 00:03:44.868  7260  7260 D MobileDataStateTracker: cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+05-20 00:03:45.048  7423  7423 D PhoneStatusBar: addIcon slot=disturb index=20 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020209 level=0 visible=false num=0 )
+05-20 00:03:48.408  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:03:48.448  7423  7423 D PhoneStatusBar: addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+05-20 00:03:48.518  7423  7423 D PhoneStatusBar: addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+05-20 00:03:48.628  7423  7423 D PhoneStatusBar: addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+05-20 00:03:48.688  7423  7423 D PhoneStatusBar: addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+05-20 00:03:48.758  7423  7423 D PhoneStatusBar: addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+05-20 00:03:48.798  7423  7423 D PhoneStatusBar: addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.android.camera2" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.android.gallery3d" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.android.calendar" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.music" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.android.settings" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.android.email" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+05-20 00:03:49.798  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.android.contacts" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.android.mms" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.android.browser" which is not locked for user(0)
+05-20 00:03:49.818  7260  7573 W PackageSettings: Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+05-20 00:03:49.878  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:50.058  7260  7361 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$20.run:12737 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+05-20 00:03:51.488  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:54.238  7536  7536 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166 
+05-20 00:03:54.818  7260  7402 I ActivityManager: Start proc com.smartisanos.tracker for service com.smartisanos.tracker/.service.TrackerService: pid=7794 uid=10040 gids={50040, 3003}
+05-20 00:03:55.418  7260  7371 I AlarmManager: checking heartbeats validation, mLastCheckRTC=0, nowRTC=1400544234999
+05-20 00:03:56.988  7260  7573 I PackageManager: Adding preferred activity ComponentInfo{com.smartisanos.setupwizard/com.smartisanos.setupwizard.SetupWizardActivity} for user 0 :
+05-20 00:03:57.178  7260  7271 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smartisanos.setupwizard/.SetupWizardActivity} from pid 7568
+05-20 00:03:57.758  7260  7274 E WindowManager: use package drawable background
+05-20 00:03:57.808  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:57.838  7260  7600 I ActivityManager: Start proc com.smartisanos.setupwizard for activity com.smartisanos.setupwizard/.SetupWizardActivity: pid=7816 uid=10072 gids={50072}
+05-20 00:03:57.908  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:03:58.128  7260  7271 I ActivityManager: Start proc com.android.incallui for service com.android.incallui/.CallHandlerService: pid=7832 uid=10008 gids={50008, 3003, 1028, 1015}
+05-20 00:03:58.198  7260  7260 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185 android.media.AudioService.getBluetoothHeadset:2390 
+05-20 00:03:58.348  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:03:58.498  7260  7693 I ActivityManager: START u0 {cmp=com.android.settings/.inputmethod.LocalePickerActivity (has extras)} from pid 7816
+05-20 00:03:58.658  7260  7357 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c07328
+05-20 00:03:58.778  7260  7413 D WindowManager.STA: IconCellShoter unlockTouch
+05-20 00:03:58.798  7816  7816 D TAG     : disable what:65536
+05-20 00:03:58.808  7260  7626 D StatusBarManagerService: disableInternal
+05-20 00:03:58.808  7260  7626 D StatusBarManagerService: manageDisableList userId=0 what=0x10000 pkg=com.smartisanos.setupwizard token:android.os.BinderProxy@41c55da0

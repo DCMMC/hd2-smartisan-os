@@ -1,0 +1,25 @@
+{
+  "user_feedback": "声音和振动可以了，其他还是不行；停止修复，归档并发布",
+  "image_files_verified": [
+    "etc/pulse/arm_droid_default.pa",
+    "usr/share/ngfd/plugins.d/resource.ini",
+    "system/build.prop",
+    "lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko",
+    "etc/hd2-build-status.json"
+  ],
+  "hardware": {
+    "audio": "PulseAudio primary rate 48000 -> 44100; paplay succeeded; user confirms sound",
+    "vibration": "ngfd media.vibra maps to droid-vibrator; direct HAL test returned 0; user confirms vibration",
+    "wifi": "bcm4329 standard WEXT scan rejection removed; ConnMan enumerated 7 services; user still reports Wi-Fi not working",
+    "camera": "persist.camera.shutter.disable=1 removes CameraService AudioFlinger wait; preview buffer allocation still fails",
+    "excluded_experiment": "Temporary debug.composition.type=gpu did not fix preview and is not included in the image"
+  },
+  "limitations": [
+    "Wi-Fi not working for user despite successful scan enumeration",
+    "Camera black preview: minisf gralloc -ENOMEM and BufferQueue dequeue errors",
+    "Calls, cellular data, GPS, Bluetooth, sensors and suspend not validated",
+    "Whole-process cgroup migration through tasks remains unverified",
+    "Donor RPM metadata remains; no supported official OTA updates",
+    "Repacked clean image not cold-boot tested; patches tested incrementally on the phone"
+  ]
+}

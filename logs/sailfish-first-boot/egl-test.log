@@ -1,0 +1,1 @@
+test_egl: test_egl.c:64: main: Assertion `eglGetError() == 0x3000' failed.

@@ -1,0 +1,4 @@
+uid=2000(shell) gid=2000(shell) groups=1003(graphics),1004(input),1007(log),1009(mount),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats)
+Linux Jolla 2.6.32_tytung_jellybean_r2 #2 PREEMPT Sat Oct 17 04:03:54 CST 2026 armv7l armv7l armv7l GNU/Linux
+rel_path=HD2-SF
+sailfish-hybris-leo

@@ -1,0 +1,29 @@
+Linux Jolla 2.6.32_tytung_jellybean_r2 #4 PREEMPT Sat Oct 17 04:16:20 CST 2026 armv7l armv7l armv7l GNU/Linux
+202.35 166.38
+0 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+        c1     100000 nemo             seat0           
+# This is private data. Do not parse.
+IS_SEAT0=1
+CAN_MULTI_SESSION=0
+CAN_TTY=0
+CAN_GRAPHICAL=1
+ACTIVE=c1
+ACTIVE_UID=100000
+SESSIONS=c1
+UIDS=100000
+0,0
+gre0
+ifb0
+ifb1
+ip6tnl0
+lo
+rmnet0
+rmnet1
+rmnet2
+sit0
+usb0
+wlan0
+52f636535e2d3ad2898a5109b9f941426261cdec9bf362c5494d2be1b1af170f  /usr/lib/libhybris/eglplatform_fbdev.so
+07a4e88b960b10696050ad9ac63bfe59d96d39281ba6a4d28247ac5b229ff131  /usr/lib/qt5/plugins/platforms/libhwcomposer.so
+48c8a410bec393c3a7bbd0c5b00f8b94ae7406c72d5b5efc5ecfcb5636675ba9  /usr/local/sbin/hd2-adbd

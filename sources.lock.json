@@ -1,0 +1,65 @@
+[
+  {
+    "directory": "sources/kernel-tytung",
+    "url": "https://github.com/tytung/android_kernel_htcleo-2.6.32.git",
+    "branch": "kitkat",
+    "commit": "52a4109e13f877d4bf97cbf03d3b640fa9cd98ce"
+  },
+  {
+    "directory": "sources/device-leo",
+    "url": "https://github.com/MarkDownUnder/android_device_htc_leo.git",
+    "branch": "cm-11.0",
+    "commit": "b18e59ba9ab6d4c7aaa50358cae8614b1bad45a1"
+  },
+  {
+    "directory": "sources/hybris-boot",
+    "url": "https://github.com/mer-hybris/hybris-boot.git",
+    "branch": "hybris-10.1",
+    "commit": "193bb4b7a0c953bc1ed23d738dccea8b58d48b5d"
+  },
+  {
+    "directory": "sources/toolchain-4.4.3",
+    "url": "https://github.com/Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3.git",
+    "branch": "kitkat",
+    "commit": "bfac9176b77d23ed7bff9d23f8969a1ca537fef1"
+  },
+  {
+    "file": "downloads/smartisan-2.0.0-sfo.zip",
+    "url": "https://archive.org/download/sdfsfo_202609/2.0.0-2015091200-user-sfo.zip",
+    "bytes": 948521315,
+    "upstream_md5": "548d563e531959c78c36354b50ca1a6f",
+    "sha256": "f388b28079896ae2be17887d78f8b005b47a2d4fb2b088cb749276354ba254bc"
+  },
+  {
+    "file": "downloads/NexusHD2-KitKat-CM11.0_V4.0.zip",
+    "url": "https://androidfilehost.com/?fid=23269279319197173",
+    "bytes": 211084920,
+    "upstream_md5": "96946ce3cf421700ec5830aff2c2ec8f",
+    "sha256": "751af9a0a6159b615637d0468f69aeff1e43b87833d4811a6634d40824ffa689"
+  },
+  {
+    "directory": "sources/droid-config-2011xperia",
+    "url": "https://github.com/mlehtima/droid-config-2011xperia.git",
+    "commit": "ae305cde19237378f8ec76f914a248e7f6cc8c7b",
+    "use": "Reference source; binaries supplied by the archived Sailfish donor"
+  },
+  {
+    "directory": "sources/droid-hal-2011xperia",
+    "url": "https://github.com/mlehtima/droid-hal-2011xperia.git",
+    "commit": "a5e667cef8f132614d7ab1e9afebb5604939f432",
+    "use": "Reference source; binaries supplied by the archived Sailfish donor"
+  },
+  {
+    "directory": "sources/qt5-qpa-hwcomposer-plugin",
+    "url": "https://github.com/mer-hybris/qt5-qpa-hwcomposer-plugin.git",
+    "commit": "31f4f6506702bd872ac47305fc8f8d75f2bb047b",
+    "use": "Reference source; binaries supplied by the archived Sailfish donor"
+  },
+  {
+    "file": "downloads/sailfishos-anzu-2.0.1.11-alpha4.zip",
+    "url": "https://archive.org/download/oldsailfishosimages/sailfishimages.ruecker.fi/sfa/anzu/alpha4/sailfishos-anzu-release-2.0.1.11-alpha4.zip",
+    "bytes": 279436294,
+    "upstream_md5": "c8aecd57515f2b4979caa20a1abd6ac1",
+    "sha256": "ef11d23b14e85190767afc5528c4abfe953fd09425cb3d74df24415016d11f19"
+  }
+]

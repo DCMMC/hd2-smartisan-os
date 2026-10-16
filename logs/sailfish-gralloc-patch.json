@@ -1,0 +1,71 @@
+[
+  {
+    "path": "usr/lib/libhybris/eglplatform_fbdev.so",
+    "input_sha256": "c7c5ae52f5edb3bcca55e3f2e49d23f68036c33e34de59b2a6fa2786e3a7ee69",
+    "output_sha256": "52f636535e2d3ad2898a5109b9f941426261cdec9bf362c5494d2be1b1af170f",
+    "patches": [
+      [
+        16208,
+        "d9f844c0",
+        "d9f840c0",
+        "buffer alloc 68 -> 64"
+      ],
+      [
+        11784,
+        "836c",
+        "436c",
+        "buffer free 72 -> 68"
+      ],
+      [
+        11378,
+        "0d46",
+        "0225",
+        "use two buffers for the 480x1600 HD2 framebuffer"
+      ]
+    ]
+  },
+  {
+    "path": "usr/lib/libhybris-eglplatformcommon.so.1.0.0",
+    "input_sha256": "013e93f16ff728231bc11dd65ad71dfbe79fa480817a0d6b87d84a20c524795d",
+    "output_sha256": "48967218eda21866ec8b192ae3605ff9a5aff395788c82c31d39bfb0e6b86325",
+    "patches": [
+      [
+        21450,
+        "446c",
+        "046c",
+        "native buffer alloc 68 -> 64"
+      ],
+      [
+        24026,
+        "836c",
+        "436c",
+        "native buffer free 72 -> 68"
+      ],
+      [
+        24418,
+        "d0f844c0",
+        "d0f840c0",
+        "Wayland server-side buffer alloc 68 -> 64"
+      ]
+    ]
+  },
+  {
+    "path": "usr/lib/libhybris-hwcomposerwindow.so.1.0.0",
+    "input_sha256": "857a21d33e5b0dc48221f411bfc6a5c4eccede5ff2a97fcaba9789861733c90e",
+    "output_sha256": "3e9e5817dc2e6638e1b4977c0c2531596202da2828640481594ac1c1c565104f",
+    "patches": [
+      [
+        13290,
+        "d9f844c0",
+        "d9f840c0",
+        "HWC buffer alloc 68 -> 64"
+      ],
+      [
+        9432,
+        "836c",
+        "436c",
+        "HWC buffer free 72 -> 68"
+      ]
+    ]
+  }
+]

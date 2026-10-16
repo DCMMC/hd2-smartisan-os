@@ -1,0 +1,1602 @@
+
+work/sailfish-stage/usr/libexec/droid-hybris/system/bin/minisfservice:     file format elf32-littlearm
+
+
+Disassembly of section .plt:
+
+0000aa30 <.plt>:
+    aa30:	e52de004 	push	{lr}		; (str lr, [sp, #-4]!)
+    aa34:	e59fe004 	ldr	lr, [pc, #4]	; aa40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x526>
+    aa38:	e08fe00e 	add	lr, pc, lr
+    aa3c:	e5bef008 	ldr	pc, [lr, #8]!
+    aa40:	00004444 	andeq	r4, r0, r4, asr #8
+    aa44:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa48:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa4c:	e5bcf444 	ldr	pc, [ip, #1092]!
+    aa50:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa54:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa58:	e5bcf43c 	ldr	pc, [ip, #1084]!
+    aa5c:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa60:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa64:	e5bcf434 	ldr	pc, [ip, #1076]!
+    aa68:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa6c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa70:	e5bcf42c 	ldr	pc, [ip, #1068]!
+    aa74:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa78:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa7c:	e5bcf424 	ldr	pc, [ip, #1060]!
+    aa80:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa84:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa88:	e5bcf41c 	ldr	pc, [ip, #1052]!
+    aa8c:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa90:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aa94:	e5bcf414 	ldr	pc, [ip, #1044]!
+    aa98:	e28fc600 	add	ip, pc, #0	; 0x0
+    aa9c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aaa0:	e5bcf40c 	ldr	pc, [ip, #1036]!
+    aaa4:	e28fc600 	add	ip, pc, #0	; 0x0
+    aaa8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aaac:	e5bcf404 	ldr	pc, [ip, #1028]!
+    aab0:	e28fc600 	add	ip, pc, #0	; 0x0
+    aab4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aab8:	e5bcf3fc 	ldr	pc, [ip, #1020]!
+    aabc:	e28fc600 	add	ip, pc, #0	; 0x0
+    aac0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aac4:	e5bcf3f4 	ldr	pc, [ip, #1012]!
+    aac8:	e28fc600 	add	ip, pc, #0	; 0x0
+    aacc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aad0:	e5bcf3ec 	ldr	pc, [ip, #1004]!
+    aad4:	e28fc600 	add	ip, pc, #0	; 0x0
+    aad8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aadc:	e5bcf3e4 	ldr	pc, [ip, #996]!
+    aae0:	e28fc600 	add	ip, pc, #0	; 0x0
+    aae4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aae8:	e5bcf3dc 	ldr	pc, [ip, #988]!
+    aaec:	e28fc600 	add	ip, pc, #0	; 0x0
+    aaf0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aaf4:	e5bcf3d4 	ldr	pc, [ip, #980]!
+    aaf8:	e28fc600 	add	ip, pc, #0	; 0x0
+    aafc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab00:	e5bcf3cc 	ldr	pc, [ip, #972]!
+    ab04:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab08:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab0c:	e5bcf3c4 	ldr	pc, [ip, #964]!
+    ab10:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab14:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab18:	e5bcf3bc 	ldr	pc, [ip, #956]!
+    ab1c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab20:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab24:	e5bcf3b4 	ldr	pc, [ip, #948]!
+    ab28:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab2c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab30:	e5bcf3ac 	ldr	pc, [ip, #940]!
+    ab34:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab38:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab3c:	e5bcf3a4 	ldr	pc, [ip, #932]!
+    ab40:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab44:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab48:	e5bcf39c 	ldr	pc, [ip, #924]!
+    ab4c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab50:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab54:	e5bcf394 	ldr	pc, [ip, #916]!
+    ab58:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab5c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab60:	e5bcf38c 	ldr	pc, [ip, #908]!
+    ab64:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab68:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab6c:	e5bcf384 	ldr	pc, [ip, #900]!
+    ab70:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab74:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab78:	e5bcf37c 	ldr	pc, [ip, #892]!
+    ab7c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab80:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab84:	e5bcf374 	ldr	pc, [ip, #884]!
+    ab88:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab8c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab90:	e5bcf36c 	ldr	pc, [ip, #876]!
+    ab94:	e28fc600 	add	ip, pc, #0	; 0x0
+    ab98:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ab9c:	e5bcf364 	ldr	pc, [ip, #868]!
+    aba0:	e28fc600 	add	ip, pc, #0	; 0x0
+    aba4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aba8:	e5bcf35c 	ldr	pc, [ip, #860]!
+    abac:	e28fc600 	add	ip, pc, #0	; 0x0
+    abb0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abb4:	e5bcf354 	ldr	pc, [ip, #852]!
+    abb8:	e28fc600 	add	ip, pc, #0	; 0x0
+    abbc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abc0:	e5bcf34c 	ldr	pc, [ip, #844]!
+    abc4:	e28fc600 	add	ip, pc, #0	; 0x0
+    abc8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abcc:	e5bcf344 	ldr	pc, [ip, #836]!
+    abd0:	e28fc600 	add	ip, pc, #0	; 0x0
+    abd4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abd8:	e5bcf33c 	ldr	pc, [ip, #828]!
+    abdc:	e28fc600 	add	ip, pc, #0	; 0x0
+    abe0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abe4:	e5bcf334 	ldr	pc, [ip, #820]!
+    abe8:	e28fc600 	add	ip, pc, #0	; 0x0
+    abec:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abf0:	e5bcf32c 	ldr	pc, [ip, #812]!
+    abf4:	e28fc600 	add	ip, pc, #0	; 0x0
+    abf8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    abfc:	e5bcf324 	ldr	pc, [ip, #804]!
+    ac00:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac04:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac08:	e5bcf31c 	ldr	pc, [ip, #796]!
+    ac0c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac10:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac14:	e5bcf314 	ldr	pc, [ip, #788]!
+    ac18:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac1c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac20:	e5bcf30c 	ldr	pc, [ip, #780]!
+    ac24:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac28:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac2c:	e5bcf304 	ldr	pc, [ip, #772]!
+    ac30:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac34:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac38:	e5bcf2fc 	ldr	pc, [ip, #764]!
+    ac3c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac40:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac44:	e5bcf2f4 	ldr	pc, [ip, #756]!
+    ac48:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac4c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac50:	e5bcf2ec 	ldr	pc, [ip, #748]!
+    ac54:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac58:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac5c:	e5bcf2e4 	ldr	pc, [ip, #740]!
+    ac60:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac64:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac68:	e5bcf2dc 	ldr	pc, [ip, #732]!
+    ac6c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac70:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac74:	e5bcf2d4 	ldr	pc, [ip, #724]!
+    ac78:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac7c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac80:	e5bcf2cc 	ldr	pc, [ip, #716]!
+    ac84:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac88:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac8c:	e5bcf2c4 	ldr	pc, [ip, #708]!
+    ac90:	e28fc600 	add	ip, pc, #0	; 0x0
+    ac94:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ac98:	e5bcf2bc 	ldr	pc, [ip, #700]!
+    ac9c:	e28fc600 	add	ip, pc, #0	; 0x0
+    aca0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    aca4:	e5bcf2b4 	ldr	pc, [ip, #692]!
+    aca8:	e28fc600 	add	ip, pc, #0	; 0x0
+    acac:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acb0:	e5bcf2ac 	ldr	pc, [ip, #684]!
+    acb4:	e28fc600 	add	ip, pc, #0	; 0x0
+    acb8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acbc:	e5bcf2a4 	ldr	pc, [ip, #676]!
+    acc0:	e28fc600 	add	ip, pc, #0	; 0x0
+    acc4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acc8:	e5bcf29c 	ldr	pc, [ip, #668]!
+    accc:	e28fc600 	add	ip, pc, #0	; 0x0
+    acd0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acd4:	e5bcf294 	ldr	pc, [ip, #660]!
+    acd8:	e28fc600 	add	ip, pc, #0	; 0x0
+    acdc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ace0:	e5bcf28c 	ldr	pc, [ip, #652]!
+    ace4:	e28fc600 	add	ip, pc, #0	; 0x0
+    ace8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acec:	e5bcf284 	ldr	pc, [ip, #644]!
+    acf0:	e28fc600 	add	ip, pc, #0	; 0x0
+    acf4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    acf8:	e5bcf27c 	ldr	pc, [ip, #636]!
+    acfc:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad00:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad04:	e5bcf274 	ldr	pc, [ip, #628]!
+    ad08:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad0c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad10:	e5bcf26c 	ldr	pc, [ip, #620]!
+    ad14:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad18:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad1c:	e5bcf264 	ldr	pc, [ip, #612]!
+    ad20:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad24:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad28:	e5bcf25c 	ldr	pc, [ip, #604]!
+    ad2c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad30:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad34:	e5bcf254 	ldr	pc, [ip, #596]!
+    ad38:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad3c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad40:	e5bcf24c 	ldr	pc, [ip, #588]!
+    ad44:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad48:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad4c:	e5bcf244 	ldr	pc, [ip, #580]!
+    ad50:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad54:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad58:	e5bcf23c 	ldr	pc, [ip, #572]!
+    ad5c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad60:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad64:	e5bcf234 	ldr	pc, [ip, #564]!
+    ad68:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad6c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad70:	e5bcf22c 	ldr	pc, [ip, #556]!
+    ad74:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad78:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad7c:	e5bcf224 	ldr	pc, [ip, #548]!
+    ad80:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad84:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad88:	e5bcf21c 	ldr	pc, [ip, #540]!
+    ad8c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad90:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ad94:	e5bcf214 	ldr	pc, [ip, #532]!
+    ad98:	e28fc600 	add	ip, pc, #0	; 0x0
+    ad9c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ada0:	e5bcf20c 	ldr	pc, [ip, #524]!
+    ada4:	e28fc600 	add	ip, pc, #0	; 0x0
+    ada8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    adac:	e5bcf204 	ldr	pc, [ip, #516]!
+    adb0:	e28fc600 	add	ip, pc, #0	; 0x0
+    adb4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    adb8:	e5bcf1fc 	ldr	pc, [ip, #508]!
+    adbc:	e28fc600 	add	ip, pc, #0	; 0x0
+    adc0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    adc4:	e5bcf1f4 	ldr	pc, [ip, #500]!
+    adc8:	e28fc600 	add	ip, pc, #0	; 0x0
+    adcc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    add0:	e5bcf1ec 	ldr	pc, [ip, #492]!
+    add4:	e28fc600 	add	ip, pc, #0	; 0x0
+    add8:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    addc:	e5bcf1e4 	ldr	pc, [ip, #484]!
+    ade0:	e28fc600 	add	ip, pc, #0	; 0x0
+    ade4:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ade8:	e5bcf1dc 	ldr	pc, [ip, #476]!
+    adec:	e28fc600 	add	ip, pc, #0	; 0x0
+    adf0:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    adf4:	e5bcf1d4 	ldr	pc, [ip, #468]!
+    adf8:	e28fc600 	add	ip, pc, #0	; 0x0
+    adfc:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae00:	e5bcf1cc 	ldr	pc, [ip, #460]!
+    ae04:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae08:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae0c:	e5bcf1c4 	ldr	pc, [ip, #452]!
+    ae10:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae14:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae18:	e5bcf1bc 	ldr	pc, [ip, #444]!
+    ae1c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae20:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae24:	e5bcf1b4 	ldr	pc, [ip, #436]!
+    ae28:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae2c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae30:	e5bcf1ac 	ldr	pc, [ip, #428]!
+    ae34:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae38:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae3c:	e5bcf1a4 	ldr	pc, [ip, #420]!
+    ae40:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae44:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae48:	e5bcf19c 	ldr	pc, [ip, #412]!
+    ae4c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae50:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae54:	e5bcf194 	ldr	pc, [ip, #404]!
+    ae58:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae5c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae60:	e5bcf18c 	ldr	pc, [ip, #396]!
+    ae64:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae68:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae6c:	e5bcf184 	ldr	pc, [ip, #388]!
+    ae70:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae74:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae78:	e5bcf17c 	ldr	pc, [ip, #380]!
+    ae7c:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae80:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae84:	e5bcf174 	ldr	pc, [ip, #372]!
+    ae88:	e28fc600 	add	ip, pc, #0	; 0x0
+    ae8c:	e28cca04 	add	ip, ip, #16384	; 0x4000
+    ae90:	e5bcf16c 	ldr	pc, [ip, #364]!
+
+Disassembly of section .text:
+
+0000ae94 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0xd2>:
+    ae94:	e92d4800 	push	{fp, lr}
+    ae98:	e28db004 	add	fp, sp, #4	; 0x4
+    ae9c:	e24dd010 	sub	sp, sp, #16	; 0x10
+    aea0:	e59f3050 	ldr	r3, [pc, #80]	; aef8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x6e>
+    aea4:	e08f3003 	add	r3, pc, r3
+    aea8:	e59f204c 	ldr	r2, [pc, #76]	; aefc <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x6a>
+    aeac:	e7932002 	ldr	r2, [r3, r2]
+    aeb0:	e50b2014 	str	r2, [fp, #-20]
+    aeb4:	e59f2044 	ldr	r2, [pc, #68]	; af00 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x66>
+    aeb8:	e7932002 	ldr	r2, [r3, r2]
+    aebc:	e50b2010 	str	r2, [fp, #-16]
+    aec0:	e59f203c 	ldr	r2, [pc, #60]	; af04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x62>
+    aec4:	e7932002 	ldr	r2, [r3, r2]
+    aec8:	e50b200c 	str	r2, [fp, #-12]
+    aecc:	e1a0200b 	mov	r2, fp
+    aed0:	e2822004 	add	r2, r2, #4	; 0x4
+    aed4:	e50b2008 	str	r2, [fp, #-8]
+    aed8:	e24bc014 	sub	ip, fp, #20	; 0x14
+    aedc:	e51b0008 	ldr	r0, [fp, #-8]
+    aee0:	e3a01000 	mov	r1, #0	; 0x0
+    aee4:	e59f201c 	ldr	r2, [pc, #28]	; af08 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x5e>
+    aee8:	e7933002 	ldr	r3, [r3, r2]
+    aeec:	e1a02003 	mov	r2, r3
+    aef0:	e1a0300c 	mov	r3, ip
+    aef4:	ebfffed2 	bl	aa44 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x522>
+    aef8:	00003fd8 	ldrdeq	r3, [r0], -r8
+    aefc:	ffffff6c 	undefined instruction 0xffffff6c
+    af00:	ffffff70 	undefined instruction 0xffffff70
+    af04:	ffffff74 	undefined instruction 0xffffff74
+    af08:	ffffff78 	undefined instruction 0xffffff78
+    af0c:	e92d4800 	push	{fp, lr}
+    af10:	e28db004 	add	fp, sp, #4	; 0x4
+    af14:	e24dd008 	sub	sp, sp, #8	; 0x8
+    af18:	e50b0008 	str	r0, [fp, #-8]
+    af1c:	e51b0008 	ldr	r0, [fp, #-8]
+    af20:	e3a01000 	mov	r1, #0	; 0x0
+    af24:	e59f3018 	ldr	r3, [pc, #24]	; af44 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x22>
+    af28:	e08f3003 	add	r3, pc, r3
+    af2c:	e1a02003 	mov	r2, r3
+    af30:	ebfffec6 	bl	aa50 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x516>
+    af34:	e1a03000 	mov	r3, r0
+    af38:	e1a00003 	mov	r0, r3
+    af3c:	e24bd004 	sub	sp, fp, #4	; 0x4
+    af40:	e8bd8800 	pop	{fp, pc}
+    af44:	000040d0 	ldrdeq	r4, [r0], -r0
+    af48:	f1a04770 	undefined instruction 0xf1a04770
+    af4c:	e7fb0010 	undefined
+    af50:	60022200 	andvs	r2, r2, r0, lsl #4
+    af54:	47704770 	undefined
+    af58:	0015f06f 	andseq	pc, r5, pc, rrx
+    af5c:	20014770 	andcs	r4, r1, r0, ror r7
+    af60:	20004770 	andcs	r4, r0, r0, ror r7
+    af64:	30044770 	andcc	r4, r4, r0, ror r7
+
+0000af66 <android::BnInterface<android::IAppOpsService>::onAsBinder()>:
+    af66:	3004      	adds	r0, #4
+    af68:	4770      	bx	lr
+    af6a:	f000 be5b 	b.w	bc24 <android::sp<android::ProcessState>::~sp()+0x954>
+    af6e:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    af72:	e7fa      	b.n	af6a <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x4>
+    af74:	f000 be5a 	b.w	bc2c <android::sp<android::ProcessState>::~sp()+0x95c>
+    af78:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    af7c:	e7fa      	b.n	af74 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xe>
+    af7e:	f000 be59 	b.w	bc34 <android::sp<android::ProcessState>::~sp()+0x964>
+    af82:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    af86:	e7fa      	b.n	af7e <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x18>
+    af88:	4b08      	ldr	r3, [pc, #32]	(afac <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x46>)
+    af8a:	4a09      	ldr	r2, [pc, #36]	(afb0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x4a>)
+    af8c:	447b      	add	r3, pc
+    af8e:	b510      	push	{r4, lr}
+    af90:	4604      	mov	r4, r0
+    af92:	589b      	ldr	r3, [r3, r2]
+    af94:	f103 000c 	add.w	r0, r3, #12	; 0xc
+    af98:	6020      	str	r0, [r4, #0]
+    af9a:	4620      	mov	r0, r4
+    af9c:	3334      	adds	r3, #52
+    af9e:	f840 3f04 	str.w	r3, [r0, #4]!
+    afa2:	f7ff ed6e 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    afa6:	4620      	mov	r0, r4
+    afa8:	bd10      	pop	{r4, pc}
+    afaa:	bf00      	nop
+    afac:	3ef4      	subs	r6, #244
+    afae:	0000      	lsls	r0, r0, #0
+    afb0:	ff7c ffff 	undefined
+    afb4:	6803      	ldr	r3, [r0, #0]
+    afb6:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    afba:	1840      	adds	r0, r0, r1
+    afbc:	e7e4      	b.n	af88 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x22>
+    afbe:	bf00      	nop
+    afc0:	b510      	push	{r4, lr}
+    afc2:	4604      	mov	r4, r0
+    afc4:	f7ff ffe0 	bl	af88 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x22>
+    afc8:	4620      	mov	r0, r4
+    afca:	f7ff ed60 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    afce:	4620      	mov	r0, r4
+    afd0:	bd10      	pop	{r4, pc}
+    afd2:	6803      	ldr	r3, [r0, #0]
+    afd4:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    afd8:	1840      	adds	r0, r0, r1
+    afda:	e7f1      	b.n	afc0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x5a>
+    afdc:	b538      	push	{r3, r4, r5, lr}
+    afde:	4604      	mov	r4, r0
+    afe0:	4b0f      	ldr	r3, [pc, #60]	(b020 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xba>)
+    afe2:	4a10      	ldr	r2, [pc, #64]	(b024 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xbe>)
+    afe4:	447b      	add	r3, pc
+    afe6:	f8df c040 	ldr.w	ip, [pc, #64]	; b028 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xc2>
+    afea:	589d      	ldr	r5, [r3, r2]
+    afec:	f105 010c 	add.w	r1, r5, #12	; 0xc
+    aff0:	6001      	str	r1, [r0, #0]
+    aff2:	f105 00c0 	add.w	r0, r5, #192	; 0xc0
+    aff6:	6120      	str	r0, [r4, #16]
+    aff8:	4620      	mov	r0, r4
+    affa:	3560      	adds	r5, #96
+    affc:	f840 5f04 	str.w	r5, [r0, #4]!
+    b000:	f853 500c 	ldr.w	r5, [r3, ip]
+    b004:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b008:	f7ff ed46 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b00c:	1d29      	adds	r1, r5, #4
+    b00e:	4620      	mov	r0, r4
+    b010:	f7ff ed48 	blx	aaa4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4c2>
+    b014:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b018:	f7ff ed32 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b01c:	4620      	mov	r0, r4
+    b01e:	bd38      	pop	{r3, r4, r5, pc}
+    b020:	3e9c      	subs	r6, #156
+    b022:	0000      	lsls	r0, r0, #0
+    b024:	ff80 ffff 	undefined
+    b028:	ff84 ffff 	undefined
+    b02c:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b030:	e7d4      	b.n	afdc <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x76>
+    b032:	6803      	ldr	r3, [r0, #0]
+    b034:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b038:	1840      	adds	r0, r0, r1
+    b03a:	e7cf      	b.n	afdc <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x76>
+    b03c:	b510      	push	{r4, lr}
+    b03e:	4604      	mov	r4, r0
+    b040:	f7ff ffcc 	bl	afdc <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x76>
+    b044:	4620      	mov	r0, r4
+    b046:	f7ff ed22 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b04a:	4620      	mov	r0, r4
+    b04c:	bd10      	pop	{r4, pc}
+    b04e:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b052:	e7f3      	b.n	b03c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xd6>
+    b054:	6803      	ldr	r3, [r0, #0]
+    b056:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b05a:	1840      	adds	r0, r0, r1
+    b05c:	e7ee      	b.n	b03c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xd6>
+    b05e:	0000      	lsls	r0, r0, #0
+    b060:	b538      	push	{r3, r4, r5, lr}
+    b062:	4604      	mov	r4, r0
+    b064:	4b0f      	ldr	r3, [pc, #60]	(b0a4 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x13e>)
+    b066:	4a10      	ldr	r2, [pc, #64]	(b0a8 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x142>)
+    b068:	447b      	add	r3, pc
+    b06a:	f8df c040 	ldr.w	ip, [pc, #64]	; b0ac <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x146>
+    b06e:	589d      	ldr	r5, [r3, r2]
+    b070:	f105 010c 	add.w	r1, r5, #12	; 0xc
+    b074:	6001      	str	r1, [r0, #0]
+    b076:	f105 00a8 	add.w	r0, r5, #168	; 0xa8
+    b07a:	6120      	str	r0, [r4, #16]
+    b07c:	4620      	mov	r0, r4
+    b07e:	3548      	adds	r5, #72
+    b080:	f840 5f04 	str.w	r5, [r0, #4]!
+    b084:	f853 500c 	ldr.w	r5, [r3, ip]
+    b088:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b08c:	f7ff ed04 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b090:	1d29      	adds	r1, r5, #4
+    b092:	4620      	mov	r0, r4
+    b094:	f7ff ed0c 	blx	aab0 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4b6>
+    b098:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b09c:	f7ff ecf0 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b0a0:	4620      	mov	r0, r4
+    b0a2:	bd38      	pop	{r3, r4, r5, pc}
+    b0a4:	3e18      	subs	r6, #24
+    b0a6:	0000      	lsls	r0, r0, #0
+    b0a8:	ff88 ffff 	undefined
+    b0ac:	ff8c ffff 	undefined
+    b0b0:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b0b4:	e7d4      	b.n	b060 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xfa>
+    b0b6:	6803      	ldr	r3, [r0, #0]
+    b0b8:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b0bc:	1840      	adds	r0, r0, r1
+    b0be:	e7cf      	b.n	b060 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xfa>
+    b0c0:	b510      	push	{r4, lr}
+    b0c2:	4604      	mov	r4, r0
+    b0c4:	f7ff ffcc 	bl	b060 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0xfa>
+    b0c8:	4620      	mov	r0, r4
+    b0ca:	f7ff ece0 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b0ce:	4620      	mov	r0, r4
+    b0d0:	bd10      	pop	{r4, pc}
+    b0d2:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b0d6:	e7f3      	b.n	b0c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x15a>
+    b0d8:	6803      	ldr	r3, [r0, #0]
+    b0da:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b0de:	1840      	adds	r0, r0, r1
+    b0e0:	e7ee      	b.n	b0c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x15a>
+    b0e2:	0000      	lsls	r0, r0, #0
+    b0e4:	b538      	push	{r3, r4, r5, lr}
+    b0e6:	4604      	mov	r4, r0
+    b0e8:	4b0f      	ldr	r3, [pc, #60]	(b128 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x1c2>)
+    b0ea:	4a10      	ldr	r2, [pc, #64]	(b12c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x1c6>)
+    b0ec:	447b      	add	r3, pc
+    b0ee:	f8df c040 	ldr.w	ip, [pc, #64]	; b130 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x1ca>
+    b0f2:	589d      	ldr	r5, [r3, r2]
+    b0f4:	f105 010c 	add.w	r1, r5, #12	; 0xc
+    b0f8:	6001      	str	r1, [r0, #0]
+    b0fa:	f105 0090 	add.w	r0, r5, #144	; 0x90
+    b0fe:	6120      	str	r0, [r4, #16]
+    b100:	4620      	mov	r0, r4
+    b102:	3530      	adds	r5, #48
+    b104:	f840 5f04 	str.w	r5, [r0, #4]!
+    b108:	f853 500c 	ldr.w	r5, [r3, ip]
+    b10c:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b110:	f7ff ecc2 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b114:	1d29      	adds	r1, r5, #4
+    b116:	4620      	mov	r0, r4
+    b118:	f7ff ecd0 	blx	aabc <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4aa>
+    b11c:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b120:	f7ff ecae 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b124:	4620      	mov	r0, r4
+    b126:	bd38      	pop	{r3, r4, r5, pc}
+    b128:	3d94      	subs	r5, #148
+    b12a:	0000      	lsls	r0, r0, #0
+    b12c:	ff90 ffff 	undefined
+    b130:	ff94 ffff 	undefined
+    b134:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b138:	e7d4      	b.n	b0e4 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x17e>
+    b13a:	6803      	ldr	r3, [r0, #0]
+    b13c:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b140:	1840      	adds	r0, r0, r1
+    b142:	e7cf      	b.n	b0e4 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x17e>
+    b144:	b510      	push	{r4, lr}
+    b146:	4604      	mov	r4, r0
+    b148:	f7ff ffcc 	bl	b0e4 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x17e>
+    b14c:	4620      	mov	r0, r4
+    b14e:	f7ff ec9e 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b152:	4620      	mov	r0, r4
+    b154:	bd10      	pop	{r4, pc}
+    b156:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b15a:	e7f3      	b.n	b144 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x1de>
+    b15c:	6803      	ldr	r3, [r0, #0]
+    b15e:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b162:	1840      	adds	r0, r0, r1
+    b164:	e7ee      	b.n	b144 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x1de>
+    b166:	b537      	push	{r0, r1, r2, r4, r5, lr}
+    b168:	4605      	mov	r5, r0
+    b16a:	201c      	movs	r0, #28
+    b16c:	f7ff ecac 	blx	aac8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x49e>
+    b170:	4604      	mov	r4, r0
+    b172:	f000 fd29 	bl	bbc8 <android::sp<android::ProcessState>::~sp()+0x8f8>
+    b176:	9401      	str	r4, [sp, #4]
+    b178:	b134      	cbz	r4, b188 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x222>
+    b17a:	6823      	ldr	r3, [r4, #0]
+    b17c:	a901      	add	r1, sp, #4
+    b17e:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b182:	1820      	adds	r0, r4, r0
+    b184:	f7ff eca6 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b188:	9901      	ldr	r1, [sp, #4]
+    b18a:	6029      	str	r1, [r5, #0]
+    b18c:	b131      	cbz	r1, b19c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x236>
+    b18e:	680a      	ldr	r2, [r1, #0]
+    b190:	f852 3c0c 	ldr.w	r3, [r2, #-12]
+    b194:	18c8      	adds	r0, r1, r3
+    b196:	4629      	mov	r1, r5
+    b198:	f7ff ec9c 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b19c:	9901      	ldr	r1, [sp, #4]
+    b19e:	b131      	cbz	r1, b1ae <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x248>
+    b1a0:	6808      	ldr	r0, [r1, #0]
+    b1a2:	f850 2c0c 	ldr.w	r2, [r0, #-12]
+    b1a6:	1888      	adds	r0, r1, r2
+    b1a8:	a901      	add	r1, sp, #4
+    b1aa:	f7ff ec9a 	blx	aae0 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x486>
+    b1ae:	4628      	mov	r0, r5
+    b1b0:	bd3e      	pop	{r1, r2, r3, r4, r5, pc}
+    b1b2:	6803      	ldr	r3, [r0, #0]
+    b1b4:	b10b      	cbz	r3, b1ba <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x254>
+    b1b6:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+    b1ba:	0858      	lsrs	r0, r3, #1
+    b1bc:	3801      	subs	r0, #1
+    b1be:	4770      	bx	lr
+    b1c0:	b570      	push	{r4, r5, r6, lr}
+    b1c2:	460c      	mov	r4, r1
+    b1c4:	4605      	mov	r5, r0
+    b1c6:	f7ff fff4 	bl	b1b2 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x24c>
+    b1ca:	4606      	mov	r6, r0
+    b1cc:	4620      	mov	r0, r4
+    b1ce:	f7ff fff0 	bl	b1b2 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x24c>
+    b1d2:	4631      	mov	r1, r6
+    b1d4:	6822      	ldr	r2, [r4, #0]
+    b1d6:	4603      	mov	r3, r0
+    b1d8:	6828      	ldr	r0, [r5, #0]
+    b1da:	f7ff ec88 	blx	aaec <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x47a>
+    b1de:	f1d0 0001 	rsbs	r0, r0, #1	; 0x1
+    b1e2:	bf38      	it	cc
+    b1e4:	2000      	movcc	r0, #0
+    b1e6:	bd70      	pop	{r4, r5, r6, pc}
+    b1e8:	b513      	push	{r0, r1, r4, lr}
+    b1ea:	460c      	mov	r4, r1
+    b1ec:	4907      	ldr	r1, [pc, #28]	(b20c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2a6>)
+    b1ee:	a801      	add	r0, sp, #4
+    b1f0:	4479      	add	r1, pc
+    b1f2:	f7ff ec82 	blx	aaf8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x46e>
+    b1f6:	a901      	add	r1, sp, #4
+    b1f8:	4620      	mov	r0, r4
+    b1fa:	f7ff ffe1 	bl	b1c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x25a>
+    b1fe:	4604      	mov	r4, r0
+    b200:	a801      	add	r0, sp, #4
+    b202:	f7ff ec80 	blx	ab04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x462>
+    b206:	4620      	mov	r0, r4
+    b208:	bd1c      	pop	{r2, r3, r4, pc}
+    b20a:	bf00      	nop
+    b20c:	0ce8      	lsrs	r0, r5, #19
+    b20e:	0000      	lsls	r0, r0, #0
+    b210:	b538      	push	{r3, r4, r5, lr}
+    b212:	460d      	mov	r5, r1
+    b214:	4b0a      	ldr	r3, [pc, #40]	(b240 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2da>)
+    b216:	4604      	mov	r4, r0
+    b218:	490a      	ldr	r1, [pc, #40]	(b244 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2de>)
+    b21a:	4610      	mov	r0, r2
+    b21c:	447b      	add	r3, pc
+    b21e:	5859      	ldr	r1, [r3, r1]
+    b220:	f7ff ffce 	bl	b1c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x25a>
+    b224:	b148      	cbz	r0, b23a <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2d4>
+    b226:	6025      	str	r5, [r4, #0]
+    b228:	b145      	cbz	r5, b23c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2d6>
+    b22a:	682b      	ldr	r3, [r5, #0]
+    b22c:	4621      	mov	r1, r4
+    b22e:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b232:	1828      	adds	r0, r5, r0
+    b234:	f7ff ec4e 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b238:	e000      	b.n	b23c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2d6>
+    b23a:	6020      	str	r0, [r4, #0]
+    b23c:	4620      	mov	r0, r4
+    b23e:	bd38      	pop	{r3, r4, r5, pc}
+    b240:	3c64      	subs	r4, #100
+    b242:	0000      	lsls	r0, r0, #0
+    b244:	ff98 ffff 	undefined
+    b248:	f1a1 0104 	sub.w	r1, r1, #4	; 0x4
+    b24c:	e7e0      	b.n	b210 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2aa>
+    b24e:	bf00      	nop
+    b250:	b538      	push	{r3, r4, r5, lr}
+    b252:	460d      	mov	r5, r1
+    b254:	4b0a      	ldr	r3, [pc, #40]	(b280 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x31a>)
+    b256:	4604      	mov	r4, r0
+    b258:	490a      	ldr	r1, [pc, #40]	(b284 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x31e>)
+    b25a:	4610      	mov	r0, r2
+    b25c:	447b      	add	r3, pc
+    b25e:	5859      	ldr	r1, [r3, r1]
+    b260:	f7ff ffae 	bl	b1c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x25a>
+    b264:	b148      	cbz	r0, b27a <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x314>
+    b266:	6025      	str	r5, [r4, #0]
+    b268:	b145      	cbz	r5, b27c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x316>
+    b26a:	682b      	ldr	r3, [r5, #0]
+    b26c:	4621      	mov	r1, r4
+    b26e:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b272:	1828      	adds	r0, r5, r0
+    b274:	f7ff ec2e 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b278:	e000      	b.n	b27c <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x316>
+    b27a:	6020      	str	r0, [r4, #0]
+    b27c:	4620      	mov	r0, r4
+    b27e:	bd38      	pop	{r3, r4, r5, pc}
+    b280:	3c24      	subs	r4, #36
+    b282:	0000      	lsls	r0, r0, #0
+    b284:	ff9c ffff 	undefined
+    b288:	f1a1 0104 	sub.w	r1, r1, #4	; 0x4
+    b28c:	e7e0      	b.n	b250 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x2ea>
+    b28e:	bf00      	nop
+    b290:	b538      	push	{r3, r4, r5, lr}
+    b292:	460d      	mov	r5, r1
+    b294:	4b0a      	ldr	r3, [pc, #40]	(b2c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x35a>)
+    b296:	4604      	mov	r4, r0
+    b298:	490a      	ldr	r1, [pc, #40]	(b2c4 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x35e>)
+    b29a:	4610      	mov	r0, r2
+    b29c:	447b      	add	r3, pc
+    b29e:	5859      	ldr	r1, [r3, r1]
+    b2a0:	f7ff ff8e 	bl	b1c0 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x25a>
+    b2a4:	b148      	cbz	r0, b2ba <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x354>
+    b2a6:	6025      	str	r5, [r4, #0]
+    b2a8:	b145      	cbz	r5, b2bc <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x356>
+    b2aa:	682b      	ldr	r3, [r5, #0]
+    b2ac:	4621      	mov	r1, r4
+    b2ae:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b2b2:	1828      	adds	r0, r5, r0
+    b2b4:	f7ff ec0e 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b2b8:	e000      	b.n	b2bc <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x356>
+    b2ba:	6020      	str	r0, [r4, #0]
+    b2bc:	4620      	mov	r0, r4
+    b2be:	bd38      	pop	{r3, r4, r5, pc}
+    b2c0:	3be4      	subs	r3, #228
+    b2c2:	0000      	lsls	r0, r0, #0
+    b2c4:	ffa0 ffff 	undefined
+    b2c8:	f1a1 0104 	sub.w	r1, r1, #4	; 0x4
+    b2cc:	e7e0      	b.n	b290 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x32a>
+    b2ce:	bf00      	nop
+
+0000b2d0 <android::sp<android::ProcessState>::~sp()>:
+    b2d0:	b510      	push	{r4, lr}
+    b2d2:	4604      	mov	r4, r0
+    b2d4:	6803      	ldr	r3, [r0, #0]
+    b2d6:	b133      	cbz	r3, b2e6 <android::sp<android::ProcessState>::~sp()+0x16>
+    b2d8:	681a      	ldr	r2, [r3, #0]
+    b2da:	4621      	mov	r1, r4
+    b2dc:	f852 0c0c 	ldr.w	r0, [r2, #-12]
+    b2e0:	1818      	adds	r0, r3, r0
+    b2e2:	f7ff ebfe 	blx	aae0 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x486>
+    b2e6:	4620      	mov	r0, r4
+    b2e8:	bd10      	pop	{r4, pc}
+    b2ea:	b538      	push	{r3, r4, r5, lr}
+    b2ec:	4604      	mov	r4, r0
+    b2ee:	680b      	ldr	r3, [r1, #0]
+    b2f0:	460d      	mov	r5, r1
+    b2f2:	6003      	str	r3, [r0, #0]
+    b2f4:	6a4a      	ldr	r2, [r1, #36]
+    b2f6:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b2fa:	5022      	str	r2, [r4, r0]
+    b2fc:	4620      	mov	r0, r4
+    b2fe:	6a89      	ldr	r1, [r1, #40]
+    b300:	f840 1f04 	str.w	r1, [r0, #4]!
+    b304:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b308:	f7ff ebc6 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b30c:	4620      	mov	r0, r4
+    b30e:	1d29      	adds	r1, r5, #4
+    b310:	f7ff ebd4 	blx	aabc <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4aa>
+    b314:	4620      	mov	r0, r4
+    b316:	bd38      	pop	{r3, r4, r5, pc}
+    b318:	4b0d      	ldr	r3, [pc, #52]	(b350 <android::sp<android::ProcessState>::~sp()+0x80>)
+    b31a:	4a0e      	ldr	r2, [pc, #56]	(b354 <android::sp<android::ProcessState>::~sp()+0x84>)
+    b31c:	447b      	add	r3, pc
+    b31e:	f8df c038 	ldr.w	ip, [pc, #56]	; b358 <android::sp<android::ProcessState>::~sp()+0x88>
+    b322:	b510      	push	{r4, lr}
+    b324:	4604      	mov	r4, r0
+    b326:	589a      	ldr	r2, [r3, r2]
+    b328:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b32c:	6001      	str	r1, [r0, #0]
+    b32e:	f102 0194 	add.w	r1, r2, #148	; 0x94
+    b332:	3234      	adds	r2, #52
+    b334:	6101      	str	r1, [r0, #16]
+    b336:	6042      	str	r2, [r0, #4]
+    b338:	f853 300c 	ldr.w	r3, [r3, ip]
+    b33c:	1d19      	adds	r1, r3, #4
+    b33e:	f7ff ffd4 	bl	b2ea <android::sp<android::ProcessState>::~sp()+0x1a>
+    b342:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b346:	f7ff eb9c 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b34a:	4620      	mov	r0, r4
+    b34c:	bd10      	pop	{r4, pc}
+    b34e:	bf00      	nop
+    b350:	3b64      	subs	r3, #100
+    b352:	0000      	lsls	r0, r0, #0
+    b354:	ffa4 ffff 	undefined
+    b358:	ffa8 ffff 	undefined
+    b35c:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b360:	e7da      	b.n	b318 <android::sp<android::ProcessState>::~sp()+0x48>
+    b362:	6803      	ldr	r3, [r0, #0]
+    b364:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b368:	1840      	adds	r0, r0, r1
+    b36a:	e7d5      	b.n	b318 <android::sp<android::ProcessState>::~sp()+0x48>
+    b36c:	b510      	push	{r4, lr}
+    b36e:	4604      	mov	r4, r0
+    b370:	f7ff ffd2 	bl	b318 <android::sp<android::ProcessState>::~sp()+0x48>
+    b374:	4620      	mov	r0, r4
+    b376:	f7ff eb8a 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b37a:	4620      	mov	r0, r4
+    b37c:	bd10      	pop	{r4, pc}
+    b37e:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b382:	e7f3      	b.n	b36c <android::sp<android::ProcessState>::~sp()+0x9c>
+    b384:	6803      	ldr	r3, [r0, #0]
+    b386:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b38a:	1840      	adds	r0, r0, r1
+    b38c:	e7ee      	b.n	b36c <android::sp<android::ProcessState>::~sp()+0x9c>
+    b38e:	0000      	lsls	r0, r0, #0
+    b390:	4b0d      	ldr	r3, [pc, #52]	(b3c8 <android::sp<android::ProcessState>::~sp()+0xf8>)
+    b392:	4a0e      	ldr	r2, [pc, #56]	(b3cc <android::sp<android::ProcessState>::~sp()+0xfc>)
+    b394:	447b      	add	r3, pc
+    b396:	f8df c038 	ldr.w	ip, [pc, #56]	; b3d0 <android::sp<android::ProcessState>::~sp()+0x100>
+    b39a:	b510      	push	{r4, lr}
+    b39c:	4604      	mov	r4, r0
+    b39e:	589a      	ldr	r2, [r3, r2]
+    b3a0:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b3a4:	6001      	str	r1, [r0, #0]
+    b3a6:	f102 0194 	add.w	r1, r2, #148	; 0x94
+    b3aa:	3234      	adds	r2, #52
+    b3ac:	6101      	str	r1, [r0, #16]
+    b3ae:	6042      	str	r2, [r0, #4]
+    b3b0:	f853 100c 	ldr.w	r1, [r3, ip]
+    b3b4:	3108      	adds	r1, #8
+    b3b6:	f7ff ff98 	bl	b2ea <android::sp<android::ProcessState>::~sp()+0x1a>
+    b3ba:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b3be:	f7ff eb60 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b3c2:	4620      	mov	r0, r4
+    b3c4:	bd10      	pop	{r4, pc}
+    b3c6:	bf00      	nop
+    b3c8:	3aec      	subs	r2, #236
+    b3ca:	0000      	lsls	r0, r0, #0
+    b3cc:	ffac ffff 	undefined
+    b3d0:	ffb0 ffff 	undefined
+    b3d4:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b3d8:	e7da      	b.n	b390 <android::sp<android::ProcessState>::~sp()+0xc0>
+    b3da:	6803      	ldr	r3, [r0, #0]
+    b3dc:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b3e0:	1840      	adds	r0, r0, r1
+    b3e2:	e7d5      	b.n	b390 <android::sp<android::ProcessState>::~sp()+0xc0>
+    b3e4:	b510      	push	{r4, lr}
+    b3e6:	4604      	mov	r4, r0
+    b3e8:	f7ff ffd2 	bl	b390 <android::sp<android::ProcessState>::~sp()+0xc0>
+    b3ec:	4620      	mov	r0, r4
+    b3ee:	f7ff eb4e 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b3f2:	4620      	mov	r0, r4
+    b3f4:	bd10      	pop	{r4, pc}
+    b3f6:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b3fa:	e7f3      	b.n	b3e4 <android::sp<android::ProcessState>::~sp()+0x114>
+    b3fc:	6803      	ldr	r3, [r0, #0]
+    b3fe:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b402:	1840      	adds	r0, r0, r1
+    b404:	e7ee      	b.n	b3e4 <android::sp<android::ProcessState>::~sp()+0x114>
+    b406:	0000      	lsls	r0, r0, #0
+    b408:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+    b40c:	b085      	sub	sp, #20
+    b40e:	4683      	mov	fp, r0
+    b410:	a801      	add	r0, sp, #4
+    b412:	f7ff eb7e 	blx	ab10 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x456>
+    b416:	9f01      	ldr	r7, [sp, #4]
+    b418:	4924      	ldr	r1, [pc, #144]	(b4ac <android::sp<android::ProcessState>::~sp()+0x1dc>)
+    b41a:	a802      	add	r0, sp, #8
+    b41c:	4d24      	ldr	r5, [pc, #144]	(b4b0 <android::sp<android::ProcessState>::~sp()+0x1e0>)
+    b41e:	683b      	ldr	r3, [r7, #0]
+    b420:	4479      	add	r1, pc
+    b422:	447d      	add	r5, pc
+    b424:	f8d3 9018 	ldr.w	r9, [r3, #24]
+    b428:	f7ff eb66 	blx	aaf8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x46e>
+    b42c:	2018      	movs	r0, #24
+    b42e:	f7ff eb4c 	blx	aac8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x49e>
+    b432:	2218      	movs	r2, #24
+    b434:	2100      	movs	r1, #0
+    b436:	4604      	mov	r4, r0
+    b438:	f104 0810 	add.w	r8, r4, #16	; 0x10
+    b43c:	f7ff eb6e 	blx	ab1c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x44a>
+    b440:	f104 0a04 	add.w	sl, r4, #4	; 0x4
+    b444:	4640      	mov	r0, r8
+    b446:	f7ff eb70 	blx	ab28 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x43e>
+    b44a:	481a      	ldr	r0, [pc, #104]	(b4b4 <android::sp<android::ProcessState>::~sp()+0x1e4>)
+    b44c:	582e      	ldr	r6, [r5, r0]
+    b44e:	4620      	mov	r0, r4
+    b450:	f106 010c 	add.w	r1, r6, #12	; 0xc
+    b454:	f7ff eb6e 	blx	ab34 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x432>
+    b458:	f106 011c 	add.w	r1, r6, #28	; 0x1c
+    b45c:	4650      	mov	r0, sl
+    b45e:	f7ff eb70 	blx	ab40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x426>
+    b462:	4915      	ldr	r1, [pc, #84]	(b4b8 <android::sp<android::ProcessState>::~sp()+0x1e8>)
+    b464:	4640      	mov	r0, r8
+    b466:	586a      	ldr	r2, [r5, r1]
+    b468:	f102 0394 	add.w	r3, r2, #148	; 0x94
+    b46c:	f102 050c 	add.w	r5, r2, #12	; 0xc
+    b470:	6123      	str	r3, [r4, #16]
+    b472:	3234      	adds	r2, #52
+    b474:	6025      	str	r5, [r4, #0]
+    b476:	6062      	str	r2, [r4, #4]
+    b478:	ac04      	add	r4, sp, #16
+    b47a:	f844 ad04 	str.w	sl, [r4, #-4]!
+    b47e:	4621      	mov	r1, r4
+    b480:	f7ff eb28 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b484:	a902      	add	r1, sp, #8
+    b486:	4622      	mov	r2, r4
+    b488:	465b      	mov	r3, fp
+    b48a:	4638      	mov	r0, r7
+    b48c:	47c8      	blx	r9
+    b48e:	4605      	mov	r5, r0
+    b490:	4620      	mov	r0, r4
+    b492:	f7ff ff1d 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b496:	a802      	add	r0, sp, #8
+    b498:	f7ff eb34 	blx	ab04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x462>
+    b49c:	a801      	add	r0, sp, #4
+    b49e:	f7ff ff17 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b4a2:	4628      	mov	r0, r5
+    b4a4:	b005      	add	sp, #20
+    b4a6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    b4aa:	bf00      	nop
+    b4ac:	0ad2      	lsrs	r2, r2, #11
+    b4ae:	0000      	lsls	r0, r0, #0
+    b4b0:	3a5e      	subs	r2, #94
+    b4b2:	0000      	lsls	r0, r0, #0
+    b4b4:	ffb0 ffff 	undefined
+    b4b8:	ffb4 ffff 	undefined
+    b4bc:	b538      	push	{r3, r4, r5, lr}
+    b4be:	4604      	mov	r4, r0
+    b4c0:	680b      	ldr	r3, [r1, #0]
+    b4c2:	460d      	mov	r5, r1
+    b4c4:	6003      	str	r3, [r0, #0]
+    b4c6:	6a4a      	ldr	r2, [r1, #36]
+    b4c8:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b4cc:	5022      	str	r2, [r4, r0]
+    b4ce:	4620      	mov	r0, r4
+    b4d0:	6a89      	ldr	r1, [r1, #40]
+    b4d2:	f840 1f04 	str.w	r1, [r0, #4]!
+    b4d6:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b4da:	f7ff eade 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b4de:	4620      	mov	r0, r4
+    b4e0:	1d29      	adds	r1, r5, #4
+    b4e2:	f7ff eae0 	blx	aaa4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4c2>
+    b4e6:	4620      	mov	r0, r4
+    b4e8:	bd38      	pop	{r3, r4, r5, pc}
+    b4ea:	0000      	lsls	r0, r0, #0
+    b4ec:	4b0d      	ldr	r3, [pc, #52]	(b524 <android::sp<android::ProcessState>::~sp()+0x254>)
+    b4ee:	4a0e      	ldr	r2, [pc, #56]	(b528 <android::sp<android::ProcessState>::~sp()+0x258>)
+    b4f0:	447b      	add	r3, pc
+    b4f2:	f8df c038 	ldr.w	ip, [pc, #56]	; b52c <android::sp<android::ProcessState>::~sp()+0x25c>
+    b4f6:	b510      	push	{r4, lr}
+    b4f8:	4604      	mov	r4, r0
+    b4fa:	589a      	ldr	r2, [r3, r2]
+    b4fc:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b500:	6001      	str	r1, [r0, #0]
+    b502:	f102 01c4 	add.w	r1, r2, #196	; 0xc4
+    b506:	3264      	adds	r2, #100
+    b508:	6101      	str	r1, [r0, #16]
+    b50a:	6042      	str	r2, [r0, #4]
+    b50c:	f853 300c 	ldr.w	r3, [r3, ip]
+    b510:	1d19      	adds	r1, r3, #4
+    b512:	f7ff ffd3 	bl	b4bc <android::sp<android::ProcessState>::~sp()+0x1ec>
+    b516:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b51a:	f7ff eab2 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b51e:	4620      	mov	r0, r4
+    b520:	bd10      	pop	{r4, pc}
+    b522:	bf00      	nop
+    b524:	3990      	subs	r1, #144
+    b526:	0000      	lsls	r0, r0, #0
+    b528:	ffb8 ffff 	undefined
+    b52c:	ffbc ffff 	undefined
+    b530:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b534:	e7da      	b.n	b4ec <android::sp<android::ProcessState>::~sp()+0x21c>
+    b536:	6803      	ldr	r3, [r0, #0]
+    b538:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b53c:	1840      	adds	r0, r0, r1
+    b53e:	e7d5      	b.n	b4ec <android::sp<android::ProcessState>::~sp()+0x21c>
+    b540:	b510      	push	{r4, lr}
+    b542:	4604      	mov	r4, r0
+    b544:	f7ff ffd2 	bl	b4ec <android::sp<android::ProcessState>::~sp()+0x21c>
+    b548:	4620      	mov	r0, r4
+    b54a:	f7ff eaa0 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b54e:	4620      	mov	r0, r4
+    b550:	bd10      	pop	{r4, pc}
+    b552:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b556:	e7f3      	b.n	b540 <android::sp<android::ProcessState>::~sp()+0x270>
+    b558:	6803      	ldr	r3, [r0, #0]
+    b55a:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b55e:	1840      	adds	r0, r0, r1
+    b560:	e7ee      	b.n	b540 <android::sp<android::ProcessState>::~sp()+0x270>
+    b562:	0000      	lsls	r0, r0, #0
+    b564:	4b10      	ldr	r3, [pc, #64]	(b5a8 <android::sp<android::ProcessState>::~sp()+0x2d8>)
+    b566:	4a11      	ldr	r2, [pc, #68]	(b5ac <android::sp<android::ProcessState>::~sp()+0x2dc>)
+    b568:	447b      	add	r3, pc
+    b56a:	f8df c044 	ldr.w	ip, [pc, #68]	; b5b0 <android::sp<android::ProcessState>::~sp()+0x2e0>
+    b56e:	b510      	push	{r4, lr}
+    b570:	4604      	mov	r4, r0
+    b572:	5899      	ldr	r1, [r3, r2]
+    b574:	f8df e03c 	ldr.w	lr, [pc, #60]	; b5b4 <android::sp<android::ProcessState>::~sp()+0x2e4>
+    b578:	310c      	adds	r1, #12
+    b57a:	6101      	str	r1, [r0, #16]
+    b57c:	f853 200c 	ldr.w	r2, [r3, ip]
+    b580:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b584:	6001      	str	r1, [r0, #0]
+    b586:	f102 01c4 	add.w	r1, r2, #196	; 0xc4
+    b58a:	3264      	adds	r2, #100
+    b58c:	6141      	str	r1, [r0, #20]
+    b58e:	6042      	str	r2, [r0, #4]
+    b590:	f853 100e 	ldr.w	r1, [r3, lr]
+    b594:	3108      	adds	r1, #8
+    b596:	f7ff ff91 	bl	b4bc <android::sp<android::ProcessState>::~sp()+0x1ec>
+    b59a:	f104 0014 	add.w	r0, r4, #20	; 0x14
+    b59e:	f7ff ea70 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b5a2:	4620      	mov	r0, r4
+    b5a4:	bd10      	pop	{r4, pc}
+    b5a6:	bf00      	nop
+    b5a8:	3918      	subs	r1, #24
+    b5aa:	0000      	lsls	r0, r0, #0
+    b5ac:	ffc0 ffff 	undefined
+    b5b0:	ffc4 ffff 	undefined
+    b5b4:	ffc8 ffff 	undefined
+    b5b8:	f1a0 0010 	sub.w	r0, r0, #16	; 0x10
+    b5bc:	e7d2      	b.n	b564 <android::sp<android::ProcessState>::~sp()+0x294>
+    b5be:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b5c2:	e7cf      	b.n	b564 <android::sp<android::ProcessState>::~sp()+0x294>
+    b5c4:	6803      	ldr	r3, [r0, #0]
+    b5c6:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b5ca:	1840      	adds	r0, r0, r1
+    b5cc:	e7ca      	b.n	b564 <android::sp<android::ProcessState>::~sp()+0x294>
+    b5ce:	bf00      	nop
+    b5d0:	b510      	push	{r4, lr}
+    b5d2:	4604      	mov	r4, r0
+    b5d4:	f7ff ffc6 	bl	b564 <android::sp<android::ProcessState>::~sp()+0x294>
+    b5d8:	4620      	mov	r0, r4
+    b5da:	f7ff ea58 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b5de:	4620      	mov	r0, r4
+    b5e0:	bd10      	pop	{r4, pc}
+    b5e2:	f1a0 0010 	sub.w	r0, r0, #16	; 0x10
+    b5e6:	e7f3      	b.n	b5d0 <android::sp<android::ProcessState>::~sp()+0x300>
+    b5e8:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b5ec:	e7f0      	b.n	b5d0 <android::sp<android::ProcessState>::~sp()+0x300>
+    b5ee:	6803      	ldr	r3, [r0, #0]
+    b5f0:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b5f4:	1840      	adds	r0, r0, r1
+    b5f6:	e7eb      	b.n	b5d0 <android::sp<android::ProcessState>::~sp()+0x300>
+    b5f8:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+    b5fc:	b085      	sub	sp, #20
+    b5fe:	4683      	mov	fp, r0
+    b600:	a801      	add	r0, sp, #4
+    b602:	f7ff ea86 	blx	ab10 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x456>
+    b606:	9f01      	ldr	r7, [sp, #4]
+    b608:	4925      	ldr	r1, [pc, #148]	(b6a0 <android::sp<android::ProcessState>::~sp()+0x3d0>)
+    b60a:	a802      	add	r0, sp, #8
+    b60c:	4d25      	ldr	r5, [pc, #148]	(b6a4 <android::sp<android::ProcessState>::~sp()+0x3d4>)
+    b60e:	683b      	ldr	r3, [r7, #0]
+    b610:	4479      	add	r1, pc
+    b612:	447d      	add	r5, pc
+    b614:	f8d3 9018 	ldr.w	r9, [r3, #24]
+    b618:	f7ff ea6e 	blx	aaf8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x46e>
+    b61c:	201c      	movs	r0, #28
+    b61e:	f7ff ea54 	blx	aac8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x49e>
+    b622:	221c      	movs	r2, #28
+    b624:	2100      	movs	r1, #0
+    b626:	4604      	mov	r4, r0
+    b628:	f104 0814 	add.w	r8, r4, #20	; 0x14
+    b62c:	f7ff ea76 	blx	ab1c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x44a>
+    b630:	f104 0a04 	add.w	sl, r4, #4	; 0x4
+    b634:	4640      	mov	r0, r8
+    b636:	f7ff ea78 	blx	ab28 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x43e>
+    b63a:	481b      	ldr	r0, [pc, #108]	(b6a8 <android::sp<android::ProcessState>::~sp()+0x3d8>)
+    b63c:	582e      	ldr	r6, [r5, r0]
+    b63e:	4620      	mov	r0, r4
+    b640:	f106 010c 	add.w	r1, r6, #12	; 0xc
+    b644:	f7ff ea82 	blx	ab4c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x41a>
+    b648:	f106 011c 	add.w	r1, r6, #28	; 0x1c
+    b64c:	4650      	mov	r0, sl
+    b64e:	f7ff ea78 	blx	ab40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x426>
+    b652:	4916      	ldr	r1, [pc, #88]	(b6ac <android::sp<android::ProcessState>::~sp()+0x3dc>)
+    b654:	586a      	ldr	r2, [r5, r1]
+    b656:	f102 03e0 	add.w	r3, r2, #224	; 0xe0
+    b65a:	f102 050c 	add.w	r5, r2, #12	; 0xc
+    b65e:	6163      	str	r3, [r4, #20]
+    b660:	f102 0068 	add.w	r0, r2, #104	; 0x68
+    b664:	6025      	str	r5, [r4, #0]
+    b666:	32b8      	adds	r2, #184
+    b668:	6060      	str	r0, [r4, #4]
+    b66a:	4640      	mov	r0, r8
+    b66c:	6122      	str	r2, [r4, #16]
+    b66e:	ac04      	add	r4, sp, #16
+    b670:	f844 ad04 	str.w	sl, [r4, #-4]!
+    b674:	4621      	mov	r1, r4
+    b676:	f7ff ea2e 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b67a:	a902      	add	r1, sp, #8
+    b67c:	4622      	mov	r2, r4
+    b67e:	465b      	mov	r3, fp
+    b680:	4638      	mov	r0, r7
+    b682:	47c8      	blx	r9
+    b684:	4605      	mov	r5, r0
+    b686:	4620      	mov	r0, r4
+    b688:	f7ff fe22 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b68c:	a802      	add	r0, sp, #8
+    b68e:	f7ff ea3a 	blx	ab04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x462>
+    b692:	a801      	add	r0, sp, #4
+    b694:	f7ff fe1c 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b698:	4628      	mov	r0, r5
+    b69a:	b005      	add	sp, #20
+    b69c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    b6a0:	08ed      	lsrs	r5, r5, #3
+    b6a2:	0000      	lsls	r0, r0, #0
+    b6a4:	386e      	subs	r0, #110
+    b6a6:	0000      	lsls	r0, r0, #0
+    b6a8:	ffc8 ffff 	undefined
+    b6ac:	ffcc ffff 	undefined
+    b6b0:	b538      	push	{r3, r4, r5, lr}
+    b6b2:	4604      	mov	r4, r0
+    b6b4:	680b      	ldr	r3, [r1, #0]
+    b6b6:	460d      	mov	r5, r1
+    b6b8:	6003      	str	r3, [r0, #0]
+    b6ba:	6a4a      	ldr	r2, [r1, #36]
+    b6bc:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    b6c0:	5022      	str	r2, [r4, r0]
+    b6c2:	4620      	mov	r0, r4
+    b6c4:	6a89      	ldr	r1, [r1, #40]
+    b6c6:	f840 1f04 	str.w	r1, [r0, #4]!
+    b6ca:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b6ce:	f7ff e9e4 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b6d2:	4620      	mov	r0, r4
+    b6d4:	1d29      	adds	r1, r5, #4
+    b6d6:	f7ff e9ec 	blx	aab0 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4b6>
+    b6da:	4620      	mov	r0, r4
+    b6dc:	bd38      	pop	{r3, r4, r5, pc}
+    b6de:	0000      	lsls	r0, r0, #0
+    b6e0:	4b0d      	ldr	r3, [pc, #52]	(b718 <android::sp<android::ProcessState>::~sp()+0x448>)
+    b6e2:	4a0e      	ldr	r2, [pc, #56]	(b71c <android::sp<android::ProcessState>::~sp()+0x44c>)
+    b6e4:	447b      	add	r3, pc
+    b6e6:	f8df c038 	ldr.w	ip, [pc, #56]	; b720 <android::sp<android::ProcessState>::~sp()+0x450>
+    b6ea:	b510      	push	{r4, lr}
+    b6ec:	4604      	mov	r4, r0
+    b6ee:	589a      	ldr	r2, [r3, r2]
+    b6f0:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b6f4:	6001      	str	r1, [r0, #0]
+    b6f6:	f102 01ac 	add.w	r1, r2, #172	; 0xac
+    b6fa:	324c      	adds	r2, #76
+    b6fc:	6101      	str	r1, [r0, #16]
+    b6fe:	6042      	str	r2, [r0, #4]
+    b700:	f853 300c 	ldr.w	r3, [r3, ip]
+    b704:	1d19      	adds	r1, r3, #4
+    b706:	f7ff ffd3 	bl	b6b0 <android::sp<android::ProcessState>::~sp()+0x3e0>
+    b70a:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b70e:	f7ff e9b8 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b712:	4620      	mov	r0, r4
+    b714:	bd10      	pop	{r4, pc}
+    b716:	bf00      	nop
+    b718:	379c      	adds	r7, #156
+    b71a:	0000      	lsls	r0, r0, #0
+    b71c:	ffd0 ffff 	undefined
+    b720:	ffd4 ffff 	undefined
+    b724:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b728:	e7da      	b.n	b6e0 <android::sp<android::ProcessState>::~sp()+0x410>
+    b72a:	6803      	ldr	r3, [r0, #0]
+    b72c:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b730:	1840      	adds	r0, r0, r1
+    b732:	e7d5      	b.n	b6e0 <android::sp<android::ProcessState>::~sp()+0x410>
+    b734:	b510      	push	{r4, lr}
+    b736:	4604      	mov	r4, r0
+    b738:	f7ff ffd2 	bl	b6e0 <android::sp<android::ProcessState>::~sp()+0x410>
+    b73c:	4620      	mov	r0, r4
+    b73e:	f7ff e9a6 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b742:	4620      	mov	r0, r4
+    b744:	bd10      	pop	{r4, pc}
+    b746:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b74a:	e7f3      	b.n	b734 <android::sp<android::ProcessState>::~sp()+0x464>
+    b74c:	6803      	ldr	r3, [r0, #0]
+    b74e:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b752:	1840      	adds	r0, r0, r1
+    b754:	e7ee      	b.n	b734 <android::sp<android::ProcessState>::~sp()+0x464>
+    b756:	0000      	lsls	r0, r0, #0
+    b758:	4b0d      	ldr	r3, [pc, #52]	(b790 <android::sp<android::ProcessState>::~sp()+0x4c0>)
+    b75a:	4a0e      	ldr	r2, [pc, #56]	(b794 <android::sp<android::ProcessState>::~sp()+0x4c4>)
+    b75c:	447b      	add	r3, pc
+    b75e:	f8df c038 	ldr.w	ip, [pc, #56]	; b798 <android::sp<android::ProcessState>::~sp()+0x4c8>
+    b762:	b510      	push	{r4, lr}
+    b764:	4604      	mov	r4, r0
+    b766:	589a      	ldr	r2, [r3, r2]
+    b768:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    b76c:	6001      	str	r1, [r0, #0]
+    b76e:	f102 01ac 	add.w	r1, r2, #172	; 0xac
+    b772:	324c      	adds	r2, #76
+    b774:	6101      	str	r1, [r0, #16]
+    b776:	6042      	str	r2, [r0, #4]
+    b778:	f853 100c 	ldr.w	r1, [r3, ip]
+    b77c:	3108      	adds	r1, #8
+    b77e:	f7ff ff97 	bl	b6b0 <android::sp<android::ProcessState>::~sp()+0x3e0>
+    b782:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b786:	f7ff e97c 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b78a:	4620      	mov	r0, r4
+    b78c:	bd10      	pop	{r4, pc}
+    b78e:	bf00      	nop
+    b790:	3724      	adds	r7, #36
+    b792:	0000      	lsls	r0, r0, #0
+    b794:	ffd8 ffff 	undefined
+    b798:	ffdc ffff 	undefined
+    b79c:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b7a0:	e7da      	b.n	b758 <android::sp<android::ProcessState>::~sp()+0x488>
+    b7a2:	6803      	ldr	r3, [r0, #0]
+    b7a4:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b7a8:	1840      	adds	r0, r0, r1
+    b7aa:	e7d5      	b.n	b758 <android::sp<android::ProcessState>::~sp()+0x488>
+    b7ac:	b510      	push	{r4, lr}
+    b7ae:	4604      	mov	r4, r0
+    b7b0:	f7ff ffd2 	bl	b758 <android::sp<android::ProcessState>::~sp()+0x488>
+    b7b4:	4620      	mov	r0, r4
+    b7b6:	f7ff e96a 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b7ba:	4620      	mov	r0, r4
+    b7bc:	bd10      	pop	{r4, pc}
+    b7be:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b7c2:	e7f3      	b.n	b7ac <android::sp<android::ProcessState>::~sp()+0x4dc>
+    b7c4:	6803      	ldr	r3, [r0, #0]
+    b7c6:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b7ca:	1840      	adds	r0, r0, r1
+    b7cc:	e7ee      	b.n	b7ac <android::sp<android::ProcessState>::~sp()+0x4dc>
+    b7ce:	0000      	lsls	r0, r0, #0
+    b7d0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+    b7d4:	b085      	sub	sp, #20
+    b7d6:	4683      	mov	fp, r0
+    b7d8:	a801      	add	r0, sp, #4
+    b7da:	f7ff e99a 	blx	ab10 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x456>
+    b7de:	9f01      	ldr	r7, [sp, #4]
+    b7e0:	4924      	ldr	r1, [pc, #144]	(b874 <android::sp<android::ProcessState>::~sp()+0x5a4>)
+    b7e2:	a802      	add	r0, sp, #8
+    b7e4:	4d24      	ldr	r5, [pc, #144]	(b878 <android::sp<android::ProcessState>::~sp()+0x5a8>)
+    b7e6:	683b      	ldr	r3, [r7, #0]
+    b7e8:	4479      	add	r1, pc
+    b7ea:	447d      	add	r5, pc
+    b7ec:	f8d3 9018 	ldr.w	r9, [r3, #24]
+    b7f0:	f7ff e982 	blx	aaf8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x46e>
+    b7f4:	2018      	movs	r0, #24
+    b7f6:	f7ff e968 	blx	aac8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x49e>
+    b7fa:	2218      	movs	r2, #24
+    b7fc:	2100      	movs	r1, #0
+    b7fe:	4604      	mov	r4, r0
+    b800:	f104 0810 	add.w	r8, r4, #16	; 0x10
+    b804:	f7ff e98a 	blx	ab1c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x44a>
+    b808:	f104 0a04 	add.w	sl, r4, #4	; 0x4
+    b80c:	4640      	mov	r0, r8
+    b80e:	f7ff e98c 	blx	ab28 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x43e>
+    b812:	481a      	ldr	r0, [pc, #104]	(b87c <android::sp<android::ProcessState>::~sp()+0x5ac>)
+    b814:	582e      	ldr	r6, [r5, r0]
+    b816:	4620      	mov	r0, r4
+    b818:	f106 010c 	add.w	r1, r6, #12	; 0xc
+    b81c:	f7ff e99c 	blx	ab58 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x40e>
+    b820:	f106 011c 	add.w	r1, r6, #28	; 0x1c
+    b824:	4650      	mov	r0, sl
+    b826:	f7ff e98c 	blx	ab40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x426>
+    b82a:	4915      	ldr	r1, [pc, #84]	(b880 <android::sp<android::ProcessState>::~sp()+0x5b0>)
+    b82c:	4640      	mov	r0, r8
+    b82e:	586a      	ldr	r2, [r5, r1]
+    b830:	f102 03ac 	add.w	r3, r2, #172	; 0xac
+    b834:	f102 050c 	add.w	r5, r2, #12	; 0xc
+    b838:	6123      	str	r3, [r4, #16]
+    b83a:	324c      	adds	r2, #76
+    b83c:	6025      	str	r5, [r4, #0]
+    b83e:	6062      	str	r2, [r4, #4]
+    b840:	ac04      	add	r4, sp, #16
+    b842:	f844 ad04 	str.w	sl, [r4, #-4]!
+    b846:	4621      	mov	r1, r4
+    b848:	f7ff e944 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b84c:	a902      	add	r1, sp, #8
+    b84e:	4622      	mov	r2, r4
+    b850:	465b      	mov	r3, fp
+    b852:	4638      	mov	r0, r7
+    b854:	47c8      	blx	r9
+    b856:	4605      	mov	r5, r0
+    b858:	4620      	mov	r0, r4
+    b85a:	f7ff fd39 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b85e:	a802      	add	r0, sp, #8
+    b860:	f7ff e950 	blx	ab04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x462>
+    b864:	a801      	add	r0, sp, #4
+    b866:	f7ff fd33 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b86a:	4628      	mov	r0, r5
+    b86c:	b005      	add	sp, #20
+    b86e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+    b872:	bf00      	nop
+    b874:	0724      	lsls	r4, r4, #28
+    b876:	0000      	lsls	r0, r0, #0
+    b878:	3696      	adds	r6, #150
+    b87a:	0000      	lsls	r0, r0, #0
+    b87c:	ffdc ffff 	undefined
+    b880:	ffe0 ffff 	undefined
+    b884:	b51f      	push	{r0, r1, r2, r3, r4, lr}
+    b886:	a801      	add	r0, sp, #4
+    b888:	f7ff e96c 	blx	ab64 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x402>
+    b88c:	a802      	add	r0, sp, #8
+    b88e:	f7ff e940 	blx	ab10 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x456>
+    b892:	2000      	movs	r0, #0
+    b894:	f7ff fdb8 	bl	b408 <android::sp<android::ProcessState>::~sp()+0x138>
+    b898:	2000      	movs	r0, #0
+    b89a:	f7ff fead 	bl	b5f8 <android::sp<android::ProcessState>::~sp()+0x328>
+    b89e:	2000      	movs	r0, #0
+    b8a0:	f7ff ff96 	bl	b7d0 <android::sp<android::ProcessState>::~sp()+0x500>
+    b8a4:	a803      	add	r0, sp, #12
+    b8a6:	f7ff e95e 	blx	ab64 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x402>
+    b8aa:	9803      	ldr	r0, [sp, #12]
+    b8ac:	f7ff e960 	blx	ab70 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x3f6>
+    b8b0:	a803      	add	r0, sp, #12
+    b8b2:	f7ff fd0d 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b8b6:	f7ff e962 	blx	ab7c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x3ea>
+    b8ba:	2101      	movs	r1, #1
+    b8bc:	f7ff e964 	blx	ab88 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x3de>
+    b8c0:	a802      	add	r0, sp, #8
+    b8c2:	f7ff fd05 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b8c6:	a801      	add	r0, sp, #4
+    b8c8:	f7ff fd02 	bl	b2d0 <android::sp<android::ProcessState>::~sp()>
+    b8cc:	2000      	movs	r0, #0
+    b8ce:	b005      	add	sp, #20
+    b8d0:	bd00      	pop	{pc}
+    b8d2:	6101      	str	r1, [r0, #16]
+    b8d4:	4770      	bx	lr
+    b8d6:	f000 b9b1 	b.w	bc3c <android::sp<android::ProcessState>::~sp()+0x96c>
+    b8da:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b8de:	e7fa      	b.n	b8d6 <android::sp<android::ProcessState>::~sp()+0x606>
+    b8e0:	b538      	push	{r3, r4, r5, lr}
+    b8e2:	4604      	mov	r4, r0
+    b8e4:	4b0f      	ldr	r3, [pc, #60]	(b924 <android::sp<android::ProcessState>::~sp()+0x654>)
+    b8e6:	4a10      	ldr	r2, [pc, #64]	(b928 <android::sp<android::ProcessState>::~sp()+0x658>)
+    b8e8:	447b      	add	r3, pc
+    b8ea:	f8df c040 	ldr.w	ip, [pc, #64]	; b92c <android::sp<android::ProcessState>::~sp()+0x65c>
+    b8ee:	589d      	ldr	r5, [r3, r2]
+    b8f0:	f105 010c 	add.w	r1, r5, #12	; 0xc
+    b8f4:	6001      	str	r1, [r0, #0]
+    b8f6:	f105 0094 	add.w	r0, r5, #148	; 0x94
+    b8fa:	6120      	str	r0, [r4, #16]
+    b8fc:	4620      	mov	r0, r4
+    b8fe:	3534      	adds	r5, #52
+    b900:	f840 5f04 	str.w	r5, [r0, #4]!
+    b904:	f853 500c 	ldr.w	r5, [r3, ip]
+    b908:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    b90c:	f7ff e8c4 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    b910:	1d29      	adds	r1, r5, #4
+    b912:	4620      	mov	r0, r4
+    b914:	f7ff ea76 	blx	ae04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x162>
+    b918:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    b91c:	f7ff e8b0 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    b920:	4620      	mov	r0, r4
+    b922:	bd38      	pop	{r3, r4, r5, pc}
+    b924:	3598      	adds	r5, #152
+    b926:	0000      	lsls	r0, r0, #0
+    b928:	ffe4 ffff 	undefined
+    b92c:	ffe8 ffff 	undefined
+    b930:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b934:	e7d4      	b.n	b8e0 <android::sp<android::ProcessState>::~sp()+0x610>
+    b936:	6803      	ldr	r3, [r0, #0]
+    b938:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b93c:	1840      	adds	r0, r0, r1
+    b93e:	e7cf      	b.n	b8e0 <android::sp<android::ProcessState>::~sp()+0x610>
+    b940:	b510      	push	{r4, lr}
+    b942:	4604      	mov	r4, r0
+    b944:	f7ff ffcc 	bl	b8e0 <android::sp<android::ProcessState>::~sp()+0x610>
+    b948:	4620      	mov	r0, r4
+    b94a:	f7ff e8a0 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    b94e:	4620      	mov	r0, r4
+    b950:	bd10      	pop	{r4, pc}
+    b952:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    b956:	e7f3      	b.n	b940 <android::sp<android::ProcessState>::~sp()+0x670>
+    b958:	6803      	ldr	r3, [r0, #0]
+    b95a:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    b95e:	1840      	adds	r0, r0, r1
+    b960:	e7ee      	b.n	b940 <android::sp<android::ProcessState>::~sp()+0x670>
+    b962:	0000      	lsls	r0, r0, #0
+    b964:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+    b968:	b088      	sub	sp, #32
+    b96a:	4604      	mov	r4, r0
+    b96c:	2078      	movs	r0, #120
+    b96e:	4616      	mov	r6, r2
+    b970:	4699      	mov	r9, r3
+    b972:	468a      	mov	sl, r1
+    b974:	f8dd 8040 	ldr.w	r8, [sp, #64]
+    b978:	9f11      	ldr	r7, [sp, #68]
+    b97a:	f7ff e8a6 	blx	aac8 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x49e>
+    b97e:	4631      	mov	r1, r6
+    b980:	464a      	mov	r2, r9
+    b982:	4643      	mov	r3, r8
+    b984:	9700      	str	r7, [sp, #0]
+    b986:	4605      	mov	r5, r0
+    b988:	f7ff ea42 	blx	ae10 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x156>
+    b98c:	9507      	str	r5, [sp, #28]
+    b98e:	b11d      	cbz	r5, b998 <android::sp<android::ProcessState>::~sp()+0x6c8>
+    b990:	4628      	mov	r0, r5
+    b992:	a907      	add	r1, sp, #28
+    b994:	f7ff e89e 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b998:	9807      	ldr	r0, [sp, #28]
+    b99a:	f7ff ea40 	blx	ae1c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x14a>
+    b99e:	9b12      	ldr	r3, [sp, #72]
+    b9a0:	6018      	str	r0, [r3, #0]
+    b9a2:	b948      	cbnz	r0, b9b8 <android::sp<android::ProcessState>::~sp()+0x6e8>
+    b9a4:	9d07      	ldr	r5, [sp, #28]
+    b9a6:	6c69      	ldr	r1, [r5, #68]
+    b9a8:	b9f9      	cbnz	r1, b9ea <android::sp<android::ProcessState>::~sp()+0x71a>
+    b9aa:	e005      	b.n	b9b8 <android::sp<android::ProcessState>::~sp()+0x6e8>
+    b9ac:	9807      	ldr	r0, [sp, #28]
+    b9ae:	b310      	cbz	r0, b9f6 <android::sp<android::ProcessState>::~sp()+0x726>
+    b9b0:	a907      	add	r1, sp, #28
+    b9b2:	f7ff e896 	blx	aae0 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x486>
+    b9b6:	e01e      	b.n	b9f6 <android::sp<android::ProcessState>::~sp()+0x726>
+    b9b8:	4240      	negs	r0, r0
+    b9ba:	f7ff ea36 	blx	ae28 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x13e>
+    b9be:	f8cd 9000 	str.w	r9, [sp]
+    b9c2:	f8da 3010 	ldr.w	r3, [sl, #16]
+    b9c6:	2100      	movs	r1, #0
+    b9c8:	9001      	str	r0, [sp, #4]
+    b9ca:	9807      	ldr	r0, [sp, #28]
+    b9cc:	6c42      	ldr	r2, [r0, #68]
+    b9ce:	2006      	movs	r0, #6
+    b9d0:	9305      	str	r3, [sp, #20]
+    b9d2:	4633      	mov	r3, r6
+    b9d4:	f8cd 800c 	str.w	r8, [sp, #12]
+    b9d8:	9202      	str	r2, [sp, #8]
+    b9da:	4a09      	ldr	r2, [pc, #36]	(ba00 <android::sp<android::ProcessState>::~sp()+0x730>)
+    b9dc:	9704      	str	r7, [sp, #16]
+    b9de:	447a      	add	r2, pc
+    b9e0:	f7ff ea28 	blx	ae34 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x132>
+    b9e4:	2100      	movs	r1, #0
+    b9e6:	6021      	str	r1, [r4, #0]
+    b9e8:	e7e0      	b.n	b9ac <android::sp<android::ProcessState>::~sp()+0x6dc>
+    b9ea:	6025      	str	r5, [r4, #0]
+    b9ec:	4628      	mov	r0, r5
+    b9ee:	4621      	mov	r1, r4
+    b9f0:	f7ff e870 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    b9f4:	e7da      	b.n	b9ac <android::sp<android::ProcessState>::~sp()+0x6dc>
+    b9f6:	4620      	mov	r0, r4
+    b9f8:	b008      	add	sp, #32
+    b9fa:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+    b9fe:	bf00      	nop
+    ba00:	0535      	lsls	r5, r6, #20
+    ba02:	0000      	lsls	r0, r0, #0
+    ba04:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+    ba08:	4604      	mov	r4, r0
+    ba0a:	4610      	mov	r0, r2
+    ba0c:	4616      	mov	r6, r2
+    ba0e:	460d      	mov	r5, r1
+    ba10:	f7ff fbcf 	bl	b1b2 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x24c>
+    ba14:	4f0e      	ldr	r7, [pc, #56]	(ba50 <android::sp<android::ProcessState>::~sp()+0x780>)
+    ba16:	4b0f      	ldr	r3, [pc, #60]	(ba54 <android::sp<android::ProcessState>::~sp()+0x784>)
+    ba18:	447f      	add	r7, pc
+    ba1a:	4680      	mov	r8, r0
+    ba1c:	58f8      	ldr	r0, [r7, r3]
+    ba1e:	6807      	ldr	r7, [r0, #0]
+    ba20:	f7ff fbc7 	bl	b1b2 <android::BnInterface<android::IAppOpsService>::onAsBinder()+0x24c>
+    ba24:	4641      	mov	r1, r8
+    ba26:	463a      	mov	r2, r7
+    ba28:	4603      	mov	r3, r0
+    ba2a:	6830      	ldr	r0, [r6, #0]
+    ba2c:	f7ff e85e 	blx	aaec <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x47a>
+    ba30:	b948      	cbnz	r0, ba46 <android::sp<android::ProcessState>::~sp()+0x776>
+    ba32:	6025      	str	r5, [r4, #0]
+    ba34:	b14d      	cbz	r5, ba4a <android::sp<android::ProcessState>::~sp()+0x77a>
+    ba36:	6829      	ldr	r1, [r5, #0]
+    ba38:	f851 2c0c 	ldr.w	r2, [r1, #-12]
+    ba3c:	4621      	mov	r1, r4
+    ba3e:	18a8      	adds	r0, r5, r2
+    ba40:	f7ff e848 	blx	aad4 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x492>
+    ba44:	e001      	b.n	ba4a <android::sp<android::ProcessState>::~sp()+0x77a>
+    ba46:	2000      	movs	r0, #0
+    ba48:	6020      	str	r0, [r4, #0]
+    ba4a:	4620      	mov	r0, r4
+    ba4c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+    ba50:	3468      	adds	r4, #104
+    ba52:	0000      	lsls	r0, r0, #0
+    ba54:	ffec ffff 	undefined
+    ba58:	f1a1 0104 	sub.w	r1, r1, #4	; 0x4
+    ba5c:	e7d2      	b.n	ba04 <android::sp<android::ProcessState>::~sp()+0x734>
+    ba5e:	bf00      	nop
+    ba60:	b538      	push	{r3, r4, r5, lr}
+    ba62:	4604      	mov	r4, r0
+    ba64:	680b      	ldr	r3, [r1, #0]
+    ba66:	460d      	mov	r5, r1
+    ba68:	6003      	str	r3, [r0, #0]
+    ba6a:	6a4a      	ldr	r2, [r1, #36]
+    ba6c:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    ba70:	5022      	str	r2, [r4, r0]
+    ba72:	4620      	mov	r0, r4
+    ba74:	6a89      	ldr	r1, [r1, #40]
+    ba76:	f840 1f04 	str.w	r1, [r0, #4]!
+    ba7a:	f105 0114 	add.w	r1, r5, #20	; 0x14
+    ba7e:	f7ff e80c 	blx	aa98 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4ce>
+    ba82:	4620      	mov	r0, r4
+    ba84:	1d29      	adds	r1, r5, #4
+    ba86:	f7ff e9be 	blx	ae04 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x162>
+    ba8a:	4620      	mov	r0, r4
+    ba8c:	bd38      	pop	{r3, r4, r5, pc}
+    ba8e:	0000      	lsls	r0, r0, #0
+    ba90:	4b0d      	ldr	r3, [pc, #52]	(bac8 <android::sp<android::ProcessState>::~sp()+0x7f8>)
+    ba92:	4a0e      	ldr	r2, [pc, #56]	(bacc <android::sp<android::ProcessState>::~sp()+0x7fc>)
+    ba94:	447b      	add	r3, pc
+    ba96:	f8df c038 	ldr.w	ip, [pc, #56]	; bad0 <android::sp<android::ProcessState>::~sp()+0x800>
+    ba9a:	b510      	push	{r4, lr}
+    ba9c:	4604      	mov	r4, r0
+    ba9e:	589a      	ldr	r2, [r3, r2]
+    baa0:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    baa4:	6001      	str	r1, [r0, #0]
+    baa6:	f102 0198 	add.w	r1, r2, #152	; 0x98
+    baaa:	3238      	adds	r2, #56
+    baac:	6101      	str	r1, [r0, #16]
+    baae:	6042      	str	r2, [r0, #4]
+    bab0:	f853 300c 	ldr.w	r3, [r3, ip]
+    bab4:	1d19      	adds	r1, r3, #4
+    bab6:	f7ff ffd3 	bl	ba60 <android::sp<android::ProcessState>::~sp()+0x790>
+    baba:	f104 0010 	add.w	r0, r4, #16	; 0x10
+    babe:	f7fe efe0 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    bac2:	4620      	mov	r0, r4
+    bac4:	bd10      	pop	{r4, pc}
+    bac6:	bf00      	nop
+    bac8:	33ec      	adds	r3, #236
+    baca:	0000      	lsls	r0, r0, #0
+    bacc:	fff0 ffff 	undefined
+    bad0:	fff4 ffff 	undefined
+    bad4:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    bad8:	e7da      	b.n	ba90 <android::sp<android::ProcessState>::~sp()+0x7c0>
+    bada:	6803      	ldr	r3, [r0, #0]
+    badc:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    bae0:	1840      	adds	r0, r0, r1
+    bae2:	e7d5      	b.n	ba90 <android::sp<android::ProcessState>::~sp()+0x7c0>
+    bae4:	b510      	push	{r4, lr}
+    bae6:	4604      	mov	r4, r0
+    bae8:	f7ff ffd2 	bl	ba90 <android::sp<android::ProcessState>::~sp()+0x7c0>
+    baec:	4620      	mov	r0, r4
+    baee:	f7fe efce 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    baf2:	4620      	mov	r0, r4
+    baf4:	bd10      	pop	{r4, pc}
+    baf6:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    bafa:	e7f3      	b.n	bae4 <android::sp<android::ProcessState>::~sp()+0x814>
+    bafc:	6803      	ldr	r3, [r0, #0]
+    bafe:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    bb02:	1840      	adds	r0, r0, r1
+    bb04:	e7ee      	b.n	bae4 <android::sp<android::ProcessState>::~sp()+0x814>
+    bb06:	b538      	push	{r3, r4, r5, lr}
+    bb08:	460d      	mov	r5, r1
+    bb0a:	f101 0108 	add.w	r1, r1, #8	; 0x8
+    bb0e:	4604      	mov	r4, r0
+    bb10:	f7ff e996 	blx	ae40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x126>
+    bb14:	f105 0118 	add.w	r1, r5, #24	; 0x18
+    bb18:	1d20      	adds	r0, r4, #4
+    bb1a:	f7ff e812 	blx	ab40 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x426>
+    bb1e:	686b      	ldr	r3, [r5, #4]
+    bb20:	6023      	str	r3, [r4, #0]
+    bb22:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    bb26:	6aaa      	ldr	r2, [r5, #40]
+    bb28:	5022      	str	r2, [r4, r0]
+    bb2a:	6ae9      	ldr	r1, [r5, #44]
+    bb2c:	6061      	str	r1, [r4, #4]
+    bb2e:	682b      	ldr	r3, [r5, #0]
+    bb30:	6023      	str	r3, [r4, #0]
+    bb32:	f853 0c0c 	ldr.w	r0, [r3, #-12]
+    bb36:	6b2a      	ldr	r2, [r5, #48]
+    bb38:	5022      	str	r2, [r4, r0]
+    bb3a:	4620      	mov	r0, r4
+    bb3c:	6b69      	ldr	r1, [r5, #52]
+    bb3e:	6061      	str	r1, [r4, #4]
+    bb40:	bd38      	pop	{r3, r4, r5, pc}
+    bb42:	b510      	push	{r4, lr}
+    bb44:	4604      	mov	r4, r0
+    bb46:	680b      	ldr	r3, [r1, #0]
+    bb48:	6003      	str	r3, [r0, #0]
+    bb4a:	6b0a      	ldr	r2, [r1, #48]
+    bb4c:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+    bb50:	50c2      	str	r2, [r0, r3]
+    bb52:	6b4a      	ldr	r2, [r1, #52]
+    bb54:	3104      	adds	r1, #4
+    bb56:	6042      	str	r2, [r0, #4]
+    bb58:	f7ff ff82 	bl	ba60 <android::sp<android::ProcessState>::~sp()+0x790>
+    bb5c:	4620      	mov	r0, r4
+    bb5e:	bd10      	pop	{r4, pc}
+    bb60:	4b0d      	ldr	r3, [pc, #52]	(bb98 <android::sp<android::ProcessState>::~sp()+0x8c8>)
+    bb62:	4a0e      	ldr	r2, [pc, #56]	(bb9c <android::sp<android::ProcessState>::~sp()+0x8cc>)
+    bb64:	447b      	add	r3, pc
+    bb66:	f8df c038 	ldr.w	ip, [pc, #56]	; bba0 <android::sp<android::ProcessState>::~sp()+0x8d0>
+    bb6a:	b510      	push	{r4, lr}
+    bb6c:	4604      	mov	r4, r0
+    bb6e:	589a      	ldr	r2, [r3, r2]
+    bb70:	f102 010c 	add.w	r1, r2, #12	; 0xc
+    bb74:	6001      	str	r1, [r0, #0]
+    bb76:	f102 0198 	add.w	r1, r2, #152	; 0x98
+    bb7a:	3238      	adds	r2, #56
+    bb7c:	6141      	str	r1, [r0, #20]
+    bb7e:	6042      	str	r2, [r0, #4]
+    bb80:	f853 300c 	ldr.w	r3, [r3, ip]
+    bb84:	1d19      	adds	r1, r3, #4
+    bb86:	f7ff ffdc 	bl	bb42 <android::sp<android::ProcessState>::~sp()+0x872>
+    bb8a:	f104 0014 	add.w	r0, r4, #20	; 0x14
+    bb8e:	f7fe ef78 	blx	aa80 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4e6>
+    bb92:	4620      	mov	r0, r4
+    bb94:	bd10      	pop	{r4, pc}
+    bb96:	bf00      	nop
+    bb98:	331c      	adds	r3, #28
+    bb9a:	0000      	lsls	r0, r0, #0
+    bb9c:	fff8 ffff 	undefined
+    bba0:	fffc ffff 	undefined
+    bba4:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    bba8:	f7ff bfda 	b.w	bb60 <android::sp<android::ProcessState>::~sp()+0x890>
+    bbac:	b510      	push	{r4, lr}
+    bbae:	4604      	mov	r4, r0
+    bbb0:	f7ff ffd6 	bl	bb60 <android::sp<android::ProcessState>::~sp()+0x890>
+    bbb4:	4620      	mov	r0, r4
+    bbb6:	f7fe ef6a 	blx	aa8c <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x4da>
+    bbba:	4620      	mov	r0, r4
+    bbbc:	bd10      	pop	{r4, pc}
+    bbbe:	f1a0 0004 	sub.w	r0, r0, #4	; 0x4
+    bbc2:	f7ff bff3 	b.w	bbac <android::sp<android::ProcessState>::~sp()+0x8dc>
+    bbc6:	0000      	lsls	r0, r0, #0
+    bbc8:	b538      	push	{r3, r4, r5, lr}
+    bbca:	4604      	mov	r4, r0
+    bbcc:	4d0c      	ldr	r5, [pc, #48]	(bc00 <android::sp<android::ProcessState>::~sp()+0x930>)
+    bbce:	f100 0014 	add.w	r0, r0, #20	; 0x14
+    bbd2:	f7fe efaa 	blx	ab28 <android::BnInterface<android::IAppOpsService>::onAsBinder()-0x43e>
+    bbd6:	4b0b      	ldr	r3, [pc, #44]	(bc04 <android::sp<android::ProcessState>::~sp()+0x934>)
+    bbd8:	447d      	add	r5, pc
+    bbda:	4620      	mov	r0, r4
+    bbdc:	58e9      	ldr	r1, [r5, r3]
+    bbde:	3104      	adds	r1, #4
+    bbe0:	f7ff ff91 	bl	bb06 <android::sp<android::ProcessState>::~sp()+0x836>
+    bbe4:	4808      	ldr	r0, [pc, #32]	(bc08 <android::sp<android::ProcessState>::~sp()+0x938>)
+    bbe6:	582b      	ldr	r3, [r5, r0]
+    bbe8:	2000      	movs	r0, #0
+    bbea:	6120      	str	r0, [r4, #16]
+    bbec:	4620      	mov	r0, r4
+    bbee:	f103 020c 	add.w	r2, r3, #12	; 0xc
+    bbf2:	f103 0198 	add.w	r1, r3, #152	; 0x98
+    bbf6:	6022      	str	r2, [r4, #0]
+    bbf8:	3338      	adds	r3, #56
+    bbfa:	6161      	str	r1, [r4, #20]
+    bbfc:	6063      	str	r3, [r4, #4]
+    bbfe:	bd38      	pop	{r3, r4, r5, pc}
+    bc00:	32a8      	adds	r2, #168
+    bc02:	0000      	lsls	r0, r0, #0
+    bc04:	fffc ffff 	undefined
+    bc08:	fff8 ffff 	undefined
+    bc0c:	6803      	ldr	r3, [r0, #0]
+    bc0e:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    bc12:	1840      	adds	r0, r0, r1
+    bc14:	f7ff bfca 	b.w	bbac <android::sp<android::ProcessState>::~sp()+0x8dc>
+    bc18:	6803      	ldr	r3, [r0, #0]
+    bc1a:	f853 1c0c 	ldr.w	r1, [r3, #-12]
+    bc1e:	1840      	adds	r0, r0, r1
+    bc20:	f7ff bf9e 	b.w	bb60 <android::sp<android::ProcessState>::~sp()+0x890>
+    bc24:	4778      	bx	pc
+    bc26:	46c0      	nop			(mov r8, r8)
+    bc28:	fb8b eaff 	undefined
+    bc2c:	4778      	bx	pc
+    bc2e:	46c0      	nop			(mov r8, r8)
+    bc30:	fb8c eaff 	undefined
+    bc34:	4778      	bx	pc
+    bc36:	46c0      	nop			(mov r8, r8)
+    bc38:	fb8d eaff 	undefined
+    bc3c:	4778      	bx	pc
+    bc3e:	46c0      	nop			(mov r8, r8)
+    bc40:	fc6c eaff 	stc2l	10, cr14, [ip], #-1020

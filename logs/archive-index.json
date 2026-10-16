@@ -1,0 +1,1177 @@
+[
+  {
+    "path": "logs/CURRENT-STATUS.json",
+    "redacted": false,
+    "sha256": "79c2fda9aa2366942639f65cc3ec56fff525568051bcf8ed500f14100b6a19d8"
+  },
+  {
+    "path": "logs/base-genlock-disassembly.txt",
+    "redacted": false,
+    "sha256": "0df3db9886077b45e2fd72902f6df2312334bb19609b34fbc5859c967e7a9722"
+  },
+  {
+    "path": "logs/base-graphicbuffer-disassembly.txt",
+    "redacted": false,
+    "sha256": "2e5002cba7bf94652564f92da9d61872eb304ac299e0af2307065dc4748f01cc"
+  },
+  {
+    "path": "logs/base-inspect.log",
+    "redacted": false,
+    "sha256": "7ab65ffcedfd4d07174c10c5e6db3aed0b35b5d647d2fb7f63111ef1f3fa8add"
+  },
+  {
+    "path": "logs/base-kernel.config",
+    "redacted": false,
+    "sha256": "6603a53b851bc9aff0e34fe337bd4f3abb2509f565fa8f8800a787adc34a2b76"
+  },
+  {
+    "path": "logs/deodex/app_AppStoreSmartisan.odex.log",
+    "redacted": false,
+    "sha256": "92c2e8b6ca23d6257bec9a4cdc4d0d7520128272b4bd8540d780a8ca096ab87b"
+  },
+  {
+    "path": "logs/deodex/app_Backup.odex.log",
+    "redacted": false,
+    "sha256": "db38fafd33fd56c0dd7c53a15c092802e2808a9bfd321330502da39e8a80cecc"
+  },
+  {
+    "path": "logs/deodex/app_BasicDreams.odex.log",
+    "redacted": false,
+    "sha256": "d53f699906614e9cc0fe424e4ae8f7ca367e747688da98cc7896eb7cb5768885"
+  },
+  {
+    "path": "logs/deodex/app_Bluetooth.odex.log",
+    "redacted": false,
+    "sha256": "0ae27fd6daed00b8fb422352164ec811754df0622c3462453372a39276320485"
+  },
+  {
+    "path": "logs/deodex/app_CalculatorSmartisan.odex.log",
+    "redacted": false,
+    "sha256": "37d36dd92edf9d35eb9b5713d56e692f6fdbd6b95106c4626ede4bb42249666b"
+  },
+  {
+    "path": "logs/deodex/app_CameraSmartisan.odex.log",
+    "redacted": false,
+    "sha256": "ac5f8cc37b2d1b08a6345224a0d326db79f138482cc9aed65da3380753bcacb4"
+  },
+  {
+    "path": "logs/deodex.log",
+    "redacted": false,
+    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
+  },
+  {
+    "path": "logs/donor-graphicbuffer-disassembly.txt",
+    "redacted": false,
+    "sha256": "578d69f120d8aeb2d5ab00048b141cd0efe6cd5d57885d9544d13296eafb43b2"
+  },
+  {
+    "path": "logs/ext4-p2-state.json",
+    "redacted": false,
+    "sha256": "872c3111908eca3a69d868f3be542c6c668d04088963652bdffa369a9b347444"
+  },
+  {
+    "path": "logs/first-smartisan-adb-capture.log",
+    "redacted": false,
+    "sha256": "55719bcf4df290c373cf2d9c50e3ea7347d33e0c2c232e1c833a55ad2d7fc324"
+  },
+  {
+    "path": "logs/hd2-active-top.txt",
+    "redacted": false,
+    "sha256": "48f4edfae70a974adf19414cd8c900b8eef19bdfb12124a82423317d23d4d59b"
+  },
+  {
+    "path": "logs/hd2-after-perf-top.txt",
+    "redacted": false,
+    "sha256": "8ceb0da38061d27b27304a9203f1e4d058f6018db3460f9071e221d47cb9789c"
+  },
+  {
+    "path": "logs/hd2-before-perf.txt",
+    "redacted": false,
+    "sha256": "b1c70df2f8d7109b0bba04875d26997de25b0046843bae031c92ecae863e9a65"
+  },
+  {
+    "path": "logs/hd2-final-active-top.txt",
+    "redacted": false,
+    "sha256": "b24729bfff7b0fbb89524d25c214d261ded3263f146740ae6118e8f0e59d751d"
+  },
+  {
+    "path": "logs/hd2-hwc-disassembly.txt",
+    "redacted": false,
+    "sha256": "d8efef419f1caeab2ca51e1a361dd0c7136788f940192f6e16f86db781a911f3"
+  },
+  {
+    "path": "logs/hd2-jit-probe.txt",
+    "redacted": false,
+    "sha256": "262244c33087e6b210c66fad80a783881fe6a614a53d2a641bdab9a04b08092a"
+  },
+  {
+    "path": "logs/hd2-performance-original-settings.txt",
+    "redacted": false,
+    "sha256": "07e83c4ba2f87e01a49a206b5e72ad42e0fde5a399b4e9eebd77210098d294ba"
+  },
+  {
+    "path": "logs/install-sd.log",
+    "redacted": false,
+    "sha256": "bc8a2733e2f883f3249239f1222b8962997997ccdadc48bc4028ea60337ddfc0"
+  },
+  {
+    "path": "logs/ios-hfs-headers.json",
+    "redacted": false,
+    "sha256": "b02292797ff710a48914a1c64a21769cb14284cbf73af3f7c358cdca5cc44388"
+  },
+  {
+    "path": "logs/ios-partition-repair.json",
+    "redacted": false,
+    "sha256": "17342b7280a0eef1169465c5d9e66ada6d490539c4d887b470810fe9974fb179"
+  },
+  {
+    "path": "logs/ios7-volume-read-disassembly.txt",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/kernel-build.log",
+    "redacted": false,
+    "sha256": "cef5df80caeeb23d5fc6fed49227ce1c3eb94003ff10be3419a36396b7b8de94"
+  },
+  {
+    "path": "logs/minisf-disassembly.txt",
+    "redacted": false,
+    "sha256": "9d5f5c762dcb103a76c3f5246e42086fb057973b8a677edd5ab1124471344b31"
+  },
+  {
+    "path": "logs/package-sailfish-alpha3.log",
+    "redacted": false,
+    "sha256": "468541ed6c8eb00e140b9a32cc773a3a6eb097c8b2a99eb7594c894890e98b40"
+  },
+  {
+    "path": "logs/package-sailfish.log",
+    "redacted": false,
+    "sha256": "9ef2a05b8c9744dfccc041bcdfd19c4bd99966c8656e0559b89c8d6fc9471688"
+  },
+  {
+    "path": "logs/package-smartisan-final.log",
+    "redacted": false,
+    "sha256": "fe41f939c28f0b641c72f1bb30592583bce97bb93e572f842824c43b1725f81a"
+  },
+  {
+    "path": "logs/package-smartisan.log",
+    "redacted": false,
+    "sha256": "fcd44df9af3021364e14b280bd1650ab5fa423f35a1e96904726ed61ed1ac379"
+  },
+  {
+    "path": "logs/package-transfer.log",
+    "redacted": false,
+    "sha256": "fbc007ffd8e4db2e254400192826be2084bb902d124f819b74356bc1e2b91878"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/dmesg.txt",
+    "redacted": true,
+    "sha256": "61c0624f96660bdfc0c65477f56216b56c53f438129d9631d7386e0fa3308911"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/identity.txt",
+    "redacted": false,
+    "sha256": "4b67e77d44a02f4a217049bc4040adc2bec6f703d7b9b610dbc6289d7695c8d6"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/journal.txt",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/logcat.txt",
+    "redacted": false,
+    "sha256": "0bb9caf71b4361d0c54df6e5764e949cabe51f5a215e8301e11dfd8d2aaf84cc"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/mounts.txt",
+    "redacted": false,
+    "sha256": "00df05e208ecf3d0ced17db550086c247da9074aad25f19f5ead22108517745a"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/processes.txt",
+    "redacted": false,
+    "sha256": "b5a973574b8ef613c57e0158c505e0a407d68fdde2cd20ed5c01083b581dd9b3"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/properties.txt",
+    "redacted": false,
+    "sha256": "624aaaaf1eb5ad7399530ae6a2ac7b16aa1ca6fdd74fdeaa3ed98cb475f0e656"
+  },
+  {
+    "path": "logs/phone-boot-20261017-024341-859480/systemd.txt",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/dmesg.txt",
+    "redacted": true,
+    "sha256": "bc671ca5d95670fefa9c859388ccdb7a7151a5bcb7a425ebd2cad3eb52ed7477"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/early-boot.txt",
+    "redacted": false,
+    "sha256": "825ce4360cd47ff9a8f555895d1c492a15fdf5d81cef8bbbc23cce506a186b63"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/identity.txt",
+    "redacted": false,
+    "sha256": "e0ad36dc1e0f7697a277710c7be8858cb624a89bdf7e31dce9c5a4f593dc7a7d"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/journal.txt",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/logcat.txt",
+    "redacted": false,
+    "sha256": "6da8e7cc50b2fe57d343cf0e0d6bc9ed24cade380cb91cc7245258b73838f12a"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/mounts.txt",
+    "redacted": false,
+    "sha256": "d3b11c337bec4403269aecd483f45497b363291bc8ca47f38dd6b6bc6909827d"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/processes.txt",
+    "redacted": false,
+    "sha256": "5a4fe9221bbbf734dfa8a4f69afb07e5e1a6ab68c56ad2a715846a08bb3e3d9c"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/properties.txt",
+    "redacted": false,
+    "sha256": "4b14b25ac092a2577af7a95ebb1aba438ec1cdc51a42dc5ecad288111e00872c"
+  },
+  {
+    "path": "logs/phone-boot-20261017-035930-047009/systemd.txt",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/dmesg.txt",
+    "redacted": true,
+    "sha256": "ce34478da4f08218058cf5e938a52e766cd82d3fbba744d904f8b72b8ed360d6"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/early-boot.txt",
+    "redacted": false,
+    "sha256": "f7510c864a95a640e13433eb843f475ef9320e14152aea399529e2c070d27de0"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/identity.txt",
+    "redacted": false,
+    "sha256": "3b31a646e733aecd71c08a8c47fe5c92d724077101ee7b436e4c0b767b0ef813"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/journal.txt",
+    "redacted": false,
+    "sha256": "a9e685546c2575737db8185b7deab84a46266d60f52f1bf7d1bc6952f45231a1"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/logcat.txt",
+    "redacted": false,
+    "sha256": "2efb790a218e24b86e9cffc3ed71fcdcd6625e015900317c4fd15a2ad72e04a3"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/mounts.txt",
+    "redacted": false,
+    "sha256": "b5d8b26d0787d392e6553cb313f8c563e1670b03a664f9c6f5a6f8d67bd3ce16"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/processes.txt",
+    "redacted": false,
+    "sha256": "4253bbd0febde135de252d272f1ede4c91dc52a8fbb0508e5ad5e433406f0aba"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/properties.txt",
+    "redacted": false,
+    "sha256": "56c1257de97c70c77200725721fba53b2773e791e48d5fa061546e6e982cd514"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041012-662231/systemd.txt",
+    "redacted": false,
+    "sha256": "a421dd8a5e5921f4075456b8cf31e45e4c3139cd928687b5155e9e5b2c9da8fe"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/dmesg.txt",
+    "redacted": false,
+    "sha256": "a95902f5106a2da634ec123ae84a459d7595b92cf00df56113ac257a3672da12"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/early-boot.txt",
+    "redacted": false,
+    "sha256": "2cb54cdc0f832e82a8a34bff8db6f937cf1b90aa2bc7dcc519f7221cbff9dfc2"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/identity.txt",
+    "redacted": false,
+    "sha256": "2f46e57048e5a9a39a96b7b88d4ab4a54ce10a69ef3d56dba75e63a98113309d"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/journal.txt",
+    "redacted": false,
+    "sha256": "a9e685546c2575737db8185b7deab84a46266d60f52f1bf7d1bc6952f45231a1"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/logcat.txt",
+    "redacted": false,
+    "sha256": "bcd5bd6195e9742e9baa031a385cf9aa8c67edd1b6b12355d4a9ebe5142f2ebc"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/mounts.txt",
+    "redacted": false,
+    "sha256": "012cbdefa2ef87382026e897802317d9f66c735beba195de2e6b97cfc7406558"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/processes.txt",
+    "redacted": false,
+    "sha256": "be6df87b6c45e25901083caa2a023afd12d7e5bc954aad53bcf6260c0af7325c"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/properties.txt",
+    "redacted": false,
+    "sha256": "04f31d3f11c99e6e5cdef7a71d676afaa395feb1724e9012b5d317910631ea5d"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041445-179378/systemd.txt",
+    "redacted": false,
+    "sha256": "a421dd8a5e5921f4075456b8cf31e45e4c3139cd928687b5155e9e5b2c9da8fe"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/dmesg.txt",
+    "redacted": false,
+    "sha256": "cc6770616c80300d05eb0fb3758693c2e82ac2dd0cfb1e0586d91f40b4701b94"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/early-boot.txt",
+    "redacted": false,
+    "sha256": "2cb54cdc0f832e82a8a34bff8db6f937cf1b90aa2bc7dcc519f7221cbff9dfc2"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/identity.txt",
+    "redacted": false,
+    "sha256": "2f46e57048e5a9a39a96b7b88d4ab4a54ce10a69ef3d56dba75e63a98113309d"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/journal.txt",
+    "redacted": false,
+    "sha256": "a9e685546c2575737db8185b7deab84a46266d60f52f1bf7d1bc6952f45231a1"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/logcat.txt",
+    "redacted": false,
+    "sha256": "bcd5bd6195e9742e9baa031a385cf9aa8c67edd1b6b12355d4a9ebe5142f2ebc"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/mounts.txt",
+    "redacted": false,
+    "sha256": "012cbdefa2ef87382026e897802317d9f66c735beba195de2e6b97cfc7406558"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/processes.txt",
+    "redacted": false,
+    "sha256": "9acb81c0e6fe49d7e3219344aba0eeece86a573e4f69f547e15c47785f5ad899"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/properties.txt",
+    "redacted": false,
+    "sha256": "56c1257de97c70c77200725721fba53b2773e791e48d5fa061546e6e982cd514"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041515-320628/systemd.txt",
+    "redacted": false,
+    "sha256": "a421dd8a5e5921f4075456b8cf31e45e4c3139cd928687b5155e9e5b2c9da8fe"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/dmesg.txt",
+    "redacted": true,
+    "sha256": "8bc5301fd320580281057c894348bef6f9afa8c163d42cf0e465121d171392c2"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/early-boot.txt",
+    "redacted": false,
+    "sha256": "41ab94af36f3b9b82f87d3a2d65a386141fafc330e6e6f7cf2872b89ce933896"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/identity.txt",
+    "redacted": false,
+    "sha256": "93fe58f82020d78c43c5d41f19728867ec4b1abedf467d88d4730dcd6f562478"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/journal.txt",
+    "redacted": false,
+    "sha256": "a9e685546c2575737db8185b7deab84a46266d60f52f1bf7d1bc6952f45231a1"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/logcat.txt",
+    "redacted": false,
+    "sha256": "bcd5bd6195e9742e9baa031a385cf9aa8c67edd1b6b12355d4a9ebe5142f2ebc"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/mounts.txt",
+    "redacted": false,
+    "sha256": "c62e7047eea76dcd4e5330a978f0c4df8bb54d2c2ae405f22845edf4fc93c473"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/processes.txt",
+    "redacted": false,
+    "sha256": "1c04e3f5cbb64f81e271e6f9bb8853d2d7be59d90b4ab7910b33ae46a6a54dd5"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/properties.txt",
+    "redacted": false,
+    "sha256": "fa31c062ba2cf66fabea6f89acb0cd1096ca3ff7276d921a45205e1ef9d9e7ed"
+  },
+  {
+    "path": "logs/phone-boot-20261017-041803-226316/systemd.txt",
+    "redacted": false,
+    "sha256": "a421dd8a5e5921f4075456b8cf31e45e4c3139cd928687b5155e9e5b2c9da8fe"
+  },
+  {
+    "path": "logs/recovery-fat-check-before.log",
+    "redacted": false,
+    "sha256": "867290e1c58d8371c35b9255ae95f13b09f6e948736c66611bfabe94767c3c74"
+  },
+  {
+    "path": "logs/recovery-fat-fsinfo.log",
+    "redacted": false,
+    "sha256": "c3c15e52a3201a4826e36c44be6bb24acceaac86f5bc84a1fcd1d11d4f8e85a5"
+  },
+  {
+    "path": "logs/recovery-fat-orphan-clear.log",
+    "redacted": false,
+    "sha256": "15c570f42fb8e30f2b569e27ce2187432341c6f6332aa7e2f80b5eaf42feb8a4"
+  },
+  {
+    "path": "logs/recovery-fat-repair-final.log",
+    "redacted": false,
+    "sha256": "533b7242c8e35e0000ef46608c851a104636222df05a090efc5e2104e0a5113f"
+  },
+  {
+    "path": "logs/recovery-fat-repair.log",
+    "redacted": false,
+    "sha256": "b58c833efff91287bd9374e81f0bf3d72ff17d5eea57555f73b43c5eb4fd83f9"
+  },
+  {
+    "path": "logs/recovery-install.json",
+    "redacted": false,
+    "sha256": "3514b3aa594bdecbad3124ab6edbab0d270a53d62a71318222d941b044c1a550"
+  },
+  {
+    "path": "logs/recovery-transfer.log",
+    "redacted": false,
+    "sha256": "6c0b5d7ce97caa9eb7de25ec1035680d54cbdc3ee4b5488a91e7c78a934548f0"
+  },
+  {
+    "path": "logs/sailfish-abi.log",
+    "redacted": false,
+    "sha256": "1d96b5f64b7d0130d82fd082bd7f171be669c3c4c4462617fcdab60efc355355"
+  },
+  {
+    "path": "logs/sailfish-accept4-fix.json",
+    "redacted": false,
+    "sha256": "f84fce3df659e46b9405e8b58754bacaf08b8e3a42936d3cbf67db80d0602c04"
+  },
+  {
+    "path": "logs/sailfish-accept4-image.log",
+    "redacted": false,
+    "sha256": "666e513fd72e08985174a926f2f859dcc7f8e8f7a0fc8f88552a47b4461c5f60"
+  },
+  {
+    "path": "logs/sailfish-accept4-kernel-build.log",
+    "redacted": false,
+    "sha256": "1b5c9f393c89773ba29302b6b6f8c662ab2c9cb0826dd49be9ef886942081118"
+  },
+  {
+    "path": "logs/sailfish-adbd-patch.json",
+    "redacted": false,
+    "sha256": "24c3090ea52be578737943e557cb4f8d2ca01f7485da4b6c3975780cd0102a53"
+  },
+  {
+    "path": "logs/sailfish-alpha1-image.log",
+    "redacted": false,
+    "sha256": "af43c6668eb3af36806d2c7bf2a53449a3d9a4db45afd630350d96a41da14315"
+  },
+  {
+    "path": "logs/sailfish-alpha1-release.json",
+    "redacted": false,
+    "sha256": "60f10b3f1f1f2f08c5b4eb1105eb9a4f737c4c974f4f349ccbf1f692b0259baf"
+  },
+  {
+    "path": "logs/sailfish-alpha2-metadata.log",
+    "redacted": false,
+    "sha256": "74a8489efab627d227a34b387cd9d7092d8a11b797fec99171f813bd26e90a83"
+  },
+  {
+    "path": "logs/sailfish-alpha2-release.json",
+    "redacted": false,
+    "sha256": "b0b96654258ce65c106171b848c5bee795d14ad095bc2e130ea7687da0418e5f"
+  },
+  {
+    "path": "logs/sailfish-alpha3-hardware.json",
+    "redacted": false,
+    "sha256": "775cd15cc1a0d82ba917d0b9a99014d25a69bafbc3ca42226b1b2cabce6ba4e1"
+  },
+  {
+    "path": "logs/sailfish-alpha3-image.commands",
+    "redacted": false,
+    "sha256": "713de3a3dcbd3ea9af06ae813fa1513cf204a9213cf78a125d6f219bb0e1ad34"
+  },
+  {
+    "path": "logs/sailfish-alpha3-image.log",
+    "redacted": false,
+    "sha256": "60496f687722a888c5568c799d4df190f1983660c51fadd7e4d9163e0e96c65f"
+  },
+  {
+    "path": "logs/sailfish-alpha3-release.json",
+    "redacted": false,
+    "sha256": "a5f6c37c3d3fe38c84276ed5c635055456f1e4549b6db472d41dd7d07fd793e8"
+  },
+  {
+    "path": "logs/sailfish-always-adb-image.log",
+    "redacted": false,
+    "sha256": "e70103a38d442a859ee35ec586a14775c036ed7bade37e971036c5abbd46e1ff"
+  },
+  {
+    "path": "logs/sailfish-assemble.log",
+    "redacted": false,
+    "sha256": "676700f224a3a4809d34c85a4f8297c2595b66fa6dce0c7d42d8fc4387c2d77a"
+  },
+  {
+    "path": "logs/sailfish-cgroup-kernel-build.log",
+    "redacted": false,
+    "sha256": "8700a4ec1c023955eb4ae6df0c911040f8d304a8a816d79cf6cd32a491e33684"
+  },
+  {
+    "path": "logs/sailfish-cgroup-kernel.json",
+    "redacted": false,
+    "sha256": "6e2be1d64ac8943b6727bdb10ab41721f19bd7c27557dfa91538ca86f444b9ba"
+  },
+  {
+    "path": "logs/sailfish-extract.log",
+    "redacted": false,
+    "sha256": "bed81a5116bcfe33bf539e4ca97de43024db9b1ce8f1ab249d13eb6a94d1083e"
+  },
+  {
+    "path": "logs/sailfish-final-image.log",
+    "redacted": false,
+    "sha256": "606f988c815e695b4049d88917c6b2b6f50cc05064901d7438676c6fbf9c33f9"
+  },
+  {
+    "path": "logs/sailfish-first-boot/adbd-trace.txt",
+    "redacted": false,
+    "sha256": "2a1b153e010ac3d83f47a4154479d6ccc6fbb7be5b0c8f87401673082a552928"
+  },
+  {
+    "path": "logs/sailfish-first-boot/alpha1-runtime-verified.log",
+    "redacted": false,
+    "sha256": "b8d5522bb0663e16b95d1d21edf1e4de6df93234247605279f544216d74dec3d"
+  },
+  {
+    "path": "logs/sailfish-first-boot/egl-configs.log",
+    "redacted": false,
+    "sha256": "8236457ef42573f482ea998ecd96b262e84c0ec9206f701f9fcc2cad1eea91f1"
+  },
+  {
+    "path": "logs/sailfish-first-boot/egl-test.log",
+    "redacted": false,
+    "sha256": "f5580443946cf728badd5c130a8d9e6aeaed155ee1b8146c6f077a0b82d201c0"
+  },
+  {
+    "path": "logs/sailfish-first-boot/fifth-dmesg.log",
+    "redacted": true,
+    "sha256": "095588190d9257b801fba1a6609e0b69d36368648199392e07dbe1c726876676"
+  },
+  {
+    "path": "logs/sailfish-first-boot/fifth-failed.log",
+    "redacted": false,
+    "sha256": "e252b33f4fbbbb90e8f6cb82da32f157b8e900c3f60c62bdebec09513099ad67"
+  },
+  {
+    "path": "logs/sailfish-first-boot/finding.json",
+    "redacted": false,
+    "sha256": "c8b3fc7fcedf78b2ed5bc2964b2687a22880d5c96214ade54fdb5258e81a681f"
+  },
+  {
+    "path": "logs/sailfish-first-boot/fourth-early-boot.log",
+    "redacted": false,
+    "sha256": "ba54acef5db1d90ce50984ddc2922233d271899601c5ce961e283a51030b44a3"
+  },
+  {
+    "path": "logs/sailfish-first-boot/fourth-last_kmsg.txt",
+    "redacted": true,
+    "sha256": "df688388a73b7a3f80761ce4023fdca8f60163beac6c53635396224ee749d831"
+  },
+  {
+    "path": "logs/sailfish-first-boot/gles-test.log",
+    "redacted": false,
+    "sha256": "2f37085a5a5606e9f77a97025d0fbebda149a07e2d76a362f47eb94195bea160"
+  },
+  {
+    "path": "logs/sailfish-first-boot/graphics-first-frame.log",
+    "redacted": false,
+    "sha256": "618b70093ff91b3ff3d8ebfcb635d065557efcf7fe01c59e32c222142fb3a3fe"
+  },
+  {
+    "path": "logs/sailfish-first-boot/last_kmsg.txt",
+    "redacted": true,
+    "sha256": "50d94ce07db126bc7912a308c3d62fea64fffb583bb2dd83a66a3f7c1d57bc32"
+  },
+  {
+    "path": "logs/sailfish-first-boot/lipstick-lock-crash-gdb.txt",
+    "redacted": false,
+    "sha256": "08f72ea0c219c909a06c44a6312ddedf4e3b6edc36b8be3ed37631449e49ddce"
+  },
+  {
+    "path": "logs/sailfish-first-boot/lock-lipstick-maps.txt",
+    "redacted": false,
+    "sha256": "0a74f59de9ea0ff87ff10a16077bddca7829f8686d89370d51b527385d284559"
+  },
+  {
+    "path": "logs/sailfish-first-boot/lock-touch-summary.json",
+    "redacted": false,
+    "sha256": "f4072f61cecbd0f046926839dceef7e593fed25b6592fb2a222836359d2d265d"
+  },
+  {
+    "path": "logs/sailfish-first-boot/minimedia-audio-wait-gdb.txt",
+    "redacted": false,
+    "sha256": "73f06a3e87dc9e2a36511210a97b7f0518c31df8baa425709ef78c19e3f2da73"
+  },
+  {
+    "path": "logs/sailfish-first-boot/minisf-allocator.txt",
+    "redacted": false,
+    "sha256": "12a9e519bb47af6aeb003d0c508e1078ed9187f5fe840578bf40ac26fee17902"
+  },
+  {
+    "path": "logs/sailfish-first-boot/release-android.log",
+    "redacted": false,
+    "sha256": "c23f1a3be942215c3e5b8d7d5fdea84bc2ee967dcb65356b44b11ddcd6d01fff"
+  },
+  {
+    "path": "logs/sailfish-first-boot/release-journal.log",
+    "redacted": false,
+    "sha256": "10b9e69dba112393379a125c4417f52dcb8432a589382a36721a724aabbec346"
+  },
+  {
+    "path": "logs/sailfish-first-boot/second-early-boot.log",
+    "redacted": false,
+    "sha256": "825ce4360cd47ff9a8f555895d1c492a15fdf5d81cef8bbbc23cce506a186b63"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-after-udev.log",
+    "redacted": false,
+    "sha256": "5f183686e300b350d45f987c6af9524bc9456bb5649531eaf3a8f1d37b400c94"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-dmesg.log",
+    "redacted": false,
+    "sha256": "e8f23835ac723789730405d9eaa74871541f55a2c57ed3946e4e490fb0ad350f"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-egl-logcat.log",
+    "redacted": false,
+    "sha256": "d9648f562d9a81c4e394e64bdd445fe660c0d37830e56076efbe92bc64e7aee4"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-journal.log",
+    "redacted": false,
+    "sha256": "6875eda55d57ea94f4dd40df13272744f17ba2123b82c854e3a749ca02750caf"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-logcat-trace.log",
+    "redacted": false,
+    "sha256": "ff8d21354958294ce390e20cb2c10896c14d091e8c3970611d1e8d69f6150280"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-logcat.log",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/sailfish-first-boot/seventh-modules.log",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/sailfish-first-boot/sixth-dmesg.log",
+    "redacted": false,
+    "sha256": "c9086da0450ac58fc5a24fc3b23d597e8bb422b5e9c8a0dd72d875451deb4ebe"
+  },
+  {
+    "path": "logs/sailfish-first-boot/sixth-failed.log",
+    "redacted": false,
+    "sha256": "f9d1347c31db9594901ca7f8e6af86866c79470e48c6988b1ac19b7c5a82f9cb"
+  },
+  {
+    "path": "logs/sailfish-first-boot/third-early-boot.log",
+    "redacted": false,
+    "sha256": "5e19ce978afe62f55dba360883549cd105b93415c187c4aeabb398e1e2265ed5"
+  },
+  {
+    "path": "logs/sailfish-first-boot/third-last_kmsg.txt",
+    "redacted": true,
+    "sha256": "c0c9b452f600cbaca810bd880c177b9b980e88aafa046d7fcc9b4e2dd29beeb2"
+  },
+  {
+    "path": "logs/sailfish-fsck.log",
+    "redacted": false,
+    "sha256": "4d44d634cf25cdd5761fdda17617976c68aa92728de509be2863ff9df18e3b78"
+  },
+  {
+    "path": "logs/sailfish-gralloc-patch.json",
+    "redacted": false,
+    "sha256": "aa96a7dc83a891996db5e8455f8ddf5e960b869ef0f4f2ce55f6ee0621109e59"
+  },
+  {
+    "path": "logs/sailfish-mkfs.log",
+    "redacted": false,
+    "sha256": "24f1951f87a29625c139256d6240344fc9a19b69e766549b9fe9981c0e9de711"
+  },
+  {
+    "path": "logs/sailfish-modules-image.log",
+    "redacted": false,
+    "sha256": "50926c1cea06c16a5f9ec2b1d85a346fae2c3805d0b593f49dd55b962f2486d7"
+  },
+  {
+    "path": "logs/sailfish-oom-image.log",
+    "redacted": false,
+    "sha256": "115446b8c608fc0a95b4be17639e8c925f4cb73491b282519eb4ff3ccae0f596"
+  },
+  {
+    "path": "logs/sailfish-patch-manifest.json",
+    "redacted": false,
+    "sha256": "54e39303cac691f20d8189d75d1b247253a3b21ee70d9e1d8b91759f64f9681b"
+  },
+  {
+    "path": "logs/sailfish-qpa-patch.json",
+    "redacted": false,
+    "sha256": "79f68a9e982494b742bc137acf1f0ea5b3acdda06fe10dbaf78ef0b865986095"
+  },
+  {
+    "path": "logs/sailfish-runtime-patch-files.json",
+    "redacted": false,
+    "sha256": "d4e17e2d18beaa238ff271827424d5edddeebe12aafba096e379ebdf830a5e27"
+  },
+  {
+    "path": "logs/sailfish-sd-bootfiles.json",
+    "redacted": false,
+    "sha256": "d8fc2cf68d0915441f8cf18749c88fcf8f23a9e60cfac60fce41a1d09402de43"
+  },
+  {
+    "path": "logs/sailfish-securebits-kernel-build.log",
+    "redacted": false,
+    "sha256": "718e8710a5ac0bb9bb514c653e9d1a183d6e7717941f7c353b9871562cd4304d"
+  },
+  {
+    "path": "logs/sailfish-services-image.log",
+    "redacted": false,
+    "sha256": "c21fdae6b9f0d806773592e2d7b135ed2c10defff0ddce9158c372a4f0692abb"
+  },
+  {
+    "path": "logs/sailfish-systemd-patch.json",
+    "redacted": false,
+    "sha256": "23388903c02a8b499c2bbc9510ea91c763575c4638aa785c871b39a7551eaaf3"
+  },
+  {
+    "path": "logs/sailfish-wayland-allocation-fix.json",
+    "redacted": false,
+    "sha256": "0aceb48306f56cb7df58a575d0f662a516073692a56603eb618affa2f0fa3ed9"
+  },
+  {
+    "path": "logs/sailfish-wayland-image.log",
+    "redacted": false,
+    "sha256": "a678334ab46e246f65cedce1aeef135156e9b290f7c098d7a7ebd8a351487d4f"
+  },
+  {
+    "path": "logs/sailfish-wifi-build.log",
+    "redacted": false,
+    "sha256": "e447c886dca39cd97529a63ede3fb19008eb2e5284bb0c19472276c8815a30d0"
+  },
+  {
+    "path": "logs/smartisan-after-atlas-ready.log",
+    "redacted": false,
+    "sha256": "cecc85e6b9d1c152088f5e597e859c3749a27dbbbb0d6d6202336d8623b1b024"
+  },
+  {
+    "path": "logs/smartisan-after-atlas-status.log",
+    "redacted": false,
+    "sha256": "0b439ebeab9930900a6e33d6dc46ccd70db77a271b4b0da24d7b16f2bc7a1543"
+  },
+  {
+    "path": "logs/smartisan-after-atlas.log",
+    "redacted": false,
+    "sha256": "dc7c4ea0a83d159926f4bdcfad4f9eb1705e5a08efe5d080ffb9af657be20689"
+  },
+  {
+    "path": "logs/smartisan-after-display-shim.log",
+    "redacted": false,
+    "sha256": "b3d1810d47ead0eb39b7aba251195953d8d3de2b9bddb8ded9430f46e54e6870"
+  },
+  {
+    "path": "logs/smartisan-after-gralloc-patch.log",
+    "redacted": false,
+    "sha256": "caa9dbb5f6fca03246e42cf792f5c783423b21c2affa567cacd3938a0fdd6e07"
+  },
+  {
+    "path": "logs/smartisan-after-launcher-size.log",
+    "redacted": false,
+    "sha256": "a67f54b50a58bdd4f165e69a30e741b2fa07119647ef91227f321de906058881"
+  },
+  {
+    "path": "logs/smartisan-after-storage.log",
+    "redacted": true,
+    "sha256": "834268922a49b8e9dd32c2067dff8d093783ec755781ee1864e7d030789470b1"
+  },
+  {
+    "path": "logs/smartisan-after-textures.log",
+    "redacted": true,
+    "sha256": "ee0f5076c544a9c95aefab38a0dcf80dea0c2ea098fe064d76bb807aa75328c8"
+  },
+  {
+    "path": "logs/smartisan-after-textures2.log",
+    "redacted": true,
+    "sha256": "f21639dac789b75a81c810c27c9213e30118aa9704869279e116f337b11629a8"
+  },
+  {
+    "path": "logs/smartisan-after-vector-patch.log",
+    "redacted": false,
+    "sha256": "7d58f19f89a22f8b114afc2515ed44526533ae50f1f23936cbdd153248619bf7"
+  },
+  {
+    "path": "logs/smartisan-after-vm-probe.log",
+    "redacted": false,
+    "sha256": "382810732c55f831c1a0a1ae20f5452a2f81041b74dd076871ace2f93819b753"
+  },
+  {
+    "path": "logs/smartisan-alpha1-device-dmesg.txt",
+    "redacted": true,
+    "sha256": "067d5d6985e4b8295b5b5962cef115146d46abaf1bcdd38494d5b4444badd6c1"
+  },
+  {
+    "path": "logs/smartisan-alpha1-device-settings.txt",
+    "redacted": true,
+    "sha256": "ce59283574967d3d6b5f293195cde0acb4db64ec7efa84a4119ae076fd9fe661"
+  },
+  {
+    "path": "logs/smartisan-alpha1-release.json",
+    "redacted": false,
+    "sha256": "8fc6ce8fec384425826c92032d0fe28ca659f2ad45710b547f83c14328b936a2"
+  },
+  {
+    "path": "logs/smartisan-always-adb-image.log",
+    "redacted": false,
+    "sha256": "2b3b5c2b3989b64826bd2449cc7cd5d99067e449f3347ce1ca10035b4adaa471"
+  },
+  {
+    "path": "logs/smartisan-artifacts-logcat.txt",
+    "redacted": true,
+    "sha256": "880d0b3b4f41a6faf75c37b03518c5f2769de3124a1a47915e1e69db4d38d16e"
+  },
+  {
+    "path": "logs/smartisan-artifacts-state.txt",
+    "redacted": false,
+    "sha256": "e086ae784a1b35b37ce35f55421b78d8a4ff34e02af510114b4b000cf53c0ee2"
+  },
+  {
+    "path": "logs/smartisan-atlas-eula-awake-info.log",
+    "redacted": false,
+    "sha256": "d84ac5f4fd9f646331238e7d3f962625c9786c2ccb4fddcfe753d2880a106873"
+  },
+  {
+    "path": "logs/smartisan-atlas-eula-info.log",
+    "redacted": false,
+    "sha256": "42ebfaf8e24d59e0756f262bb1dd63c60aa48e19767dc8c840450d4d2a86a481"
+  },
+  {
+    "path": "logs/smartisan-atlas-fb-info.log",
+    "redacted": false,
+    "sha256": "1e44695c90964c0f8ecad6b8ef57064fb959d9bfb6c83a84d2b380d7e763237c"
+  },
+  {
+    "path": "logs/smartisan-atlas-final-info.log",
+    "redacted": false,
+    "sha256": "3de8974de36e7ef45b9292ad94a760150f1ef5376ea837e8e2bfb019b30642ed"
+  },
+  {
+    "path": "logs/smartisan-atlas-ui-info.log",
+    "redacted": false,
+    "sha256": "45657590d5ef0109c646f9c1636e9f7df7c23c0146741691a11bfa5d2f757872"
+  },
+  {
+    "path": "logs/smartisan-camera-patch.json",
+    "redacted": false,
+    "sha256": "42861238392a7c137942d569e0bb628625dcc790652c1451a294875a0c79768e"
+  },
+  {
+    "path": "logs/smartisan-compat-manifest.json",
+    "redacted": false,
+    "sha256": "de8c12bb47f39f3c57d2c5cbbb66c0cd4f0323df2ac669356400587ce490476e"
+  },
+  {
+    "path": "logs/smartisan-core-boot.log",
+    "redacted": true,
+    "sha256": "c97574872855a7622a354bda40c832028cdc41ac140e73ea87936465ff18b7fb"
+  },
+  {
+    "path": "logs/smartisan-core-live-test.log",
+    "redacted": false,
+    "sha256": "0fc65a7cc1b13d2004a295fe526e53092acf417116db57c1f6515839f73f83a6"
+  },
+  {
+    "path": "logs/smartisan-core-patch.json",
+    "redacted": false,
+    "sha256": "9015fed49b2f00ea061a17b428a84a2b690b6157775b0fd999f5925395e5b30a"
+  },
+  {
+    "path": "logs/smartisan-current-window.log",
+    "redacted": false,
+    "sha256": "3fac39022b3149591651d9e961306a7712829a350cb901f6b154a6342c8bbe4f"
+  },
+  {
+    "path": "logs/smartisan-current.log",
+    "redacted": false,
+    "sha256": "d55516a8f900effa88e8a07d2dd792a3eb313fbc3da864799a58f167b8cb679b"
+  },
+  {
+    "path": "logs/smartisan-debug-kernel.log",
+    "redacted": true,
+    "sha256": "0f7cf4a003d7fd3d66421c08dba1cc04854eca3882fa4c9575d6bd165f51ed39"
+  },
+  {
+    "path": "logs/smartisan-debug-latest.log",
+    "redacted": false,
+    "sha256": "6b9d33263797db3ae7d8dea7210b73b4a8bf40267624b1fa190c230bcbdce847"
+  },
+  {
+    "path": "logs/smartisan-desktop-awake-info.log",
+    "redacted": false,
+    "sha256": "586620a596601f5fb67fcb346243c528cc0f6d46da9d74318483b2aed437942e"
+  },
+  {
+    "path": "logs/smartisan-desktop-clean-info.log",
+    "redacted": false,
+    "sha256": "c08bbbe38c575afad0c8c706b39971e17acb8750d1de85c6cd2e58a205f18293"
+  },
+  {
+    "path": "logs/smartisan-desktop-fit-info.log",
+    "redacted": false,
+    "sha256": "d99c5aedc4425745c8735f8b594e29558ff0852b7888274e78cd7a2497d8e5bd"
+  },
+  {
+    "path": "logs/smartisan-display-shim-first.log",
+    "redacted": false,
+    "sha256": "1b83bcb6829976f9b32e744959ab3e81a95120114b194ef83b5cbba6e8bdfb41"
+  },
+  {
+    "path": "logs/smartisan-display-stuck.log",
+    "redacted": false,
+    "sha256": "37c9f473bba4e6bf1cfbb2db5281c6c1bfcf32880a7f322d1bf082240a57fa79"
+  },
+  {
+    "path": "logs/smartisan-final-boot.log",
+    "redacted": false,
+    "sha256": "f81efb630b8e26ee26e27e2f6be5d2f2ff56fd853de2ad6f20bd880cb45fd6ab"
+  },
+  {
+    "path": "logs/smartisan-final-device-evidence.log",
+    "redacted": false,
+    "sha256": "eda6d144aedbb5c8da74c7bfd060838f10131b082294dba7da35d1b7a5622a51"
+  },
+  {
+    "path": "logs/smartisan-final-runtime.log",
+    "redacted": false,
+    "sha256": "f52e50484ab1c0f25b0ab5f6f4f2f7fcb6db2134dc337ad71fe7ae16b1f5932d"
+  },
+  {
+    "path": "logs/smartisan-gralloc-patch.json",
+    "redacted": false,
+    "sha256": "c1da5922ba042a2067cd41ef05ea906a2453b1785da04230a4e37db414c6ce90"
+  },
+  {
+    "path": "logs/smartisan-graphics-live-install.log",
+    "redacted": false,
+    "sha256": "a4ecc5c87d811bbff7a118c17ef8cf83318cb623a103c15b8549089aa2a7f0ac"
+  },
+  {
+    "path": "logs/smartisan-hwui-patch.json",
+    "redacted": false,
+    "sha256": "988ed181162ed316cf27d89c49fbdfa146c9112eb6191d40a2c340ac445a85cd"
+  },
+  {
+    "path": "logs/smartisan-image.log",
+    "redacted": false,
+    "sha256": "c7cb3673281b09ac208300fe053683b8666609381b3837600650a6490bb19522"
+  },
+  {
+    "path": "logs/smartisan-init-current.txt",
+    "redacted": false,
+    "sha256": "d2da1dda521dc4bebde302c5bc8e9b9b50c154aedb2f2ddf88e052a53a46a22f"
+  },
+  {
+    "path": "logs/smartisan-integrate-debugfs.log",
+    "redacted": false,
+    "sha256": "596cc077868efe4fb94fcd89b4741c354b96acacbf544351a17292b0a4373ec0"
+  },
+  {
+    "path": "logs/smartisan-integrate-latest.log",
+    "redacted": false,
+    "sha256": "44a45149215a5f3f802b53967930d3b7ff34c28a19cf386c22831244b986f4f1"
+  },
+  {
+    "path": "logs/smartisan-integrate.log",
+    "redacted": false,
+    "sha256": "9fdaa34b1217f6f9b68c568b69235e8f9528cc5469d115b7ee1f3d0f48639fdb"
+  },
+  {
+    "path": "logs/smartisan-lag-baseline.log",
+    "redacted": false,
+    "sha256": "d7e5e4095b5e0cac20cb46d439f4bd2310339d3e432d9b2bbded330d4528ddcf"
+  },
+  {
+    "path": "logs/smartisan-latest.log",
+    "redacted": true,
+    "sha256": "dd959757b33a0a94f8129c43c48338f3768537846f526765c0616d7607625b5e"
+  },
+  {
+    "path": "logs/smartisan-launcher-fit-latest.log",
+    "redacted": false,
+    "sha256": "ad042d0fe4419371ea0e031a00cc2e6791526d675279065c8ccbd1c532830b38"
+  },
+  {
+    "path": "logs/smartisan-launcher-hd2-install.log",
+    "redacted": false,
+    "sha256": "eca6cf016b876d3335fdb30193c9b7d57698608e56104df569fec59218803d3c"
+  },
+  {
+    "path": "logs/smartisan-launcher-patch.json",
+    "redacted": false,
+    "sha256": "1274f6401edbdb88cc2707eb7c0b06487acec4ed7c3492d0fe47946b183940ef"
+  },
+  {
+    "path": "logs/smartisan-launcher-retest.log",
+    "redacted": true,
+    "sha256": "50d9b1a5330514d452504135d661644505fb890a83ba0fea5acf87378c499fdd"
+  },
+  {
+    "path": "logs/smartisan-launcher-size-runtime.log",
+    "redacted": false,
+    "sha256": "bbea4fa83ed8d494518952bace4a5567a2fe28f4db7ace3895a588ba3603ce1b"
+  },
+  {
+    "path": "logs/smartisan-live-next.log",
+    "redacted": true,
+    "sha256": "87950a4c6254b81aff75b2c269710ee78ca107523c2326f080ca441bf64212b8"
+  },
+  {
+    "path": "logs/smartisan-package-latest.log",
+    "redacted": false,
+    "sha256": "594ac41537de433c3d3696d57d04c01c9c2dfc6155009e9feab871975e569995"
+  },
+  {
+    "path": "logs/smartisan-package-updated.log",
+    "redacted": false,
+    "sha256": "007184d81e50eb44c1dee173833050874c24e12665842ff789301cc6dc1385c4"
+  },
+  {
+    "path": "logs/smartisan-package.log",
+    "redacted": false,
+    "sha256": "c3af06fb13ecbe171b8138557cc8377b3b771fb4a8560aaa32fed741a747279b"
+  },
+  {
+    "path": "logs/smartisan-platform-patch.json",
+    "redacted": false,
+    "sha256": "84ede28e69f8b9a01dfbc0bf15aa71b236deab3e6fe8a7eee490307feb88ff8e"
+  },
+  {
+    "path": "logs/smartisan-resize.log",
+    "redacted": false,
+    "sha256": "77c3eda16b91ab988efe6b9226bad53837ebb0d49d645e1979101264da16c7f8"
+  },
+  {
+    "path": "logs/smartisan-runtime-patch-device-sha256.txt",
+    "redacted": false,
+    "sha256": "10d42b734d48c6c3dc37c47bfdb6ef7aa6d95eacac8d5bc06c4192885bb86613"
+  },
+  {
+    "path": "logs/smartisan-scheduling-patch.json",
+    "redacted": false,
+    "sha256": "310f37630da0bc6eed8d1534e914d9e414eaa8f6506e7e33621d4aa04d31abf9"
+  },
+  {
+    "path": "logs/smartisan-screen-state.log",
+    "redacted": false,
+    "sha256": "b53d2c742211590d0ccdd574e50da2e17ff445f3eb6aafe190d0debfe1792378"
+  },
+  {
+    "path": "logs/smartisan-sd-bootfiles.json",
+    "redacted": false,
+    "sha256": "9b8cacb9087d55a0e5182f6d4b0b46f962ea5a7ea7dc46ef92e4e35e72c4e9e9"
+  },
+  {
+    "path": "logs/smartisan-sf-current.txt",
+    "redacted": false,
+    "sha256": "7fae6777a1d97cb86489be3bbdecf59c1a05ff38b7f0474043c307c430fe694a"
+  },
+  {
+    "path": "logs/smartisan-sf-dump.txt",
+    "redacted": false,
+    "sha256": "f25679afd17e2df39a640c6ec110539908b900ef5cd5586d435169476002ad1a"
+  },
+  {
+    "path": "logs/smartisan-stability-after-atlas.log",
+    "redacted": true,
+    "sha256": "35be374660d3129e9865252df18b678219d3fb525d2ee14ab92862a4700fc0d4"
+  },
+  {
+    "path": "logs/smartisan-system-current.log",
+    "redacted": false,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/smartisan-systemui-patch.json",
+    "redacted": false,
+    "sha256": "f82c65bb6ba214df07d1a95f70cee47a72eadff0bd5143743d8681837125922e"
+  },
+  {
+    "path": "logs/smartisan-texture-final.log",
+    "redacted": false,
+    "sha256": "2ce86f42fcd0ba5d1cdd12e2de134625fcf56ccfc76b759ffee0d635d70c5e1d"
+  },
+  {
+    "path": "logs/smartisan-tombstone-05.txt",
+    "redacted": false,
+    "sha256": "eb5ab5fa8f222f4bee9a8d53549f1681f93b26e02aec477003fb1e96666dc0f7"
+  },
+  {
+    "path": "logs/smartisan-vector-patch.json",
+    "redacted": false,
+    "sha256": "4dc969215a72b2c379619001349c5844ca0f4cdc40c911388ad6b4628f08467a"
+  },
+  {
+    "path": "logs/smartisan-vector-probe-result.log",
+    "redacted": false,
+    "sha256": "b3e781e334a020e34c065e6e0056c30956ee74425cf0f923e9d5bfb2026fc0b9"
+  },
+  {
+    "path": "logs/smartisan-vector-probe.log",
+    "redacted": false,
+    "sha256": "7e52ddd5293ed417645e9f5587f51cdbc7837d9799f308d272306d91852a43aa"
+  },
+  {
+    "path": "logs/smartisan-vm-probe-stopped.log",
+    "redacted": false,
+    "sha256": "80c90c2cc02054a4375f5cab3f30ae3e31826116a84514449d93a18145c69744"
+  },
+  {
+    "path": "logs/smartisan-vm-probe.log",
+    "redacted": false,
+    "sha256": "d9a7dfd990cd5b9436a9934a81c69ba846fdb1a9d427d4ff9a973020659d5f68"
+  },
+  {
+    "path": "logs/toolchain-fetch.log",
+    "redacted": false,
+    "sha256": "f99c2b97ee2ed83c5983b01a95432d39600a0bf23637028de695dc5968bfb76f"
+  }
+]

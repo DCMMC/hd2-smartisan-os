@@ -1,0 +1,168 @@
+-- Logs begin at Tue 2014-05-20 03:57:52 EEST, end at Tue 2014-05-20 04:08:23 EEST. --
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: HOOKS hooks.c:1691 (get_hooked_symbol) DEBUG: __pthread_gettid -2
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [D] HwComposerScreenInfo::HwComposerScreenInfo:251 - EGLFS: Screen Info 
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [D] HwComposerScreenInfo::HwComposerScreenInfo:252 -  - Physical size: QSizeF(56, 94) 
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [D] HwComposerScreenInfo::HwComposerScreenInfo:253 -  - Screen size: QSize(480, 800) 
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [D] HwComposerScreenInfo::HwComposerScreenInfo:254 -  - Screen depth: 32 
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: EGL eglplatform_fbdev.cpp:36 (void fbdevws_init_module(ws_egl_interface*)) DEBUG: ** framebuffer_open: status=(Success) format=x2
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: EGL eglplatform_fbdev.cpp:43 (void fbdevws_init_module(ws_egl_interface*)) DEBUG: ** gralloc_open 0x42f8c004 status=Success
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: == hwcomposer module ==
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Address: 0x4352f004
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Module API Version: 2
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * HAL API Version: 0
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Identifier: hwcomposer
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Name: Qualcomm Hardware Composer Module
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Author: CodeAurora Forum
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: == hwcomposer module ==
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: == hwcomposer device ==
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Version: 1000001 (interpreted as 1000001)
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: * Module: 0x4352f004
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: == hwcomposer device ==
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [D] HwComposerBackend_v10::refreshRate:277 - VSync: 16666666ns, 60.000004fps
+May 20 04:07:57 Jolla jolla-startupwizard-pre-user-session[6262]: [W] QEglFSScreen::QEglFSScreen:56 - QEglScreen 0x396e0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] DeclarativeWindow::DeclarativeWindow:93 - No default allowed orientations defined. Check your device configuration! 
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] unknown:58 - file:///usr/lib/qt5/qml/Sailfish/Silica/private/PageOrientationTransition.qml:58:21: Unable to assign [undefined] to QObject*
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] unknown:723 - file:///usr/lib/qt5/qml/Sailfish/Silica/PageStack.qml:723:17: Unable to assign [undefined] to QObject*
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] QEglFSWindow::QEglFSWindow:58 - QEglWindow 0x9b708: 0x30c10 0x0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:86 (BaseNativeWindow::BaseNativeWindow()) DEBUG: this=0x163aa8 or A 0x163aac
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:487 (virtual int FbDevNativeWindow::setBufferCount(int)) DEBUG: cnt=2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:148 (static void BaseNativeWindow::_incRef(android_native_base_t*)) DEBUG: 0x163aa8 refcount = 1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_API_CONNECT
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:369 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: api connect
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFERS_FORMAT
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:475 (virtual int FbDevNativeWindow::setBuffersFormat(int)) DEBUG: format=x2 m_allocateBuffers=1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:123 (virtual int FbDevNativeWindow::setSwapInterval(int)) DEBUG: interval=1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 2 NATIVE_WINDOW_FORMAT 0xbea8024c
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:383 (virtual unsigned int FbDevNativeWindow::format() const) DEBUG: format=x2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:148 (static void BaseNativeWindow::_incRef(android_native_base_t*)) DEBUG: 0x163aa8 refcount = 2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 3 NATIVE_WINDOW_MIN_UNDEQUEUED_BUFFERS 0xbea8023c
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFER_COUNT
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:332 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: set buffer count 3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:487 (virtual int FbDevNativeWindow::setBufferCount(int)) DEBUG: cnt=3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_USAGE
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:460 (virtual int FbDevNativeWindow::setUsage(int)) DEBUG: usage=x203 m_allocateBuffers=1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 0 NATIVE_WINDOW_WIDTH 0xbea801b8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:361 (virtual unsigned int FbDevNativeWindow::width() const) DEBUG: width=480
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 1 NATIVE_WINDOW_HEIGHT 0xbea801bc
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:372 (virtual unsigned int FbDevNativeWindow::height() const) DEBUG: height=800
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 8 NATIVE_WINDOW_TRANSFORM_HINT 0xbea801b4
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:441 (virtual unsigned int FbDevNativeWindow::transformHint() const) DEBUG:
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFERS_DIMENSIONS
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:540 (virtual int FbDevNativeWindow::setBuffersDimensions(int, int)) DEBUG: WARN: stub. size=480x800
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:100 (void FbDevNativeWindow::destroyBuffers()) DEBUG:
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:25 (BaseNativeWindowBuffer::BaseNativeWindowBuffer()) DEBUG: 0x1640a8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:53 (FbDevNativeWindowBuffer::FbDevNativeWindowBuffer(alloc_device_t*, unsigned int, unsigned int, unsigned int, unsigned int)) DEBUG: width=480 height=800 stride=480 format=x2 usage=x1203 status=Success this=0x1640a8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:509 (void FbDevNativeWindow::reallocateBuffers()) DEBUG: buffer 0 is at 0x1640a8 (native 0x1640ac) err=Success handle=0x163b90 stride=480
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:25 (BaseNativeWindowBuffer::BaseNativeWindowBuffer()) DEBUG: 0x164120
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:53 (FbDevNativeWindowBuffer::FbDevNativeWindowBuffer(alloc_device_t*, unsigned int, unsigned int, unsigned int, unsigned int)) DEBUG: width=480 height=800 stride=480 format=x2 usage=x1203 status=Success this=0x164120
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:509 (void FbDevNativeWindow::reallocateBuffers()) DEBUG: buffer 1 is at 0x164120 (native 0x164124) err=Success handle=0x164198 stride=480
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:25 (BaseNativeWindowBuffer::BaseNativeWindowBuffer()) DEBUG: 0x1641e0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:53 (FbDevNativeWindowBuffer::FbDevNativeWindowBuffer(alloc_device_t*, unsigned int, unsigned int, unsigned int, unsigned int)) DEBUG: width=480 height=800 stride=0 format=x2 usage=x1203 status=Cannot allocate memory this=0x1641e0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1641e0 refcount = 1
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:509 (void FbDevNativeWindow::reallocateBuffers()) DEBUG: buffer 2 is at 0x1641e0 (native 0x1641e4) err=Cannot allocate memory handle=(nil) stride=0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1641e0 refcount = 0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:60 (virtual FbDevNativeWindowBuffer::~FbDevNativeWindowBuffer()) DEBUG: 0x1641e0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:47 (virtual BaseNativeWindowBuffer::~BaseNativeWindowBuffer()) DEBUG: 0x1641e0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: WARNING: void FbDevNativeWindow::reallocateBuffers(): allocated only 2 buffers out of 3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1121368592 DONE --> 0x1640a8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:148 (static void BaseNativeWindow::_incRef(android_native_base_t*)) DEBUG: 0x163aa8 refcount = 3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 2 NATIVE_WINDOW_FORMAT 0x4a257804
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:383 (virtual unsigned int FbDevNativeWindow::format() const) DEBUG: format=x2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 2 NATIVE_WINDOW_FORMAT 0x4a257984
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:383 (virtual unsigned int FbDevNativeWindow::format() const) DEBUG: format=x2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 2 NATIVE_WINDOW_FORMAT 0x4a257984
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:383 (virtual unsigned int FbDevNativeWindow::format() const) DEBUG: format=x2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: linker
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x1640a8 0x1640a8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:123 (virtual int FbDevNativeWindow::setSwapInterval(int)) DEBUG: interval=0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:269 (static int BaseNativeWindow::_query(const ANativeWindow*, int, int*)) DEBUG: window:0x163aac 3 NATIVE_WINDOW_MIN_UNDEQUEUED_BUFFERS 0x4a257a0c
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:312 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: operation = NATIVE_WINDOW_SET_BUFFER_COUNT
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:332 (static int BaseNativeWindow::_perform(ANativeWindow*, int, ...)) DEBUG: set buffer count 3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:487 (virtual int FbDevNativeWindow::setBufferCount(int)) DEBUG: cnt=3
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x164120
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 2
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] ScreenBlank::getInhibitModeFinished:125 - read previous inhibit mode 0 
+May 20 04:08:01 Jolla jolla-startupwizard-pre-user-session[6262]: [W] ScreenBlank::setInhibitModeFinished:151 - display inhibit mode now = stay-on 
+May 20 04:08:15 Jolla jolla-startupwizard-pre-user-session[6262]: [W] unknown:58 - file:///usr/lib/qt5/qml/Sailfish/Silica/private/PageOrientationTransition.qml:58:21: Unable to assign [undefined] to QObject*
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 2
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x164120 0x164120
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x1640a8
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x164120
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x1640a8 0x1640a8
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x164120
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 2
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x164120 0x164120
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x1640a8
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x164120
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 1
+May 20 04:08:18 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x1640a8 0x1640a8
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x164120
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 2
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x164120 0x164120
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x1640a8
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x164120
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x1640a8 0x1640a8
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x164120
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 2
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 1
+May 20 04:08:19 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x164120 0x164120
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x1640a8
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x164120
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 1
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 0
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x1640a8 0x1640a8
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 1
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x164120
+May 20 04:08:20 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x164120 refcount = 2
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:161 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Has front buf 0x1640a8
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x1640a8 with busy 0
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:166 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Status: Buffer 0x164120 with busy 1
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:279 (virtual int FbDevNativeWindow::queueBuffer(BaseNativeWindowBuffer*, int)) DEBUG: 1233118096 0x164120 0x164120
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:60 (static void BaseNativeWindowBuffer::_decRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 1
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:184 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: Found a free non-front buffer
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL fbdev_window.cpp:223 (virtual int FbDevNativeWindow::dequeueBuffer(BaseNativeWindowBuffer**, int*)) DEBUG: 1243972496 DONE --> 0x1640a8
+May 20 04:08:21 Jolla jolla-startupwizard-pre-user-session[6262]: EGL nativewindowbase.cpp:75 (static void BaseNativeWindowBuffer::_incRef(android_native_base_t*)) DEBUG: 0x1640a8 refcount = 2

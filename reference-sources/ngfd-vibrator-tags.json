@@ -1,0 +1,182 @@
+[
+  {
+    "name": "1.4.2",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.4.2",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.4.2",
+    "commit": {
+      "sha": "569c3d835c0f93b1c03112aad7f8ed57e1592985",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/569c3d835c0f93b1c03112aad7f8ed57e1592985"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuNC4y"
+  },
+  {
+    "name": "1.4.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.4.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.4.1",
+    "commit": {
+      "sha": "884fc7de14f8cb6a31b5aa2b6c538085320d81df",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/884fc7de14f8cb6a31b5aa2b6c538085320d81df"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuNC4x"
+  },
+  {
+    "name": "1.4.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.4.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.4.0",
+    "commit": {
+      "sha": "19819aca702bb2d97d0709eb56faab0a66913b72",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/19819aca702bb2d97d0709eb56faab0a66913b72"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuNC4w"
+  },
+  {
+    "name": "1.3.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.3.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.3.1",
+    "commit": {
+      "sha": "acc17b2d3733a5d7d122cb86de44e7f9c50f5937",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/acc17b2d3733a5d7d122cb86de44e7f9c50f5937"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMy4x"
+  },
+  {
+    "name": "1.3.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.3.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.3.0",
+    "commit": {
+      "sha": "2613319c7a055448d33b7041de9769ce82dca0f5",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/2613319c7a055448d33b7041de9769ce82dca0f5"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMy4w"
+  },
+  {
+    "name": "1.2.2",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.2.2",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.2.2",
+    "commit": {
+      "sha": "3ff916bafef422a78ca51e68b8cd98c7638c6497",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/3ff916bafef422a78ca51e68b8cd98c7638c6497"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMi4y"
+  },
+  {
+    "name": "1.2.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.2.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.2.1",
+    "commit": {
+      "sha": "15a2d2d9c473e9a0eb67918c2412084bdf14e280",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/15a2d2d9c473e9a0eb67918c2412084bdf14e280"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMi4x"
+  },
+  {
+    "name": "1.2",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.2",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.2",
+    "commit": {
+      "sha": "b864c11e0eb508fe47b4531ea30fcb2776c7f720",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/b864c11e0eb508fe47b4531ea30fcb2776c7f720"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMg=="
+  },
+  {
+    "name": "1.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.1",
+    "commit": {
+      "sha": "ecb6b8e4b5314aaae784121c946525e1fc8cd9ac",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/ecb6b8e4b5314aaae784121c946525e1fc8cd9ac"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMQ=="
+  },
+  {
+    "name": "1.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/1.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/1.0",
+    "commit": {
+      "sha": "d841e43dac31bebca3763001ac0ed958271aeb18",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/d841e43dac31bebca3763001ac0ed958271aeb18"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzEuMA=="
+  },
+  {
+    "name": "0.92.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.92.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.92.0",
+    "commit": {
+      "sha": "3e2b4fb5b03a6d3db9ca5a41c7091e771f99cc4f",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/3e2b4fb5b03a6d3db9ca5a41c7091e771f99cc4f"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTIuMA=="
+  },
+  {
+    "name": "0.91.4",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.91.4",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.91.4",
+    "commit": {
+      "sha": "3374a0eb9cdcc7cd0a8f5bb5d79b4a3be80fbe3a",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/3374a0eb9cdcc7cd0a8f5bb5d79b4a3be80fbe3a"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTEuNA=="
+  },
+  {
+    "name": "0.91.3",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.91.3",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.91.3",
+    "commit": {
+      "sha": "5c0d6c70dcf0b3d364cbfe929f75fb744a9339d7",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/5c0d6c70dcf0b3d364cbfe929f75fb744a9339d7"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTEuMw=="
+  },
+  {
+    "name": "0.91.2",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.91.2",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.91.2",
+    "commit": {
+      "sha": "ba2f75aa04b2f3bcf75e1efbd53f5b8fd9984d92",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/ba2f75aa04b2f3bcf75e1efbd53f5b8fd9984d92"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTEuMg=="
+  },
+  {
+    "name": "0.91.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.91.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.91.1",
+    "commit": {
+      "sha": "f24783d57914ffccb8ea2a2bb207864be3e0e24b",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/f24783d57914ffccb8ea2a2bb207864be3e0e24b"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTEuMQ=="
+  },
+  {
+    "name": "0.91.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.91.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.91.0",
+    "commit": {
+      "sha": "c883b5392db126b9b432486500cf977482d50240",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/c883b5392db126b9b432486500cf977482d50240"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuOTEuMA=="
+  },
+  {
+    "name": "0.63.1",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.63.1",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.63.1",
+    "commit": {
+      "sha": "ffcb372d8f17cd6255618d219b76469001ff8968",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/ffcb372d8f17cd6255618d219b76469001ff8968"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuNjMuMQ=="
+  },
+  {
+    "name": "0.63.0",
+    "zipball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/zipball/refs/tags/0.63.0",
+    "tarball_url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/tarball/refs/tags/0.63.0",
+    "commit": {
+      "sha": "1286cc68a0aca0a4e84bdfe0ccc9d10a57c669cd",
+      "url": "https://api.github.com/repos/mer-hybris/ngfd-plugin-droid-vibrator/commits/1286cc68a0aca0a4e84bdfe0ccc9d10a57c669cd"
+    },
+    "node_id": "MDM6UmVmMTcyODU4NzU6cmVmcy90YWdzLzAuNjMuMA=="
+  }
+]

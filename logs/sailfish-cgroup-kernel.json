@@ -1,0 +1,10 @@
+{
+  "evidence": "logs/sailfish-first-boot/third-last_kmsg.txt",
+  "fix": "Backport /sys/fs/cgroup kobject creation",
+  "upstream": "https://github.com/torvalds/linux/blob/v2.6.38/kernel/cgroup.c",
+  "patch": "configs/sailfish-cgroup-sysfs.patch",
+  "build_exit_code": 0,
+  "zImage_sha256": "a8160f1a3a25ddb647e0df54559b5e93032037d7193ae8a40cff119970625dcc",
+  "runtime_pending": false,
+  "runtime_evidence": "logs/sailfish-first-boot/fourth-last_kmsg.txt"
+}

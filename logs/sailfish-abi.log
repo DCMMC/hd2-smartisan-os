@@ -1,0 +1,32 @@
+readelf: Warning: local symbol 0 found at index >= .dynsym's sh_info value of 0
+readelf: Warning: local symbol 0 found at index >= .dynsym's sh_info value of 0
+readelf: Warning: local symbol 0 found at index >= .dynsym's sh_info value of 0
+audio.a2dp.default.so missing [] unresolved {}
+audio.primary.default.so missing [] unresolved {}
+audio.primary.qsd8k.so missing [] unresolved {}
+audio.usb.default.so missing [] unresolved {}
+audio_policy.default.so missing [] unresolved {}
+audio_policy.qsd8k.so missing [] unresolved {}
+bluetooth.default.so missing [] unresolved {}
+camera.qsd8k.so missing [] unresolved {}
+copybit.qsd8k.so missing [] unresolved {}
+gps.htcleo.so missing [] unresolved {}
+gralloc.default.so missing [] unresolved {}
+gralloc.qsd8k.so missing [] unresolved {}
+hwcomposer.qsd8k.so missing [] unresolved {}
+keystore.default.so missing [] unresolved {}
+lights.htcleo.so missing [] unresolved {}
+local_time.default.so missing [] unresolved {}
+power.default.so missing [] unresolved {}
+sensors.htcleo.so missing [] unresolved {}
+eglsubAndroid.so missing [] unresolved {}
+libEGL_adreno200.so missing [] unresolved {}
+libGLES_android.so missing [] unresolved {}
+libGLESv1_CM_adreno200.so missing [] unresolved {}
+libGLESv2_adreno200.so missing [] unresolved {}
+libq3dtools_adreno200.so missing [] unresolved {}
+libhtc_ril.so missing [] unresolved {}
+rild missing [] unresolved {}
+servicemanager missing [] unresolved {}
+minisfservice missing [] unresolved {}
+minimediaservice missing [] unresolved {}
