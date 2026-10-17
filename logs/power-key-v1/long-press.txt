@@ -1,0 +1,4 @@
+  mWakefulness=Awake
+  mCurrentFocus=Window{41d32738 u0 Keyguard}
+  mFocusedApp=AppWindowToken{41bf1100 token=Token{41b42ca0 ActivityRecord{41cd5d10 u0 com.smartisanos.launcher/.Launcher t1}}}
+    mLongPressOnPowerBehavior=-1 mHasSoftInput=true

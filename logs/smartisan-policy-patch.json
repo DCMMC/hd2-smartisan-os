@@ -1,0 +1,8 @@
+{
+  "recipe": "hd2-power-key-global-actions-v1",
+  "source_sha256": "66300fe1657b1b145a37e378a7ae47d2207e122dfd6d545963ab285c5c03ef1a",
+  "output_sha256": "881ac5217a9cd5e6c3083e213fd2f25fe7e3f223f4c52d3d36c8084f151eb3d0",
+  "long_press_delay_ms": 800,
+  "menu_show_delay_ms": 100,
+  "null_screenshot_guard": true
+}

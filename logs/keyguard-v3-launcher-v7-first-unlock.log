@@ -1,0 +1,206 @@
+--------- beginning of /dev/log/main
+10-17 12:32:55.796  2086  2086 I HD2TEST : first_unlock_v7_begin
+10-17 12:32:57.946  2061  2061 D REM     : REMReceiver.java, 44, onReceive() Device Boot Completely start to scan device log.
+10-17 12:32:58.686  2061  2061 D REM     : REMReceiver.java, 89, postponeScan() Postpone scanning seconds: 100
+10-17 12:32:59.156  2088  2088 D AndroidRuntime:
+10-17 12:32:59.156  2088  2088 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:32:59.166  2088  2088 D AndroidRuntime: CheckJNI is OFF
+10-17 12:32:59.276  2088  2088 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:32:59.296  2088  2088 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:32:59.316  2088  2088 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:32:59.316  2088  2088 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:32:59.316  2088  2088 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:32:59.346  2002  2002 D FloatViewManager: init(Context context, Handler handler)..
+10-17 12:32:59.346  2002  2002 D FloatViewManager: FloatViewManager(Context context)...
+10-17 12:32:59.436  2088  2088 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:32:59.506  2088  2088 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:32:59.866  2002  2002 I InCall  : CallHandlerService - onCreate
+10-17 12:32:59.876  2002  2002 I InCall  : CallHandlerService - onBind
+10-17 12:32:59.896  1379  1379 D CallHandlerServiceProxy: Service Connected
+10-17 12:32:59.896  2002  2002 I PhoneNumberAssistantProxy: onServiceConnected
+10-17 12:32:59.896  1379  1379 D CallHandlerServiceProxy: onCallHandlerServiceConnected
+10-17 12:32:59.906  1379  1379 D CallHandlerServiceProxy: onSupportedAudioModeChange
+10-17 12:32:59.906  2002  2018 I InCall  : CallHandlerService - startCallService: com.android.services.telephony.common.g@42046698
+10-17 12:32:59.906  1379  1379 D CallHandlerServiceProxy: onSupportAudioModeChange: EARPIECE
+10-17 12:32:59.916  1379  1379 D CallHandlerServiceProxy: onAudioModeChange
+10-17 12:32:59.916  1379  1379 I CallHandlerServiceProxy: Updating with new audio mode: EARPIECE with mute true
+10-17 12:32:59.916  1379  1379 D CallHandlerServiceProxy: processQueue
+10-17 12:32:59.916  2002  2002 D InCall  : CallHandlerService - executeMessage 9
+10-17 12:32:59.926  2002  2002 I InCall  : CallHandlerService - doStart
+10-17 12:33:00.116  2002  2002 D InCall  : as - onCreate: mProximityWakeLock: WakeLock{4205c408 held=false, refCount=0}
+10-17 12:33:00.126  2002  2002 D PhoneUtils: getSupportedAudio ? :EARPIECE
+10-17 12:33:00.136  2002  2002 I InCall  : as - as{keybrd=0, offhook=0, ui=0, btAvailableWhenDialing=false, aud=EARPIECE}
+10-17 12:33:00.136  2002  2002 I InCall  : as - turning off proximity sensor: already released
+10-17 12:33:00.156  2002  2002 D InCall  : InCallPresenter - startOrFinishUi: NO_CALLS -> NO_CALLS
+10-17 12:33:00.156  2002  2002 I InCall  : fr - setSystemBarNavigationEnabled() enabled = true
+10-17 12:33:00.196  2002  2002 I InCall  : InCallPresenter - Phone switching state: NO_CALLS -> NO_CALLS
+10-17 12:33:00.196  2002  2002 I InCall  : InCallPresenter - No need update , return .  newstate:NO_CALLS
+10-17 12:33:00.196  2002  2002 D InCall  : InCallPresenter - Finished InCallPresenter.setUp
+10-17 12:33:00.196  2002  2002 D InCall  : CallHandlerService - executeMessage 5
+10-17 12:33:00.206  2002  2002 I InCall  : CallHandlerService - ON_SUPPORTED_AUDIO_MODE: EARPIECE
+10-17 12:33:00.206  2002  2002 D InCall  : CallHandlerService - executeMessage 4
+10-17 12:33:00.206  2002  2002 I InCall  : CallHandlerService - ON_AUDIO_MODE: EARPIECE, muted (true)
+10-17 12:33:00.356  1884  2090 D dalvikvm: No JNI_OnLoad found in /system/lib/liblocSDK5.so 0x41a064a8, skipping init
+10-17 12:33:00.456  2088  2088 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:33:00.456  2088  2088 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:33:00.846  2088  2088 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:33:00.866  2088  2088 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=120.0, y[0]=680.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=235190, downTime=235190, deviceId=0, source=0x1002 }
+10-17 12:33:00.946  1224  1224 I KeyguardHostView: #### ACTION_DOWN ###
+10-17 12:33:01.096  2088  2088 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=680.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=235190, downTime=235190, deviceId=0, source=0x1002 }
+10-17 12:33:01.116  2088  2088 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=307.14288, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=235451, downTime=235451, deviceId=0, source=0x1002 }
+10-17 12:33:01.276  2088  2088 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=120.0, y[0]=80.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=235616, downTime=235616, deviceId=0, source=0x1002 }
+10-17 12:33:01.536  1224  1224 I KeyguardHostView: ## fling velocity x = 0.0 , min = 200.0
+10-17 12:33:01.536  1224  1224 I KeyguardHostView: ### up pointid = 0
+10-17 12:33:01.536  1224  1224 I KeyguardHostView: ### all point up #####
+10-17 12:33:01.536  1224  1224 I KeyguardHostView: point down = 120.0, current = 120.0
+10-17 12:33:01.536  1224  1224 D KeyguardHostView: -------- Broadcast post ACTION_KEYGUARD_TO_DISMISS when snapToTop and no sec view
+10-17 12:33:01.546  2088  2088 D AndroidRuntime: Shutting down VM
+10-17 12:33:01.826  2101  2101 I HD2TEST : first_unlock_v7_input_done
+10-17 12:33:01.836  1224  1224 D KeyguardHostView: -------- Broadcast ACTION_KEYGUARD_TO_DISMISS
+--------- beginning of /dev/log/system
+10-17 12:33:02.016   800   816 I ActivityManager: Waited long enough for: ServiceRecord{41d81f28 u0 com.smartisanos.tracker/.service.UploadService}
+10-17 12:33:02.036  1401  1401 E NewLauncher: LauncherApplication : DEBUG : ACTION_KEYGUARD_TO_DISMISS begin !
+10-17 12:33:02.046  1401  1401 E NewLauncher: Utils : DEBUG : ### rti = 1 ##
+10-17 12:33:02.046  1401  1401 E NewLauncher: Utils : DEBUG : ## rt = com.smartisanos.launcher.Launcher ##
+10-17 12:33:02.046  1401  1401 E NewLauncher: LauncherApplication : ### ACTION_KEYGUARD_TO_DISMISS,launcher is home.
+10-17 12:33:02.046  1401  1680 E NewLauncher: LauncherApplication : ### play unlock animation.
+10-17 12:33:02.046  1401  1680 E NewLauncher: StatusManager : DEBUG : ###setLauncherStatus status ON_UNLOCK_ANIM_PAGE_INIT### = 1048576, value = false
+10-17 12:33:02.046  1401  1680 E NewLauncher: StatusManager : DEBUG : ###setLauncherStatus status ON_UNLOCK_SCREEN_ANIMATION_RUNNING### = 524288, value = true
+10-17 12:33:02.296   800  1620 I ActivityManager: Delay finish: com.android.settings/.SmartisanEventReceiver
+10-17 12:33:02.316  1367  2052 I PowerUsage:  savePowerData current time 1792240382325
+10-17 12:33:02.346  1367  2052 I PowerUsage:  time 1792240382325
+10-17 12:33:02.366  1367  2052 I PowerUsage: now usageList is [屏幕 12.350800000000001 SCREEN null 0, com.amap.android.location 6.9468000000000005 APP null 10025, 网络连接 0.4816 WIFI null 0, 系统 0.2620303537777778 APP null 0, 通话 0.0 PHONE null 0, 蓝牙 0.0 BLUETOOTH null 0, 待机 0.0 IDLE null 0]
+10-17 12:33:02.476  1367  2052 I PowerUsage: savePowerData end
+10-17 12:33:02.526   800  1663 I ActivityManager: Resuming delayed broadcast
+10-17 12:33:02.556  1367  1367 D SettingItems: onServiceStateChanged()
+10-17 12:33:02.796  1318  1318 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 12:33:02.846  1318  1318 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 12:33:02.866   800  1535 I ActivityManager: Delay finish: com.smartisanos.weather/.service.StartWeatherUpdate
+10-17 12:33:02.886  1318  1318 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 12:33:03.196   800   908 I ActivityManager: Resuming delayed broadcast
+10-17 12:33:03.226  1367  1367 D SettingItems: onServiceStateChanged()
+10-17 12:33:03.236  1884  1884 D baidu_location_service: baidu location service stop ...
+10-17 12:33:03.276   800  1620 I ActivityManager: Delay finish: com.smartisanos.weather/.service.StartWeatherUpdate
+10-17 12:33:03.326   800  1663 I ActivityManager: Resuming delayed broadcast
+10-17 12:33:03.336  1318  2112 E AutoUpdateListener: time is not qualified
+10-17 12:33:03.346   800  1413 I ActivityManager: Killing 1607:com.android.printspooler/u0a31 (adj 15): empty #6
+10-17 12:33:03.376   800  1413 I Process : killProcessQuiet pid=1607
+10-17 12:33:03.376   800  1413 I Process : java.lang.RuntimeException
+10-17 12:33:03.376   800  1413 I Process : 	at android.os.Process.killProcessQuiet(Process.java:982)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.killUnneededProcessLocked(ActivityManagerService.java:7399)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16275)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16097)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16076)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:1886)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:1835)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.serviceDoneExecuting(ActivityManagerService.java:13396)
+10-17 12:33:03.376   800  1413 I Process : 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:902)
+10-17 12:33:03.376   800  1413 I Process : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2215)
+10-17 12:33:03.376   800  1413 I Process : 	at android.os.Binder.execTransact(Binder.java:404)
+10-17 12:33:03.376   800  1413 I Process : 	at dalvik.system.NativeStart.run(Native Method)
+10-17 12:33:03.446  1354  1386 D AMap NetworkLocationProvider: onEnable
+10-17 12:33:03.446  1354  1354 D AMap NetworkLocationProvider: handleMessage msg = 0
+10-17 12:33:03.446  1354  1354 D AMap NetworkLocationProvider: onEnable
+10-17 12:33:03.496  1318  1318 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 12:33:03.646  1401  1401 E NewLauncher: LauncherModel : DEBUG : handleOnNewMessage messageCount=0
+10-17 12:33:03.646  1401  1682 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_MESSAGE_COUNT]
+10-17 12:33:03.646  1401  1682 E NewLauncher: DatabaseHandler : DEBUG : handleEventUpdateMessageCount set count to [0] where ==> packageName = 'com.android.mms' AND componentName = 'com.android.mms.ui.ConversationList'
+10-17 12:33:03.676  1379  1379 V SubscriptsManager: message send broadcast to update the mms uread count: 0
+10-17 12:33:03.706  1401  1682 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_MESSAGE_COUNT] Done !
+10-17 12:33:03.926  1354  1534 D AMap NetworkLocationProvider: onSetRequest calling pid: 800 calling uid: 1000 nlp used by: [android(1000)]
+10-17 12:33:03.996  1401  1682 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_ITEM]
+10-17 12:33:04.046  1401  1682 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_ITEM] Done !
+10-17 12:33:04.166  1224  1224 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+10-17 12:33:04.176  1354  1534 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+10-17 12:33:04.186  1354  1354 D AMap NetworkLocationProvider: handleMessage msg = 20
+10-17 12:33:04.186  1354  1354 D AMap NetworkLocationProvider: enabled:true minTime: 86400000
+10-17 12:33:04.186  1354  1354 D AMap LocationClient: handleMessage msg = 1
+10-17 12:33:04.186  1354  1354 D AMap LocationClient: setPeriod: 86400000
+10-17 12:33:04.186  1354  1903 D AMap InternalService: handleMessage msg = 6
+10-17 12:33:04.186  1354  1903 D AMap InternalService: setPeriod: 86400000
+10-17 12:33:04.196  1354  1903 D AMap InternalService: NetworkInfo: NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "CU_EecN", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+10-17 12:33:04.196  1354  1903 D AMap InternalService: NetworkInfo.State: CONNECTED
+10-17 12:33:04.666  1884  1911 I Process : killProcess pid=1884
+10-17 12:33:04.666  1884  1911 I Process : java.lang.RuntimeException
+10-17 12:33:04.666  1884  1911 I Process : 	at android.os.Process.killProcess(Process.java:957)
+10-17 12:33:04.666  1884  1911 I Process : 	at com.baidu.location.ad.bs(Unknown Source)
+10-17 12:33:04.666  1884  1911 I Process : 	at com.baidu.location.ad.if(Unknown Source)
+10-17 12:33:04.666  1884  1911 I Process : 	at com.baidu.location.ad$a.handleMessage(Unknown Source)
+10-17 12:33:04.666  1884  1911 I Process : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+10-17 12:33:04.666  1884  1911 I Process : 	at android.os.Looper.loop(Looper.java:136)
+10-17 12:33:04.666  1884  1911 I Process : 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-17 12:33:04.676  1884  1911 I Process : Sending signal. PID: 1884 SIG: 9
+10-17 12:33:04.736   800   817 V SyncManager: handleSyncHandlerMessage: MESSAGE_CHECK_ALARMS
+10-17 12:33:04.766  1318  1318 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 12:33:04.786   800   817 V SyncManager: manageSyncAlarm: the alarmTime is too large, 9223372036854775807, setting to 269123
+10-17 12:33:04.806   800   817 V SyncManager: requesting that the alarm manager wake us up at elapsed time 7439123, now is 239123, 7200 secs from now
+10-17 12:33:04.856  1224  1224 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:33:04.856  1224  1224 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:33:04.856  1224  1224 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:33:04.866  1224  1224 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:33:04.876  1224  1224 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:33:04.876  1224  1224 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:33:05.006   800  1690 I ActivityManager: Process com.smartisanos.phone_number_assistant:remote (pid 1884) has died.
+10-17 12:33:05.066   800  1212 D ConnectivityService: Sampling interval elapsed, updating statistics ..
+10-17 12:33:05.076  1318  1318 I bm      : com.smartdialer.voip.action.autoupdate
+10-17 12:33:05.076  1318  1318 I bm      : onReceive = com.smartdialer.voip.action.autoupdate
+10-17 12:33:05.126   800  1212 D ConnectivityService: Done.
+10-17 12:33:05.146   800  1441 I ActivityManager: Delay finish: com.smartisanos.weather/.service.StartWeatherUpdate
+10-17 12:33:05.236  1875  1893 W CursorWrapperInner: Cursor finalized without prior close()
+10-17 12:33:05.256  1367  1367 D SettingItems: onUpdateDelayTimeOut(), , mVeryFirstUpdate=false, airPlaneChanged=false, simStateChanged=false, serviceStateChanged=false, mobileDataChanged=false, defaultDataSlotChanged=false
+10-17 12:33:05.256   800   812 I ActivityManager: Resuming delayed broadcast
+10-17 12:33:05.276  1367  1367 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 smartisanos.app.tracker.TrackerServiceConnection.connect:34 smartisanos.app.tracker.Agent.connectService:54 smartisanos.app.tracker.Agent.flush:166
+10-17 12:33:05.306  1875  1875 D TrackerBaseTask: TrackerInsertTask() status is : PENDING
+10-17 12:33:05.326  1875  1875 D TransportService: onBind()
+10-17 12:33:05.356  1875  1899 D TransportService: onTransport()
+10-17 12:33:05.356  1875  1899 D TransportService: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+10-17 12:33:05.356  1875  1899 D TransportService: mPackageName = com.android.settings
+10-17 12:33:05.356  1875  1899 D TransportService: mTag = location_provider_enabled
+10-17 12:33:05.356  1875  1899 D TransportService: mSubTag = null
+10-17 12:33:05.356  1875  1899 D TransportService: mData = {"enable":true}
+10-17 12:33:05.356  1875  1899 D TransportService: mAction = 9
+10-17 12:33:05.356  1875  1899 D TransportService: mValues = 1
+10-17 12:33:05.356  1875  1899 D TransportService: mTimeStamp = 1792240385278
+10-17 12:33:05.356  1875  1899 D TransportService: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+10-17 12:33:05.356  1875  1899 D TrackerBaseTask: insert() sources size : 1
+10-17 12:33:05.376  1224  1224 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:33:05.386  1224  1224 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:33:05.386  1224  1224 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:33:05.496   800   817 D gps_leo : gps_cleanup() is called
+10-17 12:33:05.506   800   817 D GpsLocationProvider: set_capabilities_callback: 7u
+10-17 12:33:05.506   800   817 D gps_leo : gps_init() is called
+10-17 12:33:05.506   800   817 D gps_leo : gps_xtra_init() is called
+10-17 12:33:05.506   800   817 D gps_leo : agps_init() is called
+10-17 12:33:05.506   800   817 D gps_leo : agps_set_server() is called
+10-17 12:33:05.506   800   817 D gps_leo : type=1, hostname=supl.google.com, port=7276
+10-17 12:33:05.506  1379  1421 D TelephonyProvider: Column apn id key is 'apn_id'
+10-17 12:33:05.526  1367  1367 D DockEventReceiver: Action: android.bluetooth.adapter.action.STATE_CHANGED State:11 Device: null
+10-17 12:33:05.696  1367  1367 D DockEventReceiver: Action: android.bluetooth.adapter.action.STATE_CHANGED State:12 Device: null
+10-17 12:33:05.706  1367  1367 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.bluetooth.DockEventReceiver.a:136 com.android.settings.bluetooth.DockEventReceiver.onReceive:117
+10-17 12:33:05.786  1988  1988 D BluetoothAdapterService(1101120472): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e540
+10-17 12:33:05.786  1988  1988 D BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED
+10-17 12:33:05.796  1988  1988 V BluetoothOppReceiver: Received BLUETOOTH_STATE_CHANGED_ACTION, BLUETOOTH_STATE_ON
+10-17 12:33:05.816  1224  1224 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:33:05.826  1224  1224 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:33:05.826  1224  1224 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:33:05.906  1367  1367 D DockService: onCreate
+10-17 12:33:05.936  1988  1988 V BluetoothOppManager: restoreApplicationData! falsefalsenullnull
+10-17 12:33:05.936  1988  1988 D BluetoothPbapService: Handler(): got msg=1
+10-17 12:33:05.956   800   895 D BluetoothManagerService: Message: 20
+10-17 12:33:05.956   800   895 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41c42ec8:true
+10-17 12:33:06.006   800  1330 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 foregroundUser=0
+10-17 12:33:06.036  1988  2128 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+10-17 12:33:06.046  1988  2128 E BluetoothServiceJni: SOCK FLAG = 1 ***********************
+10-17 12:33:06.046  1988  2051 I BluetoothAdapterProperties: adapterPropertyChangedCallback with type:7 len:4
+10-17 12:33:06.056  1988  2051 D BluetoothAdapterProperties: Scan Mode:21
+10-17 12:33:06.126   800  1413 I ActivityManager: Delaying start of: ServiceRecord{41d79cb8 u0 com.smartisanos.weather/.service.UpdateService}
+10-17 12:33:06.156  2132  2132 I HD2TEST : first_unlock_v7_state_checked
+10-17 12:33:06.166  1988  1988 V BtOppService: onCreate
+10-17 12:33:06.186  1988  1988 V BluetoothOppNotification: send message
+10-17 12:33:06.196  1988  1988 V BtOppService: Starting RfcommListener
+10-17 12:33:06.206  1988  1988 D BluetoothOppPreference: Dumping Names:
+10-17 12:33:06.206  1988  1988 D BluetoothOppPreference: {}
+10-17 12:33:06.206  1988  1988 D BluetoothOppPreference: Dumping Channels:
+10-17 12:33:06.216  1988  1988 D BluetoothOppPreference: {}
+10-17 12:33:06.226  1988  1988 V BtOppService: onStartCommand
+10-17 12:33:06.226  1988  1988 V BluetoothOppNotification: new notify threadi!

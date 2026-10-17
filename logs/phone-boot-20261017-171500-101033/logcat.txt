@@ -1,0 +1,10 @@
+--------- beginning of /dev/log/main
+05-20 13:54:51.917   377   377 D AK8973  : AK8973 daemon 1.2.3 Start
+05-20 13:54:51.917   377   377 D AK8973  : (Library version : 1.2.1.620)
+05-20 13:54:52.057   373   373 I installd: installd firing up
+05-20 13:54:52.137   367   367 I DEBUG   : debuggerd: Dec  8 2013 10:13:26
+--------- beginning of /dev/log/system
+05-20 13:54:52.407   363   363 I Vold    : Vold 2.1 (the revenge) firing up
+05-20 13:54:52.497   366   366 I Netd    : Netd 1.0 starting
+05-20 13:54:52.507   366   366 W InterfaceController: Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+05-20 13:54:52.677   380   380 I run-parts: /system/priv-app/GoogleServicesFramework.apk: No such file or directory

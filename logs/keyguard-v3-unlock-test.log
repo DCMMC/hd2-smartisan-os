@@ -1,0 +1,60 @@
+--------- beginning of /dev/log/main
+10-17 12:16:01.564  1859  1859 I HD2TEST : unlock_begin
+10-17 12:16:02.994  1861  1861 D AndroidRuntime:
+10-17 12:16:02.994  1861  1861 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:16:03.004  1861  1861 D AndroidRuntime: CheckJNI is OFF
+10-17 12:16:03.084  1861  1861 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:16:03.114  1861  1861 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:16:03.134  1861  1861 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:16:03.144  1861  1861 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:16:03.144  1861  1861 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:16:03.274  1861  1861 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:16:03.334  1861  1861 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:16:03.974  1861  1861 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:16:03.974  1861  1861 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:16:04.224  1861  1861 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:16:04.224  1861  1861 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=745.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=348533, downTime=348533, deviceId=0, source=0x1002 }
+10-17 12:16:04.244   939   939 I KeyguardHostView: #### ACTION_DOWN ###
+10-17 12:16:04.304  1861  1861 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=240.0, y[0]=745.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=348533, downTime=348533, deviceId=0, source=0x1002 }
+10-17 12:16:04.314  1861  1861 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=240.0, y[0]=614.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=348620, downTime=348620, deviceId=0, source=0x1002 }
+10-17 12:16:05.194   939   939 I Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+10-17 12:16:05.204  1861  1861 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=70.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=349509, downTime=349509, deviceId=0, source=0x1002 }
+10-17 12:16:05.224   939   939 I KeyguardHostView: ## fling velocity x = 0.0 , min = 200.0
+10-17 12:16:05.224   939   939 I KeyguardHostView: ### up pointid = 0
+10-17 12:16:05.224   939   939 I KeyguardHostView: ### all point up #####
+10-17 12:16:05.224   939   939 I KeyguardHostView: point down = 240.0, current = 240.0
+10-17 12:16:05.224   939   939 D KeyguardHostView: -------- Broadcast post ACTION_KEYGUARD_TO_DISMISS when snapToTop and no sec view
+10-17 12:16:05.234  1861  1861 D AndroidRuntime: Shutting down VM
+10-17 12:16:05.504  1874  1874 I HD2TEST : unlock_input_done
+10-17 12:16:05.564   939   939 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:16:05.564   939   939 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:16:05.564   939   939 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:16:05.634   939   939 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:16:05.634   939   939 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:16:05.634   939   939 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:16:06.414   939   939 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+10-17 12:16:06.414   939   939 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:16:06.414   939   939 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:16:06.414   939   939 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:16:06.534   939   939 I ActivityManager: Timeline: Activity_launch_request id:com.android.contacts time:350845
+--------- beginning of /dev/log/system
+10-17 12:16:06.534   939   939 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1057 android.content.ContextWrapper.startActivity:311 com.smartisanos.keyguard.KeyguardActivityLauncher.startActivity:188 com.smartisanos.keyguard.KeyguardActivityLauncher.b:173 com.smartisanos.keyguard.KeyguardActivityLauncher.a:136
+10-17 12:16:06.534   939   939 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1069 android.app.ContextImpl.startActivity:1058 android.content.ContextWrapper.startActivity:311 com.smartisanos.keyguard.KeyguardActivityLauncher.startActivity:188 com.smartisanos.keyguard.KeyguardActivityLauncher.b:173
+10-17 12:16:06.544  1120  1120 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fa178 time:350858
+10-17 12:16:06.564   783  1170 E SmartisanOS_Perf_JNI: onload
+10-17 12:16:06.564   783  1170 E OpenGLHelper_Jni: opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+10-17 12:16:06.584   783  1170 E SmartisanOS_Perf_JNI: smartiperf module not found
+10-17 12:16:06.584   783  1170 E SmartisanOS_Perf: SmartiPerformance initialized failed!
+10-17 12:16:06.584   783  1170 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+10-17 12:16:06.594   783  1170 I ActivityManager: START u0 {flg=0x34010000 cmp=com.android.contacts/.activities.DialtactsActivity (has extras)} from pid 939
+10-17 12:16:06.754   783   798 E WindowManager: use package drawable background
+10-17 12:16:07.424   939   939 D KeyguardHostView: -------- Broadcast ACTION_KEYGUARD_TO_DISMISS
+10-17 12:16:07.434   939   939 I Choreographer: Skipped 60 frames!  The application may be doing too much work on its main thread.
+10-17 12:16:07.474   783  1317 I ActivityManager: Start proc com.android.contacts for activity com.android.contacts/.activities.DialtactsActivity: pid=1878 uid=10019 gids={50019, 3003, 1028, 1015}
+10-17 12:16:07.744   939   939 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:16:07.764   939   939 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:16:07.764   939   939 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:16:07.804   939   939 W Adreno200-ES20: <qgl2DrvAPI_glStartTilingQCOM:179>: GL_INVALID_VALUE
+10-17 12:16:07.834   939   939 D OpenGLRenderer: GL error from OpenGLRenderer: 0x501
+10-17 12:16:07.844   939   939 E OpenGLRenderer:   GL_INVALID_VALUE
+10-17 12:16:07.924  1900  1900 I HD2TEST : unlock_state_checked

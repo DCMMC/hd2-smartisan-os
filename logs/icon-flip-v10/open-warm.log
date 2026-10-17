@@ -1,0 +1,55 @@
+--------- beginning of /dev/log/main
+10-17 13:29:11.591 I/HD2TEST ( 2115): icon_flip_warm_open_begin
+10-17 13:29:12.431 D/AndroidRuntime( 2116):
+10-17 13:29:12.431 D/AndroidRuntime( 2116): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 13:29:12.441 D/AndroidRuntime( 2116): CheckJNI is OFF
+10-17 13:29:12.490 D/dalvikvm( 2116): Trying to load lib libjavacore.so 0x0
+10-17 13:29:12.511 D/dalvikvm( 2116): Added shared lib libjavacore.so 0x0
+10-17 13:29:12.531 D/dalvikvm( 2116): Trying to load lib libnativehelper.so 0x0
+10-17 13:29:12.531 D/dalvikvm( 2116): Added shared lib libnativehelper.so 0x0
+10-17 13:29:12.531 D/dalvikvm( 2116): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 13:29:12.600 E/cutils-trace( 2116): Error opening trace file: No such file or directory (2)
+10-17 13:29:12.650 D/dalvikvm( 2116): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 13:29:13.230 E/memtrack( 2116): Couldn't load memtrack module (No such file or directory)
+10-17 13:29:13.230 E/android.os.Debug( 2116): failed to load memtrack module: -2
+10-17 13:29:13.470 D/AndroidRuntime( 2116): Calling main entry com.android.commands.input.Input
+10-17 13:29:13.470 I/Input   ( 2116): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=384633, downTime=384633, deviceId=0, source=0x1002 }
+10-17 13:29:13.490 I/Input   ( 2116): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=384633, downTime=384633, deviceId=0, source=0x1002 }
+10-17 13:29:13.500 D/AndroidRuntime( 2116): Shutting down VM
+10-17 13:29:13.530 I/ActivityManager( 1381): Timeline: Activity_launch_request id:com.android.settings time:384697
+10-17 13:29:13.540 E/SmartisanOS_Perf(  780): SmartiPerformance has not been initialized!
+--------- beginning of /dev/log/system
+10-17 13:29:13.540 I/ActivityManager(  780): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1381
+10-17 13:29:13.600 E/WindowManager(  780): use package drawable background
+10-17 13:29:13.641 I/OpenGLHelper_Jni( 1381): genreate image target(surface:0x2a516410) to texture:76
+10-17 13:29:13.650 I/OpenGLHelper_Jni( 1381): released surface:0x2a516410
+10-17 13:29:13.680 D/WindowManager.STA(  780): getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(0, -105 - 158, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 13:29:13.771 I/HD2TEST ( 2128): icon_flip_warm_open_input_done
+10-17 13:29:13.810 V/WindowManager.STA(  780): transit=8204/0, mIsEnter=true
+10-17 13:29:13.840 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b58b60
+10-17 13:29:14.331 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:29:14.430 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:29:14.530 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:29:14.540 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:29:14.891 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:14.891 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:14.931 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:14.931 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:14.960 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:14.960 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.041 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:15.041 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.091 I/Choreographer( 2045): Skipped 30 frames!  The application may be doing too much work on its main thread.
+10-17 13:29:15.121 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:15.121 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.121 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:15.121 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.121 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:15.130 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.141 W/ResourceType( 2045): No known package when getting value for resource number 0xffffffff
+10-17 13:29:15.141 D/        ( 2045): get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 13:29:15.271 I/ActivityManager(  780): Displayed com.android.settings/.Settings: +1s528ms
+10-17 13:29:15.271 E/SmartisanOS_Perf(  780): SmartiPerformance has not been initialized!
+10-17 13:29:15.271 I/ActivityManager(  780): Timeline: Activity_windows_visible id: ActivityRecord{41d8a828 u0 com.android.settings/.Settings t3} time:386434
+10-17 13:29:15.571 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:29:15.600 I/ActivityManager( 2045): Timeline: Activity_idle id: android.os.BinderProxy@41a837e0 time:386761

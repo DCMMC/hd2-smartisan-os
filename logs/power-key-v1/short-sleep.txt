@@ -1,0 +1,3 @@
+  mWakefulness=Asleep
+  mLastWakeTime=0 (114850 ms ago)
+  mLastSleepTime=112452 (2398 ms ago)

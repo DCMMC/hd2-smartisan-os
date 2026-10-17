@@ -1,0 +1,70 @@
+Applications Graphics Acceleration Info:
+Uptime: 80501 Realtime: 80501
+
+** Graphics info for pid 935 [com.smartisanos.keyguard] **
+
+Recent DisplayList operations
+DrawDisplayList
+  DrawDisplayList
+    DrawRect
+  DrawDisplayList
+    DrawDisplayList
+    DrawDisplayList
+  DrawDisplayList
+    DrawRect
+  DrawDisplayList
+    DrawDisplayList
+      Save
+      ConcatMatrix
+      DrawBitmapRect
+      RestoreToCount
+      DrawBitmapRect
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+        DrawBitmapRect
+        Save
+        ConcatMatrix
+        DrawBitmap
+        RestoreToCount
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+      DrawDisplayList
+      RestoreToCount
+  DrawDisplayList
+DrawRect
+DrawBitmapRect
+DrawBitmapRect
+DrawBitmapRect
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2076072 / 25165824
+  LayerCache                  0 / 16777216
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache                   0 / 10485760
+  TextDropShadowCache         0 /  2097152
+  PatchCache                  0 /   131072
+  FontRenderer 0 A8           0 /        0
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total        0 /        0
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  2076072 bytes, 1.98 MB
+
+Profile data in ms:
+
+	Keyguard/android.view.ViewRootImpl@41a21980
+View hierarchy:
+
+  Keyguard/android.view.ViewRootImpl@41a21980
+  77 views, 2.50 kB of display lists, 1 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        77
+Total DisplayList:  2.50 kB

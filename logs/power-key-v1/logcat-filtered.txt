@@ -1,0 +1,25 @@
+10-17 11:41:07.144 I/PowerManagerService(  787): Going to sleep by user request...
+10-17 11:41:08.153 I/WindowManager(  787): <1792237268154> : screenTurnedOff for reason 2
+10-17 11:41:08.603 D/StatusBarManagerService(  787): manageDisableList userId=0 what=0x600000 pkg=WindowManager.LayoutParams token:android.os.Binder@41c4c798
+10-17 11:41:09.604 I/PowerManagerService(  787): Waking up from sleep...
+10-17 11:41:09.653 I/WindowManager(  787): <1792237269656> :  screenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:09.684 V/KeyguardServiceDelegate(  787): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41e63970)
+10-17 11:41:09.753 I/PowerManagerService(  787): Going to sleep by user request...
+10-17 11:41:10.054 I/WindowManager(  787): <1792237270063> : screenTurnedOff for reason 2
+10-17 11:41:10.633 I/WindowManager(  787): Lock screen displayed!
+10-17 11:41:10.633 I/WindowManager(  787): <1792237269656~1792237270642> :  finishScreenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:10.643 I/WindowManager(  787): <1792237270644> : ScreenOnListener Notified Screen On State
+10-17 11:41:11.613 V/KeyguardServiceDelegate(  787): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41f1cdd0)
+10-17 11:41:11.613 I/PowerManagerService(  787): Waking up from sleep...
+10-17 11:41:11.613 I/WindowManager(  787): <1792237271614> :  screenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:12.074 I/WindowManager(  787): Lock screen displayed!
+10-17 11:41:12.074 I/WindowManager(  787): <1792237271614~1792237272079> :  finishScreenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:12.074 I/WindowManager(  787): <1792237272081> : ScreenOnListener Notified Screen On State
+10-17 11:41:14.043 I/PowerManagerService(  787): Going to sleep by user request...
+10-17 11:41:14.493 I/WindowManager(  787): <1792237274499> : screenTurnedOff for reason 2
+10-17 11:41:15.583 I/PowerManagerService(  787): Waking up from sleep...
+10-17 11:41:15.583 I/WindowManager(  787): <1792237275584> :  screenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:15.974 V/KeyguardServiceDelegate(  787): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41f76100)
+10-17 11:41:16.484 I/WindowManager(  787): Lock screen displayed!
+10-17 11:41:16.484 I/WindowManager(  787): <1792237275584~1792237276486> :  finishScreenTurningOn com.android.server.power.Notifier$2@41b39920
+10-17 11:41:16.484 I/WindowManager(  787): <1792237276488> : ScreenOnListener Notified Screen On State

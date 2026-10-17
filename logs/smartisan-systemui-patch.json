@@ -1,6 +1,7 @@
 {
+  "recipe": "hd2-panel-geometry-and-lean-animation-v5",
   "source_sha256": "411b7747a117d47e880b358421099a5ae1b28abbeb85ba7c2040607eafaf9099",
-  "output_sha256": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
+  "output_sha256": "b37bb6748cc97837a9c19eec4297cd156e673385da4753926bd9f96360e9113d",
   "resource_changes": [
     {
       "name": "smartisan_status_bar_expanded_gradient_width",
@@ -2018,5 +2019,25 @@
       "from_unit": 0,
       "to_px": 399
     }
-  ]
+  ],
+  "systemui_debug_property": "persist.hd2.systemui_debug",
+  "timing_changes": {
+    "const-wide/16 v2, 0x32": {
+      "replacement": "const-wide/16 v2, 0x10",
+      "count": 2
+    },
+    "const-wide/16 v11, 0xc8": {
+      "replacement": "const-wide/16 v11, 0x78",
+      "count": 1
+    },
+    "const-wide/16 v4, 0x12c": {
+      "replacement": "const-wide/16 v4, 0xf0",
+      "count": 2
+    },
+    "const-wide/16 v11, 0x12c": {
+      "replacement": "const-wide/16 v11, 0xf0",
+      "count": 1
+    }
+  },
+  "animation_layer_policy": "retain the stock short-lived hardware layers and release them at animation end; use a 16 ms start delay and 240 ms motion"
 }

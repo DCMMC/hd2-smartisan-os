@@ -171,7 +171,7 @@
 [ro.rommanager.developerid]: [cyanogenmod]
 [ro.runtime.firstboot]: [1792177105102]
 [ro.secure]: [0]
-[ro.serialno]: []
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
 [ro.setupwizard.enterprise_mode]: [1]
 [ro.sf.lcd_density]: [240]
 [ro.smartisan.version]: [2.0.0-2015091200-user-sfo]

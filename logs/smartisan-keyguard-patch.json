@@ -1,0 +1,229 @@
+{
+  "recipe": "hd2-keyguard-480x800-opaque-fast-reliable-unlock-v5",
+  "source_sha256": "856b91ffc3b5a728d80f4b2fdf8d06ca2b56f366c794f56288527462e5b291cc",
+  "output_sha256": "e946e36cadb75e02bac861176e3695617025ca574fcb7fce3551b2763f436a24",
+  "screen": "480x800",
+  "status_bar_height": 52,
+  "bottom_bar_y": 710,
+  "layout_pixel_changes": 562,
+  "wallpaper_texture": "480x710",
+  "slide_animation": "approximately 120 ms",
+  "unlock_completion_delay_ms": [
+    240,
+    260
+  ],
+  "opaque_capture_mask_at_rest": true,
+  "security_aware_unlock_callbacks": 2,
+  "geometry_smali_changes": {
+    "com/smartisanos/keyguard/KeyguardBitmapData.smali": 9,
+    "com/smartisanos/utils/BitmapGaussianBlur.smali": 15
+  },
+  "redirected_log_calls": 263,
+  "debug_property": "persist.hd2.keyguard_debug",
+  "resource_changes": [
+    {
+      "name": "keyguard_screen_port_height",
+      "density": 0,
+      "from": 1280,
+      "to": 800
+    },
+    {
+      "name": "keyguard_screen_port_width",
+      "density": 0,
+      "from": 720,
+      "to": 480
+    },
+    {
+      "name": "keyguard_charging_padding_bottom",
+      "density": 0,
+      "from": 96,
+      "to": 78
+    },
+    {
+      "name": "keyguard_slide_bar_offset",
+      "density": 0,
+      "from": 100,
+      "to": 62
+    },
+    {
+      "name": "keyguard_slide_bar_height",
+      "density": 0,
+      "from": 105,
+      "to": 66
+    },
+    {
+      "name": "keyguard_slide_trigger_offset",
+      "density": 0,
+      "from": 792,
+      "to": 495
+    },
+    {
+      "name": "keyguard_unlock_area_height",
+      "density": 0,
+      "from": 0,
+      "to": -83
+    },
+    {
+      "name": "keyguard_unlock_area_height_view",
+      "density": 0,
+      "from": 5,
+      "to": 3
+    },
+    {
+      "name": "keyguard_ignore_move_offset",
+      "density": 0,
+      "from": 20,
+      "to": 12
+    },
+    {
+      "name": "keyguard_scroll_start_offset",
+      "density": 0,
+      "from": 1333,
+      "to": 833
+    },
+    {
+      "name": "keyguard_security_view_offset",
+      "density": 0,
+      "from": 1390,
+      "to": 869
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset",
+      "density": 0,
+      "from": 1230,
+      "to": 792
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset_camera",
+      "density": 0,
+      "from": 1260,
+      "to": 788
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset_final",
+      "density": 0,
+      "from": 1300,
+      "to": 813
+    },
+    {
+      "name": "keyguard_album_image_size",
+      "density": 0,
+      "from": 212,
+      "to": 141
+    },
+    {
+      "name": "keyguard_slidebar_icon_border",
+      "density": 0,
+      "from": 12,
+      "to": 13
+    },
+    {
+      "name": "keyguard_recorder_waveview_width",
+      "density": 0,
+      "from": 342,
+      "to": 228
+    },
+    {
+      "name": "keyguard_screen_port_height",
+      "density": 480,
+      "from": 1920,
+      "to": 800
+    },
+    {
+      "name": "keyguard_screen_port_width",
+      "density": 480,
+      "from": 1080,
+      "to": 480
+    },
+    {
+      "name": "keyguard_charging_padding_bottom",
+      "density": 480,
+      "from": 188,
+      "to": 78
+    },
+    {
+      "name": "keyguard_slide_bar_offset",
+      "density": 480,
+      "from": 150,
+      "to": 62
+    },
+    {
+      "name": "keyguard_slide_bar_height",
+      "density": 480,
+      "from": 158,
+      "to": 66
+    },
+    {
+      "name": "keyguard_slide_trigger_offset",
+      "density": 480,
+      "from": 1188,
+      "to": 495
+    },
+    {
+      "name": "keyguard_unlock_area_height",
+      "density": 480,
+      "from": -200,
+      "to": -83
+    },
+    {
+      "name": "keyguard_unlock_area_height_view",
+      "density": 480,
+      "from": 5,
+      "to": 3
+    },
+    {
+      "name": "keyguard_ignore_move_offset",
+      "density": 480,
+      "from": 30,
+      "to": 12
+    },
+    {
+      "name": "keyguard_scroll_start_offset",
+      "density": 480,
+      "from": 2000,
+      "to": 833
+    },
+    {
+      "name": "keyguard_security_view_offset",
+      "density": 480,
+      "from": 2085,
+      "to": 869
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset",
+      "density": 480,
+      "from": 1900,
+      "to": 792
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset_camera",
+      "density": 480,
+      "from": 1890,
+      "to": 788
+    },
+    {
+      "name": "keyguard_dismiss_status_bar_offset_final",
+      "density": 480,
+      "from": 1950,
+      "to": 813
+    },
+    {
+      "name": "keyguard_album_image_size",
+      "density": 480,
+      "from": 318,
+      "to": 141
+    },
+    {
+      "name": "keyguard_slidebar_icon_border",
+      "density": 480,
+      "from": 30,
+      "to": 13
+    },
+    {
+      "name": "keyguard_recorder_waveview_width",
+      "density": 480,
+      "from": 513,
+      "to": 228
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+rootfs / rootfs rw 0 0
+tmpfs /dev tmpfs rw,nosuid,relatime,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,mode=600 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/secure tmpfs rw,relatime,mode=700 0 0
+tmpfs /mnt/asec tmpfs rw,relatime,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,relatime,mode=755,gid=1000 0 0
+tmpfs /mnt/fuse tmpfs rw,relatime,mode=775,gid=1000 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+/dev/block/mmcblk0p1 /boot-sd vfat rw,noatime,nodiratime,fmask=0000,dmask=0000,allow_utime=0022,codepage=cp437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+/dev/block/loop7 /NativeSD ext4 rw,noatime,barrier=1,data=ordered 0 0
+/dev/block/loop7 /system ext4 rw,noatime,barrier=1,data=ordered 0 0
+/dev/block/loop7 /data ext4 rw,noatime,barrier=1,data=ordered 0 0

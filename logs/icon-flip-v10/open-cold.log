@@ -1,0 +1,93 @@
+--------- beginning of /dev/log/main
+10-17 13:28:07.150 I/HD2TEST ( 2029): icon_flip_open_begin
+10-17 13:28:08.091 D/AndroidRuntime( 2030):
+10-17 13:28:08.091 D/AndroidRuntime( 2030): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 13:28:08.100 D/AndroidRuntime( 2030): CheckJNI is OFF
+10-17 13:28:08.150 D/dalvikvm( 2030): Trying to load lib libjavacore.so 0x0
+10-17 13:28:08.171 D/dalvikvm( 2030): Added shared lib libjavacore.so 0x0
+10-17 13:28:08.200 D/dalvikvm( 2030): Trying to load lib libnativehelper.so 0x0
+10-17 13:28:08.200 D/dalvikvm( 2030): Added shared lib libnativehelper.so 0x0
+10-17 13:28:08.200 D/dalvikvm( 2030): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 13:28:08.350 E/cutils-trace( 2030): Error opening trace file: No such file or directory (2)
+10-17 13:28:08.420 D/dalvikvm( 2030): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 13:28:09.350 E/memtrack( 2030): Couldn't load memtrack module (No such file or directory)
+10-17 13:28:09.350 E/android.os.Debug( 2030): failed to load memtrack module: -2
+10-17 13:28:09.730 D/AndroidRuntime( 2030): Calling main entry com.android.commands.input.Input
+10-17 13:28:09.740 I/Input   ( 2030): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=320893, downTime=320893, deviceId=0, source=0x1002 }
+10-17 13:28:09.790 I/Input   ( 2030): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=320893, downTime=320893, deviceId=0, source=0x1002 }
+10-17 13:28:09.790 D/AndroidRuntime( 2030): Shutting down VM
+10-17 13:28:09.870 I/ActivityManager( 1381): Timeline: Activity_launch_request id:com.android.settings time:321036
+--------- beginning of /dev/log/system
+10-17 13:28:09.880 I/ActivityManager(  780): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1381
+10-17 13:28:10.090 I/HD2TEST ( 2042): icon_flip_open_input_done
+10-17 13:28:10.161 E/SmartisanOS_Perf_JNI( 1381): onload
+10-17 13:28:10.161 E/OpenGLHelper_Jni( 1381): opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+10-17 13:28:10.171 I/OpenGLHelper_Jni( 1381): genreate image target(surface:0x2a520cc0) to texture:74
+10-17 13:28:10.200 E/WindowManager(  780): use package drawable background
+10-17 13:28:10.230 I/OpenGLHelper_Jni( 1381): released surface:0x2a520cc0
+10-17 13:28:10.240 D/WindowManager.STA(  780): getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(0, -105 - 158, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 13:28:10.310 I/ActivityManager(  780): Start proc com.android.settings for activity com.android.settings/.Settings: pid=2045 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+10-17 13:28:10.551 V/WindowManager.STA(  780): transit=8204/0, mIsEnter=true
+10-17 13:28:10.551 I/WindowManager.STA(  780): left=-0.3, right=0.3, top=0.5, bottom=-0.5, myratio=0.5, mScreenHeight=800, mScreenWidth=480, far=16000.0, near=1.0
+10-17 13:28:10.580 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b58b60
+10-17 13:28:11.070 D/SettingItems( 2045): initGlobals(), , mMultiSimEnabled=false, mDefaultNetworkMode=0 , mAirPlaneModeOn=false, mSimState=1 , mServiceState=1 , mMobileDataEnabled=true, mDefaultDataSlot=0
+10-17 13:28:11.091 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:28:11.101 D/SettingItems( 2045): SettingsObserver created
+10-17 13:28:11.121 D/SettingItems( 2045): SettingItemsProvider created!
+10-17 13:28:11.171 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:28:12.090 D/BluetoothManagerService(  780): Message: 20
+10-17 13:28:12.090 D/BluetoothManagerService(  780): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41f561a8:true
+10-17 13:28:12.110 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.110 D/LocalBluetoothProfileManager( 2045): Adding local A2DP profile
+10-17 13:28:12.110 D/BluetoothManagerService(  780): Message: 30
+10-17 13:28:12.221 W/ContextImpl( 2045): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188
+10-17 13:28:12.231 D/LocalBluetoothProfileManager( 2045): Adding local HEADSET profile
+10-17 13:28:12.250 D/BluetoothManagerService(  780): Message: 30
+10-17 13:28:12.261 W/ContextImpl( 2045): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185
+10-17 13:28:12.270 D/BluetoothManagerService(  780): Message: 30
+10-17 13:28:12.270 W/ContextImpl( 2045): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothInputDevice.doBind:257 android.bluetooth.BluetoothInputDevice.<init>:250 android.bluetooth.BluetoothAdapter.getProfileProxy:1191
+10-17 13:28:12.280 D/LocalBluetoothProfileManager( 2045): Adding local MAP profile
+10-17 13:28:12.280 D/BluetoothMap( 2045): Create BluetoothMap proxy object
+10-17 13:28:12.290 D/BluetoothManagerService(  780): Message: 30
+10-17 13:28:12.290 W/ContextImpl( 2045): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothMap.doBind:110 android.bluetooth.BluetoothMap.<init>:103 android.bluetooth.BluetoothAdapter.getProfileProxy:1206
+10-17 13:28:12.310 D/BluetoothManagerService(  780): Message: 30
+10-17 13:28:12.310 D/LocalBluetoothProfileManager( 2045): LocalBluetoothProfileManager construction complete
+10-17 13:28:12.310 W/ContextImpl( 2045): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPbap.doBind:165 android.bluetooth.BluetoothPbap.<init>:158 com.android.settings.bluetooth.PbapServerProfile.<init>:69
+10-17 13:28:12.390 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.401 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.401 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.410 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.421 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.421 D/BluetoothAdapterService(1101116296)( 1776): Get Bonded Devices being called
+10-17 13:28:12.430 V/NFC     ( 2045): this device does not have NFC support
+10-17 13:28:12.501 D/BluetoothA2dp( 2045): Proxy object connected
+10-17 13:28:12.501 D/A2dpProfile( 2045): Bluetooth service connected
+10-17 13:28:12.501 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.501 D/BluetoothHeadset( 2045): Proxy object connected
+10-17 13:28:12.510 D/HeadsetProfile( 2045): Bluetooth service connected
+10-17 13:28:12.510 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.510 D/BluetoothInputDevice( 2045): Proxy object connected
+10-17 13:28:12.510 D/HidProfile( 2045): Bluetooth service connected
+10-17 13:28:12.520 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.520 D/BluetoothMap( 2045): Proxy object connected
+10-17 13:28:12.530 D/MapProfile( 2045): Bluetooth service connected
+10-17 13:28:12.530 D/BluetoothMap( 2045): getConnectedDevices()
+10-17 13:28:12.530 D/BluetoothAdapterService(1101116296)( 1776): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d4f0
+10-17 13:28:12.540 D/BluetoothPbap( 2045): Proxy object connected
+10-17 13:28:12.540 D/PbapServerProfile( 2045): Bluetooth service connected
+10-17 13:28:12.690 D/libEGL  ( 2045): loaded /system/lib/egl/libEGL_adreno200.so
+10-17 13:28:12.730 D/libEGL  ( 2045): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 13:28:12.741 D/libEGL  ( 2045): loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): Build Date: 07/31/12 Tue
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): Local Branch:
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): Remote Branch: quic/master
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): Local Patches: NONE
+10-17 13:28:12.750 I/Adreno200-EGL( 2045): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 13:28:12.941 D/OpenGLRenderer( 2045): Enabling debug mode 0
+10-17 13:28:12.950 E/memalloc( 2045): /dev/pmem: Failed to map buffer size:4288512 offset:1929216 fd:63 Error: Invalid argument
+10-17 13:28:12.950 E/gralloc ( 2045): Could not mmap handle 0x2a221580, fd=63 (Invalid argument)
+10-17 13:28:12.950 E/gralloc ( 2045): gralloc_register_buffer: gralloc_map failed
+10-17 13:28:12.950 W/GraphicBufferMapper( 2045): registerBuffer(0x2a221580) failed -22 (Invalid argument)
+10-17 13:28:12.950 E/GraphicBuffer( 2045): unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 13:28:12.970 W/dalvikvm( 2045): method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;

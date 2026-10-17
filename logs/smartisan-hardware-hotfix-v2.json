@@ -1,0 +1,31 @@
+{
+  "system/framework/framework.jar": {
+    "size": 3875415,
+    "sha256": "5c66a2a95655449cf4ce6248bd4cd63fc69f5cf00c3f883b13c7e0513736ce7e"
+  },
+  "system/lib/libbinder.so": {
+    "size": 197992,
+    "sha256": "184299d69b3aba1b280f6c2f664eebff3000e235f05c2bab9313b89c5f7c88ca"
+  },
+  "system/lib/libandroid_runtime.so": {
+    "size": 736280,
+    "sha256": "93183e20d0c439a02c4406c09371fd8a98be691566ecb656e60a29a683c83ed9"
+  },
+  "system/app/Bluetooth.apk": {
+    "size": 849380,
+    "sha256": "0eda463675494adb673e7ebad4385070bf5049e4e58b1930f2a81acc405ee475"
+  },
+  "system/media/bootanimation.zip": {
+    "size": 652493,
+    "sha256": "b669550657c8e41e787d53f9e348e8012e2456ce8b583e663714bbcd728d4584"
+  },
+  "system/etc/wifi/wpa_supplicant.conf": {
+    "size": 77,
+    "sha256": "677da35810460158f1e2c5fe65638be0cc17ec6dfd0114624fa130a4a90ef2f6"
+  },
+  "boot/initrd.gz": {
+    "size": 1145430,
+    "sha256": "0cb7c00905aca4709f5467ec336c3fe2be08f0db453ee64d58fadf5919fab0b0"
+  },
+  "created_unix": 1792230044
+}

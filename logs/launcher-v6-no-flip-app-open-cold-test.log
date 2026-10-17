@@ -1,0 +1,106 @@
+--------- beginning of /dev/log/main
+10-17 12:19:06.854  2213  2213 I HD2TEST : app_open_cold_no_flip_begin
+10-17 12:19:08.154  2215  2215 D AndroidRuntime:
+10-17 12:19:08.154  2215  2215 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:19:08.164  2215  2215 D AndroidRuntime: CheckJNI is OFF
+10-17 12:19:08.274  2215  2215 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:19:08.284  2215  2215 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:19:08.294  2215  2215 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:19:08.324  2215  2215 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:19:08.324  2215  2215 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:19:08.434  2215  2215 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:19:08.514  2215  2215 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:19:09.394  2215  2215 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:19:09.394  2215  2215 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:19:09.624  2215  2215 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:19:09.634  2215  2215 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=533939, downTime=533939, deviceId=0, source=0x1002 }
+10-17 12:19:09.654  2215  2215 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=533939, downTime=533939, deviceId=0, source=0x1002 }
+10-17 12:19:09.664  2215  2215 D AndroidRuntime: Shutting down VM
+10-17 12:19:09.684  1120  1120 I ActivityManager: Timeline: Activity_launch_request id:com.android.settings time:533992
+--------- beginning of /dev/log/system
+10-17 12:19:09.684   783   795 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1120
+10-17 12:19:09.714   783   798 E WindowManager: use package drawable background
+10-17 12:19:09.814   783  1315 I ActivityManager: Start proc com.android.settings for activity com.android.settings/.Settings: pid=2228 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+10-17 12:19:09.924  2235  2235 I HD2TEST : app_open_cold_no_flip_input_done
+10-17 12:19:10.074   783   879 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c72c38
+10-17 12:19:10.404  2228  2228 D SettingItems: initGlobals(), , mMultiSimEnabled=false, mDefaultNetworkMode=0 , mAirPlaneModeOn=false, mSimState=1 , mServiceState=1 , mMobileDataEnabled=true, mDefaultDataSlot=0
+10-17 12:19:10.494  2228  2228 D SettingItems: SettingsObserver created
+10-17 12:19:10.504  2228  2228 D SettingItems: SettingItemsProvider created!
+10-17 12:19:10.934   783   880 D BluetoothManagerService: Message: 20
+10-17 12:19:10.934   783   880 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41b56af8:true
+10-17 12:19:10.954  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:10.954  2228  2228 D LocalBluetoothProfileManager: Adding local A2DP profile
+10-17 12:19:10.974   783   880 D BluetoothManagerService: Message: 30
+10-17 12:19:10.994  2228  2228 D LocalBluetoothProfileManager: Adding local HEADSET profile
+10-17 12:19:10.994  2228  2228 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothA2dp.doBind:166 android.bluetooth.BluetoothA2dp.<init>:159 android.bluetooth.BluetoothAdapter.getProfileProxy:1188
+10-17 12:19:11.004   783   880 D BluetoothManagerService: Message: 30
+10-17 12:19:11.004  2228  2228 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothHeadset.doBind:307 android.bluetooth.BluetoothHeadset.<init>:300 android.bluetooth.BluetoothAdapter.getProfileProxy:1185
+10-17 12:19:11.024   783   880 D BluetoothManagerService: Message: 30
+10-17 12:19:11.024  2228  2228 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothInputDevice.doBind:257 android.bluetooth.BluetoothInputDevice.<init>:250 android.bluetooth.BluetoothAdapter.getProfileProxy:1191
+10-17 12:19:11.034  2228  2228 D LocalBluetoothProfileManager: Adding local MAP profile
+10-17 12:19:11.034  2228  2228 D BluetoothMap: Create BluetoothMap proxy object
+10-17 12:19:11.034   783   880 D BluetoothManagerService: Message: 30
+10-17 12:19:11.044   783   880 D BluetoothManagerService: Message: 30
+10-17 12:19:11.044  2228  2228 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothMap.doBind:110 android.bluetooth.BluetoothMap.<init>:103 android.bluetooth.BluetoothAdapter.getProfileProxy:1206
+10-17 12:19:11.054  2228  2228 D LocalBluetoothProfileManager: LocalBluetoothProfileManager construction complete
+10-17 12:19:11.054  2228  2228 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPbap.doBind:165 android.bluetooth.BluetoothPbap.<init>:158 com.android.settings.bluetooth.PbapServerProfile.<init>:69
+10-17 12:19:11.184  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.194  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.194  1523  1544 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.194  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.214  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.214  1523  1544 D BluetoothAdapterService(1101116120): Get Bonded Devices being called
+10-17 12:19:11.224  2228  2228 V NFC     : this device does not have NFC support
+10-17 12:19:11.254  2228  2228 D BluetoothA2dp: Proxy object connected
+10-17 12:19:11.264  2228  2228 D A2dpProfile: Bluetooth service connected
+10-17 12:19:11.264  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.264  2228  2228 D BluetoothHeadset: Proxy object connected
+10-17 12:19:11.264  2228  2228 D HeadsetProfile: Bluetooth service connected
+10-17 12:19:11.264  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.274  2228  2228 D BluetoothInputDevice: Proxy object connected
+10-17 12:19:11.274  2228  2228 D HidProfile: Bluetooth service connected
+10-17 12:19:11.284  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.284  2228  2228 D BluetoothMap: Proxy object connected
+10-17 12:19:11.284  2228  2228 D MapProfile: Bluetooth service connected
+10-17 12:19:11.284  2228  2228 D BluetoothMap: getConnectedDevices()
+10-17 12:19:11.284  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:19:11.294  2228  2228 D BluetoothPbap: Proxy object connected
+10-17 12:19:11.294  2228  2228 D PbapServerProfile: Bluetooth service connected
+10-17 12:19:11.394  2228  2228 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-17 12:19:11.394  2228  2228 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 12:19:11.414  2228  2228 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: Local Branch:
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: Remote Branch: quic/master
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: Local Patches: NONE
+10-17 12:19:11.424  2228  2228 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 12:19:11.494  2228  2228 D OpenGLRenderer: Enabling debug mode 0
+10-17 12:19:11.504  2228  2228 E memalloc: /dev/pmem: Failed to map buffer size:4288512 offset:1929216 fd:63 Error: Invalid argument
+10-17 12:19:11.504  2228  2228 E gralloc : Could not mmap handle 0x2a2204e0, fd=63 (Invalid argument)
+10-17 12:19:11.504  2228  2228 E gralloc : gralloc_register_buffer: gralloc_map failed
+10-17 12:19:11.504  2228  2228 W GraphicBufferMapper: registerBuffer(0x2a2204e0) failed -22 (Invalid argument)
+10-17 12:19:11.504  2228  2228 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 12:19:11.524  2228  2228 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+10-17 12:19:11.854  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:11.864  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:11.904  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:11.914  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.014  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.014  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.084  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.094  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.144  2228  2228 I Choreographer: Skipped 49 frames!  The application may be doing too much work on its main thread.
+10-17 12:19:12.154  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.154  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.164  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.164  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.174  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.174  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.184  2228  2228 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:19:12.184  2228  2228 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:19:12.594   783   798 I ActivityManager: Displayed com.android.settings/.Settings: +2s796ms
+10-17 12:19:12.594   783   798 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+10-17 12:19:12.594   783   798 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41ea4cf0 u0 com.android.settings/.Settings t4} time:536900
+10-17 12:19:13.204  2228  2228 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fa530 time:537510
+10-17 12:19:15.104  2258  2258 I HD2TEST : app_open_cold_no_flip_state_checked

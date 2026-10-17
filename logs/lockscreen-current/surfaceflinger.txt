@@ -1,0 +1,220 @@
+Build configuration: [sf] [libui] [libgui]
+Sync configuration: [using: EGL_KHR_fence_sync]
+Visible layers (count = 11)
++ LayerDim 0x2a045b90 (DimLayer)
+  Region transparentRegion (this=0x2a045d38, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a045b98, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=        0, pos=(0,0), size=(  16,  16), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=4 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerDim 0x2a069410 (DimLayer)
+  Region transparentRegion (this=0x2a0695b8, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a069418, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=        0, pos=(0,0), size=(  16,  16), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=28 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ Layer 0x2a089538 (com.smartisanos.systemui.ImageWallpaper)
+  Region transparentRegion (this=0x2a0896e0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a089540, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21000, pos=(-160,0), size=( 800, 800), crop=( 160,   0, 640, 800), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a042368
+      format= 2, activeBuffer=[ 800x 800: 800,  2], queued-frames=0, mRefreshPending=0
+            mTexName=14 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[800x800], default-format=2, transform-hint=00, FIFO(0)={}
+            >[00:0x2a073e68] state=ACQUIRED, 0x2a073958 [ 800x 800: 800,  2]
++ Layer 0x2a064358 (SurfaceView)
+  Region transparentRegion (this=0x2a064500, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a064360, count=1)
+    [  0,   0, 480, 800]
+      layerStack=   0, z=    21020, pos=(0,0), size=( 480, 800), crop=(   0,   0, 480, 800), isOpaque=1, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a06ab08
+      format= 4, activeBuffer=[ 480x 800: 480,  2], queued-frames=0, mRefreshPending=0
+            mTexName=45 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=4, transform-hint=00, FIFO(0)={}
+             [00:0x2a06ab60] state=DEQUEUED, 0x2a072e58 [ 480x 800: 480,  2]
+             [01:0x2a05d450] state=FREE    , 0x2a091b90 [ 480x 800: 480,  2]
+            >[02:0x2a065c58] state=ACQUIRED, 0x2a08bb48 [ 480x 800: 480,  2]
++ Layer 0x2a0709d0 (com.smartisanos.launcher/com.smartisanos.launcher.Launcher)
+  Region transparentRegion (this=0x2a070b78, count=1)
+    [  0,   0, 480, 800]
+  Region visibleRegion (this=0x2a0709d8, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21025, pos=(0,0), size=( 480, 800), crop=(   0,   0, 480, 800), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a06ab08
+      format= 1, activeBuffer=[ 480x 800: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=46 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=1, transform-hint=00, FIFO(0)={}
+             [00:0x2a04cb70] state=FREE    , 0x2a05f800 [ 480x 800: 480,  1]
+            >[01:0x2a05f848] state=ACQUIRED, 0x2a044c38 [ 480x 800: 480,  1]
+             [02:0x2a067068] state=DEQUEUED, 0x2a06cb28 [ 480x 800: 480,  1]
++ Layer 0x2a0485b8 (FocusedStackFrame)
+  Region transparentRegion (this=0x2a048760, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a0485c0, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21026, pos=(0,0), size=(   1,   1), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x4d, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 1, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=5 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerSTAIconCell 0x2a06af98 (STAIconCellSurface)
+  Region transparentRegion (this=0x2a06b140, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a06afa0, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    22014, pos=(240,295), size=( 384,1024), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x9d, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 2, activeBuffer=[ 384x1024: 384,  1], queued-frames=0, mRefreshPending=0
+            mTexName=8 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[384x1024], default-format=2, transform-hint=00, FIFO(0)={}
++ Layer 0x2a0827e8 (Keyguard)
+  Region transparentRegion (this=0x2a082990, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a0827f0, count=1)
+    [  0,   0, 480, 800]
+      layerStack=   0, z=   131000, pos=(0,0), size=( 480, 800), crop=(   0,   0, 480, 800), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a040f48
+      format= 1, activeBuffer=[ 480x 800: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=48 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=1, transform-hint=00, FIFO(0)={}
+            >[00:0x2a087af0] state=ACQUIRED, 0x2a0951f8 [ 480x 800: 480,  1]
+             [01:0x2a08c1b0] state=DEQUEUED, 0x2a04df20 [ 480x 800: 480,  1]
+             [02:0x2a084a20] state=FREE    , 0x2a084ad0 [ 480x 800: 480,  1]
++ Layer 0x2a05d5e8 (StatusBar)
+  Region transparentRegion (this=0x2a05d790, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a05d5f0, count=1)
+    [  0,   0, 480,  52]
+      layerStack=   0, z=   161000, pos=(0,0), size=( 480,  52), crop=(   0,   0, 480,  52), isOpaque=0, invalidate=0, alpha=0xff, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a042368
+      format= 1, activeBuffer=[ 480x  52: 480,  1], queued-frames=0, mRefreshPending=0
+            mTexName=10 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x52], default-format=1, transform-hint=00, FIFO(0)={}
+            >[00:0x2a064188] state=ACQUIRED, 0x2a067418 [ 480x  52: 480,  1]
+             [01:0x2a06acf8] state=DEQUEUED, 0x2a068530 [ 480x  52: 480,  1]
+             [02:0x2a0423c0] state=FREE    , 0x2a05f8e8 [ 480x  52: 480,  1]
++ LayerDim 0x2a061718 (DimLayer)
+  Region transparentRegion (this=0x2a0618c0, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a061720, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   220999, pos=(-120,-200), size=( 720,1200), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=27 mCurrentTexture=-1
+            mCurrentCrop=[704670728,1085603840,1074176739,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[720x1200], default-format=1, transform-hint=00, FIFO(0)={}
++ LayerDim 0x2a043900 (DimLayer)
+  Region transparentRegion (this=0x2a043aa8, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0x2a043908, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   270999, pos=(-120,-200), size=( 720,1200), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x00, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0x2a0434e8
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=3 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[720x1200], default-format=1, transform-hint=00, FIFO(0)={}
+Displays (1 entries)
++ DisplayDevice: Built-in Screen
+   type=0, hwcId=0, layerStack=0, ( 480x 800), ANativeWindow=0x2a03cdd0, orient= 0 (type=00000000), flips=2817, isSecure=1, secureVis=0, acquired=1, numLayers=3
+   v:[0,0,480,800], f:[0,0,480,800], s:[0,0,480,800],transform:[[1.000,0.000,0.000][0.000,1.000,0.000][0.000,0.000,1.000]]
+mAbandoned=0
+-BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[480x800], default-format=2, transform-hint=00, FIFO(0)={}
+ [00:0x2a03e168] state=FREE    , 0x2a03e280 [ 480x 800: 480,  2]
+>[01:0x2a0430d8] state=ACQUIRED, 0x2a042fb0 [ 480x 800: 480,  2]
+ [02:0x2a03e2c8] state=DEQUEUED, 0x2a03fae8 [ 480x 800: 480,  2]
+SurfaceFlinger global state:
+EGL implementation : 1.4
+EGL_QUALCOMM_shared_image EGL_KHR_image EGL_KHR_image_base EGL_AMD_create_image EGL_KHR_lock_surface EGL_KHR_lock_surface2 EGL_KHR_fence_sync EGL_IMG_context_priority EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_renderbuffer_image EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable
+GLES: Qualcomm, Adreno (TM) 200, OpenGL ES 2.0 AU_LINUX_ANDROID_JB.04.01.01.00.036 (CL2644550)
+GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture GL_EXT_texture_filter_anisotropic GL_ANGLE_framebuffer_multisample GL_ANGLE_framebuffer_blit
+  Region undefinedRegion (this=0x2a03cbe4, count=1)
+    [  0,   0,   0,   0]
+  orientation=0, canDraw=1
+  last eglSwapBuffers() time: 15472.412000 us
+  last transaction time     : 61.035000 us
+  transaction-flags         : 00000000
+  refresh-rate              : 60.000002 fps
+  x-dpi                     : 254.000000
+  y-dpi                     : 254.000000
+  EGL_NATIVE_VISUAL_ID      : 2
+  gpu_to_cpu_unsupported    : 0
+  eglSwapBuffers time: 0.000000 us
+  transaction time: 0.000000 us
+VSYNC state: disabled
+  soft-vsync: disabled
+  numListeners=11,
+  events-delivered: 4942
+    0x2a03cd50: count=-1
+    0x2a03f180: count=-1
+    0x2a043728: count=-1
+    0x2a044d40: count=-1
+    0x2a046f48: count=-1
+    0x2a04cf98: count=-1
+    0x2a05fd60: count=-1
+    0x2a06cd98: count=-1
+    0x2a06e6b0: count=-1
+    0x2a06e760: count=-1
+    0x2a093d88: count=-1
+h/w composer state:
+  h/w composer present and enabled
+Hardware Composer state (version  1000000):
+  mDebugForceFakeVSync=0
+  Display[0] : 480x800, xdpi=254.000000, ydpi=254.000000, refresh=16666666
+  numHwLayers=3, flags=00000000
+    type    |  handle  |   hints  |   flags  | tr | blend |  format  |          source crop            |           frame           name
+------------+----------+----------+----------+----+-------+----------+---------------------------------+--------------------------------
+    FB_BLIT | 2a08bb48 | 00000000 | 00000000 | 00 | 00100 | 00000002 | [      0,      0,    480,    800] | [    0,    0,  480,  800] SurfaceView
+    FB_BLIT | 2a0951f8 | 00000000 | 00000000 | 00 | 00105 | 00000001 | [      0,      0,    480,    800] | [    0,    0,  480,  800] Keyguard
+    FB_BLIT | 2a067418 | 00000000 | 00000000 | 00 | 00105 | 00000001 | [      0,      0,    480,     52] | [    0,    0,  480,   52] StatusBar
+Allocated buffers:
+0x2a03e280: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a03fae8: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a042fb0: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00001a03
+0x2a044c38: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a04df20: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a05f6f8: 1536.00 KiB |  384 ( 384) x 1024 |        1 | 0x00000b33
+0x2a05f800: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a05f8e8:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a067418:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a068530:   97.50 KiB |  480 ( 480) x   52 |        1 | 0x00000b03
+0x2a06cb28: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a072e58: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a073958: 2500.00 KiB |  800 ( 800) x  800 |        2 | 0x00000933
+0x2a084ad0: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+0x2a08bb48: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a091b90: 1500.00 KiB |  480 ( 480) x  800 |        2 | 0x00000b03
+0x2a0951f8: 1500.00 KiB |  480 ( 480) x  800 |        1 | 0x00000b03
+Total allocated (estimate): 22328.50 KB

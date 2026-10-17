@@ -1,0 +1,40 @@
+--------- beginning of /dev/log/main
+10-17 13:28:53.810 I/HD2TEST ( 2078): icon_flip_close_begin
+10-17 13:28:54.731 D/AndroidRuntime( 2079):
+10-17 13:28:54.731 D/AndroidRuntime( 2079): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 13:28:54.731 D/AndroidRuntime( 2079): CheckJNI is OFF
+10-17 13:28:54.801 D/dalvikvm( 2079): Trying to load lib libjavacore.so 0x0
+10-17 13:28:54.820 D/dalvikvm( 2079): Added shared lib libjavacore.so 0x0
+10-17 13:28:54.831 D/dalvikvm( 2079): Trying to load lib libnativehelper.so 0x0
+10-17 13:28:54.831 D/dalvikvm( 2079): Added shared lib libnativehelper.so 0x0
+10-17 13:28:54.831 D/dalvikvm( 2079): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 13:28:54.960 D/dalvikvm( 2079): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 13:28:55.591 E/memtrack( 2079): Couldn't load memtrack module (No such file or directory)
+10-17 13:28:55.591 E/android.os.Debug( 2079): failed to load memtrack module: -2
+10-17 13:28:55.830 D/AndroidRuntime( 2079): Calling main entry com.android.commands.input.Input
+10-17 13:28:55.830 I/Input   ( 2079): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=366996, downTime=366996, deviceId=-1, source=0x101 }
+10-17 13:28:55.991 I/Input   ( 2079): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=366996, downTime=366996, deviceId=-1, source=0x101 }
+10-17 13:28:56.010 D/PermissionCache(  363): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (335 us)
+10-17 13:28:56.031 E/libgenlock(  363): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=66)
+10-17 13:28:56.031 W/Adreno200-EGLSUB(  363): <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-17 13:28:56.031 W/Adreno200-ES20(  363): <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+10-17 13:28:56.031 E/SurfaceFlinger(  363): glCheckFramebufferStatusOES error 36054
+10-17 13:28:56.031 E/SurfaceFlinger(  363): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+10-17 13:28:56.031 E/libgenlock(  363): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=66)
+10-17 13:28:56.031 W/Adreno200-EGLSUB(  363): <UnlockImage:1965>: genlock_unlock_buffer failed
+--------- beginning of /dev/log/system
+10-17 13:28:56.031 W/WindowManager(  780): Screenshot failure taking screenshot for (274x458) to layer 21015
+10-17 13:28:56.040 D/AndroidRuntime( 2079): Shutting down VM
+10-17 13:28:56.040 E/cutils-trace( 2079): Error opening trace file: No such file or directory (2)
+10-17 13:28:56.151 E/SurfaceFlinger(  363): GL error 0x0502
+10-17 13:28:56.300 I/HD2TEST ( 2093): icon_flip_close_input_done
+10-17 13:28:56.361 I/OpenGLHelper_Jni( 1381): genreate image target(surface:0x2a1a6f60) to texture:76
+10-17 13:28:56.371 I/OpenGLHelper_Jni( 1381): released surface:0x2a1a6f60
+10-17 13:28:56.391 D/WindowManager.STA(  780): getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(0, -105 - 158, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 13:28:56.491 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b58b60
+10-17 13:28:56.950 I/ActivityManager( 1381): Timeline: Activity_idle id: android.os.BinderProxy@419fa178 time:368113
+10-17 13:28:56.950 V/WindowManager.STA(  780): transit=4109/4096, mIsEnter=false
+10-17 13:28:56.970 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b58b60
+10-17 13:28:57.451 D/WindowManager.STA(  780): IconCellShoter unlockTouch
+10-17 13:28:57.540 I/ActivityManager(  780): Timeline: Activity_windows_visible id: ActivityRecord{41d6acb8 u0 com.smartisanos.launcher/.Launcher t1} time:368706
+10-17 13:28:57.540 D/WindowManager.STA(  780): IconCellShoter unlockTouch

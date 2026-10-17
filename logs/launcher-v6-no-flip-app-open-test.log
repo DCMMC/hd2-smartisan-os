@@ -1,0 +1,57 @@
+--------- beginning of /dev/log/main
+10-17 12:18:44.644  2144  2144 I HD2TEST : app_open_no_flip_begin
+10-17 12:18:45.524  2146  2146 D AndroidRuntime:
+10-17 12:18:45.524  2146  2146 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:18:45.524  2146  2146 D AndroidRuntime: CheckJNI is OFF
+10-17 12:18:45.574  2146  2146 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:18:45.584  2146  2146 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:18:45.604  2146  2146 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:18:45.604  2146  2146 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:18:45.604  2146  2146 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:18:45.694  2146  2146 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:18:45.744  2146  2146 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:18:46.334  2146  2146 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:18:46.334  2146  2146 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:18:46.604  2146  2146 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:18:46.604  2146  2146 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=510912, downTime=510912, deviceId=0, source=0x1002 }
+10-17 12:18:46.634  2146  2146 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=510912, downTime=510912, deviceId=0, source=0x1002 }
+10-17 12:18:46.634  2146  2146 D AndroidRuntime: Shutting down VM
+10-17 12:18:46.654  1120  1120 I ActivityManager: Timeline: Activity_launch_request id:com.android.settings time:510961
+10-17 12:18:46.654   783  1116 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+--------- beginning of /dev/log/system
+10-17 12:18:46.654   783  1116 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1120
+10-17 12:18:46.884  2159  2159 I HD2TEST : app_open_no_flip_input_done
+10-17 12:18:46.914  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:18:46.924  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:18:46.984   783   879 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c72c38
+10-17 12:18:47.114  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.134  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.134  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.144  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.164  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.164  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.184  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.184  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.244  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.244  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.244  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.254  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.264  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.264  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.274  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.284  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.404   783   798 W ResourceType: Skipping entry 0x7f040009 in package table 0 because it is not complex!
+10-17 12:18:47.404   783   798 W ResourceType: Skipping entry 0x7f04000a in package table 0 because it is not complex!
+10-17 12:18:47.424   783   879 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c72c38
+10-17 12:18:47.594  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.634  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.684  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.684  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.724  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.724  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.744  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:18:47.764   783   798 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+10-17 12:18:47.764   783   798 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41cd6588 u0 com.android.settings/.Settings t3} time:512072
+10-17 12:18:47.814  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:18:47.904  1081  1081 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@41ade690 time:512212
+10-17 12:18:50.094  2172  2172 I HD2TEST : app_open_no_flip_state_checked

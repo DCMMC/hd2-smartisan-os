@@ -1,0 +1,213 @@
+--------- beginning of /dev/log/main
+10-17 11:40:16.973 D/AndroidRuntime( 1433): Shutting down VM
+10-17 11:40:17.093 D/libEGL  ( 1118): loaded /system/lib/egl/libEGL_adreno200.so
+10-17 11:40:17.253 D/libEGL  ( 1118): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 11:40:17.274 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+--------- beginning of /dev/log/system
+10-17 11:40:17.314 D/TAG     (  935): disable what:50331648
+10-17 11:40:17.314 D/StatusBarManagerService(  787): disableInternal
+10-17 11:40:17.314 D/StatusBarManagerService(  787): manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41cd03a0
+10-17 11:40:17.334 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.344 I/Choreographer(  935): Skipped 1607 frames!  The application may be doing too much work on its main thread.
+10-17 11:40:17.393 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.444 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.444 D/TAG     (  935): disable what:50331648
+10-17 11:40:17.444 D/StatusBarManagerService(  787): disableInternal
+10-17 11:40:17.444 D/StatusBarManagerService(  787): manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41cd03a0
+10-17 11:40:17.503 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.533 D/libEGL  ( 1118): loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 11:40:17.563 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.623 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.684 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.684 I/PrintSpoolerService( 1417): No existing print spooler state.
+10-17 11:40:17.724 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): Build Date: 07/31/12 Tue
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): Local Branch:
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): Remote Branch: quic/master
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): Local Patches: NONE
+10-17 11:40:17.774 I/Adreno200-EGL( 1118): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 11:40:17.783 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:17.883 D/android.widget.GridLayout(  953): horizontal constraints: x3-x0>=453, x3-x2<=149, x2-x1<=149, x1-x0<=149 are inconsistent; permanently removing: x3-x2<=149.
+10-17 11:40:17.933 D/android.widget.GridLayout(  953): vertical constraints: y4-y0>=569, y4-y3<=142, y3-y2<=142, y2-y1<=142, y1-y0<=142 are inconsistent; permanently removing: y4-y3<=142.
+10-17 11:40:18.014 D/android.widget.GridLayout(  935): horizontal constraints: x1-x0>=217, x2-x1>=200, x3-x2>=200, x4-x3>=200, x5-x4>=200, x5-x0<=480, x3-x2<=0, x2-x1<=200 are inconsistent; permanently removing: x5-x0<=480, x3-x2<=0.
+10-17 11:40:18.024 D/android.widget.GridLayout(  935): vertical constraints: y2-y0>=642, y2-y1<=194, y1-y0<=201 are inconsistent; permanently removing: y2-y1<=194.
+10-17 11:40:18.194 D/android.widget.GridLayout(  935): horizontal constraints: x1-x0>=217, x2-x1>=200, x3-x2>=200, x4-x3>=200, x5-x4>=170, x5-x0<=480 are inconsistent; permanently removing: x5-x0<=480.
+10-17 11:40:18.633 D/OpenGLRenderer( 1118): Enabling debug mode 0
+10-17 11:40:18.744 D/SettingItems( 1075): initGlobals(), , mMultiSimEnabled=false, mDefaultNetworkMode=0 , mAirPlaneModeOn=false, mSimState=1 , mServiceState=1 , mMobileDataEnabled=true, mDefaultDataSlot=0
+10-17 11:40:19.713 E/memalloc( 1118): /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:66 Error: Invalid argument
+10-17 11:40:19.713 E/gralloc ( 1118): Could not mmap handle 0x2a17d3b0, fd=66 (Invalid argument)
+10-17 11:40:19.713 E/gralloc ( 1118): gralloc_register_buffer: gralloc_map failed
+10-17 11:40:19.713 W/GraphicBufferMapper( 1118): registerBuffer(0x2a17d3b0) failed -22 (Invalid argument)
+10-17 11:40:19.723 E/GraphicBuffer( 1118): unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 11:40:19.783 D/libEGL  (  953): loaded /system/lib/egl/libEGL_adreno200.so
+10-17 11:40:19.794 W/WindowManager(  787): Window freeze timeout expired.
+10-17 11:40:19.794 W/WindowManager(  787): Force clearing orientation change: Window{41d22470 u0 StatusBar}
+10-17 11:40:19.794 W/WindowManager(  787): Force clearing orientation change: Window{41c7c168 u0 KeyguardScrim}
+10-17 11:40:19.794 W/WindowManager(  787): Force clearing orientation change: Window{41f090c0 u0 com.smartisanos.launcher/com.smartisanos.launcher.Launcher}
+10-17 11:40:19.813 D/StatusBarManagerService(  787): manageDisableList userId=0 what=0x600000 pkg=WindowManager.LayoutParams token:android.os.Binder@41c4c798
+10-17 11:40:19.843 D/libEGL  (  953): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 11:40:20.073 D/libEGL  (  935): loaded /system/lib/egl/libEGL_adreno200.so
+10-17 11:40:20.103 D/libEGL  (  935): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 11:40:20.153 D/libEGL  (  953): loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 11:40:20.183 I/Adreno200-EGL(  953): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 11:40:20.183 I/Adreno200-EGL(  953): Build Date: 07/31/12 Tue
+10-17 11:40:20.183 I/Adreno200-EGL(  953): Local Branch:
+10-17 11:40:20.183 I/Adreno200-EGL(  953): Remote Branch: quic/master
+10-17 11:40:20.183 I/Adreno200-EGL(  953): Local Patches: NONE
+10-17 11:40:20.183 I/Adreno200-EGL(  953): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 11:40:20.193 D/libEGL  (  935): loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 11:40:20.264 I/Adreno200-EGL(  935): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 11:40:20.264 I/Adreno200-EGL(  935): Build Date: 07/31/12 Tue
+10-17 11:40:20.264 I/Adreno200-EGL(  935): Local Branch:
+10-17 11:40:20.264 I/Adreno200-EGL(  935): Remote Branch: quic/master
+10-17 11:40:20.264 I/Adreno200-EGL(  935): Local Patches: NONE
+10-17 11:40:20.264 I/Adreno200-EGL(  935): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 11:40:20.603 I/Choreographer( 1118): Skipped 51 frames!  The application may be doing too much work on its main thread.
+10-17 11:40:20.624 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:20.854 D/OpenGLRenderer(  953): Enabling debug mode 0
+10-17 11:40:20.943 D/OpenGLRenderer(  935): Enabling debug mode 0
+10-17 11:40:21.773 E/memalloc(  953): /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:75 Error: Invalid argument
+10-17 11:40:21.773 E/memalloc(  935): /dev/pmem: Failed to map buffer size:6967296 offset:4608000 fd:62 Error: Invalid argument
+10-17 11:40:21.773 E/gralloc (  953): Could not mmap handle 0x2a22cdc8, fd=75 (Invalid argument)
+10-17 11:40:21.773 E/gralloc (  935): Could not mmap handle 0x2a1fb488, fd=62 (Invalid argument)
+10-17 11:40:21.773 E/gralloc (  935): gralloc_register_buffer: gralloc_map failed
+10-17 11:40:21.773 W/GraphicBufferMapper(  935): registerBuffer(0x2a1fb488) failed -22 (Invalid argument)
+10-17 11:40:21.773 E/gralloc (  953): gralloc_register_buffer: gralloc_map failed
+10-17 11:40:21.773 W/GraphicBufferMapper(  953): registerBuffer(0x2a22cdc8) failed -22 (Invalid argument)
+10-17 11:40:21.773 E/GraphicBuffer(  953): unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 11:40:21.773 E/GraphicBuffer(  935): unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 11:40:21.994 W/PackageSettings(  787): Try to unlock "com.smartisanos.appstore" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.camera2" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.gallery3d" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.notes" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.calendar" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.clock" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.music" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.settings" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.email" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.calculator" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.gamestore" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.weather" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.securitycenter" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.recorder" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.quicksearch" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.providers.downloads.ui" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.cloudsync" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.contacts" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.setupwizard" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.mms" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.android.browser" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "org.hd2port.camera2" which is not locked for user(0)
+10-17 11:40:22.003 W/PackageSettings(  787): Try to unlock "com.smartisanos.sara" which is not locked for user(0)
+10-17 11:40:22.034 I/InputDispatcher(  787): Dropped event because input dispatch is disabled.
+10-17 11:40:22.053 W/ContextImpl(  787): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$19.run:12725 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136
+10-17 11:40:22.903 D/CaptivePortalTracker(  787): DelayedCaptiveCheckState{ when=-9ms what=2 arg1=1 target=com.android.internal.util.StateMachine$SmHandler }
+10-17 11:40:23.013 D/CaptivePortalTracker(  787): Checking http://142.251.45.142/generate_204
+10-17 11:40:23.034 V/KeyguardServiceDelegate(  787): **** SHOWN CALLED ****
+10-17 11:40:23.224 W/ContextImpl(  935): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59
+10-17 11:40:23.234 W/ContextImpl(  935): Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16
+10-17 11:40:23.264 D/music   ( 1007): SERVICE ... onStartCommand(action,cmd) : com.smartisanos.music.action : cmd : null
+10-17 11:40:23.314 W/ContextImpl(  935): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59
+10-17 11:40:23.324 W/ContextImpl(  935): Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16
+10-17 11:40:23.324 D/PhoneStatusBar(  953): addIcon slot=tty index=6 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02023b level=0 visible=false num=0 )
+10-17 11:40:23.433 D/AirplaneButton(  953): getState state:0
+10-17 11:40:23.433 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:23.453 D/PhoneStatusBar(  953): addIcon slot=cdma_eri index=11 viewIndex=1 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020c level=0 visible=false num=0 )
+10-17 11:40:23.503 D/AirplaneButton(  953): getState state:0
+10-17 11:40:23.534 D/LocationProviderProxy-network(  787): unbinding com.amap.android.location
+10-17 11:40:23.583 I/PhoneNumberAssistantProxy( 1090): onServiceConnected
+10-17 11:40:23.604 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:23.623 D/PhoneStatusBar(  953): addIcon slot=bluetooth index=4 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201eb level=0 visible=false num=0 )
+10-17 11:40:23.643 I/Choreographer(  935): Skipped 51 frames!  The application may be doing too much work on its main thread.
+10-17 11:40:23.684 D/AirplaneButton(  953): getState state:0
+10-17 11:40:23.763 D/VoipClient( 1030): initClient echo param path=/data/data/com.smartisanos.phone_number_assistant/files/data/echo.json
+10-17 11:40:24.004 D/SettingItems( 1075): SettingsObserver created
+10-17 11:40:24.543 W/ContextImpl(  787): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1160 com.android.server.pm.PackageManagerService$19.run:12725 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136
+10-17 11:40:24.693 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:24.873 I/ActivityManager(  787): Displayed com.smartisanos.launcher/.Launcher: +35s240ms
+10-17 11:40:24.873 I/ActivityManager(  787): Timeline: Activity_windows_visible id: ActivityRecord{41cd5d10 u0 com.smartisanos.launcher/.Launcher t1} time:70186
+10-17 11:40:24.873 D/PhoneStatusBar(  953): addIcon slot=alarm_clock index=17 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f0201be level=0 visible=false num=0 )
+10-17 11:40:24.924 D/VoipService( 1030): onCreate
+10-17 11:40:24.943 D/AirplaneButton(  953): getState state:0
+10-17 11:40:24.953 I/VoipServiceProxy( 1090): onServiceConnected
+10-17 11:40:24.963 D/VoipCallsManager( 1030): hangupAllVoipCalls: []
+10-17 11:40:25.073 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:25.144 D/PhoneStatusBar(  953): addIcon slot=sync_active index=2 viewIndex=0 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f020239 level=0 visible=false num=0 )
+10-17 11:40:25.183 E/Thomas  ( 1030): file: /data/data/com.smartisanos.phone_number_assistant/shared_prefs/history.json.xml exist: false
+10-17 11:40:25.253 D/AirplaneButton(  953): getState state:0
+10-17 11:40:25.274 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:25.463 I/ActivityManager( 1118): Timeline: Activity_idle id: android.os.BinderProxy@419fa178 time:70777
+10-17 11:40:26.104 D/PhoneStatusBar(  953): addIcon slot=volume index=9 viewIndex=3 icon=StatusBarIcon(pkg=com.smartisanos.systemuiuser=0 id=0x7f02020a level=0 visible=false num=0 )
+10-17 11:40:26.113 E/phoneassist( 1030): phoneassist check interval hours=4
+10-17 11:40:26.183 W/Settings( 1030): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 11:40:26.254 D/AirplaneButton(  953): getState state:0
+10-17 11:40:26.254 W/Settings( 1030): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 11:40:26.263 D/BluetoothAdapter(  953): 1100938632: getState() :  mService = null. Returning STATE_OFF
+10-17 11:40:26.464 E/cutils-trace( 1492): Error opening trace file: No such file or directory (2)
+10-17 11:40:26.613 D/CallClient( 1030): ContextManager initContext
+10-17 11:40:26.613 E/libgenlock(  371): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Invalid argument fd=79)
+10-17 11:40:26.613 W/Adreno200-EGLSUB(  371): <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-17 11:40:26.613 W/Adreno200-ES20(  371): <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+10-17 11:40:26.623 E/HttpCmdBase( 1030): /auth/activate: has activated!
+10-17 11:40:26.623 E/SurfaceFlinger(  371): glCheckFramebufferStatusOES error 36054
+10-17 11:40:26.623 E/SurfaceFlinger(  371): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+10-17 11:40:26.623 E/libgenlock(  371): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Invalid argument fd=79)
+10-17 11:40:26.623 W/Adreno200-EGLSUB(  371): <UnlockImage:1965>: genlock_unlock_buffer failed
+10-17 11:40:26.633 W/GLConsumer(  371): [BootAnimation] bindTextureImage: clearing GL error: 0x502
+10-17 11:40:26.664 D/AwesomePlayer(  374): Before reset_l
+10-17 11:40:26.664 D/AwesomePlayer(  374): printFileName fd(19) -> /system/media/audio/ui/start_charging.ogg
+10-17 11:40:26.793 D/VoipClient( 1030): PrefUtil initializeLocal
+10-17 11:40:26.814 I/LogUtil ( 1030): logfile: /storage/emulated/0/logutil.txt
+10-17 11:40:26.814 I/LogUtil ( 1030): logfile: /storage/emulated/0/logutil.txt
+10-17 11:40:27.043 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a021298 successful
+10-17 11:40:27.043 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a027c30 successful
+10-17 11:40:27.043 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a027d70 successful
+10-17 11:40:27.043 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a027e98 successful
+10-17 11:40:27.134 W/SoundPool(  953):   sample 1 not READY
+10-17 11:40:27.153 I/VoipService( 1030): onCreate
+10-17 11:40:27.254 D/AMap InternalService( 1062): handleMessage msg = 3
+10-17 11:40:27.353 I/Choreographer( 1118): Skipped 75 frames!  The application may be doing too much work on its main thread.
+10-17 11:40:27.653 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a021110 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a021058 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a021c68 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a028328 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a02a238 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a02a110 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a029fd0 successful
+10-17 11:40:27.664 I/OMXNodeInstance(  374): OMX_FreeBuffer for buffer header 0x2a029e90 successful
+10-17 11:40:29.374 I/Choreographer(  935): Skipped 342 frames!  The application may be doing too much work on its main thread.
+10-17 11:40:29.713 D/AndroidRuntime( 1502):
+10-17 11:40:29.713 D/AndroidRuntime( 1502): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 11:40:29.723 D/AndroidRuntime( 1502): CheckJNI is OFF
+10-17 11:40:29.813 D/dalvikvm( 1502): Trying to load lib libjavacore.so 0x0
+10-17 11:40:29.823 D/dalvikvm( 1502): Added shared lib libjavacore.so 0x0
+10-17 11:40:29.843 D/dalvikvm( 1502): Trying to load lib libnativehelper.so 0x0
+10-17 11:40:29.863 D/dalvikvm( 1502): Added shared lib libnativehelper.so 0x0
+10-17 11:40:29.863 D/dalvikvm( 1502): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 11:40:30.053 E/cutils-trace( 1502): Error opening trace file: No such file or directory (2)
+10-17 11:40:30.114 D/dalvikvm( 1502): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 11:40:30.143 D/AMap InternalService( 1062): NetworkInfo: NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "CU_EecN", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+10-17 11:40:30.254 D/AMap InternalService( 1062): NetworkInfo.State: CONNECTED
+10-17 11:40:30.403 D/AMap InternalService( 1062): isNetworkAvailable: truemProviderStatus: 1
+10-17 11:40:30.413 D/AMap InternalService( 1062): requestLocationUpdate mEnabled: trueisNetworkAvailable: true
+10-17 11:40:30.513 D/AMap InternalService( 1062): handleMessage msg = 2
+10-17 11:40:30.543 D/AMap InternalService( 1062): provider status: 2
+10-17 11:40:31.034 E/memtrack( 1502): Couldn't load memtrack module (No such file or directory)
+10-17 11:40:31.034 E/android.os.Debug( 1502): failed to load memtrack module: -2
+10-17 11:40:31.073 D/AMap LocationClient( 1062): handleMessage msg = 7
+10-17 11:40:31.203 D/AMap NetworkLocationProvider( 1062): MyNetworkLocationListener onStatusChanged
+10-17 11:40:31.203 D/AMap NetworkLocationProvider( 1062): handleMessage msg = 9
+10-17 11:40:31.283 D/AMap NetworkLocationProvider( 1062): setProviderStatus: 2
+10-17 11:40:31.403 D/AndroidRuntime( 1502): Calling main entry com.android.commands.uiautomator.Launcher
+10-17 11:40:32.933 D/AndroidRuntime( 1502): Shutting down VM
+10-17 11:40:33.043 D/CaptivePortalTracker(  787): Probably not a portal: exception java.net.SocketTimeoutException: failed to connect to /142.251.45.142 (port 80) after 10000ms
+10-17 11:40:33.043 D/CaptivePortalTracker(  787): Don't send network conditions - lacking user consent.
+10-17 11:40:33.043 D/CaptivePortalTracker(  787): Not captive network NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "CU_EecN", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+10-17 11:40:33.043 D/CaptivePortalTracker(  787): notifyPortalCheckCompleted: captive=false ni=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "CU_EecN", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+10-17 11:40:33.074 D/SettingItems( 1075): SettingItemsProvider created!
+10-17 11:40:34.894 D/AMap NetworkLocationService( 1062): onDestroy 1
+10-17 11:40:34.943 D/AMap NetworkLocationService( 1062): onDestroy 2
+10-17 11:40:35.203 I/VoipClient( 1030): registerReceiver
+10-17 11:40:35.233 I/VOIPCALL( 1030): VoipService: onStartCommand: null
+10-17 11:40:35.253 E/phoneassist( 1030): phoneassist check interval hours=4

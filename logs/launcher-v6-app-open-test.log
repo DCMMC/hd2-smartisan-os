@@ -1,0 +1,72 @@
+--------- beginning of /dev/log/main
+10-17 12:16:56.974  2016  2016 I HD2TEST : app_open_begin
+10-17 12:16:57.844  2018  2018 D AndroidRuntime:
+10-17 12:16:57.844  2018  2018 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:16:57.864  2018  2018 D AndroidRuntime: CheckJNI is OFF
+10-17 12:16:57.924  2018  2018 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:16:57.924  2018  2018 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:16:57.944  2018  2018 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:16:57.944  2018  2018 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:16:57.944  2018  2018 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:16:58.064  2018  2018 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:16:58.114  2018  2018 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:16:58.694  2018  2018 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:16:58.694  2018  2018 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:16:58.934  2018  2018 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:16:58.934  2018  2018 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=403247, downTime=403247, deviceId=0, source=0x1002 }
+10-17 12:16:58.964  2018  2018 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=403247, downTime=403247, deviceId=0, source=0x1002 }
+10-17 12:16:58.964  2018  2018 D AndroidRuntime: Shutting down VM
+10-17 12:16:59.054  1120  1120 I ActivityManager: Timeline: Activity_launch_request id:com.android.settings time:403367
+10-17 12:16:59.054   783  1170 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+--------- beginning of /dev/log/system
+10-17 12:16:59.054   783  1170 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1120
+10-17 12:16:59.094   367   367 W GLConsumer: [SurfaceView] bindTextureImage: clearing GL error: 0x502
+10-17 12:16:59.274  2029  2029 I HD2TEST : app_open_input_done
+10-17 12:16:59.334  1120  1385 I OpenGLHelper_Jni: genreate image target(surface:0x2a3739c0) to texture:74
+10-17 12:16:59.364   783   798 E WindowManager: use package drawable background
+10-17 12:16:59.384  1120  1385 I OpenGLHelper_Jni: released surface:0x2a3739c0
+10-17 12:16:59.474   783   945 D WindowManager.STA: getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(0, -105 - 158, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 12:16:59.554   783   798 V WindowManager.STA: transit=8204/0, mIsEnter=true
+10-17 12:16:59.584   783   879 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41c72c38
+10-17 12:17:00.074   783   945 D WindowManager.STA: IconCellShoter unlockTouch
+10-17 12:17:00.124   783   945 D WindowManager.STA: IconCellShoter unlockTouch
+10-17 12:17:00.654  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:17:00.654  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:17:00.654  1523  1544 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:17:00.654  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:17:00.664  1523  1547 D BluetoothAdapterService(1101116120): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d440
+10-17 12:17:00.664  1523  1544 D BluetoothAdapterService(1101116120): Get Bonded Devices being called
+10-17 12:17:00.794  1081  1081 D libEGL  : loaded /system/lib/egl/libEGL_adreno200.so
+10-17 12:17:00.844  1081  1081 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 12:17:00.854  1081  1081 D libEGL  : loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: Build Date: 07/31/12 Tue
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: Local Branch:
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: Remote Branch: quic/master
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: Local Patches: NONE
+10-17 12:17:00.854  1081  1081 I Adreno200-EGL: Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 12:17:00.984  1081  1081 D OpenGLRenderer: Enabling debug mode 0
+10-17 12:17:00.984  1081  1081 E memalloc: /dev/pmem: Failed to map buffer size:4288512 offset:1929216 fd:65 Error: Invalid argument
+10-17 12:17:00.984  1081  1081 E gralloc : Could not mmap handle 0x2a222a08, fd=65 (Invalid argument)
+10-17 12:17:00.984  1081  1081 E gralloc : gralloc_register_buffer: gralloc_map failed
+10-17 12:17:00.984  1081  1081 W GraphicBufferMapper: registerBuffer(0x2a222a08) failed -22 (Invalid argument)
+10-17 12:17:00.994  1081  1081 E GraphicBuffer: unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 12:17:01.024  1081  1081 W dalvikvm: method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;
+10-17 12:17:01.814  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:01.814  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:01.884  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:01.884  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:01.914  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:01.924  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.094  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:02.094  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.154  1081  1081 I Choreographer: Skipped 85 frames!  The application may be doing too much work on its main thread.
+10-17 12:17:02.184  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:02.184  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.184  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:02.184  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.194  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:02.194  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.214  1081  1081 W ResourceType: No known package when getting value for resource number 0xffffffff
+10-17 12:17:02.214  1081  1081 D         : get badge drawable failed!  don't show badge...android.content.res.Resources$NotFoundException: Resource ID #0xffffffff
+10-17 12:17:02.584  2043  2043 I HD2TEST : app_open_state_checked

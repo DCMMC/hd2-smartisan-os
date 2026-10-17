@@ -1,0 +1,248 @@
+--------- beginning of /dev/log/main
+10-17 12:23:39.417  1729  1729 I HD2TEST : cold_after_no_flip_reboot_begin
+10-17 12:23:39.467   782   798 W Process : Unable to open /proc/1070/status
+--------- beginning of /dev/log/system
+10-17 12:23:39.527   782   798 W ProcessCpuTracker: Skipping unknown process pid 1070
+10-17 12:23:39.617   782   799 D GeocoderProxy: unbinding com.amap.android.location
+10-17 12:23:39.707  1057  1057 D AMap MyServiceConnection: MyServiceConnection
+10-17 12:23:39.957   996   996 D music   : SERVICE ... onUnbind()
+10-17 12:23:39.957   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:39.957   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:39.997  1057  1057 D AMap LocationClient: binding to Intent { act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location }
+10-17 12:23:40.087  1057  1057 D AMap NetworkLocationProvider: applySettings
+10-17 12:23:40.087  1057  1057 D AMap NetworkLocationProvider: applySettings  enabled: true
+10-17 12:23:40.087  1057  1057 D AMap NetworkLocationProvider: applySettings user-confirmed: 1
+10-17 12:23:40.097  1057  1057 D AMap NetworkLocationProvider: setUserConfirmedPreference flag: true
+10-17 12:23:40.097  1057  1057 D AMap NetworkLocationProvider: setUserConfirmedPreference enabled: true
+10-17 12:23:40.097  1057  1057 D AMap NetworkLocationService: onBind 3
+10-17 12:23:40.187   782   782 D LocationProviderProxy-network: com.amap.android.location connected
+10-17 12:23:40.497   996   996 D music   : SERVICE ... onDestroy()
+10-17 12:23:40.517  1057  1057 D AMap GeocodeService: onDestroy
+10-17 12:23:40.627  1057  1057 D AMap GeocodeProvider: destroy start!
+10-17 12:23:40.627  1057  1057 D AMap GeocodeProvider: destroy end!
+10-17 12:23:40.847  1732  1732 D AndroidRuntime:
+10-17 12:23:40.847  1732  1732 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:23:40.867  1732  1732 D AndroidRuntime: CheckJNI is OFF
+10-17 12:23:40.937  1732  1732 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:23:40.967  1732  1732 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:23:40.997  1732  1732 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:23:40.997   782   798 W Process : Unable to open /proc/1611/status
+10-17 12:23:40.997  1732  1732 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:23:40.997  1732  1732 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:23:41.037   782   798 W ProcessCpuTracker: Skipping unknown process pid 1611
+10-17 12:23:41.127  1732  1732 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:23:41.197  1732  1732 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:23:41.617   782   799 D GeocoderProxy: bindBestPackage for com.android.location.service.GeocodeProvider :  found 1, new best package: com.amap.android.location
+10-17 12:23:41.747   996   996 V music   : MediaPlayer ... stop()
+10-17 12:23:41.787   782   885 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from <EMAIL-REDACTED>.m@41a252a8
+10-17 12:23:41.847   782   799 D GeocoderProxy: binding com.amap.android.location (version 2147483647) (single-user)
+10-17 12:23:41.927  1057  1057 D AMap InternalService: nlpVersion : 3.3.8
+10-17 12:23:41.937  1057  1057 D AMap InternalService: NetworkInfo: NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "CU_EecN", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+10-17 12:23:41.937  1057  1057 D AMap InternalService: NetworkInfo.State: CONNECTED
+10-17 12:23:41.937  1057  1057 D AMap InternalService: onCreate mEnabled: true isNetworkAvailable: true
+10-17 12:23:41.937  1057  1057 D AMap InternalService: initAPS, nlpVersion: 3.3.8
+10-17 12:23:41.937  1057  1057 D AMap InternalService: APS getInstance
+10-17 12:23:41.937  1057  1057 D AMap InternalService: APS getInstance end
+10-17 12:23:41.937  1057  1057 D AMap InternalService: APS init
+10-17 12:23:42.087  1732  1732 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:23:42.097  1732  1732 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS init end, APS version: 2.0.201501131131.a.r
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setUseGps(false)
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setUseGps(false) end
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setAuth
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setAuth end
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setExtra, nlpVersion: 3.3.8
+10-17 12:23:42.207  1057  1057 D AMap InternalService: APS setExtra end
+10-17 12:23:42.207  1057  1057 D AMap InternalService: initAPS end
+10-17 12:23:42.227  1057  1057 D AMap InternalService: onCreate
+10-17 12:23:42.227  1057  1057 D AMap InternalService: onBind
+10-17 12:23:42.337   782   798 I Process : Sending signal. PID: 1250 SIG: 3
+10-17 12:23:42.337  1250  1255 I dalvikvm: threadid=3: reacting to signal 3
+10-17 12:23:42.477  1732  1732 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:23:42.487  1732  1732 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=102692, downTime=102692, deviceId=0, source=0x1002 }
+10-17 12:23:42.497  1057  1057 D AMap LocationClient: handleMessage msg = 0
+10-17 12:23:42.517  1732  1732 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=510.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=102692, downTime=102692, deviceId=0, source=0x1002 }
+10-17 12:23:42.527  1732  1732 D AndroidRuntime: Shutting down VM
+10-17 12:23:42.607  1057  1057 D AMap GeocodeService: onBind
+10-17 12:23:42.627  1057  1057 D AMap GeocodeProvider: Construct
+10-17 12:23:42.647   782   782 D GeocoderProxy: com.amap.android.location connected
+10-17 12:23:42.647   782   798 E ActivityManager: ANR in com.smartisanos.systemui
+10-17 12:23:42.647   782   798 E ActivityManager: PID: 948
+10-17 12:23:42.647   782   798 E ActivityManager: Reason: Broadcast of Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+10-17 12:23:42.647   782   798 E ActivityManager: Load: 13.95 / 4.61 / 1.63
+10-17 12:23:42.647   782   798 E ActivityManager: CPU usage from 1842ms to -11776ms ago:
+10-17 12:23:42.647   782   798 E ActivityManager:   50% 373/sh: 4.5% user + 46% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   11% 782/system_server: 8.9% user + 2.5% kernel / faults: 3604 minor 47 major
+10-17 12:23:42.647   782   798 E ActivityManager:   6.5% 1104/com.smartisanos.launcher: 5.4% user + 1.1% kernel / faults: 3730 minor 7 major
+10-17 12:23:42.647   782   798 E ActivityManager:   3.3% 366/surfaceflinger: 1.7% user + 1.5% kernel / faults: 5 minor 1 major
+10-17 12:23:42.647   782   798 E ActivityManager:   2.9% 948/com.smartisanos.systemui: 2.8% user + 0% kernel / faults: 1118 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   1.6% 364/debuggerd: 1.1% user + 0.5% kernel / faults: 2009 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0.9% 374/akmd: 0% user + 0.8% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.5% 63/mmcqd: 0% user + 0.5% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.4% 24/ksmd: 0% user + 0.4% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.4% 122/loop7: 0% user + 0.4% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.4% 1215/dhd_dpc: 0% user + 0.4% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.1% 1250/android.process.acore: 0% user + 0% kernel / faults: 407 minor 34 major
+10-17 12:23:42.647   782   798 E ActivityManager:   0.2% 1057/com.amap.android.location: 0.2% user + 0% kernel / faults: 931 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0.1% 40/kgsl-3d0/0: 0% user + 0.1% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0.1% 65/adbd: 0% user + 0% kernel / faults: 42 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0.1% 1083/com.android.phone: 0% user + 0% kernel / faults: 151 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0.1% 1092/com.smartisanos.voice: 0% user + 0% kernel / faults: 5 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0% 4/events/0: 0% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   0% 361/logcat: 0% user + 0% kernel / faults: 3 minor
+10-17 12:23:42.647   782   798 E ActivityManager:   0% 1233/com.smartisanos.weather: 0% user + 0% kernel / faults: 1056 minor 5 major
+10-17 12:23:42.647   782   798 E ActivityManager:  +0% 1710/com.smartisanos.keyguard: 0% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:  +0% 1732/app_process.hd2: 0% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager: 100% TOTAL: 41% user + 58% kernel + 0.1% softirq
+10-17 12:23:42.647   782   798 E ActivityManager: CPU usage from 10759ms to 11463ms later:
+10-17 12:23:42.647   782   798 E ActivityManager:   39% 373/sh: 1.4% user + 37% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   39% 1732/app_process.hd2: 37% user + 1.5% kernel / faults: 764 minor
+10-17 12:23:42.647   782   798 E ActivityManager:     28% 1732/app_process.hd2: 26% user + 1.5% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.5% 1764/Compiler: 1.5% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   8.6% 782/system_server: 7.2% user + 1.4% kernel / faults: 198 minor 7 major
+10-17 12:23:42.647   782   798 E ActivityManager:     8.6% 925/IconManagerServ: 8.6% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     4.3% 798/ActivityManager: 2.8% user + 1.4% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.4% 787/Compiler: 1.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.4% 799/android.bg: 1.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.4% 885/Binder_3: 1.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.4% 914/WifiService: 1.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:     1.4% 1268/Binder_A: 1.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   1.8% 1250/android.process.acore: 1.4% user + 0.4% kernel / faults: 6 minor 4 major
+10-17 12:23:42.647   782   798 E ActivityManager:     0.4% 1385/ContactsProvide: 0.4% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   2.7% 948/com.smartisanos.systemui: 2.7% user + 0% kernel / faults: 6 minor
+10-17 12:23:42.647   782   798 E ActivityManager:     1.3% 948/isanos.systemui: 1.3% user + 0% kernel
+10-17 12:23:42.647   782   798 E ActivityManager:   1.4% 1215/dhd_dpc: 0% user + 1.4% kernel
+10-17 12:23:42.647   782   798 E ActivityManager: 100% TOTAL: 57% user + 41% kernel + 1.4% softirq
+10-17 12:23:42.667   782   798 I Process : killProcessQuiet pid=948
+10-17 12:23:42.667   782   798 I Process : java.lang.RuntimeException
+10-17 12:23:42.667   782   798 I Process : 	at android.os.Process.killProcessQuiet(Process.java:982)
+10-17 12:23:42.667   782   798 I Process : 	at com.android.server.am.ActivityManagerService.killUnneededProcessLocked(ActivityManagerService.java:7399)
+10-17 12:23:42.667   782   798 I Process : 	at com.android.server.am.ActivityManagerService.appNotResponding(ActivityManagerService.java:4518)
+10-17 12:23:42.667   782   798 I Process : 	at com.android.server.am.BroadcastQueue$AppNotResponding.run(BroadcastQueue.java:178)
+10-17 12:23:42.667   782   798 I Process : 	at android.os.Handler.handleCallback(Handler.java:733)
+10-17 12:23:42.667   782   798 I Process : 	at android.os.Handler.dispatchMessage(Handler.java:95)
+10-17 12:23:42.667   782   798 I Process : 	at android.os.Looper.loop(Looper.java:136)
+10-17 12:23:42.667   782   798 I Process : 	at com.android.server.am.ActivityManagerService$AThread.run(ActivityManagerService.java:2006)
+10-17 12:23:42.667   782   798 I ActivityManager: Killing 948:com.smartisanos.systemui/u0a2 (adj -12): background ANR
+10-17 12:23:42.677   782   782 D NotificationService: onReceive:android.intent.action.PACKAGE_RESTARTED
+10-17 12:23:42.687  1083  1083 D PhoneApp: mReceiver: launcher.ready
+10-17 12:23:42.687   782   782 I NotificationService: queryReplace=false
+10-17 12:23:42.767  1057  1057 D AMap MyServiceConnection: onServiceConnected success
+10-17 12:23:42.777  1775  1775 I HD2TEST : cold_after_no_flip_reboot_input_done
+10-17 12:23:42.777  1057  1753 D AMap InternalService: handleMessage msg = 0
+10-17 12:23:42.787  1057  1753 D AMap InternalService: onClientRegisterd
+10-17 12:23:43.177  1250  1255 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+10-17 12:23:43.287  1710  1710 D KeyguardViewMediator: get isInputRestricted state
+10-17 12:23:43.387  1710  1710 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198
+10-17 12:23:43.397  1710  1710 W ContextImpl: Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29
+10-17 12:23:43.417  1710  1710 W ContextImpl: Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29
+10-17 12:23:43.417  1710  1710 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.<init>:29 com.smartisanos.keyguard.KeyguardViewManager.<init>:198
+10-17 12:23:43.437  1710  1710 V KeyguardService: onCreate()
+10-17 12:23:43.467   996   996 D music   : SERVICE ... onCreate()
+10-17 12:23:43.467   369   921 D AwesomePlayer: Before reset_l
+10-17 12:23:43.467   369   921 D AwesomePlayer: printFileName fd(19) -> /system/priv-app/KeyguardSmartisan.apk
+10-17 12:23:43.497  1710  1710 D KeyguardService: screenlock
+10-17 12:23:43.497   782   782 V KeyguardServiceDelegate: *** Keyguard connected (yay!)
+10-17 12:23:43.497  1710  1722 D KeyguardViewMediator: addStateMonitorCallback
+10-17 12:23:43.497  1710  1722 D KeyguardViewMediator: get isInputRestricted state
+10-17 12:23:43.497  1710  1722 D KeyguardViewMediator: Init onSimSecureStateChanged false
+10-17 12:23:43.497  1710  1722 D KeyguardViewMediator: Init onShowingStateChanged true
+10-17 12:23:43.497  1710  1722 D KeyguardViewMediator: Init onInputRestrictedStateChanged true
+10-17 12:23:43.507  1710  1723 D KeyguardViewMediator: onSystemReady
+10-17 12:23:43.507  1710  1723 V KeyguardUpdateMonitor: *** register callback for com.smartisanos.keyguard.bC@41a0b758
+10-17 12:23:43.507  1710  1723 V KeyguardUpdateMonitor: *** unregister callback for null
+10-17 12:23:43.507  1710  1723 E KeyguardViewManager: Charging state mass chargingGiven false, chargingGet true
+10-17 12:23:43.507  1710  1723 D KeyguardViewMediator: get isSecure state
+10-17 12:23:43.527  1710  1723 D KeyguardViewMediator: get isSecure state
+10-17 12:23:43.527  1710  1723 D KeyguardViewMediator: get isSecure state
+10-17 12:23:43.547  1710  1723 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x3000000
+10-17 12:23:43.547  1710  1710 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+10-17 12:23:43.547  1710  1723 D TAG     : disable what:50331648
+10-17 12:23:43.547   782  1626 D StatusBarManagerService: disableInternal
+10-17 12:23:43.547   782  1626 D StatusBarManagerService: manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41c81f30
+10-17 12:23:43.557  1710  1710 D KeyguardUpdateMonitor: received broadcast android.intent.action.SIM_STATE_CHANGED
+10-17 12:23:43.557  1710  1723 D KeyguardViewMediator: onSimStateChanged: NOT_READY
+10-17 12:23:43.557  1710  1723 D KeyguardViewMediator: get isShowing state
+10-17 12:23:43.557  1710  1710 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED stateABSENT
+10-17 12:23:43.557   782  1130 I MediaFocusControl:   Remote Control   registerMediaButtonIntent() for PendingIntent{41bf6fa8: PendingIntentRecord{41d526a0 com.smartisanos.music broadcastIntent} package=com.smartisanos.music act=android.intent.action.MEDIA_BUTTON cmp=ComponentInfo{com.smartisanos.music/com.smartisanos.music.service.MediaButtonIntentReceiver}}
+10-17 12:23:43.577  1710  1710 D KeyguardUpdateMonitor: ACTION_SIM_STATE_CHANGED intent received on sub = 0
+10-17 12:23:43.577  1710  1723 D KeyguardViewMediator: resetStateForceRecreateLocked
+10-17 12:23:43.577  1710  1710 D KeyguardUpdateMonitor: received broadcast android.provider.Telephony.SPN_STRINGS_UPDATED
+10-17 12:23:43.577  1710  1710 D KeyguardUpdateMonitor: Received SPN update on sub :0
+10-17 12:23:43.577  1710  1710 D KeyguardUpdateMonitor: received broadcast android.media.RINGER_MODE_CHANGED
+10-17 12:23:43.577  1710  1710 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1516 android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59
+10-17 12:23:43.597  1710  1710 W ContextImpl: Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.startService:494 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:34 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16
+10-17 12:23:43.617   782   920 I MediaFocusControl: updating focussed RCC change to RCD: CallingPackageName:com.smartisanos.music isFocussed:true isAvailable:true
+10-17 12:23:43.637  1710  1710 W ContextImpl: Implicit intents with startService are not safe: Intent { act=com.smartisanos.music.action } android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16
+10-17 12:23:43.637  1710  1710 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1580 android.content.ContextWrapper.bindService:517 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.bT:35 com.smartisanos.keyguard.widgets.MusicServiceConnectUtils.c:16 com.smartisanos.keyguard.widgets.t.onReceive:59
+10-17 12:23:43.727   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027d40 successful
+10-17 12:23:43.727   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027f50 successful
+10-17 12:23:43.727   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a028090 successful
+10-17 12:23:43.727   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a0281b8 successful
+10-17 12:23:43.787  1710  1710 D KeyguardUpdateMonitor: handleBatteryUpdate
+10-17 12:23:43.787   782   920 I MediaFocusControl: updating focussed RCC change to RCD: CallingPackageName:com.smartisanos.music isFocussed:true isAvailable:true
+10-17 12:23:43.798   996   996 D music   : SERVICE ... registerExternalStorageListener()
+10-17 12:23:43.807   996   996 D music   : SERVICE ... reloadQueue()
+10-17 12:23:43.807   996   996 D DataModelController: reloadQueue()
+10-17 12:23:43.807   996   996 E music   : openCurrentAndNext initCurrentCursor error
+10-17 12:23:43.807   996   996 D music   : SERVICE ... notifyChange(what) : com.smartisanos.music.metachanged fromUser : false mIsSupposedToBePlaying : false
+10-17 12:23:43.817   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:43.817   996   996 E MediaPlayer: error (-38, 0)
+10-17 12:23:43.817   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:43.877  1710  1723 D KeyguardViewMediator: doKeyguard: showing the lock screen
+10-17 12:23:43.877  1710  1723 D KeyguardViewMediator: showLocked
+10-17 12:23:43.927  1710  1710 D KeyguardViewMediator: handleReset
+10-17 12:23:43.927  1710  1710 D KeyguardViewManager: keyguard host is null, creating it...
+10-17 12:23:43.977   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027bb8 successful
+10-17 12:23:43.977   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a027b00 successful
+10-17 12:23:43.977   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a01f9d0 successful
+10-17 12:23:43.987   996   996 D music   : SERVICE ... notifyChange(what) : com.smartisanos.music.playstatechanged fromUser : false mIsSupposedToBePlaying : false
+10-17 12:23:43.997   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a01f480 successful
+10-17 12:23:43.997   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02d6e8 successful
+10-17 12:23:43.997   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a7e8 successful
+10-17 12:23:43.997   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a6e0 successful
+10-17 12:23:43.997   369  1781 I OMXNodeInstance: OMX_FreeBuffer for buffer header 0x2a02a608 successful
+10-17 12:23:44.017   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:44.017   996   996 D music   : SERVICE ... saveQueue()
+10-17 12:23:44.017   782   878 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b6fc00
+10-17 12:23:44.037   996   996 D music   : SERVICE ... onStartCommand(action,cmd) : com.smartisanos.music.action : cmd : null
+10-17 12:23:44.037   996   996 D music   : SERVICE ... onBind()
+10-17 12:23:44.037   996   996 D music   : SERVICE ... onStartCommand(action,cmd) : com.smartisanos.music.action : cmd : null
+10-17 12:23:44.057  1710  1710 D KeyguardViewManager: ++++++ create new keyguard host view
+10-17 12:23:44.067   996   996 E MediaPlayer: Error (-38,0)
+10-17 12:23:44.087   996   996 I music   : ConnectivityManager.CONNECTIVITY_ACTION changed : 1
+10-17 12:23:44.087  1710  1710 D dalvikvm: No JNI_OnLoad found in /system/lib/libbitmap_gaussian_blur.so 0x41a06938, skipping init
+10-17 12:23:44.107   782   896 I lights  : check_battery_level: state=5
+10-17 12:23:44.257  1710  1710 I KeyguardBackground: ## wallpaperUri = android.resource://com.smartisanos.wallpapers/drawable/smartisan_lockscreen_25
+10-17 12:23:44.257  1167  1184 D WallpaperProvider: uri:content://com.smartisanos.wallpaperprovider/wallpapers?contain_build_in_wallpapers=true
+10-17 12:23:44.317  1710  1710 I KeyguardBackground: ## uri count = 40
+10-17 12:23:44.327  1710  1710 I KeyguardBackground: ## wallpaperUri = android.resource://com.smartisanos.wallpapers/drawable/smartisan_lockscreen_25
+10-17 12:23:44.327  1167  1178 D WallpaperProvider: uri:content://com.smartisanos.wallpaperprovider/wallpapers?contain_build_in_wallpapers=true
+10-17 12:23:44.407  1710  1710 I KeyguardBackground: ## uri count = 40
+10-17 12:23:44.407  1710  1710 I KeyguardBackground: ## wallpaperUri = android.resource://com.smartisanos.wallpapers/drawable/smartisan_lockscreen_25
+10-17 12:23:44.407  1167  1789 D WallpaperProvider: uri:content://com.smartisanos.wallpaperprovider/wallpapers?contain_build_in_wallpapers=true
+10-17 12:23:44.547  1710  1710 I KeyguardBackground: ## uri count = 40
+10-17 12:23:44.897  1057  1088 D AMap NetworkLocationProvider: onDisable
+10-17 12:23:45.597  1057  1091 D AMap NetworkLocationProvider: onEnable
+10-17 12:23:45.607   782  1068 W ActivityManager: Scheduling restart of crashed service com.smartisanos.systemui/.SystemUIService in 0ms
+10-17 12:23:45.617   782   953 I WindowState: WIN DEATH: Window{41d617f8 u0 RecentsPanel}
+10-17 12:23:45.617   782  1068 W ActivityManager: Scheduling restart of crashed service com.smartisanos.systemui/.ImageWallpaper in 0ms
+10-17 12:23:45.627   782   902 W InputDispatcher: channel '41eda2b0 com.smartisanos.systemui.ImageWallpaper (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-17 12:23:45.627   782   902 E InputDispatcher: channel '41eda2b0 com.smartisanos.systemui.ImageWallpaper (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-17 12:23:45.627  1057  1088 D AMap NetworkLocationProvider: onSetRequest calling pid: 782 calling uid: 1000 nlp used by: [android(1000)]
+10-17 12:23:45.627  1057  1088 D AMap NetworkLocationProvider: onSetRequest interval = 86400000
+10-17 12:23:45.627   782  1151 I WindowState: WIN DEATH: Window{41ccd0e0 u0 StatusBar}
+10-17 12:23:45.747   782  1068 I ActivityManager: Start proc com.smartisanos.systemui for restart com.smartisanos.systemui: pid=1792 uid=10002 gids={50002, 1028, 1015, 1035, 3002, 3001, 3003}
+10-17 12:23:45.767   782  1271 W InputDispatcher: Attempted to unregister already unregistered input channel '41eda2b0 com.smartisanos.systemui.ImageWallpaper (server)'
+10-17 12:23:45.767   782  1271 I WindowState: WIN DEATH: Window{41eda2b0 u0 com.smartisanos.systemui.ImageWallpaper}
+10-17 12:23:46.177   782   878 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b6fc00
+10-17 12:23:46.877   782   782 I FusedLocation: engine stopped (com.android.location.fused)
+10-17 12:23:46.897   782   782 I FusedLocation: engine started (com.android.location.fused)
+10-17 12:23:46.917   782   782 W WallpaperService: Wallpaper service gone: ComponentInfo{com.smartisanos.systemui/com.smartisanos.systemui.ImageWallpaper}
+10-17 12:23:47.187  1792  1792 D SystemUIService: loading: class com.smartisanos.systemui.statusbar.c.q
+10-17 12:23:47.327  1792  1792 D SystemUIService: running: com.smartisanos.systemui.statusbar.c.q@41a0c2b0
+10-17 12:23:47.387  1792  1792 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+10-17 12:23:47.587   782   782 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+10-17 12:23:47.587   782   782 I ActivityManager: Start proc com.android.settings for broadcast com.android.settings/.settingitemsprovider.SettingItemsReceiver: pid=1806 uid=1000 gids={41000, 3003, 1028, 1015, 1023, 3002, 3001, 3006}
+10-17 12:23:48.017   782  1151 I StatusBarManagerService: registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41d21328
+10-17 12:23:48.587  1833  1833 I HD2TEST : cold_after_no_flip_reboot_state_checked

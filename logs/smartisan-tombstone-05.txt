@@ -110,7 +110,7 @@ stack:
          bed4b5e0  2a00d5d0  [heap]
          bed4b5e4  414ce569  /system/lib/libdvm.so (dvmCallJNIMethod(unsigned int const*, JValue*, Method const*, Thread*)+600)
          bed4b5e8  4c4e5e58  
-         bed4b5ec  4d6b6acf  /data/dalvik-cache/system@framework@core.jar@classes.dex
+         bed4b5ec  4d6b6acf  /data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex
          bed4b5f0  00000000  
          bed4b5f4  00000000  
          bed4b5f8  00000000  
@@ -122,7 +122,7 @@ stack:
          bed4b610  419f4d30  /dev/ashmem/dalvik-heap (deleted)
          bed4b614  40075384  
          ........  ........
-    #07  bed4b6f8  4d563442  /data/dalvik-cache/system@framework@core.jar@classes.dex
+    #07  bed4b6f8  4d563442  /data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex
          bed4b6fc  414a6e64  /system/lib/libdvm.so
     #08  bed4b700  bed4b73c  [stack]
          bed4b704  2a00d5d0  [heap]
@@ -138,7 +138,7 @@ stack:
          bed4b72c  414ab9a8  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+188)
          bed4b730  415312c8  /system/lib/libdvm.so
          bed4b734  40075384  
-         bed4b738  4e787e94  /data/dalvik-cache/system@framework@framework2.jar@classes.dex
+         bed4b738  4e787e94  /data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex
          bed4b73c  fffffea4  
          bed4b740  414ae2c0  /system/lib/libdvm.so (dvmMterpStd(Thread*))
          bed4b744  414ab9a8  /system/lib/libdvm.so (dvmInterpret(Thread*, Method const*, JValue*)+188)
@@ -162,7 +162,7 @@ stack:
     #11  bed4b7d8  bed4b7a0  [stack]
          bed4b7dc  00000020  
          bed4b7e0  4c5bfd24  /dev/ashmem/dalvik-LinearAlloc (deleted)
-         bed4b7e4  4e6dc2a0  /data/dalvik-cache/system@framework@framework2.jar@classes.dex
+         bed4b7e4  4e6dc2a0  /data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex
          bed4b7e8  00000001  
          bed4b7ec  00000001  
          bed4b7f0  415331b0  

@@ -1,0 +1,37 @@
+--------- beginning of /dev/log/main
+10-17 13:27:23.741 D/AndroidRuntime( 1948):
+10-17 13:27:23.741 D/AndroidRuntime( 1948): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 13:27:23.750 D/AndroidRuntime( 1948): CheckJNI is OFF
+10-17 13:27:23.840 D/dalvikvm( 1948): Trying to load lib libjavacore.so 0x0
+10-17 13:27:23.860 D/dalvikvm( 1948): Added shared lib libjavacore.so 0x0
+10-17 13:27:23.890 D/dalvikvm( 1948): Trying to load lib libnativehelper.so 0x0
+10-17 13:27:23.890 D/dalvikvm( 1948): Added shared lib libnativehelper.so 0x0
+10-17 13:27:23.890 D/dalvikvm( 1948): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 13:27:24.031 E/cutils-trace( 1948): Error opening trace file: No such file or directory (2)
+10-17 13:27:24.091 D/dalvikvm( 1948): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 13:27:24.980 E/memtrack( 1948): Couldn't load memtrack module (No such file or directory)
+10-17 13:27:24.980 E/android.os.Debug( 1948): failed to load memtrack module: -2
+10-17 13:27:25.371 D/AndroidRuntime( 1948): Calling main entry com.android.commands.input.Input
+10-17 13:27:25.380 I/Input   ( 1948): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=276541, downTime=276541, deviceId=0, source=0x1002 }
+10-17 13:27:25.440 I/Input   ( 1948): injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=240.0, y[0]=690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=276541, downTime=276541, deviceId=0, source=0x1002 }
+10-17 13:27:25.450 I/Input   ( 1948): injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=240.0, y[0]=574.1786, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=276610, downTime=276610, deviceId=0, source=0x1002 }
+10-17 13:27:25.541 I/Input   ( 1948): injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=240.0, y[0]=414.7143, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=276705, downTime=276705, deviceId=0, source=0x1002 }
+10-17 13:27:25.800 I/Input   ( 1948): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=220.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=276962, downTime=276962, deviceId=0, source=0x1002 }
+10-17 13:27:25.821 D/AndroidRuntime( 1948): Shutting down VM
+--------- beginning of /dev/log/system
+10-17 13:27:26.281 D/TAG     ( 1204): disable what:0
+10-17 13:27:26.281 D/StatusBarManagerService(  780): disableInternal
+10-17 13:27:26.281 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41cf25f0
+10-17 13:27:26.290 W/AccessibilityManagerService(  780): Skipping accessibilty service com.cootek.smartinputv5.smartisan/com.cootek.smartinput5.TouchPalAccessibilityService: it does not require the permission android.permission.BIND_ACCESSIBILITY_SERVICE
+10-17 13:27:26.300 D/NotificationService(  780): onReceive:android.intent.action.USER_PRESENT
+10-17 13:27:26.350 D/StatusBarManagerService(  780): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41b58b60
+10-17 13:27:27.640 I/ActivityManager(  780): Start proc com.cootek.smartinputv5.smartisan:PService for service com.cootek.smartinputv5.smartisan/com.cootek.presentation.service.PresentationService: pid=1968 uid=10038 gids={50038, 1028, 1015, 3003}
+10-17 13:27:28.450 E/cutils-trace( 1988): Error opening trace file: No such file or directory (2)
+10-17 13:27:28.850 E/libgenlock(  363): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Invalid argument fd=33)
+10-17 13:27:28.850 W/Adreno200-EGLSUB(  363): <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-17 13:27:28.850 W/Adreno200-ES20(  363): <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+10-17 13:27:28.850 E/SurfaceFlinger(  363): glCheckFramebufferStatusOES error 36054
+10-17 13:27:28.850 E/SurfaceFlinger(  363): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+10-17 13:27:28.850 E/libgenlock(  363): perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Invalid argument fd=33)
+10-17 13:27:28.850 W/Adreno200-EGLSUB(  363): <UnlockImage:1965>: genlock_unlock_buffer failed
+10-17 13:27:28.850 W/GLConsumer(  363): [SurfaceView] bindTextureImage: clearing GL error: 0x502

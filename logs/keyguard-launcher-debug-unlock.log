@@ -1,0 +1,64 @@
+--------- beginning of /dev/log/main
+10-17 12:25:35.867  2076  2100 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=37
+10-17 12:25:35.967  2076  2100 E NewLauncher: LauncherSmartisanNew : rendertarget mTexId=38
+10-17 12:25:36.677  2117  2117 D AndroidRuntime:
+10-17 12:25:36.677  2117  2117 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 12:25:36.697  2117  2117 D AndroidRuntime: CheckJNI is OFF
+10-17 12:25:36.787  2117  2117 D dalvikvm: Trying to load lib libjavacore.so 0x0
+10-17 12:25:36.797  2117  2117 D dalvikvm: Added shared lib libjavacore.so 0x0
+10-17 12:25:36.817  2117  2117 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+10-17 12:25:36.827  2117  2117 D dalvikvm: Added shared lib libnativehelper.so 0x0
+10-17 12:25:36.827  2117  2117 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 12:25:36.957  2117  2117 E cutils-trace: Error opening trace file: No such file or directory (2)
+10-17 12:25:37.027  2117  2117 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 12:25:37.937  2117  2117 E memtrack: Couldn't load memtrack module (No such file or directory)
+10-17 12:25:37.937  2117  2117 E android.os.Debug: failed to load memtrack module: -2
+10-17 12:25:38.307  2117  2117 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-17 12:25:38.317  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=120.0, y[0]=680.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=218527, downTime=218527, deviceId=0, source=0x1002 }
+10-17 12:25:38.357  1710  1710 I KeyguardHostView: #### ACTION_DOWN ###
+10-17 12:25:38.377  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=680.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=218527, downTime=218527, deviceId=0, source=0x1002 }
+10-17 12:25:38.377  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=580.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=218597, downTime=218597, deviceId=0, source=0x1002 }
+10-17 12:25:38.437  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=494.2857, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=218657, downTime=218657, deviceId=0, source=0x1002 }
+10-17 12:25:38.587  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:38.587  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:38.647  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=120.0, y[0]=201.42856, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=218862, downTime=218862, deviceId=0, source=0x1002 }
+10-17 12:25:38.927  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:38.937  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:39.017  2117  2117 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=120.0, y[0]=80.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=219239, downTime=219239, deviceId=0, source=0x1002 }
+10-17 12:25:39.027  1710  1710 I KeyguardHostView: ## fling velocity x = 0.0 , min = 200.0
+10-17 12:25:39.027  1710  1710 I KeyguardHostView: ### up pointid = 0
+10-17 12:25:39.027  1710  1710 I KeyguardHostView: ### all point up #####
+10-17 12:25:39.027  1710  1710 I KeyguardHostView: point down = 120.0, current = 120.0
+10-17 12:25:39.027  1710  1710 D KeyguardHostView: -------- Broadcast post ACTION_KEYGUARD_TO_DISMISS when snapToTop and no sec view
+10-17 12:25:39.047  2117  2117 D AndroidRuntime: Shutting down VM
+10-17 12:25:39.167  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:39.197  1710  1710 I KeyguardBackground: ## draw which drawableDraw ##
+10-17 12:25:39.347  1710  1710 D KeyguardHostView: -------- Broadcast ACTION_KEYGUARD_TO_DISMISS
+10-17 12:25:39.537  2076  2076 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+10-17 12:25:39.577  2076  2076 E NewLauncher: LauncherApplication : DEBUG : ACTION_KEYGUARD_TO_DISMISS begin !
+10-17 12:25:39.577  2076  2076 E NewLauncher: Utils : DEBUG : ### rti = 1 ##
+10-17 12:25:39.587  2076  2076 E NewLauncher: Utils : DEBUG : ## rt = com.smartisanos.launcher.Launcher ##
+10-17 12:25:39.587  2076  2076 E NewLauncher: LauncherApplication : ### ACTION_KEYGUARD_TO_DISMISS,launcher is home.
+10-17 12:25:40.447  2076  2100 E NewLauncher: LauncherApplication : ### play unlock animation.
+10-17 12:25:40.447  2076  2100 E NewLauncher: AnimationController : ### mUnlockAnimationHasInit == false, do not play unlock animation
+10-17 12:25:40.547  2076  2076 E NewLauncher: Launcher : DEBUG : handleMessage begin, msg.what == 12
+10-17 12:25:40.547  2076  2076 E NewLauncher: Launcher : #### MESSAGE_COMPLETE #####
+10-17 12:25:40.547  2076  2076 E NewLauncher: Launcher : #### loadAllApps #####
+10-17 12:25:40.637  2076  2076 E NewLauncher: Launcher : launcher startup time ==> [13217] ms
+10-17 12:25:40.647  1083  1083 D PhoneApp: mReceiver: launcher.ready
+10-17 12:25:40.687  2076  2076 E NewLauncher: Launcher : DEBUG : ## wizard value = 1 ###
+10-17 12:25:40.687  2076  2076 E NewLauncher: Launcher : ### delay update GL View #####
+10-17 12:25:40.737  2076  2076 E NewLauncher: LauncherModel : DEBUG : handleOnNewMessage messageCount=0
+10-17 12:25:40.817  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_MESSAGE_COUNT]
+10-17 12:25:40.817  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleEventUpdateMessageCount set count to [0] where ==> packageName = 'com.android.contacts' AND componentName = 'com.android.contacts.activities.DialtactsActivity'
+10-17 12:25:40.837  1083  1083 V SubscriptsManager: message send broadcast to update the mms uread count: 0
+10-17 12:25:40.907  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_MESSAGE_COUNT] Done !
+10-17 12:25:40.917  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_ITEM]
+10-17 12:25:40.957  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_ITEM] Done !
+10-17 12:25:41.107  2076  2076 E NewLauncher: LauncherModel : DEBUG : handleOnNewMessage messageCount=0
+10-17 12:25:41.107  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_MESSAGE_COUNT]
+10-17 12:25:41.107  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleEventUpdateMessageCount set count to [0] where ==> packageName = 'com.android.mms' AND componentName = 'com.android.mms.ui.ConversationList'
+10-17 12:25:41.147  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_MESSAGE_COUNT] Done !
+10-17 12:25:41.157  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : handleMessage execute action [EVENT_UPDATE_ITEM]
+10-17 12:25:41.187  2076  2101 E NewLauncher: DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_UPDATE_ITEM] Done !
+10-17 12:25:41.327  1710  1710 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.

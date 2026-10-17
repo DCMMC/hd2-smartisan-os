@@ -1,0 +1,101 @@
+10-17 11:31:43.233 D/KeyguardViewManager(  906): p-sensor state changed to far
+10-17 11:31:43.233 D/KeyguardViewManager(  906): p-sensor state changed to far
+10-17 11:31:43.283 V/KeyguardServiceDelegate(  767): **** SHOWN CALLED ****
+10-17 11:31:43.313 D/KeyguardViewMediator(  906): handleNotifyScreenOff
+10-17 11:31:43.313 D/KeyguardViewManager(  906): onScreenTurnedOff()
+10-17 11:31:43.313 D/KeyguardViewManager(  906): unregister p-sensor
+10-17 11:31:43.323 D/KeyguardHostView(  906): ======== Broadcast Cancel ACTION_KEYGUARD_TO_DISMISS as onScreenTurnedOff
+10-17 11:31:43.383 D/KeyguardViewMediator(  906): handleReset
+10-17 11:31:43.403 D/KeyguardHostView(  906): onSaveInstanceState
+10-17 11:31:43.413 E/KeyguardHostView(  906): ### needForceRecreate : false, false
+10-17 11:31:43.413 D/KeyguardHostView(  906): onRestoreInstanceState
+10-17 11:31:43.433 D/KeyguardViewManager(  906): +++++++++ Broadcast ACTION_KEYGUARD_ON
+10-17 11:31:44.153 W/WindowManager(  767): Force clearing orientation change: Window{41d68910 u0 Keyguard}
+10-17 11:31:44.773 I/KeyguardBackground(  906): ## draw which drawableDraw ##
+10-17 11:31:44.783 I/KeyguardBackground(  906): draw overlay drawalbe
+10-17 11:31:44.783 I/KeyguardBackground(  906): ## draw which drawableDraw ##
+10-17 11:31:44.783 I/KeyguardBackground(  906): ## draw which drawableDraw ##
+10-17 11:31:44.953 I/Choreographer(  906): Skipped 79 frames!  The application may be doing too much work on its main thread.
+10-17 11:31:45.283 W/WindowManager(  767): Timeout waiting for drawn: Window{41d68910 u0 Keyguard}
+10-17 11:31:46.423 V/KeyguardServiceDelegate(  767): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41eebb10)
+10-17 11:31:46.423 D/KeyguardViewMediator(  906): onScreenTurnedOn, seq = 5
+10-17 11:31:46.423 D/KeyguardViewMediator(  906): handleNotifyScreenOn
+10-17 11:31:46.423 D/KeyguardViewManager(  906): onScreenTurnedOn()
+10-17 11:31:46.423 D/KeyguardViewManager(  906): register p-sensor
+10-17 11:31:46.513 D/KeyguardViewManager(  906): p-sensor state changed to far
+10-17 11:31:46.623 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:31:46.663 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:31:46.683 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:31:46.713 D/KeyguardViewMediator(  906): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x3000000
+10-17 11:31:46.713 D/StatusBarManagerService(  767): manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d264e0
+10-17 11:31:46.773 V/KeyguardServiceDelegate(  767): **** SHOWN CALLED ****
+10-17 11:31:47.143 I/Choreographer( 2025): Skipped 40 frames!  The application may be doing too much work on its main thread.
+10-17 11:31:47.503 D/KeyguardViewMediator(  906): onScreenTurnedOff(2)
+10-17 11:31:47.513 D/KeyguardViewMediator(  906): notifyScreenOffLocked
+10-17 11:31:47.513 D/KeyguardViewMediator(  906): resetStateLocked
+10-17 11:31:47.893 D/KeyguardViewMediator(  906): handleNotifyScreenOff
+10-17 11:31:47.893 D/KeyguardViewManager(  906): onScreenTurnedOff()
+10-17 11:31:47.893 D/KeyguardViewManager(  906): unregister p-sensor
+10-17 11:31:47.913 D/KeyguardHostView(  906): ======== Broadcast Cancel ACTION_KEYGUARD_TO_DISMISS as onScreenTurnedOff
+10-17 11:31:47.953 D/KeyguardViewMediator(  906): handleReset
+10-17 11:31:47.963 D/KeyguardHostView(  906): onSaveInstanceState
+10-17 11:31:47.963 E/KeyguardHostView(  906): ### needForceRecreate : false, false
+10-17 11:31:47.963 D/KeyguardHostView(  906): onRestoreInstanceState
+10-17 11:31:47.963 D/KeyguardViewManager(  906): +++++++++ Broadcast ACTION_KEYGUARD_ON
+10-17 11:31:48.833 I/Choreographer(  906): Skipped 50 frames!  The application may be doing too much work on its main thread.
+10-17 11:32:21.483 V/KeyguardServiceDelegate(  767): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41ea7970)
+10-17 11:32:21.483 D/KeyguardViewMediator(  906): onScreenTurnedOn, seq = 6
+10-17 11:32:21.483 D/KeyguardViewMediator(  906): handleNotifyScreenOn
+10-17 11:32:21.483 D/KeyguardViewManager(  906): onScreenTurnedOn()
+10-17 11:32:21.483 D/KeyguardViewManager(  906): register p-sensor
+10-17 11:32:21.573 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:21.593 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:21.623 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:21.643 D/KeyguardViewMediator(  906): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x3000000
+10-17 11:32:21.664 D/StatusBarManagerService(  767): manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d264e0
+10-17 11:32:21.693 D/KeyguardViewManager(  906): p-sensor state changed to far
+10-17 11:32:21.803 V/KeyguardServiceDelegate(  767): **** SHOWN CALLED ****
+10-17 11:32:26.473 D/KeyguardViewMediator(  906): onScreenTurnedOff(2)
+10-17 11:32:26.483 D/KeyguardViewMediator(  906): notifyScreenOffLocked
+10-17 11:32:26.483 D/KeyguardViewMediator(  906): resetStateLocked
+10-17 11:32:26.593 D/KeyguardViewMediator(  906): handleNotifyScreenOff
+10-17 11:32:26.593 D/KeyguardViewManager(  906): onScreenTurnedOff()
+10-17 11:32:26.593 D/KeyguardViewManager(  906): unregister p-sensor
+10-17 11:32:26.593 D/KeyguardHostView(  906): ======== Broadcast Cancel ACTION_KEYGUARD_TO_DISMISS as onScreenTurnedOff
+10-17 11:32:26.633 D/KeyguardViewMediator(  906): handleReset
+10-17 11:32:26.633 D/KeyguardHostView(  906): onSaveInstanceState
+10-17 11:32:26.633 E/KeyguardHostView(  906): ### needForceRecreate : false, false
+10-17 11:32:26.633 D/KeyguardHostView(  906): onRestoreInstanceState
+10-17 11:32:26.633 D/KeyguardViewManager(  906): +++++++++ Broadcast ACTION_KEYGUARD_ON
+10-17 11:32:27.273 I/Choreographer(  906): Skipped 36 frames!  The application may be doing too much work on its main thread.
+10-17 11:32:30.103 V/KeyguardServiceDelegate(  767): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$28@41e90d40)
+10-17 11:32:30.103 D/KeyguardViewMediator(  906): onScreenTurnedOn, seq = 7
+10-17 11:32:30.103 D/KeyguardViewMediator(  906): handleNotifyScreenOn
+10-17 11:32:30.103 D/KeyguardViewManager(  906): onScreenTurnedOn()
+10-17 11:32:30.103 D/KeyguardViewManager(  906): register p-sensor
+10-17 11:32:30.123 D/KeyguardViewManager(  906): p-sensor state changed to far
+10-17 11:32:30.173 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:30.193 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:30.224 D/KeyguardViewMediator(  906): get isSecure state
+10-17 11:32:30.283 D/KeyguardViewMediator(  906): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x3000000
+10-17 11:32:30.283 V/KeyguardServiceDelegate(  767): **** SHOWN CALLED ****
+10-17 11:32:30.283 D/StatusBarManagerService(  767): manageDisableList userId=0 what=0x3000000 pkg=com.smartisanos.keyguard token:android.os.BinderProxy@41d264e0
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+10-17 11:32:40.293 I/Choreographer(  906): Skipped 64 frames!  The application may be doing too much work on its main thread.
+10-17 11:32:45.653 D/KeyguardViewMediator(  906): onScreenTurnedOff(3)
+10-17 11:32:45.673 D/KeyguardViewMediator(  906): notifyScreenOffLocked
+10-17 11:32:45.673 D/KeyguardViewMediator(  906): resetStateLocked
+10-17 11:32:45.773 D/KeyguardViewMediator(  906): handleNotifyScreenOff
+10-17 11:32:45.773 D/KeyguardViewManager(  906): onScreenTurnedOff()
+10-17 11:32:45.773 D/KeyguardViewManager(  906): unregister p-sensor
+10-17 11:32:45.773 D/KeyguardHostView(  906): ======== Broadcast Cancel ACTION_KEYGUARD_TO_DISMISS as onScreenTurnedOff
+10-17 11:32:45.863 D/KeyguardViewMediator(  906): handleReset
+10-17 11:32:45.863 D/KeyguardHostView(  906): onSaveInstanceState
+10-17 11:32:45.863 E/KeyguardHostView(  906): ### needForceRecreate : false, false
+10-17 11:32:45.863 D/KeyguardHostView(  906): onRestoreInstanceState
+10-17 11:32:45.863 D/KeyguardViewManager(  906): +++++++++ Broadcast ACTION_KEYGUARD_ON
+10-17 11:32:46.693 I/Choreographer(  906): Skipped 48 frames!  The application may be doing too much work on its main thread.

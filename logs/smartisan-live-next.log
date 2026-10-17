@@ -39777,7 +39777,7 @@
 10-16 18:55:54.008  3427  3427 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
 10-16 18:55:54.018  3427  3427 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (1) exceeded (dequeued=2 undequeudCount=0)
 10-16 18:55:54.018  3427  3427 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy
-10-16 18:55:54.018  3314  3314 D SettingsProvider: Generated and saved new ANDROID_ID [5eb2375a9c658379] for user 0
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
 10-16 18:55:54.028  3314  3314 I SystemServer: Lights Service
 10-16 18:55:54.037  3427  3427 E BufferQueue: [FramebufferSurface] dequeueBuffer: min undequeued buffer count (1) exceeded (dequeued=2 undequeudCount=0)
 10-16 18:55:54.037  3427  3427 W Adreno200-EGLSUB: <DequeueBuffer:420>: dequeue native buffer fail: Device or resource busy

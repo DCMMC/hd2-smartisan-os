@@ -1,0 +1,40 @@
+05-20 14:32:05.637 V/BackupManagerService(  805): Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+05-20 14:32:05.637 V/BackupManagerService(  805): Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41d6a080
+05-20 14:32:05.647 I/ActivityManager(  805): Start proc com.smartisanos.wallpaperprovider for content provider com.smartisanos.wallpaperprovider/.WallpaperProvider: pid=1525 uid=10048 gids={50048, 1028, 1015, 3003}
+05-20 14:32:05.777 W/PowerManagerNotifier(  805): policy turn screen on toooo slowly!
+05-20 14:32:05.867 D/NotificationService(  805): onReceive:android.intent.action.SCREEN_ON
+05-20 14:32:06.417 I/PackageManager(  805): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 14:32:06.677 I/PackageManager(  805): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 14:32:06.827 I/PackageManager(  805): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+05-20 14:32:06.877 I/PackageManager(  805): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+--------- beginning of /dev/log/main
+05-20 14:32:06.947 D/ImageLoader( 1525): Initialize ImageLoader with configuration
+05-20 14:32:07.037 I/KeyguardBackground( 1256): ## uri count = 40
+05-20 14:32:07.037 I/KeyguardBackground( 1256): ## wallpaperUri = android.resource://com.smartisanos.wallpapers/drawable/smartisan_lockscreen_25
+05-20 14:32:07.067 D/WallpaperProvider( 1525): uri:content://com.smartisanos.wallpaperprovider/wallpapers?contain_build_in_wallpapers=true
+05-20 14:32:07.117 I/KeyguardBackground( 1256): ## uri count = 40
+05-20 14:32:07.157 D/NotificationMgr( 1409): updateNotificationsAtStartup()...
+05-20 14:32:07.167 I/KeyguardBackground( 1256): ## wallpaperUri = android.resource://com.smartisanos.wallpapers/drawable/smartisan_lockscreen_25
+05-20 14:32:07.177 D/WallpaperProvider( 1525): uri:content://com.smartisanos.wallpaperprovider/wallpapers?contain_build_in_wallpapers=true
+05-20 14:32:07.227 D/NotificationMgr( 1409): - start call log query...
+05-20 14:32:07.277 D/BluetoothManagerService(  805): Message: 20
+05-20 14:32:07.277 D/BluetoothManagerService(  805): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41ec31f8:true
+05-20 14:32:07.307 D/PhoneApp( 1409): onCreate: mUpdateLock: android.os.UpdateLock@41a53538
+05-20 14:32:07.327 D/CallController( 1409): CallController constructor: app = com.android.phone.PhoneGlobals@41a23be0
+05-20 14:32:07.327 D/CallerInfoCache( 1409): init()
+05-20 14:32:07.327 D/CallerInfoCache( 1409): startAsyncCache
+05-20 14:32:07.347 D/CallerInfoCache( 1409): setRepeatingCacheUpdateAlarm
+05-20 14:32:07.377 I/KeyguardBackground( 1256): ## uri count = 40
+05-20 14:32:07.447 D/CallStateMonitor( 1409): Adding Handler: Handler (com.android.phone.CallModeler) {419f7458}
+05-20 14:32:07.457 I/ActivityManager(  805): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1557 uid=10019 gids={50019, 3003, 1028, 1015}
+05-20 14:32:07.607 D/BluetoothManagerService(  805): Message: 30
+05-20 14:32:07.657 D/CallHandlerServiceProxy( 1409): init CallHandlerServiceProxy
+05-20 14:32:07.707 D/CallHandlerServiceProxy( 1409): onAudioModeChange
+05-20 14:32:07.707 D/CallHandlerServiceProxy( 1409): CallHandlerService not conneccted. Skipping onAudioModeChange().
+05-20 14:32:07.707 D/CallHandlerServiceProxy( 1409): onSupportedAudioModeChange
+05-20 14:32:07.707 D/CallHandlerServiceProxy( 1409): CallHandlerService not conneccted. SkippingonSupportedAudioModeChange().
+05-20 14:32:07.707 D/PhoneInterfaceManager( 1409): [PhoneIntfMgr] publish: com.android.phone.PhoneInterfaceManager@41a69bd8
+05-20 14:32:07.737 D/CallStateMonitor( 1409): Adding Handler: Handler (com.android.phone.CallNotifier) {41a6a800}
+05-20 14:32:07.887 I/CallNotifier( 1409): CallNotifier: mSignalInfoToneGenerator created when toneplay
+05-20 14:32:07.887 D/BluetoothManagerService(  805): Message: 30
+05-20 14:32:08.157 D/dalvikvm( 1458): DexOpt: load 669ms, verify+opt 5207ms, 1204276 bytes

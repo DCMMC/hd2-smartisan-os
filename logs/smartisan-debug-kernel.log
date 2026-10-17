@@ -303,7 +303,7 @@
 <6>[    3.574401] /proc/fast_charge created
 <6>[    3.574493] [ds2746_batt] ds2746_battery_prob
 <4>[    3.574829] [D:BATT]Use 600 Kohm thermal resistance
-<6>[    3.575531] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+<6>[    3.575531] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: <EMAIL-REDACTED>
 <6>[    3.575653] Bluetooth: HCI UART driver ver 2.2
 <6>[    3.575683] Bluetooth: HCI H4 protocol initialized
 <6>[    3.575714] Bluetooth: HCILL protocol initialized
@@ -415,7 +415,7 @@
 <4>[    5.804931] msm_rmnet: module license 'unspecified' taints kernel.
 <4>[    5.804992] Disabling lock debugging due to kernel taint
 <6>[    6.046112] tun: Universal TUN/TAP device driver, 1.6
-<6>[    6.046173] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    6.046173] tun: (C) 1999-2004 Max Krasnyansky <<EMAIL-REDACTED>>
 <6>[    6.079315] warning: `rild' uses 32-bit capabilities (legacy support in use)
 <6>[    6.105957] fuse init (API version 7.13)
 <6>[    6.294311] SMD: ch 0 0 -> 1

@@ -1,38 +1,38 @@
 --------- beginning of /dev/log/main
-05-20 00:00:46.688  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@android.policy.jar@classes.dex)
+05-20 00:00:46.688  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:46.708  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'android.policy.jar' (bootstrap=1) ---
 05-20 00:00:46.918  9901  9901 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:00:47.288  9901  9901 D dalvikvm: DexOpt: load 59ms, verify+opt 436ms, 928812 bytes
 05-20 00:00:47.338  9882  9882 D dalvikvm: DexOpt: --- END 'android.policy.jar' (success) ---
 05-20 00:00:47.338  9882  9882 D dalvikvm: DEX prep '/system/framework/android.policy.jar': unzip in 23ms, rewrite 623ms
-05-20 00:00:47.338  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:47.338  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@services.jar@classes.dex)
+05-20 00:00:47.338  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:47.338  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:47.539  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'services.jar' (bootstrap=1) ---
 05-20 00:00:47.948  9902  9902 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:00:51.078  9902  9902 D dalvikvm: DexOpt: load 198ms, verify+opt 3020ms, 2840108 bytes
 05-20 00:00:51.559  9882  9882 D dalvikvm: DexOpt: --- END 'services.jar' (success) ---
 05-20 00:00:51.559  9882  9882 D dalvikvm: DEX prep '/system/framework/services.jar': unzip in 200ms, rewrite 4020ms
-05-20 00:00:51.578  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:51.578  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@apache-xml.jar@classes.dex)
+05-20 00:00:51.578  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:51.578  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:51.678  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'apache-xml.jar' (bootstrap=1) ---
 05-20 00:00:52.608  9903  9903 D dalvikvm: DexOpt: load 88ms, verify+opt 700ms, 837444 bytes
 05-20 00:00:52.858  9882  9882 D dalvikvm: DexOpt: --- END 'apache-xml.jar' (success) ---
 05-20 00:00:52.858  9882  9882 D dalvikvm: DEX prep '/system/framework/apache-xml.jar': unzip in 83ms, rewrite 1183ms
-05-20 00:00:52.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:52.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@webviewchromium.jar@classes.dex)
+05-20 00:00:52.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:52.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:52.899  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'webviewchromium.jar' (bootstrap=1) ---
 05-20 00:00:53.608  9904  9904 D dalvikvm: DexOpt: load 96ms, verify+opt 486ms, 1368612 bytes
 05-20 00:00:53.858  9882  9882 D dalvikvm: DexOpt: --- END 'webviewchromium.jar' (success) ---
 05-20 00:00:53.858  9882  9882 D dalvikvm: DEX prep '/system/framework/webviewchromium.jar': unzip in 39ms, rewrite 952ms
-05-20 00:00:53.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:53.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@telephony-msim.jar@classes.dex)
+05-20 00:00:53.858  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:53.858  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:53.869  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'telephony-msim.jar' (bootstrap=1) ---
 05-20 00:00:54.018  9905  9905 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:00:54.118  9905  9905 D dalvikvm: DexOpt: load 43ms, verify+opt 133ms, 587188 bytes
 05-20 00:00:54.158  9882  9882 D dalvikvm: DexOpt: --- END 'telephony-msim.jar' (success) ---
 05-20 00:00:54.158  9882  9882 D dalvikvm: DEX prep '/system/framework/telephony-msim.jar': unzip in 9ms, rewrite 288ms
-05-20 00:00:54.158  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:54.158  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@smartisanos.jar@classes.dex)
+05-20 00:00:54.158  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:54.158  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:54.178  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'smartisanos.jar' (bootstrap=1) ---
 05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$anim;' has an earlier definition; blocking out
 05-20 00:00:54.258  9906  9906 D dalvikvm: DexOpt: 'Lcom/smartisanos/internal/R$array;' has an earlier definition; blocking out
@@ -73,26 +73,26 @@
 05-20 00:00:54.658  9906  9906 D dalvikvm: DexOpt: load 169ms, verify+opt 234ms, 810668 bytes
 05-20 00:00:54.798  9882  9882 D dalvikvm: DexOpt: --- END 'smartisanos.jar' (success) ---
 05-20 00:00:54.798  9882  9882 D dalvikvm: DEX prep '/system/framework/smartisanos.jar': unzip in 18ms, rewrite 618ms
-05-20 00:00:54.798  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:54.798  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@qcmediaplayer.jar@classes.dex)
+05-20 00:00:54.798  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:54.798  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:54.798  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'qcmediaplayer.jar' (bootstrap=1) ---
 05-20 00:00:54.878  9907  9907 D dalvikvm: DexOpt: load 10ms, verify+opt 9ms, 136180 bytes
 05-20 00:00:54.898  9882  9882 D dalvikvm: DexOpt: --- END 'qcmediaplayer.jar' (success) ---
 05-20 00:00:54.898  9882  9882 D dalvikvm: DEX prep '/system/framework/qcmediaplayer.jar': unzip in 0ms, rewrite 105ms
-05-20 00:00:54.908  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:54.908  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@WfdCommon.jar@classes.dex)
+05-20 00:00:54.908  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:54.908  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:54.908  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'WfdCommon.jar' (bootstrap=1) ---
 05-20 00:00:55.018  9908  9908 D dalvikvm: DexOpt: load 12ms, verify+opt 32ms, 176412 bytes
 05-20 00:00:55.128  9882  9882 D dalvikvm: DexOpt: --- END 'WfdCommon.jar' (success) ---
 05-20 00:00:55.128  9882  9882 D dalvikvm: DEX prep '/system/framework/WfdCommon.jar': unzip in 2ms, rewrite 223ms
-05-20 00:00:55.128  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:55.128  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@oem-services.jar@classes.dex)
+05-20 00:00:55.128  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:55.128  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:55.128  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'oem-services.jar' (bootstrap=1) ---
 05-20 00:00:55.218  9909  9909 D dalvikvm: DexOpt: load 9ms, verify+opt 1ms, 85324 bytes
 05-20 00:00:55.228  9882  9882 D dalvikvm: DexOpt: --- END 'oem-services.jar' (success) ---
 05-20 00:00:55.228  9882  9882 D dalvikvm: DEX prep '/system/framework/oem-services.jar': unzip in 0ms, rewrite 100ms
-05-20 00:00:55.238  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:00:55.238  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@framework@org.codeaurora.Performance.jar@classes.dex)
+05-20 00:00:55.238  9882  9882 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:00:55.238  9882  9882 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:00:55.238  9882  9882 D dalvikvm: DexOpt: --- BEGIN 'org.codeaurora.Performance.jar' (bootstrap=1) ---
 05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: 'Lorg/codeaurora/Performance;' has an earlier definition; blocking out
 05-20 00:00:55.318  9910  9910 D dalvikvm: DexOpt: 'Lorg/codeaurora/camera/QCFace;' has an earlier definition; blocking out
@@ -181,176 +181,176 @@
 05-20 00:01:04.058  9941  9954 D SensorService: nuSensorService thread starting...
 05-20 00:01:04.058   101   101 I installd: new connection
 05-20 00:01:04.259   103   103 D AK8973  : Compass CLOSE 
-05-20 00:01:05.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:05.818 10045 10045 D dalvikvm: DexOpt: load 11ms, verify+opt 34ms, 136260 bytes
-05-20 00:01:05.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:05.918 10046 10046 D dalvikvm: DexOpt: load 6ms, verify+opt 8ms, 121860 bytes
-05-20 00:01:05.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:05.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.008 10047 10047 D dalvikvm: DexOpt: load 8ms, verify+opt 3ms, 109652 bytes
-05-20 00:01:06.089  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.089  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.188 10048 10048 D dalvikvm: DexOpt: load 12ms, verify+opt 21ms, 147972 bytes
-05-20 00:01:06.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.488 10049 10049 D dalvikvm: DexOpt: load 33ms, verify+opt 148ms, 539340 bytes
-05-20 00:01:06.609  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.609  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.708 10050 10050 D dalvikvm: DexOpt: load 11ms, verify+opt 24ms, 175524 bytes
-05-20 00:01:06.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.818 10051 10051 D dalvikvm: DexOpt: load 8ms, verify+opt 7ms, 127732 bytes
-05-20 00:01:06.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:06.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:06.918 10052 10052 D dalvikvm: DexOpt: load 7ms, verify+opt 6ms, 125924 bytes
-05-20 00:01:07.049  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.049  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:07.188 10055 10055 D dalvikvm: DexOpt: load 8ms, verify+opt 9ms, 144260 bytes
 05-20 00:01:07.218  9941  9941 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
-05-20 00:01:07.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:07.368 10058 10058 D dalvikvm: DexOpt: load 9ms, verify+opt 66ms, 217892 bytes
-05-20 00:01:07.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:07.498 10059 10059 D dalvikvm: DexOpt: load 11ms, verify+opt 11ms, 154812 bytes
-05-20 00:01:07.529  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.529  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:07.748 10060 10060 D dalvikvm: DexOpt: load 15ms, verify+opt 130ms, 410596 bytes
-05-20 00:01:07.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:07.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.108 10061 10061 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:08.138 10061 10061 D dalvikvm: DexOpt: load 13ms, verify+opt 178ms, 486756 bytes
-05-20 00:01:08.178  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.178  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.248 10062 10062 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:08.258 10062 10062 D dalvikvm: DexOpt: load 7ms, verify+opt 19ms, 161676 bytes
-05-20 00:01:08.288  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.288  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.508 10063 10063 D dalvikvm: DexOpt: load 15ms, verify+opt 126ms, 366452 bytes
-05-20 00:01:08.628  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.628  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.708 10064 10064 D dalvikvm: DexOpt: load 10ms, verify+opt 9ms, 142468 bytes
 05-20 00:01:08.729  9941  9941 I dalvikvm: Zip is good, but no classes.dex inside, and no .odex file in the same directory
-05-20 00:01:08.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.808 10065 10065 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:08.818 10065 10065 D dalvikvm: DexOpt: load 5ms, verify+opt 13ms, 142932 bytes
-05-20 00:01:08.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.838  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:08.918 10066 10066 D dalvikvm: DexOpt: load 5ms, verify+opt 12ms, 131388 bytes
-05-20 00:01:08.939  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:08.939  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.008 10067 10067 D dalvikvm: DexOpt: load 6ms, verify+opt 6ms, 111452 bytes
-05-20 00:01:09.028  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.028  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.108 10068 10068 D dalvikvm: DexOpt: load 6ms, verify+opt 11ms, 115092 bytes
-05-20 00:01:09.128  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.128  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.198 10069 10069 D dalvikvm: DexOpt: load 7ms, verify+opt 5ms, 108020 bytes
-05-20 00:01:09.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.438 10070 10070 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:09.458 10070 10070 D dalvikvm: DexOpt: load 5ms, verify+opt 42ms, 237108 bytes
-05-20 00:01:09.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.558 10071 10071 D dalvikvm: DexOpt: load 7ms, verify+opt 12ms, 135252 bytes
-05-20 00:01:09.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.708 10072 10072 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:09.788 10072 10072 D dalvikvm: DexOpt: load 13ms, verify+opt 93ms, 385052 bytes
-05-20 00:01:09.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:09.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:09.928 10073 10073 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:09.938 10073 10073 D dalvikvm: DexOpt: load 9ms, verify+opt 43ms, 230604 bytes
-05-20 00:01:10.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:10.118 10074 10074 D dalvikvm: DexOpt: load 8ms, verify+opt 5ms, 122692 bytes
-05-20 00:01:10.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:10.218 10075 10075 D dalvikvm: DexOpt: load 5ms, verify+opt 10ms, 113684 bytes
-05-20 00:01:10.238  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.238  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:10.368 10076 10076 D dalvikvm: DexOpt: load 51ms, verify+opt 16ms, 279940 bytes
-05-20 00:01:10.728  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:10.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:10.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:10.979  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.008  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.030  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.038  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.048  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.169  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.568  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.758  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.779  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.878  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.928  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:11.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.118  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.168  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.188  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.248  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.708  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.729  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:12.859  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.078  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:13.940  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.158  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.429  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:10.728  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:10.818  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:10.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:10.979  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.008  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.030  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.038  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.048  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.169  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.568  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.758  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.779  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.878  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.928  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:11.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.118  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.168  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.188  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.248  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.368  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.658  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.708  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.729  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:12.859  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.039  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.058  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.078  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.108  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.208  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.578  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.598  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:13.940  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.158  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.429  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:14.498  9941  9941 D skia    : --- SkImageDecoder::Factory returned null
-05-20 00:01:14.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.518  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.668  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.748  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:14.990  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.148  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.240  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.278  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.318  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.389  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.459  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.768  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.798  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.808  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.888  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.918  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.978  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.988  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:15.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:14.509  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.518  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.668  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.748  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:14.990  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.119  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.138  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.148  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.240  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.278  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.318  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.348  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.378  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.389  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.408  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.438  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.448  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.459  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.639  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.768  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.798  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.808  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.868  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.888  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.918  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.978  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.988  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:15.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:15.998  9941  9941 D PackageManager: No files in app dir /vendor/app
-05-20 00:01:16.399  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
-05-20 00:01:16.399  9941  9941 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@priv-app@SettingsProvider.apk@classes.dex)
+05-20 00:01:16.399  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
+05-20 00:01:16.399  9941  9941 D dalvikvm: ODEX file is stale or bad; removing and retrying (/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex)
 05-20 00:01:16.418  9941  9941 D dalvikvm: DexOpt: --- BEGIN 'SettingsProvider.apk' (bootstrap=0) ---
 05-20 00:01:16.748 10077 10077 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:16.768 10077 10077 D dalvikvm: DexOpt: load 13ms, verify+opt 85ms, 416212 bytes
@@ -423,13 +423,13 @@
 05-20 00:01:04.458  9941  9956 I AppOps  : No existing app ops config file /system/etc/package_ops_config.xml
 05-20 00:01:17.238  9941 10084 I InputReader: Reconfiguring input devices.  changes=0x00000004
 05-20 00:01:04.768  9941  9941 I IntentFirewall: Read new rules (A:0 B:0 S:0)
-05-20 00:01:17.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:17.268  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:04.788  9941  9941 I SystemServer: Display Manager
 05-20 00:01:17.268  9941  9941 I PackageManager: Running dexopt on: com.android.stk
 05-20 00:01:04.798  9941  9941 I SystemServer: Telephony Registry
 05-20 00:01:17.668 10085 10085 D dalvikvm: DexOpt: load 46ms, verify+opt 252ms, 478044 bytes
 05-20 00:01:04.808  9941  9955 I DisplayManagerService: Display device added: DisplayDeviceInfo{"内置屏幕": 480 x 800, 60.000004 fps, density 240, 254.0 x 254.0 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
-05-20 00:01:17.879  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:17.879  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:04.828  9941  9941 I SystemServer: Scheduling Policy
 05-20 00:01:17.879  9941  9941 I PackageManager: Running dexopt on: com.smartisan.sconf
 05-20 00:01:04.838  9941  9941 I SystemServer: Package Manager
@@ -437,13 +437,13 @@
 05-20 00:01:04.848  9941  9941 W PackageManager: No security bridge jar found, using default
 05-20 00:01:18.178 10087 10087 D dalvikvm: DexOpt: load 35ms, verify+opt 164ms, 420372 bytes
 05-20 00:01:05.218  9941  9941 W PackageManager: Couldn't find or open file /system/etc/install_bl.xml
-05-20 00:01:18.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:18.228  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:05.218  9941  9941 D SELinuxMMAC: Couldn't find install policy /data/security/mac_permissions.xml
 05-20 00:01:18.228  9941  9941 I PackageManager: Running dexopt on: com.android.providers.downloads
 05-20 00:01:05.218  9941  9941 D SELinuxMMAC: Using install policy file /system/etc/security/mac_permissions.xml
 05-20 00:01:18.598 10088 10088 D dalvikvm: DexOpt: load 39ms, verify+opt 198ms, 588204 bytes
 05-20 00:01:05.258  9941  9941 W PackageSettings: packages can't be read
-05-20 00:01:18.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:18.688  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:05.258  9941  9941 W PackageSettings: Got execption parsing active monitor.
 05-20 00:01:05.258  9941  9941 W PackageSettings: java.io.FileNotFoundException: /system/etc/active_monitor.xml: open failed: ENOENT (No such file or directory)
 05-20 00:01:05.258  9941  9941 W PackageSettings: 	at libcore.io.IoBridge.open(IoBridge.java:409)
@@ -470,7 +470,7 @@
 05-20 00:01:07.218  9941  9941 W PackageManager: Library not found: /system/framework/com.google.android.media.effects.jar
 05-20 00:01:22.228 10089 10089 D dalvikvm: DexOpt: load 655ms, verify+opt 2355ms, 3150364 bytes
 05-20 00:01:07.218  9941  9941 W PackageManager: Cannot dexopt /system/framework/cneapiclient.jar; is it an APK or JAR? /system/framework/cneapiclient.jar
-05-20 00:01:22.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:22.718  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:07.218  9941  9941 W PackageManager: Library not found: /system/framework/com.google.android.maps.jar
 05-20 00:01:22.718  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.clock
 05-20 00:01:07.518  9941  9941 W PackageManager: Library not found: /system/framework/org.cyanogenmod.hardware.jar
@@ -489,7 +489,7 @@
 05-20 00:01:08.729  9941  9941 W PackageManager: 	at dalvik.system.NativeStart.main(Native Method)
 05-20 00:01:24.308 10090 10090 D dalvikvm: DexOpt: load 338ms, verify+opt 959ms, 1792364 bytes
 05-20 00:01:10.398  9941  9941 I PackageManager: Replacing default ResolverActivity with custom activity: ComponentInfo{android/com.android.internal.app.ResolverActivity}
-05-20 00:01:24.508  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:24.508  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:12.118  9941  9941 W PackageManager: Skipping provider name com.android.badge (in package com.smartisanos.keyguard): name already used by com.smartisanos.launcher
 05-20 00:01:24.508  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.gamestore
 05-20 00:01:12.458  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeCyan.apk Binary XML file line #8
@@ -518,7 +518,7 @@
 05-20 00:01:15.398  9941  9941 I PackageParser: com.qualcomm.interfacepermissions: compat added android.permission.WRITE_EXTERNAL_STORAGE android.permission.READ_PHONE_STATE
 05-20 00:01:27.098 10096 10096 E android.os.Debug: failed to load memtrack module: -2
 05-20 00:01:15.529  9941  9941 W PackageParser: Unknown element under <manifest>: meta-data at /system/app/SmartisanOSThemeOrange.apk Binary XML file line #8
-05-20 00:01:27.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:27.218  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.008  9941  9941 I PackageManager: Time to scan packages: 10.301 seconds
 05-20 00:01:27.218  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.backup
 05-20 00:01:16.008  9941  9941 W PackageManager: Removing dangling permission: com.tmobile.permission.ACCESS_DRM_THEME from package null
@@ -534,19 +534,19 @@
 05-20 00:01:16.018  9941  9941 W PackageManager: Not granting permission android.permission.DEVICE_POWER to package com.android.contacts (protectionLevel=2 flags=0x4008be45)
 05-20 00:01:27.868 10103 10103 D dalvikvm: DexOpt: load 108ms, verify+opt 345ms, 733972 bytes
 05-20 00:01:16.018  9941  9941 W PackageManager: Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
-05-20 00:01:27.968  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:27.968  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
 05-20 00:01:27.968  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.music
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
 05-20 00:01:31.568 10107 10107 D dalvikvm: DexOpt: load 496ms, verify+opt 2412ms, 3309876 bytes
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
-05-20 00:01:32.528  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:32.528  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
 05-20 00:01:32.528  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.lightblue
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
 05-20 00:01:32.618 10108 10108 D dalvikvm: DexOpt: load 16ms, verify+opt 1ms, 124108 bytes
 05-20 00:01:16.028  9941  9941 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x4009be47)
-05-20 00:01:32.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:32.738  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.browser.permission.READ_HOMEPAGE in package com.android.browser
 05-20 00:01:32.738  9941  9941 I PackageManager: Running dexopt on: com.android.providers.media
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.browser.permission.WRITE_HOMEPAGE in package com.android.browser
@@ -554,7 +554,7 @@
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.launcher3.permission.READ_SETTINGS in package com.android.launcher3
 05-20 00:01:33.108 10109 10109 D dalvikvm: DexOpt: load 26ms, verify+opt 244ms, 560308 bytes
 05-20 00:01:16.028  9941  9941 W PackageManager: Unknown permission com.android.launcher3.permission.WRITE_SETTINGS in package com.android.launcher3
-05-20 00:01:33.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:33.139  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission android.permission.READ_SETTINGS in package com.android.camera2
 05-20 00:01:33.148  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.quicksearch
 05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.smartisanos.appstore.permission.ACCESS_PROVIDER in package com.smartisanos.appstore
@@ -562,7 +562,7 @@
 05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission android.permission.INSTALL_DRM in package com.android.mms
 05-20 00:01:33.858 10110 10110 D dalvikvm: DexOpt: load 212ms, verify+opt 331ms, 1081588 bytes
 05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
-05-20 00:01:33.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:33.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.038  9941  9941 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
 05-20 00:01:33.958  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.appstore
 05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.ACCESS_ALL_DOWNLOADS to package com.smartisanos.music (protectionLevel=2 flags=0x183e65)
@@ -570,7 +570,7 @@
 05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission android.permission.SYSTEM_OVERLAY_WINDOW in package com.smartisanos.music
 05-20 00:01:35.268 10111 10111 D dalvikvm: DexOpt: load 260ms, verify+opt 803ms, 1587156 bytes
 05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission android.permission.PREVENT_POWER_KEY in package com.android.gallery3d
-05-20 00:01:35.478  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:35.478  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
 05-20 00:01:35.478  9941  9941 I PackageManager: Running dexopt on: com.android.mms
 05-20 00:01:16.048  9941  9941 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.smartisanos.calculator (protectionLevel=18 flags=0x8be45)
@@ -578,7 +578,7 @@
 05-20 00:01:16.048  9941  9941 W PackageManager: Unknown permission com.smartisanos.launcher.permissions.READ_THEME in package com.smartisanos.launcher
 05-20 00:01:37.448 10112 10112 D dalvikvm: DexOpt: load 357ms, verify+opt 1305ms, 2103452 bytes
 05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission com.qti.permission.PROFILER in package com.smartisanos.launcher
-05-20 00:01:37.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:37.848  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission android.permission.ACCESS_4G_RADIO_DISABLE in package com.smartisanos.systemui
 05-20 00:01:37.848  9941  9941 I PackageManager: Running dexopt on: com.youdao.dict.smartisan
 05-20 00:01:16.058  9941  9941 W PackageManager: Unknown permission android.permission.ACCESS_4G_STATE in package com.smartisanos.systemui
@@ -598,7 +598,7 @@
 05-20 00:01:16.068  9941  9941 W PackageManager: Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.iflytek.speechsuite (protectionLevel=18 flags=0x83e45)
 05-20 00:01:39.098 10113 10113 D dalvikvm: DexOpt: load 236ms, verify+opt 747ms, 1426428 bytes
 05-20 00:01:16.068  9941  9941 W PackageManager: Not granting permission android.permission.READ_LOGS to package com.iflytek.speechsuite (protectionLevel=50 flags=0x83e45)
-05-20 00:01:39.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:39.488  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.068  9941  9941 W PackageManager: Unknown permission com.smartisan.permission.READ_NORMAL_ACCOUNT in package com.smartisanos.notes
 05-20 00:01:39.498  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.setupwizard
 05-20 00:01:16.078  9941  9941 W PackageManager: Unknown permission android.permission.RECOVERY in package com.smartisanos.updater
@@ -606,13 +606,13 @@
 05-20 00:01:16.078  9941  9941 W PackageManager: Unknown permission com.smartisanos.gamestore.permission.ACCESS_PROVIDER in package com.smartisanos.gamestore
 05-20 00:01:40.058 10119 10119 D dalvikvm: DexOpt: load 136ms, verify+opt 267ms, 826356 bytes
 05-20 00:01:16.338  9941  9941 I SystemServer: Entropy Mixer
-05-20 00:01:40.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:40.198  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.348  9941  9941 I EntropyMixer: Writing entropy...
 05-20 00:01:40.198  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.clay
 05-20 00:01:16.369  9941  9941 I SystemServer: User Service
 05-20 00:01:40.308 10120 10120 D dalvikvm: DexOpt: load 16ms, verify+opt 1ms, 124108 bytes
 05-20 00:01:16.369  9941  9941 I SystemServer: Account Manager
-05-20 00:01:40.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:40.329  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:16.388  9941  9941 I SystemServer: Content Manager
 05-20 00:01:40.329  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.notes
 05-20 00:01:16.388  9941  9941 I SystemServer: System Content Providers
@@ -725,47 +725,47 @@
 05-20 00:01:42.528 10121 10121 D dalvikvm: DexOpt: not verifying/optimizing 'Lorg/apache/commons/codec/net/URLCodec;': multiple definitions
 05-20 00:01:42.528 10121 10121 I dalvikvm: DexOpt: not resolving ambiguous class 'Lorg/apache/commons/codec/DecoderException;'
 05-20 00:01:42.748 10121 10121 D dalvikvm: DexOpt: load 434ms, verify+opt 1556ms, 2484564 bytes
-05-20 00:01:43.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:43.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:43.308  9941  9941 I PackageManager: Running dexopt on: com.android.backupconfirm
 05-20 00:01:43.448 10122 10122 D dalvikvm: DexOpt: load 21ms, verify+opt 45ms, 236148 bytes
-05-20 00:01:43.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:43.468  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:43.468  9941  9941 I PackageManager: Running dexopt on: com.smartisan.crashreport
 05-20 00:01:45.288 10123 10123 D dalvikvm: DexOpt: load 248ms, verify+opt 1117ms, 1935708 bytes
-05-20 00:01:45.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:45.739  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:45.739  9941  9941 I PackageManager: Running dexopt on: com.android.camera2
 05-20 00:01:49.398 10130 10130 D dalvikvm: DexOpt: load 567ms, verify+opt 2337ms, 3859364 bytes
-05-20 00:01:49.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:49.938  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:49.938  9941  9941 I PackageManager: Running dexopt on: com.android.providers.calendar
 05-20 00:01:50.408 10131 10131 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
 05-20 00:01:50.498 10131 10131 D dalvikvm: DexOpt: load 42ms, verify+opt 368ms, 645308 bytes
-05-20 00:01:50.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.588  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:50.588  9941  9941 I PackageManager: Running dexopt on: com.android.location.fused
 05-20 00:01:50.668 10132 10132 D dalvikvm: DexOpt: load 9ms, verify+opt 10ms, 150532 bytes
-05-20 00:01:50.698  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.698  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:50.698  9941  9941 I PackageManager: Running dexopt on: com.android.vpndialogs
 05-20 00:01:50.878 10133 10133 D dalvikvm: DexOpt: load 15ms, verify+opt 96ms, 294492 bytes
-05-20 00:01:50.898  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.898  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:50.898  9941  9941 I PackageManager: Running dexopt on: com.qualcomm.shutdownlistner
 05-20 00:01:50.968 10134 10134 D dalvikvm: DexOpt: load 5ms, verify+opt 0ms, 85668 bytes
-05-20 00:01:50.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:50.998  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:50.998  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.sara
 05-20 00:01:52.218 10135 10135 D dalvikvm: DexOpt: load 143ms, verify+opt 844ms, 1340876 bytes
-05-20 00:01:52.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:52.388  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:52.388  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.powersaving.launcher
 05-20 00:01:53.198 10136 10136 D dalvikvm: DexOpt: load 136ms, verify+opt 462ms, 1079548 bytes
-05-20 00:01:53.338  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.338  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:53.338  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.cleaner
 05-20 00:01:53.798 10137 10137 D dalvikvm: DexOpt: load 159ms, verify+opt 203ms, 702540 bytes
-05-20 00:01:53.829  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.829  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:53.838  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.launcher.theme.darkwood
 05-20 00:01:53.908 10138 10138 D dalvikvm: DexOpt: load 16ms, verify+opt 2ms, 124108 bytes
-05-20 00:01:53.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:53.958  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:53.958  9941  9941 I PackageManager: Running dexopt on: com.svox.pico
 05-20 00:01:54.168 10141 10141 D dalvikvm: DexOpt: load 51ms, verify+opt 37ms, 226332 bytes
-05-20 00:01:54.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:54.308  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:54.308  9941  9941 I PackageManager: Running dexopt on: com.android.providers.userdictionary
 05-20 00:01:54.458 10152 10152 D dalvikvm: DexOpt: load 8ms, verify+opt 16ms, 173412 bytes
-05-20 00:01:54.538  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@framework@core.jar@classes.dex'
+05-20 00:01:54.538  9941  9941 I dalvikvm: DexOpt: mismatch dep signature for '/data/dalvik-cache/system@<EMAIL-REDACTED>@classes.dex'
 05-20 00:01:54.538  9941  9941 I PackageManager: Running dexopt on: com.smartisanos.security
 05-20 00:03:32.637  9183  9183 I SystemServer: Init Watchdog
 05-20 00:03:32.647  9183  9183 I SystemServer: Input Manager

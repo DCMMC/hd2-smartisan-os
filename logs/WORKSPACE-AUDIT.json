@@ -1,0 +1,511 @@
+{
+  "scope": "public text diagnostics recovered from the original HD2 porting workspace",
+  "added": [
+    {
+      "path": "logs/device-wifi-current.txt",
+      "bytes": 17318,
+      "sha256": "d6349042aac62d20f0e806c4a17b5ad31ce3d82c92837dbdb14d671c3207a1ff",
+      "redacted": true
+    },
+    {
+      "path": "logs/icon-flip-v10/close.log",
+      "bytes": 4190,
+      "sha256": "bdc60343f39654434b2faff242d603b6d1f32c390b061578acfe95488bfdb5c5",
+      "redacted": false
+    },
+    {
+      "path": "logs/icon-flip-v10/open-cold.log",
+      "bytes": 10836,
+      "sha256": "2ed608443cf28fd4123c00f1741d7927116347b73910646623eb0fe9f00b79d4",
+      "redacted": false
+    },
+    {
+      "path": "logs/icon-flip-v10/open-warm.log",
+      "bytes": 6425,
+      "sha256": "5eae73265f5a23217a0306233e5b658f9a54e894e0d2e35a75ce8f66ce7d63a0",
+      "redacted": false
+    },
+    {
+      "path": "logs/icon-flip-v10/unlock.log",
+      "bytes": 4792,
+      "sha256": "4e15320e66859603dea3f63d15abb58fc26a3972571ef3799f8a2a35beea2a2a",
+      "redacted": false
+    },
+    {
+      "path": "logs/keyguard-launcher-debug-unlock.log",
+      "bytes": 7741,
+      "sha256": "72fbf6e96586874d01ab3f1ea3ac61feb0b1eb4b1bcfd9d804355bea247253ac",
+      "redacted": false
+    },
+    {
+      "path": "logs/keyguard-v3-launcher-v7-first-unlock.log",
+      "bytes": 21621,
+      "sha256": "190a7cf449a518f815b22c90d2337be2b52a9b51e7296da7c356a6d6e6a3d475",
+      "redacted": false
+    },
+    {
+      "path": "logs/keyguard-v3-unlock-main-test.log",
+      "bytes": 9565,
+      "sha256": "abcdde45a19f888d07a945ec6c40f080aab1cd6a9546a63d73ff07689aa22f1f",
+      "redacted": false
+    },
+    {
+      "path": "logs/keyguard-v3-unlock-test.log",
+      "bytes": 6920,
+      "sha256": "ce890801d5cc34aad8eeb3fde21bfa5f81ad53f2764d3937f9dea49a8b6a5882",
+      "redacted": false
+    },
+    {
+      "path": "logs/launcher-v6-app-open-test.log",
+      "bytes": 8522,
+      "sha256": "ef8db7c05a3fbc925aeb82fc92765dba6b8693ad3e8f2470415079c00d792b32",
+      "redacted": false
+    },
+    {
+      "path": "logs/launcher-v6-no-flip-app-open-cold-test.log",
+      "bytes": 13128,
+      "sha256": "f8724b216dcf9d6a27ae6f29c9323a5603ec64b723469d29cfc49b18bbfacdc6",
+      "redacted": false
+    },
+    {
+      "path": "logs/launcher-v6-no-flip-app-open-test.log",
+      "bytes": 7146,
+      "sha256": "6d261b43143f231f43037a1b6e07dc3e223d13169fe510cc8ba9c4cab0f92036",
+      "redacted": false
+    },
+    {
+      "path": "logs/launcher-v6-no-flip-reboot-cold-test.log",
+      "bytes": 27302,
+      "sha256": "d07de81487aa224042640ef83e45e7f1aac3b045cf3e20a970185e6c7d333269",
+      "redacted": true
+    },
+    {
+      "path": "logs/lockscreen-current/gfxinfo.txt",
+      "bytes": 1917,
+      "sha256": "b7c69726e28ca27ac110543f7e33059f29f35a95bdc63c21f4f5227f13eec3d8",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-current/logcat-filtered.txt",
+      "bytes": 8578,
+      "sha256": "7980dcba07b020c66b6fb4f8f79d110ef91e1069a003ae9c058a4c326be9a53e",
+      "redacted": true
+    },
+    {
+      "path": "logs/lockscreen-current/surfaceflinger.txt",
+      "bytes": 14739,
+      "sha256": "b2c59ce6012284a700b9b7776521398ecb645071c4b65be69d51065a54bade53",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-final-v5/fb-info.txt",
+      "bytes": 100,
+      "sha256": "f2c664ccc5a93a06e38f2920732a50ca8b5b79067ed88e3f02507d36b942d37e",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-final-v9/fb-info.txt",
+      "bytes": 100,
+      "sha256": "5dbbac6e10eed97627613c526e46a1156ea20e77a6c25d0168535371701529c4",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-v1/gfxinfo.txt",
+      "bytes": 1623,
+      "sha256": "4d3a6f58b46fb3552b754e233cf6d6899a4a79d45538c92234be27419c6d8b9f",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-v1/logcat.txt",
+      "bytes": 23551,
+      "sha256": "6c68a9f69ca845e38a8ab3423d80d19adf790cdf436374d1b8c2e047b17ce4b1",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-v7-current/fb-info.txt",
+      "bytes": 110,
+      "sha256": "c72cf9f1c3c7cc8e8b7d0b7c4a76b22b1f85ed1aaeb1b8c9879f8bfaa63e1332",
+      "redacted": false
+    },
+    {
+      "path": "logs/lockscreen-v9-test/fb-info.txt",
+      "bytes": 100,
+      "sha256": "d13af228950a5e7b4ed11361594ea4a51128f00f1938fe8a5c8185a7e49eeaac",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-app-open-flip-on.txt",
+      "bytes": 96,
+      "sha256": "9018b8921a197756094fe8138753f7680e161dd47da5e307d70e6f4d907a2f27",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-app-open-flip-quiet-first.txt",
+      "bytes": 771,
+      "sha256": "8547bcbf4570c6c87ecca27bad3f9b2f99e7496a1954a74e319d3c9e340a5364",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-app-open-flip-quiet-real-first.txt",
+      "bytes": 866,
+      "sha256": "36532debe8b2485c181781171ec4efe6757eb86e647ec7e52e2ab43e2c000288",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-cell-open-flip-on.txt",
+      "bytes": 804,
+      "sha256": "01bccff02bbeb5e18f51c807919af0e915b671d73ae762e7ff00215fa2f42561",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-cell-open-flip-quiet-first.txt",
+      "bytes": 771,
+      "sha256": "8547bcbf4570c6c87ecca27bad3f9b2f99e7496a1954a74e319d3c9e340a5364",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-cell-open-flip-quiet-real-first.txt",
+      "bytes": 771,
+      "sha256": "8547bcbf4570c6c87ecca27bad3f9b2f99e7496a1954a74e319d3c9e340a5364",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/launcher-page-swipe-720p-quiet.txt",
+      "bytes": 771,
+      "sha256": "8547bcbf4570c6c87ecca27bad3f9b2f99e7496a1954a74e319d3c9e340a5364",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-panel-open-idlewarm.txt",
+      "bytes": 1071,
+      "sha256": "493c0bfae43b96101bedb4e9f1c928b573591bf74717680251a613ab561fd363",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-panel-open-lean-v5-stable.txt",
+      "bytes": 1101,
+      "sha256": "e8b8f7b2a362dc10c1388ab97a0ed15acc6033d6ab1e6c88caae6390fede44cd",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-panel-open-lean-v5.txt",
+      "bytes": 1191,
+      "sha256": "deeaeda1a36015266a2b24e188d8c0437f320a29d337b2eb830d32d9256edde6",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab--persistent.txt",
+      "bytes": 981,
+      "sha256": "28f3d1aefef91ce9d2c9236d6c4d5732708b13814100c5c89f1088404ae661f4",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-idlewarm-1.txt",
+      "bytes": 1071,
+      "sha256": "b2b3280cd611185e5a4a74f99561499be419c2bdedd0afa233f342775f8f2dde",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-idlewarm-2.txt",
+      "bytes": 1011,
+      "sha256": "574abd35e54eea604207ae5ebb2bd24923e759d45162a33a36995f27e3160523",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-lean-v5-stable.txt",
+      "bytes": 1431,
+      "sha256": "b5e42160ffff1e7262478895d565a8de137e9a8ada29c78937524aec0ee8d64c",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-lean-v5.txt",
+      "bytes": 1161,
+      "sha256": "6507a7d888d1b89896b64779782476f1f5f9e8c8a1ae98ba79b14a29c35f1fcb",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-nobuild-stable.txt",
+      "bytes": 1761,
+      "sha256": "84ff4908b66eedecd772398d69bb48c6b25a4689b5a0637365069682a4538166",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-notification-nobuild.txt",
+      "bytes": 936,
+      "sha256": "5a2334f6061373fadcf3b054ef052901bef3f7bf42e5417cfa0e8874c612f50b",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-idlewarm-1.txt",
+      "bytes": 1071,
+      "sha256": "8de9fc90746e3c6709b6a697011259f0a5264157e12808ce0ddb450d245ef30e",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-idlewarm-2.txt",
+      "bytes": 1011,
+      "sha256": "7875a40e877afb18693b0229d99762a83034185856c166268b17b284fb003997",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-lean-v5-stable.txt",
+      "bytes": 1398,
+      "sha256": "6e5db99d806aa9ded14ddd92f52bd83c14c9f249ec22a2a33e2c3ca59c31d6eb",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-lean-v5.txt",
+      "bytes": 1071,
+      "sha256": "ec498cf363aff760c518a3e0aa298ef381f478cbfed38222b3c5641e5a51a30a",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-nobuild-stable.txt",
+      "bytes": 1596,
+      "sha256": "908ca1b69a1072de188496c91f7dc836c07a9a2b740ee1c4ae7a4ac81a7e2bd7",
+      "redacted": false
+    },
+    {
+      "path": "logs/perf/systemui-tab-widget-nobuild.txt",
+      "bytes": 1398,
+      "sha256": "53b56dee3b553739174be1f000cad6d05fb8f20121868d1931c6a372aedda79b",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/dmesg.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/early-boot.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/identity.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/journal.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/logcat.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/mounts.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/processes.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/properties.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171437-522049/systemd.txt",
+      "bytes": 41,
+      "sha256": "fba3809bc5ba11f3a961838dfc4fa88e9bcd0e2d31b52362ed29d414b7bf6e7c",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/dmesg.txt",
+      "bytes": 35263,
+      "sha256": "dd92bfcf9b7f1f9daa35767cb3de484ea4de527eb87704f13adc5d50a1d68e16",
+      "redacted": true
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/early-boot.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/identity.txt",
+      "bytes": 144,
+      "sha256": "4b67e77d44a02f4a217049bc4040adc2bec6f703d7b9b610dbc6289d7695c8d6",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/journal.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/logcat.txt",
+      "bytes": 785,
+      "sha256": "51a0ce483fe71c89664c4662f809e79cdacfe3fcf6bac5ed964504adc8dda12b",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/mounts.txt",
+      "bytes": 860,
+      "sha256": "00df05e208ecf3d0ced17db550086c247da9074aad25f19f5ead22108517745a",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/processes.txt",
+      "bytes": 5341,
+      "sha256": "3dd762159ff148a5e60f9bdc999730513e585e55a070d9b9d848d9592c84cf63",
+      "redacted": false
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/properties.txt",
+      "bytes": 6471,
+      "sha256": "cd26a5a13238baba0f38b7aed552827369e055ade739a9623ac98ff08d487308",
+      "redacted": true
+    },
+    {
+      "path": "logs/phone-boot-20261017-171500-101033/systemd.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-key-v1/logcat-filtered.txt",
+      "bytes": 2651,
+      "sha256": "ac1a4709de4b63078191c0fce3bfd434a266f806217c7d43ac5def4727480f91",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-key-v1/long-press.txt",
+      "bytes": 245,
+      "sha256": "c3f2c69691bfc6fd116ae6ba890b57b5e9a9df7fe2d055cdda4527090bd56945",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-key-v1/short-press.txt",
+      "bytes": 42,
+      "sha256": "8f506026a6a0f2afa63282d3c56e3837f3e0efd0c5a588485df0f185e86cde7d",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-key-v1/short-sleep.txt",
+      "bytes": 94,
+      "sha256": "56d2c154afc3ce3bfc699105c391e1406300b34c1cb1b5d6c57b031a67e0a130",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-key-v1/short-wake.txt",
+      "bytes": 96,
+      "sha256": "b944faa1d5aeca17eeb6f56a429f77c7bc8af2498a58996e3fae0b8c4889eced",
+      "redacted": false
+    },
+    {
+      "path": "logs/power-menu-final/fb-info.txt",
+      "bytes": 100,
+      "sha256": "d7c4bdcfe04e56e8c324b9dbcb3cdf0bba82be45fcf3eda407c64306c1b931c6",
+      "redacted": false
+    },
+    {
+      "path": "logs/smartisan-hardware-hotfix-v2.json",
+      "bytes": 1017,
+      "sha256": "90b8377502512156f950712951f8e8dadfd300d74cf846f5b754a801ad1a72e3",
+      "redacted": false
+    },
+    {
+      "path": "logs/smartisan-keyguard-patch.json",
+      "bytes": 4787,
+      "sha256": "bcbbd42c74e1647956f7e3c5013059db876fd83df191d9855579d403868e624e",
+      "redacted": false
+    },
+    {
+      "path": "logs/smartisan-policy-patch.json",
+      "bytes": 316,
+      "sha256": "611afd2183be62b14a60d43b1f6bd3d5ab3daf8e3ab004993f1458b7bd6772ec",
+      "redacted": false
+    },
+    {
+      "path": "logs/surfaceflinger-current.txt",
+      "bytes": 12202,
+      "sha256": "d3e03fa6cb31b111e0f3a871c4146eeec77160479b30e5a239535dfe600de553",
+      "redacted": false
+    },
+    {
+      "path": "logs/wifi-scan-parser-debug.log",
+      "bytes": 4384,
+      "sha256": "b4c033b7e7dc59818b869e6bcffa7887544991f50583196f8d8caf1881604b79",
+      "redacted": false
+    }
+  ],
+  "refreshed": [
+    {
+      "path": "logs/smartisan-after-storage.log",
+      "bytes": 3884596,
+      "sha256": "0e23fbf78b0a160d1fbd7e3ce8c63bbd82192bff19f227c144bc95cb09c91682",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-alpha1-device-dmesg.txt",
+      "bytes": 148224,
+      "sha256": "05bdddd9b48419d7671dbb407b271b24f0337866679b4418be8e9606add99187",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-alpha1-device-settings.txt",
+      "bytes": 8188,
+      "sha256": "8447c69ad9f8534d1a972a7f4a7a821a69399f894c8416a4b28ecc9a55fc5609",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-core-boot.log",
+      "bytes": 142275,
+      "sha256": "e53b824a7b7d54e64fa95a1a274672cfe3d10c5af795e086555a90aecd86e12f",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-debug-kernel.log",
+      "bytes": 79765,
+      "sha256": "671206ee577880d594eebd743cd6c029b8bfe8a931e3721bba492b765e1ee315",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-integrate-debugfs.log",
+      "bytes": 11789,
+      "sha256": "350857f60f340b1c3038d628f35d939d35fb59c71226754962a97d595f31ea29",
+      "redacted": false
+    },
+    {
+      "path": "logs/smartisan-live-next.log",
+      "bytes": 7404502,
+      "sha256": "e840383805d49cace60961840f24bdfb41a9d15a3f3eef1f6b806b901f585812",
+      "redacted": true
+    },
+    {
+      "path": "logs/smartisan-systemui-patch.json",
+      "bytes": 44193,
+      "sha256": "3316b09403a1a0a1ceb2be7bcade881353b3128ba3a238fa1be18c45b7eb2e31",
+      "redacted": false
+    },
+    {
+      "path": "logs/smartisan-tombstone-05.txt",
+      "bytes": 17608,
+      "sha256": "77cebd43dc28d62d3608f658391530053c3336f8517e5db778acc39343ce9b42",
+      "redacted": true
+    }
+  ],
+  "excluded": [
+    "donor ROMs, generated root filesystems and proprietary binary work trees",
+    "raw framebuffer dumps, transient UI XML and unselected intermediate screenshots",
+    "download-transfer logs and host release-publishing state",
+    "shared SD-card, Recovery and iOS partition repair records outside this OS port"
+  ]
+}
