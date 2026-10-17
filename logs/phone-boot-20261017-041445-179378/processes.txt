@@ -1,2 +1,0 @@
-  PID TTY          TIME CMD
-  575 pts/0    00:00:00 ps

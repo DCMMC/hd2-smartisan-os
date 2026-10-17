@@ -1,9 +1,0 @@
-{
-  "magic": "0xef53",
-  "state": "0x1",
-  "features_compat": "0x3c",
-  "features_incompat": "0x242",
-  "features_ro_compat": "0x7b",
-  "last_mounted": "/run/media/DCMMC/NativeSD",
-  "errors_recorded": 0
-}

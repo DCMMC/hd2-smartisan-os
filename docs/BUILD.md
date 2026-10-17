@@ -40,10 +40,10 @@ python3 tools/package_smartisan.py
 
 图标翻页由 `patch_smartisan_launcher.py` 与 `patch_smartisan_bluetooth.py` 配套生成，前者会根据 recipe、donor 和输出 SHA-256 复用已验证 APK，避免仅因 ZIP 时间戳产生不可复现的文件。集成后可用 `logs/smartisan-launcher-patch.json`、`smartisan-bluetooth-framework-patch.json` 和 `smartisan-compat-manifest.json` 核对配方与最终哈希。
 
-`package_smartisan.py` 使用 DEFLATE level 9 生成 alpha2 Release ZIP。发布的 alpha2 由当前镜像重新打包并通过完整 CRC 与 SHA-256 验证；旧的 Wi-Fi v5 之前的 ZIP 已隔离，不能发布。`package_transfer.py` 是原双系统传输工具；仅准备本项目 gzip 时可调用 `prepare('smartisan-alpha0/HD2-SM20')`。gzip 上传后在 Recovery 解压，压缩文件与解压镜像共存时需额外空间。Release ZIP 包含展开的 ext4 镜像，普通安装直接解压复制即可。
+`package_smartisan.py` 使用 DEFLATE level 9 生成 alpha2 Release ZIP。发布的 alpha2 由当前镜像重新打包并通过完整 CRC 与 SHA-256 验证；旧的 Wi-Fi v5 之前的 ZIP 已隔离，不能发布。Release ZIP 包含展开的 ext4 镜像，普通安装直接解压复制即可。
 
 ## 验证范围
 
 alpha2 镜像已通过 `e2fsck -fn`，并从 ext4 回读清单中的 25 个集成文件逐一核对 SHA-256，同时确认 10 个应删除路径均不存在；发布 ZIP 也通过完整 CRC 测试。`native_abi_report.py` 可用于寻找明显缺库，静态依赖通过不代表硬件可用。实机验证摘要见 `logs/smartisan-alpha2-hardware-validation.json`。
 
-`install_sd.py`、`resume_sd.py`、`recovery_sd.py` 等是本次特定 SD 卡的维护记录工具，含设备路径、身份校验和备份前提。它们不是通用安装器；普通用户按 README 复制目录即可。
+仓库只保留 Smartisan 移植的构建、调试和验证工具。普通用户按 README 复制目录即可，不需要执行分区或 Recovery 维护脚本。

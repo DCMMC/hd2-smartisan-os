@@ -12,12 +12,6 @@
     "commit": "b18e59ba9ab6d4c7aaa50358cae8614b1bad45a1"
   },
   {
-    "directory": "sources/hybris-boot",
-    "url": "https://github.com/mer-hybris/hybris-boot.git",
-    "branch": "hybris-10.1",
-    "commit": "193bb4b7a0c953bc1ed23d738dccea8b58d48b5d"
-  },
-  {
     "directory": "sources/toolchain-4.4.3",
     "url": "https://github.com/Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3.git",
     "branch": "kitkat",
@@ -36,30 +30,5 @@
     "bytes": 211084920,
     "upstream_md5": "96946ce3cf421700ec5830aff2c2ec8f",
     "sha256": "751af9a0a6159b615637d0468f69aeff1e43b87833d4811a6634d40824ffa689"
-  },
-  {
-    "directory": "sources/droid-config-2011xperia",
-    "url": "https://github.com/mlehtima/droid-config-2011xperia.git",
-    "commit": "ae305cde19237378f8ec76f914a248e7f6cc8c7b",
-    "use": "Reference source; binaries supplied by the archived Sailfish donor"
-  },
-  {
-    "directory": "sources/droid-hal-2011xperia",
-    "url": "https://github.com/mlehtima/droid-hal-2011xperia.git",
-    "commit": "a5e667cef8f132614d7ab1e9afebb5604939f432",
-    "use": "Reference source; binaries supplied by the archived Sailfish donor"
-  },
-  {
-    "directory": "sources/qt5-qpa-hwcomposer-plugin",
-    "url": "https://github.com/mer-hybris/qt5-qpa-hwcomposer-plugin.git",
-    "commit": "31f4f6506702bd872ac47305fc8f8d75f2bb047b",
-    "use": "Reference source; binaries supplied by the archived Sailfish donor"
-  },
-  {
-    "file": "downloads/sailfishos-anzu-2.0.1.11-alpha4.zip",
-    "url": "https://archive.org/download/oldsailfishosimages/sailfishimages.ruecker.fi/sfa/anzu/alpha4/sailfishos-anzu-release-2.0.1.11-alpha4.zip",
-    "bytes": 279436294,
-    "upstream_md5": "c8aecd57515f2b4979caa20a1abd6ac1",
-    "sha256": "ef11d23b14e85190767afc5528c4abfe953fd09425cb3d74df24415016d11f19"
   }
 ]

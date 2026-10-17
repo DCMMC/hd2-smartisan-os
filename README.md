@@ -66,4 +66,4 @@ Root ADB starts without an on-screen authorization prompt. Runtime logs rotate i
 - Standard Bluedroid startup without Smartisan's optional Qualcomm QAdapter service.
 - HD2 AOSP camera fallback, legacy GPS lifecycle handling, always-on ADB and RAM-backed runtime logging.
 
-The repository contains reproducible patch scripts, manifests, sanitized evidence and engineering notes. Proprietary system binaries are distributed only inside the ROM release archive. This is a binary adaptation rather than a full Smartisan source release; see [NOTICES.md](NOTICES.md) for attribution.
+The repository is scoped to the Smartisan port; companion Sailfish files and SD-card repair history are kept out. It contains reproducible patch scripts, manifests, sanitized evidence and engineering notes. Proprietary system binaries are distributed only inside the ROM release archive. This is a binary adaptation rather than a full Smartisan source release; see [NOTICES.md](NOTICES.md) for attribution.

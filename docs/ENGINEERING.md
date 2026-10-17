@@ -57,9 +57,3 @@ SensorService 枚举到 BMA150 加速度计、AK8973 磁场/方向、CM3602 距�
 ## 尚未验证和已知限制
 
 通话、蜂窝数据、室外 GPS fix、录像、休眠/唤醒、长期耗电和稳定性尚未验证。电量协议及旧电压单位仍不匹配。旧 GPU screencap/genlock 路径不能可靠读回相机的 hardware Surface，但这不影响上述 JPEG 拍摄验证。Qualcomm 私有缓冲结构以及 Android 4.4.1/4.4.2 的 JNI/Binder 兼容性只在已执行路径中得到验证。
-
-## SD 与 iOS 的共享调试记录
-
-首次大文件传输因 USB 中断留下 FAT 分配错误，已先备份再通过 Recovery 修复并使用压缩传输。旧 MIUI/MIUI23/AND5 的指定 FAT 镜像先校验备份后删除，保留 ext4 系统。
-
-iOS 的 `still wait for device` 排查发现第一分区的 MBR 类型为 0x07，而 XNU HD2 FAT 搜索接受 0x0B/0x0C。实机仅将第 450 字节改为 0x0C，回读证明分区边界和 WP7 数据未改变。实际 iOS 启动结果未确认。此项是该张卡的历史修复，不应在其他卡上盲目重做。证据见 `logs/ios-partition-repair.json`。

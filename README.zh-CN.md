@@ -66,4 +66,4 @@ root ADB 无需在屏幕确认。运行日志在内存中滚动并在重启时�
 - 跳过 Smartisan 专用 Qualcomm QAdapter，保留 HD2 标准 Bluedroid 路径。
 - HD2 AOSP 兼容相机、旧 GPS 生命周期修复、常开 ADB 和内存日志。
 
-仓库保留可复现补丁脚本、清单、脱敏证据和工程说明。专有系统二进制只放在 Release ROM 压缩包内。这是二进制移植，并非完整 Smartisan 源码发布；版权与来源见 [NOTICES.md](NOTICES.md)。
+仓库只保留锤子 OS 移植内容，不再混入 Sailfish 文件或 SD 卡修复记录。仓库保留可复现补丁脚本、清单、脱敏证据和工程说明。专有系统二进制只放在 Release ROM 压缩包内。这是二进制移植，并非完整 Smartisan 源码发布；版权与来源见 [NOTICES.md](NOTICES.md)。
