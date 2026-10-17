@@ -1,0 +1,8 @@
+{
+  "binder_input_sha256": "184299d69b3aba1b280f6c2f664eebff3000e235f05c2bab9313b89c5f7c88ca",
+  "binder_output_sha256": "184299d69b3aba1b280f6c2f664eebff3000e235f05c2bab9313b89c5f7c88ca",
+  "runtime_input_sha256": "317c7cd99919efedfe6a51bdda05298ea54e4d3432baffae8306eddc1c6a5d9b",
+  "runtime_output_sha256": "93183e20d0c439a02c4406c09371fd8a98be691566ecb656e60a29a683c83ed9",
+  "runtime_change": "ProcessState::self2() import mapped to ProcessState::self()",
+  "camera_change": "Restore HD2 MemoryHeapPmem implementation"
+}

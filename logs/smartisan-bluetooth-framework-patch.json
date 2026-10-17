@@ -1,0 +1,6 @@
+{
+  "recipe": "disable-qadapter-service-v2",
+  "source_sha256": "cd2adef6198e2c5f847d4d179f208fab505177f82846a188a1385bc66b8e116f",
+  "output_sha256": "62bbc9de1440520a651607d290231cc2e15034274db41b6d2f2f98f94ae5fcd0",
+  "change": "Keep the original signed Smartisan Bluetooth package and do not bind its optional Qualcomm QAdapter service; HD2 uses the standard Bluedroid adapter and profiles."
+}

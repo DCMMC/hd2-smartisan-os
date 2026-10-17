@@ -1,0 +1,7 @@
+{
+  "recipe": "aosp-camera2-clone-v1",
+  "source_sha256": "15aa2c0937901652b6fb438965c047de92a79c3b2551b54269f3cb049fcd00d8",
+  "output_sha256": "d8a686bb63fd2162c385a3ab4262ef131f5309b734dabd2a7b8da655581f5589",
+  "package": "org.hd2port.camera2",
+  "change": "Clone the NexusHD2 AOSP Camera2 package under a unique name; Smartisan Camera requests gralloc buffers unsupported by leo."
+}

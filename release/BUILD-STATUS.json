@@ -1,5 +1,5 @@
 {
-  "status": "alpha1 SD ROM: desktop geometry and substantially improved responsiveness confirmed by user; hardware and fresh cold boot still pending",
+  "status": "alpha2 SD ROM: normal boot plus Wi-Fi, Bluetooth, camera, sound/vibration and sensors validated on real HTC HD2",
   "base": "NexusHD2-KitKat-CM11.0_V4.0 (Android 4.4.1)",
   "donor": "Smartisan T1 2.0.0-2015091200 (Android 4.4.2)",
   "native_framework_libraries": [
@@ -157,9 +157,10 @@
     "libxml2.so"
   ],
   "unresolved_risks": [
-    "Qualcomm private buffer ABI beyond the exercised UI paths remains unverified",
-    "Android 4.4.1/4.4.2 JNI and Binder compatibility beyond the tested paths remains unverified",
-    "Calls, data, Wi-Fi, audio, camera, GPS, sensors and suspend not fully tested"
+    "Calls and mobile data have not been validated",
+    "GPS HAL and tracking start, but an outdoor satellite fix has not been validated",
+    "Suspend/resume, battery reporting and long-term stability remain unvalidated",
+    "Qualcomm private-buffer and Android 4.4.1/4.4.2 compatibility outside exercised paths may still fail"
   ],
   "usb_debug": {
     "adb": "always on, including early boot",
@@ -174,6 +175,8 @@
       "system/lib/libcutils.so": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6",
       "system/lib/libsurfaceflinger.so": "7591d88e78048e181fe50067a5b9dd33ebf91b173139b80c531fe64ac8501534",
       "system/lib/libcamera.so": "2a0b22a2fa0c5ee52d571e9925931d1c5bee1a3488963f30ce4588d9acc920e3",
+      "system/lib/libbinder.so": "184299d69b3aba1b280f6c2f664eebff3000e235f05c2bab9313b89c5f7c88ca",
+      "system/lib/libandroid_runtime.so": "93183e20d0c439a02c4406c09371fd8a98be691566ecb656e60a29a683c83ed9",
       "system/lib/libhwui.so": "37ccaabf61dc732ec77af6816d8ba26e60527e8835ef16e6eaf66ed85b2c1220",
       "system/lib/egl/eglsubAndroid.so": "1d3f4e8ee0a1b49f3911d27005f8278959f244636d68e34747bb62ab3011aa2c",
       "system/bin/app_process.hd2": "28ef0cb30dfc2743050e64bac6b35ff749149d908c82d05b019f2d7746b91848",
@@ -182,12 +185,20 @@
       "system/priv-app/LauncherSmartisanNew.apk": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
       "system/priv-app/SystemUISmartisan.apk": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
       "system/framework/core.jar": "0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989",
+      "system/framework/framework.jar": "0dc8152d9a1d78613470a7ad278f224547e2763063752b0b57fc727ae86d1513",
+      "system/framework/services.jar": "62bbc9de1440520a651607d290231cc2e15034274db41b6d2f2f98f94ae5fcd0",
+      "system/app/Bluetooth.apk": "200b90d7b93543fb651e87ac33867a7c7c36eb4868409d5ef0a3ede228a80d8a",
+      "system/lib/libbluetooth_jni.so": "65f92a4fd383b45d4a69b853f8ae385d14d332ce2120cb848bddba4d7341b536",
+      "system/app/HD2Camera.apk": "d8a686bb63fd2162c385a3ab4262ef131f5309b734dabd2a7b8da655581f5589",
       "system/build.prop": "87f93eeee46f1241c276ee7a4622e7cb5ece268cda33cf91b199e328cd1b5587",
+      "system/etc/wifi/wpa_supplicant.conf": "677da35810460158f1e2c5fe65638be0cc17ec6dfd0114624fa130a4a90ef2f6",
+      "system/media/bootanimation.zip": "3d9bce566a05e922267a40f28472c913826eaa6352de79442e713e403b59d1aa",
       "system/etc/gps.conf": "eab7ccbd874f88b253ae3d7aac5ddeda64c23a66ac80528f76b6c77fdf59c99b"
     },
     "removed": [
       "system/app/NfcNci.apk",
       "system/app/TimeService.apk",
+      "system/app/CameraSmartisan.apk",
       "system/app/qcrilmsgtunnel.apk",
       "system/etc/permissions/android.hardware.nfc.hce.xml",
       "system/etc/permissions/android.hardware.nfc.xml",
@@ -197,24 +208,24 @@
       "system/etc/permissions/android.hardware.wifi.direct.xml"
     ],
     "local_image_updated": true,
-    "device_evidence": "root ADB, SurfaceFlinger, Zygote, system_server, launcher process, boot-complete",
-    "user_evidence": "User confirms desktop size correct and substantially smoother interaction after quick-controls/JIT/zram/animation fixes",
+    "device_evidence": "Normal boot completed; Wi-Fi scans populate the framework; Bluetooth reaches ON; HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate with live accelerometer/magnetometer samples; GPS HAL and tracking thread start",
+    "user_evidence": "Desktop and quick-controls geometry confirmed; responsiveness substantially improved; sound and vibration confirmed working",
     "not_verified": [
       "calls",
-      "Wi-Fi",
-      "audio",
-      "camera"
+      "mobile data",
+      "outdoor GPS satellite fix",
+      "suspend/resume and long-term stability"
     ]
   },
-  "graphics_evidence": "Desktop 480x800 dimensions confirmed by user. Quick-controls 3-column/12-switch layout confirmed in framebuffer; GPU screenshot background path still has errors.",
+  "graphics_evidence": "Desktop and 3-column/12-switch quick-controls geometry confirmed at 480x800. Reduced 16 fps/32-frame boot animation and disabled nonessential transitions reduce load; normal reboot reached boot_completed at about 47 seconds and animation exited by about 62 seconds.",
   "remaining_runtime_issues": [
-    "Full hardware validation and fresh image cold boot pending",
-    "GPU screencap/genlock readback errors",
-    "Battery protocol mismatch and old voltage units; indication incorrect",
-    "RPC teardown crash workaround: GPS1_CLEANUP_ENABLED=0; long-term stability and actual GPS fixes unverified",
-    "Camera constructor import fixed; camera functionality unverified",
-    "Updated initramfs cold boot and Wi-Fi pending"
+    "Calls and mobile data are untested",
+    "GPS starts correctly but an outdoor satellite fix is untested",
+    "Suspend/resume and long-term battery drain are untested",
+    "Battery protocol/legacy voltage units can report inaccurate charge state",
+    "The bundled HD2 Camera replaces Smartisan Camera; video recording is not validated",
+    "GPU screencap/genlock readback can miss the camera preview Surface"
   ],
-  "user_feedback": "\u975e\u5e38\u597d\uff0c\u73b0\u5728\u6d41\u7545\u591a\u4e86",
-  "release_note": "Final session snapshot: system image unchanged; release documentation refreshed for publication."
+  "user_feedback": "Desktop and quick-controls layout are correct, interaction is much smoother, and sound/vibration work.",
+  "release_note": "alpha2 adds real-device Wi-Fi scanning, Bluetooth, AOSP camera capture, sensor and GPS-path fixes plus a lower-load boot animation."
 }

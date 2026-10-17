@@ -1,10 +1,15 @@
 {
-  "tag": "v2.0-hd2-alpha1",
+  "tag": "v2.0-hd2-alpha2",
   "assets": [
     {
-      "name": "hd2-smartisan-2.0-alpha1-SD.zip",
-      "bytes": 859101976,
-      "sha256": "9d9e3a18466a373189551b10e5bda0eb3660e8c7326e639fbe5f0f411490969a"
+      "name": "hd2-smartisan-2.0-alpha2-SD.zip",
+      "bytes": 849635424,
+      "sha256": "4da3bcf8faee93d23a1e315f6c55d9b23c895a8acd43c2d370e27f9a4c88ea61"
+    },
+    {
+      "name": "hd2-smartisan-2.0-alpha2-SD.zip.sha256",
+      "bytes": 98,
+      "sha256": "dfbb3c2f329253c7fd3ebe51c4731a6b821bfc09876b692d3110ce3e9fd5e0eb"
     }
   ],
   "experimental": true,

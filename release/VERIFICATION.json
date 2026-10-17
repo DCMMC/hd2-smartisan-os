@@ -1,13 +1,23 @@
 {
-  "files_verified_against_image": 16,
-  "ramdisk_runtime_service": true,
-  "ramdisk_adb_config": true,
-  "user_responsiveness_confirmed": true,
-  "zip": "out/hd2-smartisan-2.0-alpha1-SD.zip",
-  "bytes": 859101976,
-  "sha256": "9d9e3a18466a373189551b10e5bda0eb3660e8c7326e639fbe5f0f411490969a",
-  "device_settings_backup": "logs/smartisan-alpha1-device-settings.txt",
-  "previous_zip_sha256_before_documentation_refresh": "41d0979c9984faa8f1e6eb4877699b534be83c0a7c72dcf1a617061921fbc085",
+  "files_verified_against_ext4_image": 25,
+  "file_hash_mismatches": 0,
+  "ext4_e2fsck_read_only_passed": true,
+  "ramdisk_always_on_root_adb": true,
+  "ramdisk_single_wlan0_control_socket": true,
+  "normal_boot_completed_on_device": true,
+  "normal_boot_metrics_seconds": {
+    "adb_transport": 22,
+    "sys_boot_completed": 47,
+    "bootanimation_exit_range": [
+      57,
+      62
+    ]
+  },
+  "real_device_hardware_summary": "logs/smartisan-alpha2-hardware-validation.json",
+  "zip": "out/hd2-smartisan-2.0-alpha2-SD.zip",
+  "bytes": 849635424,
+  "sha256": "4da3bcf8faee93d23a1e315f6c55d9b23c895a8acd43c2d370e27f9a4c88ea61",
+  "rootfs_sha256": "377287ae4d5abbd7883e28dddffd5b5ecf18f955a998677987dd5d148b09547f",
   "zip_crc_passed": true,
-  "system_image_unchanged": true
+  "private_network_identifiers_in_published_validation_log": false
 }

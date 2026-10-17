@@ -16,15 +16,18 @@ BOOT = ROOT / 'out/smartisan-alpha0/HD2-SM20'
 
 
 def integrate(update_image=False):
-    for script in ['build_smartisan_compat.py', 'patch_vector_abi.py',
+    for script in ['build_smartisan_compat.py', 'build_hd2_camera_fallback.py', 'patch_vector_abi.py',
                    'patch_gralloc_abi.py', 'patch_smartisan_platform.py', 'patch_smartisan_launcher.py',
-                   'patch_smartisan_camera.py', 'patch_smartisan_core.py',
-                   'patch_smartisan_hwui.py', 'patch_smartisan_systemui.py']:
+                   'patch_smartisan_camera.py', 'patch_smartisan_binder.py',
+                   'patch_smartisan_bluetooth.py',
+                   'patch_smartisan_core.py',
+                   'patch_smartisan_hwui.py', 'patch_smartisan_systemui.py',
+                   'patch_smartisan_wifi.py']:
         subprocess.run([sys.executable, str(ROOT/'tools'/script)], check=True)
     mapping = {f'system/lib/{name}': ROOT/'work/smartisan-compat'/name
                for name in ['libhd2compat.so', 'libutils.so', 'libui.so',
                             'libcutils.so', 'libsurfaceflinger.so', 'libcamera.so',
-                            'libhwui.so']}
+                            'libbinder.so', 'libandroid_runtime.so', 'libhwui.so']}
     mapping['system/lib/egl/eglsubAndroid.so'] = ROOT/'work/smartisan-compat/eglsubAndroid.so'
     mapping['system/bin/app_process.hd2'] = ROOT/'work/smartisan-donor/system/bin/app_process'
     mapping['system/bin/app_process'] = ROOT/'configs/smartisan-compat/app_process'
@@ -32,6 +35,14 @@ def integrate(update_image=False):
     mapping['system/priv-app/LauncherSmartisanNew.apk'] = ROOT/'work/smartisan-compat/LauncherSmartisanNew.apk'
     mapping['system/priv-app/SystemUISmartisan.apk'] = ROOT/'work/smartisan-compat/SystemUISmartisan.apk'
     mapping['system/framework/core.jar'] = ROOT/'work/smartisan-compat/core.jar'
+    mapping['system/framework/framework.jar'] = ROOT/'work/smartisan-compat/framework.jar'
+    mapping['system/framework/services.jar'] = ROOT/'work/smartisan-compat/services.jar'
+    # PackageManager requires the original Smartisan platform signature.  The
+    # services patch above suppresses only the optional Qualcomm QAdapter path;
+    # the HD2 base JNI/HAL continue to provide the standard Bluedroid stack.
+    mapping['system/app/Bluetooth.apk'] = ROOT/'work/smartisan-donor/system/app/Bluetooth.apk'
+    mapping['system/lib/libbluetooth_jni.so'] = ROOT/'work/hd2-base/system/lib/libbluetooth_jni.so'
+    mapping['system/app/HD2Camera.apk'] = ROOT/'work/smartisan-compat/HD2Camera.apk'
     for name, source in mapping.items():
         shutil.copyfile(source, STAGE/name)
         (STAGE/name).chmod(0o755 if name.startswith('system/bin/') else 0o644)
@@ -43,6 +54,17 @@ def integrate(update_image=False):
              if s.partition('=')[0] not in overrides]
     props.write_text('\n'.join(lines)+'\n'+''.join(k+'='+v+'\n' for k,v in overrides.items()))
     mapping['system/build.prop'] = props
+    wifi = STAGE/'system/etc/wifi/wpa_supplicant.conf'
+    wifi_lines = [
+        'ctrl_interface=wlan0' if line.startswith('ctrl_interface=') else line
+        for line in wifi.read_text().splitlines()
+    ]
+    wifi.write_text('\n'.join(wifi_lines)+'\n')
+    mapping['system/etc/wifi/wpa_supplicant.conf'] = wifi
+    from optimize_smartisan_bootanimation import optimize as optimize_bootanimation
+    animation = STAGE/'system/media/bootanimation.zip'
+    optimize_bootanimation(ROOT/'work/hd2-base/system/media/bootanimation.zip', animation)
+    mapping['system/media/bootanimation.zip'] = animation
     # The old RPC server thread is detached, yet teardown tries to join it and
     # frees its transport while it may still traverse the server list. Use the
     # GPS driver's existing keep-initialized option; gps_start/gps_stop remain.
@@ -53,6 +75,7 @@ def integrate(update_image=False):
     mapping['system/etc/gps.conf'] = gps
     # No NFC controller or p2p_supplicant exists in this HD2 HAL/firmware set.
     removed = ['system/app/NfcNci.apk', 'system/app/TimeService.apk',
+               'system/app/CameraSmartisan.apk',
                'system/app/qcrilmsgtunnel.apk'] + ['system/etc/permissions/'+name for name in
                ['android.hardware.nfc.hce.xml', 'android.hardware.nfc.xml',
                 'com.android.nfc_extras.xml', 'com.broadcom.nfc.xml', 'com.vzw.nfc.xml',
@@ -82,9 +105,15 @@ def integrate(update_image=False):
         subprocess.run(['e2fsck', '-fn', str(image)], check=True)
     report = {'files': {name: hashlib.sha256((STAGE/name).read_bytes()).hexdigest() for name in mapping},
               'removed': removed, 'local_image_updated': update_image,
-              'device_evidence': 'root ADB, SurfaceFlinger, Zygote, system_server, launcher process, boot-complete',
-              'user_evidence': 'Desktop dimensions confirmed correct; quick-controls layout and severe lag reported next',
-              'not_verified': ['acceptable interaction latency', 'calls', 'Wi-Fi', 'audio', 'camera']}
+              'device_evidence': (
+                  'Normal boot completed; Wi-Fi scans populate the framework; Bluetooth reaches ON; '
+                  'HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate '
+                  'with live accelerometer/magnetometer samples; GPS HAL and tracking thread start'),
+              'user_evidence': (
+                  'Desktop and quick-controls geometry confirmed; responsiveness substantially improved; '
+                  'sound and vibration confirmed working'),
+              'not_verified': ['calls', 'mobile data', 'outdoor GPS satellite fix',
+                               'suspend/resume and long-term stability']}
     (ROOT/'logs/smartisan-compat-manifest.json').write_text(json.dumps(report, indent=2)+'\n')
     return mapping
 

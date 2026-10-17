@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-17",
+  "device": "HTC HD2 / Leo, 576 MB RAM, MAGLDR NativeSD",
+  "privacy": "Sanitized summary: AP names, BSSIDs, device addresses and location data are omitted.",
+  "normal_boot": {
+    "adb_transport_seconds": 22,
+    "sys_boot_completed_uptime_seconds": 47,
+    "bootanimation_exit_uptime_range_seconds": [
+      57,
+      62
+    ]
+  },
+  "wifi": {
+    "status": "working",
+    "evidence": [
+      "wlan.driver.status=ok",
+      "framework scan list populated",
+      "9 unique scan entries seen in the final sanitized check"
+    ],
+    "implementation": "single wlan0 supplicant socket plus legacy SCAN_RESULTS to Android 4.4 BSS conversion"
+  },
+  "bluetooth": {
+    "status": "working",
+    "evidence": [
+      "framework state reached ON (12)",
+      "bcm4329 rfkill state=1",
+      "standard GATT profiles bound without QAdapter errors"
+    ]
+  },
+  "camera": {
+    "status": "working for preview and still capture",
+    "package": "org.hd2port.camera2",
+    "evidence": [
+      "640x480 preview at 15 fps",
+      "four PMEM preview buffers",
+      "JPEG capture completed: 429881 bytes at requested 2560x1920"
+    ],
+    "limits": [
+      "Smartisan Camera removed because its buffer geometry exceeds the leo PMEM path",
+      "video recording not validated",
+      "first launch asks for camera and location permission"
+    ]
+  },
+  "sensors": {
+    "status": "working",
+    "enumerated": 5,
+    "devices": [
+      "BMA150 accelerometer",
+      "AK8973 magnetometer/orientation",
+      "CM3602 proximity",
+      "CM3602 light"
+    ],
+    "evidence": [
+      "live accelerometer samples",
+      "live magnetometer samples",
+      "proximity and light events observed"
+    ]
+  },
+  "gps": {
+    "status": "HAL and tracking path working; satellite fix unvalidated",
+    "evidence": [
+      "GPS capabilities reported SCHED/MSB/MSA",
+      "gps_set_position_mode called",
+      "gps_start and GPS worker thread started"
+    ],
+    "limit": "No outdoor satellite-fix test was performed."
+  },
+  "audio_and_vibration": {
+    "status": "working",
+    "evidence": "device-owner confirmation"
+  },
+  "adb": {
+    "status": "always-on root ADB verified after boot"
+  },
+  "not_validated": [
+    "calls",
+    "mobile data",
+    "outdoor GPS fix",
+    "video recording",
+    "suspend/resume",
+    "long-term stability",
+    "accurate battery reporting"
+  ]
+}

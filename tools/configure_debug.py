@@ -34,7 +34,23 @@ def configure_smartisan_ramdisk(entries):
                                              if 'voldmanaged=' not in line).encode()
     device_init = files['init.htcleo.rc'].data.decode()
     device_init = device_init.replace('/storage/sdcard0', '/storage/emulated/legacy')
-    device_init = device_init.replace('wpa_supplicant.conf\n', 'wpa_supplicant.conf \\\n')
+    # This old wpa_supplicant exposes its interface socket in
+    # /data/misc/wifi/sockets. The extra Android global socket makes the mixed
+    # Smartisan userspace bind @android:wpa_wlan0 twice and exit with EADDRINUSE.
+    device_init = device_init.replace(
+        '    -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf \\\n'
+        '    -g@android:wpa_wlan0\n',
+        '    -Dwext -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf\n')
+    wpa_start = device_init.index('service wpa_supplicant ')
+    wpa_end = device_init.index('\n# DHCPCD', wpa_start)
+    wpa_block = device_init[wpa_start:wpa_end]
+    if 'socket wpa_wlan0 ' not in wpa_block:
+        wpa_block = wpa_block.replace(
+            '    class main\n',
+            '    class main\n    socket wpa_wlan0 dgram 0660 wifi wifi\n',
+            1,
+        )
+        device_init = device_init[:wpa_start] + wpa_block + device_init[wpa_end:]
     files['init.htcleo.rc'].data = device_init.encode()
     init = files['init.rc'].data.decode()
     if 'service hd2-emulated ' not in init:

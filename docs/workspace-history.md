@@ -1,14 +1,14 @@
 # HTC HD2：Smartisan 2.0 与 Sailfish SD 移植工作区
 
-归档更新（2026-10-17）：**用户要求停止继续修复并发布本阶段最终实验版。Smartisan 保持 alpha1；Sailfish 更新为 alpha3，用户已确认显示、点击、滑动、声音和振动。Wi-Fi 与相机仍不可用。完整归档与截图发布于 https://github.com/DCMMC/hd2-smartisan-os 和 https://github.com/DCMMC/hd2-sailfish-os。**
+最新更新（2026-10-17）：**Smartisan alpha2 已在真机修复 Wi-Fi 扫描列表、蓝牙启动、AOSP 兼容相机拍照、5 个传感器和 GPS HAL/跟踪线程；开机动画也已减负。声音与振动由用户确认可用。通话、移动数据、室外 GPS fix、录像和休眠仍未验证。** Sailfish 仍为 alpha3，其 Wi-Fi/相机状态不变。
 
-此前阶段记录：**Smartisan 2.0 的全部当前补丁已合入 `out/hd2-smartisan-2.0-alpha1-SD.zip`，用户确认桌面尺寸正确、操作明显流畅。Sailfish 已实机进入图形界面，实际帧缓冲显示 480×800 的语言选择页面；USB ADB 和 root 救援终端可连接。启动、systemd、Android HAL 与图形兼容补丁已固化，已确认自动重启后显示欢迎页面。** 两个系统的完整硬件功能仍待验证。
+下文是按时间保留的调试记录；其中 alpha1 的“未验证”只代表当时进度，最终状态以 README 和 `logs/smartisan-alpha2-hardware-validation.json` 为准。
 
 目标设备是 MAGLDR 启动的 HTC HD2 / Leo。所有安装文件放在 SD 卡，提供的引导脚本不刷写 NAND、radio 或 bootloader。
 
 | 包 | FAT32 根目录下的文件夹 | ext4 镜像大小 | 当前验证范围 |
 | --- | --- | --- | --- |
-| `out/hd2-smartisan-2.0-alpha1-SD.zip` | `HD2-SM20` | 2 GiB | 桌面和下拉工具页显示；用户确认流畅度改善 |
+| `out/hd2-smartisan-2.0-alpha2-SD.zip` | `HD2-SM20` | 2 GiB | 启动/显示/触摸、Wi-Fi、蓝牙、静态拍照、传感器、GPS 启动路径 |
 | `out/hd2-sailfish-2.0.1.11-alpha3-SD.zip` | `HD2-SF` | 2 GiB | systemd、Android HAL、USB ADB、语言选择页面 |
 
 两者可放在同一张 SD 卡不同目录内，至少留出 **4.2 GiB 可用空间**。每个镜像均低于 FAT32 的 4 GiB 单文件上限；本轮无需分区或格式化。包旁的 `.sha256` 和目录内的 `SHA256SUMS` 可用于核对文件。
@@ -19,7 +19,7 @@
 
 IOS6/7 排查发现 FAT32 第一分区在 MBR 中误标记为 `0x07`，而 [XNU HD2 FAT 定位源码](https://github.com/Garysss123/xnu-hd2) 仅接受 `0x0B/0x0C`。现已通过 Recovery 将其改为 `0x0C`，完整扇区回读确认只有 MBR 第 450 字节发生变化；没有移动、缩放或格式化分区。BPB 隐藏扇区数、分区大小与 MBR 一致，两个 HFSX 镜像的主备头部几何尺寸与文件大小匹配。MBR、BPB、启动文件和孤立簇已备份到 `backups/ios-before-multipartition-fix-20261017/`，修复记录在 `logs/ios-partition-repair.json`。**实际 IOS 启动结果尚待确认**；MAGLDR 中 IOS6 使用 `XNU6` 引导目录，IOS7 使用 `IOS7`。
 
-## Smartisan 真机适配进展（2026-10-17）
+## Smartisan alpha1 真机适配历史（2026-10-17）
 
 已修复旧 Adreno 显示查询接口、CM/Smartisan 的 SortedVector 虚表差异、gralloc 分配设备接口偏移、CPU 调度策略和 framebuffer 缓冲数量。双版本 Vector 探针在真机通过。框架使用模拟存储，已增加独立 FUSE 服务及重启恢复；vold 不再管理承载系统镜像的 FAT32 分区。已移除 HD2 不具备的 NFC 服务，以及缺失 T1 依赖而报错的 TimeService、qcrilmsgtunnel。所有改动通过 `tools/integrate_smartisan_compat.py --update-image` 重建到本地 stage、镜像和 ramdisk。
 

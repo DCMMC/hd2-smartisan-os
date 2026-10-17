@@ -6,6 +6,8 @@
     "system/lib/libcutils.so": "6f3d7f67c383c5d5d18ac9fdea60cc8331ad7a45901b946afb1ac12aeb3389a6",
     "system/lib/libsurfaceflinger.so": "7591d88e78048e181fe50067a5b9dd33ebf91b173139b80c531fe64ac8501534",
     "system/lib/libcamera.so": "2a0b22a2fa0c5ee52d571e9925931d1c5bee1a3488963f30ce4588d9acc920e3",
+    "system/lib/libbinder.so": "184299d69b3aba1b280f6c2f664eebff3000e235f05c2bab9313b89c5f7c88ca",
+    "system/lib/libandroid_runtime.so": "93183e20d0c439a02c4406c09371fd8a98be691566ecb656e60a29a683c83ed9",
     "system/lib/libhwui.so": "37ccaabf61dc732ec77af6816d8ba26e60527e8835ef16e6eaf66ed85b2c1220",
     "system/lib/egl/eglsubAndroid.so": "1d3f4e8ee0a1b49f3911d27005f8278959f244636d68e34747bb62ab3011aa2c",
     "system/bin/app_process.hd2": "28ef0cb30dfc2743050e64bac6b35ff749149d908c82d05b019f2d7746b91848",
@@ -14,12 +16,20 @@
     "system/priv-app/LauncherSmartisanNew.apk": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
     "system/priv-app/SystemUISmartisan.apk": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
     "system/framework/core.jar": "0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989",
+    "system/framework/framework.jar": "0dc8152d9a1d78613470a7ad278f224547e2763063752b0b57fc727ae86d1513",
+    "system/framework/services.jar": "62bbc9de1440520a651607d290231cc2e15034274db41b6d2f2f98f94ae5fcd0",
+    "system/app/Bluetooth.apk": "200b90d7b93543fb651e87ac33867a7c7c36eb4868409d5ef0a3ede228a80d8a",
+    "system/lib/libbluetooth_jni.so": "65f92a4fd383b45d4a69b853f8ae385d14d332ce2120cb848bddba4d7341b536",
+    "system/app/HD2Camera.apk": "d8a686bb63fd2162c385a3ab4262ef131f5309b734dabd2a7b8da655581f5589",
     "system/build.prop": "87f93eeee46f1241c276ee7a4622e7cb5ece268cda33cf91b199e328cd1b5587",
+    "system/etc/wifi/wpa_supplicant.conf": "677da35810460158f1e2c5fe65638be0cc17ec6dfd0114624fa130a4a90ef2f6",
+    "system/media/bootanimation.zip": "3d9bce566a05e922267a40f28472c913826eaa6352de79442e713e403b59d1aa",
     "system/etc/gps.conf": "eab7ccbd874f88b253ae3d7aac5ddeda64c23a66ac80528f76b6c77fdf59c99b"
   },
   "removed": [
     "system/app/NfcNci.apk",
     "system/app/TimeService.apk",
+    "system/app/CameraSmartisan.apk",
     "system/app/qcrilmsgtunnel.apk",
     "system/etc/permissions/android.hardware.nfc.hce.xml",
     "system/etc/permissions/android.hardware.nfc.xml",
@@ -29,12 +39,12 @@
     "system/etc/permissions/android.hardware.wifi.direct.xml"
   ],
   "local_image_updated": true,
-  "device_evidence": "root ADB, SurfaceFlinger, Zygote, system_server, launcher process, boot-complete",
-  "user_evidence": "User confirms desktop size correct and substantially smoother interaction after quick-controls/JIT/zram/animation fixes",
+  "device_evidence": "Normal boot completed; Wi-Fi scans populate the framework; Bluetooth reaches ON; HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate with live accelerometer/magnetometer samples; GPS HAL and tracking thread start",
+  "user_evidence": "Desktop and quick-controls geometry confirmed; responsiveness substantially improved; sound and vibration confirmed working",
   "not_verified": [
     "calls",
-    "Wi-Fi",
-    "audio",
-    "camera"
+    "mobile data",
+    "outdoor GPS satellite fix",
+    "suspend/resume and long-term stability"
   ]
 }
