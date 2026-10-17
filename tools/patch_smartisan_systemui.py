@@ -8,11 +8,14 @@ from pathlib import Path
 import hashlib
 import json
 import re
+import shutil
 import struct
+import subprocess
 import zipfile
 from android_resources import scalar_entries, dimension
 
 ROOT = Path(__file__).resolve().parents[1]
+RECIPE = 'hd2-panel-geometry-and-lean-animation-v5'
 
 # These dp values describe the full notification/control panel, not independent
 # text or touch target sizes. The donor uses a 360x640 dp screen.
@@ -70,14 +73,72 @@ def fit_hd2(original):
 def main():
     source = ROOT/'work/smartisan-donor/system/priv-app/SystemUISmartisan.apk'
     output = ROOT/'work/smartisan-compat/SystemUISmartisan.apk'
+    smali = ROOT/'work/smartisan-systemui-smali'
+    if smali.exists():
+        shutil.rmtree(smali)
+    classpath = str(ROOT/'sources/smali-jars/*')
+    subprocess.run([
+        'java', '-cp', classpath, 'org.jf.baksmali.Main', 'disassemble',
+        '--jobs', '1', '-o', str(smali), str(source),
+    ], check=True)
+
+    # The userdebug base keeps ro.debuggable=1 so ADB remains root-capable, but
+    # Smartisan also uses that flag to enable its very noisy UI logger. Keep an
+    # explicit opt-in property for debugging without writing logs every frame.
+    logger = smali/'com/smartisanos/systemui/b/q.smali'
+    text = logger.read_text()
+    debug_property = '    const-string v2, "ro.debuggable"'
+    assert text.count(debug_property) == 1
+    logger.write_text(text.replace(
+        debug_property,
+        '    const-string v2, "persist.hd2.systemui_debug"',
+    ))
+
+    # Preserve Smartisan's hardware-layer lifecycle, which is the most stable
+    # path on the old Adreno driver. Shorten the dead delay before it starts and
+    # finish all three translations together in 240 ms, retaining a visible
+    # transition without stretching missed frames over a long animation.
+    switch = smali/'com/smartisanos/systemui/s.smali'
+    text = switch.read_text()
+    replacements = {
+        '    const-wide/16 v2, 0x32': ('    const-wide/16 v2, 0x10', 2),
+        '    const-wide/16 v11, 0xc8': ('    const-wide/16 v11, 0x78', 1),
+        '    const-wide/16 v4, 0x12c': ('    const-wide/16 v4, 0xf0', 2),
+        '    const-wide/16 v11, 0x12c': ('    const-wide/16 v11, 0xf0', 1),
+    }
+    timing_changes = {}
+    for old, (new, expected) in replacements.items():
+        count = text.count(old)
+        assert count == expected, (old, count)
+        text = text.replace(old, new)
+        timing_changes[old.strip()] = {'replacement': new.strip(), 'count': count}
+    switch.write_text(text)
+
+    dex = ROOT/'work/smartisan-compat/SystemUISmartisan.dex'
+    subprocess.run([
+        'java', '-cp', classpath, 'org.jf.smali.Main', 'assemble',
+        '--jobs', '1', str(smali), '-o', str(dex),
+    ], check=True)
     with zipfile.ZipFile(source) as archive:
         data, changes = fit_hd2(archive.read('resources.arsc'))
         with zipfile.ZipFile(output, 'w') as patched:
             for entry in archive.infolist():
-                patched.writestr(entry, data if entry.filename == 'resources.arsc' else archive.read(entry.filename))
-    report = {'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
+                if entry.filename == 'resources.arsc':
+                    content = data
+                elif entry.filename == 'classes.dex':
+                    content = dex.read_bytes()
+                else:
+                    content = archive.read(entry.filename)
+                patched.writestr(entry, content)
+    report = {'recipe': RECIPE,
+              'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
               'output_sha256': hashlib.sha256(output.read_bytes()).hexdigest(),
-              'resource_changes': changes}
+              'resource_changes': changes,
+              'systemui_debug_property': 'persist.hd2.systemui_debug',
+              'timing_changes': timing_changes,
+              'animation_layer_policy': (
+                  'retain the stock short-lived hardware layers and release them '
+                  'at animation end; use a 16 ms start delay and 240 ms motion')}
     (ROOT/'logs/smartisan-systemui-patch.json').write_text(json.dumps(report, indent=2)+'\n')
     print(output, len(changes), 'resource changes')
 

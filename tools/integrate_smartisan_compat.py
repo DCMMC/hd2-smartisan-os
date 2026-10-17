@@ -22,6 +22,7 @@ def integrate(update_image=False):
                    'patch_smartisan_bluetooth.py',
                    'patch_smartisan_core.py',
                    'patch_smartisan_hwui.py', 'patch_smartisan_systemui.py',
+                   'patch_smartisan_keyguard.py', 'patch_smartisan_policy.py',
                    'patch_smartisan_wifi.py']:
         subprocess.run([sys.executable, str(ROOT/'tools'/script)], check=True)
     mapping = {f'system/lib/{name}': ROOT/'work/smartisan-compat'/name
@@ -34,9 +35,12 @@ def integrate(update_image=False):
     mapping['system/bin/hd2-runtime'] = ROOT/'configs/smartisan-compat/hd2-runtime'
     mapping['system/priv-app/LauncherSmartisanNew.apk'] = ROOT/'work/smartisan-compat/LauncherSmartisanNew.apk'
     mapping['system/priv-app/SystemUISmartisan.apk'] = ROOT/'work/smartisan-compat/SystemUISmartisan.apk'
+    mapping['system/priv-app/KeyguardSmartisan.apk'] = ROOT/'work/smartisan-compat/KeyguardSmartisan.apk'
+    mapping['system/usr/keylayout/htcleo-keypad.kl'] = ROOT/'sources/device-leo/keylayout/htcleo-keypad.kl'
     mapping['system/framework/core.jar'] = ROOT/'work/smartisan-compat/core.jar'
     mapping['system/framework/framework.jar'] = ROOT/'work/smartisan-compat/framework.jar'
     mapping['system/framework/services.jar'] = ROOT/'work/smartisan-compat/services.jar'
+    mapping['system/framework/android.policy.jar'] = ROOT/'work/smartisan-compat/android.policy.jar'
     # PackageManager requires the original Smartisan platform signature.  The
     # services patch above suppresses only the optional Qualcomm QAdapter path;
     # the HD2 base JNI/HAL continue to provide the standard Bluedroid stack.
@@ -49,7 +53,10 @@ def integrate(update_image=False):
     props = STAGE/'system/build.prop'
     overrides = {'debug.gr.numframebuffers': '3',
                  'dalvik.vm.jit.codecachesize': '1024',
-                 'persist.sys.force_highendgfx': '0'}
+                 'debug.sf.disable_hwc': '0',
+                 'hwui.render_dirty_regions': 'true',
+                 'persist.sys.force_highendgfx': '0',
+                 'ro.sys.fw.bg_apps_limit': '8'}
     lines = [s for s in props.read_text().splitlines()
              if s.partition('=')[0] not in overrides]
     props.write_text('\n'.join(lines)+'\n'+''.join(k+'='+v+'\n' for k,v in overrides.items()))
@@ -106,7 +113,8 @@ def integrate(update_image=False):
     report = {'files': {name: hashlib.sha256((STAGE/name).read_bytes()).hexdigest() for name in mapping},
               'removed': removed, 'local_image_updated': update_image,
               'device_evidence': (
-                  'Normal boot completed; Wi-Fi scans populate the framework; Bluetooth reaches ON; '
+                  'Normal boot completed; Wi-Fi reaches CONNECTED with WPA, DHCP, DNS, default route '
+                  'and HTTP connectivity; Bluetooth reaches ON; '
                   'HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate '
                   'with live accelerometer/magnetometer samples; GPS HAL and tracking thread start'),
               'user_evidence': (

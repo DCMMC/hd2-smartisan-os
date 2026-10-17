@@ -1,0 +1,62 @@
+[
+  {
+    "t_ms": 52.6,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(240,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 122.7,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(240,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 202.3,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(240,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 263.5,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(240,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1352.4,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1447.5,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1522.6,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1613.8,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1694.2,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1772.5,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1852.6,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  },
+  {
+    "t_ms": 1932.7,
+    "visible": "0,   0,   0,   0",
+    "state": "layerStack=   0, z=    22024, pos=(-241,295), size=( 256, 512), crop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, alpha=0x3e, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]"
+  }
+]

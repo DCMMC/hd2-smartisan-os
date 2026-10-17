@@ -1,26 +1,52 @@
 #!/system/bin/sh
-# Bound RAM compression and SD read-ahead for the HD2's 420 MiB usable RAM.
+# Balanced animation/performance defaults for the HD2's 420 MiB usable RAM.
 BB=/system/xbin/busybox
 for disk in mmcblk0 loop7; do
     node=/sys/block/$disk/queue/read_ahead_kb
     [ ! -w "$node" ] || echo 128 > "$node"
 done
-if [ -w /sys/block/zram0/disksize ] &&
-   [ "$(cat /sys/block/zram0/disksize)" = 0 ] &&
-   ! $BB grep -q '/dev/block/zram0 ' /proc/swaps; then
-    echo 100663296 > /sys/block/zram0/disksize
-    $BB mkswap /dev/block/zram0 && $BB swapon /dev/block/zram0
-fi
+apply_performance() {
+    [ ! -w /sys/block/mmcblk0/queue/scheduler ] || echo deadline > /sys/block/mmcblk0/queue/scheduler
+    [ ! -w /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor ] ||
+        echo interactive > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    # The HD2 kernel exposes min_sample_time but its store handler can spin
+    # forever when written from userspace.  Keep the kernel default; writing
+    # this node pinned the only CPU at 100% and prevented the rest of this
+    # service from enabling zram.
+    [ ! -w /proc/sys/vm/swappiness ] || echo 80 > /proc/sys/vm/swappiness
+    [ ! -w /proc/sys/vm/page-cluster ] || echo 0 > /proc/sys/vm/page-cluster
+}
+apply_performance
+
+ensure_zram() {
+    [ -w /sys/block/zram0/disksize ] || return
+    if ! $BB grep -q '/dev/block/zram0 ' /proc/swaps; then
+        if [ "$(cat /sys/block/zram0/disksize)" = 0 ]; then
+            echo 100663296 > /sys/block/zram0/disksize
+        fi
+        # Some boots preserve disksize but not the swap signature.  Try the
+        # existing header first, then initialise it and retry when needed.
+        $BB swapon /dev/block/zram0 2>/dev/null || {
+            $BB mkswap /dev/block/zram0 || return
+            $BB swapon /dev/block/zram0
+        }
+    fi
+}
+ensure_zram
 # Set defaults once, so later choices in Settings remain the user's choices.
 while [ "$(getprop sys.boot_completed)" != 1 ]; do
     $BB sleep 5
 done
-STAMP=/data/local/hd2-ui-defaults-v1
+apply_performance
+ensure_zram
+STAMP=/data/local/hd2-ui-defaults-v5
 if [ ! -f "$STAMP" ]; then
-    settings put global launcher_unlock_animation_enabled 0 &&
-    settings put global launcher_flip_animation 0 &&
-    settings put global window_animation_scale 0 &&
-    settings put global transition_animation_scale 0 &&
-    settings put global animator_duration_scale 0 &&
+    settings put global launcher_unlock_animation_enabled 1 &&
+    # The launcher and WindowManager patches retain the complete icon flip in
+    # a 256x512 atlas and a 220 ms timeline fitted to the HD2.
+    settings put global launcher_flip_animation 1 &&
+    settings put global window_animation_scale 1.0 &&
+    settings put global transition_animation_scale 1.0 &&
+    settings put global animator_duration_scale 1.0 &&
     $BB touch "$STAMP"
 fi

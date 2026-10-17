@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-10-17T21:42:58+08:00",
+  "device": "HTC HD2 / Leo, 480x800, single-core Scorpion, Adreno 200",
+  "result": "full Smartisan icon-cell flip restored for app open and close while retaining face, edge and shadow content",
+  "animation": {
+    "enabled_setting": "launcher_flip_animation=1",
+    "directions_verified": [
+      "open: mIsEnter=true",
+      "close: mIsEnter=false"
+    ],
+    "atlas": {
+      "donor": "384x1024",
+      "patched": "256x512",
+      "observed_content_bounds": "158x432"
+    },
+    "content": [
+      "icon face",
+      "icon edge",
+      "icon shadow",
+      "forward matrix/tween",
+      "reverse matrix/tween"
+    ],
+    "timeline_ms": 220,
+    "capture_timeout_ms": 900,
+    "window_fallback": "95 ms incoming surface with 2 percent travel; light desktop return zoom",
+    "unlock": "single-pass 7-frame staggered reveal with duplicate broadcast debounce"
+  },
+  "performance_fix": {
+    "root_cause": "writing interactive/min_sample_time hangs in this HD2 kernel and left hd2-runtime consuming about 96 percent of the only CPU",
+    "resolution": "do not write that sysfs node; allow oneshot to finish; retry mkswap+swapon when zram disksize exists without a valid swap header",
+    "zram_live": "/dev/block/zram0 active, 98296 KiB logical capacity",
+    "comparison": {
+      "before": "Settings warm launch: 30 skipped frames, Displayed +1.528s",
+      "after": "same tested path: no skipped-frame record, Displayed +1.093s"
+    }
+  },
+  "reverse_close_test": {
+    "input": "physical BACK scan code 158",
+    "transition_start": "13:40:07.777",
+    "first_touch_unlock": "13:40:08.108",
+    "framework_elapsed_ms": 331,
+    "skipped_frames": 0,
+    "anr": false,
+    "crash": false
+  },
+  "artifacts": {
+    "launcher_apk_sha256": "836597a762676844bc18ba0e8478362161014edb01c4824574d23f5385613b54",
+    "services_jar_sha256": "13016f4d4f59be422ae9244d264d05c6b8f531330bfbcf199b49cac2d5d360e4",
+    "runtime_script_sha256": "c565cddbdf47b8c9f84b054fd80bba5325f06ab7392b1bfe9a1ad485b5cbe26d",
+    "rootfs_ext4_sha256": "45cd7a995c4a22b24cf338a0b4edb58205a2b16791553c7ad0a684fba2c6beda"
+  },
+  "integrity": {
+    "stage_image_live_hashes_match_for_animation_files": true,
+    "ext4_e2fsck": "clean, all five passes completed",
+    "release_zip_created": false,
+    "release_uploaded": false
+  },
+  "evidence": [
+    "logs/icon-flip-v10/open-post-runtime-fix.log",
+    "logs/icon-flip-v10/open-duration-fixed.log",
+    "logs/icon-flip-v10/close-direct-key.log",
+    "logs/icon-flip-v10/surfaceflinger-close-samples.json",
+    "logs/smartisan-launcher-patch.json",
+    "logs/smartisan-bluetooth-framework-patch.json"
+  ],
+  "known_limit": "a legacy PMEM mapping error can still appear later in some Settings cold starts; it also occurred without the flip and is not an overflow of the 158x432 flip content in the 256x512 atlas"
+}

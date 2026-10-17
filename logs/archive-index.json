@@ -25,6 +25,11 @@
     "sha256": "6603a53b851bc9aff0e34fe337bd4f3abb2509f565fa8f8800a787adc34a2b76"
   },
   {
+    "path": "logs/deodex.log",
+    "redacted": false,
+    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
+  },
+  {
     "path": "logs/deodex/app_AppStoreSmartisan.odex.log",
     "redacted": false,
     "sha256": "92c2e8b6ca23d6257bec9a4cdc4d0d7520128272b4bd8540d780a8ca096ab87b"
@@ -53,11 +58,6 @@
     "path": "logs/deodex/app_CameraSmartisan.odex.log",
     "redacted": false,
     "sha256": "ac5f8cc37b2d1b08a6345224a0d326db79f138482cc9aed65da3380753bcacb4"
-  },
-  {
-    "path": "logs/deodex.log",
-    "redacted": false,
-    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
   },
   {
     "path": "logs/donor-graphicbuffer-disassembly.txt",
@@ -108,6 +108,26 @@
     "path": "logs/hd2-performance-original-settings.txt",
     "redacted": false,
     "sha256": "07e83c4ba2f87e01a49a206b5e72ad42e0fde5a399b4e9eebd77210098d294ba"
+  },
+  {
+    "path": "logs/icon-flip-v10/close-direct-key.log",
+    "redacted": false,
+    "sha256": "9b4ee6adc79f2d97e781504377bba0ecdc983c006bca6fe92f9d0e0b991c881a"
+  },
+  {
+    "path": "logs/icon-flip-v10/open-duration-fixed.log",
+    "redacted": false,
+    "sha256": "306c26188b90f60ed6159ffba4ae987cb90d6ef2b0339edde387319b9c8e9eac"
+  },
+  {
+    "path": "logs/icon-flip-v10/open-post-runtime-fix.log",
+    "redacted": false,
+    "sha256": "67a33a9407c801535d3864a68a3192654ab2430b2a5354c2a83cae024692eb14"
+  },
+  {
+    "path": "logs/icon-flip-v10/surfaceflinger-close-samples.json",
+    "redacted": false,
+    "sha256": "795445ea5fef85eb8a1e875ff1fc485cc84fd300d35a29bda1e203e0ab77e21c"
   },
   {
     "path": "logs/install-sd.log",
@@ -865,6 +885,11 @@
     "sha256": "2b3b5c2b3989b64826bd2449cc7cd5d99067e449f3347ce1ca10035b4adaa471"
   },
   {
+    "path": "logs/smartisan-animation-performance-validation.json",
+    "redacted": false,
+    "sha256": "836a1c8d655cfee10d25b8c63be4556d91454149da4f3b5ae7bf73b1659f6e95"
+  },
+  {
     "path": "logs/smartisan-artifacts-logcat.txt",
     "redacted": true,
     "sha256": "880d0b3b4f41a6faf75c37b03518c5f2769de3124a1a47915e1e69db4d38d16e"
@@ -900,6 +925,11 @@
     "sha256": "45657590d5ef0109c646f9c1636e9f7df7c23c0146741691a11bfa5d2f757872"
   },
   {
+    "path": "logs/smartisan-bluetooth-framework-patch.json",
+    "redacted": false,
+    "sha256": "0f490c2c8aa6e3c015233efd56da428986bc3d94afa91968025b3ce6607c8a1c"
+  },
+  {
     "path": "logs/smartisan-camera-patch.json",
     "redacted": false,
     "sha256": "42861238392a7c137942d569e0bb628625dcc790652c1451a294875a0c79768e"
@@ -907,7 +937,7 @@
   {
     "path": "logs/smartisan-compat-manifest.json",
     "redacted": false,
-    "sha256": "de8c12bb47f39f3c57d2c5cbbb66c0cd4f0323df2ac669356400587ce490476e"
+    "sha256": "420f5597b35e03b0cb9cc7c97284b02c1c15d3e5c7b458213256efb19e2c284a"
   },
   {
     "path": "logs/smartisan-core-boot.log",
@@ -1047,7 +1077,7 @@
   {
     "path": "logs/smartisan-launcher-patch.json",
     "redacted": false,
-    "sha256": "1274f6401edbdb88cc2707eb7c0b06487acec4ed7c3492d0fe47946b183940ef"
+    "sha256": "3a5a377e4c8387cd7d81c5f8a8c170efc6326f00d22dc3a2fb0762f0767baad0"
   },
   {
     "path": "logs/smartisan-launcher-retest.log",

@@ -81,7 +81,8 @@ def main():
         'ro.sf.lcd_density':'240','ro.opengles.version':'131072',
         'ro.config.low_ram':'true','dalvik.vm.heapgrowthlimit':'64m',
         'dalvik.vm.heapsize':'128m','dalvik.vm.heapstartsize':'8m',
-        'persist.sys.dalvik.vm.lib':'libdvm.so','debug.sf.disable_hwc':'1',
+        'persist.sys.dalvik.vm.lib':'libdvm.so','debug.sf.disable_hwc':'0',
+        'hwui.render_dirty_regions':'true',
         'ro.hd2.port.status':'experimental-unverified',
         'persist.sys.usb.config':'adb','persist.sys.root_access':'3',
     })

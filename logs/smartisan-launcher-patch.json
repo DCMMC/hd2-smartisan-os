@@ -1,8 +1,18 @@
 {
+  "recipe": "hd2-480p-icon-atlas-and-full-fast-flip-v10",
   "source_sha256": "9461035a307e51f8a237958ede2c72645b6f63cb93b03246acd92eeefbc0f54f",
-  "output_sha256": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
-  "dex_instruction_offset": "0xe6f52",
-  "change": "Packaged 1080p textures; 480x800 geometry and scaled pixel dimensions",
+  "output_sha256": "836597a762676844bc18ba0e8478362161014edb01c4824574d23f5385613b54",
+  "texture_path": "720p",
+  "generated_720p_fallbacks": 163,
+  "generated_pixel_ratio": 0.4447029309872994,
+  "debug_property": "persist.hd2.launcher_debug",
+  "boot_unlock_retry": true,
+  "unlock_animation": "debounced single-pass staggered reveal, 7 animation frames",
+  "unlock_notification_debounce": true,
+  "icon_flip_atlas": "256x512 (full face, edge and shadow regions)",
+  "icon_capture_timeout_ms": 900,
+  "app_open_animation": "95 ms 2-percent incoming slide without full-desktop scale",
+  "change": "Complete 720p textures from two-thirds-size 1080p fallbacks; 480x800 geometry; keep the full Smartisan icon flip in a pmem-safe 256x512 atlas; use lean unlock and fallback app animations; make verbose launcher logging opt-in instead of ro.debuggable",
   "resource_changes": [
     {
       "name": "screen_width",

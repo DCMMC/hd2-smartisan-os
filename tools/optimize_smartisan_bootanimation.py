@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reduce the CM boot animation decode rate to something the HD2 can sustain."""
+"""Keep a fluid boot animation within the HD2's CPU and memory limits."""
 from pathlib import Path
 import zipfile
 
@@ -21,9 +21,9 @@ def optimize(source, destination):
                 name for name in names
                 if name.startswith(part + '/') and not name.endswith('/')
             )
-            selected[part] = frames[::3]
+            selected[part] = frames[::2]
         with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_STORED) as output:
-            output.writestr('desc.txt', '480 480 16\np 1 0 part0\np 0 0 part1\n')
+            output.writestr('desc.txt', '480 480 24\np 1 0 part0\np 0 0 part1\n')
             for part in parts:
                 output.writestr(part + '/', b'')
                 for index, name in enumerate(selected[part], 1):

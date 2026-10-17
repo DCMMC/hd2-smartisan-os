@@ -1,6 +1,6 @@
 {
-  "recipe": "wifi-native-single-interface-v4",
+  "recipe": "wifi-native-single-interface-v5",
   "source_sha256": "3f3ddc6ba8ef56bfd26b643e40163c755f0f34c48b8a71d0a5e2672e81acfde4",
-  "output_sha256": "0dc8152d9a1d78613470a7ad278f224547e2763063752b0b57fc727ae86d1513",
-  "change": "WifiNative uses direct wlan0 commands, unprefixed supplicant events are routed to wlan0, stable SCAN_RESULTS output is converted for Android 4.4, and empty events preserve the last valid AP list; Wi-Fi Direct is absent on HD2"
+  "output_sha256": "514a2d14b58818cd97e76d76edb5f4452013e3cdbc4f770c44f5f241585d4707",
+  "change": "WifiNative uses direct wlan0 commands, unprefixed supplicant events are routed to wlan0, stable SCAN_RESULTS output is converted for Android 4.4, and empty events preserve the last valid AP list. T1-only trustedAp/autoConnect/needLogin/hiddenTrusted variables are skipped so the legacy supplicant can save and select standard WPA/WPA2 networks; Wi-Fi Direct is absent on HD2"
 }

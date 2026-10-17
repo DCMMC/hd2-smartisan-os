@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-这是 HTC HD2 / Leo（576 MB RAM、MAGLDR）的非官方 SD 卡移植，底层为 NexusHD2 CM11 / Android 4.4.1，系统为 Smartisan T1 2.0.0 / Android 4.4.2。**alpha2** 加入了经过实机验证的 Wi-Fi、蓝牙、相机和传感器修复，也打通了 GPS 框架/HAL 路径并降低了开机动画负载。
+这是 HTC HD2 / Leo（576 MB RAM、MAGLDR）的非官方 SD 卡移植，底层为 NexusHD2 CM11 / Android 4.4.1，系统为 Smartisan T1 2.0.0 / Android 4.4.2。**alpha2** 加入了经过实机验证的 Wi-Fi、蓝牙、相机和传感器修复，也打通了 GPS 框架/HAL 路径，并恢复界面动画、针对 HD2 的小内存和 SD 存储进行优化。
 
 **[下载 alpha2 ROM ZIP 与校验文件](https://github.com/DCMMC/hd2-smartisan-os/releases/tag/v2.0-hd2-alpha2)** · [修复过程与证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [XDA 英文发帖稿](docs/XDA-POST.en.md) · [Sailfish 姊妹项目](https://github.com/DCMMC/hd2-sailfish-os)
 
@@ -20,7 +20,8 @@
 | --- | --- |
 | NativeSD 启动、Android 框架、触摸 | 测试机可用 |
 | 桌面、三列 12 开关下拉工具页 | 480×800 下可用 |
-| Wi-Fi | 扫描和系统 AP 列表可用 |
+| 应用打开/关闭动画 | 完整恢复锤子图标正面、侧面和阴影的双向翻页 |
+| Wi-Fi | 扫描、WPA 连接、DHCP、DNS、默认路由和 HTTP 联网均可用 |
 | 蓝牙 | 能进入 ON 状态，标准 GATT profile 正常绑定 |
 | 相机 | 兼容相机可预览并拍摄 2560×1920 静态照片 |
 | 声音、振动 | 机主确认可用 |
@@ -30,9 +31,11 @@
 | 通话、移动数据、休眠/唤醒 | 未验证 |
 | 电量显示 | 旧电池协议/电压单位不匹配，数值可能不准 |
 
-测试安装的一次正常重启约 22 秒出现 ADB、约 47 秒写入 `sys.boot_completed=1`，约 62 秒前结束开机动画。替换 framework 后的首次启动要重建 Dalvik 缓存，可能需要 2–3 分钟。
+alpha2 的一次正常重启约 49 秒写入 `sys.boot_completed=1`。替换 framework 后的首次启动要重建 Dalvik 缓存，可能需要 2–3 分钟。
 
 ## 安装
+
+安装前请先核对 alpha2 校验值：
 
 1. 下载 `hd2-smartisan-2.0-alpha2-SD.zip` 和同名 `.sha256`，核对校验值。
 2. 解压后，将整个 `HD2-SM20` 目录复制到 SD 卡第一分区 FAT32 根目录，至少留出 2.1 GiB。`rootfs.ext4` 为 2 GiB，低于 FAT32 单文件上限。
@@ -57,8 +60,9 @@ root ADB 无需在屏幕确认。运行日志在内存中滚动并在重启时�
 ## 本版修复
 
 - 旧 Adreno 显示、Vector/SortedVector、gralloc、Binder PMEM 和 Android runtime 兼容。
-- 480×800 桌面与 SystemUI 资源、HWUI 纹理回退、JIT/zram、过渡动画和 16 fps/32 帧开机动画优化。
-- 单 `wlan0` 控制通道，并将旧 supplicant 的 `SCAN_RESULTS` 转换成 Android 4.4 所需格式。
+- 480×800 桌面与 SystemUI 资源、HWUI 纹理回退、JIT、可靠的 96 MiB zram 和 24 fps/48 帧开机动画优化。
+- 完整保留应用打开/关闭时图标正面、侧面和阴影的翻页内容，使用 256×512 atlas 和 220 ms 动画时间线；解锁与普通应用窗口的轻量回退动画也继续启用。
+- 单 `wlan0` 控制通道、旧式 `SCAN_RESULTS` 转换，并绕过 supplicant 不支持的 T1 专用网络变量。
 - 跳过 Smartisan 专用 Qualcomm QAdapter，保留 HD2 标准 Bluedroid 路径。
 - HD2 AOSP 兼容相机、旧 GPS 生命周期修复、常开 ADB 和内存日志。
 

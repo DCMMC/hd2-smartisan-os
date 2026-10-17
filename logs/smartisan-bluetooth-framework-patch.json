@@ -1,6 +1,10 @@
 {
-  "recipe": "disable-qadapter-service-v2",
+  "recipe": "disable-qadapter-and-restore-fast-icon-flip-v5",
   "source_sha256": "cd2adef6198e2c5f847d4d179f208fab505177f82846a188a1385bc66b8e116f",
-  "output_sha256": "62bbc9de1440520a651607d290231cc2e15034274db41b6d2f2f98f94ae5fcd0",
-  "change": "Keep the original signed Smartisan Bluetooth package and do not bind its optional Qualcomm QAdapter service; HD2 uses the standard Bluedroid adapter and profiles."
+  "output_sha256": "13016f4d4f59be422ae9244d264d05c6b8f531330bfbcf199b49cac2d5d360e4",
+  "icon_flip_enabled": true,
+  "icon_flip_duration_ms": 220,
+  "icon_flip_timeout_ms": 320,
+  "duration_conversion_fixed": true,
+  "change": "Keep the original signed Smartisan Bluetooth package and do not bind its optional Qualcomm QAdapter service; retain the complete forward/reverse icon-cell flip with an HD2-paced 220 ms timeline."
 }

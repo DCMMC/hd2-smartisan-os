@@ -1,0 +1,59 @@
+--------- beginning of /dev/log/main
+10-17 13:37:43.577 I/HD2TEST ( 1986): duration_fix_open_begin 
+10-17 13:37:44.317 D/AndroidRuntime( 1987): 
+10-17 13:37:44.317 D/AndroidRuntime( 1987): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+10-17 13:37:44.317 D/AndroidRuntime( 1987): CheckJNI is OFF
+10-17 13:37:44.347 D/dalvikvm( 1987): Trying to load lib libjavacore.so 0x0
+10-17 13:37:44.347 D/dalvikvm( 1987): Added shared lib libjavacore.so 0x0
+10-17 13:37:44.357 D/dalvikvm( 1987): Trying to load lib libnativehelper.so 0x0
+10-17 13:37:44.357 D/dalvikvm( 1987): Added shared lib libnativehelper.so 0x0
+10-17 13:37:44.357 D/dalvikvm( 1987): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+10-17 13:37:44.398 E/cutils-trace( 1987): Error opening trace file: No such file or directory (2)
+10-17 13:37:44.447 D/dalvikvm( 1987): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+10-17 13:37:44.747 E/memtrack( 1987): Couldn't load memtrack module (No such file or directory)
+10-17 13:37:44.747 E/android.os.Debug( 1987): failed to load memtrack module: -2
+10-17 13:37:44.897 D/AndroidRuntime( 1987): Calling main entry com.android.commands.input.Input
+10-17 13:37:44.897 I/Input   ( 1987): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=249093, downTime=249093, deviceId=0, source=0x1002 }
+10-17 13:37:45.127 I/Input   ( 1987): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=240.0, y[0]=500.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=249093, downTime=249093, deviceId=0, source=0x1002 }
+10-17 13:37:45.137 D/AndroidRuntime( 1987): Shutting down VM
+10-17 13:37:45.387 I/HD2TEST ( 1997): duration_fix_open_input_done 
+10-17 13:37:45.427 I/ActivityManager( 1405): Timeline: Activity_launch_request id:com.android.settings time:249624
+10-17 13:37:45.447 E/SmartisanOS_Perf_JNI(  805): onload
+10-17 13:37:45.447 E/OpenGLHelper_Jni(  805): opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+10-17 13:37:45.447 E/SmartisanOS_Perf_JNI(  805): smartiperf module not found
+10-17 13:37:45.447 E/SmartisanOS_Perf(  805): SmartiPerformance initialized failed!
+10-17 13:37:45.447 E/SmartisanOS_Perf(  805): SmartiPerformance has not been initialized!
+--------- beginning of /dev/log/system
+10-17 13:37:45.447 I/ActivityManager(  805): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 1405
+10-17 13:37:45.547 E/SmartisanOS_Perf_JNI( 1405): onload
+10-17 13:37:45.547 E/OpenGLHelper_Jni( 1405): opengl_OpenGLHelper_RegisterNatives classname:smartisanos/opengl/OpenGLHelper
+10-17 13:37:45.567 I/OpenGLHelper_Jni( 1405): genreate image target(surface:0x2a50a378) to texture:71
+10-17 13:37:45.577 I/OpenGLHelper_Jni( 1405): released surface:0x2a50a378
+10-17 13:37:45.597 D/WindowManager.STA(  805): getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(0, -105 - 158, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 13:37:45.757 E/WindowManager(  805): use package drawable background
+10-17 13:37:45.947 V/WindowManager.STA(  805): transit=8204/0, mIsEnter=true
+10-17 13:37:46.147 D/StatusBarManagerService(  805): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41ca1350
+10-17 13:37:46.467 D/WindowManager.STA(  805): IconCellShoter unlockTouch
+10-17 13:37:46.517 D/WindowManager.STA(  805): IconCellShoter unlockTouch
+10-17 13:37:46.808 D/BluetoothAdapterService(1101120144)( 1813): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e3f8
+10-17 13:37:46.808 D/BluetoothAdapterService(1101120144)( 1813): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e3f8
+10-17 13:37:46.817 D/BluetoothAdapterService(1101120144)( 1813): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e3f8
+10-17 13:37:46.817 D/BluetoothAdapterService(1101120144)( 1813): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e3f8
+10-17 13:37:46.817 D/BluetoothAdapterService(1101120144)( 1813): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1e3f8
+10-17 13:37:46.817 D/BluetoothAdapterService(1101120144)( 1813): Get Bonded Devices being called
+10-17 13:37:46.937 D/libEGL  ( 1372): loaded /system/lib/egl/libEGL_adreno200.so
+10-17 13:37:47.007 D/libEGL  ( 1372): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+10-17 13:37:47.017 D/libEGL  ( 1372): loaded /system/lib/egl/libGLESv2_adreno200.so
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): Build Date: 07/31/12 Tue
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): Local Branch: 
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): Remote Branch: quic/master
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): Local Patches: NONE
+10-17 13:37:47.027 I/Adreno200-EGL( 1372): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+10-17 13:37:47.317 D/OpenGLRenderer( 1372): Enabling debug mode 0
+10-17 13:37:47.317 E/memalloc( 1372): /dev/pmem: Failed to map buffer size:4288512 offset:1929216 fd:65 Error: Invalid argument
+10-17 13:37:47.317 E/gralloc ( 1372): Could not mmap handle 0x2a26c720, fd=65 (Invalid argument)
+10-17 13:37:47.317 E/gralloc ( 1372): gralloc_register_buffer: gralloc_map failed
+10-17 13:37:47.317 W/GraphicBufferMapper( 1372): registerBuffer(0x2a26c720) failed -22 (Invalid argument)
+10-17 13:37:47.317 E/GraphicBuffer( 1372): unflatten: registerBuffer failed: Invalid argument (-22)
+10-17 13:37:47.357 W/dalvikvm( 1372): method Lsmartisanos/widget/SwitchEx;.setOnCheckedChangeWidgetListener incorrectly overrides package-private method with same name in Landroid/widget/CompoundButton;

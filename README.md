@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-An unofficial SD-card port for HTC HD2 / Leo (576 MB RAM, MAGLDR), combining NexusHD2 CM11 / Android 4.4.1 with Smartisan T1 2.0.0 / Android 4.4.2. **alpha2** adds real-device fixes for Wi-Fi, Bluetooth, camera and sensors, a working GPS framework/HAL path, and a lighter boot animation.
+An unofficial SD-card port for HTC HD2 / Leo (576 MB RAM, MAGLDR), combining NexusHD2 CM11 / Android 4.4.1 with Smartisan T1 2.0.0 / Android 4.4.2. **Alpha2** adds real-device fixes for Wi-Fi, Bluetooth, camera and sensors, a working GPS framework/HAL path, restored UI animation, and performance tuning for the HD2's limited RAM and SD storage.
 
 **[Download alpha2 ROM and checksum](https://github.com/DCMMC/hd2-smartisan-os/releases/tag/v2.0-hd2-alpha2)** · [Engineering notes](docs/ENGINEERING.md) · [Build notes](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Sailfish companion project](https://github.com/DCMMC/hd2-sailfish-os)
 
@@ -20,7 +20,8 @@ These are real 480×800 captures from the HTC HD2. The camera preview uses a har
 | --- | --- |
 | NativeSD boot, Android framework and touch | Working on the test device |
 | Launcher and 3-column/12-switch quick controls | Working at 480×800 |
-| Wi-Fi | Scanning and framework AP list working |
+| App open/close animation | Full Smartisan icon face/edge/shadow flip restored in both directions |
+| Wi-Fi | Scanning, WPA connection, DHCP, DNS, route and HTTP connectivity working |
 | Bluetooth | Adapter reaches ON; standard GATT profiles bind |
 | Camera | 640×480 preview and 2560×1920 still capture working through bundled HD2 Camera |
 | Audio and vibration | Working, confirmed by the device owner |
@@ -30,9 +31,11 @@ These are real 480×800 captures from the HTC HD2. The camera preview uses a har
 | Calls, mobile data, suspend/resume | Not validated |
 | Battery reporting | Legacy protocol/voltage-unit mismatch can show an inaccurate level |
 
-A normal reboot on the test installation exposed ADB after about 22 seconds, set `sys.boot_completed=1` at about 47 seconds and stopped the boot animation by about 62 seconds. A first boot after framework replacement can take 2–3 minutes while Dalvik rebuilds its cache.
+A normal reboot with alpha2 set `sys.boot_completed=1` at about 49 seconds. A first boot after framework replacement can take 2–3 minutes while Dalvik rebuilds its cache.
 
 ## Installation
+
+Verify the alpha2 checksum before installing it:
 
 1. Download `hd2-smartisan-2.0-alpha2-SD.zip` and its `.sha256` file, then verify the checksum.
 2. Extract the ZIP. Copy the entire `HD2-SM20` directory to the root of the SD card's first FAT32 partition. Allow at least 2.1 GiB; `rootfs.ext4` is a 2 GiB file and fits below FAT32's single-file limit.
@@ -57,8 +60,9 @@ Root ADB starts without an on-screen authorization prompt. Runtime logs rotate i
 ## Included work
 
 - Legacy Adreno display, Vector/SortedVector, gralloc, Binder PMEM and Android runtime compatibility.
-- 480×800 launcher and SystemUI resources, HWUI texture fallback, JIT/zram tuning, reduced transitions and a 16 fps/32-frame boot animation.
-- Single-interface `wlan0` control and translation of legacy `SCAN_RESULTS` data into the Android 4.4 scan format.
+- 480×800 launcher and SystemUI resources, HWUI texture fallback, JIT tuning, reliable 96 MiB zram and a 24 fps/48-frame boot animation.
+- Full forward/reverse Smartisan icon flip in a 256×512 atlas with a 220 ms animation timeline; lightweight unlock and ordinary app-window fallbacks remain animated.
+- Single-interface `wlan0` control, legacy `SCAN_RESULTS` conversion and removal of unsupported T1-only network variables.
 - Standard Bluedroid startup without Smartisan's optional Qualcomm QAdapter service.
 - HD2 AOSP camera fallback, legacy GPS lifecycle handling, always-on ADB and RAM-backed runtime logging.
 

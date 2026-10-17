@@ -1,5 +1,5 @@
 {
-  "status": "alpha2 SD ROM: normal boot plus Wi-Fi, Bluetooth, camera, sound/vibration and sensors validated on real HTC HD2",
+  "status": "alpha2 released: full Smartisan icon flip and runtime CPU/zram fix validated on real HTC HD2",
   "base": "NexusHD2-KitKat-CM11.0_V4.0 (Android 4.4.1)",
   "donor": "Smartisan T1 2.0.0-2015091200 (Android 4.4.2)",
   "native_framework_libraries": [
@@ -181,18 +181,21 @@
       "system/lib/egl/eglsubAndroid.so": "1d3f4e8ee0a1b49f3911d27005f8278959f244636d68e34747bb62ab3011aa2c",
       "system/bin/app_process.hd2": "28ef0cb30dfc2743050e64bac6b35ff749149d908c82d05b019f2d7746b91848",
       "system/bin/app_process": "a9a3ef91ce6d37ad88cb769226e872aebf664489658d14fd753a94e2a8e0786b",
-      "system/bin/hd2-runtime": "d85dce9e216f204b85c1e1243cd023b4da40816e2315cd7ace6fc6c77ff68694",
-      "system/priv-app/LauncherSmartisanNew.apk": "fa700b685e37c9e31b58f65b78b422b965eedea8a93461569f838449401e60a9",
-      "system/priv-app/SystemUISmartisan.apk": "1d97659f46b9995ad0a6670ad2875ebb0b147ad85839559105d633173ec229b5",
+      "system/bin/hd2-runtime": "c565cddbdf47b8c9f84b054fd80bba5325f06ab7392b1bfe9a1ad485b5cbe26d",
+      "system/priv-app/LauncherSmartisanNew.apk": "836597a762676844bc18ba0e8478362161014edb01c4824574d23f5385613b54",
+      "system/priv-app/SystemUISmartisan.apk": "b37bb6748cc97837a9c19eec4297cd156e673385da4753926bd9f96360e9113d",
+      "system/priv-app/KeyguardSmartisan.apk": "e946e36cadb75e02bac861176e3695617025ca574fcb7fce3551b2763f436a24",
+      "system/usr/keylayout/htcleo-keypad.kl": "d71c474d92cd27b51615c8eb8c65f88f3a37d4f32b92f8cdc12339da0083aee0",
       "system/framework/core.jar": "0a8379b5051dfbd751446a9c95522aacd089c6bd12a0ed10ee1043801ca0a989",
-      "system/framework/framework.jar": "0dc8152d9a1d78613470a7ad278f224547e2763063752b0b57fc727ae86d1513",
-      "system/framework/services.jar": "62bbc9de1440520a651607d290231cc2e15034274db41b6d2f2f98f94ae5fcd0",
+      "system/framework/framework.jar": "514a2d14b58818cd97e76d76edb5f4452013e3cdbc4f770c44f5f241585d4707",
+      "system/framework/services.jar": "13016f4d4f59be422ae9244d264d05c6b8f531330bfbcf199b49cac2d5d360e4",
+      "system/framework/android.policy.jar": "881ac5217a9cd5e6c3083e213fd2f25fe7e3f223f4c52d3d36c8084f151eb3d0",
       "system/app/Bluetooth.apk": "200b90d7b93543fb651e87ac33867a7c7c36eb4868409d5ef0a3ede228a80d8a",
       "system/lib/libbluetooth_jni.so": "65f92a4fd383b45d4a69b853f8ae385d14d332ce2120cb848bddba4d7341b536",
       "system/app/HD2Camera.apk": "d8a686bb63fd2162c385a3ab4262ef131f5309b734dabd2a7b8da655581f5589",
-      "system/build.prop": "87f93eeee46f1241c276ee7a4622e7cb5ece268cda33cf91b199e328cd1b5587",
+      "system/build.prop": "ef7d60db41746bfd5c0bca350671e91af9186fceff480f2cc135e42de327a5ef",
       "system/etc/wifi/wpa_supplicant.conf": "677da35810460158f1e2c5fe65638be0cc17ec6dfd0114624fa130a4a90ef2f6",
-      "system/media/bootanimation.zip": "3d9bce566a05e922267a40f28472c913826eaa6352de79442e713e403b59d1aa",
+      "system/media/bootanimation.zip": "351e27d4117c97dac67e047f3e7ff5274d3488a2430bfb16007e7f58ee7796c5",
       "system/etc/gps.conf": "eab7ccbd874f88b253ae3d7aac5ddeda64c23a66ac80528f76b6c77fdf59c99b"
     },
     "removed": [
@@ -208,7 +211,7 @@
       "system/etc/permissions/android.hardware.wifi.direct.xml"
     ],
     "local_image_updated": true,
-    "device_evidence": "Normal boot completed; Wi-Fi scans populate the framework; Bluetooth reaches ON; HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate with live accelerometer/magnetometer samples; GPS HAL and tracking thread start",
+    "device_evidence": "Normal boot completed; Wi-Fi reaches CONNECTED with WPA, DHCP, DNS, default route and HTTP connectivity; Bluetooth reaches ON; HD2 Camera preview and 2560x1920 JPEG capture work; five hardware sensors enumerate with live accelerometer/magnetometer samples; GPS HAL and tracking thread start",
     "user_evidence": "Desktop and quick-controls geometry confirmed; responsiveness substantially improved; sound and vibration confirmed working",
     "not_verified": [
       "calls",
@@ -217,7 +220,7 @@
       "suspend/resume and long-term stability"
     ]
   },
-  "graphics_evidence": "Desktop and 3-column/12-switch quick-controls geometry confirmed at 480x800. Reduced 16 fps/32-frame boot animation and disabled nonessential transitions reduce load; normal reboot reached boot_completed at about 47 seconds and animation exited by about 62 seconds.",
+  "graphics_evidence": "Desktop and 3-column/12-switch quick controls fit 480x800. Full forward/reverse Smartisan icon flip retains face, edge and shadow in a 256x512 atlas with a 220 ms timeline; unlock and ordinary window animations remain enabled at 1.0x. Boot animation is 24 fps/48 frames.",
   "remaining_runtime_issues": [
     "Calls and mobile data are untested",
     "GPS starts correctly but an outdoor satellite fix is untested",
@@ -226,6 +229,44 @@
     "The bundled HD2 Camera replaces Smartisan Camera; video recording is not validated",
     "GPU screencap/genlock readback can miss the camera preview Surface"
   ],
-  "user_feedback": "Desktop and quick-controls layout are correct, interaction is much smoother, and sound/vibration work.",
-  "release_note": "alpha2 adds real-device Wi-Fi scanning, Bluetooth, AOSP camera capture, sensor and GPS-path fixes plus a lower-load boot animation."
+  "user_feedback": "Desktop and quick-controls layout are correct; the owner confirmed a large responsiveness improvement before the final full icon-flip restoration. Sound/vibration and Wi-Fi work.",
+  "release_note": "Published as v2.0-hd2-alpha2 with the ROM ZIP and SHA-256 sidecar.",
+  "performance_evidence": {
+    "ui_animation_scales": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "launcher_unlock_animation": true,
+    "launcher_flip_animation": true,
+    "icon_flip": {
+      "content": [
+        "face",
+        "edge",
+        "shadow"
+      ],
+      "atlas": "256x512",
+      "observed_content": "158x432",
+      "timeline_ms": 220,
+      "open_and_close_verified": true
+    },
+    "settings_launch_comparison": {
+      "before": "30 skipped frames, +1.528s",
+      "after": "no skipped-frame record, +1.093s"
+    },
+    "runtime_cpu_fix": "interactive/min_sample_time write removed because it hung and consumed about 96% of the single CPU",
+    "bootanimation": {
+      "fps": 24,
+      "frames": 48,
+      "bytes": 985289
+    },
+    "zram_kib": 98296,
+    "zram_active_after_reboot": true,
+    "cpu_governor_after_boot": "interactive",
+    "sd_scheduler": "deadline",
+    "vm_swappiness": 80,
+    "vm_page_cluster": 0,
+    "cached_background_process_limit": 8,
+    "runtime_service": "oneshot completed/stopped"
+  }
 }

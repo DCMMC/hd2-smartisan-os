@@ -9,7 +9,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-RECIPE = 'wifi-native-single-interface-v4'
+RECIPE = 'wifi-native-single-interface-v5'
 
 
 def main():
@@ -169,6 +169,34 @@ def main():
     assert text.count(clear_on_empty) == 1
     state_machine.write_text(text.replace(clear_on_empty, '    .line 2011\n'))
 
+    # Smartisan's T1 supplicant adds trustedAp, autoConnect, needLogin and
+    # hiddenTrusted network properties. The legacy leo supplicant correctly
+    # rejects them. WifiConfigStore treated the first rejection as fatal and
+    # removed the just-created network before key_mgmt/PSK could be written.
+    # Keep these UI-only flags at their framework defaults and take the normal
+    # Android 4.4 network-variable path for both new and edited networks.
+    config_store = smali/'android/net/wifi/WifiConfigStore.smali'
+    text = config_store.read_text()
+    add_marker = '''    :cond_115
+    move-object/from16 v0, p0
+'''
+    assert text.count(add_marker) == 1
+    text = text.replace(add_marker, '''    :cond_115
+    goto/16 :cond_17a
+
+    move-object/from16 v0, p0
+''')
+    save_marker = '''    :goto_2a
+    if-nez v1, :cond_47
+'''
+    assert text.count(save_marker) == 1
+    text = text.replace(save_marker, '''    :goto_2a
+    goto :cond_ac
+
+    if-nez v1, :cond_47
+''')
+    config_store.write_text(text)
+
     dex = ROOT/'work/smartisan-compat/framework.dex'
     subprocess.run([
         'java', '-cp', classpath, 'org.jf.smali.Main', 'assemble',
@@ -187,7 +215,10 @@ def main():
         'change': ('WifiNative uses direct wlan0 commands, unprefixed supplicant '
                    'events are routed to wlan0, stable SCAN_RESULTS output is '
                    'converted for Android 4.4, and empty events preserve the '
-                   'last valid AP list; Wi-Fi Direct is absent on HD2'),
+                   'last valid AP list. T1-only trustedAp/autoConnect/needLogin/'
+                   'hiddenTrusted variables are skipped so the legacy supplicant '
+                   'can save and select standard WPA/WPA2 networks; Wi-Fi Direct '
+                   'is absent on HD2'),
     }
     report_path.write_text(json.dumps(report, indent=2)+'\n')
     print(output)

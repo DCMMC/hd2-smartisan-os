@@ -1,0 +1,28 @@
+--------- beginning of /dev/log/main
+10-17 13:40:07.367   805   958 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+10-17 13:40:07.387   369   369 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x2,err=Bad file number fd=63)
+10-17 13:40:07.387   369   369 W Adreno200-EGLSUB: <LockImage:1938>: genlock_lock_buffer GENLOCK_READ_LOCK failed
+10-17 13:40:07.387   369   369 W Adreno200-ES20: <qgl2DrvAPI_glEGLImageTargetTexture2DOES:3878>: GL_INVALID_OPERATION
+10-17 13:40:07.387   369   369 E SurfaceFlinger: glCheckFramebufferStatusOES error 36054
+10-17 13:40:07.387   369   369 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+10-17 13:40:07.387   369   369 E libgenlock: perform_lock_unlock_operation: GENLOCK_IOC_DREADLOCK failed (lockType0x0,err=Bad file number fd=63)
+10-17 13:40:07.387   369   369 W Adreno200-EGLSUB: <UnlockImage:1965>: genlock_unlock_buffer failed
+--------- beginning of /dev/log/system
+10-17 13:40:07.387   805  1435 W WindowManager: Screenshot failure taking screenshot for (274x458) to layer 21035
+10-17 13:40:07.417   805   958 I InputDispatcher: Dropping event because there is no touchable window at (75, 475).
+10-17 13:40:07.417   805   958 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+10-17 13:40:07.417   805   958 I InputDispatcher: Dropping event because there is no touchable window at (-5, -5).
+10-17 13:40:07.437   369   369 E SurfaceFlinger: GL error 0x0502
+10-17 13:40:07.477  1405  1685 I OpenGLHelper_Jni: genreate image target(surface:0x2a3da9b8) to texture:78
+10-17 13:40:07.487  1405  1685 I OpenGLHelper_Jni: released surface:0x2a3da9b8
+10-17 13:40:07.487   805  1228 D WindowManager.STA: getIconCellShotInfo, compName=ComponentInfo{com.android.settings/com.android.settings.Settings}, iconInfo=mode=1, cellPos=Rect(-481, -105 - -322, 74), cellRect=Rect(0, 0 - 158, 180), sideRect=Rect(0, 180 - 18, 252), shadowRect=Rect(0, 252 - 158, 432)
+10-17 13:40:07.527   805   899 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41ca1350
+10-17 13:40:07.777   805   820 V WindowManager.STA: transit=4109/4096, mIsEnter=false
+10-17 13:40:07.787   805   899 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@41ca1350
+10-17 13:40:07.797  1405  1405 I ActivityManager: Timeline: Activity_idle id: android.os.BinderProxy@419fa178 time:391992
+10-17 13:40:08.108   805  1228 D WindowManager.STA: IconCellShoter unlockTouch
+10-17 13:40:08.178   805   820 I ActivityManager: Timeline: Activity_windows_visible id: ActivityRecord{41d63d90 u0 com.smartisanos.launcher/.Launcher t1} time:392376
+10-17 13:40:08.178   805  1228 D WindowManager.STA: IconCellShoter unlockTouch
+10-17 13:40:09.067   372  1218 I str_params: key: 'active_music' value: ''
+10-17 13:40:09.387   805   899 E SmartisanOS_Perf: SmartiPerformance has not been initialized!
+10-17 13:40:09.387   805   899 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.smartisanos.launcher/.Launcher} from pid 805
